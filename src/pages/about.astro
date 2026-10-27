@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site.js';
+---
+<Base title="About us and how we make money" description={`Who ${SITE.name} is for, how we stay independent and how we make money.`}>
+  <div class="wrap prose">
+    <h1>About {SITE.name}</h1>
+    <p class="lede">Independent van advice for tradespeople, couriers and small businesses: people who work out of a van and want straight answers.</p>
+    <h2>How we make money</h2>
+    <p>The site is free. We earn money in these ways:</p>
+    <ul>
+      <li><strong>Leasing and finance enquiries.</strong> If you ask for a quote through us, the broker may pay us a fee. It doesn't change the price you pay or how we rank deals.</li>
+      <li><strong>Affiliate links.</strong> Some links to products like racking or accessories earn us a small commission.</li>
+      <li><strong>Sponsorship.</strong> Some podcast episodes and videos are sponsored. We always say so.</li>
+    </ul>
+    <h2>Our rules</h2>
+    <ul>
+      <li>We don't sell vans.</li>
+      <li>Rankings and reviews are never for sale.</li>
+      <li>We say when we're not sure, and when something has changed.</li>
+    </ul>
+  </div>
+</Base>

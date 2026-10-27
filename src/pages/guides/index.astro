@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+const guides = [
+  ['/guides/lease-vs-buy/', 'Lease, finance or buy a van?', 'The four ways to get a van and who each suits.'],
+  ['/guides/rebadged-vans/', 'Same van, different badge', 'Which vans are twins, and how to use that to pay less.'],
+  ['/guides/van-sizes-explained/', 'Van sizes explained', 'L1H1, payload, gross weight and your licence.'],
+  ['/guides/used-electric-van-buying-guide/', 'Buying a used electric van', 'Battery health, range, charging and warranty checks.'],
+];
+---
+<Base title="Van buying guides" description="Plain-English guides to buying, leasing and running a van in the UK.">
+  <div class="wrap">
+    <h1>Guides</h1>
+    <p class="lede">Plain-English answers to the questions van buyers actually ask.</p>
+    <div class="grid">
+      {guides.map(([href, t, d]) => <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>)}
+    </div>
+  </div>
+</Base>

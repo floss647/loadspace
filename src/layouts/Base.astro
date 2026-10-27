@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import { SITE } from '../data/site.js';
+
+const { title, description = SITE.description } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
+const path = Astro.url.pathname;
+const nav = [
+  ['/vans/', 'Vans'],
+  ['/used-electric-vans/', 'Used electric'],
+  ['/guides/', 'Guides'],
+  ['/tools/', 'Tools'],
+  ['/deals/', 'Deals'],
+  ['/podcast/', 'Podcast'],
+];
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={new URL(path, Astro.site)} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/"><img src="/favicon.svg" alt="" />{SITE.name}</a>
+        <nav class="nav" aria-label="Main">
+          {nav.map(([href, label]) => (
+            <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-cols">
+        <div>
+          <strong>{SITE.name}</strong><br />
+          {SITE.tagline}
+        </div>
+        <div>
+          <a href="/about/">About and how we make money</a><br />
+          <a href="/guides/">Guides</a> · <a href="/tools/">Tools</a> · <a href="/deals/">Deals</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site.js';
+---
+<Base title="The podcast" description={`The ${SITE.name} podcast: tradespeople and van owners on real costs, regrets and what they'd buy next.`}>
+  <div class="wrap prose">
+    <h1>The {SITE.name} podcast</h1>
+    <p class="lede">Tradespeople and van owners on what their van really costs, the one they regret, and what they'd buy next. For listening in the cab.</p>
+    <div class="notice"><strong>First episodes coming soon.</strong></div>
+    <h2>What we'll cover</h2>
+    <ul>
+      <li>Real running costs from real owners, diesel and electric</li>
+      <li>Lease horror stories, and how to avoid them</li>
+      <li>Van fit-outs that work, and the ones that don't</li>
+      <li>Buying used: what dealers won't tell you</li>
+    </ul>
+    <h2>Want to be on the show?</h2>
+    <p>If you run a van for work and have a story about costs, a lease, or going electric, we'd like to hear from you.</p>
+  </div>
+</Base>

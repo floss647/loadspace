@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { VANS, TWINS, SIZES } from '../../data/vans.js';
+const groups = Object.entries(TWINS).map(([key, t]) => ({ ...t, vans: VANS.filter((v) => v.twin === key) }));
+---
+<Base title="Same van, different badge: rebadged vans explained" description="Which UK vans are the same van sold under different names, and how to use that to pay less.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a></div>
+    <article class="prose">
+      <h1>Same van, different badge</h1>
+      <p class="lede">The UK has around {VANS.length} van and pickup models on sale, but far fewer different vehicles. Many are built in the same factory and sold under several brands.</p>
+      <p class="muted small">Last checked: October 2026</p>
+
+      <h2>Why it matters</h2>
+      <p>If two vans are the same underneath, stop comparing the van and compare the deal:</p>
+      <ul>
+        <li><strong>Price and discounts.</strong> Lease and finance offers often differ by brand, sometimes by a lot.</li>
+        <li><strong>Warranty.</strong> Toyota versions, for example, can come with longer cover when serviced at Toyota.</li>
+        <li><strong>Dealers near you.</strong> A van off the road for a week costs more than any discount.</li>
+        <li><strong>Resale.</strong> The same van can be worth different amounts used depending on the badge.</li>
+        <li><strong>Equipment.</strong> Trim levels and standard kit vary even when the van doesn't.</li>
+      </ul>
+
+      <h2>The twin families</h2>
+      {groups.map((g) => (
+        <section>
+          <h3>{g.name} <span class="tag">{SIZES[g.vans[0].size].short}</span></h3>
+          <p class="muted">{g.note}</p>
+          <p>{g.vans.map((v, i) => <>{i > 0 && ' · '}<a href={`/vans/${v.slug}/`}>{v.name}</a></>)}</p>
+        </section>
+      ))}
+
+      <p class="notice small"><strong>Not identical in every detail.</strong> Twins can differ on engines offered, trim, warranty and small styling changes. Check the exact versions you're comparing.</p>
+    </article>
+  </div>
+</Base>

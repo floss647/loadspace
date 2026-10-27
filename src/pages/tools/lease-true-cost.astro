@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Van lease true-cost calculator" description="Work out the real monthly cost of a van lease, including the upfront payment and fees, so you can compare deals fairly.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
+    <div class="prose">
+      <h1>What does that lease really cost?</h1>
+      <p class="lede">Lease prices are quoted to look cheap. Enter a quote and see the real monthly cost once the upfront payment and fees are included.</p>
+    </div>
+
+    <form class="form" id="calc" onsubmit="return false">
+      <label>Monthly payment (£)<input type="number" id="monthly" value="279" min="0" step="1" /></label>
+      <label>Upfront payment (number of months)
+        <select id="upfront">
+          <option>1</option><option>3</option><option selected>6</option><option>9</option><option>12</option>
+        </select>
+      </label>
+      <label>Lease length (months)
+        <select id="term">
+          <option>24</option><option selected>36</option><option>48</option><option>60</option>
+        </select>
+      </label>
+      <label>Admin or arrangement fee (£)<input type="number" id="fee" value="300" min="0" step="10" /></label>
+    </form>
+
+    <div class="result" aria-live="polite">
+      <div class="grid">
+        <div><div class="muted small">Advertised</div><div class="big" id="adv">–</div><div class="muted small" id="pattern"></div></div>
+        <div><div class="muted small">True cost per month</div><div class="big" id="true">–</div><div class="muted small" id="diff"></div></div>
+        <div><div class="muted small">Total you pay</div><div class="big" id="total">–</div><div class="muted small" id="upfrontAmt"></div></div>
+      </div>
+    </div>
+
+    <div class="prose">
+      <h2>How it works</h2>
+      <p>A lease shown as <strong>"6 + 35"</strong> on a 36-month term means you pay six monthly payments upfront, then 35 more. So you make 41 payments in total over 36 months, plus any fee.</p>
+      <p><strong>True cost per month = (upfront payment + remaining payments + fees) ÷ lease length.</strong></p>
+      <p>Use it to compare deals on the same van with different upfront payments. Also check the <strong>mileage limit</strong> matches your work, and whether prices include VAT (business deals are usually shown without it).</p>
+      <p><a href="/deals/">See deals ranked by true cost →</a></p>
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+    function calc() {
+      const m = +$('monthly').value || 0, up = +$('upfront').value, term = +$('term').value, fee = +$('fee').value || 0;
+      const total = m * up + m * (term - 1) + fee;
+      const perMonth = total / term;
+      $('adv').textContent = gbp(m);
+      $('pattern').textContent = `${up} + ${term - 1} profile`;
+      $('true').textContent = gbp(perMonth);
+      $('diff').textContent = m ? `${Math.round(((perMonth - m) / m) * 100)}% above the advertised price` : '';
+      $('total').textContent = gbp(total);
+      $('upfrontAmt').textContent = `${gbp(m * up + fee)} due at the start`;
+    }
+    document.querySelectorAll('#calc input, #calc select').forEach((i) => i.addEventListener('input', calc));
+    calc();
+  </script>
+</Base>

@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import { VANS, SIZES } from '../../data/vans.js';
+const evs = VANS.filter((v) => v.electric);
+---
+<Base title="Used electric vans: the UK buyer's hub" description="Everything you need to buy a used electric van in the UK: who they suit, checks to make, running costs and every model with an electric version.">
+  <div class="wrap">
+    <h1>Used electric vans</h1>
+    <p class="lede">Prices have dropped, more are coming back from leases every month, and almost nobody explains how to buy one well. This is where we do.</p>
+
+    <div class="grid">
+      <a class="card" href="/tools/electric-vs-diesel/"><h3>1. Will it save you money?</h3><p>Compare electric and diesel running costs on your own miles and charging.</p></a>
+      <a class="card" href="/guides/used-electric-van-buying-guide/"><h3>2. What to check</h3><p>Battery health, real range with a load, warranty, charging and the traps on older models.</p></a>
+      <a class="card" href="/guides/van-sizes-explained/"><h3>3. Licence and payload</h3><p>Electric vans up to 4.25 tonnes on a car licence, and why payload is often lower.</p></a>
+    </div>
+
+    <h2>Who they suit</h2>
+    <div class="grid">
+      <div class="card"><h3>Good fit</h3><p>Local work under about 100 miles a day · off-street charging at home or a yard · London or clean air zones · staff who take vans home.</p></div>
+      <div class="card"><h3>Poor fit</h3><p>Long motorway runs · towing · no off-street charging, relying on public rapid chargers.</p></div>
+    </div>
+
+    <h2>Every model with an electric version</h2>
+    {Object.entries(SIZES).filter(([k]) => evs.some((v) => v.size === k)).map(([k, s]) => (
+      <>
+        <h3>{s.label}</h3>
+        <div class="grid">
+          {evs.filter((v) => v.size === k).map((v) => (
+            <a class="card" href={`/vans/${v.slug}/`}><h3>{v.name}</h3><p>{v.electricNote || 'Electric version available.'}</p></a>
+          ))}
+        </div>
+      </>
+    ))}
+
+    <div class="notice" style="margin-top:2rem"><strong>Coming soon:</strong> real-world loaded range figures, battery health data by model, and used price tracking.</div>
+  </div>
+</Base>

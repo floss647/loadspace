@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Electric vs diesel van running cost calculator" description="Compare the yearly fuel and charging cost of an electric van against diesel, based on your miles and where you charge.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
+    <div class="prose">
+      <h1>Electric vs diesel: what will it cost you?</h1>
+      <p class="lede">Put in your own numbers. The defaults are rough examples for a medium van, not quotes.</p>
+    </div>
+
+    <form class="form" id="calc" onsubmit="return false">
+      <label>Miles per year<input type="number" id="miles" value="15000" min="0" step="500" /></label>
+      <label>Diesel price (pence per litre)<input type="number" id="dieselPrice" value="142" min="0" step="1" /></label>
+      <label>Diesel economy (miles per gallon)<input type="number" id="mpg" value="35" min="1" step="1" /></label>
+      <label>Electric efficiency (miles per kWh)<input type="number" id="mpk" value="2.5" min="0.5" step="0.1" /></label>
+      <label>Home or depot electricity (pence per kWh)<input type="number" id="homePrice" value="9" min="0" step="0.5" /></label>
+      <label>Public rapid charging (pence per kWh)<input type="number" id="publicPrice" value="79" min="0" step="1" /></label>
+      <label>Share of charging done on public chargers (%)<input type="number" id="publicShare" value="10" min="0" max="100" step="5" /></label>
+      <label>London Congestion Charge days per year<input type="number" id="ccDays" value="0" min="0" step="1" /></label>
+    </form>
+
+    <div class="result" aria-live="polite">
+      <div class="grid">
+        <div><div class="muted small">Diesel per year</div><div class="big" id="dieselCost">–</div><div class="muted small" id="dieselPpm"></div></div>
+        <div><div class="muted small">Electric per year</div><div class="big" id="evCost">–</div><div class="muted small" id="evPpm"></div></div>
+        <div><div class="muted small">Difference</div><div class="big" id="saving">–</div><div class="muted small" id="savingNote"></div></div>
+      </div>
+    </div>
+
+    <div class="prose">
+      <h2>How this works</h2>
+      <ul>
+        <li><strong>Diesel:</strong> miles ÷ mpg × 4.546 litres per gallon × price per litre.</li>
+        <li><strong>Electric:</strong> miles ÷ miles per kWh, split between home and public charging prices.</li>
+        <li><strong>Congestion Charge:</strong> since January 2026, electric vans registered for Auto Pay pay 50% (£9 a day) against £18 for diesel.</li>
+      </ul>
+      <p><strong>Not included:</strong> purchase or lease price, servicing (usually lower for electric), road tax, insurance, a home charger, or clean air zone charges for older diesels. Electric efficiency drops in cold weather and with heavy loads, so use a lower figure if that's your work.</p>
+      <p><a href="/guides/used-electric-van-buying-guide/">Thinking about a used electric van? Read the checks first →</a></p>
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const gbp = (n) => (n < 0 ? '-' : '') + '£' + Math.abs(Math.round(n)).toLocaleString('en-GB');
+    function calc() {
+      const miles = +$('miles').value || 0;
+      const litres = (miles / Math.max(+$('mpg').value, 1)) * 4.546;
+      const cc = +$('ccDays').value || 0;
+      const diesel = (litres * (+$('dieselPrice').value || 0)) / 100 + cc * 18;
+      const kwh = miles / Math.max(+$('mpk').value, 0.1);
+      const share = Math.min(Math.max(+$('publicShare').value || 0, 0), 100) / 100;
+      const ev = (kwh * ((1 - share) * (+$('homePrice').value || 0) + share * (+$('publicPrice').value || 0))) / 100 + cc * 9;
+      $('dieselCost').textContent = gbp(diesel);
+      $('evCost').textContent = gbp(ev);
+      const ppm = (x) => (miles ? ((x * 100) / miles).toFixed(1) + 'p per mile' : '');
+      $('dieselPpm').textContent = ppm(diesel);
+      $('evPpm').textContent = ppm(ev);
+      const s = diesel - ev;
+      $('saving').textContent = gbp(Math.abs(s));
+      $('savingNote').textContent = s >= 0 ? 'cheaper with electric' : 'cheaper with diesel';
+    }
+    document.querySelectorAll('#calc input').forEach((i) => i.addEventListener('input', calc));
+    calc();
+  </script>
+</Base>

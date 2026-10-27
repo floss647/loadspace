@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../data/deals.js';
+import { VANS, SIZES } from '../data/vans.js';
+const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
+const rows = DEALS.map((d) => ({ ...d, van: bySlug[d.van], tc: trueCost(d) }))
+  .filter((d) => d.van)
+  .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
+const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+---
+<Base title="Van lease deals ranked by true cost" description="UK van lease deals ranked by what you actually pay per month, including the upfront payment and fees.">
+  <div class="wrap">
+    <h1>Van lease deals</h1>
+    <p class="lede">Ranked by <strong>true cost per month</strong>: the upfront payment and fees spread across the whole lease, so you can compare deals fairly.</p>
+
+    {DEALS_ARE_SAMPLE && (
+      <div class="notice"><strong>Sample prices, not real offers.</strong> This page shows how deals will appear once live broker feeds are connected. Don't use these figures to make a decision.</div>
+    )}
+
+    <div class="filters" role="group" aria-label="Filter by size or fuel">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
+      <button type="button" data-f="Electric" aria-pressed="false">Electric</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Van</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th><th></th></tr>
+        </thead>
+        <tbody>
+          {rows.map((d) => (
+            <tr data-size={d.van.size} data-fuel={d.fuel}>
+              <td><a href={`/vans/${d.van.slug}/`}><strong>{d.van.name}</strong></a><br /><span class="small">{d.version}</span><br /><span class="muted small">{d.fuel} · {d.broker}</span></td>
+              <td class="num">{gbp(d.monthly)}</td>
+              <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
+              <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>
+              <td><span class="btn small" aria-disabled="true" style="opacity:.6;cursor:default">Get quote</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">Business contract hire, excluding VAT, subject to status. When live, we may earn a fee from brokers when you enquire; it never changes the ranking. <a href="/about/">How we make money</a>.</p>
+  </div>
+  <script>
+    const btns = document.querySelectorAll('[data-f]');
+    btns.forEach((b) => b.addEventListener('click', () => {
+      btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      const f = b.dataset.f;
+      document.querySelectorAll('tbody tr').forEach((r) => {
+        const show = f === 'all' || r.dataset.size === f || r.dataset.fuel === f;
+        r.style.display = show ? '' : 'none';
+      });
+    }));
+  </script>
+</Base>

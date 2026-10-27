@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SIZES, VANS, TWINS } from '../../data/vans.js';
+---
+<Base title="Every new van on sale in the UK" description="All new vans and pickups on sale in the UK, by size, with electric versions and rebadged twins marked.">
+  <div class="wrap">
+    <h1>Every new van on sale in the UK</h1>
+    <p class="lede">{VANS.length} models across four sizes. Many are the same van with a different badge. We mark those so you can compare like for like.</p>
+
+    <div class="filters" role="group" aria-label="Filter">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="ev" aria-pressed="false">Electric available</button>
+    </div>
+
+    {Object.entries(SIZES).map(([key, s]) => (
+      <section id={key}>
+        <h2>{s.label}</h2>
+        <p class="muted">{s.blurb}</p>
+        <div class="grid">
+          {VANS.filter((v) => v.size === key).map((v) => (
+            <a class="card van-card" href={`/vans/${v.slug}/`} data-ev={v.electric ? 'y' : 'n'}>
+              <h3>{v.name}</h3>
+              <p>
+                {v.topSeller && <span class="tag top">Top seller</span>}
+                {v.electric && <span class="tag ev">Electric</span>}
+                {v.twin && <span class="tag">Twin: {TWINS[v.twin].name}</span>}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+  <script>
+    const buttons = document.querySelectorAll('[data-filter]');
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => {
+        buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        const evOnly = b.dataset.filter === 'ev';
+        document.querySelectorAll('.van-card').forEach((c) => {
+          c.style.display = evOnly && c.dataset.ev !== 'y' ? 'none' : '';
+        });
+      })
+    );
+  </script>
+</Base>

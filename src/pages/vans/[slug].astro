@@ -1,0 +1,86 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SIZES, VANS, TWINS, twinsOf } from '../../data/vans.js';
+import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
+
+export function getStaticPaths() {
+  return VANS.map((van) => ({ params: { slug: van.slug }, props: { van } }));
+}
+
+const { van } = Astro.props;
+const size = SIZES[van.size];
+const twins = twinsOf(van);
+const twinInfo = van.twin ? TWINS[van.twin] : null;
+const deals = DEALS.filter((d) => d.van === van.slug)
+  .map((d) => ({ ...d, tc: trueCost(d) }))
+  .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
+const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+const isVan = van.size !== 'pickup';
+---
+<Base title={`${van.name} review and buying guide`} description={`${van.name}: what it is, its rebadged twins, electric version, used buying checks and lease deals.`}>
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/vans/">Vans</a> › <a href={`/vans/#${van.size}`}>{size.label}</a></div>
+    <article class="prose">
+      <h1>{van.name}</h1>
+      <p>
+        <span class="tag">{size.short}</span>
+        {van.topSeller && <span class="tag top">Top seller</span>}
+        {van.electric && <span class="tag ev">Electric available</span>}
+      </p>
+      <p class="lede">{van.intro || `${van.name}: a ${size.short.toLowerCase()} ${isVan ? 'van' : 'pickup'}. ${size.blurb}`}</p>
+
+      <div class="notice"><strong>Full road test coming.</strong> We're adding loaded-up driving impressions, real-world economy and range, and owner interviews. This page already covers the buying basics.</div>
+
+      {twinInfo && (
+        <>
+          <h2>Same van, other badges</h2>
+          <p>{twinInfo.note} That means you can shop the {van.model} against its twins on price, warranty, dealer network and finance offers, rather than on the van itself.</p>
+          <ul>
+            {twins.map((t) => <li><a href={`/vans/${t.slug}/`}>{t.name}</a></li>)}
+          </ul>
+          <p class="small"><a href="/guides/rebadged-vans/">How to use rebadged twins to pay less →</a></p>
+        </>
+      )}
+
+      <h2>Electric version</h2>
+      {van.electric ? (
+        <p>Yes. {van.electricNote} <a href="/tools/electric-vs-diesel/">Compare running costs against diesel</a>, and if you're buying used, read our <a href="/guides/used-electric-van-buying-guide/">used electric van checks</a>.</p>
+      ) : (
+        <p>{van.electricNote || `There is no fully electric ${van.model} on sale at the moment.`}</p>
+      )}
+
+      <h2>Buying used: what to check</h2>
+      <ul>
+        <li><strong>Service history and recalls.</strong> Ask for the full history and check outstanding recalls with the maker using the registration.</li>
+        <li><strong>The load area.</strong> Damaged floors, bulkheads and side panels show how hard it worked. Ply lining hides damage, so look underneath.</li>
+        <li><strong>Mileage against age.</strong> Ex-fleet vans often cover 20,000+ miles a year. High miles on motorways can be kinder than low miles of stop-start work.</li>
+        <li><strong>Diesel particulate filter (DPF).</strong> Short-trip diesel vans clog them. Warning lights or a history of "regens" mean costly repairs.</li>
+        {van.electric && <li><strong>Electric versions: battery health.</strong> Ask for a battery health (State of Health) report and check what's left of the battery warranty.</li>}
+        <li><strong>Payload after conversion.</strong> Racking, tail lifts and fit-outs all eat payload. Check the plated weight against what you carry.</li>
+      </ul>
+
+      <h2>Lease deals</h2>
+      {DEALS_ARE_SAMPLE && <p class="notice small"><strong>Sample prices.</strong> These figures are placeholders while we connect live broker feeds. They are not real offers.</p>}
+      {deals.length ? (
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Version</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th></tr></thead>
+            <tbody>
+              {deals.map((d) => (
+                <tr>
+                  <td>{d.version}<br /><span class="muted small">{d.broker}</span></td>
+                  <td class="num">{gbp(d.monthly)}</td>
+                  <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
+                  <td class="small">{d.upfrontMonths} upfront, {d.term} months, {d.miles.toLocaleString('en-GB')} miles/yr</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <p>No deals listed yet. <a href="/deals/">See all deals</a>.</p>
+      )}
+      <p class="small muted">Business contract hire, excluding VAT. "True cost" spreads the upfront payment and fees across the whole term. <a href="/tools/lease-true-cost/">How we work it out</a>.</p>
+    </article>
+  </div>
+</Base>

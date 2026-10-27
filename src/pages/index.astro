@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site.js';
+import { SIZES, VANS } from '../data/vans.js';
+
+const countBy = (s) => VANS.filter((v) => v.size === s).length;
+const guides = [
+  ['/guides/lease-vs-buy/', 'Lease, finance or buy?', 'Contract hire, hire purchase and cash compared in plain English.'],
+  ['/guides/rebadged-vans/', 'Same van, different badge', 'Many vans are sold under several names. Here is how to use that to pay less.'],
+  ['/guides/van-sizes-explained/', 'Van sizes explained', 'L1H1, payload, gross weight and what your licence lets you drive.'],
+  ['/guides/used-electric-van-buying-guide/', 'Buying a used electric van', 'Battery health, real range with a load, charging and warranty.'],
+];
+---
+<Base>
+  <section class="hero">
+    <div class="wrap">
+      <h1>{SITE.tagline}</h1>
+      <p>Straight answers on which van to buy, whether to lease, and if a used electric van makes sense for your work. No dealer spin.</p>
+      <div class="btn-row">
+        <a class="btn" href="/vans/">Find your van</a>
+        <a class="btn secondary" href="/used-electric-vans/">Used electric vans</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <h2>Browse by size</h2>
+    <div class="grid">
+      {Object.entries(SIZES).map(([key, s]) => (
+        <a class="card" href={`/vans/#${key}`}>
+          <h3>{s.label}</h3>
+          <p>{s.blurb}</p>
+          <p class="small" style="margin-top:.5rem">{countBy(key)} models</p>
+        </a>
+      ))}
+    </div>
+
+    <h2>Start here</h2>
+    <div class="grid">
+      {guides.map(([href, t, d]) => (
+        <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>
+      ))}
+    </div>
+
+    <h2>Is a used electric van right for you?</h2>
+    <div class="card">
+      <p style="color:var(--text);font-size:1rem">Used electric vans are now cheaper than ever, and with home charging they can cost a fraction of diesel per mile. They suit some jobs and not others. Put in your miles, charging and fuel costs and see what you'd save.</p>
+      <div class="btn-row"><a class="btn" href="/tools/electric-vs-diesel/">Run the numbers</a></div>
+    </div>
+
+    <h2>Tools</h2>
+    <div class="grid">
+      <a class="card" href="/tools/electric-vs-diesel/"><h3>Electric vs diesel cost</h3><p>Your yearly fuel and charge costs side by side.</p></a>
+      <a class="card" href="/tools/lease-true-cost/"><h3>Lease true-cost calculator</h3><p>See what a "6+35" or "9+23" deal really costs per month.</p></a>
+      <a class="card" href="/deals/"><h3>Van lease deals</h3><p>Deals ranked by what you actually pay, not the headline price.</p></a>
+    </div>
+  </div>
+</Base>
