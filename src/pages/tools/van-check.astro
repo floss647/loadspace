@@ -56,7 +56,7 @@ import Base from '../../layouts/Base.astro';
         row('First registered', v.firstRegistered), row('Engine', v.engineCc ? `${num(v.engineCc)} cc` : null),
         row('Euro emissions standard', v.euroStatus), row('Gross weight', v.revenueWeightKg ? `${num(v.revenueWeightKg)} kg` : null),
         row('Tax', d.tax ? `${d.tax.status || '–'}${d.tax.due ? ` (due ${fmtDate(d.tax.due)})` : ''}` : null),
-        row('MOT', `${d.mot.status || (d.mot.latest ? d.mot.latest.result : 'No MOT yet')}${d.mot.expiry ? ` (expires ${fmtDate(d.mot.expiry)})` : ''}`),
+        row('MOT', `${d.mot.status || (d.mot.latest ? d.mot.latest.result : 'No MOT record (new, or exempt like some electric vans)')}${d.mot.expiry ? ` (expires ${fmtDate(d.mot.expiry)})` : ''}`),
         row('MOT tests', d.mot.totalTests ? `${d.mot.totalTests} tests, ${d.mot.fails} failed` : null),
         row('Outstanding recall', d.mot.outstandingRecall)
       ))));

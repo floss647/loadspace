@@ -6,7 +6,9 @@ const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
 const rows = Object.entries(data.models || {})
   .filter(([slug]) => bySlug[slug])
   .map(([slug, r]) => ({ van: bySlug[slug], r, mid: r.byAge?.['5-6'] }))
-  .sort((a, b) => (a.mid?.failRate ?? a.r.failRate) - (b.mid?.failRate ?? b.r.failRate));
+  .sort((a, b) => (a.mid?.failRate ?? 999) - (b.mid?.failRate ?? 999));
+const ranked = rows.filter((x) => x.mid);
+const unranked = rows.filter((x) => !x.mid);
 const hasData = rows.length > 0;
 ---
 <Base title="Most reliable vans: MOT failure rates by model" description="Which UK vans fail their MOT least often, by model and age, from DVSA's official MOT data.">
@@ -18,15 +20,15 @@ const hasData = rows.length > 0;
 
     {hasData && (
       <>
-        <p class="muted">Ranked by first-time MOT failure rate at 5–6 years old, where we have enough tests; otherwise across all ages.</p>
+        <p class="muted">Ranked by first-time MOT failure rate at 5–6 years old, so every van is compared at the same age. Lower is better. The average for all vans at that age is {data.allVansByAge?.['5-6']?.failRate}%.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>#</th><th>Van</th><th class="num">Fail rate at 5–6 yrs</th><th class="num">Fail rate, all ages</th><th class="num">Tests</th></tr></thead>
             <tbody>
-              {rows.map((x, i) => (
+              {ranked.map((x, i) => (
                 <tr>
                   <td>{i + 1}</td>
-                  <td><a href={`/vans/${x.van.slug}/`}>{x.van.name}</a> <span class="tag">{SIZES[x.van.size].short}</span></td>
+                  <td><a href={`/vans/${x.van.slug}/`}>{x.van.name}</a> <span class="tag">{SIZES[x.van.size].short}</span>{x.r.includesMotorhomes && <span class="muted small"> *</span>}</td>
                   <td class="num">{x.mid ? `${x.mid.failRate}%` : '–'}</td>
                   <td class="num">{x.r.failRate}%</td>
                   <td class="num">{x.r.tests.toLocaleString('en-GB')}</td>
@@ -35,6 +37,8 @@ const hasData = rows.length > 0;
             </tbody>
           </table>
         </div>
+        <p class="small muted">* Includes motorhome and campervan conversions sold under the same name, which can flatter the figures. </p>
+        {unranked.length > 0 && <p class="small">Not enough 5–6 year old examples to rank: {unranked.map((x, i) => <>{i > 0 && ', '}<a href={`/vans/${x.van.slug}/`}>{x.van.name}</a></>)}.</p>}
       </>
     )}
 
@@ -46,7 +50,8 @@ const hasData = rows.length > 0;
         <li><strong>A fail</strong> means the van failed, or only passed after faults were fixed during the test.</li>
         <li><strong>Age matters.</strong> Older, higher-mileage vans fail more, so compare vans of the same age.</li>
         <li><strong>Minimum sample:</strong> we only publish figures based on at least {data.minTests ?? 300} tests.</li>
-        <li><strong>Caveats:</strong> some small and medium vans share names with passenger versions, and figures cover every generation sold under that name.</li>
+        <li><strong>Electric vans:</strong> some electric goods vehicles are exempt from the MOT, so there's little MOT data for electric versions yet.</li>
+        <li><strong>Caveats:</strong> some small and medium vans share names with passenger versions, some large vans are popular motorhome bases, and figures cover every generation sold under that name. Older names like the Nissan NV400 and NV300 aren't included yet.</li>
       </ul>
       <p class="small muted">Contains public sector information licensed under the Open Government Licence v3.0.</p>
     </div>

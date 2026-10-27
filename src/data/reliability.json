@@ -1,1 +1,1456 @@
-{"source": null, "models": {}, "allVansByAge": {}}
+{
+ "source": "DVSA anonymised MOT tests and results",
+ "files": [
+  "MOT testing data results (2024)"
+ ],
+ "generated": "2026-10-27",
+ "method": "First MOT tests only (not retests). Fail = failed or passed after faults were fixed at the test.",
+ "minTests": 300,
+ "allVansByAge": {
+  "3-4": {
+   "tests": 583522,
+   "failRate": 24.0,
+   "avgMiles": 62544
+  },
+  "5-6": {
+   "tests": 620587,
+   "failRate": 28.1,
+   "avgMiles": 83815
+  },
+  "7-9": {
+   "tests": 859970,
+   "failRate": 34.8,
+   "avgMiles": 105636
+  },
+  "10-14": {
+   "tests": 794989,
+   "failRate": 43.3,
+   "avgMiles": 130747
+  }
+ },
+ "models": {
+  "citroen-berlingo": {
+   "tests": 189134,
+   "failRate": 41.3,
+   "avgMiles": 91444,
+   "byAge": {
+    "3-4": {
+     "tests": 25902,
+     "failRate": 28.1,
+     "avgMiles": 53116
+    },
+    "5-6": {
+     "tests": 27539,
+     "failRate": 36.0,
+     "avgMiles": 71026
+    },
+    "7-9": {
+     "tests": 43715,
+     "failRate": 42.4,
+     "avgMiles": 92318
+    },
+    "10-14": {
+     "tests": 48843,
+     "failRate": 47.8,
+     "avgMiles": 114407
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 177776,
+     "failRate": 41.5,
+     "avgMiles": 92409
+    },
+    "Petrol": {
+     "tests": 10895,
+     "failRate": 37.9,
+     "avgMiles": 77186
+    },
+    "Electric": {
+     "tests": 316,
+     "failRate": 21.2,
+     "avgMiles": 22737
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "citroen-dispatch": {
+   "tests": 53092,
+   "failRate": 39.2,
+   "avgMiles": 97189,
+   "byAge": {
+    "3-4": {
+     "tests": 8952,
+     "failRate": 28.2,
+     "avgMiles": 61227
+    },
+    "5-6": {
+     "tests": 10323,
+     "failRate": 28.2,
+     "avgMiles": 78766
+    },
+    "7-9": {
+     "tests": 11999,
+     "failRate": 44.4,
+     "avgMiles": 101083
+    },
+    "10-14": {
+     "tests": 10758,
+     "failRate": 49.6,
+     "avgMiles": 131478
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 52583,
+     "failRate": 39.3,
+     "avgMiles": 97461
+    },
+    "Electric": {
+     "tests": 304,
+     "failRate": 16.1,
+     "avgMiles": 27385
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "citroen-relay": {
+   "tests": 65700,
+   "failRate": 37.6,
+   "avgMiles": 95375,
+   "byAge": {
+    "3-4": {
+     "tests": 11452,
+     "failRate": 32.5,
+     "avgMiles": 62074
+    },
+    "5-6": {
+     "tests": 11238,
+     "failRate": 32.1,
+     "avgMiles": 83332
+    },
+    "7-9": {
+     "tests": 17739,
+     "failRate": 37.5,
+     "avgMiles": 104841
+    },
+    "10-14": {
+     "tests": 12286,
+     "failRate": 43.4,
+     "avgMiles": 125726
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 65654,
+     "failRate": 37.6,
+     "avgMiles": 95384
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "fiat-doblo": {
+   "tests": 46841,
+   "failRate": 36.6,
+   "avgMiles": 84975,
+   "byAge": {
+    "3-4": {
+     "tests": 2652,
+     "failRate": 26.5,
+     "avgMiles": 48667
+    },
+    "5-6": {
+     "tests": 4106,
+     "failRate": 30.5,
+     "avgMiles": 62772
+    },
+    "7-9": {
+     "tests": 12239,
+     "failRate": 35.6,
+     "avgMiles": 83889
+    },
+    "10-14": {
+     "tests": 16943,
+     "failRate": 35.7,
+     "avgMiles": 88456
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 40706,
+     "failRate": 37.4,
+     "avgMiles": 89355
+    },
+    "Petrol": {
+     "tests": 6126,
+     "failRate": 31.2,
+     "avgMiles": 55984
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "fiat-ducato": {
+   "tests": 96240,
+   "failRate": 29.3,
+   "avgMiles": 68650,
+   "byAge": {
+    "3-4": {
+     "tests": 8226,
+     "failRate": 23.2,
+     "avgMiles": 67202
+    },
+    "5-6": {
+     "tests": 7439,
+     "failRate": 25.9,
+     "avgMiles": 81391
+    },
+    "7-9": {
+     "tests": 14488,
+     "failRate": 26.8,
+     "avgMiles": 80810
+    },
+    "10-14": {
+     "tests": 18426,
+     "failRate": 25.3,
+     "avgMiles": 66883
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 95139,
+     "failRate": 29.2,
+     "avgMiles": 68586
+    },
+    "Petrol": {
+     "tests": 1044,
+     "failRate": 44.7,
+     "avgMiles": 76591
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "fiat-scudo": {
+   "tests": 8108,
+   "failRate": 49.2,
+   "avgMiles": 139767,
+   "byAge": {
+    "7-9": {
+     "tests": 607,
+     "failRate": 43.0,
+     "avgMiles": 104600
+    },
+    "10-14": {
+     "tests": 2349,
+     "failRate": 49.7,
+     "avgMiles": 143233
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 8096,
+     "failRate": 49.2,
+     "avgMiles": 139828
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "ford-ranger": {
+   "tests": 117465,
+   "failRate": 27.4,
+   "avgMiles": 78120,
+   "byAge": {
+    "3-4": {
+     "tests": 27120,
+     "failRate": 19.5,
+     "avgMiles": 51958
+    },
+    "5-6": {
+     "tests": 27014,
+     "failRate": 24.4,
+     "avgMiles": 69892
+    },
+    "7-9": {
+     "tests": 24654,
+     "failRate": 28.9,
+     "avgMiles": 86044
+    },
+    "10-14": {
+     "tests": 11049,
+     "failRate": 38.2,
+     "avgMiles": 110934
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 117382,
+     "failRate": 27.4,
+     "avgMiles": 78117
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "ford-transit": {
+   "tests": 605298,
+   "failRate": 38.1,
+   "avgMiles": 113059,
+   "byAge": {
+    "3-4": {
+     "tests": 45658,
+     "failRate": 25.3,
+     "avgMiles": 65540
+    },
+    "5-6": {
+     "tests": 96177,
+     "failRate": 29.7,
+     "avgMiles": 88527
+    },
+    "7-9": {
+     "tests": 181451,
+     "failRate": 34.0,
+     "avgMiles": 109447
+    },
+    "10-14": {
+     "tests": 155870,
+     "failRate": 48.3,
+     "avgMiles": 139563
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 602633,
+     "failRate": 38.1,
+     "avgMiles": 113176
+    },
+    "Petrol": {
+     "tests": 1979,
+     "failRate": 37.8,
+     "avgMiles": 88707
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "ford-transit-connect": {
+   "tests": 168172,
+   "failRate": 34.5,
+   "avgMiles": 101880,
+   "byAge": {
+    "3-4": {
+     "tests": 23607,
+     "failRate": 26.1,
+     "avgMiles": 59162
+    },
+    "5-6": {
+     "tests": 32586,
+     "failRate": 25.4,
+     "avgMiles": 81073
+    },
+    "7-9": {
+     "tests": 40535,
+     "failRate": 28.8,
+     "avgMiles": 106050
+    },
+    "10-14": {
+     "tests": 27331,
+     "failRate": 44.3,
+     "avgMiles": 124302
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 166111,
+     "failRate": 34.6,
+     "avgMiles": 102268
+    },
+    "Petrol": {
+     "tests": 1927,
+     "failRate": 28.0,
+     "avgMiles": 66974
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "ford-transit-courier": {
+   "tests": 27237,
+   "failRate": 29.6,
+   "avgMiles": 76517,
+   "byAge": {
+    "3-4": {
+     "tests": 7295,
+     "failRate": 24.6,
+     "avgMiles": 58713
+    },
+    "5-6": {
+     "tests": 8106,
+     "failRate": 28.3,
+     "avgMiles": 77143
+    },
+    "7-9": {
+     "tests": 8679,
+     "failRate": 37.8,
+     "avgMiles": 102194
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 23829,
+     "failRate": 30.3,
+     "avgMiles": 80561
+    },
+    "Petrol": {
+     "tests": 3408,
+     "failRate": 24.6,
+     "avgMiles": 48398
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "ford-transit-custom": {
+   "tests": 178077,
+   "failRate": 22.7,
+   "avgMiles": 63288,
+   "byAge": {
+    "3-4": {
+     "tests": 87726,
+     "failRate": 21.9,
+     "avgMiles": 60349
+    },
+    "5-6": {
+     "tests": 51934,
+     "failRate": 23.1,
+     "avgMiles": 78935
+    },
+    "7-9": {
+     "tests": 724,
+     "failRate": 30.9,
+     "avgMiles": 100593
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 176424,
+     "failRate": 22.7,
+     "avgMiles": 63482
+    },
+    "Hybrid": {
+     "tests": 693,
+     "failRate": 19.6,
+     "avgMiles": 34486
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "isuzu-d-max": {
+   "tests": 37728,
+   "failRate": 28.7,
+   "avgMiles": 77096,
+   "byAge": {
+    "3-4": {
+     "tests": 7002,
+     "failRate": 21.2,
+     "avgMiles": 52846
+    },
+    "5-6": {
+     "tests": 8454,
+     "failRate": 26.3,
+     "avgMiles": 69628
+    },
+    "7-9": {
+     "tests": 13769,
+     "failRate": 32.4,
+     "avgMiles": 88553
+    },
+    "10-14": {
+     "tests": 5967,
+     "failRate": 37.4,
+     "avgMiles": 105379
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 37723,
+     "failRate": 28.7,
+     "avgMiles": 77095
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "iveco-daily": {
+   "tests": 37972,
+   "failRate": 37.0,
+   "avgMiles": 123029,
+   "byAge": {
+    "3-4": {
+     "tests": 5281,
+     "failRate": 24.4,
+     "avgMiles": 68980
+    },
+    "5-6": {
+     "tests": 4698,
+     "failRate": 30.7,
+     "avgMiles": 104569
+    },
+    "7-9": {
+     "tests": 8387,
+     "failRate": 38.0,
+     "avgMiles": 138743
+    },
+    "10-14": {
+     "tests": 7379,
+     "failRate": 43.9,
+     "avgMiles": 155581
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 37952,
+     "failRate": 37.0,
+     "avgMiles": 123024
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "kgm-musso": {
+   "tests": 2451,
+   "failRate": 36.1,
+   "avgMiles": 55469,
+   "byAge": {
+    "3-4": {
+     "tests": 883,
+     "failRate": 33.0,
+     "avgMiles": 50948
+    },
+    "5-6": {
+     "tests": 876,
+     "failRate": 38.4,
+     "avgMiles": 60454
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 2446,
+     "failRate": 36.1,
+     "avgMiles": 55453
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "man-tge": {
+   "tests": 6784,
+   "failRate": 19.5,
+   "avgMiles": 87405,
+   "byAge": {
+    "3-4": {
+     "tests": 4086,
+     "failRate": 20.8,
+     "avgMiles": 90629
+    },
+    "5-6": {
+     "tests": 750,
+     "failRate": 24.4,
+     "avgMiles": 117267
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 6782,
+     "failRate": 19.5,
+     "avgMiles": 87426
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "maxus-deliver-9": {
+   "tests": 1958,
+   "failRate": 34.1,
+   "avgMiles": 48872,
+   "byAge": {
+    "3-4": {
+     "tests": 645,
+     "failRate": 32.1,
+     "avgMiles": 50590
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 1958,
+     "failRate": 34.1,
+     "avgMiles": 48872
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "mercedes-benz-citan": {
+   "tests": 20515,
+   "failRate": 39.2,
+   "avgMiles": 96345,
+   "byAge": {
+    "3-4": {
+     "tests": 2812,
+     "failRate": 32.8,
+     "avgMiles": 69141
+    },
+    "5-6": {
+     "tests": 6310,
+     "failRate": 36.8,
+     "avgMiles": 87237
+    },
+    "7-9": {
+     "tests": 8288,
+     "failRate": 41.5,
+     "avgMiles": 107816
+    },
+    "10-14": {
+     "tests": 2355,
+     "failRate": 48.2,
+     "avgMiles": 127376
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 20193,
+     "failRate": 39.6,
+     "avgMiles": 97097
+    },
+    "Petrol": {
+     "tests": 321,
+     "failRate": 13.4,
+     "avgMiles": 49201
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "mercedes-benz-sprinter": {
+   "tests": 215285,
+   "failRate": 32.4,
+   "avgMiles": 148117,
+   "byAge": {
+    "3-4": {
+     "tests": 44290,
+     "failRate": 24.0,
+     "avgMiles": 103855
+    },
+    "5-6": {
+     "tests": 36355,
+     "failRate": 28.5,
+     "avgMiles": 135389
+    },
+    "7-9": {
+     "tests": 45957,
+     "failRate": 34.4,
+     "avgMiles": 166753
+    },
+    "10-14": {
+     "tests": 44901,
+     "failRate": 40.2,
+     "avgMiles": 190745
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 213243,
+     "failRate": 32.4,
+     "avgMiles": 149262
+    },
+    "Electric": {
+     "tests": 1887,
+     "failRate": 28.0,
+     "avgMiles": 20459
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "mercedes-benz-vito": {
+   "tests": 98182,
+   "failRate": 32.5,
+   "avgMiles": 131593,
+   "byAge": {
+    "3-4": {
+     "tests": 13106,
+     "failRate": 24.3,
+     "avgMiles": 73977
+    },
+    "5-6": {
+     "tests": 17437,
+     "failRate": 26.4,
+     "avgMiles": 110175
+    },
+    "7-9": {
+     "tests": 19582,
+     "failRate": 31.4,
+     "avgMiles": 137459
+    },
+    "10-14": {
+     "tests": 23259,
+     "failRate": 37.9,
+     "avgMiles": 172137
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 96035,
+     "failRate": 32.9,
+     "avgMiles": 133907
+    },
+    "Electric": {
+     "tests": 1868,
+     "failRate": 9.3,
+     "avgMiles": 18236
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "mitsubishi-l200": {
+   "tests": 88342,
+   "failRate": 31.2,
+   "avgMiles": 92326,
+   "byAge": {
+    "3-4": {
+     "tests": 11261,
+     "failRate": 15.9,
+     "avgMiles": 50141
+    },
+    "5-6": {
+     "tests": 16065,
+     "failRate": 18.2,
+     "avgMiles": 65223
+    },
+    "7-9": {
+     "tests": 19697,
+     "failRate": 26.6,
+     "avgMiles": 83203
+    },
+    "10-14": {
+     "tests": 18268,
+     "failRate": 41.9,
+     "avgMiles": 112961
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 88246,
+     "failRate": 31.2,
+     "avgMiles": 92294
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "nissan-interstar": {
+   "tests": 856,
+   "failRate": 50.4,
+   "avgMiles": 135830,
+   "byAge": {},
+   "byFuel": {
+    "Diesel": {
+     "tests": 854,
+     "failRate": 50.4,
+     "avgMiles": 135869
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "nissan-navara": {
+   "tests": 75579,
+   "failRate": 31.9,
+   "avgMiles": 89643,
+   "byAge": {
+    "3-4": {
+     "tests": 11250,
+     "failRate": 19.8,
+     "avgMiles": 54521
+    },
+    "5-6": {
+     "tests": 15672,
+     "failRate": 27.1,
+     "avgMiles": 73613
+    },
+    "7-9": {
+     "tests": 18139,
+     "failRate": 31.8,
+     "avgMiles": 90427
+    },
+    "10-14": {
+     "tests": 15671,
+     "failRate": 43.6,
+     "avgMiles": 122071
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 75552,
+     "failRate": 31.9,
+     "avgMiles": 89632
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "nissan-primastar": {
+   "tests": 9657,
+   "failRate": 53.4,
+   "avgMiles": 142459,
+   "byAge": {
+    "7-9": {
+     "tests": 342,
+     "failRate": 55.3,
+     "avgMiles": 115427
+    },
+    "10-14": {
+     "tests": 3355,
+     "failRate": 54.3,
+     "avgMiles": 133133
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 9642,
+     "failRate": 53.3,
+     "avgMiles": 142452
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "peugeot-boxer": {
+   "tests": 108408,
+   "failRate": 31.5,
+   "avgMiles": 74119,
+   "byAge": {
+    "3-4": {
+     "tests": 15689,
+     "failRate": 28.6,
+     "avgMiles": 59278
+    },
+    "5-6": {
+     "tests": 19067,
+     "failRate": 30.4,
+     "avgMiles": 80792
+    },
+    "7-9": {
+     "tests": 25891,
+     "failRate": 32.1,
+     "avgMiles": 93486
+    },
+    "10-14": {
+     "tests": 15657,
+     "failRate": 28.4,
+     "avgMiles": 77557
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 106845,
+     "failRate": 31.3,
+     "avgMiles": 74250
+    },
+    "Petrol": {
+     "tests": 1514,
+     "failRate": 45.7,
+     "avgMiles": 64993
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "peugeot-expert": {
+   "tests": 63832,
+   "failRate": 32.5,
+   "avgMiles": 94121,
+   "byAge": {
+    "3-4": {
+     "tests": 13000,
+     "failRate": 19.9,
+     "avgMiles": 54924
+    },
+    "5-6": {
+     "tests": 12003,
+     "failRate": 24.7,
+     "avgMiles": 75879
+    },
+    "7-9": {
+     "tests": 13204,
+     "failRate": 36.5,
+     "avgMiles": 95649
+    },
+    "10-14": {
+     "tests": 11183,
+     "failRate": 46.0,
+     "avgMiles": 144951
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 62304,
+     "failRate": 33.1,
+     "avgMiles": 95899
+    },
+    "Electric": {
+     "tests": 1504,
+     "failRate": 5.1,
+     "avgMiles": 21312
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "peugeot-partner": {
+   "tests": 154086,
+   "failRate": 37.8,
+   "avgMiles": 93687,
+   "byAge": {
+    "3-4": {
+     "tests": 22049,
+     "failRate": 24.5,
+     "avgMiles": 58927
+    },
+    "5-6": {
+     "tests": 26944,
+     "failRate": 34.1,
+     "avgMiles": 80125
+    },
+    "7-9": {
+     "tests": 39938,
+     "failRate": 39.4,
+     "avgMiles": 96556
+    },
+    "10-14": {
+     "tests": 42335,
+     "failRate": 44.0,
+     "avgMiles": 118297
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 147387,
+     "failRate": 38.4,
+     "avgMiles": 95406
+    },
+    "Petrol": {
+     "tests": 5891,
+     "failRate": 24.9,
+     "avgMiles": 59811
+    },
+    "Electric": {
+     "tests": 779,
+     "failRate": 12.7,
+     "avgMiles": 22841
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "renault-kangoo": {
+   "tests": 56349,
+   "failRate": 45.8,
+   "avgMiles": 95977,
+   "byAge": {
+    "3-4": {
+     "tests": 4670,
+     "failRate": 29.6,
+     "avgMiles": 45569
+    },
+    "5-6": {
+     "tests": 5011,
+     "failRate": 37.1,
+     "avgMiles": 74703
+    },
+    "7-9": {
+     "tests": 10287,
+     "failRate": 44.8,
+     "avgMiles": 103251
+    },
+    "10-14": {
+     "tests": 18097,
+     "failRate": 51.8,
+     "avgMiles": 114030
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 41577,
+     "failRate": 48.2,
+     "avgMiles": 109513
+    },
+    "Petrol": {
+     "tests": 10711,
+     "failRate": 44.6,
+     "avgMiles": 70524
+    },
+    "Electric": {
+     "tests": 4048,
+     "failRate": 24.4,
+     "avgMiles": 24108
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "renault-master": {
+   "tests": 70505,
+   "failRate": 39.3,
+   "avgMiles": 120353,
+   "byAge": {
+    "3-4": {
+     "tests": 7900,
+     "failRate": 29.4,
+     "avgMiles": 82876
+    },
+    "5-6": {
+     "tests": 9241,
+     "failRate": 34.9,
+     "avgMiles": 116687
+    },
+    "7-9": {
+     "tests": 15822,
+     "failRate": 38.0,
+     "avgMiles": 126106
+    },
+    "10-14": {
+     "tests": 14596,
+     "failRate": 42.8,
+     "avgMiles": 138604
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 70351,
+     "failRate": 39.3,
+     "avgMiles": 120546
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "renault-trafic": {
+   "tests": 127427,
+   "failRate": 41.2,
+   "avgMiles": 107701,
+   "byAge": {
+    "3-4": {
+     "tests": 14931,
+     "failRate": 24.0,
+     "avgMiles": 59951
+    },
+    "5-6": {
+     "tests": 19069,
+     "failRate": 33.2,
+     "avgMiles": 82269
+    },
+    "7-9": {
+     "tests": 35597,
+     "failRate": 41.4,
+     "avgMiles": 104536
+    },
+    "10-14": {
+     "tests": 27545,
+     "failRate": 52.5,
+     "avgMiles": 139448
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 126251,
+     "failRate": 41.1,
+     "avgMiles": 107943
+    },
+    "Petrol": {
+     "tests": 1164,
+     "failRate": 46.8,
+     "avgMiles": 81244
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "toyota-hilux": {
+   "tests": 77229,
+   "failRate": 30.5,
+   "avgMiles": 94327,
+   "byAge": {
+    "3-4": {
+     "tests": 11999,
+     "failRate": 19.1,
+     "avgMiles": 51605
+    },
+    "5-6": {
+     "tests": 10687,
+     "failRate": 21.3,
+     "avgMiles": 73551
+    },
+    "7-9": {
+     "tests": 15775,
+     "failRate": 31.1,
+     "avgMiles": 90934
+    },
+    "10-14": {
+     "tests": 17973,
+     "failRate": 39.4,
+     "avgMiles": 115393
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 76927,
+     "failRate": 30.5,
+     "avgMiles": 94236
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "toyota-proace": {
+   "tests": 13843,
+   "failRate": 29.0,
+   "avgMiles": 70753,
+   "byAge": {
+    "3-4": {
+     "tests": 4066,
+     "failRate": 24.1,
+     "avgMiles": 56605
+    },
+    "5-6": {
+     "tests": 4378,
+     "failRate": 26.5,
+     "avgMiles": 77293
+    },
+    "7-9": {
+     "tests": 2960,
+     "failRate": 41.1,
+     "avgMiles": 94012
+    },
+    "10-14": {
+     "tests": 589,
+     "failRate": 49.1,
+     "avgMiles": 108039
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 13364,
+     "failRate": 29.7,
+     "avgMiles": 72500
+    },
+    "Electric": {
+     "tests": 478,
+     "failRate": 7.9,
+     "avgMiles": 22033
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "toyota-proace-city": {
+   "tests": 1615,
+   "failRate": 26.7,
+   "avgMiles": 44469,
+   "byAge": {
+    "3-4": {
+     "tests": 608,
+     "failRate": 27.6,
+     "avgMiles": 47723
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 1587,
+     "failRate": 27.0,
+     "avgMiles": 44816
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "vauxhall-combo": {
+   "tests": 109857,
+   "failRate": 38.7,
+   "avgMiles": 86047,
+   "byAge": {
+    "3-4": {
+     "tests": 29325,
+     "failRate": 28.4,
+     "avgMiles": 49992
+    },
+    "5-6": {
+     "tests": 9515,
+     "failRate": 30.6,
+     "avgMiles": 66038
+    },
+    "7-9": {
+     "tests": 15014,
+     "failRate": 40.9,
+     "avgMiles": 98067
+    },
+    "10-14": {
+     "tests": 24421,
+     "failRate": 44.8,
+     "avgMiles": 109960
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 104205,
+     "failRate": 39.6,
+     "avgMiles": 88855
+    },
+    "Petrol": {
+     "tests": 5395,
+     "failRate": 21.0,
+     "avgMiles": 33834
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "vauxhall-movano": {
+   "tests": 53513,
+   "failRate": 40.1,
+   "avgMiles": 106370,
+   "byAge": {
+    "3-4": {
+     "tests": 8770,
+     "failRate": 32.8,
+     "avgMiles": 62823
+    },
+    "5-6": {
+     "tests": 7740,
+     "failRate": 37.0,
+     "avgMiles": 85400
+    },
+    "7-9": {
+     "tests": 13114,
+     "failRate": 39.1,
+     "avgMiles": 115085
+    },
+    "10-14": {
+     "tests": 9037,
+     "failRate": 44.8,
+     "avgMiles": 142470
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 53506,
+     "failRate": 40.1,
+     "avgMiles": 106368
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "vauxhall-vivaro": {
+   "tests": 233360,
+   "failRate": 42.2,
+   "avgMiles": 107206,
+   "byAge": {
+    "3-4": {
+     "tests": 31465,
+     "failRate": 26.4,
+     "avgMiles": 59658
+    },
+    "5-6": {
+     "tests": 33833,
+     "failRate": 34.0,
+     "avgMiles": 81653
+    },
+    "7-9": {
+     "tests": 62965,
+     "failRate": 42.3,
+     "avgMiles": 105393
+    },
+    "10-14": {
+     "tests": 52831,
+     "failRate": 53.4,
+     "avgMiles": 137570
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 229640,
+     "failRate": 42.5,
+     "avgMiles": 108517
+    },
+    "Electric": {
+     "tests": 3619,
+     "failRate": 18.2,
+     "avgMiles": 23366
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "volkswagen-amarok": {
+   "tests": 21743,
+   "failRate": 24.0,
+   "avgMiles": 92327,
+   "byAge": {
+    "3-4": {
+     "tests": 3983,
+     "failRate": 15.2,
+     "avgMiles": 59463
+    },
+    "5-6": {
+     "tests": 5186,
+     "failRate": 19.2,
+     "avgMiles": 75866
+    },
+    "7-9": {
+     "tests": 7623,
+     "failRate": 26.1,
+     "avgMiles": 100161
+    },
+    "10-14": {
+     "tests": 4944,
+     "failRate": 32.9,
+     "avgMiles": 124075
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 21742,
+     "failRate": 24.0,
+     "avgMiles": 92324
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": false
+  },
+  "volkswagen-caddy-cargo": {
+   "tests": 148692,
+   "failRate": 31.5,
+   "avgMiles": 108477,
+   "byAge": {
+    "3-4": {
+     "tests": 15091,
+     "failRate": 20.3,
+     "avgMiles": 54981
+    },
+    "5-6": {
+     "tests": 21245,
+     "failRate": 22.5,
+     "avgMiles": 73730
+    },
+    "7-9": {
+     "tests": 36089,
+     "failRate": 30.3,
+     "avgMiles": 96526
+    },
+    "10-14": {
+     "tests": 52038,
+     "failRate": 36.7,
+     "avgMiles": 132432
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 145446,
+     "failRate": 31.8,
+     "avgMiles": 109613
+    },
+    "Petrol": {
+     "tests": 3220,
+     "failRate": 20.0,
+     "avgMiles": 57343
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": false
+  },
+  "volkswagen-crafter": {
+   "tests": 64707,
+   "failRate": 33.3,
+   "avgMiles": 116641,
+   "byAge": {
+    "3-4": {
+     "tests": 15396,
+     "failRate": 26.0,
+     "avgMiles": 80498
+    },
+    "5-6": {
+     "tests": 10944,
+     "failRate": 28.8,
+     "avgMiles": 106325
+    },
+    "7-9": {
+     "tests": 15552,
+     "failRate": 37.1,
+     "avgMiles": 134519
+    },
+    "10-14": {
+     "tests": 13325,
+     "failRate": 41.5,
+     "avgMiles": 154710
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 64702,
+     "failRate": 33.3,
+     "avgMiles": 116641
+    }
+   },
+   "includesPassengerVersions": false,
+   "includesMotorhomes": true
+  },
+  "volkswagen-transporter": {
+   "tests": 328790,
+   "failRate": 31.7,
+   "avgMiles": 111671,
+   "byAge": {
+    "3-4": {
+     "tests": 35373,
+     "failRate": 17.9,
+     "avgMiles": 49612
+    },
+    "5-6": {
+     "tests": 42644,
+     "failRate": 21.7,
+     "avgMiles": 68823
+    },
+    "7-9": {
+     "tests": 58918,
+     "failRate": 26.1,
+     "avgMiles": 89880
+    },
+    "10-14": {
+     "tests": 64894,
+     "failRate": 32.9,
+     "avgMiles": 125173
+    }
+   },
+   "byFuel": {
+    "Diesel": {
+     "tests": 319884,
+     "failRate": 31.6,
+     "avgMiles": 112082
+    },
+    "Petrol": {
+     "tests": 8784,
+     "failRate": 35.4,
+     "avgMiles": 96557
+    }
+   },
+   "includesPassengerVersions": true,
+   "includesMotorhomes": true
+  }
+ }
+}

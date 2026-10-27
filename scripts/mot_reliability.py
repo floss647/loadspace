@@ -98,6 +98,13 @@ SHARED_WITH_CARS = {
     'toyota-proace', 'kia-pv5-cargo', 'volkswagen-id-buzz-cargo',
 }
 
+# Vans often converted to motorhomes or campervans, which do low miles and
+# are kept carefully. Their figures include those conversions.
+MOTORHOME_BASES = {
+    'fiat-ducato', 'peugeot-boxer', 'citroen-relay', 'volkswagen-transporter',
+    'ford-transit', 'mercedes-benz-sprinter', 'renault-master', 'volkswagen-crafter',
+}
+
 AGE_BANDS = [(3, 4, '3-4'), (5, 6, '5-6'), (7, 9, '7-9'), (10, 14, '10-14')]
 FUELS = {'DI': 'Diesel', 'PE': 'Petrol', 'EL': 'Electric', 'HY': 'Hybrid'}
 MIN_TESTS = 300  # don't publish a figure from fewer first tests than this
@@ -117,7 +124,8 @@ def open_any(path):
     if path.endswith('.zip'):
         z = zipfile.ZipFile(path)
         return [io.TextIOWrapper(z.open(n), encoding='utf-8', errors='replace')
-                for n in z.namelist() if not n.endswith('/')]
+                for n in z.namelist()
+                if not n.endswith('/') and not n.startswith('__MACOSX') and not n.split('/')[-1].startswith('._')]
     return [open(path, encoding='utf-8', errors='replace')]
 
 
@@ -159,6 +167,7 @@ def summarise(b):
 
 
 def main():
+    csv.field_size_limit(10_000_000)
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('files', nargs='+')
     ap.add_argument('--out', default='src/data/reliability.json')
@@ -168,7 +177,8 @@ def main():
     by_age = defaultdict(lambda: defaultdict(new_bucket))
     by_fuel = defaultdict(lambda: defaultdict(new_bucket))
     all_vans = defaultdict(new_bucket)  # every matched van, per age band, for comparison
-    seen = kept = 0
+    seen = kept = dupes = 0
+    seen_ids = set()  # DVSA files repeat some test rows; count each test once
     unmatched_makes = defaultdict(int)
 
     for path in args.files:
@@ -176,7 +186,7 @@ def main():
             sample = fh.readline()
             delim = '|' if sample.count('|') > sample.count(',') else ','
             header = [h.strip().lower() for h in next(csv.reader([sample], delimiter=delim))]
-            reader = csv.DictReader(fh, fieldnames=header, delimiter=delim)
+            reader = csv.DictReader(fh, fieldnames=header, delimiter=delim, escapechar='\\')
             for row in reader:
                 seen += 1
                 if row.get('test_type', '').strip() != 'NT':
@@ -191,6 +201,12 @@ def main():
                     if row.get('test_class_id', '').strip() == '7':
                         unmatched_makes[row.get('make', '').strip().upper()] += 1
                     continue
+                tid = row.get('test_id', '').strip()
+                if tid:
+                    if tid in seen_ids:
+                        dupes += 1
+                        continue
+                    seen_ids.add(tid)
                 td, fu = parse_date(row.get('test_date', '')), parse_date(row.get('first_use_date', ''))
                 if not td or not fu:
                     continue
@@ -220,6 +236,7 @@ def main():
         s['byAge'] = {k: v for k, v in ((band, summarise(by_age[slug][band])) for _, _, band in AGE_BANDS) if v}
         s['byFuel'] = {k: v for k, v in ((f, summarise(by_fuel[slug][f])) for f in FUELS.values()) if v}
         s['includesPassengerVersions'] = slug in SHARED_WITH_CARS
+        s['includesMotorhomes'] = slug in MOTORHOME_BASES
         models[slug] = s
 
     out = {
@@ -234,7 +251,7 @@ def main():
     with open(args.out, 'w') as f:
         json.dump(out, f, indent=1)
 
-    print(f'rows read: {seen:,}  van first tests kept: {kept:,}  models published: {len(models)}', file=sys.stderr)
+    print(f'rows read: {seen:,}  van first tests kept: {kept:,}  duplicate rows skipped: {dupes:,}  models published: {len(models)}', file=sys.stderr)
     top = sorted(unmatched_makes.items(), key=lambda x: -x[1])[:15]
     if top:
         print('largest unmatched class 7 makes (check for missing vans):', top, file=sys.stderr)

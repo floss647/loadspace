@@ -32,7 +32,8 @@ const avg = data.allVansByAge || {};
     <p class="small muted">
       Initial MOT failure rate from DVSA's anonymised MOT data ({data.files?.join(', ')}). Lower is better.
       {r.includesPassengerVersions && ' Includes passenger versions sold under the same name.'}
-      <a href="/reliability/">How we work it out</a>.
+      {r.includesMotorhomes && ' Includes motorhome and campervan conversions, which usually do fewer miles, so older figures may look better than a working van.'}
+      {' '}<a href="/reliability/">How we work it out</a>.
     </p>
   </section>
 )}
