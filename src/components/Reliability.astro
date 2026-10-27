@@ -1,0 +1,38 @@
+---
+// Shows MOT reliability for one van, only when real DVSA data has been loaded.
+import data from '../data/reliability.json';
+const { slug, name } = Astro.props;
+const r = data.models?.[slug];
+const avg = data.allVansByAge || {};
+---
+{r && (
+  <section>
+    <h2>MOT reliability</h2>
+    <p>
+      <strong>{r.failRate}%</strong> of {name} vans failed their MOT first time
+      (from {r.tests.toLocaleString('en-GB')} tests{r.avgMiles ? `, average ${r.avgMiles.toLocaleString('en-GB')} miles` : ''}).
+    </p>
+    {Object.keys(r.byAge).length > 0 && (
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Age (years)</th><th class="num">{name}</th><th class="num">All vans</th><th class="num">Tests</th></tr></thead>
+          <tbody>
+            {Object.entries(r.byAge).map(([band, b]) => (
+              <tr>
+                <td>{band}</td>
+                <td class="num"><strong>{b.failRate}%</strong></td>
+                <td class="num">{avg[band] ? `${avg[band].failRate}%` : '–'}</td>
+                <td class="num">{b.tests.toLocaleString('en-GB')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+    <p class="small muted">
+      Initial MOT failure rate from DVSA's anonymised MOT data ({data.files?.join(', ')}). Lower is better.
+      {r.includesPassengerVersions && ' Includes passenger versions sold under the same name.'}
+      <a href="/reliability/">How we work it out</a>.
+    </p>
+  </section>
+)}

@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/reliability.json';
+import { VANS, SIZES } from '../data/vans.js';
+const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
+const rows = Object.entries(data.models || {})
+  .filter(([slug]) => bySlug[slug])
+  .map(([slug, r]) => ({ van: bySlug[slug], r, mid: r.byAge?.['5-6'] }))
+  .sort((a, b) => (a.mid?.failRate ?? a.r.failRate) - (b.mid?.failRate ?? b.r.failRate));
+const hasData = rows.length > 0;
+---
+<Base title="Most reliable vans: MOT failure rates by model" description="Which UK vans fail their MOT least often, by model and age, from DVSA's official MOT data.">
+  <div class="wrap">
+    <h1>Most reliable vans by MOT results</h1>
+    <p class="lede">Which vans fail their MOT least often, from every first MOT test recorded by DVSA. Real data, not opinion.</p>
+
+    {!hasData && <div class="notice"><strong>Coming soon.</strong> We're loading DVSA's latest MOT data. Rankings appear here as soon as it's processed.</div>}
+
+    {hasData && (
+      <>
+        <p class="muted">Ranked by first-time MOT failure rate at 5–6 years old, where we have enough tests; otherwise across all ages.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Van</th><th class="num">Fail rate at 5–6 yrs</th><th class="num">Fail rate, all ages</th><th class="num">Tests</th></tr></thead>
+            <tbody>
+              {rows.map((x, i) => (
+                <tr>
+                  <td>{i + 1}</td>
+                  <td><a href={`/vans/${x.van.slug}/`}>{x.van.name}</a> <span class="tag">{SIZES[x.van.size].short}</span></td>
+                  <td class="num">{x.mid ? `${x.mid.failRate}%` : '–'}</td>
+                  <td class="num">{x.r.failRate}%</td>
+                  <td class="num">{x.r.tests.toLocaleString('en-GB')}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )}
+
+    <div class="prose">
+      <h2>How we work it out</h2>
+      <ul>
+        <li><strong>Source:</strong> DVSA's anonymised MOT tests and results, published as open data.{data.files && ` Files used: ${data.files.join(', ')}.`}</li>
+        <li><strong>First tests only.</strong> Retests are left out, so each van counts once per MOT.</li>
+        <li><strong>A fail</strong> means the van failed, or only passed after faults were fixed during the test.</li>
+        <li><strong>Age matters.</strong> Older, higher-mileage vans fail more, so compare vans of the same age.</li>
+        <li><strong>Minimum sample:</strong> we only publish figures based on at least {data.minTests ?? 300} tests.</li>
+        <li><strong>Caveats:</strong> some small and medium vans share names with passenger versions, and figures cover every generation sold under that name.</li>
+      </ul>
+      <p class="small muted">Contains public sector information licensed under the Open Government Licence v3.0.</p>
+    </div>
+  </div>
+</Base>

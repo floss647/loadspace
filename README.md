@@ -23,3 +23,27 @@ Independent UK van advice site: reviews, used and electric buying guides, leasin
 - Have tax and VAT wording checked by an accountant.
 - Get FCA compliance advice before showing finance deals or passing on enquiries.
 - Set the real domain in `astro.config.mjs`.
+
+## Real data
+
+### MOT reliability (free, DVSA open data)
+
+1. Download the latest "Anonymised MOT tests and results" test-result file(s) from data.gov.uk.
+2. Run:
+
+       python3 scripts/mot_reliability.py path/to/test_results_2025.csv.gz --out src/data/reliability.json
+
+3. Rebuild. Van pages show a reliability section and `/reliability/` shows rankings. Until then they stay hidden or show "coming soon".
+
+The script prints the biggest unmatched van makes so missing models can be added to `MATCHERS`.
+
+### Van check by registration (free government APIs)
+
+Apply for keys:
+- DVLA Vehicle Enquiry Service API (tax, MOT status, Euro emissions standard).
+- DVSA MOT History API (full MOT record, mileage, defects).
+
+Set these in Netlify, never in code: `DVLA_API_KEY`, `MOT_CLIENT_ID`, `MOT_CLIENT_SECRET`, `MOT_API_KEY`, `MOT_TOKEN_URL` (and optional `MOT_SCOPE`).
+Until keys are set, the page says checks are "being switched on". The site works with either API on its own.
+
+Test without keys: `node scripts/test-van-check.mjs`

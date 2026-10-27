@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Reliability from '../../components/Reliability.astro';
 import { SIZES, VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 
@@ -49,8 +50,11 @@ const isVan = van.size !== 'pickup';
         <p>{van.electricNote || `There is no fully electric ${van.model} on sale at the moment.`}</p>
       )}
 
+      <Reliability slug={van.slug} name={van.name} />
+
       <h2>Buying used: what to check</h2>
       <ul>
+        <li><strong>MOT history.</strong> <a href="/tools/van-check/">Check it free by registration</a>: look for mileage that goes down and advisories that keep coming back.</li>
         <li><strong>Service history and recalls.</strong> Ask for the full history and check outstanding recalls with the maker using the registration.</li>
         <li><strong>The load area.</strong> Damaged floors, bulkheads and side panels show how hard it worked. Ply lining hides damage, so look underneath.</li>
         <li><strong>Mileage against age.</strong> Ex-fleet vans often cover 20,000+ miles a year. High miles on motorways can be kinder than low miles of stop-start work.</li>

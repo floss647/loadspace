@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Free van check by registration: MOT history, mileage and tax" description="Check any UK van by registration: full MOT history, mileage record, repeat advisories, tax status and recalls. Free, from DVLA and DVSA data.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
+    <div class="prose">
+      <h1>Free van check</h1>
+      <p class="lede">Enter a registration to see MOT history, the mileage record, faults that keep coming back, tax status and recalls. Straight from DVLA and DVSA.</p>
+    </div>
+
+    <form id="f" class="card" style="display:flex;gap:.7rem;flex-wrap:wrap;align-items:flex-end;max-width:520px">
+      <label style="flex:1;min-width:180px">Registration
+        <input id="reg" name="reg" autocomplete="off" placeholder="e.g. AB12 CDE" maxlength="10" style="text-transform:uppercase;font-size:1.3rem;font-weight:700;letter-spacing:.05em" required />
+      </label>
+      <button class="btn" type="submit">Check van</button>
+    </form>
+
+    <div id="out" aria-live="polite" class="prose" style="max-width:820px"></div>
+
+    <div class="prose">
+      <h2>What to look for</h2>
+      <ul>
+        <li><strong>Mileage going down</strong> between MOTs can mean the mileage has been tampered with.</li>
+        <li><strong>The same advisory year after year</strong> (corrosion, tyres, brakes) shows what's been left unfixed.</li>
+        <li><strong>Very high yearly mileage</strong> is normal for ex-fleet vans, but should match the price.</li>
+        <li><strong>Outstanding recalls</strong> should be fixed by a dealer, free, before you buy.</li>
+      </ul>
+      <p class="small muted">Vehicle data from DVLA and DVSA. Contains public sector information licensed under the Open Government Licence v3.0. This check doesn't cover finance owed, write-offs or theft records.</p>
+    </div>
+  </div>
+
+  <script>
+    const out = document.getElementById('out');
+    const el = (tag, attrs = {}, ...kids) => {
+      const n = document.createElement(tag);
+      Object.entries(attrs).forEach(([k, v]) => (k === 'class' ? (n.className = v) : n.setAttribute(k, v)));
+      kids.flat().forEach((k) => k != null && n.append(k instanceof Node ? k : String(k)));
+      return n;
+    };
+    const fmtDate = (s) => (s ? new Date(s).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '–');
+    const num = (n) => (n == null ? '–' : Number(n).toLocaleString('en-GB'));
+    const row = (k, v) => (v == null || v === '' ? null : el('tr', {}, el('th', {}, k), el('td', {}, v)));
+
+    function render(d) {
+      const v = d.vehicle;
+      const kids = [el('h2', {}, `${v.make || ''} ${v.model || ''}`.trim() || d.registration)];
+      if (d.partial) kids.push(el('p', { class: 'notice small' }, 'Some information is missing because one of the government services did not respond.'));
+
+      d.flags.forEach((f) => kids.push(el('div', { class: 'notice' }, el('strong', {}, f.level === 'bad' ? 'Warning: ' : 'Check: '), f.text)));
+      if (!d.flags.length && d.sources.mot) kids.push(el('div', { class: 'card' }, el('strong', {}, 'No red flags found '), 'in the MOT and DVLA records. Still check the van in person.'));
+
+      kids.push(el('h3', {}, 'Vehicle'));
+      kids.push(el('div', { class: 'table-wrap' }, el('table', {}, el('tbody', {},
+        row('Registration', d.registration), row('Colour', v.colour), row('Fuel', v.fuel),
+        row('First registered', v.firstRegistered), row('Engine', v.engineCc ? `${num(v.engineCc)} cc` : null),
+        row('Euro emissions standard', v.euroStatus), row('Gross weight', v.revenueWeightKg ? `${num(v.revenueWeightKg)} kg` : null),
+        row('Tax', d.tax ? `${d.tax.status || '–'}${d.tax.due ? ` (due ${fmtDate(d.tax.due)})` : ''}` : null),
+        row('MOT', `${d.mot.status || (d.mot.latest ? d.mot.latest.result : 'No MOT yet')}${d.mot.expiry ? ` (expires ${fmtDate(d.mot.expiry)})` : ''}`),
+        row('MOT tests', d.mot.totalTests ? `${d.mot.totalTests} tests, ${d.mot.fails} failed` : null),
+        row('Outstanding recall', d.mot.outstandingRecall)
+      ))));
+
+      if (d.mileage.readings.length) {
+        kids.push(el('h3', {}, 'Mileage record'));
+        if (d.mileage.avgPerYear) kids.push(el('p', {}, `About ${num(d.mileage.avgPerYear)} miles a year.`));
+        kids.push(el('div', { class: 'table-wrap' }, el('table', {},
+          el('thead', {}, el('tr', {}, el('th', {}, 'MOT date'), el('th', { class: 'num' }, 'Miles'))),
+          el('tbody', {}, [...d.mileage.readings].reverse().map((r) => el('tr', {}, el('td', {}, fmtDate(r.date)), el('td', { class: 'num' }, num(r.miles)))))
+        )));
+      }
+
+      if (d.repeatedAdvisories.length) {
+        kids.push(el('h3', {}, 'Advisories that keep coming back'));
+        kids.push(el('ul', {}, d.repeatedAdvisories.map((a) => el('li', {}, `${a.text} (in ${a.count} of the last 3 tests)`))));
+      }
+
+      if (d.mot.latest?.defects?.length) {
+        kids.push(el('h3', {}, `Latest MOT: ${d.mot.latest.result === 'PASSED' ? 'passed' : 'failed'} on ${fmtDate(d.mot.latest.date)}`));
+        kids.push(el('ul', {}, d.mot.latest.defects.map((x) => el('li', {}, el('strong', {}, `${x.type.toLowerCase()}${x.dangerous ? ', dangerous' : ''}: `), x.text))));
+      }
+
+      kids.push(el('div', { class: 'card', style: 'margin-top:1.5rem' },
+        el('strong', {}, 'Buying used? '), 'Read our ', el('a', { href: '/guides/used-electric-van-buying-guide/' }, 'used electric van checks'),
+        ' or compare ', el('a', { href: '/reliability/' }, 'MOT reliability by model'), '.'));
+      out.replaceChildren(...kids);
+    }
+
+    document.getElementById('f').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const reg = document.getElementById('reg').value;
+      out.replaceChildren(el('p', { class: 'muted' }, 'Checking…'));
+      try {
+        const res = await fetch('/api/van-check?reg=' + encodeURIComponent(reg));
+        const data = await res.json().catch(() => ({}));
+        if (res.ok) return render(data);
+        const msg = data.error === 'not_configured'
+          ? 'Van checks are being switched on and will be live shortly.'
+          : data.error || 'Something went wrong. Try again shortly.';
+        out.replaceChildren(el('div', { class: 'notice' }, msg));
+      } catch {
+        out.replaceChildren(el('div', { class: 'notice' }, 'Van checks are not available right now. Try again shortly.'));
+      }
+    });
+  </script>
+</Base>

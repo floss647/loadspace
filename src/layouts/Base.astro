@@ -9,10 +9,13 @@ const nav = [
   ['/vans/', 'Vans'],
   ['/used-electric-vans/', 'Used electric'],
   ['/guides/', 'Guides'],
+  ['/tools/van-check/', 'Van check'],
+  ['/reliability/', 'Reliability'],
   ['/tools/', 'Tools'],
   ['/deals/', 'Deals'],
   ['/podcast/', 'Podcast'],
 ];
+const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b) => b.length - a.length)[0];
 ---
 <!doctype html>
 <html lang="en-GB">
@@ -32,7 +35,7 @@ const nav = [
         <a class="brand" href="/"><img src="/favicon.svg" alt="" />{SITE.name}</a>
         <nav class="nav" aria-label="Main">
           {nav.map(([href, label]) => (
-            <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>
+            <a href={href} aria-current={href === current ? 'page' : undefined}>{label}</a>
           ))}
         </nav>
       </div>
