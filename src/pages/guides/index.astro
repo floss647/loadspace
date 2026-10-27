@@ -1,18 +1,33 @@
 ---
 import Base from '../../layouts/Base.astro';
-const guides = [
-  ['/guides/lease-vs-buy/', 'Lease, finance or buy a van?', 'The four ways to get a van and who each suits.'],
-  ['/guides/rebadged-vans/', 'Same van, different badge', 'Which vans are twins, and how to use that to pay less.'],
-  ['/guides/van-sizes-explained/', 'Van sizes explained', 'L1H1, payload, gross weight and your licence.'],
-  ['/guides/used-electric-van-buying-guide/', 'Buying a used electric van', 'Battery health, range, charging and warranty checks.'],
+const sections = [
+  ['Going electric', [
+    ['/guides/should-i-go-electric/', 'Should I go electric?', 'Who it suits, who it doesn’t, and the numbers that decide it.'],
+    ['/guides/charging-an-electric-van/', 'Charging an electric van', 'Home, depot and public charging, and what affects range.'],
+    ['/guides/grants-and-tax/', 'Grants and tax', 'Van and truck grants, VAT, van benefit tax and London charges.'],
+    ['/guides/used-electric-van-buying-guide/', 'Buying a used electric van', 'Battery health, range, charging and warranty checks.'],
+  ]],
+  ['Fleets and trucks', [
+    ['/guides/fleet-electrification-plan/', 'Electrifying a fleet', 'A step-by-step plan from data to rollout.'],
+    ['/guides/depot-charging/', 'Depot charging', 'Power, grid connections, chargers and smart charging.'],
+    ['/guides/are-electric-trucks-ready/', 'Are electric trucks ready?', 'Where they work today and where they don’t yet.'],
+  ]],
+  ['Buying any van', [
+    ['/guides/lease-vs-buy/', 'Lease, finance or buy?', 'The four ways to get a van and who each suits.'],
+    ['/guides/rebadged-vans/', 'Same van, different badge', 'Which vans are twins, and how to use that to pay less.'],
+    ['/guides/van-sizes-explained/', 'Van sizes and licences', 'L1H1, payload, gross weight and your licence.'],
+  ]],
 ];
 ---
-<Base title="Van buying guides" description="Plain-English guides to buying, leasing and running a van in the UK.">
+<Base title="Electric van and truck guides" description="Plain-English guides to going electric with vans and trucks, for small businesses and fleets.">
   <div class="wrap">
     <h1>Guides</h1>
-    <p class="lede">Plain-English answers to the questions van buyers actually ask.</p>
-    <div class="grid">
-      {guides.map(([href, t, d]) => <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>)}
-    </div>
+    <p class="lede">Plain-English answers to the questions van and truck buyers actually ask.</p>
+    {sections.map(([title, items]) => (
+      <section>
+        <h2>{title}</h2>
+        <div class="grid">{items.map(([href, t, d]) => <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>)}</div>
+      </section>
+    ))}
   </div>
 </Base>

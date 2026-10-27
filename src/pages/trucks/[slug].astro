@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
+
+export function getStaticPaths() {
+  return TRUCKS.map((truck) => ({ params: { slug: truck.slug }, props: { truck } }));
+}
+const { truck } = Astro.props;
+const c = TRUCK_CLASSES[truck.cls];
+const others = TRUCKS.filter((t) => t.cls === truck.cls && t.slug !== truck.slug);
+const licence = {
+  light: 'Category C1 (vehicles 3.5 to 7.5 tonnes). Drivers who passed their car test before 1 January 1997 usually already have C1. Professional drivers also need a Driver CPC.',
+  medium: 'Category C (rigid trucks over 7.5 tonnes), plus a Driver CPC for professional driving.',
+  heavy: 'Category C for rigids, or C+E for tractor units with trailers, plus a Driver CPC.',
+}[truck.cls];
+---
+<Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`}>
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/trucks/">Trucks</a> › <a href={`/trucks/#${truck.cls}`}>{c.short}</a></div>
+    <article class="prose">
+      <h1>{truck.name}</h1>
+      <p><span class="tag ev">Electric</span> <span class="tag">{c.short}</span></p>
+      <p class="lede">{truck.note}</p>
+
+      <div class="notice"><strong>Full guide coming.</strong> We're adding operator interviews, real-world range by duty and charging experience. Check exact specs, range and availability with the dealer.</div>
+
+      <h2>What work it suits</h2>
+      <p>{c.blurb}</p>
+      <p>Electric trucks work best on <strong>predictable routes that return to base</strong>, where they can charge overnight or between shifts. Before ordering, check your longest regular day, the payload you need after the battery weight, and whether your depot can supply enough power.</p>
+
+      <h2>Licence</h2>
+      <p>{licence}</p>
+
+      <h2>Grants</h2>
+      <p>New electric trucks have been eligible for the government's <strong>Plug-in Truck Grant</strong>: up to £16,000 for trucks of 4.25 to 12 tonnes and up to £25,000 above 12 tonnes in 2025/26. The scheme has been extended into 2026/27, but the new amounts hadn't been confirmed when we last checked. <a href="/guides/grants-and-tax/">See grants and tax</a>.</p>
+
+      <h2>Charging</h2>
+      <p>Most operators charge at their own depot. Bigger trucks need high-power chargers, and getting a large enough grid connection can take a long time, so start that conversation early. <a href="/guides/depot-charging/">Depot charging guide</a>.</p>
+
+      {others.length > 0 && (
+        <>
+          <h2>Other electric trucks this size</h2>
+          <ul>{others.map((o) => <li><a href={`/trucks/${o.slug}/`}>{o.name}</a></li>)}</ul>
+        </>
+      )}
+
+      <div class="card" style="margin-top:2rem"><strong>Planning a switch across your fleet?</strong> Start with our <a href="/fleets/">fleet guides</a>.</div>
+    </article>
+  </div>
+</Base>

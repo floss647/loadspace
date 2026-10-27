@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
+---
+<Base title="Electric trucks in the UK: every model, 7.5 to 44 tonnes" description="Every electric truck on sale in the UK, from 7.5-tonne delivery trucks to 44-tonne tractor units, plus grants, charging and whether they're ready for your work.">
+  <div class="wrap">
+    <h1>Electric trucks</h1>
+    <p class="lede">From 7.5-tonne delivery trucks to 44-tonne tractor units. Electric trucks are still only about 1% of new truck sales in the UK, so most operators are at the "is it ready for us?" stage. We help you answer that.</p>
+
+    <div class="grid">
+      <a class="card" href="/guides/are-electric-trucks-ready/"><h3>Are electric trucks ready?</h3><p>Where they work today, where they don't yet, and what's holding operators back.</p></a>
+      <a class="card" href="/guides/grants-and-tax/"><h3>Grants</h3><p>The Plug-in Truck Grant and other support for operators.</p></a>
+      <a class="card" href="/guides/depot-charging/"><h3>Depot charging</h3><p>Grid connections, charger types and planning for a mixed fleet.</p></a>
+    </div>
+
+    {Object.entries(TRUCK_CLASSES).map(([key, c]) => (
+      <section id={key}>
+        <h2>{c.label}</h2>
+        <p class="muted">{c.blurb}</p>
+        <div class="grid">
+          {TRUCKS.filter((t) => t.cls === key).map((t) => (
+            <a class="card" href={`/trucks/${t.slug}/`}><h3>{t.name}</h3><p>{t.note}</p></a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <p class="notice small" style="margin-top:2rem"><strong>Line-ups change fast.</strong> New electric trucks are launching every few months. Check availability and specs with the maker or dealer before you order.</p>
+    <p class="small">Need something smaller? Electric vans up to 4.25 tonnes can be driven on a car licence: <a href="/vans/#large">see large electric vans</a>.</p>
+  </div>
+</Base>

@@ -19,8 +19,8 @@ const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 
     <div class="filters" role="group" aria-label="Filter by size or fuel">
       <button type="button" data-f="all" aria-pressed="true">All</button>
-      {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
       <button type="button" data-f="Electric" aria-pressed="false">Electric</button>
+      {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
     </div>
 
     <div class="table-wrap">

@@ -21,7 +21,7 @@ export const SIZES = {
   pickup: {
     label: 'Pickups',
     short: 'Pickup',
-    blurb: 'Towing and off-road work. Sales have dropped sharply since the 2025 company-car tax change for double-cabs.',
+    blurb: 'Towing and off-road work. The first electric pickups arrived in 2026. Diesel sales have dropped sharply since the 2025 tax change for double-cabs.',
   },
 };
 
@@ -108,6 +108,10 @@ export const VANS = [
     electricNote: 'Sold as the Kangoo E-Tech. The older Kangoo ZE is common used.',
   }),
   v('Nissan', 'Townstar', 'small', { twin: 'renault-small', electric: true }),
+  v('Citroën', 'ë-C3 Van', 'small', {
+    electric: true,
+    electricNote: 'Electric only. A car-based van and one of the cheapest electric vans in the UK.',
+  }),
   v('Mercedes-Benz', 'Citan', 'small', {
     twin: 'renault-small',
     electric: true,
@@ -192,15 +196,41 @@ export const VANS = [
   // Pickups
   v('Ford', 'Ranger', 'pickup', { twin: 'ford-vw-pickup', topSeller: true }),
   v('Volkswagen', 'Amarok', 'pickup', { twin: 'ford-vw-pickup' }),
-  v('Toyota', 'Hilux', 'pickup'),
-  v('Isuzu', 'D-Max', 'pickup'),
+  v('Toyota', 'Hilux', 'pickup', {
+    electric: true,
+    electricNote: 'A fully electric Hilux has been available to order in the UK since June 2026.',
+  }),
+  v('Isuzu', 'D-Max', 'pickup', {
+    electric: true,
+    electricNote: 'The D-Max EV went on sale in the UK in 2026, from about £60,000 excluding VAT, with 3.5-tonne towing.',
+  }),
   v('Mitsubishi', 'L200', 'pickup', { twin: 'mitsubishi-pickup' }),
   v('Nissan', 'Navara', 'pickup', { twin: 'mitsubishi-pickup' }),
-  v('KGM', 'Musso', 'pickup'),
-  v('Maxus', 'T60 / T90', 'pickup'),
-  v('BYD', 'Shark', 'pickup'),
+  v('KGM', 'Musso', 'pickup', {
+    electric: true,
+    electricNote: 'The Musso EV launched in the UK in 2026.',
+  }),
+  v('Maxus', 'T60 / T90', 'pickup', {
+    electric: true,
+    electricNote: 'The T90EV is one of the first fully electric pickups sold in the UK.',
+  }),
+  v('Maxus', 'eTerron 9', 'pickup', {
+    electric: true,
+    electricNote: 'Electric only. Official range up to 267 miles, from about £53,000 excluding VAT.',
+  }),
+  v('BYD', 'Shark', 'pickup', {
+    electricNote: 'The Shark is a plug-in hybrid. A fully electric version has not been confirmed for the UK.',
+  }),
   v('GWM', 'Cannon', 'pickup'),
 ];
+
+// Electric alternatives for a van with no electric version: twins first, then same size.
+export const electricAlternatives = (van) => {
+  const pool = VANS.filter((x) => x.electric && x.slug !== van.slug && x.size === van.size);
+  const twinEvs = pool.filter((x) => van.twin && x.twin === van.twin);
+  const rest = pool.filter((x) => !twinEvs.includes(x)).sort((a, b) => b.topSeller - a.topSeller);
+  return [...twinEvs, ...rest].slice(0, 6);
+};
 
 export const twinsOf = (van) =>
   van.twin ? VANS.filter((x) => x.twin === van.twin && x.slug !== van.slug) : [];

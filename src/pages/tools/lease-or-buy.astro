@@ -1,0 +1,102 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Lease, buy new or buy used? Van cost calculator" description="Compare the real cost of leasing a new van, buying new and buying used over the years you'll keep it, for VAT-registered and non-VAT-registered businesses.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
+    <div class="prose">
+      <h1>Lease, buy new or buy used?</h1>
+      <p class="lede">The real cost of each option over the time you'll keep the van, once resale value, finance and VAT are counted. The defaults are a rough medium-van example: replace them with your own quotes.</p>
+    </div>
+
+    <form id="calc" onsubmit="return false">
+      <div class="form">
+        <label>Years you'll keep the van<input type="number" id="years" value="3" min="1" max="10" step="1" /></label>
+        <label>Is your business VAT-registered?
+          <select id="vat"><option value="1" selected>Yes, I reclaim VAT</option><option value="0">No</option></select>
+        </label>
+      </div>
+
+      <h2>Lease new</h2>
+      <div class="form">
+        <label>Monthly payment (£, excl. VAT)<input type="number" id="lm" value="279" min="0" /></label>
+        <label>Upfront payment (months)<input type="number" id="lu" value="6" min="0" /></label>
+        <label>Arrangement fee (£, excl. VAT)<input type="number" id="lf" value="300" min="0" /></label>
+        <label>Servicing per year (£, excl. VAT)<input type="number" id="ls" value="250" min="0" /></label>
+      </div>
+
+      <h2>Buy new</h2>
+      <div class="form">
+        <label>Price after discount and grant (£, excl. VAT)<input type="number" id="np" value="32000" min="0" /></label>
+        <label>Value when you sell (£)<input type="number" id="nr" value="15500" min="0" /></label>
+        <label>Finance interest rate (APR %, 0 if paying cash)<input type="number" id="na" value="0" min="0" step="0.1" /></label>
+        <label>Deposit if financing (£)<input type="number" id="nd" value="3000" min="0" /></label>
+        <label>Servicing per year (£, excl. VAT)<input type="number" id="ns" value="250" min="0" /></label>
+      </div>
+
+      <h2>Buy used</h2>
+      <div class="form">
+        <label>Price (£)<input type="number" id="up" value="17000" min="0" /></label>
+        <label>Is VAT added to that price?
+          <select id="uv"><option value="0" selected>No (private sale or dealer margin scheme)</option><option value="1">Yes, plus VAT</option></select>
+        </label>
+        <label>Value when you sell (£)<input type="number" id="ur" value="9000" min="0" /></label>
+        <label>Servicing and repairs per year (£, excl. VAT)<input type="number" id="us" value="900" min="0" /></label>
+      </div>
+    </form>
+
+    <div class="result" aria-live="polite">
+      <div class="grid">
+        <div><div class="muted small">Lease new</div><div class="big" id="rL">–</div><div class="muted small" id="mL"></div></div>
+        <div><div class="muted small">Buy new</div><div class="big" id="rN">–</div><div class="muted small" id="mN"></div></div>
+        <div><div class="muted small">Buy used</div><div class="big" id="rU">–</div><div class="muted small" id="mU"></div></div>
+      </div>
+      <p id="verdict" style="margin:1rem 0 0"></p>
+    </div>
+
+    <div class="prose">
+      <h2>How it works</h2>
+      <ul>
+        <li><strong>Real cost</strong> = everything you pay over the years you keep the van, minus what you get back when you sell it.</li>
+        <li><strong>Lease:</strong> upfront payment, monthly payments, fee and servicing. Nothing back at the end.</li>
+        <li><strong>Buy:</strong> purchase price, finance interest, servicing and repairs, minus the value when you sell.</li>
+        <li><strong>VAT:</strong> if you're not VAT-registered, lease payments, new prices and servicing cost 20% more, because you can't reclaim the VAT.</li>
+      </ul>
+      <p><strong>Not included:</strong> tax relief on purchases or lease payments, insurance, downtime when a van breaks, and lease mileage or damage charges. Check tax treatment with your accountant. <a href="/guides/lease-vs-buy/">Read the lease vs buy guide</a>.</p>
+      <p><strong>Electric vans:</strong> resale values have been unpredictable. Leasing passes that risk to the leasing company; buying used electric is cheap but you carry the battery risk.</p>
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const v = (id) => +$(id).value || 0;
+    const gbp = (n) => (n < 0 ? '-£' : '£') + Math.abs(Math.round(n)).toLocaleString('en-GB');
+    function loanInterest(principal, apr, months) {
+      if (principal <= 0 || apr <= 0 || months <= 0) return 0;
+      const r = apr / 100 / 12;
+      const pay = (principal * r) / (1 - Math.pow(1 + r, -months));
+      return pay * months - principal;
+    }
+    function calc() {
+      const years = Math.max(v('years'), 1), months = years * 12;
+      const vatMul = $('vat').value === '1' ? 1 : 1.2;
+      const lease = (v('lm') * v('lu') + v('lm') * (months - 1) + v('lf')) * vatMul + v('ls') * years * vatMul;
+      const newPrice = v('np') * vatMul;
+      const deposit = Math.min(v('nd'), newPrice);
+      const interest = v('na') > 0 ? loanInterest(newPrice - deposit, v('na'), months) : 0;
+      const buyNew = newPrice + interest + v('ns') * years * vatMul - v('nr');
+      const usedVat = $('uv').value === '1' && vatMul > 1 ? 1.2 : 1;
+      const buyUsed = v('up') * usedVat + v('us') * years * vatMul - v('ur');
+      const r = { L: lease, N: buyNew, U: buyUsed };
+      Object.entries(r).forEach(([k, x]) => {
+        $('r' + k).textContent = gbp(x);
+        $('m' + k).textContent = `${gbp(x / months)} a month over ${years} year${years > 1 ? 's' : ''}`;
+      });
+      const names = { L: 'Leasing new', N: 'Buying new', U: 'Buying used' };
+      const sorted = Object.entries(r).sort((a, b) => a[1] - b[1]);
+      $('verdict').innerHTML = `<strong>${names[sorted[0][0]]}</strong> is cheapest on these numbers, by ${gbp(sorted[1][1] - sorted[0][1])} over the next option.` + (interest ? ` Finance adds about ${gbp(interest)} of interest to buying new.` : '');
+    }
+    document.querySelectorAll('#calc input, #calc select').forEach((i) => i.addEventListener('input', calc));
+    calc();
+  </script>
+</Base>

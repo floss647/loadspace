@@ -1,15 +1,20 @@
 ---
 import Base from '../../layouts/Base.astro';
+const tools = [
+  ['/tools/electric-vs-diesel/', 'Electric vs diesel cost', 'Yearly running cost of an electric van against diesel, based on how and where you charge.'],
+  ['/tools/fleet-cost/', 'Fleet switch calculator', 'Yearly savings and payback when you switch some or all of a fleet to electric.'],
+  ['/tools/lease-or-buy/', 'Lease, buy new or buy used?', 'Compare all three over the years you keep the van, with or without VAT.'],
+  ['/tools/lease-true-cost/', 'Lease true-cost calculator', 'Turn any lease quote into a real monthly cost so you can compare deals fairly.'],
+  ['/tools/van-check/', 'Free van check', 'MOT history, mileage record, repeat advisories, tax and recalls for any UK van.'],
+  ['/reliability/', 'Most reliable vans', 'MOT failure rates by model and age from official DVSA data.'],
+];
 ---
-<Base title="Van tools and calculators" description="Free calculators for van buyers: electric vs diesel running costs and true lease cost.">
+<Base title="Electric van and fleet tools" description="Free calculators and checks for electric van and truck buyers and fleets: running costs, fleet savings, lease vs buy, van checks and reliability data.">
   <div class="wrap">
     <h1>Tools</h1>
-    <p class="lede">Quick calculators to check the numbers before you sign anything.</p>
+    <p class="lede">Check the numbers before you sign anything.</p>
     <div class="grid">
-      <a class="card" href="/tools/van-check/"><h3>Free van check</h3><p>MOT history, mileage record, repeat advisories, tax and recalls for any UK van.</p></a>
-      <a class="card" href="/reliability/"><h3>Most reliable vans</h3><p>MOT failure rates by model and age from official DVSA data.</p></a>
-      <a class="card" href="/tools/electric-vs-diesel/"><h3>Electric vs diesel cost</h3><p>Yearly running cost of an electric van against diesel, based on how and where you charge.</p></a>
-      <a class="card" href="/tools/lease-true-cost/"><h3>Lease true-cost calculator</h3><p>Turn any lease quote into a real monthly cost so you can compare deals fairly.</p></a>
+      {tools.map(([href, t, d]) => <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>)}
     </div>
   </div>
 </Base>

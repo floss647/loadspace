@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
-import { SIZES, VANS, TWINS, twinsOf } from '../../data/vans.js';
+import { SIZES, VANS, TWINS, twinsOf, electricAlternatives } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 
 export function getStaticPaths() {
@@ -17,8 +17,11 @@ const deals = DEALS.filter((d) => d.van === van.slug)
   .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 const isVan = van.size !== 'pickup';
+const electricOnly = /^Electric only/.test(van.electricNote);
+const alternatives = van.electric ? [] : electricAlternatives(van);
+const kind = isVan ? 'van' : 'pickup';
 ---
-<Base title={`${van.name} review and buying guide`} description={`${van.name}: what it is, its rebadged twins, electric version, used buying checks and lease deals.`}>
+<Base title={van.electric ? `${van.name} electric: review and buying guide` : `${van.name} review and electric alternatives`} description={`${van.name}: the electric version, whether it suits your work, rebadged twins, MOT reliability, used buying checks and lease deals.`}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/vans/">Vans</a> › <a href={`/vans/#${van.size}`}>{size.label}</a></div>
     <article class="prose">
@@ -32,6 +35,28 @@ const isVan = van.size !== 'pickup';
 
       <div class="notice"><strong>Full road test coming.</strong> We're adding loaded-up driving impressions, real-world economy and range, and owner interviews. This page already covers the buying basics.</div>
 
+      <h2>{van.electric ? (electricOnly ? `The electric ${van.model}` : `Is there an electric ${van.model}?`) : `Is there an electric ${van.model}?`}</h2>
+      {van.electric ? (
+        <>
+          <p>{electricOnly ? '' : 'Yes. '}{van.electricNote}</p>
+          <p><strong>It's likely to suit you if</strong> you do under about 100 miles a day, can charge off-street overnight, and work in or near towns. It's a harder sell for long motorway runs, heavy towing, or if you'll rely on public rapid chargers.</p>
+          <div class="btn-row">
+            <a class="btn" href="/tools/electric-vs-diesel/">Will it save me money?</a>
+            <a class="btn secondary" href="/guides/should-i-go-electric/">Should I go electric?</a>
+          </div>
+        </>
+      ) : (
+        <>
+          <p>{van.electricNote || `No. There is no fully electric ${van.model} on sale at the moment.`}</p>
+          {alternatives.length > 0 && (
+            <>
+              <p>Electric {kind}s of a similar size:</p>
+              <ul>{alternatives.map((a) => <li><a href={`/vans/${a.slug}/`}>{a.name}</a>{a.twin && van.twin && a.twin === van.twin ? ' (same van underneath)' : ''}</li>)}</ul>
+            </>
+          )}
+        </>
+      )}
+
       {twinInfo && (
         <>
           <h2>Same van, other badges</h2>
@@ -43,13 +68,6 @@ const isVan = van.size !== 'pickup';
         </>
       )}
 
-      <h2>Electric version</h2>
-      {van.electric ? (
-        <p>Yes. {van.electricNote} <a href="/tools/electric-vs-diesel/">Compare running costs against diesel</a>, and if you're buying used, read our <a href="/guides/used-electric-van-buying-guide/">used electric van checks</a>.</p>
-      ) : (
-        <p>{van.electricNote || `There is no fully electric ${van.model} on sale at the moment.`}</p>
-      )}
-
       <Reliability slug={van.slug} name={van.name} />
 
       <h2>Buying used: what to check</h2>
@@ -58,10 +76,12 @@ const isVan = van.size !== 'pickup';
         <li><strong>Service history and recalls.</strong> Ask for the full history and check outstanding recalls with the maker using the registration.</li>
         <li><strong>The load area.</strong> Damaged floors, bulkheads and side panels show how hard it worked. Ply lining hides damage, so look underneath.</li>
         <li><strong>Mileage against age.</strong> Ex-fleet vans often cover 20,000+ miles a year. High miles on motorways can be kinder than low miles of stop-start work.</li>
-        <li><strong>Diesel particulate filter (DPF).</strong> Short-trip diesel vans clog them. Warning lights or a history of "regens" mean costly repairs.</li>
-        {van.electric && <li><strong>Electric versions: battery health.</strong> Ask for a battery health (State of Health) report and check what's left of the battery warranty.</li>}
+        {!electricOnly && <li><strong>Diesel particulate filter (DPF).</strong> Short-trip diesel vans clog them. Warning lights or a history of "regens" mean costly repairs.</li>}
+        {van.electric && <li><strong>{electricOnly ? 'Battery health.' : 'Electric versions: battery health.'}</strong> Ask for a battery health (State of Health) certificate, check what's left of the battery warranty, and see our <a href="/guides/used-electric-van-buying-guide/">used electric van checks</a>.</li>}
         <li><strong>Payload after conversion.</strong> Racking, tail lifts and fit-outs all eat payload. Check the plated weight against what you carry.</li>
       </ul>
+
+      <div class="card" style="margin-top:2rem"><strong>Running several of these?</strong> See our <a href="/fleets/">fleet guides</a> and the <a href="/tools/fleet-cost/">fleet switch calculator</a>.</div>
 
       <h2>Lease deals</h2>
       {DEALS_ARE_SAMPLE && <p class="notice small"><strong>Sample prices.</strong> These figures are placeholders while we connect live broker feeds. They are not real offers.</p>}

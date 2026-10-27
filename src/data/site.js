@@ -1,7 +1,7 @@
 // Working brand name. Change it here and it updates across the whole site.
 export const SITE = {
   name: 'Loadspace',
-  tagline: 'Independent van advice for people who work out of one.',
+  tagline: 'Going electric with your van or truck? Straight answers.',
   description:
-    'Independent UK van reviews, used and electric van buying guides, leasing advice and tools for tradespeople and small businesses.',
+    'Independent UK advice on electric vans and trucks, new and used, for small businesses and fleets. Reviews, running costs, charging, grants, reliability data and lease deals.',
 };

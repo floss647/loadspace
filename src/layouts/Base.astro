@@ -8,12 +8,11 @@ const path = Astro.url.pathname;
 const nav = [
   ['/vans/', 'Vans'],
   ['/used-electric-vans/', 'Used electric'],
-  ['/guides/', 'Guides'],
-  ['/tools/van-check/', 'Van check'],
-  ['/reliability/', 'Reliability'],
+  ['/trucks/', 'Trucks'],
+  ['/fleets/', 'Fleets'],
   ['/tools/', 'Tools'],
+  ['/guides/', 'Guides'],
   ['/deals/', 'Deals'],
-  ['/podcast/', 'Podcast'],
 ];
 const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b) => b.length - a.length)[0];
 ---
@@ -51,7 +50,7 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
         </div>
         <div>
           <a href="/about/">About and how we make money</a><br />
-          <a href="/guides/">Guides</a> · <a href="/tools/">Tools</a> · <a href="/deals/">Deals</a>
+          <a href="/tools/van-check/">Van check</a> · <a href="/reliability/">Reliability</a> · <a href="/podcast/">Podcast</a>
         </div>
       </div>
     </footer>
