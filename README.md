@@ -47,3 +47,8 @@ Set these in Netlify, never in code: `DVLA_API_KEY`, `MOT_CLIENT_ID`, `MOT_CLIEN
 Until keys are set, the page says checks are "being switched on". The site works with either API on its own.
 
 Test without keys: `node scripts/test-van-check.mjs`
+
+## Hosting
+
+Live at https://loadspace-vans.netlify.app (Netlify project `loadspace-vans`, site ID `a03df618-92d0-461d-b5de-16dce9d8e585`).
+Deploy updates to this site ID rather than creating a new site.
