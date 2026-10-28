@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Thanks">
+  <div class="wrap prose">
+    <h1>Thanks, we've got it</h1>
+    <p class="lede" id="msg">We'll be in touch soon.</p>
+    <p>While you wait: <a href="/tools/electric-vs-diesel/">run the running-cost numbers</a>, read <a href="/guides/should-i-go-electric/">should I go electric?</a>, or <a href="/vans/">browse electric vans</a>.</p>
+  </div>
+  <script>
+    const f = new URLSearchParams(location.search).get('f');
+    const msgs = {
+      newsletter: "You're on the list. Look out for our next email.",
+      charger: "We'll be in touch about your charger quotes, usually within two working days.",
+      fleet: "We'll reply to your fleet enquiry, usually within two working days.",
+      lease: "We'll pass your enquiry on and a broker will contact you with quotes.",
+    };
+    if (msgs[f]) document.getElementById('msg').textContent = msgs[f];
+  </script>
+</Base>

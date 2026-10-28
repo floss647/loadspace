@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Get electric van charger quotes" description="Get quotes for a home or depot charger for your electric van or fleet from vetted UK installers.">
+  <div class="wrap">
+    <div class="prose">
+      <h1>Get charger quotes</h1>
+      <p class="lede">Tell us what you need and we'll put you in touch with a vetted installer for a home charger or depot charging. Free, and no obligation.</p>
+    </div>
+    <form name="charger-quotes" method="POST" action="/thanks/?f=charger" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
+      <input type="hidden" name="form-name" value="charger-quotes" />
+      <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+      <div class="row">
+        <label>Where will you charge?
+          <select name="location" required>
+            <option value="">Choose…</option>
+            <option>At home (driveway or private parking)</option>
+            <option>At a business depot or yard</option>
+            <option>Both</option>
+          </select>
+        </label>
+        <label>How many vehicles?<input type="number" name="vehicles" min="1" value="1" required /></label>
+        <label>Van, truck or both?
+          <select name="vehicle_type"><option>Vans</option><option>Trucks</option><option>Both</option></select>
+        </label>
+        <label>When do you need it?
+          <select name="timescale"><option>Within a month</option><option>1–3 months</option><option>3–12 months</option><option>Just researching</option></select>
+        </label>
+      </div>
+      <div class="row">
+        <label>Your name<input name="name" required autocomplete="name" /></label>
+        <label>Business name (optional)<input name="business" autocomplete="organization" /></label>
+        <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+        <label>Phone<input type="tel" name="phone" required autocomplete="tel" /></label>
+        <label>Postcode<input name="postcode" required autocomplete="postal-code" /></label>
+      </div>
+      <label>Anything else we should know? (optional)<textarea name="notes" placeholder="e.g. parking setup, existing electrics, vehicles you're getting"></textarea></label>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required /> I agree that Loadspace can contact me about my request and share my details with one or more charger installers so they can quote. <a href="/privacy/">Privacy</a></label>
+      <div><button class="btn" type="submit">Get quotes</button></div>
+    </form>
+    <div class="prose">
+      <h2>Before you get quotes</h2>
+      <ul>
+        <li><strong>Home charging</strong> needs off-street parking. If the van belongs to your employer, agree how electricity will be repaid first.</li>
+        <li><strong>Depot charging</strong> may need a bigger electricity supply. Read our <a href="/guides/depot-charging/">depot charging guide</a>.</li>
+        <li><strong>Grants</strong> for chargers change often. Ask installers what currently applies.</li>
+      </ul>
+    </div>
+  </div>
+</Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../data/deals.js';
+import { FEATURES } from '../data/site.js';
 import { VANS, SIZES } from '../data/vans.js';
 const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
 const rows = DEALS.map((d) => ({ ...d, van: bySlug[d.van], tc: trueCost(d) }))
@@ -34,7 +35,7 @@ const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
               <td class="num">{gbp(d.monthly)}</td>
               <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
               <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>
-              <td><span class="btn small" aria-disabled="true" style="opacity:.6;cursor:default">Get quote</span></td>
+              <td><a class="btn small" href={`/get-lease-quotes/?van=${d.van.slug}`}>{FEATURES.leaseQuotes ? 'Get quote' : 'Notify me'}</a></td>
             </tr>
           ))}
         </tbody>

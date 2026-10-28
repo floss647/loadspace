@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { FEATURES } from '../data/site.js';
+import { EV_VANS } from '../data/vans.js';
+const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
+---
+<Base title="Electric van lease quotes" description="Get electric van lease quotes for your business.">
+  <div class="wrap">
+    <div class="prose">
+      <h1>Electric van lease quotes</h1>
+      {FEATURES.leaseQuotes ? (
+        <p class="lede">Tell us which van you're after and we'll pass your enquiry to a leasing broker for quotes.</p>
+      ) : (
+        <>
+          <p class="lede">Lease quotes are coming soon. Sign up and we'll tell you when they open, along with the best electric van deals.</p>
+          <Newsletter source="lease-quotes" />
+          <p style="margin-top:1.5rem">Meanwhile, compare <a href="/deals/">sample deals by true cost</a> or use the <a href="/tools/lease-or-buy/">lease, buy new or buy used calculator</a>.</p>
+        </>
+      )}
+    </div>
+    {FEATURES.leaseQuotes && (
+      <form name="lease-quotes" method="POST" action="/thanks/?f=lease" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
+        <input type="hidden" name="form-name" value="lease-quotes" />
+        <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+        <div class="row">
+          <label>Van
+            <select name="van" id="van">{vans.map((v) => <option value={v.slug}>{v.name}</option>)}</select>
+          </label>
+          <label>How many?<input type="number" name="quantity" min="1" value="1" /></label>
+          <label>Miles per year<input type="number" name="miles" min="0" step="1000" value="10000" /></label>
+          <label>Lease length
+            <select name="term"><option>24 months</option><option selected>36 months</option><option>48 months</option></select>
+          </label>
+          <label>VAT-registered business?
+            <select name="vat"><option>Yes</option><option>No</option></select>
+          </label>
+        </div>
+        <div class="row">
+          <label>Your name<input name="name" required autocomplete="name" /></label>
+          <label>Business name<input name="business" autocomplete="organization" /></label>
+          <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+          <label>Phone<input type="tel" name="phone" required autocomplete="tel" /></label>
+        </div>
+        <label class="check"><input type="checkbox" name="consent" value="yes" required /> I agree that Loadspace can pass my details to a leasing broker so they can contact me with quotes. <a href="/privacy/">Privacy</a></label>
+        <div><button class="btn" type="submit">Get quotes</button></div>
+      </form>
+    )}
+  </div>
+  {FEATURES.leaseQuotes && (
+    <script>
+      const v = new URLSearchParams(location.search).get('van');
+      const sel = document.getElementById('van');
+      if (v && sel && [...sel.options].some((o) => o.value === v)) sel.value = v;
+    </script>
+  )}
+</Base>

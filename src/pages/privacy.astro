@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site.js';
+---
+<Base title="Privacy" description={`How ${SITE.name} uses your information.`}>
+  <div class="wrap prose">
+    <h1>Privacy</h1>
+    <p class="muted small">Last updated: October 2026</p>
+    <div class="notice small"><strong>To complete before launch:</strong> the legal name, address and contact email of the business that runs {SITE.name}. This page should also be checked by someone qualified.</div>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Newsletter:</strong> your email address and the type of business you tell us you run.</li>
+      <li><strong>Enquiry forms</strong> (charger quotes, fleet enquiries, lease quotes): the details you enter, such as your name, business, email, phone, postcode and what you need.</li>
+      <li><strong>Van check:</strong> the registration you enter, which we send to DVLA and DVSA to look up the vehicle. We don't store it.</li>
+    </ul>
+
+    <h2>How we use it</h2>
+    <ul>
+      <li>To send the newsletter you asked for. You can unsubscribe at any time.</li>
+      <li>To reply to your enquiry and, where you've agreed on the form, to pass your details to the partner you asked to hear from (for example a charger installer or leasing broker).</li>
+      <li>We don't sell your details, and we only share them for the purpose you agreed to.</li>
+    </ul>
+
+    <h2>Where it's stored</h2>
+    <p>Form submissions are stored by our website host, Netlify. We keep enquiry details only as long as needed to handle your request, and no longer than two years.</p>
+
+    <h2>Your rights</h2>
+    <p>You can ask to see, correct or delete the information we hold about you, or object to how we use it. You can also complain to the Information Commissioner's Office (ico.org.uk).</p>
+  </div>
+</Base>

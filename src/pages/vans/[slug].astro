@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
+import Cta from '../../components/Cta.astro';
 import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 
@@ -42,6 +43,8 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
         <a class="btn secondary" href="/guides/charging-an-electric-van/">How charging works</a>
       </div>
 
+      <Cta kind="charger" />
+
       {evTwins.length > 0 && (
         <>
           <h2>Same van, other badges</h2>
@@ -66,7 +69,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
 
       {!electricOnly && <Reliability slug={van.slug} name={van.baseName} />}
 
-      <div class="card" style="margin-top:2rem"><strong>Running several of these?</strong> See our <a href="/fleets/">fleet guides</a> and the <a href="/tools/fleet-cost/">fleet switch calculator</a>.</div>
+      <div class="card" style="margin-top:2rem"><strong>Running several of these?</strong> See our <a href="/fleets/">fleet guides</a>, the <a href="/tools/fleet-cost/">fleet switch calculator</a>, or <a href="/fleets/enquiry/">send us a fleet enquiry</a>.</div>
 
       <h2>Lease deals</h2>
       {DEALS_ARE_SAMPLE && <p class="notice small"><strong>Sample prices.</strong> These figures are placeholders while we connect live broker feeds. They are not real offers.</p>}
@@ -89,6 +92,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       ) : (
         <p>No deals listed yet. <a href="/deals/">See all electric van deals</a>.</p>
       )}
+ <Cta kind="lease" van={van} />
       <p class="small muted">Business contract hire, excluding VAT. "True cost" spreads the upfront payment and fees across the whole term. <a href="/tools/lease-true-cost/">How we work it out</a>.</p>
     </article>
   </div>

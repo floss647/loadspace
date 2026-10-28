@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Fleet electrification enquiry" description="Tell us about your fleet and get help planning a switch to electric vans or trucks: costs, charging and funding.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/fleets/">Fleets</a></div>
+    <div class="prose">
+      <h1>Planning to electrify your fleet?</h1>
+      <p class="lede">Tell us about your fleet and what you need help with. We'll get back to you, and with your agreement introduce you to vetted partners for charging, leasing or a full fleet review.</p>
+    </div>
+    <form name="fleet-enquiry" method="POST" action="/thanks/?f=fleet" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
+      <input type="hidden" name="form-name" value="fleet-enquiry" />
+      <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+      <div class="row">
+        <label>Vans in your fleet<input type="number" name="vans" min="0" value="10" /></label>
+        <label>Trucks in your fleet<input type="number" name="trucks" min="0" value="0" /></label>
+        <label>Electric already<input type="number" name="electric_now" min="0" value="0" /></label>
+        <label>When are vehicles due for renewal?
+          <select name="renewal"><option>Within 6 months</option><option>6–12 months</option><option>1–2 years</option><option>Not sure</option></select>
+        </label>
+      </div>
+      <fieldset style="border:0;padding:0;margin:0">
+        <legend style="font-weight:600;color:var(--ink);margin-bottom:.4rem">What would help? (tick any)</legend>
+        <label class="check"><input type="checkbox" name="help" value="Total cost comparison" /> Comparing total costs, electric vs diesel</label>
+        <label class="check"><input type="checkbox" name="help" value="Depot charging" /> Depot or home charging</label>
+        <label class="check"><input type="checkbox" name="help" value="Funding and leasing" /> Funding or leasing electric vehicles</label>
+        <label class="check"><input type="checkbox" name="help" value="Which vehicles can switch" /> Working out which vehicles can switch first</label>
+      </fieldset>
+      <div class="row">
+        <label>Your name<input name="name" required autocomplete="name" /></label>
+        <label>Job title<input name="job_title" autocomplete="organization-title" /></label>
+        <label>Company<input name="company" required autocomplete="organization" /></label>
+        <label>Work email<input type="email" name="email" required autocomplete="email" /></label>
+        <label>Phone (optional)<input type="tel" name="phone" autocomplete="tel" /></label>
+      </div>
+      <label>Anything else? (optional)<textarea name="notes" placeholder="e.g. typical daily miles, depot locations, payload needs"></textarea></label>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required /> I agree that Loadspace can contact me about this enquiry, and introduce me to relevant partners only if I agree to it first. <a href="/privacy/">Privacy</a></label>
+      <div><button class="btn" type="submit">Send enquiry</button></div>
+    </form>
+  </div>
+</Base>

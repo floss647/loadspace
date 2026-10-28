@@ -43,3 +43,7 @@ Track cost per mile, uptime and range in real conditions. Expand in waves as veh
 - **Grants** are available on eligible new electric vans and trucks.
 
 [Grants and tax](/guides/grants-and-tax/)
+
+## Get help
+
+[Send us a fleet enquiry](/fleets/enquiry/) and we'll help with costs, charging and funding.

@@ -1,0 +1,22 @@
+---
+// Newsletter sign-up, collected by Netlify Forms (form name: newsletter).
+const { compact = false, source = 'footer' } = Astro.props;
+---
+<form name="newsletter" method="POST" action="/thanks/?f=newsletter" data-netlify="true" netlify-honeypot="company_website" class="newsletter">
+  <input type="hidden" name="form-name" value="newsletter" />
+  <input type="hidden" name="source" value={source} />
+  <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+  <label>{compact ? 'Email' : 'Get electric van deals and news by email'}
+    <input type="email" name="email" required autocomplete="email" placeholder="you@business.co.uk" />
+  </label>
+  <label style="flex:0 1 auto">I'm
+    <select name="audience">
+      <option>a sole trader or small business</option>
+      <option>a fleet manager</option>
+      <option>a truck operator</option>
+      <option>just interested</option>
+    </select>
+  </label>
+  <button class="btn" type="submit">Sign up</button>
+</form>
+<p class="small muted" style="margin:.4rem 0 0">Weekly at most. Unsubscribe any time. <a href="/privacy/">Privacy</a>.</p>

@@ -40,3 +40,7 @@ updated: October 2026
 - **Cold weather:** expect noticeably less range in winter, especially with the heater on.
 - **Speed:** motorway driving uses far more than stop-start town work.
 - **Battery age:** check battery health on used vans.
+
+## Get quotes
+
+Need a home charger or depot charging? [Get quotes from vetted installers](/get-charger-quotes/).

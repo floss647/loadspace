@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE } from '../data/site.js';
+import Newsletter from '../components/Newsletter.astro';
 
 const { title, description = SITE.description } = Astro.props;
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
@@ -43,13 +44,17 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
       <slot />
     </main>
     <footer class="site-footer">
+      <div class="wrap" style="margin-bottom:1.5rem">
+        <Newsletter />
+      </div>
       <div class="wrap footer-cols">
         <div>
           <strong>{SITE.name}</strong><br />
           {SITE.tagline}
         </div>
         <div>
-          <a href="/about/">About and how we make money</a><br />
+          <a href="/about/">About and how we make money</a> · <a href="/privacy/">Privacy</a><br />
+          <a href="/get-charger-quotes/">Charger quotes</a> · <a href="/fleets/enquiry/">Fleet enquiries</a><br />
           <a href="/tools/van-check/">Van check</a> · <a href="/reliability/">Reliability</a> · <a href="/podcast/">Podcast</a>
         </div>
       </div>

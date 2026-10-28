@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
+import Cta from '../../components/Cta.astro';
 
 export function getStaticPaths() {
   return TRUCKS.map((truck) => ({ params: { slug: truck.slug }, props: { truck } }));
@@ -44,7 +45,7 @@ const licence = {
         </>
       )}
 
-      <div class="card" style="margin-top:2rem"><strong>Planning a switch across your fleet?</strong> Start with our <a href="/fleets/">fleet guides</a>.</div>
+      <Cta kind="fleet" />
     </article>
   </div>
 </Base>

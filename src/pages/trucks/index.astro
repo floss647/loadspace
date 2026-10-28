@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
+import Cta from '../../components/Cta.astro';
 ---
 <Base title="Electric trucks in the UK: every model, 7.5 to 44 tonnes" description="Every electric truck on sale in the UK, from 7.5-tonne delivery trucks to 44-tonne tractor units, plus grants, charging and whether they're ready for your work.">
   <div class="wrap">
@@ -25,6 +26,7 @@ import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
       </section>
     ))}
 
+    <Cta kind="fleet" />
     <p class="notice small" style="margin-top:2rem"><strong>Line-ups change fast.</strong> New electric trucks are launching every few months. Check availability and specs with the maker or dealer before you order.</p>
     <p class="small">Need something smaller? Electric vans up to 4.25 tonnes can be driven on a car licence: <a href="/vans/#large">see large electric vans</a>.</p>
   </div>

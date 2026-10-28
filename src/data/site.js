@@ -5,3 +5,10 @@ export const SITE = {
   description:
     'Independent UK advice on electric vans and trucks, new and used, for small businesses and fleets. Reviews, running costs, charging, grants, reliability data and lease deals.',
 };
+
+// Switches for features that need outside approval before going live.
+export const FEATURES = {
+  // Lease quote forms pass people to finance brokers, which is regulated credit broking.
+  // Keep false until FCA permission (or an appointed-representative arrangement) is in place.
+  leaseQuotes: false,
+};

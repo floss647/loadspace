@@ -1,0 +1,32 @@
+---
+// Call-to-action band. kind: charger | fleet | lease
+import { FEATURES } from '../data/site.js';
+const { kind, van } = Astro.props;
+const lease = FEATURES.leaseQuotes;
+const ctas = {
+  charger: {
+    title: 'Need a charger?',
+    text: 'Get quotes for a home charger or depot charging from vetted installers. Free, no obligation.',
+    href: '/get-charger-quotes/',
+    button: 'Get charger quotes',
+  },
+  fleet: {
+    title: 'Planning to electrify a fleet?',
+    text: 'Tell us about your vans and trucks and get help with costs, charging and funding.',
+    href: '/fleets/enquiry/',
+    button: 'Send a fleet enquiry',
+  },
+  lease: {
+    title: van ? `Lease the ${van.name}` : 'Lease an electric van',
+    text: lease ? 'Get quotes from a leasing broker, ranked by true monthly cost.' : 'Lease quotes are coming soon. Get notified when they open, plus the best electric van deals.',
+    href: van ? `/get-lease-quotes/?van=${van.slug}` : '/get-lease-quotes/',
+    button: lease ? 'Get lease quotes' : 'Get notified',
+  },
+};
+const c = ctas[kind];
+---
+<div class="cta-band">
+  <h3>{c.title}</h3>
+  <p>{c.text}</p>
+  <a class="btn" href={c.href}>{c.button}</a>
+</div>

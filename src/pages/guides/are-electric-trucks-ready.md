@@ -34,3 +34,5 @@ But big operators are moving: Amazon has ordered more than 140 Mercedes eActros 
 5. What **service and repair support** does the dealer offer for electric trucks?
 
 [See every electric truck on sale](/trucks/) · [Depot charging guide](/guides/depot-charging/) · [Grants](/guides/grants-and-tax/)
+
+[Send us a fleet enquiry](/fleets/enquiry/) if you're weighing up electric trucks.
