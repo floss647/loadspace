@@ -1,13 +1,4 @@
 {
- "citroen-berlingo": {
-  "file": "/images/vehicles/citroen-berlingo.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-Berlingo_Automesse_Ludwigsburg_2024_IMG_1657.jpg",
-  "author": "Alexander-93",
-  "licence": "CC BY-SA 4.0",
-  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "title": "File:Citroën ë-Berlingo Automesse Ludwigsburg 2024 IMG 1657.jpg",
-  "note": "Passenger (windowed) version shown; the van has the same front."
- },
  "citroen-dispatch": {
   "file": "/images/vehicles/citroen-dispatch.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:2024_Citro%C3%ABn_%C3%AB-Jumpy_Automesse_Ludwigsburg_2024_IMG_1391.jpg",
@@ -16,15 +7,6 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:2024 Citroën ë-Jumpy Automesse Ludwigsburg 2024 IMG 1391.jpg",
   "note": "Sold as the ë-Jumpy in mainland Europe."
- },
- "citroen-e-c3-van": {
-  "file": "/images/vehicles/citroen-e-c3-van.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-C3_Auto_Zuerich_2024_DSC_6102.jpg",
-  "author": "Alexander-93",
-  "licence": "CC BY-SA 4.0",
-  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "title": "File:Citroën ë-C3 Auto Zuerich 2024 DSC 6102.jpg",
-  "note": "Passenger car shown; the van shares the same body."
  },
  "citroen-relay": {
   "file": "/images/vehicles/citroen-relay.jpg",
@@ -118,12 +100,12 @@
  },
  "ford-transit-custom": {
   "file": "/images/vehicles/ford-transit-custom.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_Custom_(2023)_DSC_9255.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
   "author": "Alexander Migl",
   "licence": "CC BY-SA 4.0",
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "title": "File:Ford E-Transit Custom (2023) DSC 9255.jpg",
-  "note": "Windowed Kombi version shown."
+  "title": "File:Ford E-Transit Custom MS-RT DSC 9288.jpg",
+  "note": "MS-RT version shown."
  },
  "fuso-ecanter": {
   "file": "/images/vehicles/fuso-ecanter.jpg",
@@ -271,12 +253,12 @@
  },
  "peugeot-expert": {
   "file": "/images/vehicles/peugeot-expert.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Peugeot_e-Expert_Leonberg_2022_1X7A0469.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Peugeot_e-Expert_1X7A0428.jpg",
   "author": "Alexander Migl",
   "licence": "CC BY-SA 4.0",
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "title": "File:Peugeot e-Expert Leonberg 2022 1X7A0469.jpg",
-  "note": "Passenger e-Traveller shown; same body as the E-Expert van."
+  "title": "File:Peugeot e-Expert 1X7A0428.jpg",
+  "note": ""
  },
  "peugeot-partner": {
   "file": "/images/vehicles/peugeot-partner.jpg",
