@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Cta from '../../components/Cta.astro';
+import VehicleImage from '../../components/VehicleImage.astro';
 import { USED } from '../../data/used.js';
 import { SIZES } from '../../data/vans.js';
 
@@ -28,6 +29,7 @@ const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, '')
         <span class="tag">{size?.short}</span>
         {u.usedOnly && <span class="tag">No longer sold new</span>}
       </p>
+      <VehicleImage slug={u.slug} name={u.name} />
       <p class="lede">{u.summary}</p>
       {list(u.usedNames).length > 0 && <p class="small muted">Also listed in ads as: {list(u.usedNames).join(', ')}.</p>}
       {lowConfidence && <div class="notice small"><strong>Limited information.</strong> There are few used examples or little published data on this model so far. Check details carefully with the seller.</div>}

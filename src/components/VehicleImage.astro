@@ -1,0 +1,22 @@
+---
+// Vehicle photo with licence credit, or a neat placeholder if we don't have one yet.
+import images from '../data/images.json';
+const { slug, name, size = 'large' } = Astro.props;
+const img = images[slug];
+const card = size === 'card';
+---
+{img ? (
+  <figure class={card ? 'vimg vimg-card' : 'vimg'}>
+    <img src={img.file} alt={name} loading={card ? 'lazy' : 'eager'} width="1200" height="675" />
+    {!card && (
+      <figcaption class="small muted">
+        Photo: {img.author || 'Wikimedia Commons'}, <a href={img.page} rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, {img.licenceUrl ? <a href={img.licenceUrl} rel="nofollow noopener license" target="_blank">{img.licence}</a> : img.licence}{img.note ? `. ${img.note}` : ''}
+      </figcaption>
+    )}
+  </figure>
+) : (
+  <div class={card ? 'vimg vimg-card vimg-empty' : 'vimg vimg-empty'} role="img" aria-label={`${name} (photo coming soon)`}>
+    <svg viewBox="0 0 64 32" aria-hidden="true"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor"/></svg>
+    {!card && <span class="small">Photo coming soon</span>}
+  </div>
+)}

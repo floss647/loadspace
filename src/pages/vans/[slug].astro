@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
 import Cta from '../../components/Cta.astro';
+import VehicleImage from '../../components/VehicleImage.astro';
 import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 
@@ -30,6 +31,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
         <span class="tag">{size.short}</span>
         {van.topSeller && <span class="tag top">Top-selling model</span>}
       </p>
+      <VehicleImage slug={van.slug} name={van.name} />
       <p class="lede">{van.intro || `A ${size.short.toLowerCase()} electric ${kind}. ${size.blurb}`}</p>
       {note && <p>{note}</p>}
       {!electricOnly && <p class="small muted">Also sold with diesel or petrol engines as the {van.baseName}.</p>}

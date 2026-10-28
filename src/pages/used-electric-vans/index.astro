@@ -2,13 +2,14 @@
 import Base from '../../layouts/Base.astro';
 import { EV_VANS, SIZES } from '../../data/vans.js';
 import { USED, usedBySlug } from '../../data/used.js';
+import VehicleImage from '../../components/VehicleImage.astro';
 // Every electric model with a used guide, plus new models that don't have one yet.
 const items = [
   ...EV_VANS.map((v) => {
     const u = usedBySlug[v.slug];
-    return { name: v.name, size: v.size, href: u ? `/used-electric-vans/${v.slug}/` : `/vans/${v.slug}/`, text: u ? u.summary : 'Too new for many used examples yet.', guide: !!u };
+    return { slug: v.slug, name: v.name, size: v.size, href: u ? `/used-electric-vans/${v.slug}/` : `/vans/${v.slug}/`, text: u ? u.summary : 'Too new for many used examples yet.', guide: !!u };
   }),
-  ...USED.filter((u) => u.usedOnly).map((u) => ({ name: u.name, size: u.size, href: `/used-electric-vans/${u.slug}/`, text: u.summary, guide: true, usedOnly: true })),
+  ...USED.filter((u) => u.usedOnly).map((u) => ({ slug: u.slug, name: u.name, size: u.size, href: `/used-electric-vans/${u.slug}/`, text: u.summary, guide: true, usedOnly: true })),
 ];
 const short = (t) => (t && t.length > 140 ? t.slice(0, t.lastIndexOf(' ', 137)) + '…' : t);
 ---
@@ -44,7 +45,7 @@ const short = (t) => (t && t.length > 140 ? t.slice(0, t.lastIndexOf(' ', 137)) 
         <h3>{s.label}</h3>
         <div class="grid">
           {items.filter((v) => v.size === k).sort((a, b) => b.guide - a.guide || a.name.localeCompare(b.name)).map((v) => (
-            <a class="card" href={v.href}><h3>{v.name}</h3><p>{v.usedOnly && <span class="tag">No longer sold new</span>} {short(v.text)}</p></a>
+            <a class="card has-img" href={v.href}><VehicleImage slug={v.slug} name={v.name} size="card" /><h3>{v.name}</h3><p>{v.usedOnly && <span class="tag">No longer sold new</span>} {short(v.text)}</p></a>
           ))}
         </div>
       </>

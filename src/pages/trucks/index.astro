@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
 import Cta from '../../components/Cta.astro';
+import VehicleImage from '../../components/VehicleImage.astro';
 ---
 <Base title="Electric trucks in the UK: every model, 7.5 to 44 tonnes" description="Every electric truck on sale in the UK, from 7.5-tonne delivery trucks to 44-tonne tractor units, plus grants, charging and whether they're ready for your work.">
   <div class="wrap">
@@ -20,7 +21,7 @@ import Cta from '../../components/Cta.astro';
         <p class="muted">{c.blurb}</p>
         <div class="grid">
           {TRUCKS.filter((t) => t.cls === key).map((t) => (
-            <a class="card" href={`/trucks/${t.slug}/`}><h3>{t.name}</h3><p>{t.note}</p></a>
+            <a class="card has-img" href={`/trucks/${t.slug}/`}><VehicleImage slug={t.slug} name={t.name} size="card" /><h3>{t.name}</h3><p>{t.note}</p></a>
           ))}
         </div>
       </section>

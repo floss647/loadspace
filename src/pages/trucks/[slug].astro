@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
 import Cta from '../../components/Cta.astro';
+import VehicleImage from '../../components/VehicleImage.astro';
 
 export function getStaticPaths() {
   return TRUCKS.map((truck) => ({ params: { slug: truck.slug }, props: { truck } }));
@@ -21,6 +22,7 @@ const licence = {
     <article class="prose">
       <h1>{truck.name}</h1>
       <p><span class="tag ev">Electric</span> <span class="tag">{c.short}</span></p>
+      <VehicleImage slug={truck.slug} name={truck.name} />
       <p class="lede">{truck.note}</p>
 
       <div class="notice"><strong>Full guide coming.</strong> We're adding operator interviews, real-world range by duty and charging experience. Check exact specs, range and availability with the dealer.</div>

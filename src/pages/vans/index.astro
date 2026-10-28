@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SIZES, EV_VANS, NON_EV_VANS, TWINS } from '../../data/vans.js';
+import VehicleImage from '../../components/VehicleImage.astro';
 ---
 <Base title="Every electric van on sale in the UK" description="Every electric van and pickup on sale in the UK, by size, with rebadged twins marked.">
   <div class="wrap">
@@ -13,7 +14,8 @@ import { SIZES, EV_VANS, NON_EV_VANS, TWINS } from '../../data/vans.js';
         <p class="muted">{s.blurb}</p>
         <div class="grid">
           {EV_VANS.filter((v) => v.size === key).sort((a, b) => b.topSeller - a.topSeller).map((v) => (
-            <a class="card" href={`/vans/${v.slug}/`}>
+            <a class="card has-img" href={`/vans/${v.slug}/`}>
+              <VehicleImage slug={v.slug} name={v.name} size="card" />
               <h3>{v.name}</h3>
               <p>
                 {v.topSeller && <span class="tag top">Top-selling model</span>}
