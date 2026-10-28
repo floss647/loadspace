@@ -2,45 +2,74 @@
   {
     "slug": "mercedes-benz-vito",
     "name": "Mercedes-Benz eVito Panel Van",
-    "usedNames": ["eVito", "Vito e", "eVito 111", "eVito 112", "eVito 114 e", "eVito 116 e", "eVito Tourer (passenger version)"],
-    "summary": "A mid-size electric van with a Mercedes badge and a good cabin, but the early versions have very short range. On the used market there are two very different vans: the early 41kWh van, which has about 90 miles of official range and no rapid charging, and the later 66kWh van (60kWh usable), which has about 160 miles and CCS rapid charging. The early van only suits short, fixed urban rounds. The 66kWh van is the one most buyers should look for.",
+    "usedNames": [
+      "eVito",
+      "Vito e",
+      "eVito 111",
+      "eVito 112",
+      "eVito 114 e",
+      "eVito Tourer (passenger version)"
+    ],
+    "summary": "A mid-size electric van with a Mercedes badge and a good cabin, but the early versions have very short range. On the used market there are two very different vans: the early 41kWh van, which has about 90 miles of official range and no rapid charging, and the later 66kWh van (60kWh usable), which has 162 miles WLTP and CCS rapid charging. The early van only suits short, fixed urban rounds. The 66kWh van is the one most buyers should look for.",
     "generations": [
       {
-        "years": "2019-c.2021/22",
+        "years": "2019-2022",
         "label": "eVito first version (41kWh)",
         "batteries": [
-          { "kWh": "41 (gross) / 35 usable", "wltpMiles": "92-93", "realWorldMiles": "about 70-85 (EV Database estimate 75)", "notes": "Sold as the eVito 111/112/114 e. Some ads still list 2021 vans with the 41kWh pack, so check the battery size on the V5C or spec, not just the year." }
+          {
+            "kWh": "41 (gross) / 35 usable",
+            "wltpMiles": "92",
+            "realWorldMiles": "about 70-85 (EV Database estimate 75)",
+            "notes": "Sold as the eVito 111/112/114 e. Parkers says the early van could only charge on AC, with a full charge taking about six hours at best on a three-phase wallbox. Some ads may still list later-registered vans with the 41kWh pack, so check the battery size on the spec, not just the year."
+          }
         ],
         "acKw": "7.4",
-        "dcKw": "None (no rapid charging, per Driving Electric and EV database listings)",
+        "dcKw": "None (no rapid charging, per Parkers)",
         "connector": "Type 2 only",
         "notes": "Motor 85kW (114hp), front-wheel drive. Not having DC charging is the big limitation."
       },
       {
-        "years": "c.2021/22-on",
-        "label": "eVito 66kWh (later Pro/Select trims)",
+        "years": "2022-on",
+        "label": "eVito 66kWh (Progressive/Premium, later Pro/Select)",
         "batteries": [
-          { "kWh": "66 (gross) / 60 usable", "wltpMiles": "about 159-163 (162 L2, 160 L3 per UK leasing specs)", "realWorldMiles": "about 120-130 (Autotrader cold test with 250kg load showed 124 miles indicated at full)", "notes": "Badged eVito 116 e or listed as '66kWh' in ads. Earlier trims were Progressive and Premium; later ones are Pro and Select." }
+          {
+            "kWh": "66 (gross) / 60 usable",
+            "wltpMiles": "162 (Parkers; up to 162 depending on spec)",
+            "realWorldMiles": "about 120-130 (Autotrader cold test with 250kg load showed 124 miles indicated at full)",
+            "notes": "Parkers lists the 66kWh van with the same 85kW (114hp) motor as before. Trims were Progressive and Premium at launch (2022), later Pro and Select. The bigger battery cut payload."
+          }
         ],
         "acKw": "11",
-        "dcKw": "80",
+        "dcKw": "80 (10-80% in about 35 minutes, per Parkers)",
         "connector": "CCS",
-        "notes": "Mercedes also made a 90kWh-usable (100kWh gross) panel van from 2025, but Auto Express reports it was not brought to the UK for lack of demand. UK ads for '100kWh' eVitos are the eVito Tourer passenger version or imports, not the panel van."
+        "notes": "AC: a full charge takes about 6.5 hours on an 11kW wallbox. Launch price from £43,600 ex VAT (2022). Mercedes also made a 90kWh-usable (100kWh gross) version. Parkers' UK price data lists the 100kWh battery only on Tourer/9-seater passenger versions, not the panel van, which matches Auto Express's report that the 100kWh panel van wasn't brought to the UK."
       }
     ],
-    "batteryWarranty": "8 years / 160,000km (about 100,000 miles), covering capacity falling below 70% (Mercedes-Benz Vans' battery certificate, as reported by UK reviews). Coverage is tied to the vehicle, so it should pass to the next owner, but check the remaining term with a Mercedes dealer using the VIN.",
+    "batteryWarranty": "8 years, covering capacity falling below 70%. Parkers gives the mileage as 160,000km (about 99,500 miles) in its review and 100,000 miles in its 2022 launch report (one section of the review says 62,000 miles, which looks like an error). The cover is tied to the vehicle, so it should pass to the next owner, but check the remaining term and mileage limit with a Mercedes dealer using the VIN. The base van warranty is 3 years / unlimited miles.",
     "knownIssues": [
-      { "issue": "Very short range on 41kWh vans", "detail": "The 2019-21 41kWh van has about 75-85 miles of real range and no DC charging. Reviewers list the lack of rapid charging as a main drawback.", "source": "https://www.drivingelectric.com/mercedes-benz/vito" }
+      {
+        "issue": "Very short range on 41kWh vans",
+        "detail": "The 2019-22 41kWh van has 92 miles WLTP (about 75-85 real) and AC charging only. Parkers lists the lack of rapid charging and short range as the main drawbacks of early vans.",
+        "source": "https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/"
+      }
     ],
     "recalls": [
-      { "issue": "High-voltage battery housing corrosion protection may be insufficient. Fix: inspect, clean and wax the housing. Related European notices mention water getting into the battery, which can stop the van starting and raises the fire risk.", "years": "2019-2020 builds", "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-evito-and-esprinter-2020-builds" },
-      { "issue": "Battery management software fault that can cause loss of drive (eVito and eSprinter; reported in Germany in 2022, UK applicability not confirmed)", "years": "not confirmed", "source": "https://www.electrive.com/2022/03/30/recall-for-mercedes-esprinter-evito-models/" }
+      {
+        "issue": "High-voltage battery housing corrosion protection may be insufficient. Fix: inspect, clean and wax the housing. Related European notices mention water getting into the battery, which can stop the van starting and raises the fire risk.",
+        "years": "2019-2020 builds",
+        "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-evito-and-esprinter-2020-builds"
+      },
+      {
+        "issue": "Battery management software fault that can cause loss of drive (eVito and eSprinter; reported in Germany in 2022, UK applicability not confirmed)",
+        "years": "not confirmed",
+        "source": "https://www.electrive.com/2022/03/30/recall-for-mercedes-esprinter-evito-models/"
+      }
     ],
-    "usedPrices": "Approximate, from Autotrader UK listings and the Parkers guide (2026): 2020-21 41kWh vans cost about £9,000-£11,000. A 2021 41kWh van with 6,000 miles was listed at about £10,100 inc VAT. 66kWh vans cost about £12,000-£17,000 +VAT depending on age and mileage. Parkers values a 2020 66kWh L2 Progressive with 40k miles at about £16,700 at a dealer, and Autotrader listed a 2023 66kWh van with 17k miles at £13,499 +VAT. Prices are asking prices and approximate.",
-    "bestBuy": "A 66kWh (60kWh usable) van with 80kW CCS charging, ideally 2022-on with a Mercedes dealer service history and the recall work done. The extra range and rapid charging make it far more usable than the 41kWh van for little more money.",
+    "usedPrices": "Approximate. Parkers' guide values a 2023 (72-plate) 66kWh L2 Premium van at about £10,950 from a dealer, £9,750 privately and £6,500 part-exchange, based on 65,000 miles and excluding VAT (new price £57,300 inc VAT). Parkers' overall eVito range (£3,150-£52,500) includes the 100kWh Tourer passenger versions, so it is not a useful guide for panel vans. Earlier Autotrader snippets (not re-checked) showed 41kWh vans at about £9,000-£11,000 and 66kWh vans at about £12,000-£17,000 +VAT. Asking prices vary; treat all figures as approximate.",
+    "bestBuy": "A 66kWh van with 80kW CCS charging (2022-on), with a Mercedes dealer service history and the recall work done. The extra range and rapid charging make it far more usable than the 41kWh van for little more money.",
     "avoid": "41kWh vans, unless your daily round is reliably under about 60 miles and you can charge at base. Also avoid a van with open battery recalls. Don't assume a '100kWh eVito' advert is a panel van: it is likely the Tourer people-carrier.",
     "checks": [
-      "Confirm battery size: 41kWh (no rapid charging) or 66kWh. The year alone does not tell you, because some 2021 vans are 41kWh.",
+      "Confirm battery size: 41kWh (no rapid charging) or 66kWh. The 66kWh battery arrived in 2022, so check the spec rather than relying on the year.",
       "Check the gov.uk recall checker and ask a Mercedes dealer to confirm the HV battery housing recall (2019-20 builds) and any battery software updates are done.",
       "On a 66kWh van, test a CCS rapid charge, because DC charging is the main reason to choose it.",
       "Ask a Mercedes dealer for the remaining battery warranty (8 years from first registration) and a battery health readout.",
@@ -56,61 +85,116 @@
       "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-evito-and-esprinter-2020-builds",
       "https://www.electrive.com/2022/03/30/recall-for-mercedes-esprinter-evito-models/",
       "https://www.autotrader.co.uk/vans/used-vans/mercedes-benz/evito",
-      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/evito-2020/85kw-66kwh-(114ps)-l2-premium-van-fwd-auto/131/used-prices/",
-      "https://www.drivingelectric.com/mercedes-benz/sprinter"
+      "https://www.drivingelectric.com/mercedes-benz/sprinter",
+      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2022/mercedes-benz-evito-66kwh-battery-upgrade-specs-prices/",
+      "https://www.parkers.co.uk/vans-pickups/news/2021/mercedes-benz-evito/",
+      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/evito-2020/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/evito-2020/85kw-66kwh-(114ps)-l2-premium-van-fwd-auto/131/used-prices/"
     ],
-    "confidence": "medium. The battery sizes and charging figures are solid. Least certain: the exact changeover date from 41kWh to 66kWh in the UK (sources say 2021 or 2022), and whether every UK recall build range matches the European notices."
+    "confidence": "medium-high on specs. Battery sizes, WLTP, charging and the 2022 changeover are confirmed by Parkers. Least certain: the battery warranty mileage (Parkers gives conflicting figures), whether every UK recall build range matches the European notices, and used asking prices."
   },
   {
     "slug": "mercedes-benz-sprinter",
     "name": "Mercedes-Benz eSprinter",
-    "usedNames": ["eSprinter", "Sprinter e", "eSprinter 312", "eSprinter 314", "eSprinter 320"],
-    "summary": "There are two completely different eSprinters. The 2020-2023 first version is a front-drive conversion with a 35kWh or 47kWh usable battery and only about 70-95 miles of range. It is cheap used, but it only suits short local work. The 2024-on version is rear-drive, with an 81kWh or 113kWh battery and up to about 270 miles WLTP. It is a genuine long-distance large van, but there are few used examples and they are expensive.",
+    "usedNames": [
+      "eSprinter",
+      "Sprinter e",
+      "eSprinter 312",
+      "eSprinter 314",
+      "eSprinter 320"
+    ],
+    "summary": "There are two completely different eSprinters. The 2020-2023 first version is a front-drive van with a 55kWh battery and only 96 miles WLTP (less with a higher speed limiter). It is cheap used, but it only suits short local work. The 2024-on version is rear-drive, with an 81kWh or 113kWh battery and up to 271 miles WLTP. It is a genuine long-distance large van, but 113kWh versions are 4.25-tonne vans, used examples are few, and they are expensive.",
     "generations": [
       {
         "years": "2020-2023",
         "label": "eSprinter first generation (FWD)",
         "batteries": [
-          { "kWh": "41 (gross) / 35 usable", "wltpMiles": "about 70", "realWorldMiles": "about 60-70 (estimate, not tested)", "notes": "Rare in the UK." },
-          { "kWh": "55 (gross) / 47 usable", "wltpMiles": "about 93-96", "realWorldMiles": "about 75-90 (estimate, not tested)", "notes": "The common UK version, sold in L2 H2 Progressive trim, 85kW (114hp) motor." }
+          {
+            "kWh": "41 (gross) / 35 usable",
+            "wltpMiles": "about 70",
+            "realWorldMiles": "about 60-70 (estimate, not tested)",
+            "notes": "Not listed in Parkers' UK price data (which shows only the 55kWh first-generation van). UK sale not confirmed."
+          },
+          {
+            "kWh": "55 (gross) / 47 usable",
+            "wltpMiles": "96 with the 80km/h (50mph) speed limiter; 83 with the 120km/h (75mph) limiter (Parkers)",
+            "realWorldMiles": "about 75-90 (estimate, not tested)",
+            "notes": "The UK version, sold as an L2 H2 Progressive with an 85kW (114hp) motor. Payload about 774kg at launch (Parkers)."
+          }
         ],
-        "acKw": "7.4",
-        "dcKw": "20 standard or 80 optional. Ads say '20kW Charger' or '80kW Charger'.",
+        "acKw": "7.4 (full charge about 8 hours)",
+        "dcKw": "20 standard or 80 optional (10-80% in about 2 hours or 30 minutes, per Parkers). Ads say '20kW Charger' or '80kW Charger'.",
         "connector": "CCS",
-        "notes": "One body (L2 H2 high-roof panel van) was the main UK version. Payload was limited by the battery weight."
+        "notes": "One body (L2 H2 high-roof panel van) was the main UK version. Launch price about £51,950 ex VAT (2020). Payload was limited by the battery weight."
       },
       {
         "years": "2024-on",
         "label": "New eSprinter (RWD, on the 'Sprinter' platform)",
         "batteries": [
-          { "kWh": "81 (usable as quoted by Mercedes UK)", "wltpMiles": "up to about 163", "realWorldMiles": "not confirmed", "notes": "eSprinter 314/320 'Pro' and 'Select' trims." },
-          { "kWh": "113 (usable as quoted)", "wltpMiles": "about 271-277", "realWorldMiles": "about 200 (Electrifying.com in Comfort mode)", "notes": "A pre-production van covered 295 miles on one charge on a test route (Motor1). Higher-mileage summer driving gets closer to the WLTP figure." }
+          {
+            "kWh": "81",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' UK price data lists 81kWh vans and chassis cabs as the 314/320 (3.5t) and 414/420 (4.25t), with 100kW (134hp) or 150kW (201hp) motors, in Pro and Select trims. Arrived after the 113kWh version (late 2024)."
+          },
+          {
+            "kWh": "113",
+            "wltpMiles": "271 (414) / 263 (420), per Parkers",
+            "realWorldMiles": "about 200 (Electrifying.com in Comfort mode)",
+            "notes": "All 113kWh vans are rated at 4.25 tonnes GVW (414/420), per Parkers. A pre-production van covered 295 miles on one charge on a test route (Motor1)."
+          }
         ],
-        "acKw": "11",
-        "dcKw": "115",
+        "acKw": "11 (about 11 hours for a full charge on the 113kWh)",
+        "dcKw": "115 (10-80% in about 42 minutes on the 113kWh, per Parkers)",
         "connector": "CCS",
-        "notes": "A 56kWh version was announced for some markets. It is not confirmed as sold in the UK. Has a heat pump. UK prices when new were about £59k-£77k ex VAT."
+        "notes": "A 56kWh version was announced for some markets. It is not confirmed as sold in the UK. Parkers says the starting price was more than £73,000 ex VAT at the 2024 launch."
       }
     ],
-    "batteryWarranty": "8 years / 160,000km (about 100,000 miles) to 70% capacity, per UK reviews and Mercedes vans retailers. It is attached to the vehicle, so it passes to the next owner. On early vans, check the time left, because a 2020 van's battery cover runs out in 2028.",
+    "batteryWarranty": "8 years / 100,000 miles (160,000km), to 70% capacity, per Parkers. It is attached to the vehicle, so it should pass to the next owner. On early vans, check the time left, because a 2020 van's battery cover runs out in 2028. The base van warranty is 3 years / unlimited miles.",
     "knownIssues": [
-      { "issue": "Very short range on first-generation vans", "detail": "With 47kWh usable and a high-roof body, the official range is only about 93-96 miles, and reviewers cite poor range as the main weakness. Don't buy one for regular motorway work.", "source": "https://vans.honestjohn.co.uk/mercedes-benz/esprinter/" },
-      { "issue": "Slow 20kW DC charger fitted to many early vans", "detail": "Many 2020-21 vans have the 20kW DC charger, so a 'rapid' charge takes about 2 hours. Look for the '80kW Charger' in the ad title.", "source": "https://vanreviewer.co.uk/battery-charging-range/what-is-the-mercedes-esprinter-battery-range/" }
+      {
+        "issue": "Very short range on first-generation vans",
+        "detail": "With a 55kWh battery and a high-roof body, the official range is only 96 miles (83 with the higher speed limiter), and reviewers cite poor range as the main weakness. Don't buy one for regular motorway work.",
+        "source": "https://vans.honestjohn.co.uk/mercedes-benz/esprinter/"
+      },
+      {
+        "issue": "Slow 20kW DC charger fitted to many early vans",
+        "detail": "Many 2020-21 vans have the 20kW DC charger, so a 'rapid' charge takes about 2 hours. Look for the '80kW Charger' in the ad title.",
+        "source": "https://vanreviewer.co.uk/battery-charging-range/what-is-the-mercedes-esprinter-battery-range/"
+      },
+      {
+        "issue": "113kWh vans are 4.25 tonnes",
+        "detail": "Mercedes rates every 113kWh eSprinter at 4.25t GVW to keep a usable payload. Check the driver's licence entitlement (the electric-van derogation rules or C1) before buying.",
+        "source": "https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/"
+      }
     ],
     "recalls": [
-      { "issue": "High-voltage battery housing corrosion protection may be insufficient. Fix: inspect, clean and wax the housing. Related European notices mention water getting in, which can stop the van starting or raise the fire risk.", "years": "2019-2020 builds", "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-evito-and-esprinter-2020-builds" },
-      { "issue": "An HV 'battery gateway' control unit software fault can open all HV battery contactors without reason (loss of drive). Fix: software update.", "years": "2020-2021 builds", "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-esprinter-2020-2021-builds" },
-      { "issue": "Loose mounting bolts on the additional traction battery module (FWD vans). UK applicability not confirmed.", "years": "2019-2020 builds (per car-recalls.eu)", "source": "https://car-recalls.eu/recall/mercesdes-esprinter-battery-module/amp" }
+      {
+        "issue": "High-voltage battery housing corrosion protection may be insufficient. Fix: inspect, clean and wax the housing. Related European notices mention water getting in, which can stop the van starting or raise the fire risk.",
+        "years": "2019-2020 builds",
+        "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-evito-and-esprinter-2020-builds"
+      },
+      {
+        "issue": "An HV 'battery gateway' control unit software fault can open all HV battery contactors without reason (loss of drive). Fix: software update.",
+        "years": "2020-2021 builds",
+        "source": "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-esprinter-2020-2021-builds"
+      },
+      {
+        "issue": "Loose mounting bolts on the additional traction battery module (FWD vans). UK applicability not confirmed.",
+        "years": "2019-2020 builds (per car-recalls.eu)",
+        "source": "https://car-recalls.eu/recall/mercesdes-esprinter-battery-module/amp"
+      }
     ],
-    "usedPrices": "Approximate, from Autotrader and AutoUncle (mid/late 2026). First-generation 55kWh vans cost about £6,500-£14,000. AutoUncle's average for a Progressive is about £9,400 at about 34,500 miles. Examples: 2020 at 33k miles about £6,300-£8,500 +VAT, 2021 at 23k miles about £12,000 +VAT, and a 2022 at 17k miles about £13,500 +VAT. The 2024-on 81kWh/113kWh vans are scarce used, and asking prices are typically well above £30,000. Not enough listings to give a reliable range.",
-    "bestBuy": "For short local work on a budget: a 2021-23 55kWh van with the 80kW charger, a dealer history and the battery recalls done. For real range: a 2024-on 113kWh van, if you can find one and justify the price. It is the only eSprinter that does a full day's mixed driving.",
+    "usedPrices": "Approximate. Parkers' used price range across all eSprinter versions (both generations) is £4,425-£36,750. Earlier Autotrader and AutoUncle snippets (mid-2026, not re-checked) showed first-generation 55kWh vans at about £6,500-£14,000, with AutoUncle's average for a Progressive at about £9,400 at about 34,500 miles. The 2024-on 81kWh/113kWh vans are scarce used, so there is not enough data to give a reliable range for them.",
+    "bestBuy": "For short local work on a budget: a 2021-23 55kWh van with the 80kW charger, a dealer history and the battery recalls done. For real range: a 2024-on 113kWh van, if you can justify the price and your drivers can legally drive a 4.25t van. An 81kWh 314/320 is the 3.5t option.",
     "avoid": "Early vans with the 20kW DC charger, if you need to top up during the day. Any first-generation van bought for long routes. Vans with outstanding HV battery recalls.",
     "checks": [
       "Check whether it is a first-generation (FWD, 55kWh, up to 2023) or new (RWD, 81/113kWh, 2024-on) van. They are completely different vehicles.",
       "On first-generation vans, check whether the DC charger is 20kW or 80kW. It is usually in the ad title or the spec, and it is shown on the Mercedes build data.",
       "Run a gov.uk recall check, and ask a Mercedes dealer to confirm the HV battery housing and battery gateway software recalls are done.",
       "Work out the years left on the 8-year battery warranty from the first registration date. 2020 vans run out in 2028.",
-      "Check the payload on the plate. The first-generation van's battery weight cuts the payload, especially on converted bodies."
+      "Check the GVW plate. All 113kWh vans and the 414/420 models are 4.25t, and the first-generation van's battery weight cuts the payload."
     ],
     "sources": [
       "https://vans.honestjohn.co.uk/mercedes-benz/esprinter/",
@@ -125,37 +209,81 @@
       "https://www.transportengineer.org.uk/content/dsva-recalls/mercedes-benz-esprinter-2020-2021-builds",
       "https://car-recalls.eu/recall/mercesdes-esprinter-battery-module/amp",
       "https://www.autouncle.co.uk/en-gb/used-cars/Mercedes/E-Sprinter/t-Progressive",
-      "https://www.autotrader.co.uk/vans/used-vans/mercedes-benz/esprinter"
+      "https://www.autotrader.co.uk/vans/used-vans/mercedes-benz/esprinter",
+      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2020/mercedes-benz-esprinter/",
+      "https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/esprinter-2020/used-prices/"
     ],
-    "confidence": "medium. The first-generation specs, the 20/80kW charger split and the recalls are solid. Least certain: real-world range for the 81kWh van, whether a 56kWh version is sold in the UK, and used prices for the 2024-on van."
+    "confidence": "medium-high on specs. First-generation specs, the 20/80kW charger split, 113kWh range and the 4.25t rating are confirmed by Parkers. Least certain: WLTP and real-world range for the 81kWh van, whether a 41kWh or 56kWh version was ever sold in the UK, and used prices for the 2024-on van."
   },
   {
     "slug": "iveco-daily",
     "name": "Iveco eDaily",
-    "usedNames": ["eDaily", "Daily Electric", "Daily E 35S10", "eDaily 35S14", "eDaily 42S/50C/72C"],
+    "usedNames": [
+      "eDaily",
+      "Daily Electric",
+      "Daily E 35S10",
+      "eDaily 35S14",
+      "eDaily 42S/50C/72C"
+    ],
     "summary": "An electric version of the body-on-frame Daily, sold as a van or chassis cab from 3.5t up to 7.2t. It has modular 37kWh battery packs, so range depends entirely on how many packs a van has. It suits heavy-payload, conversion and tipper/Luton work better than most electric vans. Used examples are fairly rare, so specs vary widely.",
     "generations": [
       {
         "years": "2022/23-on (UK)",
         "label": "eDaily (MY22, with a MY24 update adding a fourth pack)",
         "batteries": [
-          { "kWh": "37 (1 pack)", "wltpMiles": "about 64-74 (3.5t, laden basis)", "realWorldMiles": "not confirmed", "notes": "100kW motor version (35S10). No DC charging, per Parkers." },
-          { "kWh": "74 (2 packs)", "wltpMiles": "about 146 (3.5t)", "realWorldMiles": "about 120-145 (twin-battery test drive about 146 miles claimed)", "notes": "140kW motor. The common 3.5t van spec." },
-          { "kWh": "111 (3 packs)", "wltpMiles": "up to about 186 (4.25t+, twin rear wheel)", "realWorldMiles": "not confirmed", "notes": "Heavier GVW versions only." },
-          { "kWh": "148 (4 packs)", "wltpMiles": "not confirmed", "realWorldMiles": "not confirmed", "notes": "Added with the 2024 update, heavy chassis versions." }
+          {
+            "kWh": "37 (1 pack)",
+            "wltpMiles": "74 (3.5t, half payload) / 68 (4.25t, full payload), per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": "Motor limited to 100kW (134hp). No DC charging, and towing limited to a 750kg unbraked trailer, per Parkers."
+          },
+          {
+            "kWh": "74 (2 packs)",
+            "wltpMiles": "146 (3.5t, half payload) / 124 (4.25t, full payload), per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": "140kW motor. The common 3.5t van spec. Can tow 3.5 tonnes."
+          },
+          {
+            "kWh": "111 (3 packs)",
+            "wltpMiles": "186 (4.25t, full payload), per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": "Heavier GVW versions only. Parkers sometimes calls this the 114kWh pack."
+          },
+          {
+            "kWh": "148 (4 packs)",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Added with the 2024 model-year update. Parkers says it is only available on the 7.2-tonne version."
+          },
+          {
+            "kWh": "77",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' UK price data also lists 77kWh versions (for example 35S14 chassis cabs, dropsides and tippers). Details not confirmed."
+          }
         ],
-        "acKw": "11",
-        "dcKw": "80 (2-3 pack versions). None on the 37kWh single pack.",
+        "acKw": "11 (about 9 hours from empty for a three-pack van). Parkers' price data also lists versions marked '[22kW]'.",
+        "dcKw": "80 (two packs or more). None on the 37kWh single pack. Parkers' report on the 2024 update mentions using 115kW chargers, but a higher DC peak is not confirmed.",
         "connector": "CCS",
-        "notes": "3.5t vans take one or two packs only. Iveco quotes the WLTP figures at a full payload, so they are lower than most rivals' figures."
+        "notes": "All versions are rear-wheel drive. 3.5t vans take one or two packs. Iveco quotes WLTP for 3.5t vans at half payload and for 4.25t vans at full payload, so figures are not directly comparable with rivals'. New prices ranged from about £56,000 to over £103,000 ex VAT (Parkers)."
       }
     ],
-    "batteryWarranty": "8 years / 155,000 miles for two- or three-pack vans, and 8 years / 100,000 miles for single-pack vans, to 80% of original capacity, per UK reviews and leasing specs. The base vehicle warranty is 3 years / 100,000 miles. Check with an Iveco dealer whether the battery cover transfers and how much is left.",
+    "batteryWarranty": "8 years to 80% of original capacity: 155,000 miles for two- or three-pack vans and 100,000 miles for single-pack vans, per Parkers. The base vehicle warranty is 3 years / 100,000 miles. Check with an Iveco dealer whether the battery cover transfers and how much is left.",
     "knownIssues": [
-      { "issue": "Single-battery vans cannot rapid charge", "detail": "The 37kWh version has no DC charging and a low real range, so it suits depot-based vans only. Check the pack count before buying.", "source": "https://parkers.co.uk/vans-pickups/iveco/daily/2023-edaily-review" }
+      {
+        "issue": "Single-battery vans cannot rapid charge",
+        "detail": "The 37kWh version has no DC charging and a low real range, so it suits depot-based vans only. Check the pack count before buying.",
+        "source": "https://www.parkers.co.uk/vans-pickups/iveco/daily/2023-edaily-review/"
+      },
+      {
+        "issue": "Expensive to replace a battery pack",
+        "detail": "Parkers reports Iveco's estimate of about £15,000 plus two hours' labour to fit one new 37kWh pack. Check pack health and warranty before buying.",
+        "source": "https://www.parkers.co.uk/vans-pickups/news/2023/iveco-edaily-2023/"
+      }
     ],
     "recalls": [],
-    "usedPrices": "Not enough electric-specific UK listings to give a reliable range (late 2026). Most used 'Daily' listings are diesel. Expect very wide variation by body (van, tipper, Luton), battery count and GVW. Check Autotrader with the fuel type filtered to electric.",
+    "usedPrices": "Approximate. Parkers' used price range for the eDaily (2022-on) is £7,450-£42,000, but it covers about 450 versions (vans, chassis cabs, tippers, dropsides; 3.5t to 7.2t; one to four packs), so it is only a rough guide. Electric-specific listings are few, so check prices against the exact body, battery count and GVW.",
     "bestBuy": "A 3.5t 74kWh (twin-pack) van with 80kW DC charging. It is the best balance of range and payload for licence-B drivers. For heavier bodies, a 4.25t+ 111kWh chassis.",
     "avoid": "Single-pack 37kWh vans, unless the work is very short-range with depot charging. Vans above 3.5t, unless drivers have the right licence (C1) or meet the rules for electric vans up to 4.25t on a car licence.",
     "checks": [
@@ -166,94 +294,149 @@
       "Confirm the remaining battery warranty and the 80% capacity threshold with Iveco."
     ],
     "sources": [
-      "https://parkers.co.uk/vans-pickups/iveco/daily/2023-edaily-review",
       "https://vanreviewer.co.uk/iveco/edaily/review/1988",
       "https://greenfleet.net/node/19580",
       "https://professionalpickup.com/first-drive-iveco-edaily-electric-van/",
       "https://ehv.mydigitalpublication.co.uk/articles/flexible-benefits",
       "https://www.xcitecarleasing.co.uk/iveco-van-lease-deals/personal/daily/other-e-35s10-electric-100kw-37kwh-business-van-3000-wb-auto/",
-      "https://pod-point.com/guides/vehicles/iveco/2023/edaily"
+      "https://pod-point.com/guides/vehicles/iveco/2023/edaily",
+      "https://www.parkers.co.uk/vans-pickups/iveco/daily/2023-edaily-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/iveco-edaily-2023/",
+      "https://www.parkers.co.uk/vans-pickups/iveco/edaily/2022/used-prices/"
     ],
-    "confidence": "low-medium. The battery modules and warranty are fairly solid. Least certain: real-world range, UK used prices (almost no data) and DVSA recalls (none found)."
+    "confidence": "medium. Battery packs, WLTP figures and warranty are confirmed by Parkers. Least certain: real-world range, the 77kWh versions in Parkers' data, the DC rate after the 2024 update, UK used prices (very little data) and DVSA recalls (none found)."
   },
   {
     "slug": "maxus-deliver-9",
     "name": "Maxus eDeliver 9",
-    "usedNames": ["eDeliver 9", "e Deliver 9", "Deliver 9 Electric", "LDV eDeliver 9 (other markets)"],
-    "summary": "A Transit-sized electric large van that was much cheaper than the European brands when new. That makes it one of the cheapest ways into a big used electric van. Range varies a lot by battery size, from about 112 to 219 miles WLTP. The front-wheel-drive layout and lots of standard equipment are pluses. The dealer network and resale values are the weak points.",
+    "usedNames": [
+      "eDeliver 9",
+      "e Deliver 9",
+      "Deliver 9 Electric",
+      "LDV eDeliver 9 (other markets)"
+    ],
+    "summary": "A Transit-sized electric large van that was much cheaper than the European brands when new. That makes it one of the cheapest ways into a big used electric van. Range varies a lot by battery size, from 112 to about 185 miles WLTP. The front-wheel-drive layout and lots of standard equipment are pluses. The dealer network and resale values are the weak points.",
     "generations": [
       {
         "years": "2021-on",
         "label": "eDeliver 9",
         "batteries": [
-          { "kWh": "51.5", "wltpMiles": "112", "realWorldMiles": "about 90-100 (estimate)", "notes": "Early entry battery." },
-          { "kWh": "72", "wltpMiles": "146", "realWorldMiles": "about 120-130 (estimate)", "notes": "The most common used spec." },
-          { "kWh": "88.5", "wltpMiles": "219", "realWorldMiles": "about 170-190 (estimate)", "notes": "Best for range." },
-          { "kWh": "65 or 77", "wltpMiles": "not confirmed", "realWorldMiles": "not confirmed", "notes": "Later UK price lists and ads show 65kWh (chassis cab/Luton) and 77kWh versions. Exact specs not confirmed." }
+          {
+            "kWh": "51.5",
+            "wltpMiles": "112",
+            "realWorldMiles": "about 90-100 (estimate)",
+            "notes": "Early entry battery."
+          },
+          {
+            "kWh": "72",
+            "wltpMiles": "146",
+            "realWorldMiles": "about 120-130 (estimate)",
+            "notes": "Common used spec."
+          },
+          {
+            "kWh": "88.55",
+            "wltpMiles": "184-185 (Parkers). Maxus's 219-mile claim is not a WLTP figure, per Parkers.",
+            "realWorldMiles": "about 150-165 (estimate)",
+            "notes": "Best for range. Long-wheelbase van only at launch. Payload about 860kg (Parkers)."
+          },
+          {
+            "kWh": "65 or 77",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' UK price data lists 65kWh chassis cabs and 77kWh vans, crew vans and chassis cabs (some N2-category, some with a '[22kW]' charger), plus 88kWh chassis cabs. WLTP and dates not confirmed."
+          },
+          {
+            "kWh": "100",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' UK price data lists LWB rear-wheel-drive 100kWh vans and chassis cabs with a 150kW (227ps) motor. Details not confirmed."
+          }
         ],
-        "acKw": "11",
-        "dcKw": "about 80 (0-80% in about 40-45 minutes, per Maxus)",
+        "acKw": "11 (full charge in about 6-8.5 hours, per Maxus via Parkers)",
+        "dcKw": "Peak not confirmed. 0-80% in about 40-45 minutes, depending on battery, per Maxus via Parkers.",
         "connector": "CCS",
-        "notes": "150kW motor, front-wheel drive. Sold as a panel van (MWB/LWB, various roofs), chassis cab and Luton."
+        "notes": "150kW (201hp) motor, front-wheel drive on the original versions. Sold as a panel van (MWB/LWB, various roofs), chassis cab and Luton. Launch prices £63,000-£71,000 ex VAT. Service every 2 years / 18,000 miles."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles is the most consistently reported figure (one leasing source says 150,000). The vehicle warranty is 5 years, with reports of 60,000 miles or 125,000 miles. Check the terms and transfer with a Maxus dealer (Harris Maxus is the UK distributor).",
+    "batteryWarranty": "8 years / 100,000 miles on the battery, per Parkers. The vehicle warranty is 5 years / 60,000 miles (Parkers). Check the terms and transfer with a Maxus dealer.",
     "knownIssues": [
-      { "issue": "Range varies hugely by battery", "detail": "WLTP range runs from 112 miles (51.5kWh) to 219 miles (88.5kWh). The ad title doesn't always state the battery, so check the V5C or spec.", "source": "https://www.electrifying.com/reviews/ford-reviews/e-transit-1/review" }
+      {
+        "issue": "Range varies hugely by battery",
+        "detail": "WLTP range runs from 112 miles (51.5kWh) to about 185 miles (88.55kWh), and later versions add 65, 77 and 100kWh batteries. The ad title doesn't always state the battery, so check the V5C or spec.",
+        "source": "https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-review/"
+      }
     ],
     "recalls": [
-      { "issue": "The handbrake cable's yellow plastic ferrule can fail, giving excess handbrake travel and letting the van move unexpectedly", "years": "2019-2022 builds (Deliver 9 and eDeliver 9)", "source": "https://www.transportengineer.org.uk/content/dsva-recalls/maxus-deliver-9edeliver-9-2019-2022-builds" }
+      {
+        "issue": "The handbrake cable's yellow plastic ferrule can fail, giving excess handbrake travel and letting the van move unexpectedly",
+        "years": "2019-2022 builds (Deliver 9 and eDeliver 9)",
+        "source": "https://www.transportengineer.org.uk/content/dsva-recalls/maxus-deliver-9edeliver-9-2019-2022-builds"
+      }
     ],
-    "usedPrices": "Approximate, from Autotrader and AutoUncle (2026). 2022 72kWh vans with about 28k miles cost about £11,000 +VAT. A 2023 88.5kWh van with about 32k miles was listed at about £13,500 +VAT. 2024 72kWh vans with low miles cost about £17,750 +VAT. Nearly new 2025 Lutons cost up to about £36,500. Prices fell steeply from new, which makes these vans good value but means resale will be weak too.",
-    "bestBuy": "An 88.5kWh panel van from 2022-on, with the handbrake recall done and a Maxus dealer history. It has more than 50% more range than the 72kWh van for a small price difference used.",
+    "usedPrices": "Approximate. Parkers' used price range for the eDeliver 9 (2020-on) is £5,500-£24,000 across all versions. Earlier Autotrader and AutoUncle snippets (2026, not re-checked) showed 2022 72kWh vans at about £11,000 +VAT, a 2023 88.5kWh van at about £13,500 +VAT and 2024 72kWh vans at about £17,750 +VAT. Prices fell steeply from new, which makes these vans good value but means resale will be weak too.",
+    "bestBuy": "An 88.55kWh panel van from 2022-on, with the handbrake recall done and a Maxus dealer history. It has about 25% more WLTP range than the 72kWh van, though payload is lower.",
     "avoid": "51.5kWh vans, unless the work is short-range. Any 2019-22 build without proof the handbrake recall was done.",
     "checks": [
-      "Confirm the battery size (51.5/72/88.5kWh, or the later 65/77kWh) from the V5C or Maxus build data.",
+      "Confirm the battery size (51.5/72/88.55kWh, or the later 65/77/88/100kWh) from the V5C or Maxus build data.",
       "Check the handbrake recall (2019-22 builds) on the gov.uk service. Test the handbrake on a slope: excess lever travel is the warning sign.",
       "Find your nearest Maxus service dealer before buying, because the network is thinner than Ford's or Mercedes'.",
       "Test a CCS rapid charge, and check that the infotainment and charging-schedule software has been updated by a dealer.",
       "Check the remaining battery warranty (8 years from first registration) with a Maxus dealer."
     ],
     "sources": [
-      "https://www.electrifying.com/reviews/ford-reviews/e-transit-1/review",
-      "https://parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-review",
       "https://www.vansdirect.co.uk/electric-vans-hub/electric-van-reviews/maxus-edeliver-9-review/",
       "https://trade.autotrader.co.uk/vans/content/maxus-deliver-9-review-panel-van-2020",
       "https://vanaways.co.uk/news/maxus-e-deliver-9-review",
       "https://www.transportengineer.org.uk/content/dsva-recalls/maxus-deliver-9edeliver-9-2019-2022-builds",
       "https://www.autotrader.co.uk/vans/used-vans/maxus/edeliver-9",
       "https://www.autouncle.co.uk/en-gb/used-cars/Maxus/eDeliver%209",
-      "https://www.gbcarleasing.co.uk/maxus-van-lease-deals/personal/deliver-9/chassiscab-e-mwb-electric-fwd-150kw-chassis-cab-77kwh-auto/"
+      "https://www.gbcarleasing.co.uk/maxus-van-lease-deals/personal/deliver-9/chassiscab-e-mwb-electric-fwd-150kw-chassis-cab-77kwh-auto/",
+      "https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2021/maxus-edeliver-9-electric-van/",
+      "https://www.parkers.co.uk/vans-pickups/maxus/e-deliver-9/2020/used-prices/"
     ],
-    "confidence": "medium. The original three batteries, WLTP figures and the handbrake recall are solid. Least certain: the later 65/77kWh versions, the exact DC peak rate, the vehicle warranty mileage and real-world range (no UK test found)."
+    "confidence": "medium. The original three batteries, WLTP figures, warranty and handbrake recall are confirmed. Least certain: specs and dates for the later 65/77/88/100kWh versions, the exact DC peak rate and real-world range (no UK test found)."
   },
   {
     "slug": "maxus-edeliver-7",
     "name": "Maxus eDeliver 7",
-    "usedNames": ["eDeliver 7", "e Deliver 7"],
-    "summary": "A medium van (Transit Custom size) launched in 2023/24. It has big batteries and up to about 220-230 miles WLTP, for a lower price than mainstream rivals. Used supply is thin and mostly low-mileage ex-demonstrator or pre-registered stock. It is an interesting value buy if there is a Maxus dealer nearby.",
+    "usedNames": [
+      "eDeliver 7",
+      "e Deliver 7"
+    ],
+    "summary": "A medium van (Transit Custom size) launched in 2023/24. It has big batteries and up to about 225-230 miles WLTP, for a lower price than mainstream rivals. Used supply is thin and mostly low-mileage ex-demonstrator or pre-registered stock. It is an interesting value buy if there is a Maxus dealer nearby.",
     "generations": [
       {
         "years": "2023/24-on",
         "label": "eDeliver 7",
         "batteries": [
-          { "kWh": "77 (usable as quoted)", "wltpMiles": "about 188-193", "realWorldMiles": "not confirmed", "notes": "L1 or L2, H1." },
-          { "kWh": "88 / 88.5 (usable as quoted)", "wltpMiles": "about 224-230", "realWorldMiles": "about 190 (Van Reviewer estimate)", "notes": "" }
+          {
+            "kWh": "77 (usable as quoted)",
+            "wltpMiles": "190 (L2 H1) - 200 (L1 H1), per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": "Low-roof L1 H1 and L2 H1 only."
+          },
+          {
+            "kWh": "88 / 88.55 (Parkers' price data says 89)",
+            "wltpMiles": "200 (L2 H2), 225-230 (low-roof L1/L2), per Parkers",
+            "realWorldMiles": "about 190 (Van Reviewer estimate)",
+            "notes": "The only battery on the high-roof L2 H2. Payload drops to about 1,025kg on the largest version (Parkers)."
+          }
         ],
-        "acKw": "11",
-        "dcKw": "up to 90",
+        "acKw": "11 (11kW charging cable supplied)",
+        "dcKw": "90 (80% in about 43 minutes, per Maxus via Parkers)",
         "connector": "CCS",
-        "notes": "150kW motor, one well-equipped trim. Launch price from about £45,000 ex VAT."
+        "notes": "150kW (201hp) motor, one well-equipped trim, up to 1,200kg payload (77kWh). Launch price from about £45,000 ex VAT."
       }
     ],
-    "batteryWarranty": "Not confirmed specifically for this model. Maxus normally quotes 8 years / 100,000 miles on the battery for its electric vans. Check with a Maxus dealer.",
+    "batteryWarranty": "Not confirmed specifically for this model. Parkers confirms the vehicle warranty is 5 years / 60,000 miles with 5 years' roadside assistance. Maxus quotes 8 years / 100,000 miles on the battery for the eDeliver 3 and eDeliver 9, but this is not confirmed for the eDeliver 7. Check with a Maxus dealer.",
     "knownIssues": [],
     "recalls": [],
-    "usedPrices": "Approximate, from Autotrader and dealer listings (2026), and only a few examples. Low-mileage 2024-25 77kWh vans are listed at about £21,000-£29,000 +VAT, and a 2025 88.5kWh van at about £24,000 +VAT. Pricing is inconsistent between trade and retail sites.",
+    "usedPrices": "Approximate, and only a few examples. Parkers' used price range is £2,850-£24,250, but its eDeliver 7 page also lists diesel 2.0D versions, so the low end is unlikely to apply to electric vans. Earlier Autotrader and dealer snippets (2026, not re-checked) showed low-mileage 2024-25 77kWh vans at about £21,000-£29,000 +VAT and a 2025 88.5kWh van at about £24,000 +VAT.",
     "bestBuy": "An 88kWh version, nearly new, from a Maxus dealer with the remaining warranty. Used prices are close to the 77kWh van's.",
     "avoid": "",
     "checks": [
-      "Confirm the battery size (77 or 88kWh) and the body length (L1/L2).",
+      "Confirm the battery size (77 or 88kWh) and the body (L1 H1, L2 H1 or L2 H2). The high-roof L2 H2 is 88kWh only.",
       "Find your nearest Maxus service dealer before buying.",
       "Check whether it was a pre-registered or ex-demo van, and get the warranty start date.",
       "Test a rapid charge and the dealer software status."
@@ -264,37 +447,60 @@
       "https://www.whatvan.co.uk/van-reviews/maxus-edeliver-7-review-the-what-van-road-test/",
       "https://www.autotrader.co.uk/vans/content/maxus-edeliver-7-review-panel-van-2024",
       "https://www.autotrader.co.uk/vans/used-vans/maxus/edeliver-7",
-      "https://www.rivervale.co.uk/maxus-edeliver-7-181636f"
+      "https://www.rivervale.co.uk/maxus-edeliver-7-181636f",
+      "https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/maxus-edeliver-7/",
+      "https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2023/used-prices/"
     ],
-    "confidence": "low-medium. The battery sizes and DC rate are solid. Least certain: the exact WLTP figures (sources say 224-230 miles), battery warranty terms, and used prices from a tiny sample."
+    "confidence": "medium on specs, low on used market. Battery sizes, WLTP by body and the 90kW DC rate are confirmed by Parkers. Least certain: the battery warranty terms and used prices from a tiny sample."
   },
   {
     "slug": "maxus-edeliver-3",
     "name": "Maxus eDeliver 3",
-    "usedNames": ["eDeliver 3", "e Deliver 3", "LDV EV30 (other markets)"],
-    "summary": "A small, cheap electric van. It has decent payload (about 865-905kg) and modest range. As a used buy it is one of the cheapest electric vans around, and it suits local trades and urban delivery. The cabin and refinement are basic, and dealer support is thinner than for the big brands. Used vans are listed regularly, but it is unclear whether it is still sold new in the UK (the eDeliver 5 has joined the range).",
+    "usedNames": [
+      "eDeliver 3",
+      "e Deliver 3",
+      "LDV EV30 (other markets)"
+    ],
+    "summary": "A small, cheap electric van. It has decent payload (up to about 900kg) and modest range. As a used buy it is one of the cheapest electric vans around, and it suits local trades and urban delivery. The cabin and refinement are basic, and dealer support is thinner than for the big brands. The 35kWh version had dropped off the UK price list by early 2024 (Parkers); whether the eDeliver 3 is still sold new in late 2026 is not confirmed (the eDeliver 5 joined the range in 2024).",
     "generations": [
       {
         "years": "2020-on",
-        "label": "eDeliver 3 (SWB L1 panel van in the UK; LWB and chassis versions in some markets)",
+        "label": "eDeliver 3 (SWB and LWB vans and an L2 chassis cab appear in Parkers' UK price data)",
         "batteries": [
-          { "kWh": "35", "wltpMiles": "about 99-110 (sources differ)", "realWorldMiles": "about 80-90 (estimate)", "notes": "Payload about 865kg." },
-          { "kWh": "52.5 (some listings say 50.23)", "wltpMiles": "about 150-151", "realWorldMiles": "about 120-130 (estimate)", "notes": "Payload about 905kg." }
+          {
+            "kWh": "35",
+            "wltpMiles": "99 (Parkers; 141 urban)",
+            "realWorldMiles": "about 80-90 (estimate)",
+            "notes": "Dropped from the UK price list by early 2024."
+          },
+          {
+            "kWh": "52.5 (Parkers also quotes 50.23)",
+            "wltpMiles": "151 (Parkers; 213 urban)",
+            "realWorldMiles": "about 120-130 (estimate)",
+            "notes": "Priced from £34,000 ex VAT in early 2024 (Parkers)."
+          }
         ],
-        "acKw": "6.6 (some sources say 7.2)",
-        "dcKw": "Not confirmed. 0-80% in about 45 minutes on a DC charger for either battery, per Maxus. Peak DC rate not confirmed (reports range from about 28kW to 50kW+).",
+        "acKw": "Not confirmed. Parkers quotes about 6 hours (35kWh) or 8 hours (52.5kWh) to 100% on a wallbox.",
+        "dcKw": "Peak not confirmed. Parkers: 0-85% in about 45 minutes on a DC rapid charger for either battery.",
         "connector": "CCS",
-        "notes": "90kW motor."
+        "notes": "90kW (122hp) motor on most vans. Parkers' price data also lists 85kW and 118kW (157ps) versions. Service every 2 years / 18,000 miles."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles reported by UK dealers (some other markets differ). Check transfer and remaining term with a Maxus dealer.",
-    "knownIssues": [],
+    "batteryWarranty": "8 years / 100,000 miles on the battery, and 5 years / 60,000 miles on the rest of the van, per Parkers. Check transfer and remaining term with a Maxus dealer.",
+    "knownIssues": [
+      {
+        "issue": "Firm ride",
+        "detail": "Parkers found the rear suspension noticeably firm, worse than the eDeliver 9 and similar-sized rivals.",
+        "source": "https://www.parkers.co.uk/vans-pickups/maxus/e-deliver-3/2020-e-deliver-3-review/"
+      }
+    ],
     "recalls": [],
-    "usedPrices": "Approximate. Parkers' guide shows about £7,500-£19,000. Autotrader stock is thin (under 50 vans at a time). Older 35kWh vans sit at the bottom of that range.",
+    "usedPrices": "Approximate. Parkers' used price range for the eDeliver 3 (2020-on) is £2,725-£13,595 across all versions. Autotrader stock is thin. Older 35kWh vans sit at the bottom of that range.",
     "bestBuy": "The 52.5kWh version. Its range is about 50% better for little extra cost used, and the payload is slightly higher.",
     "avoid": "35kWh vans, if you regularly do more than about 70 miles a day.",
     "checks": [
-      "Confirm the battery size (35 or 52.5kWh). They look identical.",
+      "Confirm the battery size (35 or 52.5kWh) and body (SWB, LWB or chassis cab). The batteries look identical.",
       "Find your nearest Maxus service dealer before buying.",
       "Test a DC rapid charge and note the charge rate, because the peak DC rate is modest.",
       "Check the gov.uk recall service and the dealer service history.",
@@ -306,90 +512,136 @@
       "https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-3-battery-range/",
       "https://www.parkers.co.uk/vans-pickups/maxus/e-deliver-3/2020/used-prices/",
       "https://www.vansdirect.co.uk/electric-vans-hub/electric-van-reviews/maxus-edeliver-3-review/",
-      "https://vanreviewer.co.uk/news/maxus-edeliver-5-van-revealed-at-cv-show-arriving-summer-2024/"
+      "https://vanreviewer.co.uk/news/maxus-edeliver-5-van-revealed-at-cv-show-arriving-summer-2024/",
+      "https://www.parkers.co.uk/vans-pickups/maxus/e-deliver-3/2020-e-deliver-3-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2024/maxus-edeliver-5/"
     ],
-    "confidence": "low-medium. Battery options and payload are solid. Least certain: the DC peak rate, the WLTP figures (sources differ), whether it is still on sale new."
+    "confidence": "medium on specs, low-medium overall. Battery options, WLTP, warranty and payload are confirmed by Parkers. Least certain: the DC peak and AC charger rates, and whether it is still on sale new."
   },
   {
     "slug": "levc-vn5",
     "name": "LEVC VN5",
-    "usedNames": ["VN5", "LEVC VN5 City", "LEVC VN5 Business", "LEVC VN5 Ultima"],
-    "summary": "A van version of the London black cab. It is a plug-in electric van with a small 1.5-litre petrol engine that only acts as a generator and never drives the wheels. It does about 60 miles WLTP on battery alone and about 300 miles in total, so there is no range anxiety. It is cheap used, but the load floor is high and load space is smaller than rivals'. It suits mixed urban and longer work where charging is unreliable.",
+    "usedNames": [
+      "VN5",
+      "LEVC VN5 City",
+      "LEVC VN5 Business",
+      "LEVC VN5 Ultima"
+    ],
+    "summary": "A van version of the London black cab. It is a plug-in electric van with a small 1.5-litre petrol engine that only acts as a generator and never drives the wheels. It does 61-73 miles WLTP on battery alone (depending on battery) and over 300 miles in total, so there is no range anxiety. It is cheap used, but payload and load space are smaller than rivals'. It suits mixed urban and longer work where charging is unreliable.",
     "generations": [
       {
-        "years": "2020-on",
-        "label": "VN5 (range-extended electric)",
+        "years": "2020-2023",
+        "label": "VN5 31kWh (range-extended electric)",
         "batteries": [
-          { "kWh": "31", "wltpMiles": "61 electric-only; about 300+ total with the range extender", "realWorldMiles": "about 50-60 electric-only (a German test got 96km)", "notes": "Petrol 1.5 turbo three-cylinder generator. Fuel use about 6.9 l/100km once the battery is depleted (German test)." }
+          {
+            "kWh": "31",
+            "wltpMiles": "61 electric-only (Parkers' review; its 2023 news report says 64); 304 total with the range extender",
+            "realWorldMiles": "about 50 electric-only (Parkers)",
+            "notes": "Petrol 1.5 turbo three-cylinder generator. A German test measured about 6.9 l/100km once the battery was depleted."
+          }
         ],
-        "acKw": "Not confirmed (11kW and 22kW AC versions are listed in Parkers' trims)",
-        "dcKw": "Not confirmed (believed to be about 50kW CCS)",
+        "acKw": "11 (22 on Ultima; Parkers' price data also lists 22kW Business and City versions)",
+        "dcKw": "50",
+        "connector": "CCS (CHAdeMO was an extra-cost option)",
+        "notes": "110kW (150hp) motor driving the rear wheels. It needs petrol and oil servicing as well as EV checks (every year or 25,000 miles). Payload about 830kg, 5.5 cubic metres of load space, two Euro pallets. Drive modes (Pure EV / Save / Smart) control when the generator runs."
+      },
+      {
+        "years": "2023-on",
+        "label": "VN5 34.6kWh (bigger battery from May 2023)",
+        "batteries": [
+          {
+            "kWh": "34.6 (Parkers' review says 34.3)",
+            "wltpMiles": "73 electric-only; 328 total with the range extender",
+            "realWorldMiles": "not confirmed",
+            "notes": "CO2 cut to 17g/km. Standard on all new VN5s from the update."
+          }
+        ],
+        "acKw": "11 (22 on Ultima)",
+        "dcKw": "50",
         "connector": "CCS",
-        "notes": "How it differs: it needs petrol and oil servicing as well as EV checks. Check clean-air zone and congestion charge status for your area, because it has a petrol engine. It has a high load floor and a payload of about 830kg. Drive modes (Pure EV / Save / Smart) control when the generator runs."
+        "notes": "Otherwise the same as the 31kWh van."
       }
     ],
-    "batteryWarranty": "8 years / 150,000 miles drive-battery warranty as standard (extended option 8 years / 200,000 miles), per LEVC's warranty page. Check the transfer and remaining term with LEVC.",
+    "batteryWarranty": "8 years / 150,000 miles drive-battery warranty, per Parkers and LEVC's warranty page (LEVC lists an extended 8 years / 200,000 miles option). The whole van is covered for 5 years / 150,000 miles. Check the transfer and remaining term with LEVC.",
     "knownIssues": [
-      { "issue": "High load floor and compromised load space", "detail": "The range-extender layout raises the floor. Reviewers rate practicality poorly.", "source": "https://www.rac.co.uk/drive/car-reviews/levc/vn5/vn5/" }
+      {
+        "issue": "High load floor and compromised load space",
+        "detail": "The range-extender layout limits payload (about 830kg) and load space. Parkers lists payload and capacity as a weakness.",
+        "source": "https://www.rac.co.uk/drive/car-reviews/levc/vn5/vn5/"
+      }
     ],
     "recalls": [
-      { "issue": "One UK recall is recorded for the VN5 on a third-party aggregator. Details not confirmed, so check by VIN on gov.uk.", "years": "not confirmed", "source": "https://motcost-7su.pages.dev/recalls/levc__vn5/" }
+      {
+        "issue": "One UK recall is recorded for the VN5 on a third-party aggregator. Details not confirmed, so check by VIN on gov.uk.",
+        "years": "not confirmed",
+        "source": "https://motcost-7su.pages.dev/recalls/levc__vn5/"
+      }
     ],
-    "usedPrices": "Approximate, from Autotrader, AutoUncle and the AA (2026). 2021 vans cost about £10,000 +VAT (38k miles). 2022 vans cost about £11,000-£14,000 and 2023 vans about £12,000-£14,700. The Parkers guide covers about £5,400-£21,500 across all.",
-    "bestBuy": "A 2022-23 VN5 with a full LEVC service history (including the petrol generator) and plenty of battery warranty left. Ideal if you can't rely on charging every day.",
+    "usedPrices": "Approximate. Parkers' used price range for the VN5 (2020-on) is £3,875-£17,095 across all versions. Earlier Autotrader and AutoUncle snippets (2026, not re-checked) showed 2021 vans at about £10,000 +VAT and 2022-23 vans at about £11,000-£14,700.",
+    "bestBuy": "A 2023-on 34.6kWh VN5 with a full LEVC service history (including the petrol generator) and plenty of battery warranty left. Ideal if you can't rely on charging every day.",
     "avoid": "Vans driven mostly on petrol (high miles, little charging), because they lose the cost advantage. Any van with a patchy generator service history.",
     "checks": [
       "Check the service history for both the EV system and the petrol generator (oil changes, etc.).",
       "Ask how it was used: mostly electric or mostly generator. Trip data or fuel receipts help.",
       "Check the load floor height and load length suit your work, because it is smaller inside than a Vivaro-sized van.",
-      "Check the electric-only range on a full charge on your test drive (expect about 50-60 miles).",
+      "Check the electric-only range on a full charge on your test drive (expect about 50-60 miles on a 31kWh van) and confirm which battery it has.",
       "Check eligibility for any clean-air zone, congestion charge or grant scheme you rely on, because it has a petrol engine."
     ],
     "sources": [
-      "https://parkers.co.uk/vans-pickups/levc/vn5/2020-review",
       "https://www.autoexpress.co.uk/depth-reviews/353285/levc-vn5-van-review",
       "https://www.rac.co.uk/drive/car-reviews/levc/vn5/vn5/",
       "https://heycar.com/uk/reviews/levc/vn5",
       "https://autonotizen.de/fahrberichte/levc-vn5-london-taxi-elektro-transporter-kastenwagen-range-extender-test-video-review",
       "https://www.levc.com/ownership/warranties",
-      "https://parkers.co.uk/vans-pickups/levc/vn5/2020/used-prices/",
       "https://www.autotrader.co.uk/vans/used-vans/uk/levc/vn5",
       "https://www.autouncle.co.uk/en-gb/used-cars/LEVC/VN5/y-2021",
-      "https://motcost-7su.pages.dev/recalls/levc__vn5/"
+      "https://motcost-7su.pages.dev/recalls/levc__vn5/",
+      "https://www.parkers.co.uk/vans-pickups/levc/vn5/2020-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/levc-electric-van/",
+      "https://www.parkers.co.uk/vans-pickups/levc/vn5/2020/used-prices/"
     ],
-    "confidence": "medium. The battery, range and warranty are solid. Least certain: the AC/DC charge rates, recall details, whether it is still sold new, and the clean-air zone/grant status."
+    "confidence": "medium-high on specs. Batteries, range, charging rates and warranty are confirmed by Parkers. Least certain: recall details, whether it is still sold new in late 2026, and the clean-air zone/grant status."
   },
   {
     "slug": "kia-pv5-cargo",
     "name": "Kia PV5 Cargo",
-    "usedNames": ["PV5", "PV5 Cargo"],
+    "usedNames": [
+      "PV5",
+      "PV5 Cargo"
+    ],
     "summary": "A new compact-to-medium electric van built from the ground up on Kia's dedicated van platform. It went on sale in the UK in 2025. Reviewers praise its efficiency and value. There is very little used supply so far, mainly nearly-new stock, so used pricing is not yet established.",
     "generations": [
       {
         "years": "2025-on",
         "label": "PV5 Cargo",
         "batteries": [
-          { "kWh": "51.5", "wltpMiles": "184 (updated from 181)", "realWorldMiles": "not confirmed", "notes": "120hp. Payload 790kg." },
-          { "kWh": "71.2", "wltpMiles": "258 (updated from 247)", "realWorldMiles": "about 200+ (reviewer saw 3.0mi/kWh)", "notes": "160hp. Payload 690kg." }
+          {
+            "kWh": "51.5",
+            "wltpMiles": "184 (updated from 181)",
+            "realWorldMiles": "not confirmed",
+            "notes": "89kW (120hp). Payload 790kg. Parkers' price data rounds it to 52kWh. The UK doesn't get the smaller battery sold elsewhere."
+          },
+          {
+            "kWh": "71.2",
+            "wltpMiles": "258 (updated from 247)",
+            "realWorldMiles": "about 200+ (reviewer saw 3.0mi/kWh)",
+            "notes": "120kW (160hp). Payload 690kg. Parkers' price data rounds it to 71kWh."
+          }
         ],
         "acKw": "11",
         "dcKw": "about 150 (10-80% in under 30 minutes)",
         "connector": "CCS",
-        "notes": "Launch prices from about £27,645 ex VAT before the grant."
+        "notes": "Launch prices from just over £27,600 ex VAT (51.5kWh L1H1) and just under £31,000 for the long-range model, before the grant (Parkers). Essential and Plus trims. Service every 2 years / 20,000 miles. Parkers Van of the Year 2026."
       }
     ],
-    "batteryWarranty": "7 years / 100,000 miles vehicle warranty. The battery has its own 8-year cover (mileage limit not confirmed). The warranty transfers to the next owner.",
+    "batteryWarranty": "7 years / 100,000 miles vehicle warranty (Parkers). The battery is reported to have its own 8-year cover, but the mileage limit is not confirmed. The warranty transfers to the next owner.",
     "knownIssues": [],
-    "recalls": [
-      { "issue": "Possible faulty weld on the front-right suspension strut bracket (KBA, Germany). UK applicability not confirmed.", "years": "built 12 Nov 2025 - 31 Mar 2026", "source": "https://car-recalls.eu/kia-pv5-loose-suspension-strut-may-affect-vehicle-control-kba/" },
-      { "issue": "Bonnet material structure may raise pedestrian injury risk (KBA). UK applicability not confirmed.", "years": "built 8 Sep 2025 - 2 Feb 2026", "source": "https://car-recalls.eu/kia-pv5-bonnet-pedestrian-injury-collision-kba/" },
-      { "issue": "Seatbelt fastening bolts (small campaign). UK applicability not confirmed.", "years": "built Aug-Dec 2025", "source": "https://www.oeamtc.at/rueckrufaktionen/kia-pv5-ueberpruefung-der-sicherheitsgurtschrauben-89583515/print" }
-    ],
-    "usedPrices": "Used examples are rare. Not enough listings to give a reliable range (late 2026).",
+    "recalls": [],
+    "usedPrices": "Approximate. Parkers' used price range for the PV5 (2025-on) is £12,600-£28,500 across Standard and Long Range Cargo versions. Used examples are still rare, mostly nearly new.",
     "bestBuy": "A nearly-new Long Range (71.2kWh) van with most of the 7-year warranty left.",
     "avoid": "",
     "checks": [
-      "Check the gov.uk recall service and a Kia dealer for the 2025-26 recalls (suspension strut weld, bonnet, seatbelt bolts).",
+      "Check the gov.uk recall service and ask a Kia dealer about any open campaigns. Recalls have been issued for PV5s in Europe, but none were confirmed for the UK at the time of writing.",
       "Confirm Standard (51.5kWh) or Long Range (71.2kWh). The payload differs by about 100kg.",
       "Confirm the warranty start date."
     ],
@@ -399,40 +651,64 @@
       "https://www.autotrader.co.uk/vans/content/kia-reveals-uk-specification-and-pricing-for-pv5-electric-vans",
       "https://www.drive-electric.co.uk/news/kia-confirms-uk-pv5-electric-van-specification-and-line-up/",
       "https://www.kia.com/uk/new-cars/pv5-cargo/",
-      "https://car-recalls.eu/kia-pv5-loose-suspension-strut-may-affect-vehicle-control-kba/",
-      "https://car-recalls.eu/kia-pv5-bonnet-pedestrian-injury-collision-kba/"
+      "https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/",
+      "https://www.parkers.co.uk/vans-pickups/kia/pv5/2025/used-prices/"
     ],
-    "confidence": "medium on specs, low on used market. Least certain: whether the European recalls apply to UK vans, and the battery warranty mileage."
+    "confidence": "medium-high on specs, low on used market. Least certain: whether any European recalls apply to UK vans, the battery warranty mileage, and the DC peak (not confirmed by Parkers)."
   },
   {
     "slug": "farizon-sv",
     "name": "Farizon SV",
-    "usedNames": ["SV", "Farizon SuperVan"],
+    "usedNames": [
+      "SV",
+      "Farizon SuperVan"
+    ],
     "summary": "A large electric van from Geely's commercial brand, on sale in the UK since 2025 through Jameel Motors. It has big batteries and decent rapid charging, and was cheap when new. Used supply is minimal, and the dealer network is still young.",
     "generations": [
       {
         "years": "2025-on",
         "label": "SV",
         "batteries": [
-          { "kWh": "67 (LFP)", "wltpMiles": "about 177-188", "realWorldMiles": "not confirmed", "notes": "" },
-          { "kWh": "83 (LFP)", "wltpMiles": "about 234", "realWorldMiles": "about 214 (one test, L1H1)", "notes": "" },
-          { "kWh": "106 (NMC)", "wltpMiles": "about 247", "realWorldMiles": "not confirmed", "notes": "L3H3 only." }
+          {
+            "kWh": "67 (LFP; Parkers' price data also lists 68kWh)",
+            "wltpMiles": "188 (L1H1) / 177 (L2H2), per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "83 (LFP)",
+            "wltpMiles": "up to 234 (L1H1), per Parkers",
+            "realWorldMiles": "about 215 (Parkers, unladen, 2.6mi/kWh)",
+            "notes": "Available on all five body sizes."
+          },
+          {
+            "kWh": "106 (NMC)",
+            "wltpMiles": "247, per Parkers",
+            "realWorldMiles": "not confirmed",
+            "notes": "L3H3 only."
+          }
         ],
         "acKw": "11",
-        "dcKw": "140 (67/83kWh), 120 (106kWh)",
+        "dcKw": "120 (140 on the 83kWh), per Parkers",
         "connector": "CCS",
-        "notes": "20-80% in about 36 minutes on the 83kWh, per Farizon. New price about £44,000-£55,000 ex VAT."
+        "notes": "170kW (228hp) motor, one trim, payload up to 1,350kg. 20-80% in about 36 minutes on the 83kWh, per Farizon. New price about £45,000-£55,000 ex VAT (Parkers' launch report said from £53,000)."
       }
     ],
-    "batteryWarranty": "8 years / 120,000 miles battery warranty. The vehicle warranty is 4 years / 120,000 miles (one source says 125,000).",
-    "knownIssues": [],
+    "batteryWarranty": "8 years on the battery and electric drivetrain. Parkers' launch report gives 8 years / 160,000 miles; another source said 120,000 miles, so confirm with a dealer. The vehicle warranty is 4 years / 120,000 miles (Parkers).",
+    "knownIssues": [
+      {
+        "issue": "Cabin materials",
+        "detail": "Parkers' test van had a scratched dashboard and door tops that stained in the rain. Check the cabin condition closely.",
+        "source": "https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/"
+      }
+    ],
     "recalls": [],
-    "usedPrices": "Used examples are rare. Not enough listings to give a reliable price range (late 2026).",
+    "usedPrices": "Approximate. Parkers' used price range for the SV (2025-on) is £10,300-£25,250 across all versions. Used examples are rare, so there are few real listings to compare.",
     "bestBuy": "",
     "avoid": "",
     "checks": [
       "Check where your nearest Farizon service dealer is, because the network is still small.",
-      "Confirm the battery (67/83/106kWh) and the body size.",
+      "Confirm the battery (67/83/106kWh) and the body size. The 106kWh is L3H3 only.",
       "Confirm the warranty start date and the dealer servicing record."
     ],
     "sources": [
@@ -441,34 +717,50 @@
       "https://vanreviewer.co.uk/farizon/sv/review/6715/",
       "https://www.autotrader.co.uk/vans/content/farizon-sv-panel-van-review-2026",
       "https://fleetworld.co.uk/farizon-sv-electric-van-opens-for-orders-from-45000/",
-      "https://vans.honestjohn.co.uk/van-news/new-vans/2025-02/first-farizon-vans-arrive-in-uk/"
+      "https://vans.honestjohn.co.uk/van-news/new-vans/2025-02/first-farizon-vans-arrive-in-uk/",
+      "https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/",
+      "https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/",
+      "https://www.parkers.co.uk/vans-pickups/farizon/sv/2025/used-prices/"
     ],
-    "confidence": "medium on specs, low on used market. Least certain: the exact WLTP figures per body, and the warranty mileage."
+    "confidence": "medium on specs, low on used market. Least certain: the battery warranty mileage (sources differ) and used prices."
   },
   {
     "slug": "citroen-e-c3-van",
     "name": "Citroën ë-C3 Van",
-    "usedNames": ["e-C3 Van", "ë-C3 Van", "C3 Van electric"],
+    "usedNames": [
+      "e-C3 Van",
+      "ë-C3 Van",
+      "C3 Van electric"
+    ],
     "summary": "A small car-derived van based on the ë-C3 hatchback, on sale in the UK from mid-2025. It has a 44kWh battery and about 200 miles WLTP, but only a car-sized load area (about 1.2 cubic metres) and about 300kg payload. It suits light-parcel or mobile service work. Used examples are rare.",
     "generations": [
       {
         "years": "2025-on",
         "label": "ë-C3 Van",
         "batteries": [
-          { "kWh": "44", "wltpMiles": "about 200", "realWorldMiles": "about 188 unladen (Fleet News, 4.3mi/kWh)", "notes": "Battery chemistry not confirmed for the van." }
+          {
+            "kWh": "44",
+            "wltpMiles": "about 200 (Parkers)",
+            "realWorldMiles": "about 188 unladen (Fleet News, 4.3mi/kWh)",
+            "notes": "Battery chemistry not confirmed for the van."
+          }
         ],
         "acKw": "7.4 (as listed in the e-C3 car spec)",
         "dcKw": "100 (20-80% in about 26 minutes)",
         "connector": "CCS",
-        "notes": "Payload about 300kg, load volume about 1,220 litres. Launch price about £22,400 ex VAT before the grant."
+        "notes": "83kW (111-113hp) motor. Payload 300kg, load volume 1,220 litres (Parkers). Launch price £22,437 ex VAT before the grant. Based on the Plus trim of the car."
       }
     ],
-    "batteryWarranty": "Not confirmed for this model.",
+    "batteryWarranty": "Not confirmed for this model (Parkers doesn't state it).",
     "knownIssues": [
-      { "issue": "Low payload and basic conversion", "detail": "About 300kg payload. Reviewers say the conversion looks a little amateur in places.", "source": "https://www.electrifying.com/reviews/citroen-reviews/c-c3-van/review" }
+      {
+        "issue": "Low payload and basic conversion",
+        "detail": "About 300kg payload. Reviewers say the conversion looks a little amateur in places.",
+        "source": "https://www.electrifying.com/reviews/citroen-reviews/c-c3-van/review"
+      }
     ],
     "recalls": [],
-    "usedPrices": "Used examples are rare. Not enough listings to give a reliable range (late 2026).",
+    "usedPrices": "Approximate. Parkers' used price range for the ë-C3 Van (2025-on) is £9,600-£18,650. Used examples are rare.",
     "bestBuy": "",
     "avoid": "Don't buy it if you need more than about 300kg payload or a full-size load bay.",
     "checks": [
@@ -481,7 +773,9 @@
       "https://www.fleetnews.co.uk/van/reviews/citroen-e-c3-van",
       "https://www.electrifying.com/reviews/citroen-reviews/c-c3-van/review",
       "https://vans.honestjohn.co.uk/citroen/e-c3-van/",
-      "https://www.media.stellantis.com/uk-en/citroen/press/citroen-opens-orders-for-new-e-c3-van-available-for-under-20-000"
+      "https://www.media.stellantis.com/uk-en/citroen/press/citroen-opens-orders-for-new-e-c3-van-available-for-under-20-000",
+      "https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/e-c3/2025/used-prices/"
     ],
     "confidence": "medium on specs, low on used market. Least certain: the battery warranty, the AC charge rate on the van, and the battery chemistry."
   }

@@ -14,13 +14,13 @@
         "batteries": [
           {
             "kWh": "50 (gross) / about 46 usable",
-            "wltpMiles": "about 141-143 (varies by body length)",
+            "wltpMiles": "143 (Parkers)",
             "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
             "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
           },
           {
             "kWh": "75 (gross) / about 68 usable",
-            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
             "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
           }
@@ -28,7 +28,7 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45-48 min (75kWh) at a 100kW charger (Parkers). AC: 7.4kW single-phase standard (Parkers); 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
       },
       {
         "years": "2024-",
@@ -36,18 +36,24 @@
         "batteries": [
           {
             "kWh": "75 (gross)",
-            "wltpMiles": "up to 217",
+            "wltpMiles": "217 (Parkers, Nov 2023)",
             "realWorldMiles": "not confirmed (expect roughly 160-170)",
-            "notes": "50kWh option dropped at the facelift."
+            "notes": ""
+          },
+          {
+            "kWh": "50 (gross)",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' March 2024 report on the facelift says the 50kWh and 75kWh choices both continued, so earlier sources saying the 50kWh was dropped look wrong. Parkers' price guide lists 50kWh vans in the later Prime trim, and 2025-registered 50kWh Vivaro Electrics are for sale on Parkers."
           }
         ],
         "acKw": "7.4 (11 optional, per UK trim listings)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+        "notes": "Facelift (new nose, revised steering, optional 10-inch screen with wireless phone connection, per Parkers). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles on the battery, to 70% capacity (Vauxhall listings). Standard vehicle warranty 3 years / 60,000 miles. Transfer to a second owner isn't stated in the sources we found, but the cover runs from first registration, so a 2021 van still has it until 2029. Confirm with a Vauxhall dealer.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery (Parkers), to 70% capacity (Vauxhall listings). Standard vehicle warranty 3 years / 100,000 miles (Parkers). Parkers says a battery certification programme is meant to reassure used buyers. Transfer to a second owner isn't stated in the sources we found, but the cover runs from first registration, so a 2021 van still has it until 2029. Confirm with a Vauxhall dealer.",
     "knownIssues": [
       {
         "issue": "Loss of drive / 'Electric traction system fault' warnings",
@@ -82,7 +88,7 @@
         "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/VIVARO"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/AA/Gumtree/PistonHeads): 2021 50kWh about £9,000-£11,000 + VAT; 2021 75kWh about £11,000-£13,000 + VAT; 2023 75kWh about £14,000-£16,500 + VAT retail. Trade values are falling: an October 2026 auction report had a 27k-mile Vivaro 75kWh stall at £9,900 + VAT. Asking prices, not sold prices.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £4,325-£29,500 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (64 vans, 28 Oct 2026, nearly all + VAT): 2020-21 75kWh about £10,000-£10,700 + VAT at 50,000-68,000 miles; 2022 vans about £10,000-£14,000 + VAT (50 or 75kWh); 2023 75kWh about £12,100-£14,000 + VAT; 2024 facelift 75kWh about £14,200-£15,900 + VAT; 2025 50kWh about £14,400-£18,000 + VAT. A few 57,000-80,000-mile vans are listed at about £10,000 with no VAT. Trade values are lower: an October 2026 auction report had a 27k-mile 75kWh van stall at £9,900 + VAT. Asking prices, not sold prices.",
     "bestBuy": "A 2021-23 75kWh van, ideally with the 11kW charger if you have three-phase. Ex-lease examples with full dealer history and recalls done are the safest. A 2024-on facelift (217-mile WLTP) is worth the extra if budget allows.",
     "avoid": "50kWh vans if you regularly do more than about 90-100 miles a day or tow/carry heavy loads in winter. Avoid any van with unresolved traction-fault warnings or no proof of recall work.",
     "checks": [
@@ -104,9 +110,15 @@
       "https://www.autotrader.co.uk/vans/used-vans/vauxhall/vivaro-electric/2021",
       "https://www.theaa.com/used-vans/electric",
       "https://www.vehicle-recall.co.uk/make/VAUXHALL/VIVARO",
-      "https://www.vanarama.com/blog/vans/tom-gets-his-hands-on-the-vauxhall-vivaro-e"
+      "https://www.vanarama.com/blog/vans/tom-gets-his-hands-on-the-vauxhall-vivaro-e",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/vivaro-e-2020/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/Vivaro-e-2020/for-sale/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/news/2024/stellantis-electric-vans-at-luton/"
     ],
-    "confidence": "medium. Platform specs are solid; least certain are the exact recall list for this badge (DVSA pages weren't directly reachable) and whether 2024 Vivaro Electric kept a 50kWh option (sources say it was dropped)."
+    "confidence": "medium-high. Battery sizes, WLTP figures, charging and warranty terms are now confirmed by Parkers. Least certain: the exact recall list (DVSA pages weren't reachable), usable battery figures (EV Database/GreenCarsCompare only) and the WLTP range of the facelift 50kWh van."
   },
   {
     "slug": "peugeot-expert",
@@ -123,13 +135,13 @@
         "batteries": [
           {
             "kWh": "50 (gross) / about 46 usable",
-            "wltpMiles": "about 141-143 (varies by body length)",
+            "wltpMiles": "143 (Parkers)",
             "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
             "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
           },
           {
             "kWh": "75 (gross) / about 68 usable",
-            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "wltpMiles": "up to 211 (Peugeot's claim, per Parkers; Vauxhall, Toyota and Fiat quote 205 for the same pack)",
             "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
             "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
           }
@@ -137,7 +149,7 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45-48 min (75kWh) at a 100kW charger (Parkers). AC: 7.4kW single-phase standard (Parkers); 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
       },
       {
         "years": "2024-",
@@ -145,18 +157,24 @@
         "batteries": [
           {
             "kWh": "75 (gross)",
-            "wltpMiles": "up to 217",
+            "wltpMiles": "about 217-224 (Parkers: 217 for the facelifted Vivaro, and up to 224 for the best of the facelifted Vauxhall/Peugeot/Citroën/Fiat medium vans; this badge's own figure not confirmed)",
             "realWorldMiles": "not confirmed (expect roughly 160-170)",
-            "notes": "50kWh option dropped at the facelift."
+            "notes": ""
+          },
+          {
+            "kWh": "50 (gross)",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' March 2024 report on the facelift says the 50kWh and 75kWh choices both continued, so earlier sources saying the 50kWh was dropped look wrong. We found no facelift 50kWh van of this badge for sale on Parkers."
           }
         ],
         "acKw": "7.4 (11 optional, per UK trim listings)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+        "notes": "Facelift (new nose, revised steering, optional 10-inch screen with wireless phone connection, per Parkers). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles on the battery (Peugeot quotes this alongside its warranties). Peugeot Allure Care (renamed Peugeot Care from May 2025) adds service-activated cover up to 8 years / 100,000 miles, and the balance can pass to a new owner. But sources confirm it for the E-Expert estate/E-Traveller, not clearly for panel vans. Check eligibility by registration date with a Peugeot dealer.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery (Parkers), and Parkers says used vans are offered with battery certification. Vehicle warranty 3 years / 100,000 miles, with unlimited mileage in the first two years (Parkers). Peugeot Allure Care (renamed Peugeot Care from May 2025) adds service-activated cover up to 8 years / 100,000 miles, and the balance can pass to a new owner. But sources confirm it for the E-Expert estate/E-Traveller, not clearly for panel vans. Check eligibility by registration date with a Peugeot dealer.",
     "knownIssues": [
       {
         "issue": "Loss of drive / 'Electric traction system fault' warnings",
@@ -186,7 +204,7 @@
         "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (autumn 2026): 2021 50kWh e-Expert about £8,000-£12,000 (AutoUncle market summaries; VAT basis not always stated). 75kWh vans sit a bit higher, in line with the Vivaro (about £11,000-£16,000 + VAT by age). A dealer in an October 2026 auction report said he'd paid 'about £16k + VAT' for a nearly new e-Expert, as trade values fall. Approximate only.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £4,000-£28,500 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (60 vans, 28 Oct 2026, nearly all + VAT): 2021 75kWh about £10,000-£14,000 + VAT (most £10,000-£12,500 at 35,000-62,000 miles); 2021-22 50kWh about £9,800-£13,500 + VAT; 2023 75kWh about £12,600-£15,000 + VAT; 2024-25 75kWh facelifts mostly £15,500-£18,700 + VAT, nearly all pre-registered or under 4,000 miles. A dealer in an October 2026 auction report said he'd paid 'about £16k + VAT' for a nearly new e-Expert, as trade values fall. Asking prices, not sold prices.",
     "bestBuy": "2021-23 75kWh, ideally with the 11kW charger. Recall R/2023/140 must be done. A 2024-on 75kWh facelift (217 miles WLTP) if budget allows.",
     "avoid": "50kWh for long or winter-heavy routes. Any van with an outstanding R/2023/140 recall.",
     "checks": [
@@ -208,9 +226,13 @@
       "https://www.autoexpress.co.uk/peugeot/expert",
       "https://www.autouncle.co.uk/en-gb/used-cars/Peugeot/e-Expert/y-2021",
       "https://www.peugeot.co.uk/owners/allure-care.html",
-      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care"
+      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/expert/2020-e-expert-review/",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/expert/e-expert-2020/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/expert/e-Expert-2020/for-sale/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/"
     ],
-    "confidence": "medium. Specs solid; Peugeot Care eligibility for panel vans and used prices are least certain."
+    "confidence": "medium-high. Battery sizes, WLTP figures, charging and warranty terms are confirmed by Parkers. Least certain: Peugeot Care eligibility for panel vans, the facelift's exact WLTP figure for this badge, and whether a facelift 50kWh E-Expert was actually sold in the UK."
   },
   {
     "slug": "citroen-dispatch",
@@ -228,21 +250,21 @@
         "batteries": [
           {
             "kWh": "50 (gross) / about 46 usable",
-            "wltpMiles": "about 141-143 (varies by body length)",
+            "wltpMiles": "up to 148 (Citroën's claim, per Parkers; Vauxhall, Peugeot, Toyota and Fiat quote 142-143 for the same pack)",
             "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
             "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
           },
           {
             "kWh": "75 (gross) / about 68 usable",
-            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "wltpMiles": "211 (Citroën's claim, per Parkers; Vauxhall, Toyota and Fiat quote 205)",
             "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
-            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW. Parkers' winter test of a 75kWh van showed about 170 miles on the display after a full charge and about 140 miles real-world unladen."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45-48 min (75kWh) at a 100kW charger (Parkers). AC: 7.4kW single-phase standard (Parkers); 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
       },
       {
         "years": "2024-",
@@ -250,18 +272,24 @@
         "batteries": [
           {
             "kWh": "75 (gross)",
-            "wltpMiles": "up to 217",
+            "wltpMiles": "about 217-224 (Parkers: 217 for the facelifted Vivaro, and up to 224 for the best of the facelifted Vauxhall/Peugeot/Citroën/Fiat medium vans; this badge's own figure not confirmed)",
             "realWorldMiles": "not confirmed (expect roughly 160-170)",
-            "notes": "50kWh option dropped at the facelift."
+            "notes": ""
+          },
+          {
+            "kWh": "50 (gross)",
+            "wltpMiles": "not confirmed",
+            "realWorldMiles": "not confirmed",
+            "notes": "Parkers' March 2024 report on the facelift says the 50kWh and 75kWh choices both continued, so earlier sources saying the 50kWh was dropped look wrong. We found no facelift 50kWh van of this badge for sale on Parkers."
           }
         ],
         "acKw": "7.4 (11 optional, per UK trim listings)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+        "notes": "Facelift (new nose, revised steering, optional 10-inch screen with wireless phone connection, per Parkers). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles to 70% of battery capacity, with battery capacity certification at each service (Citroën/Greenfleet). Vehicle warranty 3 years. Transfer isn't stated, but the cover runs from first registration.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery (Parkers), to 70% of capacity (Citroën/Greenfleet), with a certificate of battery condition at each service (Parkers). Vehicle warranty 3 years / 100,000 miles (Parkers). Transfer isn't stated, but the cover runs from first registration.",
     "knownIssues": [
       {
         "issue": "Loss of drive / 'Electric traction system fault' warnings",
@@ -296,7 +324,7 @@
         "source": "https://www.vehicle-recall.co.uk/make/CITROEN/DISPATCH"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (autumn 2026): an AA-listed ë-Dispatch at about £14,000 + VAT. Expect values in line with the Vivaro-e: about £9,000-£11,000 + VAT for 2021 50kWh, £11,000-£16,000 + VAT for 75kWh by age. Thin data; approximate.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £3,950-£29,250 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (only 20 vans, 28 Oct 2026): 2021 50kWh about £10,000-£10,600 with no VAT at about 50,000 miles; 2022 75kWh about £11,500-£14,500 + VAT; 2023 75kWh about £12,400-£18,000 + VAT; 2024-25 75kWh about £17,400-£19,700 + VAT at under 5,000 miles. Thin data; asking prices, not sold prices.",
     "bestBuy": "2021-23 75kWh with service history (the history also proves the battery certification was done). A 2024-on facelift 75kWh for longer range.",
     "avoid": "50kWh for long routes. Vans with missing Citroën service history, as that weakens the battery-capacity paper trail.",
     "checks": [
@@ -318,9 +346,13 @@
       "https://greenfleet.net/node/17018",
       "https://www.theaa.com/used-vans/electric",
       "https://www.vehicle-recall.co.uk/make/CITROEN/DISPATCH",
-      "https://exchangeandmart.co.uk/reviews/citroen/e-dispatch/12822"
+      "https://exchangeandmart.co.uk/reviews/citroen/e-dispatch/12822",
+      "https://www.parkers.co.uk/vans-pickups/citroen/dispatch/2020-e-dispatch-review/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/dispatch/e-dispatch-2020/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/dispatch/e-Dispatch-2020/for-sale/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/"
     ],
-    "confidence": "medium. Specs solid; badge-specific recalls and used prices (few listings found) are least certain."
+    "confidence": "medium-high. Battery sizes, WLTP figures, charging and warranty terms are confirmed by Parkers. Least certain: badge-specific recalls (DVSA not reachable) and used prices (only 20 listings)."
   },
   {
     "slug": "toyota-proace",
@@ -337,13 +369,13 @@
         "batteries": [
           {
             "kWh": "50 (gross) / about 46 usable",
-            "wltpMiles": "about 141-143 (varies by body length)",
+            "wltpMiles": "142 (Parkers)",
             "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
             "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
           },
           {
             "kWh": "75 (gross) / about 68 usable",
-            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
             "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
           }
@@ -351,7 +383,7 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45-48 min (75kWh) at a 100kW charger (Parkers). AC: 7.4kW single-phase standard (Parkers); 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
       },
       {
         "years": "2024-",
@@ -376,7 +408,7 @@
         "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
       }
     ],
-    "batteryWarranty": "Battery: 8 years / 100,000 miles (Toyota UK press kit; it mentions an extension linked to annual battery health checks in some markets, with no UK figure found). Vehicle: Toyota Relax, 3 years/60,000 miles plus a year/10,000 miles each time it's serviced at a Toyota dealer, up to 10 years / 100,000 miles. It's service-activated, so a used van can get it back with a Toyota service. Toyota Battery Care (the 10-year battery extension on Toyota cars) explicitly excludes Proace (UK terms, Feb 2026). The '15 years / 1 million km' battery claim from 2020 press coverage was not a UK offer.",
+    "batteryWarranty": "Battery: 8 years / 100,000 miles (Parkers and the Toyota UK press kit; the press kit mentions an extension linked to annual battery health checks in some markets, with no UK figure found). Vehicle: Toyota Relax, 3 years / 60,000 miles plus a year/10,000 miles each time it's serviced at a Toyota dealer, up to 10 years / 100,000 miles (Parkers). Parkers says this started on 1 June 2021; vans sold before then had a five-year / 100,000-mile warranty instead. It's service-activated, so a used van can get it back with a Toyota service. Toyota Battery Care (the 10-year battery extension on Toyota cars) explicitly excludes Proace (UK terms, Feb 2026). The '15 years / 1 million km' battery claim from 2020 press coverage was not a UK offer.",
     "knownIssues": [
       {
         "issue": "Loss of drive / 'Electric traction system fault' warnings",
@@ -406,7 +438,7 @@
         "source": "https://car-recalls.eu/recall/toyota-proace-2023-charging-cable"
       }
     ],
-    "usedPrices": "Not enough Proace Electric listings found to give a range. Expect it to track the Vivaro-e/e-Dispatch: about £9,000-£11,000 + VAT for 2021 50kWh and £11,000-£16,000 + VAT for 75kWh. A small Toyota premium is possible because of Relax. Unconfirmed.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £4,600-£26,250 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Only 7 Proace Electrics were for sale on Parkers (28 Oct 2026, all + VAT): 2021-23 50kWh about £12,500-£14,500 + VAT; 2022 75kWh about £10,700 (69,000 miles) to £14,000 (17,000 miles) + VAT; 2024-25 75kWh about £20,000-£25,000 + VAT at delivery mileage. On this small sample they are priced above Vivaros of the same age. Asking prices, not sold prices.",
     "bestBuy": "A 2021-23 75kWh van with Toyota dealer service history, so Relax is still active or can be reactivated.",
     "avoid": "50kWh for long routes. Vans serviced outside the Toyota network, unless you plan to put them back into it.",
     "checks": [
@@ -430,9 +462,12 @@
       "https://drivingelectric.com/toyota/proace/40575/toyota-proace-electric-van-review",
       "https://www.caranddriving.com/editorial-library-review.aspx?id=12796",
       "https://car-recalls.eu/recall/toyota-proace-2022-2023-bev-electronic-injury/",
-      "https://insideevs.com/news/425503/toyota-proace-electric-15-year-battery-warranty/"
+      "https://insideevs.com/news/425503/toyota-proace-electric-15-year-battery-warranty/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace/electric-2021/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace/Electric-2021/for-sale/"
     ],
-    "confidence": "medium. Warranty structure is solid. Used prices (no listings found) and facelift range figures (205 vs 213) are least certain."
+    "confidence": "medium-high. Pre-facelift specs and the warranty structure are confirmed by Parkers. Least certain: facelift range figures (205 vs 213; Parkers doesn't cover the Toyota facelift) and used prices (only 7 listings)."
   },
   {
     "slug": "fiat-scudo",
@@ -449,13 +484,13 @@
         "batteries": [
           {
             "kWh": "50 (gross) / about 46 usable",
-            "wltpMiles": "about 141-143 (varies by body length)",
+            "wltpMiles": "143 (Parkers)",
             "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
             "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
           },
           {
             "kWh": "75 (gross) / about 68 usable",
-            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
             "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
           }
@@ -463,7 +498,7 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45-48 min (75kWh) at a 100kW charger (Parkers). AC: 7.4kW single-phase standard (Parkers); 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
       },
       {
         "years": "2024-",
@@ -471,7 +506,7 @@
         "batteries": [
           {
             "kWh": "75 (gross)",
-            "wltpMiles": "about 205-219 (sources conflict)",
+            "wltpMiles": "about 205-224 (sources conflict; Parkers says up to 224 for the best of the facelifted medium vans, model not named)",
             "realWorldMiles": "not confirmed",
             "notes": ""
           },
@@ -479,16 +514,16 @@
             "kWh": "50 (gross; some listings say 49)",
             "wltpMiles": "about 137-142",
             "realWorldMiles": "about 110",
-            "notes": "50kWh still appears in 2024-era E-Scudo listings; not confirmed as a UK panel-van option."
+            "notes": "Parkers' March 2024 report on the facelift says the Scudo kept both the 50kWh and 75kWh choices. The WLTP figure for the facelift 50kWh is not confirmed by Parkers."
           }
         ],
         "acKw": "7.4 (11 optional, per UK trim listings)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+        "notes": "Facelift (new nose, revised steering, optional 10-inch screen with wireless phone connection, per Parkers). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
       }
     ],
-    "batteryWarranty": "8 years on the battery (UK leasing listing; one dealer listing says 8 years / 100,000 miles). Mileage cap and 70% threshold not confirmed from a Fiat source. RAC noted Fiat didn't match Toyota's up-to-10-year cover. Confirm with Fiat Professional.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery; vehicle warranty 3 years / 100,000 miles (both Parkers). The 70% capacity threshold is not confirmed from a Fiat source. RAC noted Fiat didn't match Toyota's up-to-10-year cover. Confirm with Fiat Professional.",
     "knownIssues": [
       {
         "issue": "Loss of drive / 'Electric traction system fault' warnings",
@@ -513,7 +548,7 @@
         "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
       }
     ],
-    "usedPrices": "Few listings found. Expect slightly below Vivaro-e/e-Dispatch money for the same age and battery (about £9,000-£15,000 + VAT for 2022-23 vans). Unconfirmed.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £7,275-£29,750 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Only 2 E-Scudos were for sale on Parkers (28 Oct 2026): 2022 75kWh Tecnico vans at about £11,000-£11,800 + VAT with 44,000-66,000 miles. Too few listings to give a wider range.",
     "bestBuy": "A 2022-23 75kWh van with Fiat Professional dealer history.",
     "avoid": "50kWh for long routes. Remote locations without a Fiat Professional dealer, as there are fewer of them than Vauxhall/Peugeot/Citroën outlets.",
     "checks": [
@@ -536,9 +571,13 @@
       "https://www.drivingelectric.com/fiat/scudo/40987/new-fiat-e-scudo-electric-van-prices-specs-and-details",
       "https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates",
       "https://www.arnoldclarkleasing.com/fiat-van-lease-deals/business/scudo/other-e-l2-100kw-49kwh-van-auto",
-      "https://www.exchangeandmart.co.uk/reviews/fiat/e-scudo/2022/214542"
+      "https://www.exchangeandmart.co.uk/reviews/fiat/e-scudo/2022/214542",
+      "https://www.parkers.co.uk/vans-pickups/fiat/scudo/2022-e-scudo-review/",
+      "https://www.parkers.co.uk/vans-pickups/fiat/scudo/e-scudo-2022/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/fiat/scudo/E-Scudo-2022/for-sale/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/"
     ],
-    "confidence": "low-medium. Platform specs solid; Fiat warranty mileage, 2024 range figures and used prices are all thinly sourced."
+    "confidence": "medium. Pre-facelift specs and the battery/vehicle warranty are now confirmed by Parkers. Least certain: the 70% capacity threshold, facelift WLTP figures and used prices (only 2 listings on Parkers)."
   },
   {
     "slug": "vauxhall-combo",
@@ -555,7 +594,7 @@
         "batteries": [
           {
             "kWh": "50 (gross) / 46.3 usable",
-            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "wltpMiles": "171 (Parkers)",
             "realWorldMiles": "about 125-130 (EV Database)",
             "notes": "Usable figure from EV Database (ë-Berlingo)."
           }
@@ -563,26 +602,26 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW (Parkers). AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
       },
       {
         "years": "2024-",
         "label": "Combo Electric (2024 facelift)",
         "batteries": [
           {
-            "kWh": "52 (gross) / 50 usable",
-            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "kWh": "50 (Parkers and Stellantis call it a new 50kWh pack; data sites list about 52 gross / 50 usable)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 145 (EV Database)",
-            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+            "notes": "UK adverts badge it as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+        "notes": "Facelift: revised 50kWh battery and drivetrain, steering-wheel paddles to adjust regenerative braking, and a heat pump (Parkers' Combo report says one was added; its group report says one 'can be fitted', so check the spec). Parkers' 2024 Combo Electric review still quotes 100kW (136hp) and 260Nm; some Peugeot/Auto Express material says 270Nm, so the torque figure is not confirmed. DC 100kW, 0-80% about 30 min. 7.4kW AC standard (about 7.5 hours for a full charge), 11kW optional (about 5 hours), per Parkers."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles on the battery, to 70% capacity (the Vauxhall EV battery terms quoted for its vans; we found no Combo-specific confirmation). Transfer isn't stated; the cover runs from first registration.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to at least 70% capacity (Parkers' Combo Electric review). Vehicle warranty 3 years / 60,000 miles (Parkers). Transfer isn't stated; the cover runs from first registration.",
     "knownIssues": [
       {
         "issue": "Loss of drive from battery-management software (recall)",
@@ -610,9 +649,14 @@
         "issue": "Powertrain shutdown while driving (AC compressor wiring). A Vauxhall Combo-e listing dated 8 May 2023 appears on third-party trackers; it matches Peugeot's R/2023/140. Check VIN.",
         "years": "approx 2021-2022 builds",
         "source": "https://car-recalls.eu/common-problems/opel/combo/"
+      },
+      {
+        "issue": "Parkers' review says the Combo Electric has had several EV-specific recalls, including ones for the handbrake not releasing, the ECU and the steering. Parkers gives no references or dates; check the VIN.",
+        "years": "not stated",
+        "source": "https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/AA): 2022 Combo-e about £7,000-£11,000 + VAT depending on mileage (high-mileage examples under £7,000 + VAT). Some dealer retail listings up to about £14,700. Asking prices only.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £3,775-£20,000 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (25 vans, 28 Oct 2026, nearly all + VAT): 2021-23 Combo-e about £8,000-£11,700 + VAT (one 60,000-mile 2021 van at about £7,000 + VAT); 2024 about £10,900-£15,000 + VAT; 2025 about £11,000-£13,600 + VAT at low miles; 2026 about £18,000 + VAT. Asking prices only.",
     "bestBuy": "A 2022 Combo-e with the battery software recall done, or a 2024-on Combo Electric for the extra roughly 15-20 real miles.",
     "avoid": "High-mileage 2021-22 vans with no dealer history or recall evidence.",
     "checks": [
@@ -633,9 +677,14 @@
       "https://www.autotrader.co.uk/vans/used-vans/vauxhall/combo-electric/2022",
       "https://www.theaa.com/used-vans/cardetailsforprint/182599056",
       "https://www.autoexpress.co.uk/vauxhall/combo/361463/new-2024-vauxhall-combo-facelift-gets-sleek-vizor-treatment",
-      "https://ev-database.org/car/2161/Opel-Combo-Electric-50-kWh"
+      "https://ev-database.org/car/2161/Opel-Combo-Electric-50-kWh",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/combo/combo-e-cargo-2021/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/vauxhall/combo/Combo-e%20Cargo-2021/for-sale/",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-combo-facelift/"
     ],
-    "confidence": "medium. Platform specs and the 2023 battery recall are solid; Combo-specific battery warranty wording and the AC-compressor recall for Vauxhall are least certain."
+    "confidence": "medium-high. Battery, WLTP, charging and the Combo's own battery warranty are now confirmed by Parkers. Least certain: the facelift pack's gross/usable split, whether the heat pump is standard, and the details of the AC-compressor, handbrake and steering recalls (DVSA not reachable)."
   },
   {
     "slug": "peugeot-partner",
@@ -652,7 +701,7 @@
         "batteries": [
           {
             "kWh": "50 (gross) / 46.3 usable",
-            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "wltpMiles": "171 (Parkers)",
             "realWorldMiles": "about 125-130 (EV Database)",
             "notes": "Usable figure from EV Database (ë-Berlingo)."
           }
@@ -660,26 +709,26 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW (Parkers). AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
       },
       {
         "years": "2024-",
         "label": "E-Partner (2024 facelift)",
         "batteries": [
           {
-            "kWh": "52 (gross) / 50 usable",
-            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "kWh": "50 (Parkers and Stellantis call it a new 50kWh pack; data sites list about 52 gross / 50 usable)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 145 (EV Database)",
-            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+            "notes": "UK adverts badge it as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+        "notes": "Facelift: revised 50kWh battery and drivetrain, steering-wheel paddles to adjust regenerative braking, and a heat pump (Parkers' Combo report says one was added; its group report says one 'can be fitted', so check the spec). Parkers' 2024 Combo Electric review still quotes 100kW (136hp) and 260Nm; some Peugeot/Auto Express material says 270Nm, so the torque figure is not confirmed. DC 100kW, 0-80% about 30 min. 7.4kW AC standard (about 7.5 hours for a full charge), 11kW optional (about 5 hours), per Parkers."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles on the battery (Peugeot). Peugeot Allure Care / Peugeot Care (service-activated cover up to 8 years / 100,000 miles) is confirmed for the E-Rifter but not clearly for the E-Partner panel van. Check with a Peugeot dealer.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to at least 70% capacity; vehicle warranty 3 years / 60,000 miles (both Parkers). Peugeot Allure Care / Peugeot Care (service-activated cover up to 8 years / 100,000 miles) is confirmed for the E-Rifter but not clearly for the E-Partner panel van. Check with a Peugeot dealer.",
     "knownIssues": [
       {
         "issue": "Loss of drive from battery-management software (recall)",
@@ -709,7 +758,7 @@
         "source": "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/"
       }
     ],
-    "usedPrices": "Few E-Partner-specific listings found. Expect Combo-e/ë-Berlingo money: about £7,000-£11,000 + VAT for 2021-22, more for 2024-on facelifts. Approximate.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £3,825-£19,950 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (30 vans, 28 Oct 2026): 2021-22 about £11,000-£12,500 (some listed with no VAT); 2023 about £10,800-£15,000 + VAT; 2024 about £11,300-£14,300 + VAT; 2025 about £14,000-£17,000 + VAT. Asking prices only.",
     "bestBuy": "2022 e-Partner with both recalls done, or a 2024-on E-Partner (205-mile WLTP, heat pump).",
     "avoid": "Any van with outstanding R/2023/140 or battery software recalls.",
     "checks": [
@@ -730,9 +779,13 @@
       "https://vanreviewer.co.uk/peugeot/e-partner/review/3990",
       "https://vans.honestjohn.co.uk/peugeot/e-partner/2022/",
       "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/",
-      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care"
+      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/partner/2021-e-partner-review/",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/partner/e-partner-2021/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/peugeot/partner/e-Partner-2021/for-sale/"
     ],
-    "confidence": "medium. Specs and recalls fairly solid; used prices for this badge and Peugeot Care eligibility are uncertain."
+    "confidence": "medium-high. Specs and warranty are confirmed by Parkers. Least certain: Peugeot Care eligibility for panel vans and whether the facelift heat pump is standard."
   },
   {
     "slug": "citroen-berlingo",
@@ -750,7 +803,7 @@
         "batteries": [
           {
             "kWh": "50 (gross) / 46.3 usable",
-            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "wltpMiles": "171 (Parkers)",
             "realWorldMiles": "about 125-130 (EV Database)",
             "notes": "Usable figure from EV Database (ë-Berlingo)."
           }
@@ -758,26 +811,26 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW (Parkers). AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
       },
       {
         "years": "2024-",
         "label": "ë-Berlingo (2024 facelift)",
         "batteries": [
           {
-            "kWh": "52 (gross) / 50 usable",
-            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "kWh": "50 (Parkers and Stellantis call it a new 50kWh pack; data sites list about 52 gross / 50 usable)",
+            "wltpMiles": "205 (Parkers)",
             "realWorldMiles": "about 145 (EV Database)",
-            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+            "notes": "UK adverts badge it as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+        "notes": "Facelift: revised 50kWh battery and drivetrain, steering-wheel paddles to adjust regenerative braking, and a heat pump (Parkers' Combo report says one was added; its group report says one 'can be fitted', so check the spec). Parkers' 2024 Combo Electric review still quotes 100kW (136hp) and 260Nm; some Peugeot/Auto Express material says 270Nm, so the torque figure is not confirmed. DC 100kW, 0-80% about 30 min. 7.4kW AC standard (about 7.5 hours for a full charge), 11kW optional (about 5 hours), per Parkers."
       }
     ],
-    "batteryWarranty": "8 years / 100,000 miles to 70% capacity (Citroën's EV battery terms, as stated for ë-Dispatch; we found no Berlingo-specific confirmation). Transfer isn't stated; cover runs from first registration.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to at least 70% capacity; vehicle warranty 3 years / 60,000 miles (both Parkers). Transfer isn't stated; cover runs from first registration.",
     "knownIssues": [
       {
         "issue": "Loss of drive from battery-management software (recall)",
@@ -802,7 +855,7 @@
         "source": "https://www.vehicle-recall.co.uk/make/CITROEN/BERLINGO-ELECTRIC"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (autumn 2026, Autotrader): 2022-25 ë-Berlingo vans about £10,000-£17,000 + VAT. Older/high-mileage 2022 vans are at the bottom of that range, and 2024-on facelifts at the top. Asking prices only.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £3,875-£19,195 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Dealer asking prices on Parkers (25 vans, 28 Oct 2026, nearly all + VAT): 2022 about £10,000-£10,500; 2023 about £9,600-£12,000 + VAT; 2024 about £12,300-£17,800 + VAT; 2025-26 about £15,000-£20,000 + VAT. Asking prices only.",
     "bestBuy": "2024-on ë-Berlingo for about 145 real miles, or a well-documented 2022-23 van at a lower price.",
     "avoid": "Vans whose battery software recall (R/2023/010) is not evidenced.",
     "checks": [
@@ -820,12 +873,15 @@
       "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
       "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
       "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
-      "https://parkers.co.uk/vans-pickups/citroen/berlingo/2021-e-berlingo-review",
       "https://www.autotrader.co.uk/vans/used-vans/citroen/e-berlingo",
       "https://www.vehicle-recall.co.uk/make/CITROEN/BERLINGO-ELECTRIC",
-      "https://www.berlingoforum.com/thread-23891.html"
+      "https://www.berlingoforum.com/thread-23891.html",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/berlingo/2021-e-berlingo-review/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/berlingo/e-berlingo-2021/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/citroen/berlingo/e-Berlingo-2021/for-sale/"
     ],
-    "confidence": "medium. Battery figures (EV Database) are solid; the warranty and price range are broader estimates."
+    "confidence": "medium-high. Battery, WLTP, charging and warranty are confirmed by Parkers; usable capacity is from EV Database. Least certain: whether the facelift heat pump is standard."
   },
   {
     "slug": "toyota-proace-city",
@@ -842,7 +898,7 @@
         "batteries": [
           {
             "kWh": "50 (gross) / 46.3 usable",
-            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "wltpMiles": "168 (Toyota's figure, per Parkers; the siblings quote 171 for the same pack)",
             "realWorldMiles": "about 125-130 (EV Database)",
             "notes": "Usable figure from EV Database (ë-Berlingo)."
           }
@@ -850,26 +906,26 @@
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW (Parkers). AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed. Parkers gives 7.1 hours for a full charge on a 7kW wallbox and 4.5 hours on 11kW."
       },
       {
         "years": "2024-",
         "label": "Proace City Electric (2024 facelift)",
         "batteries": [
           {
-            "kWh": "52 (gross) / 50 usable",
+            "kWh": "50 (Parkers calls the siblings' revised pack 50kWh; data sites list about 52 gross / 50 usable)",
             "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
             "realWorldMiles": "about 145 (EV Database)",
-            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+            "notes": "UK adverts badge it as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+        "notes": "Facelift: revised 50kWh battery and drivetrain, steering-wheel paddles to adjust regenerative braking, and a heat pump (Parkers' Combo report says one was added; its group report says one 'can be fitted', so check the spec). Parkers' 2024 Combo Electric review still quotes 100kW (136hp) and 260Nm; some Peugeot/Auto Express material says 270Nm, so the torque figure is not confirmed. DC 100kW, 0-80% about 30 min. 7.4kW AC standard (about 7.5 hours for a full charge), 11kW optional (about 5 hours), per Parkers."
       }
     ],
-    "batteryWarranty": "Battery: 8 years / 100,000 miles (Toyota 2022 release); some dealer listings say 5 years / 100,000 miles, so confirm on the VIN. Vehicle: Toyota Relax, 3 years/60,000 miles plus a year/10,000 miles each Toyota-dealer service, up to 10 years / 100,000 miles. Toyota Battery Care's UK terms exclude 'Proace' vehicles; whether that wording covers Proace City isn't confirmed, so treat it as excluded.",
+    "batteryWarranty": "Battery: 8 years / 100,000 miles (Parkers and Toyota's 2022 release); some dealer listings say 5 years / 100,000 miles, so confirm on the VIN. Vehicle: Toyota Relax, a year/10,000 miles added each Toyota-dealer service, up to 10 years / 100,000 miles. Parkers' Proace City review gives the base warranty as 3 years / 100,000 miles, but Toyota's Relax terms (and Parkers' Proace review) say 3 years / 60,000 miles, so check. Toyota Battery Care's UK terms exclude 'Proace' vehicles; whether that wording covers Proace City isn't confirmed, so treat it as excluded.",
     "knownIssues": [
       {
         "issue": "Loss of drive from battery-management software (recall)",
@@ -899,7 +955,7 @@
         "source": "https://car-recalls.eu/recall/toyota-proace-2023-charging-cable"
       }
     ],
-    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/Parkers/PistonHeads): 2022 50kWh Icon about £7,800-£10,800 + VAT depending on mileage. Asking prices only.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £3,950-£19,550 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Only 7 were for sale on Parkers (28 Oct 2026): one 2022 50kWh Icon at about £9,700 + VAT (51,000 miles), one 2023 at about £15,000 + VAT (7,400 miles), and 2025-26 vans at about £16,500-£24,000 + VAT at low miles. Earlier Autotrader/PistonHeads searches put 2022 Icons at about £7,800-£10,800 + VAT. Asking prices only.",
     "bestBuy": "A 2022-23 van with Toyota dealer history, so Relax is still live. A 2024-on facelift if you need more range.",
     "avoid": "Vans serviced outside the Toyota network, unless you plan to return them to it (Relax restarts on a Toyota service within its limits).",
     "checks": [
@@ -921,9 +977,12 @@
       "https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf",
       "https://trade.autotrader.co.uk/vans/used-vans/toyota/proace-city/2022",
       "https://www.parkers.co.uk/vans-pickups/toyota/proace-city/electric-2021/50kwh-(134ps)-l1-icon-van-auto/for-sale/usedvfs-78815775/",
-      "https://car-recalls.eu/recall/toyota-proace-city-2022-2023-bev-electronic-injury/"
+      "https://car-recalls.eu/recall/toyota-proace-city-2022-2023-bev-electronic-injury/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace-city/2021-electric-review/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace-city/electric-2021/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace-city/Electric-2021/for-sale/"
     ],
-    "confidence": "medium. Relax structure is solid; the battery warranty term (8 vs 5 years in different listings) is the least certain."
+    "confidence": "medium. Pre-facelift specs and the 8-year battery warranty are now backed by Parkers. Least certain: facelift WLTP (Parkers doesn't cover the Toyota facelift), the base vehicle warranty mileage (60,000 vs 100,000) and used prices (only 7 listings)."
   },
   {
     "slug": "fiat-doblo",
@@ -940,34 +999,34 @@
         "batteries": [
           {
             "kWh": "50 (gross) / 46.3 usable",
-            "wltpMiles": "173-175",
+            "wltpMiles": "173 (Parkers)",
             "realWorldMiles": "about 125-130",
-            "notes": "Same pack as ë-Berlingo; Fiat quoted slightly higher WLTP at launch."
+            "notes": "Same pack as ë-Berlingo; Fiat quotes slightly higher WLTP."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW (Parkers). AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
       },
       {
         "years": "2024-",
         "label": "E-Doblo (2024 update)",
         "batteries": [
           {
-            "kWh": "52 (gross) / 50 usable",
-            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "kWh": "50 (Parkers and Stellantis call it a new 50kWh pack; data sites list about 52 gross / 50 usable)",
+            "wltpMiles": "213 (Parkers' E-Doblo review; the Vauxhall/Peugeot/Citroën siblings quote 205)",
             "realWorldMiles": "about 145 (EV Database)",
-            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+            "notes": "UK adverts badge it as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
           }
         ],
         "acKw": "7.4 (11 optional)",
         "dcKw": "100",
         "connector": "CCS (Type 2 for AC)",
-        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+        "notes": "Facelift: revised 50kWh battery and drivetrain, steering-wheel paddles to adjust regenerative braking, and a heat pump (Parkers' Combo report says one was added; its group report says one 'can be fitted', so check the spec). Parkers' 2024 Combo Electric review still quotes 100kW (136hp) and 260Nm; some Peugeot/Auto Express material says 270Nm, so the torque figure is not confirmed. DC 100kW, 0-80% about 30 min. 7.4kW AC standard (about 7.5 hours for a full charge), 11kW optional (about 5 hours), per Parkers."
       }
     ],
-    "batteryWarranty": "Not confirmed from a Fiat UK source. Siblings carry 8 years / 100,000 miles on the battery, and E-Scudo listings show 8 years. Confirm with Fiat Professional.",
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to at least 70% capacity; vehicle warranty 3 years / 100,000 miles (both Parkers). Fiat's optional '555' package adds five years of warranty, servicing and roadside assistance (Parkers); it costs extra.",
     "knownIssues": [
       {
         "issue": "Loss of drive from battery-management software (recall)",
@@ -987,13 +1046,13 @@
     ],
     "recalls": [
       {
-        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign. E-Doblo inclusion not confirmed.",
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign. E-Doblo inclusion not confirmed. Parkers' review says the sibling recalls shouldn't apply because the E-Doblo arrived after they were fixed, but 2022-registered E-Doblos exist, so check the VIN.",
         "years": "2022 builds",
         "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/COMBO-ELECTRIC"
       }
     ],
-    "usedPrices": "Thin data (autumn 2026): AutoUncle shows E-Doblos at about £11,800-£18,000, and Autotrader 2023 examples at about £10,250 (no VAT) to £17,000 + VAT. Approximate.",
-    "bestBuy": "A low-mileage 2023-24 van, often cheaper than an equivalent Berlingo/Partner badge. Check it's a 2024-on update if you want the 205-mile WLTP version.",
+    "usedPrices": "Approximate. Parkers' used-price guide (October 2026): £5,700-£18,895 (its range spans all ages, mileages and versions, and Parkers doesn't say what basis it uses). Only 4 were for sale on Parkers (28 Oct 2026): a 2022 van at about £12,000 with no VAT (12,800 miles) and 2025-26 vans at about £13,800-£16,000 + VAT. Earlier AutoUncle/Autotrader searches showed about £10,250-£18,000. Thin data.",
+    "bestBuy": "A low-mileage 2023-24 van, often cheaper than an equivalent Berlingo/Partner badge. Check it's a 2024-on update if you want the 213-mile WLTP version.",
     "avoid": "Locations far from a Fiat Professional dealer.",
     "checks": [
       "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
@@ -1014,8 +1073,12 @@
       "https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates",
       "https://evpowered.co.uk/electric-car-reviews/fiat-e-doblo-review/",
       "https://www.autouncle.co.uk/en-gb/used-cars/Fiat/e-Dobl%C3%B2",
-      "https://trade.autotrader.co.uk/vans/used-vans/fiat/e-doblo"
+      "https://trade.autotrader.co.uk/vans/used-vans/fiat/e-doblo",
+      "https://www.parkers.co.uk/vans-pickups/news/2023/stellantis-van-group-facelift/",
+      "https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/",
+      "https://www.parkers.co.uk/vans-pickups/fiat/doblo/e-doblo-2022/used-prices/",
+      "https://www.parkers.co.uk/vans-pickups/fiat/doblo/E-Doblo-2022/for-sale/"
     ],
-    "confidence": "low-medium. Specs follow the shared platform; the battery warranty, recall inclusion and prices are thin."
+    "confidence": "medium. Specs and warranty are now confirmed by Parkers. Least certain: recall inclusion and used prices (only 4 listings on Parkers)."
   }
 ]
