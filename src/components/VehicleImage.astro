@@ -7,7 +7,7 @@ const card = size === 'card';
 ---
 {img ? (
   <figure class={card ? 'vimg vimg-card' : 'vimg'}>
-    <img src={img.file} alt={name} loading={card ? 'lazy' : 'eager'} width="1200" height="675" />
+    <img src={card ? img.file.replace('/vehicles/', '/vehicles/card/') : img.file} alt={name} loading={card ? 'lazy' : 'eager'} width={card ? 800 : 1200} height={card ? 450 : 675} />
     {!card && (
       <figcaption class="small muted">
         Photo: {img.author || 'Wikimedia Commons'}, <a href={img.page} rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, {img.licenceUrl ? <a href={img.licenceUrl} rel="nofollow noopener license" target="_blank">{img.licence}</a> : img.licence}{img.note ? `. ${img.note}` : ''}

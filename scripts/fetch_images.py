@@ -45,3 +45,5 @@ for slug, (src, idx, note) in picks.items():
     print('ok', slug, im.size, flush=True)
     time.sleep(1.5)
 data_path.write_text(json.dumps(dict(sorted(data.items())), indent=1, ensure_ascii=False))
+
+# Remember to run scripts/make_cards.py afterwards to refresh the card-sized copies.
