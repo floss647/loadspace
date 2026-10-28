@@ -15,6 +15,7 @@ const hasData = rows.length > 0;
   <div class="wrap">
     <h1>Most reliable vans by MOT results</h1>
     <p class="lede">Which vans fail their MOT least often, from every first MOT test recorded by DVSA. Real data, not opinion.</p>
+    <div class="notice"><strong>Mostly diesel and petrol vans.</strong> Few electric vans are old enough for MOT data yet. These figures still tell you how well each van's body, suspension, brakes and steering hold up, which the electric versions share.</div>
 
     {!hasData && <div class="notice"><strong>Coming soon.</strong> We're loading DVSA's latest MOT data. Rankings appear here as soon as it's processed.</div>}
 
@@ -28,7 +29,7 @@ const hasData = rows.length > 0;
               {ranked.map((x, i) => (
                 <tr>
                   <td>{i + 1}</td>
-                  <td><a href={`/vans/${x.van.slug}/`}>{x.van.name}</a> <span class="tag">{SIZES[x.van.size].short}</span>{x.r.includesMotorhomes && <span class="muted small"> *</span>}</td>
+                  <td><a href={x.van.electric ? `/vans/${x.van.slug}/` : `/vans/no-electric-version/#${x.van.slug}`}>{x.van.baseName}</a> <span class="tag">{SIZES[x.van.size].short}</span>{x.r.includesMotorhomes && <span class="muted small"> *</span>}</td>
                   <td class="num">{x.mid ? `${x.mid.failRate}%` : '–'}</td>
                   <td class="num">{x.r.failRate}%</td>
                   <td class="num">{x.r.tests.toLocaleString('en-GB')}</td>
@@ -38,7 +39,7 @@ const hasData = rows.length > 0;
           </table>
         </div>
         <p class="small muted">* Includes motorhome and campervan conversions sold under the same name, which can flatter the figures. </p>
-        {unranked.length > 0 && <p class="small">Not enough 5–6 year old examples to rank: {unranked.map((x, i) => <>{i > 0 && ', '}<a href={`/vans/${x.van.slug}/`}>{x.van.name}</a></>)}.</p>}
+        {unranked.length > 0 && <p class="small">Not enough 5–6 year old examples to rank: {unranked.map((x, i) => <>{i > 0 && ', '}<a href={x.van.electric ? `/vans/${x.van.slug}/` : `/vans/no-electric-version/#${x.van.slug}`}>{x.van.baseName}</a></>)}.</p>}
       </>
     )}
 

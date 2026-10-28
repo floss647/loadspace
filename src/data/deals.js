@@ -4,15 +4,13 @@
 export const DEALS_ARE_SAMPLE = true;
 
 export const DEALS = [
-  { van: 'ford-transit-custom', version: '2.0 EcoBlue 136 L1H1 Limited', broker: 'Broker A', monthly: 299, upfrontMonths: 6, term: 36, miles: 10000, fee: 300, fuel: 'Diesel' },
-  { van: 'ford-transit-custom', version: '2.0 EcoBlue 136 L1H1 Limited', broker: 'Broker B', monthly: 279, upfrontMonths: 12, term: 36, miles: 10000, fee: 300, fuel: 'Diesel' },
-  { van: 'volkswagen-transporter', version: '2.0 TDI 150 SWB Commerce', broker: 'Broker A', monthly: 289, upfrontMonths: 9, term: 48, miles: 10000, fee: 250, fuel: 'Diesel' },
   { van: 'vauxhall-vivaro', version: 'Electric 75kWh L2 Prime', broker: 'Broker C', monthly: 259, upfrontMonths: 6, term: 36, miles: 10000, fee: 0, fuel: 'Electric' },
   { van: 'citroen-dispatch', version: 'ë-Dispatch 75kWh XL Enterprise', broker: 'Broker B', monthly: 249, upfrontMonths: 9, term: 36, miles: 10000, fee: 250, fuel: 'Electric' },
   { van: 'kia-pv5-cargo', version: 'Long Range 71kWh', broker: 'Broker C', monthly: 269, upfrontMonths: 3, term: 48, miles: 10000, fee: 200, fuel: 'Electric' },
-  { van: 'ford-transit', version: '2.0 EcoBlue 130 L3H2 Trend', broker: 'Broker A', monthly: 349, upfrontMonths: 6, term: 36, miles: 15000, fee: 300, fuel: 'Diesel' },
-  { van: 'mercedes-benz-sprinter', version: '317 CDI L2H2 Progressive', broker: 'Broker B', monthly: 389, upfrontMonths: 9, term: 36, miles: 15000, fee: 300, fuel: 'Diesel' },
-  { van: 'peugeot-partner', version: '1.5 BlueHDi 100 Standard Asphalt', broker: 'Broker C', monthly: 189, upfrontMonths: 6, term: 36, miles: 8000, fee: 0, fuel: 'Diesel' },
+  { van: 'ford-transit-custom', version: 'E-Transit Custom 64kWh Trend', broker: 'Broker A', monthly: 349, upfrontMonths: 6, term: 36, miles: 10000, fee: 300, fuel: 'Electric' },
+  { van: 'ford-transit', version: 'E-Transit 350 L3H2 Trend', broker: 'Broker B', monthly: 449, upfrontMonths: 9, term: 48, miles: 10000, fee: 300, fuel: 'Electric' },
+  { van: 'mercedes-benz-sprinter', version: 'eSprinter L2H2 113kWh', broker: 'Broker C', monthly: 479, upfrontMonths: 6, term: 36, miles: 10000, fee: 250, fuel: 'Electric' },
+  { van: 'peugeot-partner', version: 'E-Partner Standard 50kWh', broker: 'Broker A', monthly: 239, upfrontMonths: 6, term: 36, miles: 8000, fee: 0, fuel: 'Electric' },
   { van: 'ford-transit-courier', version: 'E-Transit Courier Limited', broker: 'Broker A', monthly: 219, upfrontMonths: 12, term: 48, miles: 8000, fee: 300, fuel: 'Electric' },
 ];
 

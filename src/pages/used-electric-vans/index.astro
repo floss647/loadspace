@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { VANS, SIZES } from '../../data/vans.js';
 const evs = VANS.filter((v) => v.electric);
 ---
-<Base title="Used electric vans: the UK buyer's hub" description="Everything you need to buy a used electric van in the UK: who they suit, checks to make, running costs and every model with an electric version.">
+<Base title="Used electric vans: the UK buyer's hub" description="Everything you need to buy a used electric van in the UK: who they suit, checks to make, running costs and every electric van model.">
   <div class="wrap">
     <h1>Used electric vans</h1>
     <p class="lede">Prices have dropped, more are coming back from leases every month, and almost nobody explains how to buy one well. This is where we do.</p>
@@ -28,13 +28,13 @@ const evs = VANS.filter((v) => v.electric);
       <div class="card"><h3>Poor fit</h3><p>Long motorway runs · towing · no off-street charging, relying on public rapid chargers.</p></div>
     </div>
 
-    <h2>Every model with an electric version</h2>
+    <h2>Every electric van and pickup</h2>
     {Object.entries(SIZES).filter(([k]) => evs.some((v) => v.size === k)).map(([k, s]) => (
       <>
         <h3>{s.label}</h3>
         <div class="grid">
           {evs.filter((v) => v.size === k).map((v) => (
-            <a class="card" href={`/vans/${v.slug}/`}><h3>{v.name}</h3><p>{v.electricNote || 'Electric version available.'}</p></a>
+            <a class="card" href={`/vans/${v.slug}/`}><h3>{v.name}</h3><p>{v.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '') || SIZES[v.size].blurb}</p></a>
           ))}
         </div>
       </>

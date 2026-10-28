@@ -125,14 +125,14 @@ export const VANS = [
     topSeller: true,
     electricNote: 'Sold as the E-Transit Custom.',
     intro:
-      "The UK's best-selling van by a wide margin: 49,774 registered in 2025. The current generation arrived in 2023 with diesel, plug-in hybrid and fully electric versions, and it's the van the latest VW Transporter is built on.",
+      "The electric version of the UK's best-selling van (49,774 Transit Customs of all types were registered in 2025). The current generation arrived in 2023, and the latest VW e-Transporter is built on it.",
   }),
   v('Volkswagen', 'Transporter', 'medium', {
     twin: 'ford-vw-medium',
     electric: true,
     electricNote: 'Sold as the e-Transporter.',
     intro:
-      'The latest Transporter is built by Ford alongside the Transit Custom. Compare the two on price, warranty and finance offers: the van underneath is the same.',
+      'The latest e-Transporter is built by Ford alongside the E-Transit Custom. Compare the two on price, warranty and lease offers: the van underneath is the same.',
   }),
   v('Volkswagen', 'ID. Buzz Cargo', 'medium', {
     electric: true,
@@ -223,6 +223,50 @@ export const VANS = [
   }),
   v('GWM', 'Cannon', 'pickup'),
 ];
+
+// Names the electric versions are sold under. Pages show these; baseName keeps the
+// original model name (used for MOT reliability, which is mostly diesel data).
+const EV_NAMES = {
+  'ford-transit-courier': 'Ford E-Transit Courier',
+  'citroen-berlingo': 'Citroën ë-Berlingo',
+  'peugeot-partner': 'Peugeot E-Partner',
+  'vauxhall-combo': 'Vauxhall Combo Electric',
+  'toyota-proace-city': 'Toyota Proace City Electric',
+  'fiat-doblo': 'Fiat E-Doblo',
+  'renault-kangoo': 'Renault Kangoo E-Tech',
+  'nissan-townstar': 'Nissan Townstar EV',
+  'mercedes-benz-citan': 'Mercedes-Benz eCitan',
+  'ford-transit-custom': 'Ford E-Transit Custom',
+  'volkswagen-transporter': 'Volkswagen e-Transporter',
+  'mercedes-benz-vito': 'Mercedes-Benz eVito',
+  'vauxhall-vivaro': 'Vauxhall Vivaro Electric',
+  'citroen-dispatch': 'Citroën ë-Dispatch',
+  'peugeot-expert': 'Peugeot E-Expert',
+  'toyota-proace': 'Toyota Proace Electric',
+  'fiat-scudo': 'Fiat E-Scudo',
+  'ford-transit': 'Ford E-Transit',
+  'mercedes-benz-sprinter': 'Mercedes-Benz eSprinter',
+  'renault-master': 'Renault Master E-Tech',
+  'nissan-interstar': 'Nissan Interstar (electric)',
+  'vauxhall-movano': 'Vauxhall Movano Electric',
+  'citroen-relay': 'Citroën ë-Relay',
+  'peugeot-boxer': 'Peugeot E-Boxer',
+  'fiat-ducato': 'Fiat E-Ducato',
+  'toyota-proace-max': 'Toyota Proace Max Electric',
+  'iveco-daily': 'Iveco eDaily',
+  'maxus-deliver-9': 'Maxus eDeliver 9',
+  'toyota-hilux': 'Toyota Hilux (electric)',
+  'isuzu-d-max': 'Isuzu D-Max EV',
+  'kgm-musso': 'KGM Musso EV',
+  'maxus-t60-t90': 'Maxus T90EV',
+};
+for (const v of VANS) {
+  v.baseName = v.name;
+  if (v.electric && EV_NAMES[v.slug]) v.name = EV_NAMES[v.slug];
+}
+
+export const EV_VANS = VANS.filter((v) => v.electric);
+export const NON_EV_VANS = VANS.filter((v) => !v.electric);
 
 // Electric alternatives for a van with no electric version: twins first, then same size.
 export const electricAlternatives = (van) => {

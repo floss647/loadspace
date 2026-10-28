@@ -1,28 +1,22 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { SIZES, VANS, TWINS } from '../../data/vans.js';
+import { SIZES, EV_VANS, NON_EV_VANS, TWINS } from '../../data/vans.js';
 ---
-<Base title="Every electric van on sale in the UK" description="Every electric van and pickup on sale in the UK, by size, plus the diesel-only models and their electric alternatives.">
+<Base title="Every electric van on sale in the UK" description="Every electric van and pickup on sale in the UK, by size, with rebadged twins marked.">
   <div class="wrap">
     <h1>Every electric van on sale in the UK</h1>
-    <p class="lede">{VANS.filter((v) => v.electric).length} of the {VANS.length} vans and pickups on sale now come in an electric version. Electric models are listed first in each size; models without one show their nearest electric alternatives. Many are the same van with a different badge, and we mark those.</p>
-
-    <div class="filters" role="group" aria-label="Filter">
-      <button type="button" data-filter="all" aria-pressed="true">All</button>
-      <button type="button" data-filter="ev" aria-pressed="false">Has an electric version</button>
-    </div>
+    <p class="lede">{EV_VANS.length} electric vans and pickups, from city vans to 4.25-tonne panel vans. Many are the same van with a different badge, and we mark those so you can compare like for like.</p>
 
     {Object.entries(SIZES).map(([key, s]) => (
       <section id={key}>
         <h2>{s.label}</h2>
         <p class="muted">{s.blurb}</p>
         <div class="grid">
-          {VANS.filter((v) => v.size === key).sort((a, b) => b.electric - a.electric).map((v) => (
-            <a class="card van-card" href={`/vans/${v.slug}/`} data-ev={v.electric ? 'y' : 'n'}>
+          {EV_VANS.filter((v) => v.size === key).sort((a, b) => b.topSeller - a.topSeller).map((v) => (
+            <a class="card" href={`/vans/${v.slug}/`}>
               <h3>{v.name}</h3>
               <p>
-                {v.topSeller && <span class="tag top">Top seller</span>}
-                {v.electric ? <span class="tag ev">Electric</span> : <span class="tag">No electric version</span>}
+                {v.topSeller && <span class="tag top">Top-selling model</span>}
                 {v.twin && <span class="tag">Twin: {TWINS[v.twin].name}</span>}
               </p>
             </a>
@@ -30,17 +24,11 @@ import { SIZES, VANS, TWINS } from '../../data/vans.js';
         </div>
       </section>
     ))}
+
+    <div class="card" style="margin-top:2.5rem">
+      <h3>Can't find your van?</h3>
+      <p>{NON_EV_VANS.length} vans and pickups, including the {NON_EV_VANS.slice(0, 3).map((v) => v.name).join(', ')}, don't have an electric version yet. <a href="/vans/no-electric-version/">See them and their nearest electric alternatives →</a></p>
+    </div>
+    <p class="small" style="margin-top:1rem">Need more than 4.25 tonnes? <a href="/trucks/">See electric trucks →</a></p>
   </div>
-  <script>
-    const buttons = document.querySelectorAll('[data-filter]');
-    buttons.forEach((b) =>
-      b.addEventListener('click', () => {
-        buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-        const evOnly = b.dataset.filter === 'ev';
-        document.querySelectorAll('.van-card').forEach((c) => {
-          c.style.display = evOnly && c.dataset.ev !== 'y' ? 'none' : '';
-        });
-      })
-    );
-  </script>
 </Base>

@@ -8,9 +8,9 @@ const rows = DEALS.map((d) => ({ ...d, van: bySlug[d.van], tc: trueCost(d) }))
   .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 ---
-<Base title="Van lease deals ranked by true cost" description="UK van lease deals ranked by what you actually pay per month, including the upfront payment and fees.">
+<Base title="Electric van lease deals ranked by true cost" description="UK electric van lease deals ranked by what you actually pay per month, including the upfront payment and fees.">
   <div class="wrap">
-    <h1>Van lease deals</h1>
+    <h1>Electric van lease deals</h1>
     <p class="lede">Ranked by <strong>true cost per month</strong>: the upfront payment and fees spread across the whole lease, so you can compare deals fairly.</p>
 
     {DEALS_ARE_SAMPLE && (
@@ -19,7 +19,6 @@ const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 
     <div class="filters" role="group" aria-label="Filter by size or fuel">
       <button type="button" data-f="all" aria-pressed="true">All</button>
-      <button type="button" data-f="Electric" aria-pressed="false">Electric</button>
       {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
     </div>
 
@@ -31,7 +30,7 @@ const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
         <tbody>
           {rows.map((d) => (
             <tr data-size={d.van.size} data-fuel={d.fuel}>
-              <td><a href={`/vans/${d.van.slug}/`}><strong>{d.van.name}</strong></a><br /><span class="small">{d.version}</span><br /><span class="muted small">{d.fuel} · {d.broker}</span></td>
+              <td><a href={`/vans/${d.van.slug}/`}><strong>{d.van.name}</strong></a><br /><span class="small">{d.version}</span><br /><span class="muted small">{d.broker}</span></td>
               <td class="num">{gbp(d.monthly)}</td>
               <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
               <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>

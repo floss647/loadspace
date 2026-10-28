@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SIZES, NON_EV_VANS, electricAlternatives } from '../../data/vans.js';
+---
+<Base title="Vans with no electric version yet, and the alternatives" description="Popular vans and pickups that aren't sold as electric yet, and the nearest electric alternatives for each.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/vans/">Electric vans</a></div>
+    <div class="prose">
+      <h1>No electric version yet</h1>
+      <p class="lede">These vans and pickups are only sold with diesel or petrol engines (or as a plug-in hybrid) for now. If you're thinking of switching, here are the closest electric alternatives.</p>
+    </div>
+    {Object.entries(SIZES).map(([key, s]) => NON_EV_VANS.some((v) => v.size === key) && (
+      <section>
+        <h2>{s.label}</h2>
+        <div class="grid">
+          {NON_EV_VANS.filter((v) => v.size === key).map((v) => {
+            const alts = electricAlternatives(v).slice(0, 4);
+            return (
+              <div class="card" id={v.slug}>
+                <h3>{v.name}</h3>
+                {v.electricNote && <p>{v.electricNote}</p>}
+                <p style="margin-top:.5rem"><strong style="color:var(--ink)">Electric alternatives:</strong> {alts.map((a, i) => <>{i > 0 && ', '}<a href={`/vans/${a.slug}/`}>{a.name}</a></>)}</p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
