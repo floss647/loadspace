@@ -1,0 +1,947 @@
+[
+  {
+    "slug": "renault-kangoo",
+    "name": "Renault Kangoo E-Tech",
+    "usedNames": [
+      "Kangoo Z.E.",
+      "Kangoo ZE",
+      "Kangoo Van Z.E.",
+      "Kangoo Z.E. 33",
+      "Kangoo Maxi Z.E.",
+      "Kangoo i Z.E.",
+      "Kangoo Van i",
+      "Kangoo E-Tech (2020-21 rebadge of the old Z.E.)",
+      "Kangoo E-Tech Electric"
+    ],
+    "summary": "Two very different vans share the name. The old Kangoo Z.E. (2011-2021) is one of the cheapest electric vans you can buy used, but range is short and many were sold with the battery on a separate monthly lease, so check that first. The current Kangoo E-Tech (from 2022) is a modern small van with a 45kWh battery, rapid charging and about 180 miles official range.",
+    "generations": [
+      {
+        "years": "2011-2017",
+        "label": "Kangoo Z.E. (22kWh)",
+        "batteries": [
+          {
+            "kWh": "22",
+            "wltpMiles": "106 (NEDC, pre-WLTP)",
+            "realWorldMiles": "about 53-78 (Renault's own estimate, depending on weather and load)",
+            "notes": "Range figures are NEDC, not WLTP."
+          }
+        ],
+        "acKw": "3.5 (single-phase only)",
+        "dcKw": "none",
+        "connector": "Type 2 AC only (no rapid charging)",
+        "notes": "About 11 hours for a full charge from a 3.7kW supply. Nearly all were sold with the battery leased from Renault, not owned."
+      },
+      {
+        "years": "2017-2021",
+        "label": "Kangoo Z.E. 33 (sold as 'Kangoo E-Tech' in its final period)",
+        "batteries": [
+          {
+            "kWh": "33",
+            "wltpMiles": "170 NEDC (Electrifying quotes 143 WLTP)",
+            "realWorldMiles": "about 124 in summer, 75-99 in winter (Renault's estimate)",
+            "notes": ""
+          }
+        ],
+        "acKw": "7",
+        "dcKw": "none",
+        "connector": "Type 2 AC only (no rapid charging)",
+        "notes": "About 6 hours for a full charge on a 7kW wallbox. From 2017 you could also buy it with the battery included, badged 'i' (e.g. Kangoo i Z.E. / Kangoo Van i). Also sold as the Maxi long-wheelbase and Crew Van."
+      },
+      {
+        "years": "2022-present",
+        "label": "Kangoo E-Tech (new generation)",
+        "batteries": [
+          {
+            "kWh": "45",
+            "wltpMiles": "186 (UK launch claim, up to 285km)",
+            "realWorldMiles": "not confirmed (sister eCitan managed about 135 miles in Honest John's test)",
+            "notes": ""
+          }
+        ],
+        "acKw": "22 listed as standard UK spec at launch (some markets 11)",
+        "dcKw": "80 (Renault press material also says 75)",
+        "connector": "CCS",
+        "notes": "UK prices announced July 2022, Start and Advance trims, from £26,500 + VAT after the grant. 90kW (120hp) motor. Same underpinnings as the Nissan Townstar EV and Mercedes eCitan."
+      }
+    ],
+    "batteryWarranty": "Old Z.E. on battery lease: the battery belongs to Renault/RCI and is covered by the lease agreement against faults and capacity loss while the lease runs. Old Z.E. with owned battery: Renault quoted 5 years / 100,000km for Kangoo Z.E. New Kangoo E-Tech: 8 years / 160,000km (100,000 miles) to 70% capacity per Renault's non-UK sites. UK terms and whether cover transfers to a new owner were not confirmed; check the UK warranty booklet.",
+    "knownIssues": [
+      {
+        "issue": "Battery lease (battery hire) on most old Z.E.s",
+        "detail": "Most 2011-2021 Kangoo Z.E.s were sold with the battery leased from Renault (RCI Financial Services). The lease does not move to a new owner automatically: the seller's agreement is closed and the buyer signs a new lease, subject to approval. Since March 2020 owners can buy the battery from RCI at any time. The older the pack, the cheaper the buy-out. Ad titles and vehicle data often say 'BATTERY LEASE' in the model description, and owned-battery vans are badged 'i' and noted on the V5C. Get a written buy-out quote from RCI using the VIN before you buy.",
+        "source": "https://www.gogreenautos.co.uk/buyers-guide/battery-lease-explained"
+      },
+      {
+        "issue": "Battery lease monthly cost",
+        "detail": "Lease rental depended on annual mileage. One UK specialist lists Kangoo Z.E. rental from £25 a month after Renault's October 2017 price change. Owners on forums quoted 2020 buy-out prices of about £3,500 for a 2016 22kWh Zoe pack (car figures, but the same RCI scheme). Treat these as old examples, not current quotes.",
+        "source": "https://www.speakev.com/threads/rci-now-allowing-battery-lease-buyouts.151233/"
+      },
+      {
+        "issue": "Cabin heater (PTC) failure on 22kWh Z.E.",
+        "detail": "Owner reports and a UK specialist say the resistive PTC heater can fail. A dealer replacement was quoted at about £848 + VAT. Check that the heater blows hot air with the van plugged in and unplugged.",
+        "source": "https://sites.google.com/gogreenautos.co.uk/public/how-tos/renault-kangoo-ptc-heater"
+      },
+      {
+        "issue": "Front charge flap stiff or broken (owner reports)",
+        "detail": "The front grille charge flap on Type 2 Kangoos can get stiff or snap off.",
+        "source": "https://sites.google.com/gogreenautos.co.uk/public/how-tos"
+      },
+      {
+        "issue": "Touchscreen and phone connection drop-outs on new E-Tech",
+        "detail": "Auto Express's long-term test van kept losing its smartphone connection. The drivetrain was otherwise trouble-free.",
+        "source": "https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Passenger seat frame (Kangoo Electric built in 2023; German KBA recall, 184 vans; UK applicability not confirmed)",
+        "years": "2023",
+        "source": "https://car-recalls.eu/renault-kangoo-passenger-seat-frame-checked-replaced-kba/amp/"
+      }
+    ],
+    "usedPrices": "Approximate, from AutoUncle UK dealer listings in early to mid 2026: a high-mileage (99k) 2019 Kangoo Z.E. 33 was advertised at about £2,900. New-shape 2024 Kangoo E-Tech vans were mostly £10,000-£13,000, with low-mileage examples up to about £15,500. Expect battery-lease Z.E.s to be advertised cheaper than owned-battery 'i' versions. One UK specialist says the gap is £3,000-£6,000, but that is not a Kangoo-specific figure.",
+    "bestBuy": "For a cheap local runabout, an owned-battery ('i') Kangoo Z.E. 33 from 2017-2021, for its 7kW charging and roughly 75-124 miles of real range. If you need rapid charging or more than about 100 miles a day, go for a 2022-on Kangoo E-Tech 45kWh.",
+    "avoid": "22kWh Z.E.s (2011-2017) unless your daily mileage is very low: 3.5kW charging and roughly 50-80 miles of range. Also avoid any battery-lease van where you haven't priced the buy-out or the new lease before handing over money.",
+    "checks": [
+      "Old Z.E.: confirm whether the battery is leased or owned. Look for 'i' badging, the V5C, the model description (often says 'BATTERY LEASE') and RCI with the VIN, and get a written buy-out figure.",
+      "Old Z.E.: make sure it's a 33kWh (2017-on, 7kW charger) not a 22kWh (3.5kW). The model year and charging rate tell them apart.",
+      "Old Z.E.: test the cabin heater and check the front charge flap isn't broken.",
+      "Old Z.E.: remember there's no rapid charging at all, so it must charge at base.",
+      "New E-Tech: check the 80kW CCS rapid charging works and the touchscreen and phone connection are stable.",
+      "New E-Tech: check the UK battery warranty has been registered and how many years are left (8-year battery cover)."
+    ],
+    "sources": [
+      "https://www.gogreenautos.co.uk/buyers-guide/battery-lease-explained",
+      "https://www.speakev.com/threads/rci-now-allowing-battery-lease-buyouts.151233/",
+      "https://www.speakev.com/threads/what-to-expect-from-renault-re-my-leased-kangoo-batteries.151276/",
+      "https://internationalfleetworld.com/renault-uk-provides-fleets-with-option-of-battery-ownership-for-kangoo-ze/",
+      "https://www.mycarcheck.com/vehicle-insight-engine/9b9eab4a64fb35582ecaa447133d9396/RENAULT-KANGOO-VAN-Z-E-E-TECH-KANGOO-VAN-Z-E-E-TECH-2011-22-MAXI-VAN-Z-E-0-0-ELECTRIC-BATTERY-LEASE-60-AUTO",
+      "https://www.parkers.co.uk/vans-pickups/renault/kangoo/2011-ze-review",
+      "https://www.fleetnews.co.uk/news/van-news/2017/06/23/renault-launches-kangoo-ze-electric-van-with-real-world-range-of-125-miles",
+      "https://www.electrifying.com/reviews/renault/kangoo-ze/range",
+      "https://ev-database.org/uk/car/1101/Renault-Kangoo-Crew-Van-ZE33",
+      "https://sites.google.com/gogreenautos.co.uk/public/how-tos/renault-kangoo-ptc-heater",
+      "https://www.autoexpress.co.uk/renault/kangoo/97992/2022-renault-kangoo-and-electric-kangoo-e-tech-pricing-revealed",
+      "https://fleetworld.co.uk/renaults-electric-kangoo-van-e-tech-revealed-with-186-mile-range/",
+      "https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small",
+      "https://www.renault.com.au/vehicles/kangoo-e-tech",
+      "https://car-recalls.eu/renault-kangoo-passenger-seat-frame-checked-replaced-kba/amp/",
+      "https://www.autouncle.co.uk/en-gb/used-cars/Renault/Kangoo/y-2026"
+    ],
+    "confidence": "Medium. Specs for the old Z.E. and how the lease works are solid. Least certain: current RCI buy-out prices and monthly rates (only old figures found), UK battery warranty terms for the new E-Tech, and used prices (few listings)."
+  },
+  {
+    "slug": "nissan-townstar",
+    "name": "Nissan Townstar EV",
+    "usedNames": [
+      "Townstar Electric",
+      "Townstar EV Visia/Acenta/Tekna",
+      "Townstar Evalia EV (passenger)"
+    ],
+    "summary": "Nissan's version of the Renault Kangoo E-Tech, launched in 2022 to replace the e-NV200. It has the same 45kWh battery and motor, about 180 miles official range and CCS rapid charging. Used ones are fairly cheap because there are plenty around, and the 8-year battery warranty means most still have cover left.",
+    "generations": [
+      {
+        "years": "2022-present",
+        "label": "Townstar EV",
+        "batteries": [
+          {
+            "kWh": "45",
+            "wltpMiles": "about 176-186 depending on source/version (Nissan claimed up to 183)",
+            "realWorldMiles": "not confirmed (the closely related eCitan did about 135 miles in a Honest John test)",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 on Visia; 22 on higher trims",
+        "dcKw": "80 (15-80% in about 37 minutes); not confirmed whether base Visia has DC",
+        "connector": "CCS",
+        "notes": "Went on sale in the UK from £28,400 + VAT after the grant. L1 and L2 (long) panel vans. Shares its platform with the Kangoo E-Tech and eCitan, built at Maubeuge (France)."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles against capacity falling below 70%. The van itself has a 5-year / 100,000-mile warranty. Transfer to a new owner was not confirmed, but manufacturer warranties normally stay with the van.",
+    "knownIssues": [
+      {
+        "issue": "Base Visia limited to 11kW AC",
+        "detail": "Visia charges at up to 11kW AC, while higher trims charge at 22kW. Sources disagree on whether Visia has DC rapid charging. Check the spec of the actual van.",
+        "source": "https://parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review"
+      },
+      {
+        "issue": "Low payload on base model",
+        "detail": "Parkers notes only about 600kg payload on the base model.",
+        "source": "https://parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate: Parkers' used valuation range for the Townstar EV (2022-on) is £7,200-£19,150. CarGurus area searches show Townstar listings averaging about £12,000-£12,500, but those include petrol vans. Data from 2026 listings and guides.",
+    "bestBuy": "An Acenta or Tekna from 2023-on, for 22kW AC and confirmed 80kW DC charging and plenty of battery warranty left.",
+    "avoid": "A Visia if you rely on public rapid charging, unless you confirm it has DC charging.",
+    "checks": [
+      "Check the trim. Visia is 11kW AC only, and DC capability needs confirming. Acenta and Tekna have 22kW AC plus 80kW DC.",
+      "Test a CCS rapid charge, and check the charging port behind the front badge opens and latches properly.",
+      "Ask a Nissan dealer for any outstanding software updates or recall work on the VIN, and check gov.uk recalls.",
+      "Confirm the battery warranty start date (8 years from first registration).",
+      "Check the payload on the plate if you carry heavy loads (base model about 600kg)."
+    ],
+    "sources": [
+      "https://parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review",
+      "https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van",
+      "https://www.electrifying.com/reviews/nissan-reviews/townstar/review",
+      "https://stoneacre.co.uk/new-vans/nissan/townstar-ev/visia-l2",
+      "https://stoneacre.co.uk/new-vans/nissan/townstar-ev/acenta-l2",
+      "https://www.parkers.co.uk/vans-pickups/nissan/townstar/ev-2022/used-prices",
+      "https://www.drivingelectric.com/nissan/40280/new-nissan-electric-van-e-nv200-replacement-confirmed",
+      "https://www.cargurus.co.uk/Cars/l-Used-Nissan-Townstar-Canterbury-d6349_L1005936"
+    ],
+    "confidence": "Medium. Battery, warranty and charging on higher trims are solid. Least certain: whether base Visia has DC charging, real-world range, and whether there are any UK recalls (none found)."
+  },
+  {
+    "slug": "mercedes-benz-citan",
+    "name": "Mercedes-Benz eCitan",
+    "usedNames": [
+      "eCitan",
+      "Citan E",
+      "Mercedes Citan Electric",
+      "EQT (passenger version)"
+    ],
+    "summary": "A Mercedes-badged sister to the Renault Kangoo E-Tech and Nissan Townstar EV, with the same 45kWh battery and about 175 miles official range. It reached the UK late, in autumn 2023, so used examples are young and fairly few.",
+    "generations": [
+      {
+        "years": "2023-present (UK)",
+        "label": "eCitan",
+        "batteries": [
+          {
+            "kWh": "45",
+            "wltpMiles": "175-176 (some trims listed lower)",
+            "realWorldMiles": "about 135 (Honest John test, about 3.0 miles per kWh)",
+            "notes": ""
+          }
+        ],
+        "acKw": "22 (standard in UK)",
+        "dcKw": "75 (10-80% in about 38 minutes)",
+        "connector": "CCS (socket behind the front star)",
+        "notes": "UK orders opened in September 2023 from £33,995 + VAT (before grant), with first deliveries from October 2023. Progressive and Premium trims. L1 first, with L2 and crew van later."
+      }
+    ],
+    "batteryWarranty": "8 years to 70% capacity. Honest John says 100,000 miles, while one spec sheet says 160,000 (probably km). The van warranty is 3 years with unlimited mileage. Transfer not specifically confirmed.",
+    "knownIssues": [],
+    "recalls": [
+      {
+        "issue": "Low beam and indicators may not work (German KBA recall covering Citan/eCitan/T-Class/EQT built 2024; UK applicability not confirmed)",
+        "years": "2024 builds",
+        "source": "https://car-recalls.eu/es/non-functioning-lights-four-mercedes-benz-models-kba/"
+      },
+      {
+        "issue": "Central control unit may not start up properly; software fix (KBA; UK applicability not confirmed)",
+        "years": "not confirmed",
+        "source": "https://car-recalls.eu/es/recall-news/kba-recalls/mercedes-benz/citan/"
+      }
+    ],
+    "usedPrices": "Not confirmed. There are very few used listings (AutoUncle shows a few 2025 examples but prices weren't readable). Expect it to cost more than an equivalent Townstar or Kangoo.",
+    "bestBuy": "Any eCitan with full Mercedes service history and the lighting and control-unit recall work done. They're all the same 45kWh / 22kW AC / 75kW DC spec, so choose on mileage and trim.",
+    "avoid": "Paying a big premium over an identical-under-the-skin Kangoo E-Tech or Townstar EV unless you want the Mercedes dealer network.",
+    "checks": [
+      "Ask Mercedes, using the VIN, whether the lighting and control-unit recalls have been done.",
+      "Check the indicators and dipped headlights work (subject of a recall).",
+      "Test 22kW AC and CCS DC charging, and the charge flap behind the front star.",
+      "Confirm the 8-year battery warranty start date. The 3-year vehicle warranty may already have run out on 2023 vans."
+    ],
+    "sources": [
+      "https://vans.honestjohn.co.uk/mercedes-benz/ecitan",
+      "https://www.whatvan.co.uk/van-reviews/mercedes-benz-ecitan-2023-review/",
+      "https://www.fleetnews.co.uk/news/van-news/2023/09/12/mercedes-benz-vans-announces-pricing-of-new-electric-van-the-ecitan",
+      "https://evfleetworld.co.uk/?p=49385",
+      "https://car-recalls.eu/es/non-functioning-lights-four-mercedes-benz-models-kba/",
+      "https://car-recalls.eu/es/recall-news/kba-recalls/mercedes-benz/citan/"
+    ],
+    "confidence": "Medium. Specs and launch timing are solid. Least certain: used prices (none found), the battery warranty mileage, and whether the KBA recalls apply to UK vans."
+  },
+  {
+    "slug": "nissan-e-nv200",
+    "name": "Nissan e-NV200",
+    "usedNames": [
+      "e-NV200",
+      "eNV200",
+      "e-NV200 Combi",
+      "e-NV200 Evalia (passenger)",
+      "e-NV200 XL Voltia (box-body conversion)"
+    ],
+    "summary": "Nissan's first electric van (2014-2021) uses Leaf batteries and is now one of the cheapest used electric vans. The 40kWh version (2018-on) manages around 100 miles in mixed use, which suits town work. The early 24kWh vans are best avoided unless your mileage is very low.",
+    "generations": [
+      {
+        "years": "2014-2018",
+        "label": "e-NV200 24kWh",
+        "batteries": [
+          {
+            "kWh": "24",
+            "wltpMiles": "106 (NEDC)",
+            "realWorldMiles": "about 50-80",
+            "notes": "Same 24kWh pack as the original Leaf."
+          }
+        ],
+        "acKw": "3.6 (6.6 optional on some versions: not confirmed)",
+        "dcKw": "50",
+        "connector": "CHAdeMO (DC) + Type 1 (AC)",
+        "notes": "Some were sold with Nissan 'Flex' battery leasing: in 2014 a 36-month rental started at £61 a month (6,000 miles a year), rising to £106 depending on term and mileage, which cut the van's price to £13,393 + VAT."
+      },
+      {
+        "years": "2018-2021",
+        "label": "e-NV200 40kWh",
+        "batteries": [
+          {
+            "kWh": "40",
+            "wltpMiles": "124 (WLTP combined; 187 city)",
+            "realWorldMiles": "about 110-120 in mixed use; about 90 in cold weather (EV Database)",
+            "notes": "Same 40kWh pack as the 2018 Leaf."
+          }
+        ],
+        "acKw": "6.6",
+        "dcKw": "50 nominal (owner tests show about 42-44kW peak, falling to 25-30kW after repeated rapid charges)",
+        "connector": "CHAdeMO (DC) + Type 2 (AC)",
+        "notes": "Production at Barcelona ended in late 2021, and the Townstar EV replaced it."
+      }
+    ],
+    "batteryWarranty": "40kWh: 8 years / 100,000 miles. Nissan replaces the battery if it shows fewer than 9 of 12 capacity bars. EV parts: 5 years / 60,000 miles. 24kWh capacity cover not confirmed. Most 24kWh vans and many early 40kWh vans are now near or past the 8-year limit. Flex-lease batteries were covered by the lease.",
+    "knownIssues": [
+      {
+        "issue": "Rapid-charge slowdown after repeated charges ('rapidgate', owner reports)",
+        "detail": "Unlike the Leaf, the e-NV200 has a battery cooling fan, but it still cuts DC charging power once the pack is hot. One test saw 42-44kW drop to 25-30kW on a second or third rapid charge in a day.",
+        "source": "https://en.avtotachki.com/u-gruzovogo-avtofurgona-nissan-e-nv200-2018-takzhe-est-problemy-s-bystroy-zaryadkoy-b-orn-nayland-elektromagniki-www-elektrowoz-pl/"
+      },
+      {
+        "issue": "Battery cooling is a fan system, not liquid",
+        "detail": "The e-NV200 pack has a fan and heat exchanger, so it isn't purely passive like the Leaf, but it isn't liquid-cooled either. Battery heating/conditioning came on Acenta/Evalia trims.",
+        "source": "https://www.greencarreports.com/news/1092763_nissan-e-nv200-electric-van-battery-adds-thermal-conditioning"
+      },
+      {
+        "issue": "PTC cabin heater failure (shared with Leaf/Kangoo)",
+        "detail": "A UK specialist notes that the same PTC heater used across Leaf, e-NV200 and Kangoo can fail. Check for hot air.",
+        "source": "https://sites.google.com/gogreenautos.co.uk/public/how-tos/renault-kangoo-ptc-heater"
+      },
+      {
+        "issue": "Battery capacity loss on 24kWh vans",
+        "detail": "Reviewers warn real range on 24kWh vans can drop to around 50 miles. Check the capacity bars and get a battery health report.",
+        "source": "https://www.electrifying.com/used-reviews/nissan/e-nv200/review"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Driver's airbag heat shield may be out of place (EU Rapex alert; UK applicability not confirmed)",
+        "years": "built April-November 2019",
+        "source": "https://car-recalls.eu/recall/nissan-e-nv200-2019-airbag"
+      },
+      {
+        "issue": "Park-lock actuator weld defect, so the van may roll away (EU alert; UK applicability not confirmed)",
+        "years": "built 18 July-9 September 2019",
+        "source": "https://car-recalls.eu/recall/nissan-e-nv200-2019-actuator/amp/"
+      },
+      {
+        "issue": "Push-start switch may stick; rear door gas strut corrosion (EU listings)",
+        "years": "2013-2016",
+        "source": "https://car-recalls.eu/recall/nissan-e-nv200-2014-2016/amp/"
+      }
+    ],
+    "usedPrices": "Approximate, from AutoUncle and Autotrader listings in early 2026, for 40kWh vans: about £3,500-£4,000 (+VAT on some) for 2020 vans with 100k+ miles, about £6,500-£8,500 for 2020-21 vans with 35-60k miles, and up to about £12,000 for low-mileage 2020-21 Teknas. Check whether prices are +VAT.",
+    "bestBuy": "A 2019-2021 40kWh Acenta or Tekna with high capacity bars (ideally 11-12) and a Nissan battery health printout.",
+    "avoid": "24kWh vans (2014-2018) unless you only do short local runs. Also avoid any van still on a Nissan Flex battery lease until you know exactly what the lease costs and whether it can be ended.",
+    "checks": [
+      "Count the battery capacity bars on the dash (12 = good; 8 or fewer on a 40kWh means it's below the warranty threshold) and ask for a Nissan or LeafSpy battery health report.",
+      "Check whether the battery is owned or on Nissan 'Flex' lease (mostly 2014-2016 vans) by asking the seller and Nissan Finance with the VIN.",
+      "Make sure it's a 40kWh: 2018-on, 6.6kW AC, Type 2 socket.",
+      "Do two back-to-back CHAdeMO rapid charges if you rely on them, to see how much the charging slows.",
+      "Check the heater works and that the 2019 airbag and park-lock recall work is done (for 2019 builds).",
+      "Remember it uses CHAdeMO, which fewer new public chargers support."
+    ],
+    "sources": [
+      "https://www.electrifying.com/used-reviews/nissan/e-nv200/review",
+      "https://www.drivingelectric.com/nissan/e-nv200/386/nissan-e-nv200-van-range-battery-charging",
+      "https://www.drivingelectric.com/nissan/e-nv200/385/nissan-e-nv200-van-review",
+      "https://greencarscompare.com/global/compare/cars/nissan-e-nv200-2014-vs-nissan-e-nv200-2018/",
+      "https://www.fleetnews.co.uk/electric-fleet/electric-car-and-van-data/nissan/e-nv200-combi-1117",
+      "https://www.smmt.co.uk/2014/05/nissan-announces-pricing-leasing-options-e-nv200/",
+      "https://vans.honestjohn.co.uk/van-news/new-vans/2014-05/nissan-e-nv200-prices-revealed/",
+      "https://www.greencarreports.com/news/1092763_nissan-e-nv200-electric-van-battery-adds-thermal-conditioning",
+      "https://electricrevs.com/2019/01/31/does-the-new-62-kwh-leaf-battery-have-an-additional-fan-for-cooling/",
+      "https://en.avtotachki.com/u-gruzovogo-avtofurgona-nissan-e-nv200-2018-takzhe-est-problemy-s-bystroy-zaryadkoy-b-orn-nayland-elektromagniki-www-elektrowoz-pl/",
+      "https://www.parkers.co.uk/vans/nissan/",
+      "https://car-recalls.eu/recall/nissan-e-nv200-2019-airbag",
+      "https://car-recalls.eu/recall/nissan-e-nv200-2019-actuator/amp/",
+      "https://www.autouncle.co.uk/en-gb/d/40320545-used-nissan-e-nv200-80kw-tekna-van-auto-40kwh",
+      "https://trade.autotrader.co.uk/vans/used-vans/uk/nissan/e-nv200"
+    ],
+    "confidence": "Medium-high on specs, warranty and the Flex lease. Least certain: the 24kWh capacity warranty and optional 6.6kW charger, whether Flex leases can be bought out, and which EU recalls cover UK vans."
+  },
+  {
+    "slug": "renault-master",
+    "name": "Renault Master E-Tech",
+    "usedNames": [
+      "Master Z.E.",
+      "Master ZE",
+      "Master E-Tech (2022-23, 52kWh)",
+      "Master E-Tech Electric (2024-on)"
+    ],
+    "summary": "The all-new 2024 Master E-Tech is a genuinely useful large electric van with an 87kWh battery, up to about 285 miles official range and 130kW rapid charging. The older Master Z.E. / E-Tech (2018-2023) is a converted diesel-shape van with a small battery, short range and no proper rapid charging, so it only suits fixed short routes.",
+    "generations": [
+      {
+        "years": "2018-2021",
+        "label": "Master Z.E. (33kWh)",
+        "batteries": [
+          {
+            "kWh": "33",
+            "wltpMiles": "124 (NEDC)",
+            "realWorldMiles": "about 75 in summer (Renault's own figure); about 50 in cold weather",
+            "notes": "Same 33kWh battery as the Kangoo Z.E. 33."
+          }
+        ],
+        "acKw": "7 (about 6 hours full charge)",
+        "dcKw": "none",
+        "connector": "Type 2 AC only",
+        "notes": "UK launch late 2018 from £45,700 + VAT after the grant. Battery-included 'i' versions were listed. Whether battery lease applied to Master in the UK is not confirmed."
+      },
+      {
+        "years": "2022-2024",
+        "label": "Master E-Tech (52kWh)",
+        "batteries": [
+          {
+            "kWh": "52",
+            "wltpMiles": "124-126",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          }
+        ],
+        "acKw": "22 (sources disagree on whether this is AC or a 22kW DC socket)",
+        "dcKw": "no high-power CCS rapid charging (some sources describe 22kW DC)",
+        "connector": "Type 2 (check spec)",
+        "notes": "Bigger battery added to the old-shape Master for the 2022 model year."
+      },
+      {
+        "years": "2024-present",
+        "label": "Master E-Tech (new generation)",
+        "batteries": [
+          {
+            "kWh": "87",
+            "wltpMiles": "up to about 285 (lower on heavier/3.5t+ and chassis versions, e.g. 255)",
+            "realWorldMiles": "not confirmed",
+            "notes": "A 40kWh version is sold in Europe but Renault said it would not bring it to the UK."
+          }
+        ],
+        "acKw": "22 (standard)",
+        "dcKw": "130 (about 143 miles in 30 minutes, per Nissan for the identical Interstar-e)",
+        "connector": "CCS",
+        "notes": "UK prices from £42,500 + VAT (£37,500 after grant). 105kW (about 140-143hp) motor. Parkers Van of the Year 2025. Twin of the Nissan Interstar-e."
+      }
+    ],
+    "batteryWarranty": "2024-on: 8 years to 70% capacity. Mileage is quoted as 100,000 miles by a leasing listing and 62,000 miles by a trade review, so confirm with Renault. Older Z.E.: Renault quoted 5 years / 100,000km for the Master Z.E. Transfer to a new owner not confirmed.",
+    "knownIssues": [
+      {
+        "issue": "Very short real range on 33kWh Master Z.E.",
+        "detail": "Renault itself quoted about 75 miles in summer, and fleet testers report about 50 in winter. It suits fixed short routes only.",
+        "source": "https://www.fleetnews.co.uk/van/reviews/large-panel-vans/renault-master-ze"
+      },
+      {
+        "issue": "No proper rapid charging on pre-2024 vans",
+        "detail": "Neither the 33kWh nor the 52kWh old-shape van has high-power CCS DC charging. Electrifying says the 52kWh van charges at 22kW AC only.",
+        "source": "https://www.electrifying.com/reviews/renault/master-e-tech/review"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Not confirmed. No reliable used listings were found for the old Master Z.E. / E-Tech or the 2024 Master E-Tech. Check Autotrader vans and auction results.",
+    "bestBuy": "A 2024-on Master E-Tech 87kWh, the only version with long range and 130kW CCS charging.",
+    "avoid": "2018-2021 33kWh Master Z.E. unless your daily route is reliably under 50-60 miles, and the 2022-23 52kWh van if you need public rapid charging.",
+    "checks": [
+      "Check whether it's the new 2024 shape (87kWh, CCS) or the old shape (33kWh or 52kWh, no rapid charging). Look at the charge socket and the V5C date.",
+      "On old-shape vans, check the battery is owned, not on Renault/RCI battery hire (look for 'i' badging and ask RCI with the VIN).",
+      "On 2024-on vans, test a CCS rapid charge and check the 22kW AC charger.",
+      "Check the weight rating (3.1t / 3.5t / 4t+). Range and driving licence rules differ.",
+      "Confirm the 8-year battery warranty start date and mileage limit with Renault."
+    ],
+    "sources": [
+      "https://parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review",
+      "https://fleetworld.co.uk/renault-master-e-tech-fully-electric-van-on-sale-priced-from-37500",
+      "https://www.whatvan.co.uk/van-reviews/renault-master-e-tech-advance-review/",
+      "https://www.autoexpress.co.uk/renault/master/362168/new-renault-master-e-tech-large-electric-panel-van-large-285-mile-range",
+      "https://www.fleetnews.co.uk/van/reviews/large-panel-vans/renault-master-ze",
+      "https://www.autoexpress.co.uk/renault/master/102787/electric-renault-master-ze-van-adds-new-body-options",
+      "https://www.fleetnews.co.uk/news/van-news/2018/11/15/renault-master-ze-priced-from-45-700",
+      "https://cleantechnica.com/2018/11/27/renault-releases-pricing-specs-for-fully-electric-master-z-e-van-line/",
+      "https://fleetworld.co.uk/renault-master-e-tech-gets-larger-battery-and-longer-electric-range/",
+      "https://www.autoexpress.co.uk/renault/master/358466/renault-master-e-tech-electric-van-gets-larger-battery-2022",
+      "https://www.electrifying.com/reviews/renault/master-e-tech/review"
+    ],
+    "confidence": "Medium. 33kWh and 2024 87kWh specs are solid. Least certain: whether the 52kWh van's 22kW charging is AC or DC, the battery warranty mileage, whether the Master was sold on battery lease in the UK, and used prices."
+  },
+  {
+    "slug": "nissan-interstar",
+    "name": "Nissan Interstar-e",
+    "usedNames": [
+      "Interstar Electric",
+      "Interstar EV"
+    ],
+    "summary": "Nissan's first large electric van, a twin of the 2024 Renault Master E-Tech, on sale in the UK from late 2024 / early 2025. There was no electric NV400 or 'e-NV400' in the UK, so every used Interstar-e is a recent van with plenty of warranty left.",
+    "generations": [
+      {
+        "years": "2024/25-present",
+        "label": "Interstar-e",
+        "batteries": [
+          {
+            "kWh": "87",
+            "wltpMiles": "up to 285 (Nissan UK brochure, pending UK homologation); lower on chassis-cab and dropside bodies",
+            "realWorldMiles": "not confirmed",
+            "notes": "The main UK version."
+          },
+          {
+            "kWh": "40",
+            "wltpMiles": "about 112-124",
+            "realWorldMiles": "not confirmed",
+            "notes": "Listed by UK leasing firms (Tekna 40kWh). UK availability not fully confirmed."
+          }
+        ],
+        "acKw": "22 (87kWh); 11 (40kWh)",
+        "dcKw": "130 on 87kWh (about 157 miles in 30 minutes, per Nissan)",
+        "connector": "CCS",
+        "notes": "105kW motor on the 87kWh version. Some versions offer vehicle-to-load ('V2L') sockets. Panel van, chassis cab, dropside and Luton bodies."
+      }
+    ],
+    "batteryWarranty": "8 years to 70% capacity (mileage not confirmed). The van has a 5-year / 100,000-mile warranty.",
+    "knownIssues": [],
+    "recalls": [],
+    "usedPrices": "Not confirmed. Very few used examples exist yet.",
+    "bestBuy": "87kWh panel van in Acenta or Tekna for the 130kW DC charging and long range.",
+    "avoid": "The 40kWh version unless the work is short-range depot-based.",
+    "checks": [
+      "Confirm the battery size (87kWh or 40kWh). It changes range and charging speed a lot.",
+      "Check the body type. Chassis cabs and conversions have much lower official range than panel vans.",
+      "Test 22kW AC and 130kW CCS charging.",
+      "Check the remaining 5-year van warranty and 8-year battery warranty."
+    ],
+    "sources": [
+      "https://vanreviewer.co.uk/nissan/interstar-e/review/4968/",
+      "https://nissan.co.uk/content/dam/Nissan/gb/brochures/ALL-NEW%20INTERSTAR%20Brochure%20April%202025%20(1).pdf",
+      "https://parkers.co.uk/vans-pickups/news/2024/nissan-interstar-large-van/",
+      "https://vans.honestjohn.co.uk/van-news/new-vans/2024-02/nissan-reveals-new-interstar-large-panel-van-with-all-electric-option-for-the-first-time/",
+      "https://www.autoexpress.co.uk/nissan/362227/new-nissan-interstar-large-van-revealed-interstar-e-electric-version",
+      "https://www.vanguide.co.uk/reviews/nissan-interstar-e-review-2025/",
+      "https://www.firstvehicleleasing.co.uk/van-leasing/nissan/interstar/panel-van/95kw-40kwh-h2-tekna-van-auto-61543"
+    ],
+    "confidence": "Medium. 87kWh specs and charging are solid, and the lack of an earlier electric NV400 is fairly solid (Nissan calls it its first large EV). Least certain: final UK WLTP figures, 40kWh UK availability, battery warranty mileage and used prices."
+  },
+  {
+    "slug": "vauxhall-movano",
+    "name": "Vauxhall Movano Electric",
+    "usedNames": [
+      "Movano-e",
+      "Movano Electric"
+    ],
+    "summary": "There are two very different used buys. The 2021-2023 Movano-e is a third-party conversion of the old Ducato-shape van, with 37kWh or 70/75kWh batteries, about 70-154 miles official range and 50kW charging. The 2024-on Movano Electric has a 110kWh battery, about 260 miles official range and 150kW charging, and is a far better van.",
+    "generations": [
+      {
+        "years": "2021-2023",
+        "label": "Movano-e / Movano Electric (BEDEO conversion)",
+        "batteries": [
+          {
+            "kWh": "37",
+            "wltpMiles": "72",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "70",
+            "wltpMiles": "139",
+            "realWorldMiles": "not confirmed",
+            "notes": "2021 to mid-2022."
+          },
+          {
+            "kWh": "75",
+            "wltpMiles": "154",
+            "realWorldMiles": "not confirmed",
+            "notes": "Replaced the 70kWh from about mid-2022 (Honest John says late 2022)."
+          }
+        ],
+        "acKw": "7.4 (6 hours for 37kWh, 12 hours for 70kWh). 2022 reports mention 22kW AC, but whether it was standard is unclear.",
+        "dcKw": "50",
+        "connector": "CCS",
+        "notes": "Converted from part-built vans by BEDEO (formerly BD Auto) at its plant in Turkey, using the same conversion as the Peugeot e-Boxer and Citroen e-Relay. 90kW / 120hp motor. Renamed from Movano-e to Movano Electric after about 6 months."
+      },
+      {
+        "years": "2024-present",
+        "label": "Movano Electric (110kWh)",
+        "batteries": [
+          {
+            "kWh": "110 (gross; one listing gives 97.8 usable)",
+            "wltpMiles": "261 (around 230 on larger versions)",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 standard; 22 optional (spec name ends '22KW')",
+        "dcKw": "150 (0/5-80% in about 55 minutes)",
+        "connector": "CCS",
+        "notes": "About 270hp (200-205kW) motor, made by Stellantis itself. The same van is sold as the Citroen e-Relay, Peugeot E-Boxer, Fiat E-Ducato and Toyota Proace Max."
+      }
+    ],
+    "batteryWarranty": "Stellantis typically gives 8 years / 100,000 miles to 70% capacity on the battery. This was confirmed for the 110kWh Citroen twin by listings, but not confirmed for the 2021-23 conversion vans.",
+    "knownIssues": [
+      {
+        "issue": "Third-party conversion on 2021-23 vans",
+        "detail": "Parkers says the conversion is less polished than factory electric vans and the way BEDEO converted the interior 'raises eyebrows'. The diesel heater is replaced by a new system fitted during conversion. Check that parts and dealer support are available for the conversion.",
+        "source": "https://parkers.co.uk/vans-pickups/news/2019/peugeot-boxer-electric"
+      },
+      {
+        "issue": "Short range on 37kWh",
+        "detail": "72 miles official, so real range will be much lower when loaded or in winter.",
+        "source": "https://vans.honestjohn.co.uk/vauxhall/movano-electric/2021/"
+      },
+      {
+        "issue": "Dated chassis and driving feel",
+        "detail": "Reviewers criticise how the 2024 van drives, since it's based on an old platform.",
+        "source": "https://evpowered.co.uk/electric-car-reviews/vauxhall-movano-electric-review-big-van-moves-with-the-times/"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate, very thin data: one 2024 Movano Electric 110kWh was listed at about £26,000 on AutoUncle in 2026. No reliable figures were found for 2021-23 conversion vans. Use the Peugeot e-Boxer 75kWh as a guide (a 2023 chassis cab was about £19,000 + VAT on Autotrader).",
+    "bestBuy": "A 2024-on 110kWh Movano Electric, ideally with the 22kW AC charger.",
+    "avoid": "37kWh conversion vans, and any 2021-23 van without a full dealer history or proof the conversion has been serviced.",
+    "checks": [
+      "Check whether it's a 2021-23 BEDEO conversion (37/70/75kWh, 50kW) or the 2024-on 110kWh van. Look at the battery on the V5C or spec and the dashboard (the 2024 update brought a new cab and screen).",
+      "On 2021-23 vans, find out whether it's a 70kWh or a 75kWh (75kWh from about mid-2022, 154 miles).",
+      "Test the cabin heater on conversion vans, because it isn't the standard Movano unit.",
+      "On 110kWh vans, check whether it has the 11kW or the 22kW AC charger.",
+      "Ask a Vauxhall dealer to check outstanding campaigns on the VIN, and check gov.uk recalls."
+    ],
+    "sources": [
+      "https://vans.honestjohn.co.uk/vauxhall/movano-electric/2021/",
+      "https://www.smmt.co.uk/2021/06/bedeo-extends-stellantis-electrification-partnership/",
+      "https://www.whatvan.co.uk/news/2021/specs-and-prices-announced-for-new-vauxhall-movano-and-movano-e",
+      "https://www.fleetnews.co.uk/news/van-news/2022/04/29/vauxhall-updates-movano-e-with-larger-battery-to-increase-range",
+      "https://evfleetworld.co.uk/vauxhall-ups-movano-e-range-to-154-miles-with-new-75kwh-battery",
+      "https://vans.honestjohn.co.uk/vauxhall/movano-electric",
+      "https://vanreviewer.co.uk/vauxhall/movano-electric/review/4018/",
+      "https://evpowered.co.uk/electric-car-reviews/vauxhall-movano-electric-review-big-van-moves-with-the-times/",
+      "https://parkers.co.uk/vans-pickups/news/2019/peugeot-boxer-electric",
+      "https://www.autouncle.co.uk/en-gb/d/40747228-used-2024-vauxhall-movano-275-bhp"
+    ],
+    "confidence": "Medium. Battery and range figures for both versions are solid. Least certain: AC charging on 2021-23 vans, the battery warranty on conversion vans, used prices, and whether there are UK recalls (none found)."
+  },
+  {
+    "slug": "citroen-relay",
+    "name": "Citroën ë-Relay",
+    "usedNames": [
+      "e-Relay",
+      "ë-Relay",
+      "Relay Electric",
+      "Relay E-"
+    ],
+    "summary": "Same story as the Movano and Boxer. The 2021-2023 ë-Relay is a BEDEO conversion with 37kWh or 70/75kWh batteries and 50kW charging, so it only suits short routes. The 2024-on version with a 110kWh battery and 150kW charging covers about 260 miles officially and is the one to buy.",
+    "generations": [
+      {
+        "years": "2021-2023",
+        "label": "ë-Relay (BEDEO conversion)",
+        "batteries": [
+          {
+            "kWh": "37",
+            "wltpMiles": "73",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "70",
+            "wltpMiles": "139",
+            "realWorldMiles": "not confirmed",
+            "notes": "2021 to May 2022."
+          },
+          {
+            "kWh": "75",
+            "wltpMiles": "154",
+            "realWorldMiles": "not confirmed",
+            "notes": "From May 2022, when Citroen also cut the price by £8,770."
+          }
+        ],
+        "acKw": "7 (6 hours for 37kWh, 12 hours for 70kWh). 22kW mentioned with the 2022 update, but whether it was standard is unclear.",
+        "dcKw": "50",
+        "connector": "CCS",
+        "notes": "Launch price from £49,335 + VAT after the grant (37kWh L2)."
+      },
+      {
+        "years": "2024-present",
+        "label": "ë-Relay 110kWh",
+        "batteries": [
+          {
+            "kWh": "110",
+            "wltpMiles": "261-263",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 standard, 22 optional (22kW later reported as standard, from 2025)",
+        "dcKw": "150 (80% in about 55 minutes)",
+        "connector": "CCS",
+        "notes": "MY24 price list from January 2024 (e.g. £51,105 before the £5,000 grant for a 40 L3H3 Enterprise)."
+      }
+    ],
+    "batteryWarranty": "110kWh: 8 years / 100,000 miles (dealer and leasing listings). 2021-23 conversion vans not confirmed.",
+    "knownIssues": [
+      {
+        "issue": "Aftermarket-feel conversion on 2021-23 vans",
+        "detail": "Reviewers say it 'feels like the aftermarket conversion it is'. The heater is a non-standard system fitted during conversion.",
+        "source": "https://heycar.co.uk/blog/citroen-e-relay-peugeot-e-boxer-first-drive-2022"
+      },
+      {
+        "issue": "Old-fashioned feel and sluggish low-speed performance",
+        "detail": "Honest John criticises this (3/5).",
+        "source": "https://vans.honestjohn.co.uk/citroen/e-relay"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Not confirmed for the ë-Relay specifically. As a guide, its Peugeot twin (2023 75kWh chassis cab) was listed at about £19,000 + VAT on Autotrader in 2026.",
+    "bestBuy": "2024-on 110kWh ë-Relay.",
+    "avoid": "37kWh conversion vans, and the short-lived 70kWh version if a 75kWh is available for similar money.",
+    "checks": [
+      "Check whether the battery is 37, 70, 75 or 110kWh. The V5C date and spec help: 75kWh from May 2022, 110kWh from 2024.",
+      "On conversion vans, test the heater and ask for evidence of conversion servicing or campaigns.",
+      "On 110kWh vans, check whether it has the 11kW or the 22kW onboard charger.",
+      "Test a CCS rapid charge (50kW on old vans, 150kW on new)."
+    ],
+    "sources": [
+      "https://vans.honestjohn.co.uk/citroen/e-relay",
+      "https://www.parkers.co.uk/vans-pickups/news/2021/citroen-e-relay-electric-van",
+      "https://parkers.co.uk/vans-pickups/citroen/relay/2021-e-relay-review",
+      "https://www.drivingelectric.com/citroen/relay/1111/citroen-e-relay-electric-van-pictures-specs-and-details",
+      "https://www.autoexpress.co.uk/citroen/relay/106713/citroen-e-relay-electric-van-updated-larger-75kwh-battery",
+      "https://www.electrifying.com/blog/article/citroen-boosts-battery-size-and-slices-8-770-off-the-price-of-relay-van",
+      "https://www.media.stellantis.com/uploads/uk/attachment/5204/citroenrelayerelaypricespecguide-65f8777a58dc6.pdf",
+      "https://heycar.co.uk/blog/citroen-e-relay-peugeot-e-boxer-first-drive-2022",
+      "https://www.whatcar.com/citroen/e-relay/van/review/n24565/space-practicality"
+    ],
+    "confidence": "Medium. Battery and range timeline is solid. Least certain: AC charger spec by year, the warranty on conversion vans, used prices and recalls (none found)."
+  },
+  {
+    "slug": "peugeot-boxer",
+    "name": "Peugeot E-Boxer",
+    "usedNames": [
+      "e-Boxer",
+      "E-Boxer",
+      "Boxer Electric"
+    ],
+    "summary": "The 2021-2023 e-Boxer is a BEDEO conversion (done in Turkey) of the old Ducato-shape van, with 37kWh or 70/75kWh batteries and 50kW charging, giving 73-154 miles official range. From 2024 the E-Boxer has a 110kWh battery, 150kW charging and 261 miles official range, and it's a much more capable used buy.",
+    "generations": [
+      {
+        "years": "2021-2023",
+        "label": "e-Boxer (BEDEO conversion)",
+        "batteries": [
+          {
+            "kWh": "37",
+            "wltpMiles": "73",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "70",
+            "wltpMiles": "139",
+            "realWorldMiles": "not confirmed",
+            "notes": "70kWh option cost £5,750 extra at launch."
+          },
+          {
+            "kWh": "75",
+            "wltpMiles": "154",
+            "realWorldMiles": "not confirmed",
+            "notes": "Replaced the 70kWh in 2022."
+          }
+        ],
+        "acKw": "7.4 (6 hours for 37kWh, 12 hours for 70kWh)",
+        "dcKw": "50 (0-80% in about 1 hour)",
+        "connector": "CCS",
+        "notes": "90kW / 120hp, 350Nm. Launch price from £49,335 + VAT after the grant."
+      },
+      {
+        "years": "2024-present",
+        "label": "E-Boxer 110kWh",
+        "batteries": [
+          {
+            "kWh": "110",
+            "wltpMiles": "261",
+            "realWorldMiles": "not confirmed ('drops a bit' when fully loaded)",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 standard; 22 optional",
+        "dcKw": "150",
+        "connector": "CCS",
+        "notes": "270hp, 400Nm. Price after grant from about £44,500 + VAT."
+      }
+    ],
+    "batteryWarranty": "Not confirmed specifically for Peugeot. The Stellantis twins list 8 years / 100,000 miles for the 110kWh van.",
+    "knownIssues": [
+      {
+        "issue": "Third-party conversion quality (2021-23)",
+        "detail": "Parkers says it isn't as polished as Peugeot's smaller factory electric vans and the interior conversion 'raises eyebrows'. Part-built vans were shipped to Turkey for the motor and battery to be fitted.",
+        "source": "https://parkers.co.uk/vans-pickups/news/2019/peugeot-boxer-electric"
+      },
+      {
+        "issue": "Dated dynamics, crashy ride (110kWh)",
+        "detail": "Honest John 3/5, Vanreviewer 5/10.",
+        "source": "https://vans.honestjohn.co.uk/peugeot/e-boxer"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate, from Autotrader in 2026: a 2023 75kWh chassis cab with 2,600 miles was about £19,000 + VAT. No reliable figures for 37kWh or 110kWh vans. Some 110kWh twins (Movano, E-Ducato) were listed at about £26,000.",
+    "bestBuy": "2024-on 110kWh E-Boxer.",
+    "avoid": "37kWh e-Boxer (73 miles official).",
+    "checks": [
+      "Check whether the battery is 37, 70, 75 or 110kWh. The 2024 van has the new front end and cab.",
+      "On 2021-23 vans, check the replacement heater works and ask about conversion recall or update history.",
+      "On 110kWh vans, check whether it has the 11kW or the 22kW AC charger.",
+      "Test DC charging (50kW old, 150kW new)."
+    ],
+    "sources": [
+      "https://vans.honestjohn.co.uk/peugeot/e-boxer/2021",
+      "https://www.whatvan.co.uk/van-reviews/peugeot-e-boxer-2021-review/",
+      "https://www.autoexpress.co.uk/peugeot/boxer/357369/new-peugeot-e-boxer-van-2022-review",
+      "https://parkers.co.uk/vans-pickups/news/2019/peugeot-boxer-electric",
+      "https://www.media.stellantis.com/uk-en/peugeot/press/peugeot-e-boxer-now-available-with-improved-range-and-updated-pricing",
+      "https://vans.honestjohn.co.uk/peugeot/e-boxer",
+      "https://vanreviewer.co.uk/peugeot/e-boxer/review/4007/",
+      "https://autotrader.co.uk/vans/used-vans/peugeot/e-boxer"
+    ],
+    "confidence": "Medium. Specs and conversion background are solid. Least certain: Peugeot battery warranty terms, used prices (one listing) and recalls (none found)."
+  },
+  {
+    "slug": "fiat-ducato",
+    "name": "Fiat E-Ducato",
+    "usedNames": [
+      "E-Ducato",
+      "e-Ducato",
+      "Ducato Electric"
+    ],
+    "summary": "The 2020-2023 E-Ducato used 47kWh or 79kWh batteries and an electric drivetrain from supplier SolarEdge, which pulled out of the business in 2023, with about 70-175 miles official range and 50kW charging. From 2024 it shares the Stellantis 110kWh battery and 150kW charging with the Movano, Relay and Boxer, which is the better used buy.",
+    "generations": [
+      {
+        "years": "2020-2023",
+        "label": "E-Ducato (SolarEdge drivetrain)",
+        "batteries": [
+          {
+            "kWh": "47",
+            "wltpMiles": "about 78-88 combined (113-120 city)",
+            "realWorldMiles": "about 103 combined in one independent test",
+            "notes": "Range claims changed between 2020 and 2021 releases."
+          },
+          {
+            "kWh": "79",
+            "wltpMiles": "about 148-175 combined (192-230 city)",
+            "realWorldMiles": "about 165 combined in one independent test",
+            "notes": ""
+          }
+        ],
+        "acKw": "7 (47kWh) / 11 (79kWh); 22kW option mentioned",
+        "dcKw": "50 (claimed 80% in 30 minutes; a road test estimated 50 minutes for 47kWh and 90 minutes for 79kWh)",
+        "connector": "CCS",
+        "notes": "UK launch 2020 from £47,675 + VAT after the grant. 122hp. Batteries are modular (3-5 modules) and Fiat said the van could keep running if one module failed. Battery and drivetrain supplied by SolarEdge e-Mobility, which stopped its van e-mobility business in October 2023."
+      },
+      {
+        "years": "2024-present",
+        "label": "E-Ducato 110kWh",
+        "batteries": [
+          {
+            "kWh": "110",
+            "wltpMiles": "up to 261",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 standard; 22 optional",
+        "dcKw": "150",
+        "connector": "CCS",
+        "notes": "About 270-279hp. Built at Atessa (Italy). RRP around £61,600-£63,600 for 40 110kWh variants (before grant/VAT)."
+      }
+    ],
+    "batteryWarranty": "2020-23: 8 years / 100,000 miles for the 47kWh, and 10 years / 135,000 miles for the 79kWh (Stellantis notes). 2024 110kWh: not confirmed, probably 8 years / 100,000 miles like its Stellantis twins.",
+    "knownIssues": [
+      {
+        "issue": "Battery and drivetrain supplier left the business (2020-23 vans)",
+        "detail": "SolarEdge, sole supplier of the first E-Ducato's battery and electric drivetrain, stopped this business in October 2023. How Fiat now supplies parts and battery repairs for these vans is not confirmed, so ask a Fiat Professional dealer before buying.",
+        "source": "https://www.sec.gov/Archives/edgar/data/0001419612/000117891325000605/zk2532709.htm"
+      },
+      {
+        "issue": "Slower rapid charging than claimed",
+        "detail": "Independent testing estimated 50-90 minutes to 80% on 50kW chargers, against the 30 minutes Fiat claimed.",
+        "source": "https://www.whatvan.co.uk/?p=2915"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate, very thin data: one 2024 E-Ducato listed at about £26,400 on AutoUncle in 2026. No reliable figures for 2020-23 vans.",
+    "bestBuy": "A 2024-on 110kWh E-Ducato. Among older vans, a 79kWh for its range and longer 10-year battery warranty.",
+    "avoid": "47kWh vans for anything but short urban routes. Also any 2020-23 van where a Fiat dealer can't confirm battery and drivetrain parts support.",
+    "checks": [
+      "Check the battery size: 47, 79 or 110kWh.",
+      "On 2020-23 vans, ask a Fiat Professional dealer about battery and drivetrain parts and warranty support after SolarEdge's exit, and get the remaining battery warranty in writing (79kWh: 10 years / 135,000 miles).",
+      "On 110kWh vans, check whether it has the 11kW or the 22kW AC charger and test 150kW DC charging.",
+      "Check the gross weight (3.5t / 4.25t). Heavier versions affect licence and range."
+    ],
+    "sources": [
+      "https://cleantechnica.com/2020/08/20/fiat-e-ducato-pricing-specs-confirmed-for-uk-market",
+      "https://evfleetworld.co.uk/pricing-and-range-revealed-for-fiats-e-ducato-electric-van",
+      "https://www.zap-map.com/fiat-launches-electric-ducato/",
+      "https://www.whatvan.co.uk/?p=2915",
+      "https://www.businesswire.com/news/home/20210216005696/en/SolarEdge-e-Mobility-to-Supply-Electrical-Powertrain-and-Battery-Solution-for-Fiat-E-Ducato",
+      "https://www.sec.gov/Archives/edgar/data/0001419612/000117891325000605/zk2532709.htm",
+      "https://insideevs.com/news/503441/fiat-educato-electric-van/",
+      "https://www.conceptcarz.com/u43197/unique-battery-technology-fiat-professionals-e-ducato.aspx",
+      "https://trade.autotrader.co.uk/vans/content/fiat-e-ducato-review-panel-van-2023",
+      "https://vans.honestjohn.co.uk/fiat/e-ducato/",
+      "https://www.whatcar.com/new-car-deals/fiat/e-ducato/panel-van-hgv/versions",
+      "https://sustainabletruckvan.com/fiat-e-ducato-production-starts-atessa-italy",
+      "https://www.autouncle.co.uk/en-gb/used-cars/Fiat/E-Ducato"
+    ],
+    "confidence": "Medium. Battery line-up, charging and the SolarEdge exit are solid. Least certain: exact WLTP combined figures (sources differ), current parts support for 2020-23 vans, the 110kWh warranty and used prices."
+  },
+  {
+    "slug": "toyota-proace-max",
+    "name": "Toyota Proace Max Electric",
+    "usedNames": [
+      "Proace Max",
+      "Proace Max EV"
+    ],
+    "summary": "Toyota's large van, launched in 2024. It's a rebadged version of the 2024 Stellantis 110kWh van (the same as the E-Ducato, Movano and Relay), with 261 miles official range and 150kW charging. There is no older version, so all used examples are recent, and Toyota's 'up to 10 years' warranty is the main selling point.",
+    "generations": [
+      {
+        "years": "2024-present",
+        "label": "Proace Max Electric",
+        "batteries": [
+          {
+            "kWh": "110",
+            "wltpMiles": "up to 261",
+            "realWorldMiles": "a little short of 261 with half a tonne aboard (What Van test)",
+            "notes": ""
+          }
+        ],
+        "acKw": "11 standard (22 optional: not confirmed for Toyota)",
+        "dcKw": "150 (80% in about 55 minutes)",
+        "connector": "CCS",
+        "notes": "About 270hp (199-205kW). Panel van and chassis cab. Shares Stellantis's Ducato-based platform."
+      }
+    ],
+    "batteryWarranty": "Battery: 8 years / 100,000 miles (most sources; What Van lists 62,000, likely a km conversion). Toyota Professional advertises vehicle warranty of 'up to 10 years / 100,000 miles' (Honest John says 120,000) - the 'up to' wording suggests it is service-activated (extended year by year with Toyota servicing), but the exact conditions were not confirmed.",
+    "knownIssues": [
+      {
+        "issue": "Dated chassis and driving feel",
+        "detail": "Reviewers criticise ride and handling on the old Ducato-based platform (Honest John 3/5, Parkers 3.2/5).",
+        "source": "https://parkers.co.uk/vans-pickups/toyota/proace-max/2024-review"
+      }
+    ],
+    "recalls": [],
+    "usedPrices": "Not confirmed. Few used examples. Twin models with the same 110kWh battery (Movano Electric, E-Ducato) were listed at about £26,000 in 2026.",
+    "bestBuy": "Any Proace Max Electric with Toyota dealer service history, to keep any extended warranty alive.",
+    "avoid": "Vans with gaps in Toyota servicing if you are relying on the 'up to 10 years' warranty (confirm conditions).",
+    "checks": [
+      "Check Toyota service history and ask Toyota how much of the 'up to 10 years' warranty remains on this VIN.",
+      "Confirm the battery warranty terms and start date with Toyota (8 years; mileage given as 100,000 miles by most sources).",
+      "Check whether it has the 11kW or a 22kW AC charger, and test 150kW DC charging.",
+      "Because it's mechanically the same as the 2024 E-Ducato, Movano, Relay and Boxer, ask about any Stellantis campaigns that apply."
+    ],
+    "sources": [
+      "https://www.whatvan.co.uk/van-reviews/toyota-proace-max-electric-review/",
+      "https://parkers.co.uk/vans-pickups/toyota/proace-max/2024-review",
+      "https://vans.honestjohn.co.uk/toyota/proace-max-electric/",
+      "https://evpowered.co.uk/electric-car-reviews/toyota-proace-max-electric-review/",
+      "https://exchangeandmart.co.uk/reviews/toyota/proace-max-electric/14060"
+    ],
+    "confidence": "Medium. Specs are solid. Least certain: exact battery warranty mileage and conditions, the 22kW AC option on the Toyota, and used prices."
+  }
+]

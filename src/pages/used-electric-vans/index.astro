@@ -1,7 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { VANS, SIZES } from '../../data/vans.js';
-const evs = VANS.filter((v) => v.electric);
+import { EV_VANS, SIZES } from '../../data/vans.js';
+import { USED, usedBySlug } from '../../data/used.js';
+// Every electric model with a used guide, plus new models that don't have one yet.
+const items = [
+  ...EV_VANS.map((v) => {
+    const u = usedBySlug[v.slug];
+    return { name: v.name, size: v.size, href: u ? `/used-electric-vans/${v.slug}/` : `/vans/${v.slug}/`, text: u ? u.summary : 'Too new for many used examples yet.', guide: !!u };
+  }),
+  ...USED.filter((u) => u.usedOnly).map((u) => ({ name: u.name, size: u.size, href: `/used-electric-vans/${u.slug}/`, text: u.summary, guide: true, usedOnly: true })),
+];
+const short = (t) => (t && t.length > 140 ? t.slice(0, t.lastIndexOf(' ', 137)) + '…' : t);
 ---
 <Base title="Used electric vans: the UK buyer's hub" description="Everything you need to buy a used electric van in the UK: who they suit, checks to make, running costs and every electric van model.">
   <div class="wrap">
@@ -28,13 +37,14 @@ const evs = VANS.filter((v) => v.electric);
       <div class="card"><h3>Poor fit</h3><p>Long motorway runs · towing · no off-street charging, relying on public rapid chargers.</p></div>
     </div>
 
-    <h2>Every electric van and pickup</h2>
-    {Object.entries(SIZES).filter(([k]) => evs.some((v) => v.size === k)).map(([k, s]) => (
+    <h2>Used buying guides, model by model</h2>
+    <p class="muted">Versions and batteries, real range, known faults, recalls, battery warranty and what to pay for each one.</p>
+    {Object.entries(SIZES).filter(([k]) => items.some((v) => v.size === k)).map(([k, s]) => (
       <>
         <h3>{s.label}</h3>
         <div class="grid">
-          {evs.filter((v) => v.size === k).map((v) => (
-            <a class="card" href={`/vans/${v.slug}/`}><h3>{v.name}</h3><p>{v.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '') || SIZES[v.size].blurb}</p></a>
+          {items.filter((v) => v.size === k).sort((a, b) => b.guide - a.guide || a.name.localeCompare(b.name)).map((v) => (
+            <a class="card" href={v.href}><h3>{v.name}</h3><p>{v.usedOnly && <span class="tag">No longer sold new</span>} {short(v.text)}</p></a>
           ))}
         </div>
       </>

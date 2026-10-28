@@ -1,0 +1,120 @@
+---
+import Base from '../../layouts/Base.astro';
+import Cta from '../../components/Cta.astro';
+import { USED } from '../../data/used.js';
+import { SIZES } from '../../data/vans.js';
+
+export function getStaticPaths() {
+  return USED.map((u) => ({ params: { slug: u.slug }, props: { u } }));
+}
+const { u } = Astro.props;
+const size = SIZES[u.size];
+const list = (x) => (Array.isArray(x) ? x.filter(Boolean) : []);
+const gens = list(u.generations);
+const issues = list(u.knownIssues).filter((i) => i && i.issue);
+const recalls = list(u.recalls).filter((r) => r && r.issue);
+const checks = list(u.checks);
+const sources = list(u.sources);
+const lowConfidence = /\blow\b/i.test(u.confidence || '');
+const kw = (x) => (/kw/i.test(String(x)) ? String(x) : String(x).replace(/^([\d.]+)/, '$1 kW'));
+const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } };
+---
+<Base title={`Buying a used ${u.name}: what to check`} description={`Used ${u.name} buying guide: versions and batteries, real range, known faults, recalls, battery warranty, prices and what to check.`}>
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/used-electric-vans/">Used electric vans</a></div>
+    <article class="prose">
+      <h1>Buying a used {u.name}</h1>
+      <p>
+        <span class="tag">{size?.short}</span>
+        {u.usedOnly && <span class="tag">No longer sold new</span>}
+      </p>
+      <p class="lede">{u.summary}</p>
+      {list(u.usedNames).length > 0 && <p class="small muted">Also listed in ads as: {list(u.usedNames).join(', ')}.</p>}
+      {lowConfidence && <div class="notice small"><strong>Limited information.</strong> There are few used examples or little published data on this model so far. Check details carefully with the seller.</div>}
+
+      {gens.length > 0 && (
+        <>
+          <h2>Versions and batteries</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Years</th><th>Battery (kWh)</th><th>Official range</th><th>Real-world range</th><th>Charging</th></tr></thead>
+              <tbody>
+                {gens.flatMap((g) => list(g.batteries).length ? list(g.batteries).map((bt, i) => (
+                  <tr>
+                    <td>{i === 0 ? <><strong>{g.years}</strong>{g.label && <><br /><span class="small muted">{g.label}</span></>}</> : ''}</td>
+                    <td>{bt.kWh ? String(bt.kWh).replace(/\s*kWh\b/gi, '') : '–'}{bt.notes && <><br /><span class="small muted">{bt.notes}</span></>}</td>
+                    <td>{bt.wltpMiles ? `${bt.wltpMiles}${/mile/i.test(bt.wltpMiles) ? '' : ' miles'}` : '–'}</td>
+                    <td>{bt.realWorldMiles || '–'}</td>
+                    <td class="small">{i === 0 ? [g.acKw && `Home/AC: ${kw(g.acKw)}`, g.dcKw && `Rapid/DC: ${kw(g.dcKw)}`, g.connector].filter(Boolean).join(' · ') : ''}</td>
+                  </tr>
+                )) : [(
+                  <tr><td><strong>{g.years}</strong>{g.label && <><br /><span class="small muted">{g.label}</span></>}</td><td colspan="4" class="small">{g.notes}</td></tr>
+                )])}
+              </tbody>
+            </table>
+          </div>
+          {gens.some((g) => g.notes && list(g.batteries).length) && (
+            <ul class="small">{gens.filter((g) => g.notes && list(g.batteries).length).map((g) => <li><strong>{g.years}:</strong> {g.notes}</li>)}</ul>
+          )}
+        </>
+      )}
+
+      {(u.bestBuy || u.avoid) && (
+        <>
+          <h2>Which one to buy</h2>
+          {u.bestBuy && <p><strong>Look for:</strong> {u.bestBuy}</p>}
+          {u.avoid && <p><strong>Be careful with:</strong> {u.avoid}</p>}
+        </>
+      )}
+
+      {checks.length > 0 && (
+        <>
+          <h2>Checks specific to the {u.name}</h2>
+          <ul>{checks.map((c) => <li>{c}</li>)}</ul>
+          <p class="small">Plus the usual checks for any used electric van: <a href="/guides/used-electric-van-buying-guide/">full checklist</a>.</p>
+        </>
+      )}
+
+      {issues.length > 0 && (
+        <>
+          <h2>Known issues</h2>
+          <ul>{issues.map((i) => <li><strong>{i.issue}.</strong> {i.detail}{i.source && <> <a class="small" href={i.source} rel="nofollow noopener" target="_blank">Source</a></>}</li>)}</ul>
+        </>
+      )}
+
+      <h2>Recalls</h2>
+      {recalls.length > 0 ? (
+        <ul>{recalls.map((r) => <li><strong>{r.issue}</strong>{r.years && ` (${r.years})`}.{r.source && <> <a class="small" href={r.source} rel="nofollow noopener" target="_blank">Source</a></>}</li>)}</ul>
+      ) : (
+        <p>We haven't found recalls specific to this model, but always check.</p>
+      )}
+      <p class="small">Check any van's outstanding recalls with its registration on the <a href="https://www.gov.uk/check-vehicle-recall" rel="noopener" target="_blank">GOV.UK recall checker</a>, and its MOT and mileage history with our <a href="/tools/van-check/">free van check</a>.</p>
+
+      {u.batteryWarranty && (
+        <>
+          <h2>Battery warranty</h2>
+          <p>{u.batteryWarranty}</p>
+        </>
+      )}
+
+      {u.usedPrices && (
+        <>
+          <h2>What to pay</h2>
+          <p>{u.usedPrices}</p>
+          <p class="small muted">Prices move quickly. Compare several listings and use battery health and mileage to negotiate.</p>
+        </>
+      )}
+
+      {u.newPage && <p><a href={u.newPage}>See the new {u.name} →</a></p>}
+      <Cta kind="charger" />
+
+      {sources.length > 0 && (
+        <details style="margin-top:2rem">
+          <summary class="small">Sources ({sources.length})</summary>
+          <ul class="small">{sources.map((s) => <li><a href={s} rel="nofollow noopener" target="_blank">{host(s)}</a></li>)}</ul>
+        </details>
+      )}
+      <p class="small muted">Last checked: October 2026. Spotted something wrong or own one of these? Tell us via the <a href="/podcast/">podcast page</a>.</p>
+    </article>
+  </div>
+</Base>

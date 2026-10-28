@@ -1,0 +1,503 @@
+[
+  {
+    "slug": "ford-transit",
+    "name": "Ford E-Transit",
+    "usedNames": ["E-Transit", "Transit Electric", "E-Transit 350 / 390 / 425", "E-Transit Extended Range", "listed on Autotrader as 'Ford E-Transit 350 68kWh' or 'Transit 135kW/198kW 68kWh'"],
+    "summary": "Ford's full-size electric Transit, sold in the UK from 2022 as panel van, double-cab and chassis cab. Early vans have a 68kWh usable battery that gives about 100-135 miles in real use, so they suit fixed urban and regional rounds better than motorway work. The 89kWh Extended Range version from 2025 is the one to find if you need more range, but few are on the used market yet.",
+    "generations": [
+      {
+        "years": "2022-2024 (68kWh continues alongside 89kWh from 2025)",
+        "label": "E-Transit 68kWh",
+        "batteries": [
+          { "kWh": "68 usable (early launch material said 67)", "wltpMiles": "up to about 196-197 (combined; 166 is a motorway-type figure quoted by dealers; launch estimate was 217)", "realWorldMiles": "about 100-135 (Electrifying.com lists 136; Van Reviewer's winter test 125; about 95 or less fully loaded on the motorway in cold weather, per EV Pulse's US test)", "notes": "Range drops sharply with a heavy load, high speed and cold. Two motor outputs: 135kW (184PS) and 198kW (269PS)." }
+        ],
+        "acKw": "11.3",
+        "dcKw": "115 (15-80% in about 34 minutes, Ford figure)",
+        "connector": "CCS",
+        "notes": "Rear-wheel drive. Panel van, double-cab-in-van and chassis cab (including 4.25-tonne versions). Pro Power Onboard (a mains socket in the van) was available."
+      },
+      {
+        "years": "2025 on",
+        "label": "E-Transit Extended Range 89kWh",
+        "batteries": [
+          { "kWh": "89 usable", "wltpMiles": "up to 249", "realWorldMiles": "about 185-210 (Van Reviewer's estimate for a working van); Autotrader suggests 220-250 at best", "notes": "Offered at 3.5 and 4.25 tonnes. Parkers estimated a payload of about 710kg for the 3.5t version." }
+        ],
+        "acKw": "22 (up from 11)",
+        "dcKw": "180 (Ford figure; 10-80% in about 28 minutes. Van Reviewer quotes 176)",
+        "connector": "CCS",
+        "notes": "Announced at the CV Show in April 2024; on sale in the UK from early 2025. Some markets still list a 68kWh version alongside it, but UK availability of the 68kWh in 2025-26 is not confirmed."
+      }
+    ],
+    "batteryWarranty": "Ford UK says the E-Transit's battery and its own electric parts are covered for 8 years or 100,000 miles (160,000km), whichever comes first. Ford covers 'excessive' capacity loss and says gradual loss is normal wear. I found no capacity percentage for this on Ford UK's page. The cover goes with the vehicle, so a used buyer gets what's left, but the sources I found don't say so outright. Confirm with a Ford dealer.",
+    "knownIssues": [
+      { "issue": "DC rapid-charge dropouts or refusal to charge (charging module software)", "detail": "US technical service bulletins blame the off-board charger control module (OBCC) software for stopping or dropping DC rapid charges on 2022 vans. The fix is a software reflash. Ask whether the van has had its charging and module software updates, and test it on a public rapid charger before you buy. These are US bulletins; UK applicability is likely but not confirmed.", "source": "https://vehicleflaws.com/tsb/tsb-22-2496-unknown-or-other" },
+      { "issue": "Heating and air-con control faults", "detail": "A used-EV retailer's guide reports HVAC control software faults on 2022-on E-Transits, fixed by a software update or module reprogramming. Check that the heating and A/C both work on the test drive. Secondary source, not Ford.", "source": "https://recharged.com/articles/ford-e-transit-common-problems/" },
+      { "issue": "12V battery drain or 'Stop safely now' warnings (owner reports)", "detail": "Owner reports on US forums describe 'Stop Safely Now' faults. A used-EV guide links 12V drain to the DC-DC converter and mentions a Ford extended-cover programme (22B41), but I could not confirm that programme with Ford. Ask for the 12V battery's age and any converter work.", "source": "https://www.f150lightningforum.com/forum/threads/ford-e-transit-with-stop-safely-now-issue.19092/latest" },
+      { "issue": "Real range far below WLTP when loaded, especially in winter", "detail": "Range can halve fully loaded at motorway speed in the cold: EV Pulse measured about 82-95 miles from the 68kWh pack. Look at the routes the previous owner ran. For anything beyond local rounds, consider the 89kWh version.", "source": "https://evpulse.com/features/we-test-the-range-of-the-ford-e-transit-at-maximum-payload" }
+    ],
+    "recalls": [
+      { "issue": "UK: DVSA-listed recall for 2023-build E-Transits, published 8 November 2023. A trade-press listing suggests it concerns a flexible circuit board in the high-voltage battery that can detach, fixed by replacing the affected battery arrays. Exact defect not confirmed: the page could not be opened.", "years": "2023 builds", "source": "https://www.transportengineer.org.uk/content/dsva-recalls/ford-e-transit-2023-builds" },
+      { "issue": "US (NHTSA): left rear axle halfshaft can partly disengage from the drive unit, causing loss of drive power and a risk of rolling away in Park. About 32,000 vans. UK applicability not confirmed.", "years": "2022-2025 model years", "source": "https://www.carcomplaints.com/news/2025/ford-e-transit-halfshaft-problems-recall.shtml" },
+      { "issue": "US: high-voltage battery tray side rails on chassis cabs can crack after repeated freezing and thawing, letting water in (Ford 25S36, 457 vans). UK applicability not confirmed.", "years": "2024-2025 chassis cab (built April 2024-January 2025)", "source": "https://fordauthority.com/2025/04/2024-2025-ford-e-transit-recalled-over-high-voltage-battery-issue/" },
+      { "issue": "US: missing washers on bolts inside the high-voltage battery can cause arcing, fire risk and loss of drive (Ford 26S05). UK applicability not confirmed.", "years": "2026 model year", "source": "https://fordauthority.com/2026/02/2026-ford-e-transit-recalled-over-high-voltage-battery-issue/" },
+      { "issue": "Australia: 12V battery issue reported as a toxic gas leak risk. UK applicability not confirmed.", "years": "not confirmed", "source": "https://www.carexpert.com.au/car-news/ford-e-transit-recalled-for-toxic-gas-leak-risk" }
+    ],
+    "usedPrices": "Approximate, from Autotrader listings and AutoUncle (snapshot, may be dated): 2022 68kWh panel vans about £16,500-£21,000 +VAT at 9,000-20,000 miles; 2023 about £19,000-£29,000 +VAT (AutoUncle 2023 average about £27,600). 89kWh Extended Range: too few used examples to give a range.",
+    "bestBuy": "A 2023-24 68kWh panel van with a Ford dealer history showing recalls and software updates done, if your daily miles stay well under about 100 in winter. If you need more range, a 2025 89kWh Extended Range is a far better tool, with faster AC and DC charging, but expect to pay much more and wait for supply.",
+    "avoid": "68kWh vans for long motorway or heavy-load work: real range can fall below 100 miles. Also avoid any van with open recalls, unexplained charging faults, or no record of software updates.",
+    "checks": [
+      "Run the VIN through a Ford dealer and the DVSA recall checker. Ask specifically about the 2023 battery-array recall and any halfshaft/drive campaign.",
+      "Rapid-charge it on a public CCS charger on the test drive. It should hold a steady charge and not drop out (known charging-module software issue).",
+      "Confirm whether it's the 68kWh or 89kWh pack (V5C/spec plate/Ford records). Listings sometimes just say 'E-Transit'.",
+      "Chassis cabs: check the body conversion hasn't damaged the battery tray or high-voltage wiring, and that the stated payload/GVW (3.5t or 4.25t) matches your licence and use.",
+      "Test heating/A-C and look for warning messages ('Stop safely now', 12V faults) in the dash history or ask the dealer to read stored codes.",
+      "Ask for a battery state-of-health report from a Ford dealer or an EV specialist."
+    ],
+    "sources": [
+      "https://www.ford.co.uk/support/how-tos/warranty/warranties-and-coverage/what-is-the-warranty-on-the-ford-e-transit-battery",
+      "https://ford.co.uk/support/how-tos/warranty/warranties-and-coverage/how-long-do-ford-electric-vehicle-batteries-last",
+      "https://www.whatvan.co.uk/test-drives/the-whatvan-road-test/2023/the-what-van-road-test-ford-e-transit-(2022)?pageno=4",
+      "https://www.electrifying.com/reviews/ford-reviews/e-transit/review",
+      "https://vanreviewer.co.uk/battery-charging-range/what-is-the-ford-e-transit-battery-range/",
+      "https://evpulse.com/features/we-test-the-range-of-the-ford-e-transit-at-maximum-payload",
+      "https://www.autoexpress.co.uk/ford/transit/362939/ford-e-transit-updated-bigger-battery-and-249-mile-range",
+      "https://www.parkers.co.uk/vans-pickups/news/2024/ford-e-transit-extended-range",
+      "https://media.ford.com/content/fordmedia/feu/en/news/2024/04/23/go-further--charge-faster--ford-pro-boosts-segment-leading-e-tra.html",
+      "https://www.fleetnews.co.uk/news/ford-e-transit-gets-a-range-boost",
+      "https://www.transportengineer.org.uk/content/dsva-recalls/ford-e-transit-2023-builds",
+      "https://www.carcomplaints.com/news/2025/ford-e-transit-halfshaft-problems-recall.shtml",
+      "https://fordauthority.com/2025/04/2024-2025-ford-e-transit-recalled-over-high-voltage-battery-issue/",
+      "https://fordauthority.com/2026/02/2026-ford-e-transit-recalled-over-high-voltage-battery-issue/",
+      "https://www.carexpert.com.au/car-news/ford-e-transit-recalled-for-toxic-gas-leak-risk",
+      "https://vehicleflaws.com/tsb/tsb-22-2496-unknown-or-other",
+      "https://recharged.com/articles/ford-e-transit-common-problems/",
+      "https://www.f150lightningforum.com/forum/threads/ford-e-transit-with-stop-safely-now-issue.19092/latest",
+      "https://www.autotrader.co.uk/vans/used-vans/ford/e-transit",
+      "https://www.autouncle.co.uk/en-gb/used-cars/Ford/E-Transit/y-2023?page=2"
+    ],
+    "confidence": "Medium. Specs and warranty are solid. Least certain: which US recalls (halfshaft, battery tray, washers) were also run in the UK, and the exact defect in the November 2023 UK recall. The DVSA checker could not be reached from here, so both need checking by VIN."
+  },
+  {
+    "slug": "ford-transit-custom",
+    "name": "Ford E-Transit Custom",
+    "usedNames": ["E-Transit Custom", "listed on Autotrader as 'E-Transit Custom 320/340 65kWh'", "E-Tourneo Custom (passenger version)", "E-Transit Custom MS-RT"],
+    "summary": "The electric version of the current (2024-on) Transit Custom, built in Turkey and the UK's best-known medium electric van. Its 64kWh usable battery gives about 150-170 miles in real use, which is enough for most trades and urban delivery work. Most used examples are 2024-25 ex-fleet or pre-registered vans with plenty of warranty left.",
+    "generations": [
+      {
+        "years": "2024-early 2026",
+        "label": "E-Transit Custom 64kWh (often listed as '65kWh')",
+        "batteries": [
+          { "kWh": "64 usable", "wltpMiles": "up to 209", "realWorldMiles": "about 150-170 (estimates for the identical VW e-Transporter twin; a Fleet World review warns the pack is small for long-range or heavy work)", "notes": "Motor outputs: 100kW (136PS), 160kW (218PS) and 210kW (285PS, Sport/MS-RT). Rear-wheel drive." }
+        ],
+        "acKw": "11 (0-100% about 6.7 hours, Ford brochure)",
+        "dcKw": "125 (10-80% about 39 minutes, Ford UK). Ford says an over-the-air update improves DC charge times for vans already on the road.",
+        "connector": "CCS",
+        "notes": "A December 2024 UK test by The Interface saw only about 59kW peak DC in cold weather."
+      },
+      {
+        "years": "Built from early 2026",
+        "label": "E-Transit Custom 71kWh (2026 model year)",
+        "batteries": [
+          { "kWh": "71 usable", "wltpMiles": "up to about 231-232 (RWD); AWD version up to about 212 (342km)", "realWorldMiles": "not confirmed", "notes": "Same-size pack with new chemistry and software. The extra range is not retrofitted to older vans." }
+        ],
+        "acKw": "11",
+        "dcKw": "125 (10-80% about 29 minutes)",
+        "connector": "CCS",
+        "notes": "Adds a dual-motor AWD option. Very few used examples yet."
+      }
+    ],
+    "batteryWarranty": "Ford quotes 8 years/100,000 miles battery cover for its UK electric vans. I confirmed this for the E-Transit; I did not find a Custom-specific Ford UK page, so confirm with a dealer. Ford treats gradual capacity loss as normal wear and covers 'excessive' loss. The cover stays with the vehicle, so a used buyer gets what remains.",
+    "knownIssues": [
+      { "issue": "Slow DC charging in cold weather", "detail": "A UK long-term test saw peak DC charging of only about 59kW in December. Check charge speed on a rapid charger and ask whether the OTA charging update has been applied.", "source": "https://theinterface.uk/blog-posts/ford-e-transit-custom-2024-review" },
+      { "issue": "Range tight for heavy or long-distance work", "detail": "A fleet first drive warned the 64kWh pack may be too small for long-range or heavy jobs. Base the decision on your worst winter day, not the WLTP figure.", "source": "https://evfleetworld.co.uk/first-drive-ford-e-transit-custom" },
+      { "issue": "Few model-specific fault reports yet", "detail": "I found no established pattern of E-Transit Custom faults in UK sources by October 2026. The van is still young. Check Honest John owner reviews for the 2024-on Transit Custom.", "source": "https://vans.honestjohn.co.uk/owner-reviews/ford/transit-custom-2024/" }
+    ],
+    "recalls": [
+      { "issue": "Driver's airbag inflator could rupture and not fully inflate (Ford 25S51; 1,659 vans worldwide). Listed against the E-Transit Custom on a European recall aggregator; UK applicability not confirmed.", "years": "Built 4 February-9 April 2025", "source": "https://car-recalls.eu/recall/ford-transit-custom-2025-airbag/?noamp=mobile" },
+      { "issue": "Germany (KBA 15193R): Transit Custom recall for exceeding the maximum speed limiter setting (18,584 vans). Not confirmed whether electric versions are included.", "years": "2023-2025 builds", "source": "https://car-recalls.eu/exceeding-maximum-speed-ford-transit-custom-kba/amp/" },
+      { "issue": "Australia: 12V battery venting issue (toxic gas risk) on Transit Custom and Tourneo Custom. Not confirmed whether E-Transit Custom or UK vans are affected.", "years": "2021-2025", "source": "https://fordauthority.com/2025/12/ford-transit-custom-recalled-in-australia-over-toxic-gas-leak/" }
+    ],
+    "usedPrices": "Approximate, from Autotrader and TrustFord listings (snapshot): 2024 panel vans about £21,000-£30,000 +VAT depending on trim and miles (Trend from about £21k; Limited about £23k-£30k); Sport/MS-RT up to about £39,000 +VAT for very low miles; 2024 Kombi about £26,000 +VAT.",
+    "bestBuy": "A 2024-25 Trend or Limited panel van (100kW or 160kW) with Ford dealer history and the DC-charging OTA update applied. The 64kWh vans are now cheaper than nearly-new 71kWh 2026 vans, and the extra 23 miles may not matter for local work.",
+    "avoid": "High-power Sport/MS-RT versions if you're buying on running cost: they're priced for image, not range. Avoid any van whose software and recall status the seller can't show.",
+    "checks": [
+      "Check the build date: from early 2026 vans have the 71kWh pack (about 232 miles WLTP). Listings saying '65kWh' are the 64kWh-usable original.",
+      "Ask a Ford dealer to confirm the DC fast-charging OTA update and any open recalls (including airbag campaign 25S51 for February-April 2025 builds).",
+      "Do a rapid-charge test. Peak DC speed should approach 125kW in mild weather on a warm battery.",
+      "Check which motor it has (100kW/136PS, 160kW/218PS or 210kW/285PS); it changes value and efficiency.",
+      "Make sure the Ford Pro/FordPass connected-services account has been released by the previous fleet owner, so you can use remote charging and app features."
+    ],
+    "sources": [
+      "https://ford.co.uk/vans-and-pickups/e-transit-custom",
+      "https://www.autoexpress.co.uk/ford/transit-custom/363246/ford-e-transit-custom-review",
+      "https://vanreviewer.co.uk/battery-charging-range/what-is-the-ford-e-transit-custom-battery-range/",
+      "https://evfleetworld.co.uk/first-drive-ford-e-transit-custom",
+      "https://theinterface.uk/blog-posts/ford-e-transit-custom-2024-review",
+      "https://www.fromtheroad.ford.com/eur/en/articles/2025/e-transit-custom-battery-upgrade",
+      "https://www.fleetnews.co.uk/news/range-boost-for-ford-e-transit-custom",
+      "https://www.autoexpress.co.uk/ford/transit-custom/368445/updated-ford-e-transit-custom-gets-23-more-miles-and-all-wheel-drive",
+      "https://car-recalls.eu/recall/ford-transit-custom-2025-airbag/?noamp=mobile",
+      "https://car-recalls.eu/exceeding-maximum-speed-ford-transit-custom-kba/amp/",
+      "https://fordauthority.com/2025/12/ford-transit-custom-recalled-in-australia-over-toxic-gas-leak/",
+      "https://www.ford.co.uk/support/how-tos/warranty/warranties-and-coverage/what-is-the-warranty-on-the-ford-e-transit-battery",
+      "https://www.autotrader.co.uk/vans/used-vans/ford/e-transit-custom",
+      "https://www.trustford.co.uk/transit-centre/used-van-details/used-ford-e-transit-custom-limited-panel-van-grey-automatic-electric/id-899721890/",
+      "https://vans.honestjohn.co.uk/owner-reviews/ford/transit-custom-2024/"
+    ],
+    "confidence": "Medium. Battery, range and charging figures and the 2026 update are well sourced. Least certain: UK recall coverage for electric versions and the details of the OTA charging upgrade for existing vans."
+  },
+  {
+    "slug": "ford-transit-courier",
+    "name": "Ford E-Transit Courier",
+    "usedNames": ["E-Transit Courier", "listed as 'Transit Courier 100kW 43kWh'", "E-Tourneo Courier (passenger version)"],
+    "summary": "Ford's small electric van, on the same platform as the Puma, launched in the UK in 2024. It's a front-wheel-drive van with a 43kWh battery (46kWh from mid-2026). Reviewers like how it drives and what it costs, but its range is modest, so it suits urban couriers and local trades. Used supply is mostly 2025-registered and nearly new.",
+    "generations": [
+      {
+        "years": "2024-mid 2026",
+        "label": "E-Transit Courier 43kWh",
+        "batteries": [
+          { "kWh": "43 usable", "wltpMiles": "181-186 (sources differ; Ford quoted 186 / 300km)", "realWorldMiles": "not confirmed (Parkers calls the range disappointing; Driving.co.uk calls it 'good for short-range work')", "notes": "Single 100kW (136PS) motor, front-wheel drive." }
+        ],
+        "acKw": "11 (0-100% about 5 hours 18 minutes)",
+        "dcKw": "100 (10-80% about 23 minutes, Driving.co.uk)",
+        "connector": "CCS",
+        "notes": ""
+      },
+      {
+        "years": "From summer 2026",
+        "label": "E-Transit Courier 46kWh",
+        "batteries": [
+          { "kWh": "46 usable", "wltpMiles": "up to 207 (334km)", "realWorldMiles": "not confirmed", "notes": "Ford says customers get it from summer 2026; a 26-reg 46kWh van was already on Autotrader. Adds a Pro Power Onboard feature." }
+        ],
+        "acKw": "11",
+        "dcKw": "not confirmed (assume similar to 43kWh)",
+        "connector": "CCS",
+        "notes": ""
+      }
+    ],
+    "batteryWarranty": "Ford UK quotes 8 years/100,000 miles battery cover for its electric vans (confirmed for the E-Transit; not found on a Courier-specific Ford page, so confirm with a dealer). The cover stays with the vehicle.",
+    "knownIssues": [
+      { "issue": "Range is the main limitation", "detail": "The WLTP range of 181-186 miles is modest; reviewers flag it as the weak point. Check the 46kWh version (207 miles) if you can find one.", "source": "https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review" },
+      { "issue": "No model-specific fault pattern found", "detail": "I found no recurring E-Transit Courier faults in UK sources by October 2026. The model is young, so treat it like a new van: check for software updates and recalls.", "source": "https://vans.honestjohn.co.uk/ford/e-transit-courier/" }
+    ],
+    "recalls": [
+      { "issue": "Parking brake cable can slip out of position (Ford 26S16, KBA 16327R; 4,282 vans). Listed for Transit Courier and Tourneo Courier; whether electric versions are included is not confirmed.", "years": "Built autumn 2025", "source": "https://car-recalls.eu/es/ford-tourneo-courier-and-transit-courier-parking-brake-may-fail-kba/" },
+      { "issue": "Brake fluid contaminated with mineral oil can swell seals and cause loss of brake pressure (319 vehicles). Listed for Transit/Tourneo Courier; whether electric versions are included is not confirmed.", "years": "2023 builds (pre-electric, so unlikely to apply)", "source": "https://car-recalls.eu/recall/ford-tourneo-courier-2023-brakes-failure" },
+      { "issue": "A 2025 Transit Courier brakes recall appears on a European aggregator; details and whether the electric version is included not confirmed.", "years": "2025", "source": "https://car-recalls.eu/recall/ford-transit-courier-2025-brakes-injury/" }
+    ],
+    "usedPrices": "Approximate, from Autotrader listings (snapshot): mostly 2025-registered Trend vans at about £15,700-£22,000 +VAT, many under 10,000 miles; a 26-reg 46kWh example at about £17,500 +VAT. Parkers' used price range for 2024-on: £14,150-£26,500.",
+    "bestBuy": "A nearly-new 2025 Trend from a Ford dealer: lots of warranty left and big savings on new. If the range is borderline for you, look for the summer-2026 46kWh version (207 miles WLTP).",
+    "avoid": "Don't buy one for regular motorway or rural runs beyond about 100-120 miles a day without testing your route. It's a city van.",
+    "checks": [
+      "Confirm the battery: 43kWh (2024-26) or 46kWh (from summer 2026). Listings show it, e.g. 'Transit Courier 100kW 46kWh'.",
+      "Ask a Ford dealer to check the parking brake campaign 26S16 (autumn 2025 builds) and any other open recalls by VIN.",
+      "Check the payload and load length suit you. It's a small van, built on the same platform as the Puma, not a cut-down Custom.",
+      "Check that the charge cable(s) and the Type 2 lead are present; nearly-new pre-registered vans sometimes come without them.",
+      "Do a DC rapid-charge test. It should reach well above 50kW on a 100kW+ charger with a warm battery."
+    ],
+    "sources": [
+      "https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review",
+      "https://www.whatvan.co.uk/van-reviews/ford-e-transit-courier-review/",
+      "https://vans.honestjohn.co.uk/ford/e-transit-courier/",
+      "https://www.electrifying.com/reviews/ford-reviews/e-transit-courier/review",
+      "https://www.driving.co.uk/?p=157154",
+      "https://fleetworld.co.uk/?p=114213",
+      "https://www.fleetnews.co.uk/news/battery-upgrade-boosts-range-for-ford-e-transit-courier",
+      "https://www.fromtheroad.ford.com/eur/en/articles/2026/whats-new-e-transit-courier-2026",
+      "https://car-recalls.eu/es/ford-tourneo-courier-and-transit-courier-parking-brake-may-fail-kba/",
+      "https://car-recalls.eu/recall/ford-tourneo-courier-2023-brakes-failure",
+      "https://www.autotrader.co.uk/vans/used-vans/ford/e-transit-courier",
+      "https://parkers.co.uk/vans-pickups/ford/e-transit-courier/2024/used-prices"
+    ],
+    "confidence": "Medium. Specs and the 2026 update are well sourced. Least certain: real-world range (no tested figure found) and whether the Courier recalls cover the electric version."
+  },
+  {
+    "slug": "volkswagen-transporter",
+    "name": "Volkswagen e-Transporter",
+    "usedNames": ["e-Transporter", "Transporter T7 electric", "eTransporter T32 / T34", "listed on Autotrader as 'Transporter T32 100kW 65kWh'", "e-Transporter Kombi", "e-Caravelle / e-Transporter Shuttle"],
+    "summary": "The new-generation Transporter, on sale in the UK from 2025, is built by Ford in Turkey and is mechanically an E-Transit Custom with VW badging and trim. Used supply is still very thin: most 'used' examples are delivery-mileage pre-registered or demonstrator vans. Treat it as a nearly-new buy and compare prices against an E-Transit Custom.",
+    "generations": [
+      {
+        "years": "2025 on",
+        "label": "e-Transporter (Ford-built, T7)",
+        "batteries": [
+          { "kWh": "64 usable (63.8; often listed as '65kWh')", "wltpMiles": "about 192-201 depending on spec", "realWorldMiles": "about 150-170 (review estimates)", "notes": "Rear motor: 100kW (136PS), 160kW (218PS) or 210kW (286PS). Same pack as the 64kWh E-Transit Custom." }
+        ],
+        "acKw": "11",
+        "dcKw": "125 (10-80% about 38-40 minutes); EV Database lists some 100kW-motor variants at 50kW DC. Not confirmed, so check the spec of the van",
+        "connector": "CCS",
+        "notes": "Panel van, Kombi and passenger Shuttle/Caravelle. Not confirmed whether VW will adopt Ford's 2026 71kWh battery upgrade."
+      }
+    ],
+    "batteryWarranty": "UK dealer spec listings for VW Commercial Vehicles electric vans quote 8 years with a 70% capacity guarantee, and VW usually caps this at 100,000 miles (160,000km). I did not confirm the exact e-Transporter terms from a VW UK page. Check the warranty booklet. The cover stays with the van.",
+    "knownIssues": [
+      { "issue": "Essentially an E-Transit Custom, so Ford-side issues may apply", "detail": "It shares the Ford platform, battery and charging hardware. Check Ford E-Transit Custom issues, such as slow cold-weather DC charging, and ask whether VW has issued an equivalent software update.", "source": "https://vanreviewer.co.uk/battery-charging-range/what-is-the-volkswagen-e-transporter-battery-range/" },
+      { "issue": "Very little used-market data", "detail": "With UK deliveries only starting in 2025, there is no established fault pattern yet. Treat early examples like new vans and check the software is current.", "source": "https://vans.honestjohn.co.uk/volkswagen/e-transporter/" }
+    ],
+    "recalls": [
+      { "issue": "Germany (KBA 16827R): 509 Transporter and Caravelle vans built without the 112km/h speed limiter programmed. The aggregator headline says this 'may affect range', which suggests electric versions, but that is not confirmed and UK applicability is not confirmed.", "years": "Built 9 September-18 December 2025", "source": "https://car-recalls.eu/vw-transporter-and-caravelle-missing-speed-limiter-range-kba/amp/" },
+      { "issue": "Australia: headlight aim software fault on 2025 Transporters (REC-006558). Not confirmed for electric or UK vans.", "years": "2025", "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006558" }
+    ],
+    "usedPrices": "Approximate and thin, from Autotrader (snapshot): 2025 panel vans mostly about £21,000-£36,000 +VAT, nearly all very low mileage (pre-reg/demonstrator); Kombi about £35,000-£42,000 +VAT. Honest John's guide figures are higher and inconsistent. Very little supply; say so.",
+    "bestBuy": "A pre-registered or ex-demonstrator 2025 Commerce Plus panel van (100kW or 160kW) from a VW Van Centre with full warranty. Compare it against an equivalent E-Transit Custom: they're mechanically the same, so buy whichever is cheaper or better specified.",
+    "avoid": "Don't confuse it with the older ABT e-Transporter 6.1 (2020-22, 37.3kWh, about 82 miles WLTP), which also appears on Autotrader as 'E-Transporter'. Check the battery size in the listing.",
+    "checks": [
+      "Check the listing says 64/65kWh, not 37.3kWh: the old ABT e-Transporter 6.1 is listed under the same model name.",
+      "Ask a VW Van Centre to check open recalls and software campaigns by VIN, including the late-2025 speed-limiter programming campaign.",
+      "Confirm the DC charging rate for that variant (125kW expected; some data sources show 50kW for 100kW-motor versions).",
+      "Check which motor it has (136PS/218PS/286PS), and whether it's a panel van or a Kombi/Shuttle with seats, for VAT and payload.",
+      "Get the warranty start date from VW. Pre-reg vans may have used months of it already."
+    ],
+    "sources": [
+      "https://vanreviewer.co.uk/battery-charging-range/what-is-the-volkswagen-e-transporter-battery-range/",
+      "https://www.vanguide.co.uk/reviews/volkswagen-transporter-2025-uk-review-new-era-of-practicality-and-choice/",
+      "https://evpowered.co.uk/electric-car-reviews/volkswagen-e-transporter-review/",
+      "https://ev-database.org/uk/car/3317/Volkswagen-e-Transporter-Shuttle-SWB-210-kW-64-kWh",
+      "https://ev-database.org/car/3312/Volkswagen-e-Transporter-Kombi-L2-100-kW-64-kWh",
+      "https://www.fleetnews.co.uk/electric-fleet/electric-car-and-van-data/volkswagen/e-transporter-shuttle-3317",
+      "https://vans.honestjohn.co.uk/volkswagen/e-transporter/",
+      "https://car-recalls.eu/vw-transporter-and-caravelle-missing-speed-limiter-range-kba/amp/",
+      "https://www.vehiclerecalls.gov.au/recalls/rec-006558",
+      "https://www.autotrader.co.uk/vans/used-vans/volkswagen/e-transporter/2025",
+      "https://vans.honestjohn.co.uk/used-prices/Volkswagen/Transporter/2025/?q=Electric"
+    ],
+    "confidence": "Medium-low. The specs are solid because they match the Ford twin. Used prices are thin and the battery warranty terms are from dealer listings, not VW. Recall applicability to electric UK vans is unconfirmed."
+  },
+  {
+    "slug": "volkswagen-id-buzz-cargo",
+    "name": "Volkswagen ID. Buzz Cargo",
+    "usedNames": ["ID Buzz Cargo", "ID. Buzz Cargo Pro 77kWh / 79kWh", "Id. buzz Cargo Commerce / Commerce Plus", "ID. Buzz Cargo 59kWh / 58kWh"],
+    "summary": "VW's retro-styled medium electric van, sold in the UK since late 2022. Early vans have a 77kWh usable battery with about 250+ miles WLTP, so range is a real strength. Used prices for 2022-23 vans have fallen a long way, so it can be a strong buy. In October 2026, though, VW announced a battery-cell recall that caps charging at 80% on affected vans until they're checked. Factor that in before you buy.",
+    "generations": [
+      {
+        "years": "2022-2024",
+        "label": "ID. Buzz Cargo 77kWh (150kW/204PS)",
+        "batteries": [
+          { "kWh": "82 gross / 77 usable", "wltpMiles": "about 250-259 (Auto Express quotes up to 256)", "realWorldMiles": "not confirmed by a UK test found; expect well under WLTP in winter and loaded", "notes": "Rear-wheel drive, short wheelbase only." }
+        ],
+        "acKw": "11",
+        "dcKw": "170 (5-80% about 30 minutes)",
+        "connector": "CCS",
+        "notes": "Commerce and Commerce Plus trims. Some Commerce vans registered September 2023-December 2024 are wrongly recorded at DVLA as Commerce Plus (see known issues)."
+      },
+      {
+        "years": "Late 2024/2025 on",
+        "label": "ID. Buzz Cargo 79kWh (210kW/286PS; 4Motion 250kW)",
+        "batteries": [
+          { "kWh": "about 84 gross / 79 usable (the 86kWh pack is the long-wheelbase passenger ID. Buzz, not the Cargo)", "wltpMiles": "about 276-277 (RWD); about 258 (4Motion)", "realWorldMiles": "not confirmed", "notes": "Payload up to about 750kg, towing 1,200kg, per a Dutch launch report." }
+        ],
+        "acKw": "11",
+        "dcKw": "185 (10-80% about 26 minutes)",
+        "connector": "CCS",
+        "notes": ""
+      },
+      {
+        "years": "March 2025-mid 2026",
+        "label": "ID. Buzz Cargo 59kWh (entry Commerce, 170PS)",
+        "batteries": [
+          { "kWh": "59 (usable/gross not stated)", "wltpMiles": "about 200-201", "realWorldMiles": "not confirmed", "notes": "Launched at £35,960 ex VAT, Commerce trim only." }
+        ],
+        "acKw": "11",
+        "dcKw": "165 (5-80% about 30 minutes)",
+        "connector": "CCS",
+        "notes": ""
+      },
+      {
+        "years": "August 2026 on",
+        "label": "ID. Buzz Cargo 58kWh (190PS)",
+        "batteries": [
+          { "kWh": "58 (usable/gross not stated)", "wltpMiles": "218", "realWorldMiles": "not confirmed", "notes": "Priced at £29,995 ex VAT, and eligible for the £5,000 Plug-in Van Grant. VW added V2L (2.0kW continuous, 3.6kW peak socket in the load area) across the Cargo range and rolled out Software 6.0." }
+        ],
+        "acKw": "11",
+        "dcKw": "not confirmed",
+        "connector": "CCS",
+        "notes": "Too new for meaningful used supply."
+      }
+    ],
+    "batteryWarranty": "8 years with a 70% capacity guarantee (UK dealer spec data). What Van gives the mileage cap as 100,000 miles; one leasing listing says '160000', which is almost certainly km, so the same thing. The cover stays with the van. Confirm terms with a VW Van Centre.",
+    "knownIssues": [
+      { "issue": "Battery-cell recall with an 80% charge cap (October 2026)", "detail": "VW is recalling vans with high-voltage batteries from one supplier made 2022-2025, because cells could overheat and, rarely, catch fire. Electrive reports the UK action covers the ID. Buzz Cargo. An OTA update caps charging at 80%. The cap is lifted only after the battery is inspected and passed, and the final fix may not arrive until early 2027 (a VW Denmark statement). At 80% a 77kWh van has noticeably less usable range.", "source": "https://electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe" },
+      { "issue": "DVLA records show the wrong trim (Commerce recorded as Commerce Plus)", "detail": "VW Commercial Vehicles admitted that some Commerce vans registered September 2023-December 2024 were wrongly registered as Commerce Plus. The list price gap is about £5,178. Check the actual equipment, not the V5C/DVLA data, before paying a Commerce Plus price.", "source": "https://vans.honestjohn.co.uk/van-news/buying-and-selling/2026-06/id-buzz-cargo-commerce-vans-dvla-data-error/" },
+      { "issue": "Software and infotainment glitches; 12V battery drain (owner reports)", "detail": "Owner reports and used-EV retailer guides point mainly to ID-family software bugs fixed by updates, and to weak 12V batteries. The 12V sits under the driver's seat. Ask for proof of software updates and check the software version.", "source": "https://recharged.com/articles/vw-id-buzz-common-problems-and-fixes" }
+    ],
+    "recalls": [
+      { "issue": "High-voltage battery cell defect from one supplier: overheating and fire risk. Interim OTA charge limit of 80% until inspected; final software fix expected around Q1 2027. UK scope reported to include the ID. Buzz Cargo. Get the UK recall reference from VW.", "years": "Batteries produced 2022-2025", "source": "https://electrive.com/2026/10/21/vws-battery-recall-affects-72700-evs-including-10000-in-germany" },
+      { "issue": "Earlier (March 2026) VW Group recall of cell modules that could overheat when charging (fire risk), covering ID. Buzz and ID. Buzz Cargo among other ID models. Exact UK scope not confirmed.", "years": "Built February 2022-August 2024 (per aggregator)", "source": "https://electrek.co/2026/03/24/volkswagen-recalling-100000-evs-over-potential-battery-issues/" },
+      { "issue": "Tyre/air-loss recall and an airbag recall are listed for the ID. Buzz on a European aggregator. Cargo/UK applicability not confirmed.", "years": "2022; 2022-2025", "source": "https://car-recalls.eu/recall/volkswagen-id-buzz-2022-2025-airbag-injury/amp/" }
+    ],
+    "usedPrices": "Approximate, from Autotrader listings (snapshot): 2022-23 77kWh vans mostly about £19,000-£28,000 +VAT (high-mileage Commerce about £19k; low-mileage Commerce Plus about £27k-£28k). 79kWh 2025 vans sit higher; I found no reliable range. Prices may soften after the October 2026 battery recall news.",
+    "bestBuy": "A 2023-24 77kWh Commerce Plus with full VW history, where the dealer can show it's been through or cleared under the battery recall. You get a lot of range for the money. If budget allows, a 2025 79kWh/210kW gives about 276 miles WLTP and 185kW charging.",
+    "avoid": "Any van still under the 80% charge cap with no inspection booked, unless the price reflects it and your daily mileage fits in 80%. Also avoid paying Commerce Plus money for a van whose equipment shows it's really a Commerce.",
+    "checks": [
+      "Ask a VW Van Centre, by VIN, whether the van is in the 2026 battery-cell recall, whether the 80% charge cap is active, and whether the battery has been inspected and cleared.",
+      "Check the trim against the actual equipment (Commerce vs Commerce Plus), not the V5C. Some September 2023-December 2024 Commerce vans are wrongly registered as Commerce Plus.",
+      "Confirm the battery and motor: 77kWh/150kW (2022-24), 79kWh/210kW or 4Motion (2025 on), 59kWh (2025-26) or 58kWh (August 2026 on).",
+      "Check the software version and update history (Software 6.0 is rolling out with V2L). Look for infotainment and warning-light glitches on the test drive.",
+      "Check the 12V battery's age and condition. It's under the driver's seat, and a weak one causes odd faults."
+    ],
+    "sources": [
+      "https://www.autoexpress.co.uk/volkswagen/id-buzz/359292/volkswagen-id-buzz-cargo-van-review",
+      "https://www.volkswagen-newsroom.com/en/the-new-id-buzz-and-id-buzz-cargo-international-media-drive-15144/technical-data-of-the-id-buzz-pro-and-id-buzz-cargo-15156",
+      "https://www.marshall.co.uk/volkswagen-commercials/new-vans/id-buzz-cargo-technology/",
+      "https://www.whatvan.co.uk/test-drives/the-whatvan-road-test/2023/the-what-van-road-test-volkswagen-id-buzz-cargo-(2022)?pageno=5",
+      "https://www.autozine.nl/volkswagen/idbuzz/nieuws/volkswagen-vernieuwt-idbuzz-cargo-2024",
+      "https://www.evspecs.org/tech-specs/volkswagen/id-buzz/cargo-pro",
+      "https://vanreviewer.co.uk/battery-charging-range/what-is-the-volkswagen-id-buzz-battery-range/",
+      "https://evfleetworld.co.uk/entry-level-volkswagen-id-buzz-cargo-van-on-sale-from-35960/",
+      "https://www.autoexpress.co.uk/volkswagen/id-buzz/366122/volkswagen-idbuzz-cargo-gets-new-59kwh-battery-and-lower-starting-price",
+      "https://electrive.com/2026/08/05/uk-volkswagen-gives-id-buzz-cargo-a-58-kwh-battery-and-v2l",
+      "https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/",
+      "https://electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe",
+      "https://electrive.com/2026/10/21/vws-battery-recall-affects-72700-evs-including-10000-in-germany",
+      "https://electrek.co/2026/03/24/volkswagen-recalling-100000-evs-over-potential-battery-issues/",
+      "https://vans.honestjohn.co.uk/van-news/buying-and-selling/2026-06/id-buzz-cargo-commerce-vans-dvla-data-error/",
+      "https://recharged.com/articles/vw-id-buzz-common-problems-and-fixes",
+      "https://www.autotrader.co.uk/vans/used-vans/volkswagen/id-buzz-cargo"
+    ],
+    "confidence": "Medium. Specs, the DVLA trim error and the October 2026 battery recall are well sourced. Least certain: the exact UK recall reference and which build dates or VINs it covers. It is very recent and still developing."
+  },
+  {
+    "slug": "volkswagen-e-crafter",
+    "name": "Volkswagen e-Crafter (discontinued)",
+    "usedNames": ["e-Crafter", "Crafter electric"],
+    "summary": "VW's first large electric van, using the e-Golf's 35.8kWh battery. It was sold in small numbers and was off sale in the UK by 2022. With about 70 miles of real range and a 56mph speed limit, it only suits fixed, short urban delivery rounds. It's rare used; its MAN eTGE twin is easier to find.",
+    "generations": [
+      {
+        "years": "2018-2022 (UK supply small; What Car? says UK sales were left-hand drive)",
+        "label": "e-Crafter 35.8kWh",
+        "batteries": [
+          { "kWh": "35.8 (gross/usable not stated)", "wltpMiles": "about 71 combined (115km); 99 urban (159km). Older NEDC figure: 107", "realWorldMiles": "about 60-80 (Driving Electric about 60; Fleet News about 80; reviewer about 70)", "notes": "Front motor 100kW (136PS), 290Nm. Top speed limited to 56mph (90km/h)." }
+        ],
+        "acKw": "7.2-7.4",
+        "dcKw": "40 (0-80% about 45 minutes)",
+        "connector": "CCS",
+        "notes": "3.5-tonne van payload about 970-1,000kg; 4.25-tonne version up to about 1,720-1,750kg."
+      }
+    ],
+    "batteryWarranty": "VW gave an 8-year battery guarantee, with mileage reported as 100,000 miles/160,000km (Driving Electric; the twin MAN eTGE is listed at 8 years/99,419 miles, i.e. 160,000km). The earliest 2018-19 vans are near the end of the 8 years by late 2026; check the exact start date. The cover stays with the vehicle.",
+    "knownIssues": [
+      { "issue": "Very short range and 56mph limit", "detail": "Real range of about 60-80 miles, and a speed limiter that rules out motorway work. Check this fits your round before anything else.", "source": "https://www.fleetnews.co.uk/van/reviews/electric-and-alternative-fuel-vans/volkswagen-s-e-crafter-range-results-in-last-mile-delivery-suitability-first-drive" },
+      { "issue": "Left-hand drive in the UK", "detail": "What Car? reports that UK e-Crafters were only available in left-hand drive. Check which side the steering is on; it affects kerbside loading and resale.", "source": "https://www.whatcar.com/volkswagen/e-crafter/van/review/n20142" },
+      { "issue": "No model-specific fault pattern found", "detail": "The drivetrain and battery come from the e-Golf (Driving Electric/Autotrader), but I found no e-Crafter fault reports. Diesel Crafter faults (DPF, turbo) don't apply. Parts and specialist knowledge may be harder to find for a rare, discontinued model.", "source": "https://www.autotrader.co.uk/vans/content/Volkswagen-e-crafter-review-panel-van-2019" }
+    ],
+    "recalls": [],
+    "usedPrices": "Not confirmed: I found no current UK Autotrader listings. The twin MAN eTGE lists at about £10,400-£15,400 +VAT, which gives a rough guide. Expect few to choose from.",
+    "bestBuy": "The newest, lowest-mileage van with VW battery cover still running and a battery health report. Many buyers will find a MAN eTGE (same van) easier to source.",
+    "avoid": "Any van you need for more than about 60 miles a day in winter, motorway work, or vans with battery warranty about to expire and no state-of-health report.",
+    "checks": [
+      "Check whether it's left- or right-hand drive (UK e-Crafters were reportedly LHD).",
+      "Get a battery state-of-health report and the battery warranty start date. Early vans are close to the end of the 8 years.",
+      "Confirm the GVW (3.5t or 4.25t). The heavier version may need a C1 licence or a 'derogation' check for drivers.",
+      "Test a 40kW DC rapid charge (CCS) and a 7kW AC charge to check both systems work.",
+      "Ask a VW Van Centre to check open recalls and software campaigns by VIN (none found in my research, but the DVSA checker could not be reached)."
+    ],
+    "sources": [
+      "https://www.whatcar.com/volkswagen/e-crafter/van/review/n20142",
+      "https://www.autoexpress.co.uk/volkswagen/crafter/104464/volkswagen-e-crafter-review",
+      "https://www.fleetnews.co.uk/van/reviews/electric-and-alternative-fuel-vans/volkswagen-s-e-crafter-range-results-in-last-mile-delivery-suitability-first-drive",
+      "https://www.drivingelectric.com/volkswagen/crafter/e-crafter/range",
+      "https://www.drivingelectric.com/volkswagen/crafter/e-crafter/reliability",
+      "https://www.autotrader.co.uk/vans/content/Volkswagen-e-crafter-review-panel-van-2019",
+      "https://parkers.co.uk/vans-pickups/news/2018/volkswagen-ecrafter-2020-review--zero-emission-urban-deliverer",
+      "https://vanfleetworld.co.uk/road-test-volkswagen-e-crafter/"
+    ],
+    "confidence": "Low-medium. Battery, charging and speed-limit figures are consistent. Least certain: UK market history (LHD only vs any RHD supply), exact on-sale years and any used price, since I found no listings."
+  },
+  {
+    "slug": "man-etge",
+    "name": "MAN eTGE (discontinued)",
+    "usedNames": ["eTGE", "MAN TGE eTGE 3.140", "eTGE Standard High Roof"],
+    "summary": "MAN's version of the VW e-Crafter, with the same 36kWh battery and roughly 70 miles of real range. It was sold through MAN truck dealers to UK fleets, including as Luton, tipper and dropside conversions. It's cheap used and suits fixed short urban rounds only.",
+    "generations": [
+      {
+        "years": "2020-2022 (UK listings are 2020-22 registrations)",
+        "label": "eTGE 36kWh (100kW)",
+        "batteries": [
+          { "kWh": "36 (35.8; gross/usable not stated)", "wltpMiles": "about 71 combined (about 68 on the high-energy test)", "realWorldMiles": "about 60-80 (by reference to the identical e-Crafter)", "notes": "100kW (136PS) motor. Speed limited like the e-Crafter (56mph per e-Crafter sources; not separately confirmed for MAN)." }
+        ],
+        "acKw": "7.2",
+        "dcKw": "40 (to 80% in about 45 minutes)",
+        "connector": "CCS",
+        "notes": "Panel vans plus Luton, tipper and dropside conversions (reviewed by Vanaways). New price was about £64,000-£65,000."
+      }
+    ],
+    "batteryWarranty": "8 years / 99,419 miles (160,000km), per Auto Express spec data. The 2020-21 vans have about 2-3 years of battery cover left in late 2026. The cover stays with the vehicle; confirm with a MAN dealer.",
+    "knownIssues": [
+      { "issue": "Very short range", "detail": "About 71 miles WLTP. Vanaways says it suits stop-start urban work and is not suitable for longer journeys without charging stops.", "source": "https://vanaways.co.uk/news/man-etge-van-review" },
+      { "issue": "Conversion weight cuts payload and range", "detail": "Luton, tipper and dropside versions carry extra body weight and drag on the same small battery. Check the plated payload and test the range with a load.", "source": "https://vanaways.co.uk/man-etge-luton-review" },
+      { "issue": "No model-specific fault pattern found", "detail": "I found no eTGE fault reports. Servicing goes through MAN truck dealers, so check one is local.", "source": "https://www.electrive.net/tag/etge/" }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate, from Autotrader (6 listed, snapshot): about £10,400-£15,400 +VAT for 2021-22 vans (6,000-35,000 miles). Parkers dealer valuation for a 2022 High Roof van: about £15,280.",
+    "bestBuy": "A 2022 low-mileage panel van, or a Luton/tipper if that body suits your job, with MAN dealer history and battery cover still running. It's one of the cheapest ways into a large electric van, if the range fits.",
+    "avoid": "Anything for more than about 60 miles a day in winter, or motorway work. Avoid converted bodies with no paperwork on the conversion or the high-voltage wiring.",
+    "checks": [
+      "Get a battery state-of-health report and the battery warranty start date (8 years/160,000km).",
+      "On conversions, get the bodybuilder's paperwork and check the plated GVW and payload.",
+      "Test both 40kW DC (CCS) and 7.2kW AC charging.",
+      "Check the steering side and that a MAN dealer near you can service it.",
+      "Ask MAN to check open campaigns by VIN (none found in my research)."
+    ],
+    "sources": [
+      "https://www.autoexpress.co.uk/man/tge/prices-specs/52070/100kw-36kwh-high-roof-van-auto",
+      "https://salsac.rivervale.co.uk/van-leasing/man/tge/etge-standard-electric/100kw-36kwh-high-roof-van-auto-2021",
+      "https://vanaways.co.uk/news/man-etge-van-review",
+      "https://vanaways.co.uk/man-etge-luton-review",
+      "https://vanaways.co.uk/news/man-etge-tipper-review",
+      "https://www.pistonheads.com/buy/listing/18542751",
+      "https://autotrader.co.uk/vans/used-vans/man/etge",
+      "https://www.parkers.co.uk/vans-pickups/man/tge/etge-2021/100kw-36kwh-standard-high-roof-van-auto/129/used-prices"
+    ],
+    "confidence": "Medium. Specs, warranty and prices are well sourced. Least certain: exact UK on-sale years, the speed limit (assumed from the e-Crafter) and whether any recalls exist."
+  },
+  {
+    "slug": "volkswagen-abt-e-transporter",
+    "name": "Volkswagen ABT e-Transporter 6.1 (discontinued)",
+    "usedNames": ["ABT eTransporter 6.1", "e-Transporter", "listed on Autotrader as 'E-Transporter e 110 / e 113 37.3kWh'", "Transporter T6.1 ABT eTRANSPORTER", "ABT e-Transporter Kombi"],
+    "summary": "A Transporter T6.1 converted to electric by ABT and sold through VW Van Centres in 2020-22. The 37.3kWh battery gives about 82 miles WLTP (64 miles with the 75mph limiter). It suits short urban rounds only. Used prices are low, but the conversion makes battery repairs a specialist job.",
+    "generations": [
+      {
+        "years": "2020-2022",
+        "label": "ABT e-Transporter 6.1 37.3kWh",
+        "batteries": [
+          { "kWh": "37.3 (gross/usable not stated)", "wltpMiles": "82 (with 56mph top speed); 64 with the optional 75mph top speed", "realWorldMiles": "close to 82 in Auto Express's test (it found the claim achievable); expect much less in winter or loaded", "notes": "83kW (110-113PS), 200Nm, front-wheel drive. LWB panel van and Kombi; payload about 1,000kg." }
+        ],
+        "acKw": "7.2 (about 5.5 hours full)",
+        "dcKw": "50 (0-80% about 45 minutes)",
+        "connector": "CCS (Type 2 AC cable included)",
+        "notes": "UK prices from new were £42,060-£45,360 +VAT (van) and £46,375-£49,985 +VAT (Kombi)."
+      }
+    ],
+    "batteryWarranty": "ABT/VW: 8 years or 160,000km (about 100,000 miles), guaranteeing 70% capacity. A 2020 van's cover runs to about 2028. Get written confirmation of who covers it (VW or ABT) and that it stays with the van. One repair specialist's report describes VW refusing battery cover on a van because of water damage.",
+    "knownIssues": [
+      { "issue": "Battery pack failure repaired by whole-pack replacement (repairer report)", "detail": "EV Clinic, a battery repair specialist, describes a 37kWh ABT e-Transporter whose dealer took over 8 weeks to diagnose a battery fault. VW wanted to replace the whole pack and reportedly refused warranty cover because of water damage. This is a single report, not a proven pattern. Check for signs of water getting in and for any battery fault history.", "source": "https://evclinic.eu/2023/12/07/transporter-t6-abte/" },
+      { "issue": "Very short range, and the speed setting matters", "detail": "82 miles WLTP with the 56mph limit; vans set to 75mph drop to 64 miles. Check which setting your van has.", "source": "https://www.zapmap.com/news/vw-etransporter-launched" },
+      { "issue": "Conversion means specialist servicing", "detail": "It's a T6.1 body with ABT electric running gear, not a factory VW EV. Check your local VW Van Centre can still diagnose and repair the high-voltage system.", "source": "https://www.autoexpress.co.uk/depth-reviews/353755/volkswagen-abt-e-transporter-review" }
+    ],
+    "recalls": [],
+    "usedPrices": "Approximate, from Autotrader/PistonHeads listings (snapshot): about £12,000-£16,000 +VAT for 2020-21 vans with 5,000-15,000 miles; a 2021 Advance at about £14,000 no VAT. Supply is small.",
+    "bestBuy": "A low-mileage 2021-22 van with VW Van Centre history, a battery health report and battery cover running to 2029-30. Only buy if 50-60 real miles a day is enough.",
+    "avoid": "Vans with any history of battery warnings, water ingress or flood damage, or long periods off the road; vans set to 75mph if range matters; anything without service records from a VW Van Centre.",
+    "checks": [
+      "Make sure it's the 37.3kWh ABT van and not the 2025-on Ford-built e-Transporter (64kWh). Both are listed as 'E-Transporter'.",
+      "Get a battery state-of-health report and written battery warranty terms (8 years/160,000km, 70%), including who honours them.",
+      "Check underneath for impact damage or signs of water around the battery and HV connectors. One reported battery claim was refused for water damage.",
+      "Confirm the top-speed setting (56mph = 82 miles WLTP; 75mph = 64 miles).",
+      "Test a 50kW CCS rapid charge and 7.2kW AC charge.",
+      "Ask a VW Van Centre to check for open campaigns by VIN (none found in my research)."
+    ],
+    "sources": [
+      "https://www.autoexpress.co.uk/depth-reviews/353755/volkswagen-abt-e-transporter-review",
+      "https://www.whatcar.com/volkswagen/abt-etransporter-61/van/review/n22641",
+      "https://www.zapmap.com/news/vw-etransporter-launched",
+      "https://www.fleetnews.co.uk/news/van-news/2020/05/18/vw-abt-etransporter-priced-from-42-060",
+      "https://www.smmt.co.uk/2020/05/volkswagen-launches-first-all-electric-van/",
+      "https://abt-sportsline.com/news/detail/abt-e-transporter-61-for-craftsmen-and-companies",
+      "https://evclinic.eu/2023/12/07/transporter-t6-abte/",
+      "https://www.autotrader.co.uk/vans/used-vans/stockport/volkswagen/e-transporter",
+      "https://www.autotrader.co.uk/vans/used-vans/southend/volkswagen/e-transporter",
+      "https://www.pistonheads.com/buy/listing/15077877"
+    ],
+    "confidence": "Medium. Specs, charging (CCS, 50kW DC, 7.2kW AC) and new prices are well sourced. Least certain: who honours the battery warranty (VW or ABT), real-world winter range and how widespread battery faults are (one report only)."
+  }
+]

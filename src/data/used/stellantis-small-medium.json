@@ -1,0 +1,1021 @@
+[
+  {
+    "slug": "vauxhall-vivaro",
+    "name": "Vauxhall Vivaro Electric",
+    "usedNames": [
+      "Vivaro-e",
+      "Vivaro-e Life (passenger)"
+    ],
+    "summary": "The UK's most common used electric mid-size van, sold in big numbers on fleet leases from 2020-21. It's a sensible used buy for local and regional work. Pick the 75kWh battery unless your daily miles are short and predictable.",
+    "generations": [
+      {
+        "years": "2020-2024",
+        "label": "Vivaro-e (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / about 46 usable",
+            "wltpMiles": "about 141-143 (varies by body length)",
+            "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
+            "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
+          },
+          {
+            "kWh": "75 (gross) / about 68 usable",
+            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+      },
+      {
+        "years": "2024-",
+        "label": "Vivaro Electric (facelift)",
+        "batteries": [
+          {
+            "kWh": "75 (gross)",
+            "wltpMiles": "up to 217",
+            "realWorldMiles": "not confirmed (expect roughly 160-170)",
+            "notes": "50kWh option dropped at the facelift."
+          }
+        ],
+        "acKw": "7.4 (11 optional, per UK trim listings)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to 70% capacity (Vauxhall listings). Standard vehicle warranty 3 years / 60,000 miles. Transfer to a second owner isn't stated in the sources we found, but the cover runs from first registration, so a 2021 van still has it until 2029. Confirm with a Vauxhall dealer.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive / 'Electric traction system fault' warnings",
+        "detail": "The 2022-23 builds had recalls for traction battery control software (battery shuts drive down to protect itself) and a separate AC compressor wiring fault that could shut the powertrain down. Owner reports on SpeakEV also describe intermittent traction faults traced to battery temperature sensor readings, and a fleet with 2024 vans reporting charge sessions stopping and drive cutting out (owner reports, unverified). Check for stored fault codes and confirm recall software is done.",
+        "source": "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning is documented, so DC rates fall when the pack is cold (a third-party troubleshooting guide cites below about 10-15C). Real average 10-80% on the 75kWh is about 77kW even in good conditions (EV Database). Plan on 45+ min stops in winter.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "AC compressor stator wiring can leak current and shut the powertrain down while driving; fix is ECU software reprogramming. Peugeot UK ref R/2023/140 (May 2023, 29,537 Peugeot EVs incl. e-Expert, e-Partner). A Vauxhall Vivaro-e/Combo-e 'powertrain shutdown' recall dated 8 May 2023 is listed by third-party trackers. Citroën/Toyota/Fiat equivalents not confirmed.",
+        "years": "e-Expert builds approx 10/03/2020-07/12/2022 (third-party source; check VIN)",
+        "source": "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/"
+      },
+      {
+        "issue": "Traction battery control unit software calibration could misread cell voltage/temperature and cut drive (loss of propulsion). Fix: software update. Stellantis/Toyota campaign announced March 2023 for 2022 builds; Toyota later issued CI25-007 for Proace BEV built 11 Jul 2022-21 Feb 2023.",
+        "years": "2022-early 2023 builds",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Traction battery software recall listed for Vivaro (third-party tracker ref R/2025/119, March 2025). Not verified on DVSA; check VIN.",
+        "years": "not confirmed",
+        "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/VIVARO"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/AA/Gumtree/PistonHeads): 2021 50kWh about £9,000-£11,000 + VAT; 2021 75kWh about £11,000-£13,000 + VAT; 2023 75kWh about £14,000-£16,500 + VAT retail. Trade values are falling: an October 2026 auction report had a 27k-mile Vivaro 75kWh stall at £9,900 + VAT. Asking prices, not sold prices.",
+    "bestBuy": "A 2021-23 75kWh van, ideally with the 11kW charger if you have three-phase. Ex-lease examples with full dealer history and recalls done are the safest. A 2024-on facelift (217-mile WLTP) is worth the extra if budget allows.",
+    "avoid": "50kWh vans if you regularly do more than about 90-100 miles a day or tow/carry heavy loads in winter. Avoid any van with unresolved traction-fault warnings or no proof of recall work.",
+    "checks": [
+      "Confirm battery size from the V5C/VIN or the dealer system, not the badge: there's no outside badge for 50 vs 75kWh, and adverts may say 49, 50 or 75kWh.",
+      "Check whether it has the optional 11kW three-phase onboard charger (advert/spec shows '11kW Charger' or '[11kWCh]'). Only matters if you have three-phase at the depot.",
+      "Run the VIN on the DVSA checker and ask a franchised dealer to confirm the 2023 traction-battery software and AC-compressor recall work is done (2020-22 builds especially).",
+      "Ask for a dealer battery health/state-of-health printout. Warranty cover is to 70% capacity, so you want the figure in writing.",
+      "Vauxhall vans are badge twins of the Expert/Dispatch: a Peugeot/Citroën dealer cannot do Vauxhall warranty work, so check your nearest Vauxhall commercial dealer."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1346/Vauxhall-Vivaro-e-Life-M-50-kWh",
+      "https://ev-database.org/car/1603/Opel-Vivaro-e-Combi-L-75-kWh",
+      "https://greencarscompare.com/cars/vivaro-e/opel-vivaro-e-combi-m-75-kwh/",
+      "https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.sustainableconstruction-now.com/article/554079/in-the-uk-nearly-new-electric-vans-hit-17750-at-auction-then-still-didnt-sell",
+      "https://www.autotrader.co.uk/vans/used-vans/vauxhall/vivaro-electric/2021",
+      "https://www.theaa.com/used-vans/electric",
+      "https://www.vehicle-recall.co.uk/make/VAUXHALL/VIVARO",
+      "https://www.vanarama.com/blog/vans/tom-gets-his-hands-on-the-vauxhall-vivaro-e"
+    ],
+    "confidence": "medium. Platform specs are solid; least certain are the exact recall list for this badge (DVSA pages weren't directly reachable) and whether 2024 Vivaro Electric kept a 50kWh option (sources say it was dropped)."
+  },
+  {
+    "slug": "peugeot-expert",
+    "name": "Peugeot E-Expert",
+    "usedNames": [
+      "e-Expert",
+      "e-Traveller (passenger)"
+    ],
+    "summary": "Peugeot's version of the shared Stellantis electric mid-size van, plentiful as 2020-22 ex-lease stock. It drives and charges exactly like the Vivaro and e-Dispatch, so buy on condition, battery size and price.",
+    "generations": [
+      {
+        "years": "2020-2024",
+        "label": "e-Expert (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / about 46 usable",
+            "wltpMiles": "about 141-143 (varies by body length)",
+            "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
+            "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
+          },
+          {
+            "kWh": "75 (gross) / about 68 usable",
+            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+      },
+      {
+        "years": "2024-",
+        "label": "E-Expert (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "75 (gross)",
+            "wltpMiles": "up to 217",
+            "realWorldMiles": "not confirmed (expect roughly 160-170)",
+            "notes": "50kWh option dropped at the facelift."
+          }
+        ],
+        "acKw": "7.4 (11 optional, per UK trim listings)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles on the battery (Peugeot quotes this alongside its warranties). Peugeot Allure Care (renamed Peugeot Care from May 2025) adds service-activated cover up to 8 years / 100,000 miles, and the balance can pass to a new owner. But sources confirm it for the E-Expert estate/E-Traveller, not clearly for panel vans. Check eligibility by registration date with a Peugeot dealer.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive / 'Electric traction system fault' warnings",
+        "detail": "The 2022-23 builds had recalls for traction battery control software (battery shuts drive down to protect itself) and a separate AC compressor wiring fault that could shut the powertrain down. Owner reports on SpeakEV also describe intermittent traction faults traced to battery temperature sensor readings, and a fleet with 2024 vans reporting charge sessions stopping and drive cutting out (owner reports, unverified). Check for stored fault codes and confirm recall software is done.",
+        "source": "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning is documented, so DC rates fall when the pack is cold (a third-party troubleshooting guide cites below about 10-15C). Real average 10-80% on the 75kWh is about 77kW even in good conditions (EV Database). Plan on 45+ min stops in winter.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "AC compressor stator wiring can leak current and shut the powertrain down while driving; fix is ECU software reprogramming. Peugeot UK ref R/2023/140 (May 2023, 29,537 Peugeot EVs incl. e-Expert, e-Partner). A Vauxhall Vivaro-e/Combo-e 'powertrain shutdown' recall dated 8 May 2023 is listed by third-party trackers. Citroën/Toyota/Fiat equivalents not confirmed.",
+        "years": "e-Expert builds approx 10/03/2020-07/12/2022 (third-party source; check VIN)",
+        "source": "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/"
+      },
+      {
+        "issue": "Traction battery control unit software calibration could misread cell voltage/temperature and cut drive (loss of propulsion). Fix: software update. Stellantis/Toyota campaign announced March 2023 for 2022 builds; Toyota later issued CI25-007 for Proace BEV built 11 Jul 2022-21 Feb 2023.",
+        "years": "2022-early 2023 builds",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (autumn 2026): 2021 50kWh e-Expert about £8,000-£12,000 (AutoUncle market summaries; VAT basis not always stated). 75kWh vans sit a bit higher, in line with the Vivaro (about £11,000-£16,000 + VAT by age). A dealer in an October 2026 auction report said he'd paid 'about £16k + VAT' for a nearly new e-Expert, as trade values fall. Approximate only.",
+    "bestBuy": "2021-23 75kWh, ideally with the 11kW charger. Recall R/2023/140 must be done. A 2024-on 75kWh facelift (217 miles WLTP) if budget allows.",
+    "avoid": "50kWh for long or winter-heavy routes. Any van with an outstanding R/2023/140 recall.",
+    "checks": [
+      "Confirm battery size from the V5C/VIN or the dealer system, not the badge: there's no outside badge for 50 vs 75kWh, and adverts may say 49, 50 or 75kWh.",
+      "Check whether it has the optional 11kW three-phase onboard charger (advert/spec shows '11kW Charger' or '[11kWCh]'). Only matters if you have three-phase at the depot.",
+      "Run the VIN on the DVSA checker and ask a franchised dealer to confirm the 2023 traction-battery software and AC-compressor recall work is done (2020-22 builds especially).",
+      "Ask for a dealer battery health/state-of-health printout. Warranty cover is to 70% capacity, so you want the figure in writing.",
+      "Ask Peugeot whether the van is eligible for Peugeot Care (ex-Allure Care) on its registration date. If it is, an on-time Peugeot service can add cover."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1346/Vauxhall-Vivaro-e-Life-M-50-kWh",
+      "https://ev-database.org/car/1603/Opel-Vivaro-e-Combi-L-75-kWh",
+      "https://greencarscompare.com/cars/vivaro-e/opel-vivaro-e-combi-m-75-kwh/",
+      "https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.sustainableconstruction-now.com/article/554079/in-the-uk-nearly-new-electric-vans-hit-17750-at-auction-then-still-didnt-sell",
+      "https://www.autoexpress.co.uk/peugeot/expert",
+      "https://www.autouncle.co.uk/en-gb/used-cars/Peugeot/e-Expert/y-2021",
+      "https://www.peugeot.co.uk/owners/allure-care.html",
+      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care"
+    ],
+    "confidence": "medium. Specs solid; Peugeot Care eligibility for panel vans and used prices are least certain."
+  },
+  {
+    "slug": "citroen-dispatch",
+    "name": "Citroën ë-Dispatch",
+    "usedNames": [
+      "e-Dispatch",
+      "E-Dispatch",
+      "ë-SpaceTourer (passenger)"
+    ],
+    "summary": "Citroën's twin of the Vivaro Electric and E-Expert, common as ex-fleet stock from 2020-21. A practical electric mid-size van for local and regional work. Buy the 75kWh battery unless your routes are short.",
+    "generations": [
+      {
+        "years": "2020-2024",
+        "label": "e-Dispatch (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / about 46 usable",
+            "wltpMiles": "about 141-143 (varies by body length)",
+            "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
+            "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
+          },
+          {
+            "kWh": "75 (gross) / about 68 usable",
+            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+      },
+      {
+        "years": "2024-",
+        "label": "ë-Dispatch (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "75 (gross)",
+            "wltpMiles": "up to 217",
+            "realWorldMiles": "not confirmed (expect roughly 160-170)",
+            "notes": "50kWh option dropped at the facelift."
+          }
+        ],
+        "acKw": "7.4 (11 optional, per UK trim listings)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles to 70% of battery capacity, with battery capacity certification at each service (Citroën/Greenfleet). Vehicle warranty 3 years. Transfer isn't stated, but the cover runs from first registration.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive / 'Electric traction system fault' warnings",
+        "detail": "The 2022-23 builds had recalls for traction battery control software (battery shuts drive down to protect itself) and a separate AC compressor wiring fault that could shut the powertrain down. Owner reports on SpeakEV also describe intermittent traction faults traced to battery temperature sensor readings, and a fleet with 2024 vans reporting charge sessions stopping and drive cutting out (owner reports, unverified). Check for stored fault codes and confirm recall software is done.",
+        "source": "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning is documented, so DC rates fall when the pack is cold (a third-party troubleshooting guide cites below about 10-15C). Real average 10-80% on the 75kWh is about 77kW even in good conditions (EV Database). Plan on 45+ min stops in winter.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "AC compressor stator wiring can leak current and shut the powertrain down while driving; fix is ECU software reprogramming. Peugeot UK ref R/2023/140 (May 2023, 29,537 Peugeot EVs incl. e-Expert, e-Partner). A Vauxhall Vivaro-e/Combo-e 'powertrain shutdown' recall dated 8 May 2023 is listed by third-party trackers. Citroën/Toyota/Fiat equivalents not confirmed. Whether ë-Dispatch is included: not confirmed.",
+        "years": "e-Expert builds approx 10/03/2020-07/12/2022 (third-party source; check VIN)",
+        "source": "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/"
+      },
+      {
+        "issue": "Traction battery control unit software calibration could misread cell voltage/temperature and cut drive (loss of propulsion). Fix: software update. Stellantis/Toyota campaign announced March 2023 for 2022 builds; Toyota later issued CI25-007 for Proace BEV built 11 Jul 2022-21 Feb 2023.",
+        "years": "2022-early 2023 builds",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Traction battery software recall listed for Citroën Dispatch (third-party ref R/2025/122, March 2025). Not verified on DVSA; check VIN.",
+        "years": "not confirmed",
+        "source": "https://www.vehicle-recall.co.uk/make/CITROEN/DISPATCH"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (autumn 2026): an AA-listed ë-Dispatch at about £14,000 + VAT. Expect values in line with the Vivaro-e: about £9,000-£11,000 + VAT for 2021 50kWh, £11,000-£16,000 + VAT for 75kWh by age. Thin data; approximate.",
+    "bestBuy": "2021-23 75kWh with service history (the history also proves the battery certification was done). A 2024-on facelift 75kWh for longer range.",
+    "avoid": "50kWh for long routes. Vans with missing Citroën service history, as that weakens the battery-capacity paper trail.",
+    "checks": [
+      "Confirm battery size from the V5C/VIN or the dealer system, not the badge: there's no outside badge for 50 vs 75kWh, and adverts may say 49, 50 or 75kWh.",
+      "Check whether it has the optional 11kW three-phase onboard charger (advert/spec shows '11kW Charger' or '[11kWCh]'). Only matters if you have three-phase at the depot.",
+      "Run the VIN on the DVSA checker and ask a franchised dealer to confirm the 2023 traction-battery software and AC-compressor recall work is done (2020-22 builds especially).",
+      "Ask for a dealer battery health/state-of-health printout. Warranty cover is to 70% capacity, so you want the figure in writing.",
+      "Ask for the battery capacity certificates issued at each Citroën service. Gaps make a warranty claim harder."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1346/Vauxhall-Vivaro-e-Life-M-50-kWh",
+      "https://ev-database.org/car/1603/Opel-Vivaro-e-Combi-L-75-kWh",
+      "https://greencarscompare.com/cars/vivaro-e/opel-vivaro-e-combi-m-75-kwh/",
+      "https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.sustainableconstruction-now.com/article/554079/in-the-uk-nearly-new-electric-vans-hit-17750-at-auction-then-still-didnt-sell",
+      "https://greenfleet.net/node/17018",
+      "https://www.theaa.com/used-vans/electric",
+      "https://www.vehicle-recall.co.uk/make/CITROEN/DISPATCH",
+      "https://exchangeandmart.co.uk/reviews/citroen/e-dispatch/12822"
+    ],
+    "confidence": "medium. Specs solid; badge-specific recalls and used prices (few listings found) are least certain."
+  },
+  {
+    "slug": "toyota-proace",
+    "name": "Toyota Proace Electric",
+    "usedNames": [
+      "Proace Electric",
+      "Proace Verso Electric (passenger)"
+    ],
+    "summary": "Toyota's version of the Stellantis electric mid-size van, built in the same French factory. As a used buy its edge is Toyota's service-activated Relax warranty. Mechanically it's the same as a Vivaro or e-Dispatch.",
+    "generations": [
+      {
+        "years": "2021-2024",
+        "label": "Proace Electric (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / about 46 usable",
+            "wltpMiles": "about 141-143 (varies by body length)",
+            "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
+            "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
+          },
+          {
+            "kWh": "75 (gross) / about 68 usable",
+            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+      },
+      {
+        "years": "2024-",
+        "label": "Proace Electric (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "75 (gross)",
+            "wltpMiles": "about 205-213 (sources differ)",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "50 (gross)",
+            "wltpMiles": "about 142",
+            "realWorldMiles": "about 110",
+            "notes": "Unlike Vauxhall/Peugeot/Citroën, Toyota UK still listed a 50kWh facelift van (Car and Driving price data, Nov 2024)."
+          }
+        ],
+        "acKw": "7.4 (11 optional, per UK trim listings)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+      }
+    ],
+    "batteryWarranty": "Battery: 8 years / 100,000 miles (Toyota UK press kit; it mentions an extension linked to annual battery health checks in some markets, with no UK figure found). Vehicle: Toyota Relax, 3 years/60,000 miles plus a year/10,000 miles each time it's serviced at a Toyota dealer, up to 10 years / 100,000 miles. It's service-activated, so a used van can get it back with a Toyota service. Toyota Battery Care (the 10-year battery extension on Toyota cars) explicitly excludes Proace (UK terms, Feb 2026). The '15 years / 1 million km' battery claim from 2020 press coverage was not a UK offer.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive / 'Electric traction system fault' warnings",
+        "detail": "The 2022-23 builds had recalls for traction battery control software (battery shuts drive down to protect itself) and a separate AC compressor wiring fault that could shut the powertrain down. Owner reports on SpeakEV also describe intermittent traction faults traced to battery temperature sensor readings, and a fleet with 2024 vans reporting charge sessions stopping and drive cutting out (owner reports, unverified). Check for stored fault codes and confirm recall software is done.",
+        "source": "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning is documented, so DC rates fall when the pack is cold (a third-party troubleshooting guide cites below about 10-15C). Real average 10-80% on the 75kWh is about 77kW even in good conditions (EV Database). Plan on 45+ min stops in winter.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration could misread cell voltage/temperature and cut drive (loss of propulsion). Fix: software update. Stellantis/Toyota campaign announced March 2023 for 2022 builds; Toyota later issued CI25-007 for Proace BEV built 11 Jul 2022-21 Feb 2023.",
+        "years": "2022-early 2023 builds",
+        "source": "https://car-recalls.eu/recall/toyota-proace-2022-2023-bev-electronic-injury/"
+      },
+      {
+        "issue": "Charging cable temperature sensor calibration could let the supplied charging cable overheat (Toyota CI23-018).",
+        "years": "2023 builds (Proace and Proace City)",
+        "source": "https://car-recalls.eu/recall/toyota-proace-2023-charging-cable"
+      }
+    ],
+    "usedPrices": "Not enough Proace Electric listings found to give a range. Expect it to track the Vivaro-e/e-Dispatch: about £9,000-£11,000 + VAT for 2021 50kWh and £11,000-£16,000 + VAT for 75kWh. A small Toyota premium is possible because of Relax. Unconfirmed.",
+    "bestBuy": "A 2021-23 75kWh van with Toyota dealer service history, so Relax is still active or can be reactivated.",
+    "avoid": "50kWh for long routes. Vans serviced outside the Toyota network, unless you plan to put them back into it.",
+    "checks": [
+      "Confirm battery size from the V5C/VIN or the dealer system, not the badge: there's no outside badge for 50 vs 75kWh, and adverts may say 49, 50 or 75kWh.",
+      "Check whether it has the optional 11kW three-phase onboard charger (advert/spec shows '11kW Charger' or '[11kWCh]'). Only matters if you have three-phase at the depot.",
+      "Run the VIN on the DVSA checker and ask a franchised dealer to confirm the 2023 traction-battery software and AC-compressor recall work is done (2020-22 builds especially).",
+      "Ask for a dealer battery health/state-of-health printout. Warranty cover is to 70% capacity, so you want the figure in writing.",
+      "Get a Toyota dealer to confirm the Relax status on the VIN and book the next service there. It's the cheapest way to get up to 10 years' vehicle cover."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1346/Vauxhall-Vivaro-e-Life-M-50-kWh",
+      "https://ev-database.org/car/1603/Opel-Vivaro-e-Combi-L-75-kWh",
+      "https://greencarscompare.com/cars/vivaro-e/opel-vivaro-e-combi-m-75-kwh/",
+      "https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.sustainableconstruction-now.com/article/554079/in-the-uk-nearly-new-electric-vans-hit-17750-at-auction-then-still-didnt-sell",
+      "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/220407M-Proace-Electric-Press-Kit.pdf",
+      "https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf",
+      "https://drivingelectric.com/toyota/proace/40575/toyota-proace-electric-van-review",
+      "https://www.caranddriving.com/editorial-library-review.aspx?id=12796",
+      "https://car-recalls.eu/recall/toyota-proace-2022-2023-bev-electronic-injury/",
+      "https://insideevs.com/news/425503/toyota-proace-electric-15-year-battery-warranty/"
+    ],
+    "confidence": "medium. Warranty structure is solid. Used prices (no listings found) and facelift range figures (205 vs 213) are least certain."
+  },
+  {
+    "slug": "fiat-scudo",
+    "name": "Fiat E-Scudo",
+    "usedNames": [
+      "E-Scudo",
+      "e-Ulysse (passenger)"
+    ],
+    "summary": "Fiat Professional's version of the Stellantis electric mid-size van, on sale from December 2021. It's rarer than the Vivaro or e-Dispatch, so there's less choice, but it's mechanically identical and can be cheaper.",
+    "generations": [
+      {
+        "years": "2021-2024",
+        "label": "E-Scudo (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / about 46 usable",
+            "wltpMiles": "about 141-143 (varies by body length)",
+            "realWorldMiles": "about 110 (EV Database estimates roughly 80-170 depending on temperature/road)",
+            "notes": "Usable figure from EV Database (46.3kWh on the passenger Vivaro-e Life, same pack). Late-run vans are sometimes listed as '49kWh'."
+          },
+          {
+            "kWh": "75 (gross) / about 68 usable",
+            "wltpMiles": "about 205 (some later listings quote up to 211)",
+            "realWorldMiles": "about 150-160 (EV Database: 160 miles for Vivaro-e Life XL 75)",
+            "notes": "Usable ~68kWh per GreenCarsCompare; owner forum puts it 'around 65'. EV Database average 10-80% DC rate ~77kW."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm front motor on both batteries. DC 0-80%: about 32 min (50kWh), about 45 min (75kWh) at a 100kW charger. AC: 7.4kW single-phase standard; 11kW three-phase onboard charger optional (shown in adverts as '(11kW Charger)' or '[11kWCh]'; only helps on a three-phase supply). No battery preconditioning for rapid charging is documented, so winter DC speeds drop."
+      },
+      {
+        "years": "2024-",
+        "label": "E-Scudo (2024 update)",
+        "batteries": [
+          {
+            "kWh": "75 (gross)",
+            "wltpMiles": "about 205-219 (sources conflict)",
+            "realWorldMiles": "not confirmed",
+            "notes": ""
+          },
+          {
+            "kWh": "50 (gross; some listings say 49)",
+            "wltpMiles": "about 137-142",
+            "realWorldMiles": "about 110",
+            "notes": "50kWh still appears in 2024-era E-Scudo listings; not confirmed as a UK panel-van option."
+          }
+        ],
+        "acKw": "7.4 (11 optional, per UK trim listings)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift (new nose, updated cab tech). Same 136PS/260Nm motor quoted; improved battery tech/cooling gives the higher WLTP range. DC 5-80% about 45 min at 100kW. We found no source for a new motor on the medium vans."
+      }
+    ],
+    "batteryWarranty": "8 years on the battery (UK leasing listing; one dealer listing says 8 years / 100,000 miles). Mileage cap and 70% threshold not confirmed from a Fiat source. RAC noted Fiat didn't match Toyota's up-to-10-year cover. Confirm with Fiat Professional.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive / 'Electric traction system fault' warnings",
+        "detail": "The 2022-23 builds had recalls for traction battery control software (battery shuts drive down to protect itself) and a separate AC compressor wiring fault that could shut the powertrain down. Owner reports on SpeakEV also describe intermittent traction faults traced to battery temperature sensor readings, and a fleet with 2024 vans reporting charge sessions stopping and drive cutting out (owner reports, unverified). Check for stored fault codes and confirm recall software is done.",
+        "source": "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning is documented, so DC rates fall when the pack is cold (a third-party troubleshooting guide cites below about 10-15C). Real average 10-80% on the 75kWh is about 77kW even in good conditions (EV Database). Plan on 45+ min stops in winter.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration could misread cell voltage/temperature and cut drive (loss of propulsion). Fix: software update. Stellantis/Toyota campaign announced March 2023 for 2022 builds; Toyota later issued CI25-007 for Proace BEV built 11 Jul 2022-21 Feb 2023. E-Scudo inclusion not confirmed.",
+        "years": "2022-early 2023 builds",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      }
+    ],
+    "usedPrices": "Few listings found. Expect slightly below Vivaro-e/e-Dispatch money for the same age and battery (about £9,000-£15,000 + VAT for 2022-23 vans). Unconfirmed.",
+    "bestBuy": "A 2022-23 75kWh van with Fiat Professional dealer history.",
+    "avoid": "50kWh for long routes. Remote locations without a Fiat Professional dealer, as there are fewer of them than Vauxhall/Peugeot/Citroën outlets.",
+    "checks": [
+      "Confirm battery size from the V5C/VIN or the dealer system, not the badge: there's no outside badge for 50 vs 75kWh, and adverts may say 49, 50 or 75kWh.",
+      "Check whether it has the optional 11kW three-phase onboard charger (advert/spec shows '11kW Charger' or '[11kWCh]'). Only matters if you have three-phase at the depot.",
+      "Run the VIN on the DVSA checker and ask a franchised dealer to confirm the 2023 traction-battery software and AC-compressor recall work is done (2020-22 builds especially).",
+      "Ask for a dealer battery health/state-of-health printout. Warranty cover is to 70% capacity, so you want the figure in writing.",
+      "Find your nearest Fiat Professional dealer before buying: that network is smaller than its siblings' for warranty and recall work."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1346/Vauxhall-Vivaro-e-Life-M-50-kWh",
+      "https://ev-database.org/car/1603/Opel-Vivaro-e-Combi-L-75-kWh",
+      "https://greencarscompare.com/cars/vivaro-e/opel-vivaro-e-combi-m-75-kwh/",
+      "https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/vivaro-electric-traction-fault.190936/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.sustainableconstruction-now.com/article/554079/in-the-uk-nearly-new-electric-vans-hit-17750-at-auction-then-still-didnt-sell",
+      "https://www.rac.co.uk/drive/car-reviews/fiat/e-scudo/e-scudo",
+      "https://www.drivingelectric.com/fiat/scudo/40987/new-fiat-e-scudo-electric-van-prices-specs-and-details",
+      "https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates",
+      "https://www.arnoldclarkleasing.com/fiat-van-lease-deals/business/scudo/other-e-l2-100kw-49kwh-van-auto",
+      "https://www.exchangeandmart.co.uk/reviews/fiat/e-scudo/2022/214542"
+    ],
+    "confidence": "low-medium. Platform specs solid; Fiat warranty mileage, 2024 range figures and used prices are all thinly sourced."
+  },
+  {
+    "slug": "vauxhall-combo",
+    "name": "Vauxhall Combo Electric",
+    "usedNames": [
+      "Combo-e",
+      "Combo-e Life (passenger)"
+    ],
+    "summary": "Vauxhall's electric small van, plentiful as 2021-22 ex-fleet stock and now cheap. It suits urban and local delivery and trades work where daily mileage stays under about 100 miles.",
+    "generations": [
+      {
+        "years": "2021-2024",
+        "label": "Combo-e (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / 46.3 usable",
+            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "realWorldMiles": "about 125-130 (EV Database)",
+            "notes": "Usable figure from EV Database (ë-Berlingo)."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+      },
+      {
+        "years": "2024-",
+        "label": "Combo Electric (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "52 (gross) / 50 usable",
+            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "realWorldMiles": "about 145 (EV Database)",
+            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles on the battery, to 70% capacity (the Vauxhall EV battery terms quoted for its vans; we found no Combo-specific confirmation). Transfer isn't stated; the cover runs from first registration.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive from battery-management software (recall)",
+        "detail": "2022-built vans could cut drive if the battery controller misread cell voltage/temperature. Make sure the software update has been done. Ask if the van ever showed a traction/battery fault message.",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning or heat pump on pre-2024 vans (third-party guide). DC speed is limited when the pack is cold, so winter top-ups take noticeably longer than the 30-minute claim.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign.",
+        "years": "2022 builds",
+        "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/COMBO-ELECTRIC"
+      },
+      {
+        "issue": "Powertrain shutdown while driving (AC compressor wiring). A Vauxhall Combo-e listing dated 8 May 2023 appears on third-party trackers; it matches Peugeot's R/2023/140. Check VIN.",
+        "years": "approx 2021-2022 builds",
+        "source": "https://car-recalls.eu/common-problems/opel/combo/"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/AA): 2022 Combo-e about £7,000-£11,000 + VAT depending on mileage (high-mileage examples under £7,000 + VAT). Some dealer retail listings up to about £14,700. Asking prices only.",
+    "bestBuy": "A 2022 Combo-e with the battery software recall done, or a 2024-on Combo Electric for the extra roughly 15-20 real miles.",
+    "avoid": "High-mileage 2021-22 vans with no dealer history or recall evidence.",
+    "checks": [
+      "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
+      "Look for the optional 11kW three-phase onboard charger in the spec/advert ('11kW' / '[11kWCh]'); 7.4kW is standard.",
+      "Run the VIN on the DVSA recall checker and get a dealer to confirm the January 2023 battery-controller software update (2022 builds).",
+      "Ask for a battery state-of-health report from a franchised dealer. Warranty cover is to 70% capacity.",
+      "Check whether it is an L1 or L2 body and its payload on the plate. Combo-e was sold in both lengths, and some 2022 trims (Sportive/Dynamic/Elite) had different charger specs."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+      "https://ev-database.org/uk/car/2159/Citroen-e-Berlingo-M-50-kWh",
+      "https://greencarscompare.com/cars/citroen-e-berlingo-m-50-kwh-2024/",
+      "https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
+      "https://www.autotrader.co.uk/vans/used-vans/vauxhall/combo-electric/2022",
+      "https://www.theaa.com/used-vans/cardetailsforprint/182599056",
+      "https://www.autoexpress.co.uk/vauxhall/combo/361463/new-2024-vauxhall-combo-facelift-gets-sleek-vizor-treatment",
+      "https://ev-database.org/car/2161/Opel-Combo-Electric-50-kWh"
+    ],
+    "confidence": "medium. Platform specs and the 2023 battery recall are solid; Combo-specific battery warranty wording and the AC-compressor recall for Vauxhall are least certain."
+  },
+  {
+    "slug": "peugeot-partner",
+    "name": "Peugeot E-Partner",
+    "usedNames": [
+      "e-Partner",
+      "e-Rifter (passenger)"
+    ],
+    "summary": "Peugeot's electric small van, sold from 2021. It's the Combo-e/ë-Berlingo twin. A good-value used urban van; the 2024-on facelift adds range and a heat pump.",
+    "generations": [
+      {
+        "years": "2021-2024",
+        "label": "e-Partner (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / 46.3 usable",
+            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "realWorldMiles": "about 125-130 (EV Database)",
+            "notes": "Usable figure from EV Database (ë-Berlingo)."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+      },
+      {
+        "years": "2024-",
+        "label": "E-Partner (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "52 (gross) / 50 usable",
+            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "realWorldMiles": "about 145 (EV Database)",
+            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles on the battery (Peugeot). Peugeot Allure Care / Peugeot Care (service-activated cover up to 8 years / 100,000 miles) is confirmed for the E-Rifter but not clearly for the E-Partner panel van. Check with a Peugeot dealer.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive from battery-management software (recall)",
+        "detail": "2022-built vans could cut drive if the battery controller misread cell voltage/temperature. Make sure the software update has been done. Ask if the van ever showed a traction/battery fault message.",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning or heat pump on pre-2024 vans (third-party guide). DC speed is limited when the pack is cold, so winter top-ups take noticeably longer than the 30-minute claim.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign.",
+        "years": "2022 builds",
+        "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/COMBO-ELECTRIC"
+      },
+      {
+        "issue": "AC compressor stator wiring can leak current and shut the powertrain down while driving; fix is ECU software reprogramming. Peugeot UK ref R/2023/140 (May 2023, 29,537 Peugeot EVs incl. e-Expert, e-Partner). A Vauxhall Vivaro-e/Combo-e 'powertrain shutdown' recall dated 8 May 2023 is listed by third-party trackers. Citroën/Toyota/Fiat equivalents not confirmed.",
+        "years": "e-Partner builds approx 23/03/2021-16/11/2022 (third-party source; check VIN)",
+        "source": "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/"
+      }
+    ],
+    "usedPrices": "Few E-Partner-specific listings found. Expect Combo-e/ë-Berlingo money: about £7,000-£11,000 + VAT for 2021-22, more for 2024-on facelifts. Approximate.",
+    "bestBuy": "2022 e-Partner with both recalls done, or a 2024-on E-Partner (205-mile WLTP, heat pump).",
+    "avoid": "Any van with outstanding R/2023/140 or battery software recalls.",
+    "checks": [
+      "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
+      "Look for the optional 11kW three-phase onboard charger in the spec/advert ('11kW' / '[11kWCh]'); 7.4kW is standard.",
+      "Run the VIN on the DVSA recall checker and get a dealer to confirm the January 2023 battery-controller software update (2022 builds).",
+      "Ask for a battery state-of-health report from a franchised dealer. Warranty cover is to 70% capacity.",
+      "Ask whether the van qualifies for Peugeot Care on its registration date. If it does, a Peugeot dealer service activates extra cover."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+      "https://ev-database.org/uk/car/2159/Citroen-e-Berlingo-M-50-kWh",
+      "https://greencarscompare.com/cars/citroen-e-berlingo-m-50-kwh-2024/",
+      "https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
+      "https://vanreviewer.co.uk/peugeot/e-partner/review/3990",
+      "https://vans.honestjohn.co.uk/peugeot/e-partner/2022/",
+      "https://www.propeugeotspares.co.za/blog/peugeot-ac-compressor-recall-r2023-140/",
+      "https://www.motorpoint.co.uk/guides/what-is-peugeot-allure-care"
+    ],
+    "confidence": "medium. Specs and recalls fairly solid; used prices for this badge and Peugeot Care eligibility are uncertain."
+  },
+  {
+    "slug": "citroen-berlingo",
+    "name": "Citroën ë-Berlingo",
+    "usedNames": [
+      "e-Berlingo",
+      "E-Berlingo",
+      "ë-Berlingo MPV (passenger)"
+    ],
+    "summary": "Citroën's electric small van, launched in the UK in early 2022 (the MPV came first, in late 2021). Same hardware as the Combo-e and E-Partner. A sensible used choice for local work and multi-drop routes.",
+    "generations": [
+      {
+        "years": "2021/22-2024",
+        "label": "ë-Berlingo (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / 46.3 usable",
+            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "realWorldMiles": "about 125-130 (EV Database)",
+            "notes": "Usable figure from EV Database (ë-Berlingo)."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+      },
+      {
+        "years": "2024-",
+        "label": "ë-Berlingo (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "52 (gross) / 50 usable",
+            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "realWorldMiles": "about 145 (EV Database)",
+            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+      }
+    ],
+    "batteryWarranty": "8 years / 100,000 miles to 70% capacity (Citroën's EV battery terms, as stated for ë-Dispatch; we found no Berlingo-specific confirmation). Transfer isn't stated; cover runs from first registration.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive from battery-management software (recall)",
+        "detail": "2022-built vans could cut drive if the battery controller misread cell voltage/temperature. Make sure the software update has been done. Ask if the van ever showed a traction/battery fault message.",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning or heat pump on pre-2024 vans (third-party guide). DC speed is limited when the pack is cold, so winter top-ups take noticeably longer than the 30-minute claim.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign.",
+        "years": "2022 builds",
+        "source": "https://www.vehicle-recall.co.uk/make/CITROEN/BERLINGO-ELECTRIC"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (autumn 2026, Autotrader): 2022-25 ë-Berlingo vans about £10,000-£17,000 + VAT. Older/high-mileage 2022 vans are at the bottom of that range, and 2024-on facelifts at the top. Asking prices only.",
+    "bestBuy": "2024-on ë-Berlingo for about 145 real miles, or a well-documented 2022-23 van at a lower price.",
+    "avoid": "Vans whose battery software recall (R/2023/010) is not evidenced.",
+    "checks": [
+      "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
+      "Look for the optional 11kW three-phase onboard charger in the spec/advert ('11kW' / '[11kWCh]'); 7.4kW is standard.",
+      "Run the VIN on the DVSA recall checker and get a dealer to confirm the January 2023 battery-controller software update (2022 builds).",
+      "Ask for a battery state-of-health report from a franchised dealer. Warranty cover is to 70% capacity.",
+      "Ask for the battery capacity certificates from Citroën servicing, which help any warranty claim."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+      "https://ev-database.org/uk/car/2159/Citroen-e-Berlingo-M-50-kWh",
+      "https://greencarscompare.com/cars/citroen-e-berlingo-m-50-kwh-2024/",
+      "https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
+      "https://parkers.co.uk/vans-pickups/citroen/berlingo/2021-e-berlingo-review",
+      "https://www.autotrader.co.uk/vans/used-vans/citroen/e-berlingo",
+      "https://www.vehicle-recall.co.uk/make/CITROEN/BERLINGO-ELECTRIC",
+      "https://www.berlingoforum.com/thread-23891.html"
+    ],
+    "confidence": "medium. Battery figures (EV Database) are solid; the warranty and price range are broader estimates."
+  },
+  {
+    "slug": "toyota-proace-city",
+    "name": "Toyota Proace City Electric",
+    "usedNames": [
+      "Proace City Electric",
+      "Proace City Verso Electric (passenger)"
+    ],
+    "summary": "Toyota's version of the Stellantis electric small van, built alongside the Berlingo. It's the same van with Toyota's service-activated Relax warranty, which makes it an appealing used buy if you can service it at a Toyota dealer.",
+    "generations": [
+      {
+        "years": "2021/22-2024",
+        "label": "Proace City Electric (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / 46.3 usable",
+            "wltpMiles": "up to 171-174 (E-Doblo quoted 173-175)",
+            "realWorldMiles": "about 125-130 (EV Database)",
+            "notes": "Usable figure from EV Database (ë-Berlingo)."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+      },
+      {
+        "years": "2024-",
+        "label": "Proace City Electric (2024 facelift)",
+        "batteries": [
+          {
+            "kWh": "52 (gross) / 50 usable",
+            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "realWorldMiles": "about 145 (EV Database)",
+            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+      }
+    ],
+    "batteryWarranty": "Battery: 8 years / 100,000 miles (Toyota 2022 release); some dealer listings say 5 years / 100,000 miles, so confirm on the VIN. Vehicle: Toyota Relax, 3 years/60,000 miles plus a year/10,000 miles each Toyota-dealer service, up to 10 years / 100,000 miles. Toyota Battery Care's UK terms exclude 'Proace' vehicles; whether that wording covers Proace City isn't confirmed, so treat it as excluded.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive from battery-management software (recall)",
+        "detail": "2022-built vans could cut drive if the battery controller misread cell voltage/temperature. Make sure the software update has been done. Ask if the van ever showed a traction/battery fault message.",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning or heat pump on pre-2024 vans (third-party guide). DC speed is limited when the pack is cold, so winter top-ups take noticeably longer than the 30-minute claim.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign.",
+        "years": "2022 builds",
+        "source": "https://car-recalls.eu/recall/toyota-proace-city-2022-2023-bev-electronic-injury/"
+      },
+      {
+        "issue": "Charging cable temperature sensor calibration could let the supplied charging cable overheat (Toyota CI23-018).",
+        "years": "2023 builds",
+        "source": "https://car-recalls.eu/recall/toyota-proace-2023-charging-cable"
+      }
+    ],
+    "usedPrices": "Approximate UK asking prices (ex-VAT, autumn 2026, Autotrader/Parkers/PistonHeads): 2022 50kWh Icon about £7,800-£10,800 + VAT depending on mileage. Asking prices only.",
+    "bestBuy": "A 2022-23 van with Toyota dealer history, so Relax is still live. A 2024-on facelift if you need more range.",
+    "avoid": "Vans serviced outside the Toyota network, unless you plan to return them to it (Relax restarts on a Toyota service within its limits).",
+    "checks": [
+      "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
+      "Look for the optional 11kW three-phase onboard charger in the spec/advert ('11kW' / '[11kWCh]'); 7.4kW is standard.",
+      "Run the VIN on the DVSA recall checker and get a dealer to confirm the January 2023 battery-controller software update (2022 builds).",
+      "Ask for a battery state-of-health report from a franchised dealer. Warranty cover is to 70% capacity.",
+      "Ask a Toyota dealer to confirm Relax status, the actual battery warranty term on the VIN (8 vs 5 years), and that the 2023 charging-cable recall is done if the original cable is supplied."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+      "https://ev-database.org/uk/car/2159/Citroen-e-Berlingo-M-50-kWh",
+      "https://greencarscompare.com/cars/citroen-e-berlingo-m-50-kwh-2024/",
+      "https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
+      "https://media.toyota.co.uk/?p=51747",
+      "https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf",
+      "https://trade.autotrader.co.uk/vans/used-vans/toyota/proace-city/2022",
+      "https://www.parkers.co.uk/vans-pickups/toyota/proace-city/electric-2021/50kwh-(134ps)-l1-icon-van-auto/for-sale/usedvfs-78815775/",
+      "https://car-recalls.eu/recall/toyota-proace-city-2022-2023-bev-electronic-injury/"
+    ],
+    "confidence": "medium. Relax structure is solid; the battery warranty term (8 vs 5 years in different listings) is the least certain."
+  },
+  {
+    "slug": "fiat-doblo",
+    "name": "Fiat E-Doblo",
+    "usedNames": [
+      "E-Doblò",
+      "E-Doblo"
+    ],
+    "summary": "Fiat Professional's version of the Stellantis electric small van, sold from autumn 2022. It's the newest and rarest of the group, so used examples are few but young.",
+    "generations": [
+      {
+        "years": "2022-2024",
+        "label": "E-Doblo (first version)",
+        "batteries": [
+          {
+            "kWh": "50 (gross) / 46.3 usable",
+            "wltpMiles": "173-175",
+            "realWorldMiles": "about 125-130",
+            "notes": "Same pack as ë-Berlingo; Fiat quoted slightly higher WLTP at launch."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "100kW (136PS), 260Nm motor. DC 0-80% about 30 min at 100kW. AC 7.4kW standard in the UK (Toyota calls it '7kW OBC'); 11kW three-phase optional. No battery preconditioning; cold weather cuts rapid-charge speed."
+      },
+      {
+        "years": "2024-",
+        "label": "E-Doblo (2024 update)",
+        "batteries": [
+          {
+            "kWh": "52 (gross) / 50 usable",
+            "wltpMiles": "up to 205 (Toyota quotes up to 213 on City Verso)",
+            "realWorldMiles": "about 145 (EV Database)",
+            "notes": "Badged inconsistently in UK adverts as 50kWh, 52kWh or even 54kWh; it's the same revised pack."
+          }
+        ],
+        "acKw": "7.4 (11 optional)",
+        "dcKw": "100",
+        "connector": "CCS (Type 2 for AC)",
+        "notes": "Facelift: revised battery, 136hp motor quoted at 270Nm (Peugeot/Auto Express), heat pump (Peugeot states it for E-Partner). DC 100kW, 0-80% under 30 min. 11kW AC still listed as an option."
+      }
+    ],
+    "batteryWarranty": "Not confirmed from a Fiat UK source. Siblings carry 8 years / 100,000 miles on the battery, and E-Scudo listings show 8 years. Confirm with Fiat Professional.",
+    "knownIssues": [
+      {
+        "issue": "Loss of drive from battery-management software (recall)",
+        "detail": "2022-built vans could cut drive if the battery controller misread cell voltage/temperature. Make sure the software update has been done. Ask if the van ever showed a traction/battery fault message.",
+        "source": "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+      },
+      {
+        "issue": "Flat 12V battery after standing (owner reports)",
+        "detail": "Owners report Stellantis vans that won't start after standing (one 75kWh Vivaro after about six months), and 12V batteries not fully charged leading to recurring faults. Ex-fleet vans that sat in compounds are most at risk. Test or replace the 12V battery.",
+        "source": "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/"
+      },
+      {
+        "issue": "Slow rapid charging in cold weather",
+        "detail": "No battery preconditioning or heat pump on pre-2024 vans (third-party guide). DC speed is limited when the pack is cold, so winter top-ups take noticeably longer than the 30-minute claim.",
+        "source": "https://www.evcourse.com/troubleshooting/citroen-e-berlingo"
+      }
+    ],
+    "recalls": [
+      {
+        "issue": "Traction battery control unit software calibration error could cause loss of propulsion while driving; fix is a software update. UK refs include R/2023/008 (Vauxhall Combo Electric, 17 Jan 2023) and R/2023/010 (Citroën Berlingo Electric, Jan 2023). Electrive lists e-Partner and Proace City Electric in the same 2022-build campaign. E-Doblo inclusion not confirmed.",
+        "years": "2022 builds",
+        "source": "https://www.vehicle-recall.co.uk/make/VAUXHALL/COMBO-ELECTRIC"
+      }
+    ],
+    "usedPrices": "Thin data (autumn 2026): AutoUncle shows E-Doblos at about £11,800-£18,000, and Autotrader 2023 examples at about £10,250 (no VAT) to £17,000 + VAT. Approximate.",
+    "bestBuy": "A low-mileage 2023-24 van, often cheaper than an equivalent Berlingo/Partner badge. Check it's a 2024-on update if you want the 205-mile WLTP version.",
+    "avoid": "Locations far from a Fiat Professional dealer.",
+    "checks": [
+      "Pre- vs post-2024 matters more than badge: the facelift's revised pack gives about 145 real miles vs about 125-130. Check first-registration date and spec, not just the plate (2024-registered vans may be the old model).",
+      "Look for the optional 11kW three-phase onboard charger in the spec/advert ('11kW' / '[11kWCh]'); 7.4kW is standard.",
+      "Run the VIN on the DVSA recall checker and get a dealer to confirm the January 2023 battery-controller software update (2022 builds).",
+      "Ask for a battery state-of-health report from a franchised dealer. Warranty cover is to 70% capacity.",
+      "Check the nearest Fiat Professional dealer for warranty and recall work, as that network is smaller than its siblings'."
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+      "https://ev-database.org/uk/car/2159/Citroen-e-Berlingo-M-50-kWh",
+      "https://greencarscompare.com/cars/citroen-e-berlingo-m-50-kwh-2024/",
+      "https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once",
+      "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+      "https://www.speakev.com/threads/stellantis-van-flat-12v-advice.178820/",
+      "https://www.evcourse.com/troubleshooting/citroen-e-berlingo",
+      "https://www.electrifying.com/blog/article/fiat-expands-electric-van-range-with-new-e-doblo",
+      "https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates",
+      "https://evpowered.co.uk/electric-car-reviews/fiat-e-doblo-review/",
+      "https://www.autouncle.co.uk/en-gb/used-cars/Fiat/e-Dobl%C3%B2",
+      "https://trade.autotrader.co.uk/vans/used-vans/fiat/e-doblo"
+    ],
+    "confidence": "low-medium. Specs follow the shared platform; the battery warranty, recall inclusion and prices are thin."
+  }
+]

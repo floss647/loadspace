@@ -247,7 +247,7 @@ const EV_NAMES = {
   'ford-transit': 'Ford E-Transit',
   'mercedes-benz-sprinter': 'Mercedes-Benz eSprinter',
   'renault-master': 'Renault Master E-Tech',
-  'nissan-interstar': 'Nissan Interstar (electric)',
+  'nissan-interstar': 'Nissan Interstar-e',
   'vauxhall-movano': 'Vauxhall Movano Electric',
   'citroen-relay': 'Citroën ë-Relay',
   'peugeot-boxer': 'Peugeot E-Boxer',
