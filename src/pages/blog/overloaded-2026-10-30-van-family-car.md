@@ -3,6 +3,9 @@ layout: ../../layouts/BlogPost.astro
 title: "The Chancellor discovers the van, and the tarmac reaches Singapore"
 date: 2026-10-30T08:00:00Z
 summary: "A Budget that finally noticed the van, a taskforce for something called tariff porting, enough new tarmac to reach Singapore, and the annual miracle of the Christmas hire van. Welcome to Overloaded."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://www.gov.uk/government/speeches/budget-2026-speech
   - https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future
