@@ -180,6 +180,16 @@
   "title": "File:2021 LEVC VN5 City.jpg",
   "note": ""
  },
+ "magtec-mev75": {
+  "file": "/images/vehicles/magtec-mev75.jpg",
+  "page": "",
+  "author": "Magtec",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Magtec MEV75 electric truck, Magtec image",
+  "note": "",
+  "source": "Magtec"
+ },
  "man-etgx-etgs": {
   "file": "/images/vehicles/man-etgx-etgs.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:MAN_eTGX_20.544_4x2_LLS-U_EB_IAA_Transportation_2024_(DSC04570).jpg",
@@ -271,6 +281,16 @@
   "title": "File:Nissan e-NV200 VAN GX (ZAB-VME0) front.JPG",
   "note": ""
  },
+ "nissan-interstar": {
+  "file": "/images/vehicles/nissan-interstar.jpg",
+  "page": "",
+  "author": "Nissan",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Nissan Interstar panel van, Nissan press image",
+  "note": "",
+  "source": "Nissan media"
+ },
  "nissan-townstar": {
   "file": "/images/vehicles/nissan-townstar.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Nissan_Townstar_Automesse_Ludwigsburg_2022_1X7A5881.jpg",
@@ -279,6 +299,16 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:Nissan Townstar Automesse Ludwigsburg 2022 1X7A5881.jpg",
   "note": ""
+ },
+ "peugeot-boxer": {
+  "file": "/images/vehicles/peugeot-boxer.jpg",
+  "page": "",
+  "author": "Peugeot UK",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Peugeot E-Boxer panel van, Peugeot UK press image",
+  "note": "",
+  "source": "Stellantis Media"
  },
  "peugeot-expert": {
   "file": "/images/vehicles/peugeot-expert.jpg",
@@ -343,6 +373,16 @@
   "title": "File:Scania BEV 40 R IAA Transportation 2024 (DSC04552).jpg",
   "note": ""
  },
+ "toyota-hilux": {
+  "file": "/images/vehicles/toyota-hilux.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Hilux electric pickup, Toyota GB press image",
+  "note": "",
+  "source": "Toyota GB media"
+ },
  "toyota-proace-city": {
   "file": "/images/vehicles/toyota-proace-city.jpg",
   "page": "",
@@ -361,6 +401,16 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:2018 Opel Combo Cargo XL 4.75m.jpg",
   "note": "Opel version shown; sold as the Vauxhall Combo in the UK."
+ },
+ "vauxhall-movano": {
+  "file": "/images/vehicles/vauxhall-movano.jpg",
+  "page": "",
+  "author": "Vauxhall",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Vauxhall Movano Electric panel van, Vauxhall press image",
+  "note": "",
+  "source": "Stellantis Media"
  },
  "vauxhall-vivaro": {
   "file": "/images/vehicles/vauxhall-vivaro.jpg",
