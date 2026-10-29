@@ -49,6 +49,9 @@ facts:
   - claim: "a \"skateboard\" platform developed specifically for electric power"
     source: https://www.renault-trucks.com/en/newsroom/press-releases/new-renault-trucks-etech-trafic
     quote: "is based on a “skateboard” platform, developed specifically for an electric powertrain"
+  - claim: "Renault Trucks, which will sell its own version of the van"
+    source: https://www.renault-trucks.com/en/newsroom/press-releases/new-renault-trucks-etech-trafic
+    quote: "The Renault Trucks E-Tech Trafic will go on sale in Europe in the first half of 2027."
   - claim: "motor sits at the back"
     source: https://www.renault-trucks.com/en/newsroom/press-releases/new-renault-trucks-etech-trafic
     quote: "the electric motor is positioned at the rear"
