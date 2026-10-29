@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Make an image for every news post.
+Make an image for every news post and every Overloaded blog column.
 
-For each Markdown post in src/pages/news/:
+For each Markdown post in src/pages/news/ and src/pages/blog/:
   - if it sets `photo: <vehicle-slug>` and we have that licensed vehicle photo, use it;
   - otherwise draw a branded image from `stat` + `statLabel` (or the title if there's no stat).
 
-Writes public/images/news/<post>.jpg (1600x900) and public/images/news/card/<post>.jpg (800x450),
-and src/data/news-images.json with the image path and any photo credit.
+Writes public/images/<section>/<post>.jpg (1600x900) and a card/ copy (800x450),
+and src/data/<section>-images.json with the image path and any photo credit.
 
 Run after adding or editing a post:  python3 scripts/news_images.py
 """
@@ -16,8 +16,10 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
-POSTS = ROOT / 'src/pages/news'
-OUT = ROOT / 'public/images/news'
+SECTIONS = [  # (posts folder, image folder, data file, branded style)
+    ('news', 'news'),
+    ('blog', 'column'),
+]
 FONTS = ROOT / 'scripts/fonts'
 PHOTOS = json.loads((ROOT / 'src/data/images.json').read_text())
 
@@ -55,6 +57,25 @@ def fit_lines(draw, text, fnt, max_w, max_lines):
         lines = lines[:max_lines]
         lines[-1] = lines[-1].rstrip('.,') + '…'
     return lines
+
+
+def column_card(fm):
+    """Branded image for the Overloaded column: amber, with the column name and headline."""
+    im = Image.new('RGB', (W, H), AMBER)
+    d = ImageDraw.Draw(im)
+    d.polygon([(W * 0.66, 0), (W, 0), (W, H), (W * 0.5, H)], fill='#e0a800')
+    sil = [(1180, 690), (1180, 520), (1420, 520), (1500, 590), (1560, 590), (1560, 690)]
+    d.polygon(sil, fill='#cf9b00')
+    for cx in (1250, 1490):
+        d.ellipse([cx - 38, 652, cx + 38, 728], fill=NAVY)
+    d.rectangle([0, 0, 18, H], fill=NAVY)
+    d.text((90, 70), 'OVERLOADED', font=font('InterDisplay-Bold.otf', 64), fill=NAVY)
+    d.text((92, 150), 'The weekly van column from Loadspace', font=font('Inter-Medium.otf', 30), fill=NAVY)
+    hf = font('InterDisplay-Bold.otf', 82)
+    y = 270
+    for line in fit_lines(d, fm.get('title', ''), hf, 1080, 5):
+        d.text((90, y), line, font=hf, fill=NAVY); y += 98
+    return im
 
 
 def branded(fm):
@@ -99,6 +120,15 @@ def from_photo(slug):
 
 
 def main():
+    for section, style in SECTIONS:
+        make_section(section, style)
+
+
+def make_section(section, style):
+    POSTS = ROOT / 'src/pages' / section
+    OUT = ROOT / 'public/images' / section
+    if not POSTS.exists():
+        return
     (OUT / 'card').mkdir(parents=True, exist_ok=True)
     meta = {}
     for md in sorted(POSTS.glob('*.md')):
@@ -108,15 +138,15 @@ def main():
         if photo and photo in PHOTOS:
             im = from_photo(photo)
             p = PHOTOS[photo]
-            meta[slug] = {'image': f'/images/news/{slug}.jpg', 'credit': f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}", 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}
+            meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'credit': f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}", 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}
         else:
-            im = branded(fm)
-            meta[slug] = {'image': f'/images/news/{slug}.jpg', 'alt': fm.get('stat', '') + ' ' + fm.get('statLabel', fm.get('title', ''))}
+            im = column_card(fm) if style == 'column' else branded(fm)
+            meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'alt': fm.get('stat', '') + ' ' + fm.get('statLabel', fm.get('title', ''))}
         im.save(OUT / f'{slug}.jpg', quality=85, optimize=True, progressive=True)
         card = im.resize((800, 450), Image.LANCZOS).filter(ImageFilter.UnsharpMask(radius=1, percent=50, threshold=2))
         card.save(OUT / 'card' / f'{slug}.jpg', quality=86, optimize=True, progressive=True)
         print(slug, 'photo' if photo in PHOTOS else 'branded')
-    (ROOT / 'src/data/news-images.json').write_text(json.dumps(meta, indent=1, ensure_ascii=False))
+    (ROOT / f'src/data/{section}-images.json').write_text(json.dumps(meta, indent=1, ensure_ascii=False))
 
 
 if __name__ == '__main__':

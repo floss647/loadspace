@@ -22,8 +22,22 @@ function walk(dir) {
   }
 }
 DIRS.forEach((d) => walk(join(ROOT, d)));
+
+// Stock phrases that make writing read as machine-made. Checked in news stories and blog columns.
+const CLICHES = ['delve', 'in today\'s fast-paced', 'game-changer', 'game changer', "it's worth noting", 'navigate the landscape',
+  'a testament to', 'in the ever-evolving', 'buckle up', 'let\'s dive in', 'dive into', 'tapestry', 'unleash', 'elevate your',
+  'in conclusion', 'at the end of the day', 'a rich tapestry', 'seamless', 'revolutionise', 'revolutionize', 'landscape of'];
+for (const dir of ['src/pages/news', 'src/pages/blog']) {
+  const full = join(ROOT, dir);
+  let names = [];
+  try { names = readdirSync(full).filter((f) => f.endsWith('.md')); } catch { continue; }
+  for (const name of names) {
+    const body = readFileSync(join(full, name), 'utf8').split(/^---$/m).slice(2).join('---').toLowerCase();
+    for (const c of CLICHES) if (body.includes(c)) problems.push(`${dir}/${name}: stock phrase "${c}". Say it plainly instead.`);
+  }
+}
 if (problems.length) {
-  console.error('Style check failed. No em dashes anywhere on the site:\n' + problems.map((p) => '  - ' + p).join('\n'));
+  console.error('Style check failed:\n' + problems.map((p) => '  - ' + p).join('\n'));
   process.exit(1);
 }
-console.log('Style check passed (no em dashes).');
+console.log('Style check passed (no em dashes or stock phrases).');

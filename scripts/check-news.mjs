@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * News fact check. Runs before every build (npm "prebuild"), so a story that fails can't go live.
+ * News fact check. Checks news stories and blog columns. Runs before every build (npm "prebuild"), so a story that fails can't go live.
  *
  * Every news story must list its facts in the frontmatter:
  *
@@ -10,6 +10,8 @@
  *       quote: "copied word for word from the source page, including the number"
  *     - claim: "about £14,000 less"
  *       calc: "£43,630 - £29,421 = £14,209"     # worked from figures that are themselves sourced
+ *     - claim: "the size of Wales"
+ *       joke: "obvious exaggeration, not a real measurement"  # blog columns only; the checker must agree
  *   factCheck:
  *     by: "independent fact-checker"           # someone other than the writer
  *     date: 2026-10-29
@@ -35,7 +37,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const POSTS = join(ROOT, 'src/pages/news');
+const DIRS = ['src/pages/news', 'src/pages/blog'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
 const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'), 'utf8'));
 const LIVE = process.argv.includes('--live');
 const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
@@ -75,7 +77,7 @@ function storyText(fm, body) {
   return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, clean].filter(Boolean).join('\n');
 }
 
-function checkOffline(slug, fm, body) {
+function checkOffline(slug, fm, body, isBlog) {
   const errs = [];
   const facts = Array.isArray(fm.facts) ? fm.facts : [];
   if (!facts.length) errs.push('no facts: list. Every story needs its facts and sources listed.');
@@ -94,8 +96,9 @@ function checkOffline(slug, fm, body) {
     if (!f.claim) { errs.push(`${label}: missing claim`); return; }
     if (!ntext.includes(norm(f.claim))) errs.push(`${label}: claim text isn't in the story (story changed after checking?)`);
     nums(f.claim).forEach((n) => covered.add(n));
-    if (f.calc) {
-      if (f.source || f.quote) errs.push(`${label}: give either calc or source+quote, not both`);
+    if (f.calc || f.joke) {
+      if (f.source || f.quote) errs.push(`${label}: give either calc/joke or source+quote, not both`);
+      if (f.joke && !isBlog) errs.push(`${label}: joke facts are only allowed in blog columns, not news`);
       return;
     }
     if (!f.source || !f.quote) { errs.push(`${label}: needs source and quote (or calc)`); return; }
@@ -149,11 +152,13 @@ async function checkLive(slug, fm) {
 }
 
 let failed = 0;
-const files = readdirSync(POSTS).filter((f) => f.endsWith('.md')).filter((f) => !only.length || only.some((o) => f.includes(o)));
-for (const file of files) {
-  const slug = file.replace(/\.md$/, '');
-  const { fm, body } = parse(join(POSTS, file));
-  const errs = checkOffline(slug, fm, body);
+const files = DIRS.flatMap((d) => readdirSync(d).filter((f) => f.endsWith('.md')).map((f) => join(d, f)))
+  .filter((f) => !only.length || only.some((o) => f.includes(o)));
+for (const path of files) {
+  const slug = path.split('/').pop().replace(/\.md$/, '');
+  const isBlog = path.includes('/pages/blog/');
+  const { fm, body } = parse(path);
+  const errs = checkOffline(slug, fm, body, isBlog);
   if (LIVE) errs.push(...(await checkLive(slug, fm)));
   if (errs.length) {
     failed++;

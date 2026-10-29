@@ -162,3 +162,7 @@ input, select { width: 100%; margin-top: .3rem; font: inherit; padding: .55rem .
 .headlines .src { display: block; font-size: .8rem; color: var(--muted); }
 .home-news { display: grid; gap: 1.5rem; grid-template-columns: 2fr 1fr; align-items: start; }
 @media (max-width: 860px) { .home-news { grid-template-columns: 1fr; } }
+
+/* Overloaded column */
+.column-badge { display: inline-block; margin: 0 0 .6rem; padding: .15rem .7rem; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+.column .lede { font-style: italic; }
