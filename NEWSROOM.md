@@ -84,4 +84,10 @@ It should make a van driver laugh out loud on a tea break. Write it in our own v
 
 ### Images
 
-Use a licensed photo of a vehicle the column features if we have one (`photo:` plus `photoCaption:` for context). Otherwise the build makes the amber Overloaded card from the headline. Run `python3 scripts/news_images.py` after writing.
+**Every column has a real photo.** Pick the column's best story and find a freely licensed photo for it:
+1. Search Wikimedia Commons with `python3 scripts/find_photos.py <folder> "query" "another query"`. It only returns photos licensed CC BY, CC BY-SA, CC0 or public domain.
+2. Look at the candidates. Choose a sharp, landscape photo of the right subject, UK-plated or UK-set if possible. Avoid photos where an identifiable private person is the focus, and anything that would mislead about the story. Commons limits how fast we can download, so fetch thumbnails at standard sizes (330px or 1280px) and pause between requests.
+3. Add it with `python3 scripts/add_photo.py <slug> "File:Name.jpg" "what it shows"`. That checks the licence, downloads it and records the credit in `src/data/photos.json`. Photos already in `src/data/images.json` (vehicles) or `photos.json` can be reused.
+4. Set `photo: <slug>` and a short, accurate `photoCaption:`, then run `python3 scripts/news_images.py`. It adds the OVERLOADED badge and the credit line.
+
+Only if no suitable licensed photo exists, leave out `photo:` and the build makes the amber Overloaded card from the headline.

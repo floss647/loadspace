@@ -1,90 +1,199 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../data/site.js';
-import { VANS } from '../data/vans.js';
+import { EV_VANS } from '../data/vans.js';
 import { TRUCKS } from '../data/trucks.js';
 import { POSTS, fmtDate } from '../lib/news.js';
-const latest = POSTS.slice(0, 4);
+import { COLUMNS, COLUMN } from '../lib/blog.js';
+import IMAGES from '../data/images.json';
 
-const evVans = VANS.filter((v) => v.electric).length;
+const [lead, ...rest] = POSTS;
+const more = rest.slice(0, 3);
+const column = COLUMNS[0];
+const card = (p) => p.img?.image.replace(/\/(news|blog)\//, '/$1/card/');
+const vcard = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
+const hero = IMAGES['ford-transit-custom'];
+
+const sizes = [
+  { href: '/vans/#small', label: 'Small vans', blurb: 'City work and sole traders', slug: 'renault-kangoo' },
+  { href: '/vans/#medium', label: 'Medium vans', blurb: 'The all-rounders', slug: 'vauxhall-vivaro' },
+  { href: '/vans/#large', label: 'Large vans', blurb: 'Up to 4.25 tonnes', slug: 'ford-transit' },
+  { href: '/vans/#pickup', label: 'Pickups', blurb: 'Fully electric 4x4s', slug: 'kgm-musso' },
+  { href: '/trucks/', label: 'Trucks', blurb: `${TRUCKS.length} models, 7.5t to 44t`, slug: 'volvo-fh-electric' },
+];
+const tools = [
+  { href: '/tools/electric-vs-diesel/', title: 'Electric vs diesel', text: 'Your yearly running costs side by side.', icon: 'M4 18h16M7 14l3-3 3 3 5-6' },
+  { href: '/tools/lease-or-buy/', title: 'Lease, buy new or used?', text: 'All three compared, with or without VAT.', icon: 'M5 7h14M5 12h14M5 17h9' },
+  { href: '/tools/fleet-cost/', title: 'Fleet switch calculator', text: 'Savings and payback across your fleet.', icon: 'M4 17V9m5 8V5m5 12v-6m5 6V8' },
+  { href: '/tools/van-check/', title: 'Free van check', text: 'MOT history, mileage and tax by reg.', icon: 'M10 17a7 7 0 1 1 5-2l4 4' },
+  { href: '/reliability/', title: 'Most reliable vans', text: 'MOT failure rates from DVSA data.', icon: 'M5 12l4 4 10-10' },
+  { href: '/tools/lease-true-cost/', title: 'Lease true cost', text: 'What a "6+35" deal really costs.', icon: 'M12 4v16M8 8h6a3 3 0 0 1 0 6H9' },
+];
 ---
 <Base>
-  <section class="hero">
+  <section class="hero hero-split">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent electric van advice</p>
+        <h1>{SITE.tagline}</h1>
+        <p>Whether to switch, which van to buy, what it really costs and how to charge it. New and used, for one-van traders and fleets alike.</p>
+        <div class="btn-row">
+          <a class="btn" href="/tools/electric-vs-diesel/">Will electric save me money?</a>
+          <a class="btn secondary" href="/vans/">Browse electric vans</a>
+        </div>
+        <ul class="hero-facts">
+          <li><strong>{EV_VANS.length}</strong> electric vans and pickups</li>
+          <li><strong>{TRUCKS.length}</strong> electric trucks</li>
+          <li><strong>6</strong> free calculators</li>
+        </ul>
+      </div>
+      {hero && (
+        <figure class="hero-photo">
+          <img src={hero.file} alt="A Ford E-Transit Custom electric van" width="1200" height="800" />
+          <figcaption>Photo: {hero.author}, Wikimedia Commons, {hero.licence}</figcaption>
+        </figure>
+      )}
+    </div>
+  </section>
+
+  {lead && (
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">Latest</p><h2>News</h2></div>
+          <a class="more" href="/news/">All news →</a>
+        </div>
+        <div class="news-feature">
+          <a class="lead-story" href={lead.url}>
+            {lead.img && <img src={lead.img.image} alt="" width="1600" height="900" />}
+            <div class="lead-text">
+              <p class="meta">{lead.tag && <span class="pill">{lead.tag}</span>}{fmtDate(lead.date)}</p>
+              <h3>{lead.title}</h3>
+              <p>{lead.summary}</p>
+            </div>
+          </a>
+          <div class="story-stack">
+            {more.map((p) => (
+              <a class="story-row" href={p.url}>
+                {p.img && <img src={card(p)} alt="" loading="lazy" width="800" height="450" />}
+                <div>
+                  <p class="meta">{p.tag && <span class="pill">{p.tag}</span>}</p>
+                  <h4>{p.title}</h4>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {column && (
+    <section class="column-band">
+      <div class="wrap column-grid">
+        <div>
+          <p class="column-badge">{COLUMN.name} · weekly column</p>
+          <h2><a href={column.url}>{column.title}</a></h2>
+          <p>{column.summary}</p>
+          <a class="btn dark" href={column.url}>Read this week's column</a>
+        </div>
+        {column.img && <a href={column.url} class="column-photo"><img src={card(column)} alt="" loading="lazy" width="800" height="450" /></a>}
+      </div>
+    </section>
+  )}
+
+  <section class="section">
     <div class="wrap">
-      <h1>{SITE.tagline}</h1>
-      <p>Independent advice on electric vans and trucks, new and used. Whether to switch, which one to buy, what it really costs, and how to charge it. For one-van traders and fleets alike.</p>
-      <div class="btn-row">
-        <a class="btn" href="/tools/electric-vs-diesel/">Will electric save me money?</a>
-        <a class="btn secondary" href="/vans/">Browse electric vans</a>
+      <div class="section-head"><div><p class="eyebrow">Start here</p><h2>Where are you starting?</h2></div></div>
+      <div class="audience">
+        <a class="audience-card" href="/guides/should-i-go-electric/">
+          <span class="num">01</span>
+          <h3>I run a van for my business</h3>
+          <p>Should you switch, which van suits your work, and whether to lease or buy.</p>
+          <span class="arrow">Find out →</span>
+        </a>
+        <a class="audience-card" href="/fleets/">
+          <span class="num">02</span>
+          <h3>I manage a fleet</h3>
+          <p>Total cost, depot charging, grants, and a step-by-step plan for vans and trucks.</p>
+          <span class="arrow">Fleet guides →</span>
+        </a>
+        <a class="audience-card" href="/used-electric-vans/">
+          <span class="num">03</span>
+          <h3>I want a used electric van</h3>
+          <p>Battery health, real range, which models to look for, and the traps on older vans.</p>
+          <span class="arrow">Used guides →</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <div class="wrap">
-    <div>
-      <section>
-        <h2 style="margin-top:0">Latest news</h2>
-        <div class="news-grid">
-          {latest.map((p) => (
-            <a class="card has-img" href={p.url}>
-              {p.img && <figure class="vimg vimg-card"><img src={p.img.image.replace('/news/', '/news/card/')} alt="" loading="lazy" width="800" height="450" /></figure>}
-              <p class="small muted" style="margin:0 0 .3rem">{fmtDate(p.date)}{p.tag && ` · ${p.tag}`}</p>
-              <h3>{p.title}</h3>
-              <p>{p.summary}</p>
-            </a>
-          ))}
-        </div>
-        <p class="small" style="margin-top:.8rem"><a href="/news/">All news →</a></p>
-      </section>
+  <section class="section tint">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Browse</p><h2>Electric vans and trucks</h2></div>
+        <a class="more" href="/vans/">All {EV_VANS.length} electric vans →</a>
+      </div>
+      <div class="size-tiles">
+        {sizes.map((s) => (
+          <a class="size-tile" href={s.href}>
+            {vcard(s.slug) && <img src={vcard(s.slug)} alt="" loading="lazy" width="800" height="450" />}
+            <span class="size-label"><strong>{s.label}</strong>{s.blurb}</span>
+          </a>
+        ))}
+      </div>
+      <p class="small muted" style="margin-top:1rem">Some popular vans still have no electric version. <a href="/vans/no-electric-version/">See them and their nearest electric alternatives</a>.</p>
     </div>
+  </section>
 
-    <h2>Where are you starting?</h2>
-    <div class="grid">
-      <a class="card" href="/guides/should-i-go-electric/">
-        <h3>I run a van for my business</h3>
-        <p>Should you switch, which van suits your work, and whether to lease or buy.</p>
-      </a>
-      <a class="card" href="/fleets/">
-        <h3>I manage a fleet</h3>
-        <p>Total cost, depot charging, grants, and a step-by-step plan for electrifying vans and trucks.</p>
-      </a>
-      <a class="card" href="/used-electric-vans/">
-        <h3>I want a used electric van</h3>
-        <p>Battery health, real range, which models to look for, and the traps on older vans.</p>
-      </a>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Free tools</p><h2>Run your own numbers</h2></div>
+        <a class="more" href="/tools/">All tools →</a>
+      </div>
+      <div class="tool-grid">
+        {tools.map((t) => (
+          <a class="tool" href={t.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={t.icon} /></svg>
+            <span><strong>{t.title}</strong>{t.text}</span>
+          </a>
+        ))}
+      </div>
     </div>
+  </section>
 
-    <h2>Electric vans and trucks</h2>
-    <div class="grid">
-      <a class="card" href="/vans/#small"><h3>Small electric vans</h3><p>City work and sole traders. The cheapest way to go electric.</p></a>
-      <a class="card" href="/vans/#medium"><h3>Medium electric vans</h3><p>The all-rounders. Most trades start here.</p></a>
-      <a class="card" href="/vans/#large"><h3>Large electric vans</h3><p>Couriers, builders and multi-drop. Up to 4.25 tonnes on a car licence.</p></a>
-      <a class="card" href="/vans/#pickup"><h3>Electric pickups</h3><p>The first fully electric pickups arrived in the UK in 2026.</p></a>
-      <a class="card" href="/trucks/"><h3>Electric trucks</h3><p>{TRUCKS.length} models from 7.5-tonne delivery trucks to 44-tonne tractor units.</p></a>
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-pair">
+        <a class="cta-panel dark" href="/get-charger-quotes/">
+          <p class="eyebrow">Charging</p>
+          <h3>Get charger quotes</h3>
+          <p>Home or depot charging from vetted installers.</p>
+          <span class="arrow">Get quotes →</span>
+        </a>
+        <a class="cta-panel amber" href="/fleets/enquiry/">
+          <p class="eyebrow">Fleets</p>
+          <h3>Planning a fleet switch?</h3>
+          <p>Tell us about your vans or trucks and we'll help you plan it.</p>
+          <span class="arrow">Send an enquiry →</span>
+        </a>
+      </div>
     </div>
-    <p class="small muted">{evVans} electric vans and pickups are on sale in the UK. <a href="/vans/no-electric-version/">Some popular vans still have no electric version</a>.</p>
+  </section>
 
-    <div class="grid" style="margin-top:2rem">
-      <a class="card" href="/get-charger-quotes/" style="border-left:4px solid var(--accent)"><h3>Get charger quotes</h3><p>Home or depot charging from vetted installers.</p></a>
-      <a class="card" href="/fleets/enquiry/" style="border-left:4px solid var(--accent)"><h3>Fleet enquiry</h3><p>Help planning a switch for your vans or trucks.</p></a>
+  <section class="section tint">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Guides</p><h2>Start with the basics</h2></div>
+        <a class="more" href="/guides/">All guides →</a>
+      </div>
+      <div class="guide-list">
+        <a href="/guides/should-i-go-electric/"><strong>Should I go electric?</strong><span>Who it suits, who it doesn't, and the numbers that decide it.</span></a>
+        <a href="/guides/charging-an-electric-van/"><strong>Charging an electric van</strong><span>At home, at the depot and on the road, and what each costs.</span></a>
+        <a href="/guides/grants-and-tax/"><strong>Grants and tax</strong><span>Van and truck grants, VAT, company van tax and more.</span></a>
+        <a href="/guides/used-electric-van-buying-guide/"><strong>Buying a used electric van</strong><span>The checks that matter before you hand over money.</span></a>
+      </div>
     </div>
-
-    <h2>Tools</h2>
-    <div class="grid">
-      <a class="card" href="/tools/electric-vs-diesel/"><h3>Electric vs diesel cost</h3><p>Your yearly running costs side by side.</p></a>
-      <a class="card" href="/tools/fleet-cost/"><h3>Fleet switch calculator</h3><p>What going electric saves across your whole fleet, and how long it takes to pay back.</p></a>
-      <a class="card" href="/tools/lease-or-buy/"><h3>Lease, buy new or buy used?</h3><p>Compare all three over the years you'll keep the van, with or without VAT.</p></a>
-      <a class="card" href="/tools/van-check/"><h3>Free van check</h3><p>MOT history, mileage and tax for any UK van by registration.</p></a>
-      <a class="card" href="/reliability/"><h3>Most reliable vans</h3><p>MOT failure rates by model from official DVSA data.</p></a>
-      <a class="card" href="/tools/lease-true-cost/"><h3>Lease true-cost calculator</h3><p>What a "6+35" deal really costs per month.</p></a>
-    </div>
-
-    <h2>Start with the basics</h2>
-    <div class="grid">
-      <a class="card" href="/guides/should-i-go-electric/"><h3>Should I go electric?</h3><p>Who it suits, who it doesn't, and the numbers that decide it.</p></a>
-      <a class="card" href="/guides/charging-an-electric-van/"><h3>Charging an electric van</h3><p>At home, at the depot and on the road, and what each costs.</p></a>
-      <a class="card" href="/guides/grants-and-tax/"><h3>Grants and tax</h3><p>Zero emission van and truck grants, VAT, company van tax and more.</p></a>
-      <a class="card" href="/guides/used-electric-van-buying-guide/"><h3>Buying a used electric van</h3><p>The checks that matter before you hand over money.</p></a>
-    </div>
-  </div>
+  </section>
 </Base>

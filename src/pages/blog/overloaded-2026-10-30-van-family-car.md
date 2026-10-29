@@ -2,6 +2,8 @@
 layout: ../../layouts/BlogPost.astro
 title: "The Chancellor discovers the van, and the tarmac reaches Singapore"
 date: 2026-10-30T08:00:00Z
+photo: royal-mail-electric-van
+photoCaption: "A Royal Mail electric van."
 summary: "A Budget that finally noticed the van, a taskforce for something called tariff porting, enough new tarmac to reach Singapore, and the annual miracle of the Christmas hire van. Welcome to Overloaded."
 factCheck:
   by: "independent fact-checker"

@@ -9,7 +9,7 @@ You write this week's **Overloaded** column, Loadspace's weekly humorous look at
 ## Write it
 1. **Research** the past seven days of UK motoring and commercial vehicle news from sources you can open and read: GOV.UK, SMMT, makers' UK press sites, and trade titles on the trusted list in `scripts/news-sources.json`. Use an honest User-Agent and never get round bot blocking. Pick the 3–4 stories with the most comic potential that van and fleet people care about.
 2. **Write** `src/pages/blog/overloaded-<friday yyyy-mm-dd>-<topic>.md`, dated that Friday at 08:00 UTC, with `layout: ../../layouts/BlogPost.astro`, a funny title and summary, and a full `facts:` list. Real facts get source + exact quote, sums get `calc:` and invented absurdities get `joke:`. Length 600–900 words.
-3. **Image:** a licensed vehicle photo from src/data/images.json if the column centres on one (with `photoCaption:`), otherwise the amber card. Run `python3 scripts/news_images.py` and look at the image.
+3. **Photo:** every column needs a real photo. Follow "Images" in the Overloaded section of NEWSROOM.md: find one with `scripts/find_photos.py`, add it with `scripts/add_photo.py`, then set `photo:` and `photoCaption:`. Run `python3 scripts/news_images.py` and look at the result. Use the amber card only if no suitable licensed photo exists, and say so in the PR.
 4. Run `node scripts/check-style.mjs` and `NODE_USE_ENV_PROXY=1 node scripts/check-news.mjs --draft --live overloaded` until both pass.
 
 ## Independent check
