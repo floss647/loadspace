@@ -1,4 +1,14 @@
 {
+ "citroen-berlingo": {
+  "file": "/images/vehicles/citroen-berlingo.jpg",
+  "page": "https://www.media.stellantis.com/uk-en/citroen/media-library/gallery/585508",
+  "author": "Citroën UK",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Citroën ë-Berlingo van, Citroën UK press image",
+  "note": "",
+  "source": "Stellantis Media"
+ },
  "citroen-dispatch": {
   "file": "/images/vehicles/citroen-dispatch.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:2024_Citro%C3%ABn_%C3%AB-Jumpy_Automesse_Ludwigsburg_2024_IMG_1391.jpg",
@@ -242,6 +252,16 @@
   "title": "File:Mercedes-Benz eActros 600, Frankfurt am Main (P1032690).jpg",
   "note": ""
  },
+ "mercedes-benz-vito": {
+  "file": "/images/vehicles/mercedes-benz-vito.jpg",
+  "page": "",
+  "author": "Mercedes-Benz Vans UK",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Mercedes-Benz eVito panel van, Mercedes-Benz Vans UK press image",
+  "note": "",
+  "source": "Mercedes-Benz media"
+ },
  "nissan-e-nv200": {
   "file": "/images/vehicles/nissan-e-nv200.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Nissan_e-NV200_VAN_GX_(ZAB-VME0)_front.JPG",
@@ -322,6 +342,16 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:Scania BEV 40 R IAA Transportation 2024 (DSC04552).jpg",
   "note": ""
+ },
+ "toyota-proace-city": {
+  "file": "/images/vehicles/toyota-proace-city.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Proace City Electric van, Toyota GB press image",
+  "note": "",
+  "source": "Toyota GB media"
  },
  "vauxhall-combo": {
   "file": "/images/vehicles/vauxhall-combo.jpg",

@@ -152,7 +152,7 @@ def make_section(section, style):
             if style == 'column':
                 badge(im)
             p = PHOTOS[photo]
-            meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'credit': f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}", 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}
+            meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'credit': (f"Photo: {p.get('author')} press image" if p.get('source') else f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}"), 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}
         else:
             im = column_card(fm) if style == 'column' else branded(fm)
             meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'alt': fm.get('stat', '') + ' ' + fm.get('statLabel', fm.get('title', ''))}
