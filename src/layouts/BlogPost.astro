@@ -1,0 +1,35 @@
+---
+import Base from './Base.astro';
+import { fmtDate } from '../lib/news.js';
+import { COLUMN } from '../lib/blog.js';
+import IMAGES from '../data/blog-images.json';
+const { frontmatter: f } = Astro.props;
+const slug = Astro.url.pathname.split('/').filter(Boolean).pop();
+const img = IMAGES[slug];
+---
+<Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image}>
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">{COLUMN.name}</a></div>
+    <article class="prose column">
+      <p class="column-badge">{COLUMN.name}</p>
+      <h1>{f.title}</h1>
+      <p class="small muted" style="margin:.2rem 0 1rem">{fmtDate(f.date)}</p>
+      {img && (
+        <figure class="vimg">
+          <img src={img.image} alt={img.alt || f.title} width="1600" height="900" />
+          {(f.photoCaption || img.credit) && <figcaption class="small muted">{f.photoCaption && <>{f.photoCaption} </>}{img.credit}</figcaption>}
+        </figure>
+      )}
+      <p class="lede">{f.summary}</p>
+      <slot />
+      {f.corrections?.length > 0 && (
+        <div class="notice small" id="corrections">
+          <strong>Corrections</strong>
+          <ul>{f.corrections.map((c) => <li>{fmtDate(c.date)}: {c.text}</li>)}</ul>
+        </div>
+      )}
+      <p class="small muted">{COLUMN.name} is a comment column, so the opinions and the jokes are ours. The facts aren't: every real figure and event in it was checked against its original source before publishing. Spotted a mistake? <a href="/corrections/">Tell us</a>.</p>
+      <p class="small"><a href="/blog/">More {COLUMN.name} →</a></p>
+    </article>
+  </div>
+</Base>

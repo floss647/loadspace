@@ -49,3 +49,39 @@ corrections:
 ```
 
 Readers can report mistakes at `/corrections/`.
+
+## Overloaded: the weekly column
+
+**Overloaded** is our weekly comment column on vans, fleets and the motor industry. It's out every Friday at `/blog/`, and every column goes through the same four checks as the news.
+
+### The voice
+
+Think of a surreal, silly TV comic crossed with a grumpy, opinionated motoring presenter. That means:
+
+- Daft tangents and absurd comparisons ("a van so quiet you could hear a parish council change its mind").
+- Running gags that come back later in the column.
+- Strong opinions, put with mock outrage and big exaggeration.
+- Underneath it all, real affection for vans and the people who drive them.
+
+It should make a van driver laugh out loud on a tea break. Write it in our own voice: never borrow anyone's catchphrases or suggest a real presenter wrote it.
+
+### Structure
+
+- **Length:** 600–900 words.
+- **Content:** three or four real stories from the past week, in vans, fleets, trucks and the wider motor industry.
+- **Each story:** give it a short headline-style subhead and riff on it.
+- **The ending:** a closing gag or call-back.
+- **Links:** to our own guides, news or tools where it's genuinely useful.
+
+### The rules that keep it funny and safe
+
+- **Real facts must be right.** Every real number, date, price, name and event goes in `facts:` with an exact source quote, the same as the news. Joking about a real fact is fine. Getting the fact wrong isn't.
+- **Jokes must be unmistakably jokes.** An invented number or claim needs a `joke:` fact explaining why no reader could take it as true ("a van the size of Wales"). If a reader could plausibly believe it, it isn't a joke: cut it or make it sillier. The fact-checker must agree.
+- **Punch up, not down.** Mock companies, products, policies, prices, bureaucracy, the industry and ourselves. Never mock ordinary people, drivers' jobs, or anyone for who they are (race, religion, sex, sexuality, disability, age, nationality or accent).
+- **No made-up facts about real people.** Don't put invented words in a real person's mouth, or suggest they did, said or believe something they didn't. Don't imply wrongdoing, dishonesty or incompetence that isn't on the public record. Teasing a public figure over something they really said or did, fairly described, is fine.
+- **No swearing beyond "bloody" and the occasional "blimey".**
+- The usual house style applies: no em dashes, no stock phrases (the style check lists them), no links to other websites, and our own words throughout.
+
+### Images
+
+Use a licensed photo of a vehicle the column features if we have one (`photo:` plus `photoCaption:` for context). Otherwise the build makes the amber Overloaded card from the headline. Run `python3 scripts/news_images.py` after writing.
