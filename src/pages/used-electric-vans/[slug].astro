@@ -27,7 +27,6 @@ const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, '')
       <h1>Buying a used {u.name}</h1>
       <p>
         <span class="tag">{size?.short}</span>
-        {u.usedOnly && <span class="tag">No longer sold new</span>}
       </p>
       <VehicleImage slug={u.slug} name={u.name} />
       <p class="lede">{u.summary}</p>
