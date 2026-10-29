@@ -10,7 +10,7 @@ Eight posts for the founder's personal profile, two a week for four weeks.
 - Images: don't attach maker press photos. Their terms allow editorial use only, not promotion (see NEWSROOM.md). A screenshot of our own reliability table or calculator is fine.
 - Put the link in the post as written. If you'd rather put it in the first comment, change "Link below" lines accordingly.
 
-**How to read the reliability figures** (applies to posts 3, 6 and 8): every figure is an *initial MOT failure rate*: the share of MOT tests (retests left out) where the vehicle failed, or only passed after faults were fixed during the test (PRS). Source: DVSA anonymised MOT tests and results, file "MOT testing data results (2024)", processed by `scripts/mot_reliability.py` into `src/data/reliability.json`. Classes 4 and 7 only. Age = whole years from first use to the test date. Figures are only published from at least 300 tests (`minTests: 300`). "All vans" (`allVansByAge`) is the average across every van and pickup model Loadspace tracks, not every van in the UK. The data is almost all diesel, and some models include passenger versions or motorhome conversions sold under the same name. Each model's figure covers every generation sold under that name.
+**How to read the reliability figures** (applies to posts 3, 6 and 8): every figure is an *initial MOT failure rate*: the share of MOT tests (retests left out) where the vehicle failed, or only passed after faults were fixed during the test (PRS). Source: DVSA anonymised MOT tests and results, file "MOT testing data results (2024)", processed by `scripts/mot_reliability.py` into `src/data/reliability.json`. Classes 4 and 7 only. Age = whole years from first use to the test date. Figures are only published from at least 300 tests (`minTests: 300`). "All vans" (`allVansByAge`) is pooled: every initial test of every van and pickup model Loadspace tracks, combined (so weighted by number of tests, and including models too small to publish separately). It is not an average of the model figures, and not every van in the UK. Different models appear in different age bands, so the bands are not a like-for-like set. The data is almost all diesel, and some models include passenger versions or motorhome conversions sold under the same name. Each model's figure covers every generation sold under that name.
 
 ---
 
@@ -32,7 +32,7 @@ What's on it:
 • MOT reliability rankings built from DVSA's own data
 • News where every figure is checked
 
-That last one matters most to me. Every number in a story is copied word for word from its source. A script confirms the quote is really on that page, a separate fact-checker re-reads every source, and an editor signs it off. If we can't open and read the source, the fact doesn't go in. If we get something wrong, we correct it with a dated note.
+That matters most to me. Every number in a story is backed by a word-for-word quote from its source, or by a calculation from sourced figures that we show. A script confirms each quote is on that page, a separate fact-checker re-reads every source, and an editor signs it off. If we can't open and read the source, the fact doesn't go in. If we get something wrong, we correct it with a dated note.
 
 We don't sell vans or trucks, and rankings are never for sale.
 
@@ -45,6 +45,7 @@ https://loadspace-vans.netlify.app/
 > **Facts used**
 > - No figures in this post.
 > - Site sections and tools listed: `src/pages/` (vans, trucks, used-electric-vans, tools: electric-vs-diesel, fleet-cost, lease-or-buy, lease-true-cost, van-check; reliability).
+> - "backed by a word-for-word quote ... or by a calculation": `NEWSROOM.md` (facts list with exact quotes; conversions and sums go in as a `calc:` showing the working).
 > - The four checks (sourced quote, automatic check, independent fact-check, editor approval), "If you can't open and read the page, the fact doesn't go in" and dated corrections: `NEWSROOM.md`.
 > - "We don't sell vans or trucks" and "Rankings and reviews are never for sale": `src/pages/about.astro`.
 > - Placeholders: the founder must write both [ADD YOUR OWN LINE] parts. Don't post with them in.
@@ -92,13 +93,13 @@ We ranked 34 van and pickup models using DVSA's MOT results for 2024, comparing 
 
 Lowest initial failure rates at 5–6 years:
 • Mitsubishi L200: 18.2%
-• Volkswagen Amarok: 19.2%
+• Volkswagen Amarok: 19.2% (the previous, VW-built generation)
 • Toyota Hilux: 21.3%
-• Volkswagen Transporter: 21.7%, the lowest of the vans that aren't pickups (its figure includes passenger and camper versions)
+• Volkswagen Transporter: 21.7%, the lowest of the non-pickups (the T6/T6.1 generation, including passenger and camper versions)
 
-The average across all the models we track at that age is 28.1%. Highest: KGM Musso (38.4%, a small sample), Renault Kangoo (37.1%) and Vauxhall Movano (37.0%).
+These are vans from around 2018, so for some models that means an earlier generation than today's. Across all the models we track, combined, 28.1% of initial tests at that age were fails. Highest: KGM Musso (38.4%, a small sample), Renault Kangoo (37.1%) and Vauxhall Movano (37.0%).
 
-Two caveats. Mileage matters: 5–6 year old L200s averaged 65,223 miles, against 83,815 across all the vans we track. And the data is almost all diesel, because few electric vans are old enough yet. It shows how each model's body, brakes, suspension and steering hold up, not its battery.
+Two caveats. Mileage matters: 5–6 year old L200s averaged 65,223 miles, against 83,815 across all the models we track, combined. And the data is almost all diesel, because few electric vans are old enough yet. It shows how each model's body, brakes, suspension and steering hold up, not its battery.
 
 Full table:
 https://loadspace-vans.netlify.app/reliability/
@@ -108,15 +109,16 @@ https://loadspace-vans.netlify.app/reliability/
 > **Facts used** (all `src/data/reliability.json`; initial MOT failure rate, retests excluded, fail = failed or passed after faults fixed at the test; age 5–6 years since first use; DVSA "MOT testing data results (2024)"; classes 4 and 7; only figures from at least 300 tests, `minTests: 300`)
 > - "34 van and pickup models": count of models in `models` with a `byAge["5-6"]` entry (34 of 39). These are the ranked rows on `/reliability/`.
 > - "Mitsubishi L200: 18.2%": `models.mitsubishi-l200.byAge.5-6.failRate` = 18.2 (16,065 tests).
-> - "Volkswagen Amarok: 19.2%": `models.volkswagen-amarok.byAge.5-6.failRate` = 19.2 (5,186 tests).
+> - "Volkswagen Amarok: 19.2%": `models.volkswagen-amarok.byAge.5-6.failRate` = 19.2 (5,186 tests). "Previous, VW-built generation": 5–6 year olds in 2024 tests were first used about 2017–2019, before the current Ford Ranger-based Amarok (`TWINS["ford-vw-pickup"]` in `src/data/vans.js` says the current one is built by Ford). Generation dating is background knowledge, not from the repo.
 > - "Toyota Hilux: 21.3%": `models.toyota-hilux.byAge.5-6.failRate` = 21.3 (10,687 tests).
-> - "Volkswagen Transporter: 21.7%": `models.volkswagen-transporter.byAge.5-6.failRate` = 21.7 (42,644 tests). `includesPassengerVersions: true`, `includesMotorhomes: true`. Lowest of the non-pickup models.
-> - "28.1%": `allVansByAge.5-6.failRate` = 28.1 (620,587 tests), average across every model Loadspace tracks.
+> - "Volkswagen Transporter: 21.7%": `models.volkswagen-transporter.byAge.5-6.failRate` = 21.7 (42,644 tests). `includesPassengerVersions: true`, `includesMotorhomes: true`. Lowest of the non-pickup models. "T6/T6.1 generation": first used about 2017–2019, before the latest Ford-built Transporter (`TWINS["ford-vw-medium"]`). Generation names are background knowledge, not from the repo.
+> - "vans from around 2018": age 5–6 at a 2024 test means first use roughly 2017–2019 (age = whole years from first use to test date, `scripts/mot_reliability.py`).
+> - "28.1%": `allVansByAge.5-6.failRate` = 28.1 (620,587 tests). Pooled across all initial tests of the models Loadspace tracks at 5–6 years, combined, not an average of the model figures.
 > - "KGM Musso (38.4%, a small sample)": `models.kgm-musso.byAge.5-6.failRate` = 38.4 (876 tests).
 > - "Renault Kangoo (37.1%)": `models.renault-kangoo.byAge.5-6.failRate` = 37.1 (5,011 tests). Includes passenger versions.
 > - "Vauxhall Movano (37.0%)": `models.vauxhall-movano.byAge.5-6.failRate` = 37.0 (7,740 tests).
 > - "65,223 miles": `models.mitsubishi-l200.byAge.5-6.avgMiles` = 65223.
-> - "83,815": `allVansByAge.5-6.avgMiles` = 83815.
+> - "83,815": `allVansByAge.5-6.avgMiles` = 83815 (pooled, as above).
 > - "almost all diesel" and "body, brakes, suspension and steering": wording follows `src/pages/reliability.astro` notice. Electric first tests are a few hundred to a few thousand per model in `byFuel.Electric`, against tens or hundreds of thousands for diesel.
 
 ---
@@ -157,7 +159,7 @@ Since April 2026 it's been called the Zero Emission Van Grant, an updated versio
 
 The catches: new vans only, at first registration. The exact model and trim must be on the approved list. The dealer has to put your order on the government's grant portal before the van is registered, and the grant isn't guaranteed until the vehicle has been validated through the portal.
 
-Trucks over 26 tonnes can get up to £81,000, or 40% of the cost if that's lower.
+Some electric trucks over 26 tonnes can get up to £81,000, or 40% of the cost if that's lower (less for large firms in Northern Ireland).
 
 Plain-English guide:
 https://loadspace-vans.netlify.app/news/zero-emission-van-grant-explained/
@@ -183,9 +185,9 @@ https://loadspace-vans.netlify.app/news/zero-emission-van-grant-explained/
 
 ### Post 6 (Thursday 19 November): how MOT failure rates rise with age
 
-A five-year-old van is not a ten-year-old van. The MOT data shows exactly how different.
+A five-year-old van is not a ten-year-old van. The MOT data shows how big the difference is.
 
-Across the van and pickup models we track, DVSA's 2024 results give these initial MOT failure rates by age:
+Across all the initial MOT tests of the van and pickup models we track, combined, DVSA's 2024 results give these failure rates by age:
 
 3–4 years: 24.0%
 5–6 years: 28.1%
@@ -194,9 +196,9 @@ Across the van and pickup models we track, DVSA's 2024 results give these initia
 
 Average mileage climbs with it, from 62,544 to 130,747.
 
-Some models age much worse than others. The Vauxhall Vivaro goes from 26.4% at 3–4 years to 53.4% at 10–14.
+Some models age much worse than others. The Citroën Relay, the same Ducato-based van in both age bands, goes from 32.5% at 3–4 years to 43.4% at 10–14.
 
-The Fiat Ducato barely moves: 23.2% to 25.3%. That's a clue, not a miracle. Its 10–14 year olds averaged 66,883 miles, fewer than its 3–4 year olds. The figures include motorhome conversions sold under the same name, which usually do fewer miles. The Citroën Relay, the same basic van with a different badge, goes from 32.5% to 43.4%, at 125,726 miles.
+Its twin, the Fiat Ducato, barely moves: 23.2% to 25.3%. That's a clue, not a miracle. Both names include motorhome conversions, so look at the mileage: 10–14 year old Ducatos averaged 66,883 miles, against 125,726 for Relays. Fewer miles is the likely explanation.
 
 So compare like with like: same age, and look at the mileage.
 
@@ -205,14 +207,13 @@ https://loadspace-vans.netlify.app/reliability/
 #Vans #MOT #FleetManagement
 
 > **Facts used** (all `src/data/reliability.json`; initial MOT failure rate, retests excluded, fail = failed or passed after faults fixed at the test; DVSA "MOT testing data results (2024)"; age = years since first use; at least 300 tests per figure)
-> - "24.0%", "28.1%", "34.8%", "43.3%": `allVansByAge["3-4"|"5-6"|"7-9"|"10-14"].failRate` = 24.0, 28.1, 34.8, 43.3 (583,522; 620,587; 859,970; 794,989 tests). Average across every model Loadspace tracks, including passenger and motorhome versions sold under those names.
-> - "62,544 to 130,747": `allVansByAge.3-4.avgMiles` = 62544, `allVansByAge.10-14.avgMiles` = 130747.
-> - "Vauxhall Vivaro 26.4% ... 53.4%": `models.vauxhall-vivaro.byAge.3-4.failRate` = 26.4 (31,465 tests), `byAge.10-14.failRate` = 53.4 (52,831 tests). Includes passenger versions.
+> - "24.0%", "28.1%", "34.8%", "43.3%": `allVansByAge["3-4"|"5-6"|"7-9"|"10-14"].failRate` = 24.0, 28.1, 34.8, 43.3 (583,522; 620,587; 859,970; 794,989 tests). Pooled across all initial tests of the models Loadspace tracks, combined (test-weighted, including models too small to publish separately, and passenger and motorhome versions sold under those names). Not an average of the model figures, and the mix of models differs between bands.
+> - "62,544 to 130,747": `allVansByAge.3-4.avgMiles` = 62544, `allVansByAge.10-14.avgMiles` = 130747 (pooled, as above).
 > - "Fiat Ducato 23.2% to 25.3%": `models.fiat-ducato.byAge.3-4.failRate` = 23.2 (8,226 tests), `byAge.10-14.failRate` = 25.3 (18,426 tests).
-> - "66,883 miles, fewer than its 3–4 year olds": `models.fiat-ducato.byAge.10-14.avgMiles` = 66883; `byAge.3-4.avgMiles` = 67202.
-> - "include motorhome conversions ... usually do fewer miles": `models.fiat-ducato.includesMotorhomes` = true; wording from `src/components/Reliability.astro`. The data doesn't say what share are motorhomes, so the post calls it a clue, not proof.
-> - "Citroën Relay 32.5% to 43.4%, at 125,726 miles": `models.citroen-relay.byAge.3-4.failRate` = 32.5 (11,452 tests), `byAge.10-14.failRate` = 43.4 (12,286 tests), `byAge.10-14.avgMiles` = 125726. The Relay is also flagged `includesMotorhomes: true`.
-> - "the same basic van": Relay and Ducato are in the same twin group (`stellantis-large`, "Ducato-based") in `src/data/vans.js`.
+> - "66,883 miles": `models.fiat-ducato.byAge.10-14.avgMiles` = 66883.
+> - "Both names include motorhome conversions": `models.fiat-ducato.includesMotorhomes` = true and `models.citroen-relay.includesMotorhomes` = true. The data doesn't say what share are motorhomes, so the post offers lower mileage as the likely explanation, not proof.
+> - "Citroën Relay 32.5% to 43.4%, at 125,726 miles": `models.citroen-relay.byAge.3-4.failRate` = 32.5 (11,452 tests), `byAge.10-14.failRate` = 43.4 (12,286 tests), `byAge.10-14.avgMiles` = 125726.
+> - "the same Ducato-based van in both age bands" / "Its twin": Relay and Ducato are in the same twin group (`stellantis-large`, "Ducato-based") in `src/data/vans.js`. That the Relay has been Ducato-based since 2006, covering both bands (first use about 2009–2021), is background knowledge, not from the repo. The Vivaro and Trafic were dropped because their 3–4 and 10–14 bands are different generations.
 
 ---
 
@@ -222,7 +223,7 @@ https://loadspace-vans.netlify.app/reliability/
 
 "£279 a month" is almost never £279 a month.
 
-Van leases are usually quoted with a profile like "6 + 35". On a 36-month lease, that means six monthly payments up front, then 35 more. That's 41 payments for 36 months, before any fees.
+Van leases are often quoted with a profile like "6 + 35". On a 36-month lease, that means six monthly payments up front, then 35 more. That's 41 payments for 36 months, before any fees.
 
 Take the example our free calculator starts with: £279 a month, 6 + 35, and a £300 admin fee. You pay £11,739 in total. Spread over the 36 months, that's about £326 a month, around 17% more than the advertised price.
 
