@@ -156,6 +156,17 @@
   "title": "File:2024 Isuzu D-Max (third generation) GIMS 2024 1X7A2056.jpg",
   "note": "Diesel version shown."
  },
+ "iveco-daily": {
+  "file": "/images/vehicles/iveco-daily.jpg",
+  "page": "",
+  "author": "Iveco",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "Iveco eDaily van, Iveco press image",
+  "note": "",
+  "source": "Iveco media",
+  "editorialOnly": true
+ },
  "iveco-s-eway": {
   "file": "/images/vehicles/iveco-s-eway.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Iveco_S-eWay_AD290_Y_PS_BEV_IAA_Transportation_2024_(DSC03342).jpg",
