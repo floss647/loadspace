@@ -16,7 +16,7 @@ const avg = data.allVansByAge || {};
     {Object.keys(r.byAge).length > 0 && (
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Age (years)</th><th class="num">{name}</th><th class="num">All vans we track</th><th class="num">Tests</th></tr></thead>
+          <thead><tr><th>Age (years)</th><th class="num">{name}</th><th class="num">All tracked vans, combined</th><th class="num">Tests</th></tr></thead>
           <tbody>
             {Object.entries(r.byAge).map(([band, b]) => (
               <tr>

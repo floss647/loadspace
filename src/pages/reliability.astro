@@ -21,7 +21,7 @@ const hasData = rows.length > 0;
 
     {hasData && (
       <>
-        <p class="muted">Ranked by the share of MOTs failed at the first attempt at 5–6 years old, so every van is compared at the same age. Lower is better. The average across all the vans we track at that age is {data.allVansByAge?.['5-6']?.failRate}%.</p>
+        <p class="muted">Ranked by the share of MOTs failed at the first attempt at 5–6 years old, so every van is compared at the same age. Lower is better. Across all the vans we track combined, {data.allVansByAge?.['5-6']?.failRate}% of MOTs at that age were failed at the first attempt.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>#</th><th>Van</th><th class="num">Fail rate at 5–6 yrs</th><th class="num">Fail rate, all ages</th><th class="num">Tests</th></tr></thead>
