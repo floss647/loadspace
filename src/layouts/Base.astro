@@ -3,7 +3,18 @@ import '../styles/global.css';
 import { SITE } from '../data/site.js';
 import Newsletter from '../components/Newsletter.astro';
 
-const { title, description = SITE.description, image } = Astro.props;
+const { title, description = SITE.description, image, type = 'website', jsonLd, noindex = false } = Astro.props;
+const shareImage = image || SITE.shareImage;
+// Structured data for search engines: who publishes the site, plus anything page-specific.
+const org = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE.name,
+  url: new URL('/', Astro.site).href,
+  logo: new URL('/favicon.svg', Astro.site).href,
+};
+const website = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: new URL('/', Astro.site).href, inLanguage: 'en-GB' };
+const ld = [org, ...(Astro.url.pathname === '/' ? [website] : []), ...(jsonLd ? [].concat(jsonLd) : [])];
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
 const path = Astro.url.pathname;
 const nav = [
@@ -28,10 +39,21 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={new URL(path, Astro.site)} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
-    {image && <meta name="twitter:card" content="summary_large_image" />}
+    <meta property="og:image" content={new URL(shareImage, Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} news`} href="/news/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Overloaded column" href="/blog/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {SITE.googleVerification && <meta name="google-site-verification" content={SITE.googleVerification} />}
+    {SITE.bingVerification && <meta name="msvalidate.01" content={SITE.bingVerification} />}
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
   </head>
   <body>
     <header class="site-header">

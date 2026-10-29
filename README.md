@@ -71,3 +71,13 @@ Add a Markdown file to `src/pages/news/` with this frontmatter:
 
 Rules: always use a photo (`photo:`) when we have a licensed photo of the right vehicle, preferring UK-plated ones; the branded `stat` image is only a fallback. Write every story in our own words, credit figures in the text (e.g. "according to SMMT"), and don't link to other news sites.
 Then run `python3 scripts/news_images.py` to create the story's image, and rebuild.
+
+## Search engines and feeds
+
+- **Domain:** change `site` in `astro.config.mjs`. Canonical links, the sitemap, robots.txt, RSS feeds and structured data all follow it.
+- **Sitemap:** `/sitemap-index.xml` is built automatically. Submit it in Google Search Console and Bing Webmaster Tools.
+- **Verification:** paste the codes from Search Console and Bing into `googleVerification` and `bingVerification` in `src/data/site.js`.
+- **Feeds:** `/news/rss.xml` and `/blog/rss.xml`.
+- **Structured data:** every page says who publishes the site, news stories are marked as `NewsArticle` and columns as `BlogPosting` (see `src/layouts/`).
+- **Hidden from search:** pages passed `noindex` to `Base` (thank-you, 404 and the switched-off lease quotes page).
+- **Promotion drafts:** `marketing/` holds LinkedIn posts and press pitches. They aren't published on the site.
