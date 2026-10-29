@@ -14,14 +14,14 @@ const hasData = rows.length > 0;
 <Base title="Most reliable vans: MOT failure rates by model" description="Which UK vans fail their MOT least often, by model and age, from DVSA's official MOT data.">
   <div class="wrap">
     <h1>Most reliable vans by MOT results</h1>
-    <p class="lede">Which vans fail their MOT least often, from every first MOT test recorded by DVSA. Real data, not opinion.</p>
+    <p class="lede">Which vans fail their MOT least often, from DVSA's record of every MOT test in 2024. We count each van's first attempt at its annual MOT, not retests. Real data, not opinion.</p>
     <div class="notice"><strong>Mostly diesel and petrol vans.</strong> Few electric vans are old enough for MOT data yet. These figures still tell you how well each van's body, suspension, brakes and steering hold up, which the electric versions share.</div>
 
     {!hasData && <div class="notice"><strong>Coming soon.</strong> We're loading DVSA's latest MOT data. Rankings appear here as soon as it's processed.</div>}
 
     {hasData && (
       <>
-        <p class="muted">Ranked by first-time MOT failure rate at 5–6 years old, so every van is compared at the same age. Lower is better. The average for all vans at that age is {data.allVansByAge?.['5-6']?.failRate}%.</p>
+        <p class="muted">Ranked by the share of MOTs failed at the first attempt at 5–6 years old, so every van is compared at the same age. Lower is better. The average across all the vans we track at that age is {data.allVansByAge?.['5-6']?.failRate}%.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>#</th><th>Van</th><th class="num">Fail rate at 5–6 yrs</th><th class="num">Fail rate, all ages</th><th class="num">Tests</th></tr></thead>

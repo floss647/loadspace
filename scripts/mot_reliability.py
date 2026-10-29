@@ -243,7 +243,7 @@ def main():
         'source': 'DVSA anonymised MOT tests and results',
         'files': [p.split('/')[-1] for p in args.files],
         'generated': date.today().isoformat(),
-        'method': 'First MOT tests only (not retests). Fail = failed or passed after faults were fixed at the test.',
+        'method': 'Initial tests only: each van's first attempt at its annual MOT, not retests. Fail = failed or passed after faults were fixed at the test.',
         'minTests': MIN_TESTS,
         'allVansByAge': {k: v for k, v in ((band, summarise(all_vans[band])) for _, _, band in AGE_BANDS) if v},
         'models': dict(sorted(models.items())),

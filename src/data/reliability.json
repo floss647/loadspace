@@ -4,7 +4,7 @@
   "MOT testing data results (2024)"
  ],
  "generated": "2026-10-27",
- "method": "First MOT tests only (not retests). Fail = failed or passed after faults were fixed at the test.",
+ "method": "Initial tests only: each van's first attempt at its annual MOT, not retests. Fail = failed or passed after faults were fixed at the test.",
  "minTests": 300,
  "allVansByAge": {
   "3-4": {

@@ -10,13 +10,13 @@ const avg = data.allVansByAge || {};
     <h2>MOT reliability of the {name}</h2>
     <p class="small muted">Mostly diesel and petrol versions, since few electric ones are old enough for MOT data. It still shows how the shared body, suspension, brakes and steering hold up.</p>
     <p>
-      <strong>{r.failRate}%</strong> of {name} vans failed their MOT first time
+      <strong>{r.failRate}%</strong> of {name} MOTs in 2024 ended in a fail at the first attempt
       (from {r.tests.toLocaleString('en-GB')} tests{r.avgMiles ? `, average ${r.avgMiles.toLocaleString('en-GB')} miles` : ''}).
     </p>
     {Object.keys(r.byAge).length > 0 && (
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Age (years)</th><th class="num">{name}</th><th class="num">All vans</th><th class="num">Tests</th></tr></thead>
+          <thead><tr><th>Age (years)</th><th class="num">{name}</th><th class="num">All vans we track</th><th class="num">Tests</th></tr></thead>
           <tbody>
             {Object.entries(r.byAge).map(([band, b]) => (
               <tr>
