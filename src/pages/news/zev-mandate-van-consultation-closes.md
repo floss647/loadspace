@@ -7,6 +7,9 @@ summary: "The government's review of the zero-emission vehicle mandate for new c
 stat: "70%"
 statLabel: "is the zero-emission target for new vans in 2030 under current rules. The lowest option in the review is 40%."
 photo: ford-transit-custom
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
   - https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review
