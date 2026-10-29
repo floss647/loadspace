@@ -89,6 +89,15 @@
   "title": "File:Ford E-Transit 1X7A1522.jpg",
   "note": ""
  },
+ "ford-transit-city": {
+  "file": "/images/vehicles/ford-transit-city.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ford_Transit_City,_IAA_2026,_Hanover_(20260914-P1086905).jpg",
+  "author": "Matti Blume",
+  "licence": "CC BY-SA 4.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+  "title": "File:Ford Transit City, IAA 2026, Hanover (20260914-P1086905).jpg",
+  "note": "Shown at IAA Transportation 2026 (left-hand drive, show car)"
+ },
  "ford-transit-courier": {
   "file": "/images/vehicles/ford-transit-courier.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Ford_Transit_Courier_1.5_EcoBlue_(2024)_(53939198914).jpg",
@@ -286,6 +295,15 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
   "title": "File:Renault Pro+, IAA 2024, Hanover (P1200061).jpg",
   "note": ""
+ },
+ "renault-trafic": {
+  "file": "/images/vehicles/renault-trafic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Renault_Trafic_E-Tech_-_Avant.jpg",
+  "author": "Y.Leclercq",
+  "licence": "CC BY-SA 4.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "title": "File:Renault Trafic E-Tech - Avant.jpg",
+  "note": "New Trafic E-Tech panel van (left-hand drive, show car)"
  },
  "renault-trucks-e-tech-d": {
   "file": "/images/vehicles/renault-trucks-e-tech-d.jpg",

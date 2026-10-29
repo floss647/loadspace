@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/NewsPost.astro
 title: "Renault Trafic E-Tech named International Van of the Year 2027"
+photo: renault-trafic
 date: 2026-10-29T10:00:00Z
 tag: New model
 summary: "The new electric Trafic won unanimously from 26 European trade journalists. It's coming to the UK in a single trim level."

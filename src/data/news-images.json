@@ -7,7 +7,9 @@
  },
  "ford-transit-city-on-sale": {
   "image": "/images/news/ford-transit-city-on-sale.jpg",
-  "alt": "£29,000 Starting price of Ford's new electric Transit City, excluding VAT."
+  "credit": "Photo: Matti Blume, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:Ford_Transit_City,_IAA_2026,_Hanover_(20260914-P1086905).jpg",
+  "alt": "Ford Transit City: a cheaper electric van from about £29,000"
  },
  "record-september-electric-van-sales-2026": {
   "image": "/images/news/record-september-electric-van-sales-2026.jpg",
@@ -17,7 +19,9 @@
  },
  "renault-trafic-e-tech-van-of-the-year": {
   "image": "/images/news/renault-trafic-e-tech-van-of-the-year.jpg",
-  "alt": " Renault Trafic E-Tech named International Van of the Year 2027"
+  "credit": "Photo: Y.Leclercq, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:Renault_Trafic_E-Tech_-_Avant.jpg",
+  "alt": "Renault Trafic E-Tech named International Van of the Year 2027"
  },
  "zero-emission-van-grant-explained": {
   "image": "/images/news/zero-emission-van-grant-explained.jpg",
