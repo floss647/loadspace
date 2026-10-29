@@ -272,6 +272,16 @@
   "title": "File:Mercedes-Benz eActros 600, Frankfurt am Main (P1032690).jpg",
   "note": ""
  },
+ "mercedes-benz-sprinter": {
+  "file": "/images/vehicles/mercedes-benz-sprinter.jpg",
+  "page": "",
+  "author": "Mercedes-Benz Vans",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Mercedes-Benz eSprinter panel van, Mercedes-Benz Vans press image",
+  "note": "US-market van shown",
+  "source": "Mercedes-Benz media"
+ },
  "mercedes-benz-vito": {
   "file": "/images/vehicles/mercedes-benz-vito.jpg",
   "page": "",
@@ -393,6 +403,16 @@
   "note": "",
   "source": "Toyota GB media"
  },
+ "toyota-proace": {
+  "file": "/images/vehicles/toyota-proace.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Proace Electric panel van, Toyota GB press image",
+  "note": "",
+  "source": "Toyota GB media"
+ },
  "toyota-proace-city": {
   "file": "/images/vehicles/toyota-proace-city.jpg",
   "page": "",
@@ -400,6 +420,16 @@
   "licence": "Press image",
   "licenceUrl": "",
   "title": "Toyota Proace City Electric van, Toyota GB press image",
+  "note": "",
+  "source": "Toyota GB media"
+ },
+ "toyota-proace-max": {
+  "file": "/images/vehicles/toyota-proace-max.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Proace Max Electric panel van, Toyota press image",
   "note": "",
   "source": "Toyota GB media"
  },
@@ -502,5 +532,15 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:Volvo FM Electric, VCV Australia, Brisbane South Branch, 2023, 01.jpg",
   "note": ""
+ },
+ "yutong-t75e": {
+  "file": "/images/vehicles/yutong-t75e.jpg",
+  "page": "",
+  "author": "Yutong",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Yutong T75e electric truck, Yutong press image",
+  "note": "",
+  "source": "Yutong"
  }
 }
