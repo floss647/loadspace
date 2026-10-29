@@ -45,7 +45,7 @@ const short = (t) => (t && t.length > 140 ? t.slice(0, t.lastIndexOf(' ', 137)) 
         <h3>{s.label}</h3>
         <div class="grid">
           {items.filter((v) => v.size === k).sort((a, b) => b.guide - a.guide || a.name.localeCompare(b.name)).map((v) => (
-            <a class="card has-img" href={v.href}><VehicleImage slug={v.slug} name={v.name} size="card" /><h3>{v.name}</h3><p>{v.usedOnly && <span class="tag">No longer sold new</span>} {short(v.text)}</p></a>
+            <a class="card has-img" href={v.href}><VehicleImage slug={v.slug} name={v.name} size="card" /><h3>{v.name}</h3><p>{short(v.text)}</p></a>
           ))}
         </div>
       </>
