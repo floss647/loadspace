@@ -129,9 +129,9 @@ export const VANS = [
   }),
   v('Ford', 'Transit City', 'medium', {
     electric: true,
-    electricNote: 'Electric only. On sale from about £29,000 excluding VAT, with around 160 miles of range.',
+    electricNote: 'Electric only. Ford lists it from £29,000 before VAT and before the van grant, with an official range of up to 158 miles (WLTP).',
     intro:
-      "Ford's cheaper electric van, built in China and on sale in the UK from October 2026. It sits between the E-Transit Courier and E-Transit Custom, with payloads of about 1,085kg to 1,275kg.",
+      "Ford's cheaper electric van, built in China and close in size to a Transit Custom. It has a 56kWh battery and payloads of 1,085kg to 1,275kg, according to Ford.",
   }),
   v('Volkswagen', 'Transporter', 'medium', {
     twin: 'ford-vw-medium',
