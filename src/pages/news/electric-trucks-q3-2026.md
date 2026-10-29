@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NewsPost.astro
-title: "Truck market grows, but electric trucks fall to 1.1% of sales"
+title: "Truck market grows, but zero-emission trucks fall to 1.1% of registrations"
 date: 2026-10-29T09:30:00Z
 tag: Trucks
 summary: "New truck registrations rose 7.2% in the third quarter of 2026, the first growth in two years, but zero-emission truck registrations halved."
@@ -13,9 +13,10 @@ sources:
   - https://www.gov.uk/government/news/1-billion-to-cut-costs-for-businesses-drive-growth-and-clean-up-uk-roads
   - https://www.gov.uk/government/consultations/new-hgv-co2-emissions-regulatory-framework-for-the-uk
   - https://trans.info/en/zehid-annual-report-electric-trucks-508070
+  - https://www.gov.uk/zero-emission-vehicle-grants
 facts:
   # SMMT, Q3 2026 HGV registrations (published 12 Oct 2026)
-  - claim: "1.1% of sales"
+  - claim: "1.1% of registrations"
     source: https://www.smmt.co.uk/hgv-market-grows-for-first-time-in-two-years/
     quote: "registrations of zero-emission HGVs halved in the quarter (-50.7%) to account for only 1.1% of the market"
   - claim: "rose 7.2% in the third quarter of 2026, the first growth in two years"
@@ -105,6 +106,9 @@ facts:
   - claim: "quoted five years for a grid connection"
     source: https://trans.info/en/zehid-annual-report-electric-trucks-508070
     quote: "One eFREIGHT 2030 site was quoted five years for a connection"
+  - claim: "38–44 tonne"
+    source: https://trans.info/en/zehid-annual-report-electric-trucks-508070
+    quote: "It covers the 38-44 tonne segment"
   - claim: "about 1,350 km a week"
     source: https://trans.info/en/zehid-annual-report-electric-trucks-508070
     quote: "In early deployment, electric HGVs averaged about 1,350 km a week , compared with about 2,600 km for a sample of diesel trucks."
@@ -182,15 +186,15 @@ SMMT doesn't give a unit total for this quarter. A year earlier, 225 zero-emissi
 
 "A recovery in new HGV registrations after two years of falling demand is a welcome boost for the sector, albeit from a low base," said Mike Hawes, SMMT's chief executive. "The decline in zero-emission registrations, however, underlines the volatility and fragility of the transition in a sector with complex operating requirements, with market share still stuck at just one in 100 new trucks."
 
-## Why electric trucks fell
+## What's holding electric trucks back
 
-SMMT doesn't single out one cause, but says the cost of buying the trucks and building depot charging "remains a significant barrier", lowered only in part by government support. It also wants a national infrastructure strategy to give operators confidence.
+SMMT doesn't give a reason for the fall. The comparison is tough: last year's third quarter was unusually strong, when zero-emission uptake more than quadrupled.
 
-The comparison is also tough. Last year's third quarter was unusually strong: zero-emission uptake more than quadrupled.
+More generally, SMMT says the cost of buying the trucks and building depot charging "remains a significant barrier", lowered only in part by government support. It also wants a national infrastructure strategy to give operators confidence.
 
 Government-backed trials matter in a market this small. The ZEHID programme (Zero Emission HGV and Infrastructure Demonstrator) has deployed more than 240 zero-emission trucks and 40 charging sites, trans.info reports. One of its projects, Electric Freightway, accounted for 24% of all new electric HGV registrations in the UK in 2025. The programme hasn't ended: around 300 trucks and 70 sites are expected by the end of 2026, and monitoring runs until 2031.
 
-The same report found the funded electric trucks cost around 2.7 times as much as diesel ones to buy. Charging is slow to arrive too: one project site was quoted five years for a grid connection.
+ZEHID's first annual report, as reported by trans.info, found the funded electric trucks cost around 2.7 times as much as diesel ones to buy. Charging is slow to arrive too: one project site was quoted five years for a grid connection.
 
 ## Help available
 
@@ -213,4 +217,4 @@ The government plans to end sales of new non-zero-emission HGVs up to and includ
 
 - **Check the grant on your quote.** The cap depends on weight, and the lightest trucks get a smaller share.
 - **Start the power conversation early.** Grid connections can take years.
-- **Be realistic about mileage.** In early use, ZEHID's electric trucks averaged about 1,350 km a week (about 840 miles), against about 2,600 km (about 1,600 miles) for diesel trucks, although the report says the operations are not directly comparable. Read [are electric trucks ready?](/guides/are-electric-trucks-ready/) and browse [electric trucks on sale](/trucks/).
+- **Be realistic about mileage.** In early use, ZEHID's heavy (38–44 tonne) electric trucks averaged about 1,350 km a week (about 840 miles), against about 2,600 km (about 1,600 miles) for a sample of diesel trucks, trans.info reported, although the report says the operations are not directly comparable. Read [are electric trucks ready?](/guides/are-electric-trucks-ready/) and browse [electric trucks on sale](/trucks/).

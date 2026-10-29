@@ -15,7 +15,7 @@ const img = IMAGES[slug];
       {img && (
         <figure class="vimg">
           <img src={img.image} alt={img.alt || f.title} width="1600" height="900" />
-          {img.credit && <figcaption class="small muted">{img.credit}</figcaption>}
+          {(f.photoCaption || img.credit) && <figcaption class="small muted">{f.photoCaption && <>{f.photoCaption} </>}{img.credit}</figcaption>}
         </figure>
       )}
       <p class="lede">{f.summary}</p>
