@@ -19,6 +19,7 @@ A story only goes live after passing all four:
 - **Be exact about what a figure is.** Ex VAT or inc VAT, before or after the grant, official (WLTP) or real-world, UK or another country, provisional or final.
 - **Conversions and sums** (km to miles, differences between prices) go in the facts list as a `calc:` showing the working, using only sourced figures.
 - **Quotes from people** must be copied word for word from the source. Otherwise, paraphrase without quote marks.
+- **No em dashes, ever.** Use a comma, colon, full stop or brackets. The build fails if one appears anywhere on the site. En dashes in ranges (10–80%) are fine. If a source quote in the facts list contains an em dash, type it as a hyphen: the checker treats all dashes as the same.
 - **Write in our own words.** Credit figures in the text ("according to SMMT"). No links to other websites. Internal links to our own guides and van pages are encouraged.
 - **Dates.** Check the source's publication date. Don't present old news as new.
 - **Photos.** Licensed photos only (see `README.md`). The photo must be the right vehicle: the panel van, not the passenger version.

@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "prebuild": "node scripts/check-news.mjs",
+    "prebuild": "node scripts/check-style.mjs && node scripts/check-news.mjs",
     "check-news": "node scripts/check-news.mjs",
     "check-news:live": "node scripts/check-news.mjs --live"
   },

@@ -26,7 +26,7 @@ Don't repeat a story we've already covered (check src/pages/news/) unless there'
 4. Run `NODE_USE_ENV_PROXY=1 npm run check-news:live` and `npm run build`. Both must pass.
 
 ## Hand to the editor
-- Create a branch `news/<yyyy-mm-dd>`, commit (author: Adrian <adrian@allspeechesgreatandsmall.com>), push, and open a pull request (not draft) titled "News: <headlines>".
+- Create a branch `news/<yyyy-mm-dd>`, commit (author: Adrian <adrian@allspeechesgreatandsmall.com>), push, and open a pull request titled "News: <headlines>". `gh pr create` won't work (GraphQL is blocked); use the REST API: `gh api repos/floss647/loadspace/pulls -X POST -f title=... -f head=news/<date> -f base=main -F body=@pr.md`.
 - PR body: for each story, the headline, a 2-line summary, the primary sources, and anything the checker flagged and how it was resolved. Say clearly what the editor should look at.
 - Do NOT merge. The editor reviews the Netlify preview and merges.
 - If there's no real news, don't open a PR; just finish with a one-line note saying so.

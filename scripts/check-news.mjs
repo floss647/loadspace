@@ -72,7 +72,7 @@ function parse(file) {
 function storyText(fm, body) {
   // Drop link targets (internal paths) but keep link text; drop markdown syntax that holds no facts.
   const clean = body.replace(/\]\([^)]*\)/g, ']').replace(/<[^>]+>/g, ' ').replace(/\b4x4s?\b/gi, '');
-  return [fm.title, fm.summary, fm.stat, fm.statLabel, clean].filter(Boolean).join('\n');
+  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, clean].filter(Boolean).join('\n');
 }
 
 function checkOffline(slug, fm, body) {
