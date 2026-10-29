@@ -24,6 +24,16 @@ A story only goes live after passing all four:
 - **Dates.** Check the source's publication date. Don't present old news as new.
 - **Photos.** Licensed photos only (see `README.md`). The photo must be the right vehicle: the panel van, not the passenger version.
 
+## Press photos
+
+Some vehicle photos come from makers' press offices (Stellantis, Toyota, Mercedes-Benz, Daimler Truck, Nissan, MAN and others), not Wikimedia. They're marked `"editorialOnly": true` in `src/data/images.json`. Their terms allow **editorial reporting only**, so:
+- use them only on editorial pages: van and truck pages, news, guides and the column;
+- never use them in adverts, sponsor slots, paid social posts, promotional emails or anything selling a product or service;
+- always show the credit (the site does this automatically);
+- don't edit them beyond resizing and cropping: no badges, text, filters or composites. The image script leaves the Overloaded badge off press photos for this reason.
+
+If we want a press photo for something promotional, ask that press office for written permission first.
+
 ## Facts list format
 
 ```yaml
