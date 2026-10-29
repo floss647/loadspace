@@ -19,6 +19,17 @@
   "title": "File:2024 Citroën ë-Jumpy Automesse Ludwigsburg 2024 IMG 1391.jpg",
   "note": "Sold as the ë-Jumpy in mainland Europe."
  },
+ "citroen-e-c3-van": {
+  "file": "/images/vehicles/citroen-e-c3-van.jpg",
+  "page": "",
+  "author": "Citroën UK",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "Citroën ë-C3 Van, Citroën UK press image",
+  "note": "",
+  "source": "Stellantis Media",
+  "editorialOnly": true
+ },
  "citroen-relay": {
   "file": "/images/vehicles/citroen-relay.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Jumper_(2014)_IMG_0456.jpg",
@@ -144,6 +155,17 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:2024 Isuzu D-Max (third generation) GIMS 2024 1X7A2056.jpg",
   "note": "Diesel version shown."
+ },
+ "iveco-daily": {
+  "file": "/images/vehicles/iveco-daily.jpg",
+  "page": "",
+  "author": "Iveco",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "Iveco eDaily van, Iveco press image",
+  "note": "",
+  "source": "Iveco media",
+  "editorialOnly": true
  },
  "iveco-s-eway": {
   "file": "/images/vehicles/iveco-s-eway.jpg",
