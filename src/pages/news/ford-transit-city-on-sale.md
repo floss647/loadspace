@@ -190,7 +190,10 @@ facts:
   - claim: "(160,000km)"
     source: https://vanreviewer.co.uk/news/new-ford-transit-city-is-an-affordable-chinese-made-electric-van/
     quote: "an eight-year, 160,000km warranty for all high-voltage components"
-  - claim: "no optional extras and just one trim"
+  - claim: "metallic paint at £650 before VAT"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "Ingot Silver Metallic PN4AG O 650 780"
+  - claim: "just one trim"
     source: https://vanreviewer.co.uk/news/new-ford-transit-city-is-an-affordable-chinese-made-electric-van/
     quote: "To save on costs and complexity there will be no optional extras and just one trim across Europe."
   - claim: "a relatively small battery"
@@ -237,11 +240,11 @@ facts:
     quote: "Mirror apps on your touchscreen with Apple CarPlay and Android Auto. Just connect via USB"
 ---
 
-Ford's **Transit City** is an **electric only** van, close in size to a Transit Custom but much cheaper. It isn't brand new: Ford revealed it in March 2026, and its UK price list is dated 29 April 2026. Van Reviewer reported at the reveal that order books would open in early Q2 2026, with first UK deliveries most likely from October to November.
+Ford's **Transit City** is an **electric only** van that Van Reviewer reports is close in size to a Transit Custom, but much cheaper. It isn't brand new: Ford revealed it in March 2026, and its UK price list is dated 29 April 2026. Van Reviewer reported at the reveal that order books would open in early Q2 2026, with first UK deliveries most likely from October to November.
 
 Ford's price list starts it at **£29,000 before VAT**, or **£29,436** before VAT with on-the-road costs. That's **£14,630 less** than the cheapest E-Transit Custom, which Ford lists from £43,630 before VAT. Both prices are before the van grant.
 
-The van is **made in Nanchang, China**, by **Ford's Chinese partner JMC**, and the **batteries come from CATL**, Van Reviewer reports. It also reports that, to save cost, there are no optional extras and just one trim, and calls the **56kWh** pack a relatively small battery for a van this size.
+The van is **made in Nanchang, China**, by **Ford's Chinese partner JMC**, and the **batteries come from CATL**, Van Reviewer reports. It also reports that, to save cost, there's just one trim. Ford's price list does still list some paid options, such as metallic paint at £650 before VAT. Van Reviewer calls the **56kWh** pack a relatively small battery for a van this size.
 
 ## The key numbers
 
@@ -249,7 +252,7 @@ The van is **made in Nanchang, China**, by **Ford's Chinese partner JMC**, and t
 |---|---|---|
 | List price, before VAT | £29,000 | £31,500 |
 | On-the-road price, before VAT | £29,436 | £31,936 |
-| Official range (WLTP) | 158 miles | 139 miles |
+| Official range (WLTP combined) | 158 miles | 139 miles |
 | Load volume | 6.4m³ | 8.5m³ |
 | Payload | 1,085kg | 1,275kg |
 | Gross weight | 3,000kg | 3,270kg |

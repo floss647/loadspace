@@ -3,11 +3,12 @@ layout: ../../layouts/NewsPost.astro
 title: "Government could cut 2030 electric van target: consultation closes"
 date: 2026-10-29T11:30:00Z
 tag: Policy
-summary: "The government's review of the zero-emission vehicle mandate for new cars and vans closed on 23 October. For vans, options include cutting the 2030 target from 70% to 60%, 50% or 40%. No decision has been announced."
+summary: "The government's review of the zero-emission vehicle mandate for new cars and vans closed on 23 October. For vans, options include cutting the 2030 target from 70% to 60%, 50% or 40%. No decision has been announced, but the government aims to respond by the end of 2026."
 stat: "70%"
 statLabel: "is the zero-emission target for new vans in 2030 under current rules. The lowest option in the review is 40%."
 photo: ford-transit-custom
 sources:
+  - https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
   - https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review
   - https://assets.publishing.service.gov.uk/media/6ab52a53734e2435f202f032/zev-mandate-review-consultation.pdf
   - https://www.gov.uk/government/news/review-launched-to-shape-pathway-to-reach-zero-emission-driving-by-2035
@@ -107,9 +108,15 @@ facts:
   - claim: "SMMT update published on 23 October"
     source: https://www.smmt.co.uk/industry-needs-a-viable-path-to-zero-emission-mobility/
     quote: "Industry needs a viable path to zero emission mobility 23 Oct 2026"
-  - claim: "reviewing the rules by early 2027"
-    source: https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review
-    quote: "as part of the government’s commitment to reviewing the VETS order by early 2027"
+  - claim: "28 October"
+    source: https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
+    quote: "Published 28 October 2026"
+  - claim: "respond by the end of 2026"
+    source: https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
+    quote: "The government aims to publish a shared response to the consultation by the end of 2026, with a view to any changes taking effect from the 2027 compliance year."
+  - claim: "publish its response by the end of 2026, with a view to any changes taking effect from the 2027 compliance year"
+    source: https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
+    quote: "The government aims to publish a shared response to the consultation by the end of 2026, with a view to any changes taking effect from the 2027 compliance year."
   - claim: "the options only change targets from 2027"
     source: https://assets.publishing.service.gov.uk/media/6ab52a53734e2435f202f032/zev-mandate-review-consultation.pdf
     quote: "This option reduces the annual ZE van targets from 2027"
@@ -123,7 +130,7 @@ facts:
 
 The government's review of the **zero-emission vehicle (ZEV) mandate**, the rule requiring a rising share of new cars and vans to be zero emission, closed on **23 October 2026**. The consultation opened on 14 August and ran for 10 weeks.
 
-Run jointly by the UK and devolved governments, it asks whether the yearly targets are still realistic. **No decision has been announced yet.**
+Run jointly by the UK and devolved governments, it asks whether the yearly targets are still realistic. **No decision has been announced yet.** In the Budget on 28 October, the government said it aims to publish its response by the end of 2026, with a view to any changes taking effect from the 2027 compliance year.
 
 ## How the target works
 
@@ -169,7 +176,7 @@ Trucks aren't part of this review. A separate consultation on rules for HGVs clo
 
 ## What it means for you
 
-- **Nothing changes yet.** The current targets stay until any changes are made in law. This year's 24% isn't affected, because the options only change targets from 2027. No decision date has been given, but the government is committed to reviewing the rules by early 2027.
+- **Nothing changes yet.** The current targets stay until any changes are made in law. This year's 24% isn't affected, because the options only change targets from 2027. Any changes would follow the government's response, which it aims to publish by the end of 2026.
 - **Discounts may not last forever.** SMMT says substantial discounts helped drive record electric van sales in September, and that makers have been discounting to close the gap between electric car and van sales and the targets. If the targets are cut, that pressure could ease.
 - **Don't forget the grant.** See our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) and current [deals](/deals/).
 - **If you're close to switching,** today's offers may be as good as they get for a while. Try our [lease, buy new or buy used calculator](/tools/lease-or-buy/).
