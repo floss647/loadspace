@@ -2,6 +2,10 @@
 
 Eight posts for the founder's personal profile, two a week for four weeks.
 
+**Images:** one per post in `marketing/images/` (made by `python3 scripts/linkedin_images.py`, our own charts and cards, no press photos).
+
+**Scheduling:** once Typefully is connected, ask Claude to schedule these in Typefully with their images. Each one needs your approval before it goes out.
+
 **Links:** every link below uses https://loadspace-vans.netlify.app/. When the custom domain goes live, swap the domain before posting (the paths stay the same).
 
 **Before posting each one:**
@@ -17,6 +21,8 @@ Eight posts for the founder's personal profile, two a week for four weeks.
 ## Week 1
 
 ### Post 1 (Tuesday 3 November): why Loadspace exists
+
+**Image:** `marketing/images/post-1.png`
 
 Advice on electric vans should come from someone who isn't trying to sell you one.
 
@@ -54,6 +60,8 @@ https://loadspace-vans.netlify.app/
 
 ### Post 2 (Thursday 5 November): ZEV mandate review and SMMT September figures
 
+**Image:** `marketing/images/post-2.png`
+
 A record month for electric vans. Still less than half the target.
 
 According to SMMT, 4,832 battery electric vans were registered in September, the best month ever and up 13.4% on last September. That's 9.6% of the market. Between January and September the share was 10.8%. The zero emission vehicle mandate requires 24% this year.
@@ -86,6 +94,8 @@ https://loadspace-vans.netlify.app/news/zev-mandate-van-consultation-closes/
 ## Week 2
 
 ### Post 3 (Tuesday 10 November): which vans fail their MOT least
+
+**Image:** `marketing/images/post-3.png`
 
 Which vans are least likely to fail their MOT at five or six years old?
 
@@ -125,6 +135,8 @@ https://loadspace-vans.netlify.app/reliability/
 
 ### Post 4 (Friday 13 November): Overloaded, the weekly column
 
+**Image:** `marketing/images/post-4.png`
+
 Every Friday, we publish a column about vans. The first one featured a Polo mint so old it may now be load-bearing.
 
 It's called Overloaded. It's grumpy, it wanders off down side roads, and it always sides with the person in the driver's seat with a pasty on the dashboard. Think strong opinions, daft tangents and potholes deep enough to have their own weather.
@@ -147,6 +159,8 @@ https://loadspace-vans.netlify.app/blog/
 ## Week 3
 
 ### Post 5 (Tuesday 17 November): the Zero Emission Van Grant
+
+**Image:** `marketing/images/post-5.png`
 
 If you're buying a new electric van, you don't apply for the government grant. The dealer does it for you.
 
@@ -185,6 +199,8 @@ https://loadspace-vans.netlify.app/news/zero-emission-van-grant-explained/
 
 ### Post 6 (Thursday 19 November): how MOT failure rates rise with age
 
+**Image:** `marketing/images/post-6.png`
+
 A five-year-old van is not a ten-year-old van. The MOT data shows how big the difference is.
 
 Across all the initial MOT tests of the van and pickup models we track, combined, DVSA's 2024 results give these failure rates by age:
@@ -221,6 +237,8 @@ https://loadspace-vans.netlify.app/reliability/
 
 ### Post 7 (Tuesday 24 November): the lease true-cost calculator
 
+**Image:** `marketing/images/post-7.png`
+
 "£279 a month" is almost never £279 a month.
 
 Van leases are often quoted with a profile like "6 + 35". On a 36-month lease, that means six monthly payments up front, then 35 more. That's 41 payments for 36 months, before any fees.
@@ -246,6 +264,8 @@ https://loadspace-vans.netlify.app/tools/lease-true-cost/
 ---
 
 ### Post 8 (Thursday 26 November): same van, different badge, different MOT results
+
+**Image:** `marketing/images/post-8.png`
 
 Same van. Different badge. Different MOT results.
 

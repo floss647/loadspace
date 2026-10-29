@@ -6,9 +6,9 @@ import { join, dirname, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DIRS = ['src', 'public', 'netlify'];
+const DIRS = ['src', 'public', 'netlify', 'marketing'];
 const TEXT = new Set(['.astro', '.md', '.mdx', '.js', '.mjs', '.ts', '.json', '.html', '.css', '.svg', '.txt', '.xml']);
-const BANNED = [['—', 'em dash'], ['&mdash;', 'em dash'], ['&#8212;', 'em dash'], ['\\u2014', 'em dash']];
+const BANNED = [['\u2014', 'em dash'], ['&mdash;', 'em dash'], ['&#8212;', 'em dash'], ['\\u2014', 'em dash']];
 
 const problems = [];
 function walk(dir) {
