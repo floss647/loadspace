@@ -13,7 +13,7 @@ sources:
   - https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
   - https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
   - https://www.smmt.co.uk/van-market-posts-half-year-gain-but-ev-transition-still-lags/
-  - https://www.gov.uk/plug-in-vehicle-grants/vans
+  - https://www.gov.uk/zero-emission-vehicle-grants/vans
 facts:
   - claim: "5 October"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
@@ -60,9 +60,9 @@ facts:
   - claim: "less than half"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "demand remains less than half the mandated level"
-  - claim: "Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
+  - claim: "September's record electric van uptake shows manufacturers are delivering, with investment in new models and substantial discounts helping operators make the switch. Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
-    quote: "Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
+    quote: "September’s record electric van uptake shows manufacturers are delivering, with investment in new models and substantial discounts helping operators make the switch. Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
   - claim: "Mike Hawes"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "Mike Hawes, SMMT Chief Executive September’s record electric van uptake shows manufacturers are delivering"
@@ -174,21 +174,38 @@ facts:
     source: https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
     quote: "The outlook is scheduled to be next revised in October and the results will be posted by 5 November."
   - claim: "£2,500"
-    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some small vans is £2,500."
   - claim: "£5,000"
-    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
-  - claim: "The dealer includes the discount in the price"
-    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+  - claim: "which the seller includes in the price"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The seller will include the discount in the purchase price."
+  - claim: "35%"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
+    quote: "Some vans can be sold at a 35% discount."
+  - claim: "under 2,500kg gross weight"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
+    quote: "be less than 2,500 kilograms (kg) gross vehicle weight"
+  - claim: "between 2,500kg and 4,250kg"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
+    quote: "be between 2,500kg and 4,250kg gross vehicle weight"
+  - claim: "often a bumper month for new vans because of the new number plate"
+    source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
+    quote: "Often a bumper month with the introduction of the new number plate"
+  - claim: "50,358"
+    source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
+    quote: "Total 50,358 47,678 5.6%"
+  - claim: "4,832 out of 50,358"
+    calc: "SMMT fuel-type table, September 2026: All LCV BEVs 4,832 / Total 50,358 = 9.6%, matching SMMT's 9.6% share. The 50,358 total includes the 654 BEV rigids of 3.5-4.25t; the 49,704 market figure does not."
 ---
 
-September is always a big month for new vans because of the new number plate. SMMT's figures, published on 5 October, show **49,704 new vans, pickups and 4x4s** were registered, up **4.8%** on last September. That's the highest monthly total of 2026 and the sixth month of growth in a row, according to SMMT.
+September is often a bumper month for new vans because of the new number plate, according to SMMT. SMMT's figures, published on 5 October, show **49,704 new vans, pickups and 4x4s** were registered, up **4.8%** on last September. That's the highest monthly total of 2026 and the sixth month of growth in a row, according to SMMT.
 
-Electric vans had their best month ever: **4,832 registrations, up 13.4%** from 4,262 a year earlier. But that's still only **9.6%** of the market, up from 8.9% last September. So far this year the share is **10.8%**, against the **24%** that the Zero Emission Vehicle Mandate requires this year.
+Electric vans had their best month ever: **4,832 registrations, up 13.4%** from 4,262 a year earlier. But that's still only **9.6%** of the market, up from 8.9% last September. That share is 4,832 out of 50,358 registrations, according to SMMT, whose total counts the heavier electric vans too (see below). So far this year the share is **10.8%**, against the **24%** that the Zero Emission Vehicle Mandate requires this year.
 
-SMMT's chief executive, Mike Hawes, said: "Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
+SMMT's chief executive, Mike Hawes, said: "September's record electric van uptake shows manufacturers are delivering, with investment in new models and substantial discounts helping operators make the switch. Yet, even with high fuel prices, demand remains less than half the mandated level due to higher purchase costs, grid delays and a shortage of van-suitable charging."
 
 ## The numbers
 
@@ -216,5 +233,5 @@ SMMT wants the government's review of the mandate to set a more realistic path. 
 ## What it means for you
 
 - **Push for a good price.** Makers are well short of their target and are already discounting. See our [latest deals](/deals/).
-- **Check the grant.** GOV.UK lists a maximum discount of £2,500 on some small electric vans and £5,000 on some large ones. The dealer includes the discount in the price. Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) explains who qualifies.
+- **Check the grant.** GOV.UK says some vans can be sold at a 35% discount, which the seller includes in the price. The maximum discount is £2,500 on some electric vans under 2,500kg gross weight and £5,000 on some between 2,500kg and 4,250kg. Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) explains who qualifies.
 - **Run your own numbers** before deciding: [electric vs diesel calculator](/tools/electric-vs-diesel/).
