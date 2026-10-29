@@ -7,6 +7,9 @@ summary: "4,832 electric vans were registered in September, a record according t
 stat: "9.6%"
 statLabel: "of new vans registered in September were electric. The 2026 target is 24%."
 photo: vauxhall-vivaro
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
   - https://www.smmt.co.uk/electric-van-share-reaches-record-high-during-low-volume-august/

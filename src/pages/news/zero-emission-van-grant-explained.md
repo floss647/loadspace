@@ -7,7 +7,11 @@ summary: "New electric vans can get up to £2,500 or £5,000 off, and the heavie
 stat: "£5,000"
 statLabel: "the most a new large electric van can get off its price under the Zero Emission Van Grant."
 photo: ford-transit
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
+  - https://www.gov.uk/government/publications/report-on-the-zero-emission-truck-grant-zetg-and-zero-emission-van-grant-zevg-scheme
   - https://www.gov.uk/zero-emission-vehicle-grants
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
   - https://www.gov.uk/zero-emission-vehicle-grants/trucks
@@ -219,7 +223,7 @@ facts:
 
 Since April 2026, the government's discount on new electric vans and trucks has been called the **Zero Emission Van Grant** and **Zero Emission Truck Grant**. They are an updated version of the old Plug-in Van Grant and Plug-in Truck Grant, paid by the Office for Zero Emission Vehicles.
 
-According to a report by the Competition and Markets Authority's Subsidy Advice Unit, published on 24 March 2026, the scheme is planned to run from 1 April 2026 to 31 March 2030, or until its **£877 million** budget runs out. The report, which is non-binding advice to the Office for Zero Emission Vehicles, gives grant levels only for the 2026/2027 financial year. The grants were announced on 25 March 2026 as part of a **£1 billion** package for electric vans, trucks and depot chargers.
+According to a report by the Competition and Markets Authority's Subsidy Advice Unit, published on 24 March 2026, the scheme is planned to run from 1 April 2026 to 31 March 2030, or until its **£877 million** budget runs out. The report, which is non-binding advice to the Office for Zero Emission Vehicles, gives grant levels only for the 2026/2027 financial year. Funding for the grants was announced on 25 March 2026 as part of a **£1 billion** package for electric vans, trucks and depot chargers.
 
 ## Vans
 
