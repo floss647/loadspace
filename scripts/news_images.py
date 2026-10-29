@@ -149,7 +149,8 @@ def make_section(section, style):
         photo = fm.get('photo')
         if photo and photo in PHOTOS:
             im = from_photo(photo)
-            if style == 'column':
+            # Press photos are editorial-only and mustn't be edited, so no badge on them.
+            if style == 'column' and not PHOTOS[photo].get('editorialOnly'):
                 badge(im)
             p = PHOTOS[photo]
             meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'credit': (f"Photo: {p.get('author')} press image" if p.get('source') else f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}"), 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}

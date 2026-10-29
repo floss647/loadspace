@@ -7,7 +7,8 @@
   "licenceUrl": "",
   "title": "Citroën ë-Berlingo van, Citroën UK press image",
   "note": "",
-  "source": "Stellantis Media"
+  "source": "Stellantis Media",
+  "editorialOnly": true
  },
  "citroen-dispatch": {
   "file": "/images/vehicles/citroen-dispatch.jpg",
@@ -188,7 +189,19 @@
   "licenceUrl": "",
   "title": "Magtec MEV75 electric truck, Magtec image",
   "note": "",
-  "source": "Magtec"
+  "source": "Magtec",
+  "editorialOnly": true
+ },
+ "man-etgl": {
+  "file": "/images/vehicles/man-etgl.jpg",
+  "page": "",
+  "author": "MAN Truck & Bus",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "MAN eTGL electric truck, MAN Truck & Bus press image",
+  "note": "",
+  "source": "MAN media",
+  "editorialOnly": true
  },
  "man-etgx-etgs": {
   "file": "/images/vehicles/man-etgx-etgs.jpg",
@@ -255,12 +268,25 @@
  },
  "mercedes-benz-eactros-600": {
   "file": "/images/vehicles/mercedes-benz-eactros-600.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_eActros_600,_Frankfurt_am_Main_(P1032690).jpg",
-  "author": "Matti Blume",
-  "licence": "CC BY-SA 4.0",
-  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-  "title": "File:Mercedes-Benz eActros 600, Frankfurt am Main (P1032690).jpg",
-  "note": ""
+  "page": "",
+  "author": "Daimler Truck AG",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "Mercedes-Benz eActros 600, Daimler Truck AG press image",
+  "note": "",
+  "source": "Daimler Truck media",
+  "editorialOnly": true
+ },
+ "mercedes-benz-sprinter": {
+  "file": "/images/vehicles/mercedes-benz-sprinter.jpg",
+  "page": "",
+  "author": "Mercedes-Benz Vans",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Mercedes-Benz eSprinter panel van, Mercedes-Benz Vans press image",
+  "note": "US-market van shown",
+  "source": "Mercedes-Benz media",
+  "editorialOnly": true
  },
  "mercedes-benz-vito": {
   "file": "/images/vehicles/mercedes-benz-vito.jpg",
@@ -270,7 +296,8 @@
   "licenceUrl": "",
   "title": "Mercedes-Benz eVito panel van, Mercedes-Benz Vans UK press image",
   "note": "",
-  "source": "Mercedes-Benz media"
+  "source": "Mercedes-Benz media",
+  "editorialOnly": true
  },
  "nissan-e-nv200": {
   "file": "/images/vehicles/nissan-e-nv200.jpg",
@@ -289,7 +316,8 @@
   "licenceUrl": "",
   "title": "Nissan Interstar panel van, Nissan press image",
   "note": "",
-  "source": "Nissan media"
+  "source": "Nissan media",
+  "editorialOnly": true
  },
  "nissan-townstar": {
   "file": "/images/vehicles/nissan-townstar.jpg",
@@ -308,7 +336,8 @@
   "licenceUrl": "",
   "title": "Peugeot E-Boxer panel van, Peugeot UK press image",
   "note": "",
-  "source": "Stellantis Media"
+  "source": "Stellantis Media",
+  "editorialOnly": true
  },
  "peugeot-expert": {
   "file": "/images/vehicles/peugeot-expert.jpg",
@@ -381,7 +410,19 @@
   "licenceUrl": "",
   "title": "Toyota Hilux electric pickup, Toyota GB press image",
   "note": "",
-  "source": "Toyota GB media"
+  "source": "Toyota GB media",
+  "editorialOnly": true
+ },
+ "toyota-proace": {
+  "file": "/images/vehicles/toyota-proace.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Proace Electric panel van, Toyota GB press image",
+  "note": "",
+  "source": "Toyota GB media",
+  "editorialOnly": true
  },
  "toyota-proace-city": {
   "file": "/images/vehicles/toyota-proace-city.jpg",
@@ -391,7 +432,19 @@
   "licenceUrl": "",
   "title": "Toyota Proace City Electric van, Toyota GB press image",
   "note": "",
-  "source": "Toyota GB media"
+  "source": "Toyota GB media",
+  "editorialOnly": true
+ },
+ "toyota-proace-max": {
+  "file": "/images/vehicles/toyota-proace-max.jpg",
+  "page": "",
+  "author": "Toyota GB",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Toyota Proace Max Electric panel van, Toyota press image",
+  "note": "",
+  "source": "Toyota GB media",
+  "editorialOnly": true
  },
  "vauxhall-combo": {
   "file": "/images/vehicles/vauxhall-combo.jpg",
@@ -410,7 +463,8 @@
   "licenceUrl": "",
   "title": "Vauxhall Movano Electric panel van, Vauxhall press image",
   "note": "",
-  "source": "Stellantis Media"
+  "source": "Stellantis Media",
+  "editorialOnly": true
  },
  "vauxhall-vivaro": {
   "file": "/images/vehicles/vauxhall-vivaro.jpg",
@@ -492,5 +546,16 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:Volvo FM Electric, VCV Australia, Brisbane South Branch, 2023, 01.jpg",
   "note": ""
+ },
+ "yutong-t75e": {
+  "file": "/images/vehicles/yutong-t75e.jpg",
+  "page": "",
+  "author": "Yutong",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Yutong T75e electric truck, Yutong press image",
+  "note": "",
+  "source": "Yutong",
+  "editorialOnly": true
  }
 }
