@@ -71,3 +71,7 @@ Add a Markdown file to `src/pages/news/` with this frontmatter:
 
 Rules: always use a photo (`photo:`) when we have a licensed photo of the right vehicle, preferring UK-plated ones; the branded `stat` image is only a fallback. Write every story in our own words, credit figures in the text (e.g. "according to SMMT"), and don't link to other news sites.
 Then run `python3 scripts/news_images.py` to create the story's image, and rebuild.
+
+## Newsletter (Beehiiv)
+
+The sign-up form posts to Netlify Forms (form name `newsletter`). After each verified submission, `netlify/functions/submission-created.mjs` passes the email to Beehiiv, which sends the welcome email. It needs two environment variables in Netlify: `BEEHIIV_API_KEY` (secret) and `BEEHIIV_PUBLICATION_ID`. Without them it does nothing and sign-ups stay in Netlify Forms. Tests: `node scripts/test-beehiiv.mjs`.
