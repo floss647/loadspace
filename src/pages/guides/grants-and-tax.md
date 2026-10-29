@@ -18,7 +18,7 @@ From **1 April 2026** these replaced the old Plug-in Van and Truck Grants. The d
 | Large vans (2.5–4.25 tonnes) | £5,000 |
 | Trucks (over 4.25 tonnes) | Up to 40% of the price, with caps by weight (reported up to about £81,000 for the heaviest) |
 
-The schemes run until **31 March 2030** or until the money runs out. There are limits on how many grants one business can claim each year, and the government can change amounts or eligibility, so ask the dealer what applies on the day you order. Used vehicles don't qualify. [More on the new grants](/news/zero-emission-van-grant-explained/).
+The schemes run until **31 March 2030** or until the money runs out. There are limits on how many grants one business can claim each year (reported as 1,500 vans and 100 trucks), and the government can change amounts or eligibility, so ask the dealer what applies on the day you order. Used vehicles don't qualify. [More on the new grants](/news/zero-emission-van-grant-explained/).
 
 ## VAT
 
@@ -26,7 +26,7 @@ VAT-registered businesses can usually reclaim the VAT on a van, whether bought o
 
 ## Company van tax (van benefit)
 
-When drivers can use a company van privately, a taxable "van benefit" usually applies. **Zero-emission vans have no van benefit charge**, a big saving for staff who take vans home. Check current figures on GOV.UK.
+When drivers can use a company van privately, a taxable "van benefit" usually applies. **Zero-emission vans have no van benefit charge**, against a taxable value of £4,170 a year for a diesel van in 2026/27, plus a fuel benefit charge if the employer pays for private fuel. That's a big saving for staff who take vans home. Check current figures on GOV.UK.
 
 ## Road tax (VED)
 
@@ -34,7 +34,7 @@ Electric vans have paid the standard van rate since April 2025.
 
 ## Capital allowances
 
-Buying a **new** zero-emission van can qualify for a 100% first-year allowance, so you can deduct the full cost from profits in the year you buy. Used vans usually go through the Annual Investment Allowance instead. Ask your accountant which applies to you.
+The special 100% first-year allowance for zero-emission vans **ended in April 2025**. Most businesses can still deduct the full cost of a van (new or used) in the year they buy it through the **Annual Investment Allowance**, which covers up to £1 million of spending a year, and limited companies can also use **full expensing** on new vans. Chargepoints still get a 100% first-year allowance until April 2027. Ask your accountant which applies to you.
 
 ## London charges
 
@@ -43,4 +43,4 @@ Buying a **new** zero-emission van can qualify for a 100% first-year allowance, 
 
 ## Driving licence
 
-A car licence covers electric vans up to **4.25 tonnes** (3.5 tonnes for diesel). [Van sizes and licences explained](/guides/van-sizes-explained/)
+A car licence covers electric vans up to **4.25 tonnes** (3.5 tonnes for diesel). The extra five hours of training this used to require was dropped in 2025. [Van sizes and licences explained](/guides/van-sizes-explained/)

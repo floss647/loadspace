@@ -67,5 +67,7 @@ Add a Markdown file to `src/pages/news/` with this frontmatter:
     photo: volvo-fh-electric   # optional: use a licensed vehicle photo instead
     sources: [...]        # kept for our records; not shown on the page
 
+**Every story must pass the newsroom checks in [NEWSROOM.md](NEWSROOM.md):** a `facts:` list with the exact source wording for every figure, `npm run check-news:live`, an independent `factCheck:` sign-off, and editor approval of the pull request. The build fails if any figure isn't backed by a fact.
+
 Rules: always use a photo (`photo:`) when we have a licensed photo of the right vehicle, preferring UK-plated ones; the branded `stat` image is only a fallback. Write every story in our own words, credit figures in the text (e.g. "according to SMMT"), and don't link to other news sites.
 Then run `python3 scripts/news_images.py` to create the story's image, and rebuild.

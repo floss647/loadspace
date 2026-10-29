@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Report a mistake" description="Spotted something wrong in a Loadspace story or guide? Tell us and we'll check it and correct it openly.">
+  <div class="wrap">
+    <div class="prose">
+      <h1>Report a mistake</h1>
+      <p class="lede">We check every figure against its original source before publishing, but if something's wrong or out of date, we want to know.</p>
+      <p>We'll check what you send against the source. If we got it wrong, we'll fix it and add a dated correction note to the bottom of the story, so readers can see what changed.</p>
+    </div>
+    <form name="correction" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
+      <input type="hidden" name="form-name" value="correction" />
+      <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+      <label>Which page or story?<input name="page" required placeholder="Paste the link or the headline" /></label>
+      <label>What's wrong?<textarea name="problem" required placeholder="What it says, and what it should say"></textarea></label>
+      <label>Where can we check it? (optional)<input name="evidence" placeholder="A link or document that shows the right figure" /></label>
+      <label>Your email (optional, if you'd like a reply)<input type="email" name="email" autocomplete="email" /></label>
+      <div><button class="btn" type="submit">Send</button></div>
+    </form>
+  </div>
+</Base>

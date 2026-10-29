@@ -20,6 +20,13 @@ const img = IMAGES[slug];
       )}
       <p class="lede">{f.summary}</p>
       <slot />
+      {f.corrections?.length > 0 && (
+        <div class="notice small" id="corrections">
+          <strong>Corrections</strong>
+          <ul>{f.corrections.map((c) => <li>{fmtDate(c.date)}: {c.text}</li>)}</ul>
+        </div>
+      )}
+      <p class="small muted">Every figure in this story was checked against its original source, and the story was approved by our editor before publishing. Spotted a mistake? <a href="/corrections/">Tell us</a> and we'll correct it openly.</p>
       <p class="small"><a href="/news/">More news →</a></p>
     </article>
   </div>
