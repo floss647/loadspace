@@ -225,6 +225,17 @@
   "source": "Magtec",
   "editorialOnly": true
  },
+ "man-etge": {
+  "file": "/images/vehicles/man-etge.jpg",
+  "page": "",
+  "author": "MAN Truck & Bus",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "MAN eTGE electric van, MAN Truck & Bus press image",
+  "note": "",
+  "source": "MAN media",
+  "editorialOnly": true
+ },
  "man-etgl": {
   "file": "/images/vehicles/man-etgl.jpg",
   "page": "",
@@ -298,6 +309,17 @@
   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "title": "File:Mercedes-Benz W420 1X7A0304.jpg",
   "note": ""
+ },
+ "mercedes-benz-eactros-300-400-rigid": {
+  "file": "/images/vehicles/mercedes-benz-eactros-300-400-rigid.jpg",
+  "page": "",
+  "author": "Daimler Truck AG",
+  "licence": "Press image, editorial use only",
+  "licenceUrl": "",
+  "title": "Mercedes-Benz eActros rigid, Daimler Truck AG press image",
+  "note": "",
+  "source": "Daimler Truck media",
+  "editorialOnly": true
  },
  "mercedes-benz-eactros-600": {
   "file": "/images/vehicles/mercedes-benz-eactros-600.jpg",
