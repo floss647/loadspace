@@ -11,7 +11,9 @@
  },
  "record-september-electric-van-sales-2026": {
   "image": "/images/news/record-september-electric-van-sales-2026.jpg",
-  "alt": "9.6% of new vans sold in September were electric. The 2026 target is 24%."
+  "credit": "Photo: Calreyn88, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:2021_Vauxhall_Vivaro-e_3100_Dynamic.jpg",
+  "alt": "Record month for electric vans, but still less than half the target"
  },
  "renault-trafic-e-tech-van-of-the-year": {
   "image": "/images/news/renault-trafic-e-tech-van-of-the-year.jpg",
@@ -19,10 +21,14 @@
  },
  "zero-emission-van-grant-explained": {
   "image": "/images/news/zero-emission-van-grant-explained.jpg",
-  "alt": "£5,000 off a new large electric van under the Zero Emission Van Grant."
+  "credit": "Photo: Alexander Migl, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_1X7A1522.jpg",
+  "alt": "The van grant has a new name: what the Zero Emission Van Grant gives you"
  },
  "zev-mandate-van-consultation-closes": {
   "image": "/images/news/zev-mandate-van-consultation-closes.jpg",
-  "alt": "70%? The 2030 electric van target is under review and could be cut to as low as 40%."
+  "credit": "Photo: Calreyn88, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:2021_LEVC_VN5_City.jpg",
+  "alt": "Government could cut 2030 electric van target: consultation closes"
  }
 }
