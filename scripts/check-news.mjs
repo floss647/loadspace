@@ -24,6 +24,8 @@
  * Live check (node scripts/check-news.mjs --live): also opens every source page and confirms
  * each quote is really there. Run it before opening a pull request; the GitHub workflow runs it too.
  *
+ * --draft skips the factCheck sign-off requirement (for the writer's own checks).
+ *
  * Exit code 1 on any problem.
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
@@ -36,6 +38,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const POSTS = join(ROOT, 'src/pages/news');
 const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'), 'utf8'));
 const LIVE = process.argv.includes('--live');
+const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const UA = 'LoadspaceFactCheck/1.0 (https://loadspace-vans.netlify.app; checking our own news sources)';
 
@@ -76,7 +79,7 @@ function checkOffline(slug, fm, body) {
   const errs = [];
   const facts = Array.isArray(fm.facts) ? fm.facts : [];
   if (!facts.length) errs.push('no facts: list. Every story needs its facts and sources listed.');
-  if (!fm.factCheck || !fm.factCheck.by || !fm.factCheck.date) errs.push('no factCheck sign-off (by + date).');
+  if (!DRAFT && (!fm.factCheck || !fm.factCheck.by || !fm.factCheck.date)) errs.push('no factCheck sign-off (by + date).');
 
   const text = storyText(fm, body);
   const ntext = norm(text);
