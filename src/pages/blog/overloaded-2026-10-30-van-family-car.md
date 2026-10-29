@@ -109,7 +109,7 @@ facts:
     joke: "Invented, deliberately ridiculous delivery address."
   - claim: "In official units it was roughly one Singapore"
     joke: "Call-back to the London to Singapore comparison; a column of words obviously can't be measured as a distance to Singapore."
-  - claim: "a tyre on a garage forecourt air machine when you've only got one minute left on the timer"
+  - claim: "a forecourt air machine with ten seconds left on the timer"
     joke: "Comic image comparing charging-price rises to a tyre being pumped up in a hurry; not a claim about tyre pressures or forecourt prices."
   - claim: "who has been stood in the same front garden since the van was new"
     joke: "Call-back absurdity: a goat waiting in a garden for the age of a hire van is plainly invented."
@@ -127,13 +127,13 @@ On Wednesday, the Chancellor, John Healey, delivered his first Budget, and in it
 
 Well, quite. Van drivers have been saying this for years, usually through a mouthful of sausage roll. The van is also the office, the canteen, the wardrobe and the filing cabinet. Mine has a glovebox containing three dead biros and one Polo mint of unknown age that I am now too frightened to touch. It may be load-bearing.
 
-The actual news for anyone filling up: the 5p cut to fuel duty has been extended for a further six months, to 1 July 2027, and the planned rise in line with inflation (RPI) is pushed back to the same date. It isn't a new cut. It's the Treasury promising not to hit you again until the summer, which in motoring terms is practically a cuddle. I'll take it. If you're weighing up a switch, our [electric vs diesel calculator](/tools/electric-vs-diesel/) does the sums without the speeches.
+The actual news for anyone filling up: the 5p cut to fuel duty has been extended for a further six months, to 1 July 2027, and the planned rise in line with inflation (RPI) is pushed back to the same date. It isn't a new cut. It's the Treasury promising not to hit you again until the summer, which in motoring terms is practically a cuddle. If you're weighing up a switch, our [electric vs diesel calculator](/tools/electric-vs-diesel/) does the sums without the speeches.
 
 ## A taskforce for tariff porting
 
 The Budget also found £100 million over two years, from spring 2027, to cut prices at lower-powered public chargers: the slow ones on residential streets, where you plug in overnight and hope a fox doesn't take an interest in the cable. The government reckons drivers who rely on them will save around £150 a year.
 
-They'll need it. An independent review found that since 2021, prices at those chargers have risen by 69% in real terms, and at the faster ones, the sort you find at motorway services, by 94%. That's not a price rise, that's a tyre on a garage forecourt air machine when you've only got one minute left on the timer.
+They'll need it. An independent review found that since 2021, prices at those chargers have risen by 69% in real terms, and at the faster ones, the sort you find at motorway services, by 94%. That's not a price rise, that's a forecourt air machine with ten seconds left on the timer.
 
 Best of all, the government is to launch a "tariff porting" taskforce, led by industry experts, to explore letting drivers use their cheaper home energy tariff at certain public chargers. I have no idea what tariff porting is. It sounds like either a Victorian dockside job ("Mind your backs, tariff porter coming through!") or a sticky fortified wine kept at the back of a sideboard for vicars. Whatever it turns out to be, if it means a van driver with no driveway can charge at kitchen prices, pour me a large one. Until then, our guide to [charging an electric van](/guides/charging-an-electric-van/) covers the options.
 
@@ -151,6 +151,6 @@ Finally, hire van season is upon us. According to trans.info, Royal Mail will ad
 
 You know the Christmas hire van. White, obviously. A steering wheel faintly sticky from a previous life. An air freshener shaped like a tree, swinging from the mirror like a tiny accusation. Some time in December, in the dark, someone heroic will be in it, looking for a house called The Willows that turns out to be round the back of a chip shop, down an alley, past a goat who has been stood in the same front garden since the van was new. He will not sign for anything.
 
-So to every driver out there this peak, from posties to couriers: we salute you. Mind the potholes. Some of them are twinned.
+So to every driver out there this peak: we salute you. Mind the potholes. Some of them are twinned.
 
 That's the column. In official units it was roughly one Singapore. And my Polo has now been in the glovebox longer than the 5p fuel duty cut, which started in March 2022. The cut now lasts until July. The Polo, I'm told, is load-bearing. See you next Friday.
