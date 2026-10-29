@@ -5,6 +5,9 @@ date: 2026-10-29T09:30:00Z
 tag: Trucks
 summary: "New truck registrations rose 7.2% in the third quarter of 2026, the first growth in two years, but zero-emission truck registrations halved."
 photo: volvo-fh-electric
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://www.smmt.co.uk/hgv-market-grows-for-first-time-in-two-years/
   - https://www.smmt.co.uk/new-hgv-market-falls-but-zev-uptake-quadruples/

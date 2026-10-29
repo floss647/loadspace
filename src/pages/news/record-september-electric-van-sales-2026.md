@@ -224,7 +224,7 @@ So far this year, 27,359 electric vans have been registered, up 23.7%. After Aug
 
 ## Why it's behind
 
-There's plenty of choice: SMMT says more than 40 electric van models are on sale, and Mike Hawes says makers are offering substantial discounts. But SMMT names higher purchase costs, depot upgrades, grid delays and a lack of charging suited to vans as the main barriers.
+There's plenty of choice: SMMT says more than 40 electric van models are on sale, and Mike Hawes says makers are offering substantial discounts. But SMMT says higher purchase costs and depot upgrades remain major barriers, and Mike Hawes also blames grid delays and a lack of charging suited to vans.
 
 SMMT doesn't expect the gap to close soon. Its July outlook forecasts electric vans up to 3.5 tonnes taking 11.5% of the market this year, rising to 15.9% in 2027. SMMT says that leaves take-up around two years behind the mandate. A revised outlook is due by 5 November.
 
