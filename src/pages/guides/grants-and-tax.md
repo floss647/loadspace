@@ -14,11 +14,12 @@ From **1 April 2026** these replaced the old Plug-in Van and Truck Grants. The d
 
 | Vehicle | Maximum grant |
 |---|---|
-| Small vans (up to 2.5 tonnes) | £2,500 |
-| Large vans (2.5–4.25 tonnes) | £5,000 |
-| Trucks (over 4.25 tonnes) | Up to 40% of the price, with caps by weight (reported up to about £81,000 for the heaviest) |
+| Small vans (under 2,500kg gross weight) | £2,500 |
+| Large vans (2,500kg to 4,250kg) | £5,000 |
+| Trucks, 4.25 to 12 tonnes | 20% of the price, up to £15,000 |
+| Trucks over 12 tonnes | 40% of the price, with caps by weight up to £81,000 for 26 tonnes and over |
 
-The schemes run until **31 March 2030** or until the money runs out. There are limits on how many grants one business can claim each year (reported as 1,500 vans and 100 trucks), and the government can change amounts or eligibility, so ask the dealer what applies on the day you order. Used vehicles don't qualify. [More on the new grants](/news/zero-emission-van-grant-explained/).
+The schemes run until **31 March 2030** or until the money runs out. Each customer can get up to 1,500 van grants and 100 truck grants each financial year (leased vehicles count against the customer, not the leasing company, and linked companies count as one), and the government can change amounts or eligibility, so ask the dealer what applies on the day you order. Used vehicles don't qualify. [More on the new grants](/news/zero-emission-van-grant-explained/).
 
 ## VAT
 
@@ -43,4 +44,4 @@ The special 100% first-year allowance for zero-emission vans **ended in April 20
 
 ## Driving licence
 
-A car licence covers electric vans up to **4.25 tonnes** (3.5 tonnes for diesel). The extra five hours of training this used to require was dropped in 2025. [Van sizes and licences explained](/guides/van-sizes-explained/)
+A car licence covers electric vans up to **4.25 tonnes** (3.5 tonnes for diesel). [Van sizes and licences explained](/guides/van-sizes-explained/)
