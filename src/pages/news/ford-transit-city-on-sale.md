@@ -2,6 +2,7 @@
 layout: ../../layouts/NewsPost.astro
 title: "Ford Transit City: what you get for £29,000 before VAT"
 photo: ford-transit-city
+photoCaption: "A left-hand-drive show van. UK vans are right-hand drive."
 date: 2026-10-29T11:00:00Z
 tag: New model
 summary: "Ford's electric-only Transit City is on the UK price list from £29,000 before VAT, £14,630 less than the cheapest E-Transit Custom. Here's what you get, how the grant works and where it falls short."
