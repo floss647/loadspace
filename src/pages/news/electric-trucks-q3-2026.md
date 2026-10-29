@@ -4,6 +4,7 @@ title: "Truck market grows, but electric trucks fall to 1.1% of sales"
 date: 2026-10-29T09:30:00Z
 tag: Trucks
 summary: "New truck registrations rose 7.2% in the third quarter, the first growth in two years, but zero-emission trucks halved."
+photo: volvo-fh-electric
 sources:
   - https://trans.info/en/uk-hgv-registrations-q3-2026-electric-trucks-508828
   - https://www.fleetnews.co.uk/news/growth-recorded-in-hgv-market-for-the-first-time-two-years

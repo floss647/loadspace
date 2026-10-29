@@ -4,6 +4,8 @@ title: "The van grant has a new name: what the Zero Emission Van Grant gives you
 date: 2026-10-29T10:30:00Z
 tag: Grants
 summary: "The Plug-in Van Grant was replaced in April 2026. Electric vans still get up to £2,500 or £5,000 off, and the scheme now runs until 2030."
+stat: "£5,000"
+statLabel: "off a new large electric van under the Zero Emission Van Grant."
 sources:
   - https://assets.publishing.service.gov.uk/media/69c145efcfa346b9d4704a82/Commercial_Vehicles_Final_Report.pdf
   - https://www.smmt.co.uk/government-commits-further-120-million-to-zero-emission-van-grant/

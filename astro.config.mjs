@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
-// Change `site` to the real domain once it's chosen.
+// Update `site` when the site moves to its own domain.
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://loadspace-vans.netlify.app',
   trailingSlash: 'ignore',
 });

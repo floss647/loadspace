@@ -1,0 +1,28 @@
+{
+ "electric-trucks-q3-2026": {
+  "image": "/images/news/electric-trucks-q3-2026.jpg",
+  "credit": "Photo: Hullian111, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:Ashcourt_Volvo_FH_Electric_@_Let%27s_Go_Electric,_Priory_Park,_Kingston_upon_Hull.jpg",
+  "alt": "Truck market grows, but electric trucks fall to 1.1% of sales"
+ },
+ "ford-transit-city-on-sale": {
+  "image": "/images/news/ford-transit-city-on-sale.jpg",
+  "alt": "£29,000 Starting price of Ford's new electric Transit City, excluding VAT."
+ },
+ "record-september-electric-van-sales-2026": {
+  "image": "/images/news/record-september-electric-van-sales-2026.jpg",
+  "alt": "9.6% of new vans sold in September were electric. The 2026 target is 24%."
+ },
+ "renault-trafic-e-tech-van-of-the-year": {
+  "image": "/images/news/renault-trafic-e-tech-van-of-the-year.jpg",
+  "alt": " Renault Trafic E-Tech named International Van of the Year 2027"
+ },
+ "zero-emission-van-grant-explained": {
+  "image": "/images/news/zero-emission-van-grant-explained.jpg",
+  "alt": "£5,000 off a new large electric van under the Zero Emission Van Grant."
+ },
+ "zev-mandate-van-consultation-closes": {
+  "image": "/images/news/zev-mandate-van-consultation-closes.jpg",
+  "alt": "70%? The 2030 electric van target is under review and could be cut to as low as 40%."
+ }
+}

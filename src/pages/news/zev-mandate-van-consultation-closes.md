@@ -4,6 +4,8 @@ title: "Government could cut 2030 electric van target: consultation closes"
 date: 2026-10-29T11:30:00Z
 tag: Policy
 summary: "The consultation on the zero-emission target closed on 23 October. Options include cutting the 2030 van target from 70% to 60%, 50% or 40%. No decision yet."
+stat: "70%?"
+statLabel: "The 2030 electric van target is under review and could be cut to as low as 40%."
 sources:
   - https://motortransport.co.uk/freightcarbonzero/government-considers-cutting-2030-zev-target-for-vans-to-40/90953.article
   - https://assets.publishing.service.gov.uk/media/6ab52a53734e2435f202f032/zev-mandate-review-consultation.pdf

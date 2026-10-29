@@ -52,3 +52,20 @@ Test without keys: `node scripts/test-van-check.mjs`
 
 Live at https://loadspace-vans.netlify.app (Netlify project `loadspace-vans`, site ID `a03df618-92d0-461d-b5de-16dce9d8e585`).
 Deploy updates to this site ID rather than creating a new site.
+
+## News posts
+
+Add a Markdown file to `src/pages/news/` with this frontmatter:
+
+    layout: ../../layouts/NewsPost.astro
+    title: "Headline"
+    date: 2026-10-29T12:00:00Z
+    tag: Sales            # Sales, Policy, New model, Grants, Trucks…
+    summary: "One or two sentences."
+    stat: "9.6%"          # optional big number for the branded image
+    statLabel: "..."      # what the number means
+    photo: volvo-fh-electric   # optional: use a licensed vehicle photo instead
+    sources: [...]        # kept for our records; not shown on the page
+
+Rules: write every story in our own words, credit figures in the text (e.g. "according to SMMT"), and don't link to other news sites.
+Then run `python3 scripts/news_images.py` to create the story's image, and rebuild.

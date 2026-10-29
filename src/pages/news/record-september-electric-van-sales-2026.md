@@ -4,6 +4,8 @@ title: "Record month for electric vans, but still less than half the target"
 date: 2026-10-29T12:00:00Z
 tag: Sales
 summary: "4,832 electric vans were registered in September, a record. That's still only 9.6% of the market, against a 24% target for 2026."
+stat: "9.6%"
+statLabel: "of new vans sold in September were electric. The 2026 target is 24%."
 sources:
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
   - https://brokernews.co.uk/september-drags-2026-electric-van-share-down/

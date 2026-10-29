@@ -21,12 +21,13 @@ const evVans = VANS.filter((v) => v.electric).length;
   </section>
 
   <div class="wrap">
-    <div class="home-news">
+    <div>
       <section>
         <h2 style="margin-top:0">Latest news</h2>
         <div class="news-grid">
           {latest.map((p) => (
-            <a class="card" href={p.url}>
+            <a class="card has-img" href={p.url}>
+              {p.img && <figure class="vimg vimg-card"><img src={p.img.image.replace('/news/', '/news/card/')} alt="" loading="lazy" width="800" height="450" /></figure>}
               <p class="small muted" style="margin:0 0 .3rem">{fmtDate(p.date)}{p.tag && ` · ${p.tag}`}</p>
               <h3>{p.title}</h3>
               <p>{p.summary}</p>
@@ -35,11 +36,6 @@ const evVans = VANS.filter((v) => v.electric).length;
         </div>
         <p class="small" style="margin-top:.8rem"><a href="/news/">All news →</a></p>
       </section>
-      <aside class="card" id="headlines-box" hidden>
-        <h3>From the industry</h3>
-        <ul class="headlines" id="headlines"></ul>
-        <p class="small muted" style="margin:.6rem 0 0">Headlines from trade press. Links open the original article.</p>
-      </aside>
     </div>
 
     <h2>Where are you starting?</h2>
@@ -91,23 +87,4 @@ const evVans = VANS.filter((v) => v.electric).length;
       <a class="card" href="/guides/used-electric-van-buying-guide/"><h3>Buying a used electric van</h3><p>The checks that matter before you hand over money.</p></a>
     </div>
   </div>
-  <script>
-    // Industry headlines from /api/headlines; the box stays hidden if none load.
-    fetch('/api/headlines').then((r) => (r.ok ? r.json() : null)).then((d) => {
-      if (!d || !d.items || !d.items.length) return;
-      const ul = document.getElementById('headlines');
-      for (const i of d.items.slice(0, 7)) {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = i.link; a.target = '_blank'; a.rel = 'noopener nofollow';
-        a.textContent = i.title;
-        const src = document.createElement('span');
-        src.className = 'src';
-        src.textContent = i.source + (i.time ? ' · ' + new Date(i.time).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '');
-        li.append(a, src);
-        ul.append(li);
-      }
-      document.getElementById('headlines-box').hidden = false;
-    }).catch(() => {});
-  </script>
 </Base>

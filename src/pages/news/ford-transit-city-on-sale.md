@@ -4,6 +4,8 @@ title: "Ford Transit City: a cheaper electric van from about £29,000"
 date: 2026-10-29T11:00:00Z
 tag: New model
 summary: "Ford's new electric-only Transit City is on sale in the UK, priced well below the E-Transit Custom, with around 160 miles of range."
+stat: "£29,000"
+statLabel: "Starting price of Ford's new electric Transit City, excluding VAT."
 sources:
   - https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-sale-now-under-ps30k
   - https://theinterface.uk/blog-posts/ford-transit-city-ev-to-start-at-29-000-undercutting-the-base-diesel-transit-custom

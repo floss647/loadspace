@@ -8,7 +8,8 @@ import { POSTS, fmtDate } from '../../lib/news.js';
     <p class="lede">What's changing for electric van and truck buyers in the UK, and what it means for you.</p>
     <div class="news-list">
       {POSTS.map((p) => (
-        <a class="card" href={p.url}>
+        <a class="card has-img" href={p.url}>
+          {p.img && <figure class="vimg vimg-card"><img src={p.img.image.replace('/news/', '/news/card/')} alt="" loading="lazy" width="800" height="450" /></figure>}
           <p class="small muted" style="margin:0 0 .3rem">{fmtDate(p.date)}{p.tag && ` · ${p.tag}`}</p>
           <h3>{p.title}</h3>
           <p>{p.summary}</p>
