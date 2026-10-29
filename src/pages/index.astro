@@ -50,7 +50,7 @@ const tools = [
       {hero && (
         <figure class="hero-photo">
           <img src={hero.file} alt="A Ford E-Transit Custom electric van" width="1200" height="800" />
-          <figcaption>Photo: {hero.author}, Wikimedia Commons, {hero.licence}</figcaption>
+          <figcaption>{hero.source ? `Photo: ${hero.author} press image` : `Photo: ${hero.author}, Wikimedia Commons, ${hero.licence}`}</figcaption>
         </figure>
       )}
     </div>

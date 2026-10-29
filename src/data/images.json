@@ -1,4 +1,14 @@
 {
+ "citroen-berlingo": {
+  "file": "/images/vehicles/citroen-berlingo.jpg",
+  "page": "https://www.media.stellantis.com/uk-en/citroen/media-library/gallery/585508",
+  "author": "Citroën UK",
+  "licence": "Press image",
+  "licenceUrl": "",
+  "title": "Citroën ë-Berlingo van, Citroën UK press image",
+  "note": "",
+  "source": "Stellantis Media"
+ },
  "citroen-dispatch": {
   "file": "/images/vehicles/citroen-dispatch.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:2024_Citro%C3%ABn_%C3%AB-Jumpy_Automesse_Ludwigsburg_2024_IMG_1391.jpg",
