@@ -196,7 +196,7 @@ Across all the initial MOT tests of the van and pickup models we track, combined
 
 Average mileage climbs with it, from 62,544 to 130,747.
 
-Some models age much worse than others. The Citroën Relay, the same Ducato-based van in both age bands, goes from 32.5% at 3–4 years to 43.4% at 10–14.
+Even twins can age very differently. The Citroën Relay, the same Ducato-based van in both age bands, goes from 32.5% at 3–4 years to 43.4% at 10–14.
 
 Its twin, the Fiat Ducato, barely moves: 23.2% to 25.3%. That's a clue, not a miracle. Both names include motorhome conversions, so look at the mileage: 10–14 year old Ducatos averaged 66,883 miles, against 125,726 for Relays. Fewer miles is the likely explanation.
 
@@ -213,7 +213,7 @@ https://loadspace-vans.netlify.app/reliability/
 > - "66,883 miles": `models.fiat-ducato.byAge.10-14.avgMiles` = 66883.
 > - "Both names include motorhome conversions": `models.fiat-ducato.includesMotorhomes` = true and `models.citroen-relay.includesMotorhomes` = true. The data doesn't say what share are motorhomes, so the post offers lower mileage as the likely explanation, not proof.
 > - "Citroën Relay 32.5% to 43.4%, at 125,726 miles": `models.citroen-relay.byAge.3-4.failRate` = 32.5 (11,452 tests), `byAge.10-14.failRate` = 43.4 (12,286 tests), `byAge.10-14.avgMiles` = 125726.
-> - "the same Ducato-based van in both age bands" / "Its twin": Relay and Ducato are in the same twin group (`stellantis-large`, "Ducato-based") in `src/data/vans.js`. That the Relay has been Ducato-based since 2006, covering both bands (first use about 2009–2021), is background knowledge, not from the repo. The Vivaro and Trafic were dropped because their 3–4 and 10–14 bands are different generations.
+> - "the same Ducato-based van in both age bands" / "Its twin": Relay and Ducato are in the same twin group (`stellantis-large`, "Ducato-based") in `src/data/vans.js`. The Relay has been a Ducato twin since 1994; the current generation dates from 2006 (facelifted 2014), so both bands (first use about 2009–2021) are the same generation. This is background knowledge, not from the repo. The Vivaro and Trafic were dropped because their 3–4 and 10–14 bands are different generations.
 
 ---
 
