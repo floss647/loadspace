@@ -1,0 +1,21 @@
+---
+import Base from './Base.astro';
+import { fmtDate } from '../lib/news.js';
+const { frontmatter: f } = Astro.props;
+const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+---
+<Base title={f.title} description={f.summary}>
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/news/">News</a></div>
+    <article class="prose">
+      <p class="small muted" style="margin:0 0 .4rem">{fmtDate(f.date)}{f.tag && <> · <span class="tag">{f.tag}</span></>}</p>
+      <h1>{f.title}</h1>
+      <p class="lede">{f.summary}</p>
+      <slot />
+      {f.sources?.length > 0 && (
+        <p class="small muted" style="margin-top:2rem">Sources: {f.sources.map((s, i) => <>{i > 0 && ' · '}<a href={s} rel="nofollow noopener" target="_blank">{host(s)}</a></>)}</p>
+      )}
+      <p class="small"><a href="/news/">More news →</a></p>
+    </article>
+  </div>
+</Base>

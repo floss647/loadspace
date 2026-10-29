@@ -127,6 +127,12 @@ export const VANS = [
     intro:
       "The electric version of the UK's best-selling van (49,774 Transit Customs of all types were registered in 2025). The current generation arrived in 2023, and the latest VW e-Transporter is built on it.",
   }),
+  v('Ford', 'Transit City', 'medium', {
+    electric: true,
+    electricNote: 'Electric only. On sale from about £29,000 excluding VAT, with around 160 miles of range.',
+    intro:
+      "Ford's cheaper electric van, built in China and on sale in the UK from October 2026. It sits between the E-Transit Courier and E-Transit Custom, with payloads of about 1,085kg to 1,275kg.",
+  }),
   v('Volkswagen', 'Transporter', 'medium', {
     twin: 'ford-vw-medium',
     electric: true,
@@ -144,7 +150,7 @@ export const VANS = [
   }),
   v('Renault', 'Trafic', 'medium', {
     twin: 'renault-medium',
-    electricNote: 'An electric Trafic E-Tech is due in the second half of 2026.',
+    electricNote: 'The all-new electric Trafic E-Tech, International Van of the Year 2027, is coming to the UK. UK prices had not been published when we last checked.',
   }),
   v('Nissan', 'Primastar', 'medium', { twin: 'renault-medium' }),
   v('Vauxhall', 'Vivaro', 'medium', {

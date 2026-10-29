@@ -1,25 +1,24 @@
 ---
 layout: ../../layouts/Guide.astro
 title: "Electric van and truck grants and tax (2026)"
-description: "The Plug-in Van and Truck Grants, VAT, company van tax, road tax, capital allowances and London charges for electric vans and trucks in the UK."
+description: "The Zero Emission Van and Truck Grants, VAT, company van tax, road tax, capital allowances and London charges for electric vans and trucks in the UK."
 lede: "What's available for electric vans and trucks, and what's changed."
 updated: October 2026
 ---
 
 <div class="notice"><strong>Check before you rely on this.</strong> Grant levels and tax rules change. We link to GOV.UK where we can, and you should confirm with your accountant before buying.</div>
 
-## Plug-in Van and Truck Grants
+## Zero Emission Van and Truck Grants
 
-Discounts applied by the dealer on eligible **new** electric vans and trucks. In 2025/26 the maximums were:
+From **1 April 2026** these replaced the old Plug-in Van and Truck Grants. The dealer applies the discount on eligible **new** electric vans and trucks:
 
-| Vehicle | Maximum grant (2025/26) |
+| Vehicle | Maximum grant |
 |---|---|
-| Small vans (under 2.5 tonnes) | £2,500 |
+| Small vans (up to 2.5 tonnes) | £2,500 |
 | Large vans (2.5–4.25 tonnes) | £5,000 |
-| Small trucks (4.25–12 tonnes) | £16,000 |
-| Large trucks (over 12 tonnes) | £25,000 |
+| Trucks (over 4.25 tonnes) | Up to 40% of the price, with caps by weight (reported up to about £81,000 for the heaviest) |
 
-The scheme has been **extended into 2026/27**, but the government said the new amounts would be "confirmed in due course". Ask the dealer what applies on the day you order. Used vehicles don't qualify.
+The schemes run until **31 March 2030** or until the money runs out. There are limits on how many grants one business can claim each year, and the government can change amounts or eligibility, so ask the dealer what applies on the day you order. Used vehicles don't qualify. [More on the new grants](/news/zero-emission-van-grant-explained/).
 
 ## VAT
 

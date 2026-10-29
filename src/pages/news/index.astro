@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { POSTS, fmtDate } from '../../lib/news.js';
+---
+<Base title="Electric van and truck news" description="The latest UK news on electric vans and trucks: sales, grants, new models, policy and what it means for buyers and fleets.">
+  <div class="wrap">
+    <h1>News</h1>
+    <p class="lede">What's changing for electric van and truck buyers in the UK, and what it means for you.</p>
+    <div class="news-list">
+      {POSTS.map((p) => (
+        <a class="card" href={p.url}>
+          <p class="small muted" style="margin:0 0 .3rem">{fmtDate(p.date)}{p.tag && ` · ${p.tag}`}</p>
+          <h3>{p.title}</h3>
+          <p>{p.summary}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
