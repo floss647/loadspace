@@ -55,15 +55,15 @@ facts:
   - claim: "motor sits at the back"
     source: https://www.renault-trucks.com/en/newsroom/press-releases/new-renault-trucks-etech-trafic
     quote: "the electric motor is positioned at the rear"
-  - claim: "previous Trafic E-Tech, which was a converted diesel van"
+  - claim: "previous Trafic E-Tech, which Van Reviewer notes was a conversion of the diesel van"
     source: https://vanreviewer.co.uk/renault/trafic-e-tech/review/4168/
     quote: "The previous Trafic E-Tech was a conversion of its diesel sibling, whereas this is a ground-up redesign."
   - claim: "built at Sandouville in France"
     source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
     quote: "Designed and built at the Sandouville plant in France"
-  - claim: "the current diesel Trafic will stay on sale alongside it"
-    source: https://www.parkers.co.uk/vans-pickups/news/2026/renault-trafic-e-tech/
-    quote: "Renault will instead continue to sell the current diesel Trafic alongside this all-new model."
+  - claim: "Renault says the existing diesel Trafic is continuing on sale alongside it"
+    source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-a-new-efficient-agile-and-innovative-vehicle-for-business-users/?lang=eng
+    quote: "alongside the existing Trafic ICE, which is continuing its market career"
   - claim: "first van in Europe built on a \"software-defined\" platform"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "The first LCV in Europe to be built on an SDV (Software-Defined Vehicle) platform"
@@ -126,12 +126,12 @@ facts:
   - claim: "up to 1.3 tonnes, according to Renault"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "with a load capacity of up to 1.3 tonnes"
-  - claim: "Towing:** 2 tonnes"
-    source: https://media.renault.com/2026-iaa-transportation-show-in-hanover-renault-opens-a-new-chapter-in-its-lcv-offensive-with-new-trafic-van-e-tech-electric/?lang=eng
-    quote: "towing capacity of 2 tonnes"
-  - claim: "three Euro pallets"
-    source: https://media.renault.com/2026-iaa-transportation-show-in-hanover-renault-opens-a-new-chapter-in-its-lcv-offensive-with-new-trafic-van-e-tech-electric/?lang=eng
-    quote: "space for three Euro pallets"
+  - claim: "up to 2 tonnes"
+    source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
+    quote: "the ability to tow up to 2 tonnes"
+  - claim: "up to three Euro pallets"
+    source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
+    quote: "a load area that can accommodate up to three EURO pallets"
   - claim: "10.3 metres for the short L1"
     source: https://www.renault-trucks.com/en/newsroom/press-releases/new-renault-trucks-etech-trafic
     quote: "Its turning circle of 10.3 metres, in the short-wheelbase L1 version, is comparable to that of a small city car."
@@ -147,7 +147,10 @@ facts:
   - claim: "revealed prices at the Paris Motor Show"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "At the Paris Motor Show, Renault is revealing prices for Trafic Van E-Tech electric"
-  - claim: "12 October"
+  - claim: "in an announcement dated 12 October"
+    source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
+    quote: "12 October 2026"
+  - claim: "Renault said on 12 October"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "12 October 2026"
   - claim: "€41,500"
@@ -177,7 +180,7 @@ facts:
   - claim: "a 230V socket in the cab and a second in the load area"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "a navigation system with Google built-in services (Google Gemini Assistant and HERE navigation) and a V2L system with a 230V socket. The load area also gains a loading hatch for long items, a second V2L system with a 230V socket"
-  - claim: "Renault says orders for 81kWh vans open in the coming weeks"
+  - claim: "orders for 81kWh vans would open in the coming weeks"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "Orders for versions with the 81 kWh long-range battery will open in the coming weeks."
   - claim: "with 60kWh versions following from early 2027"
@@ -201,7 +204,7 @@ facts:
   - claim: "on the same production line as the combustion-engined Trafic"
     source: https://media.renault.com/price-reveal-for-trafic-van-e-tech-electric/?lang=eng
     quote: "It is built at the Sandouville plant on the same production line as Trafic ICE."
-  - claim: "It isn't yet confirmed whether both batteries will be offered in the UK"
+  - claim: "Parkers reported last November that it wasn't confirmed whether both batteries would come to the UK"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/renault-trafic-e-tech/
     quote: "It is also not yet confirmed whether both of battery packs will be offered to UK buyers"
   - claim: "versions of the Citroën Berlingo, Fiat Doblò, Opel Combo and Peugeot Partner"
@@ -218,7 +221,7 @@ The Stellantis ProOne Compact van came second. The organisers' shortlist describ
 
 ## A new kind of Trafic
 
-Unlike the previous Trafic E-Tech, which was a converted diesel van, this isn't the familiar Trafic with a battery added. The new one sits on Renault Group's new RGEV medium van platform. Renault Trucks, which will sell its own version of the van, describes it as a "skateboard" platform developed specifically for electric power, and says the motor sits at the back. It's built at Sandouville in France, on the same production line as the combustion-engined Trafic, according to Renault. Parkers reports that the current diesel Trafic will stay on sale alongside it.
+Unlike the previous Trafic E-Tech, which Van Reviewer notes was a conversion of the diesel van, this isn't the familiar Trafic with a battery added. The new one sits on Renault Group's new RGEV medium van platform. Renault Trucks, which will sell its own version of the van, describes it as a "skateboard" platform developed specifically for electric power, and says the motor sits at the back. It's built at Sandouville in France, on the same production line as the combustion-engined Trafic, according to Renault. Renault says the existing diesel Trafic is continuing on sale alongside it.
 
 Renault says it is the first van in Europe built on a "software-defined" platform. It replaces 80 separate control units with two central computers, so the van can be updated with new features throughout its life, a bit like a phone. Renault claims a total cost of ownership up to 10% lower than a similar-sized diesel van.
 
@@ -231,21 +234,21 @@ These are Renault's provisional figures, subject to final approval.
 | Official range (WLTP) | up to 350km (about 217 miles) | up to 470km (292 miles) |
 
 - **Motor:** 150kW (about 200hp).
-- **Charging:** an **800-volt** system takes up to 190kW with the 81kWh battery on a rapid charger. Renault hasn't given a rapid-charging figure for the 60kWh van. Renault says the 81kWh van can add 280km of range in 20 minutes (about 174 miles). Renault Trucks quotes **15% to 80% in about 20 minutes**.
+- **Charging:** an **800-volt** system takes up to 190kW with the 81kWh battery on a rapid charger. Renault hasn't given a maximum charging power for the 60kWh van. Renault says the 81kWh van can add 280km of range in 20 minutes (about 174 miles). Renault Trucks quotes **15% to 80% in about 20 minutes**.
 - **Load space:** 5.1m³ in the shorter L1 and 5.8m³ in the longer L2, according to Renault Trucks. The vans are 4.87m and 5.27m long.
-- **Payload:** up to 1.3 tonnes, according to Renault, with room for three Euro pallets.
-- **Towing:** 2 tonnes.
+- **Payload:** up to 1.3 tonnes, according to Renault, with room for up to three Euro pallets.
+- **Towing:** up to 2 tonnes.
 - **Turning circle:** 10.3 metres for the short L1, which Renault compares with its Clio small car.
 - **Height:** 1.89 metres tall, which Renault says gets it into all standard underground car parks. Check the height limit of any car park you use regularly.
 - **Body types:** panel van first, then chassis cab and crew cab versions follow in 2027.
 
 ## Prices and the UK
 
-Renault revealed prices at the Paris Motor Show, in an announcement dated 12 October. There are two trims, Advance and Extra. Renault's prices in France start at **€41,500** for the Advance with the 60kWh battery and **€47,000** with the 81kWh battery. Renault's release doesn't say whether these prices include VAT. Advance includes a heat pump, adaptive cruise control, a 12.3-inch screen, a reversing camera and a two-way V2L (vehicle-to-load) charger, which lets the van power equipment from its battery. Extra adds a 230V socket in the cab and a second in the load area.
+Renault revealed prices at the Paris Motor Show, in an announcement dated 12 October. There are two trims, Advance and Extra. Renault's prices in France start at **€41,500** for the Advance with the 60kWh battery and **€47,000** with the 81kWh battery. Renault's release text doesn't state whether these prices include VAT. Advance includes a heat pump, adaptive cruise control, a 12.3-inch screen, a reversing camera and a two-way V2L (vehicle-to-load) charger, which lets the van power equipment from its battery. Extra adds a 230V socket in the cab and a second in the load area.
 
-Renault says orders for 81kWh vans open in the coming weeks, with 60kWh versions following from early 2027. It doesn't say which markets those dates cover. UK prices and timings may differ.
+Renault said on 12 October that orders for 81kWh vans would open in the coming weeks, with 60kWh versions following from early 2027. It doesn't say which markets those dates cover. UK prices and timings may differ.
 
-Parkers reports that the van goes on sale in the UK in early 2027, with first deliveries around the middle of the year. **No UK prices have been announced.** It isn't yet confirmed whether both batteries will be offered in the UK, according to Parkers. As a rough guide only, the previous, less advanced Trafic E-Tech started at £34,500 plus VAT, after the £5,000 government grant then available, when Auto Express reported its UK prices in February 2024.
+Parkers reports that the van goes on sale in the UK in early 2027, with first deliveries around the middle of the year. **No UK prices have been announced.** Parkers reported last November that it wasn't confirmed whether both batteries would come to the UK. As a rough guide only, the previous, less advanced Trafic E-Tech started at £34,500 plus VAT, after the £5,000 government grant then available, when Auto Express reported its UK prices in February 2024.
 
 For how the current grant works, see our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/).
 
@@ -256,6 +259,6 @@ On paper, the Trafic E-Tech is one of the strongest medium electric vans yet, es
 - the [Ford E-Transit Custom](/vans/ford-transit-custom/)
 - the [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/) and its Stellantis twins
 - the [Kia PV5 Cargo](/vans/kia-pv5-cargo/)
-- the cheaper [Ford Transit City](/news/ford-transit-city-on-sale/)
+- the [Ford Transit City](/news/ford-transit-city-on-sale/)
 
 If you're due to change a medium van next year, it's worth waiting for UK prices and lease deals before you commit. If you need a van now, see our [electric van deals](/deals/).

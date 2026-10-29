@@ -8,6 +8,9 @@ tag: New model
 summary: "Ford's electric-only Transit City is on the UK price list from £29,000 before VAT, £14,630 less than the cheapest E-Transit Custom. Here's what you get, how the grant works and where it falls short."
 stat: "£29,000"
 statLabel: "List price of the Transit City L1H1 van, before VAT and before the van grant."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
