@@ -3,13 +3,13 @@
   "image": "/images/news/electric-trucks-q3-2026.jpg",
   "credit": "Photo: Hullian111, Wikimedia Commons, CC BY-SA 4.0",
   "creditUrl": "https://commons.wikimedia.org/wiki/File:Ashcourt_Volvo_FH_Electric_@_Let%27s_Go_Electric,_Priory_Park,_Kingston_upon_Hull.jpg",
-  "alt": "Truck market grows, but electric trucks fall to 1.1% of sales"
+  "alt": "Truck market grows, but zero-emission trucks fall to 1.1% of registrations"
  },
  "ford-transit-city-on-sale": {
   "image": "/images/news/ford-transit-city-on-sale.jpg",
   "credit": "Photo: Matti Blume, Wikimedia Commons, CC BY-SA 4.0",
   "creditUrl": "https://commons.wikimedia.org/wiki/File:Ford_Transit_City,_IAA_2026,_Hanover_(20260914-P1086905).jpg",
-  "alt": "Ford Transit City: a cheaper electric van from about £29,000"
+  "alt": "Ford Transit City: what you get for £29,000 before VAT"
  },
  "record-september-electric-van-sales-2026": {
   "image": "/images/news/record-september-electric-van-sales-2026.jpg",
@@ -27,12 +27,12 @@
   "image": "/images/news/zero-emission-van-grant-explained.jpg",
   "credit": "Photo: Alexander Migl, Wikimedia Commons, CC BY-SA 4.0",
   "creditUrl": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_1X7A1522.jpg",
-  "alt": "The van grant has a new name: what the Zero Emission Van Grant gives you"
+  "alt": "The Zero Emission Van Grant explained: what you get and how it works"
  },
  "zev-mandate-van-consultation-closes": {
   "image": "/images/news/zev-mandate-van-consultation-closes.jpg",
-  "credit": "Photo: Calreyn88, Wikimedia Commons, CC BY-SA 4.0",
-  "creditUrl": "https://commons.wikimedia.org/wiki/File:2021_LEVC_VN5_City.jpg",
+  "credit": "Photo: Alexander Migl, Wikimedia Commons, CC BY-SA 4.0",
+  "creditUrl": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
   "alt": "Government could cut 2030 electric van target: consultation closes"
  }
 }

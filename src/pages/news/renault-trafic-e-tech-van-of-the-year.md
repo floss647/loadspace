@@ -6,6 +6,9 @@ date: 2026-10-29T10:00:00Z
 tag: New model
 summary: "The all-new electric Trafic was the unanimous choice of a 26-strong jury of van journalists. It's reported to go on sale in the UK in early 2027, and Renault's provisional figures give up to 292 miles of WLTP range from the bigger battery."
 photoCaption: "The new Trafic E-Tech panel van on show with its Van of the Year 2027 badge. UK vans will be right-hand drive."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-29
 sources:
   - https://van-of-the-year.com/2026/09/13/fourth-generation-renault-trafic-e-tech-wins-35th-international-van-of-the-year-award-2027/
   - https://van-of-the-year.com/2026/09/09/shortlist-announced-for-international-van-of-the-year-2027/
