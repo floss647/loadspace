@@ -37,13 +37,37 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
     <header class="site-header">
       <div class="wrap">
         <a class="brand" href="/"><img src="/favicon.svg" alt="" />{SITE.name}</a>
-        <nav class="nav" aria-label="Main">
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="menu-label">Menu</span>
+        </button>
+        <nav class="nav" id="main-nav" aria-label="Main">
           {nav.map(([href, label]) => (
             <a href={href} aria-current={href === current ? 'page' : undefined}>{label}</a>
           ))}
         </nav>
       </div>
     </header>
+    <script is:inline>
+      // Mobile menu: the hamburger button shows and hides the main navigation.
+      document.documentElement.classList.add('js');
+      (function () {
+        var btn = document.querySelector('.menu-btn');
+        var nav = document.getElementById('main-nav');
+        if (!btn || !nav) return;
+        function set(open) {
+          btn.setAttribute('aria-expanded', String(open));
+          btn.querySelector('.menu-label').textContent = open ? 'Close' : 'Menu';
+          document.body.classList.toggle('menu-open', open);
+        }
+        btn.addEventListener('click', function () { set(btn.getAttribute('aria-expanded') !== 'true'); });
+        nav.addEventListener('click', function (e) { if (e.target.closest('a')) set(false); });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') { set(false); btn.focus(); }
+        });
+        window.matchMedia('(min-width: 981px)').addEventListener('change', function (m) { if (m.matches) set(false); });
+      })();
+    </script>
     <main>
       <slot />
     </main>
