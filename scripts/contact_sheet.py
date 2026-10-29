@@ -39,7 +39,7 @@ def main():
             d.text((4, y + 4), slug, fill='black')
             for i, c in enumerate(cands[slug][:6]):
                 try:
-                    im = fetch(re.sub(r'/\d+px-', '/330px-', c['thumb']))
+                    im = fetch(re.sub(r'/\d+px-', '/330px-', c['thumb']).replace('thumb.wikimedia.org', 'upload.wikimedia.org').split('?')[0])
                     im.thumbnail((TW, TH))
                     x = LABEL + i * (TW + 6)
                     sheet.paste(im, (x, y + 18))

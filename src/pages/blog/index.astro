@@ -2,22 +2,40 @@
 import Base from '../../layouts/Base.astro';
 import { fmtDate } from '../../lib/news.js';
 import { COLUMNS, COLUMN } from '../../lib/blog.js';
+const [lead, ...rest] = COLUMNS;
+const card = (p) => p.img?.image.replace('/blog/', '/blog/card/');
 ---
 <Base title={`${COLUMN.name}: the weekly van column`} description={COLUMN.strap}>
-  <div class="wrap">
-    <p class="column-badge">Weekly column</p>
-    <h1>{COLUMN.name}</h1>
-    <p class="lede">{COLUMN.strap} Out every Friday.</p>
-    {COLUMNS.length === 0 && <p class="muted">The first column is on its way.</p>}
-    <div class="news-list">
-      {COLUMNS.map((p) => (
-        <a class="card has-img" href={p.url}>
-          {p.img && <figure class="vimg vimg-card"><img src={p.img.image.replace('/blog/', '/blog/card/')} alt="" loading="lazy" width="800" height="450" /></figure>}
-          <p class="small muted" style="margin:0 0 .3rem">{fmtDate(p.date)}</p>
-          <h3>{p.title}</h3>
-          <p>{p.summary}</p>
-        </a>
-      ))}
+  <header class="page-head column-head">
+    <div class="wrap">
+      <p class="column-badge">Weekly column · out every Friday</p>
+      <h1>{COLUMN.name}</h1>
+      <p class="lede">{COLUMN.strap}</p>
     </div>
+  </header>
+  <div class="wrap">
+    {!lead && <p class="muted">The first column is on its way.</p>}
+    {lead && (
+      <div class="news-feature" style="margin-bottom:2.5rem">
+        <a class="lead-story" href={lead.url}>{lead.img && <img src={lead.img.image} alt="" width="1600" height="900" />}</a>
+        <a class="lead-story lead-text" href={lead.url} style="align-self:center">
+          <p class="meta">{fmtDate(lead.date)}</p>
+          <h3>{lead.title}</h3>
+          <p>{lead.summary}</p>
+        </a>
+      </div>
+    )}
+    {rest.length > 0 && (
+      <div class="mag-grid">
+        {rest.map((p) => (
+          <a class="mag-card" href={p.url}>
+            {p.img && <img src={card(p)} alt="" loading="lazy" width="800" height="450" />}
+            <p class="meta">{fmtDate(p.date)}</p>
+            <h3>{p.title}</h3>
+            <p class="sum">{p.summary}</p>
+          </a>
+        ))}
+      </div>
+    )}
   </div>
 </Base>

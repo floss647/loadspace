@@ -22,6 +22,9 @@ SECTIONS = [  # (posts folder, image folder, data file, branded style)
 ]
 FONTS = ROOT / 'scripts/fonts'
 PHOTOS = json.loads((ROOT / 'src/data/images.json').read_text())
+_extra = ROOT / 'src/data/photos.json'  # general photo library (scripts/add_photo.py)
+if _extra.exists():
+    PHOTOS.update(json.loads(_extra.read_text()))
 
 NAVY, NAVY2, AMBER, WHITE, MUTED = '#14213d', '#0b1a33', '#f2b705', '#ffffff', '#c9d1de'
 W, H = 1600, 900
@@ -57,6 +60,15 @@ def fit_lines(draw, text, fnt, max_w, max_lines):
         lines = lines[:max_lines]
         lines[-1] = lines[-1].rstrip('.,') + '…'
     return lines
+
+
+def badge(im):
+    """Small amber OVERLOADED tag in the corner of a column photo."""
+    d = ImageDraw.Draw(im)
+    f = font('InterDisplay-Bold.otf', 40)
+    w = d.textlength('OVERLOADED', font=f)
+    d.rounded_rectangle([48, 48, 48 + w + 56, 48 + 74], radius=37, fill=AMBER)
+    d.text((76, 60), 'OVERLOADED', font=f, fill=NAVY)
 
 
 def column_card(fm):
@@ -137,6 +149,8 @@ def make_section(section, style):
         photo = fm.get('photo')
         if photo and photo in PHOTOS:
             im = from_photo(photo)
+            if style == 'column':
+                badge(im)
             p = PHOTOS[photo]
             meta[slug] = {'image': f'/images/{section}/{slug}.jpg', 'credit': f"Photo: {p.get('author') or 'Wikimedia Commons'}, Wikimedia Commons, {p.get('licence')}", 'creditUrl': p.get('page'), 'alt': fm.get('title', '')}
         else:
