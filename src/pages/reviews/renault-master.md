@@ -82,6 +82,21 @@ facts:
   - claim: "8 years or 100,000 miles"
     source: https://www.renault.co.uk/e-tech-electric/advantages.html
     quote: "Our batteries are guaranteed for 8 years or 100,000 miles"
+  - claim: "There's one battery"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "there is only one motor, only one battery and just the one trim"
+  - claim: "and one motor in the UK"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "there is only one motor, only one battery and just the one trim"
+  - claim: "There's one battery (87kWh) and one motor in the UK"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "with a solitary 87kWh battery being offered in the UK"
+  - claim: "is modest by class standards, but slippery aerodynamics give it a long official range"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "This is a smaller pack than some rivals offer, but the aerodynamically efficient bodywork means that range compares favourably"
+  - claim: "while leaving plenty of weight for payload"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "By using a relatively small 87kWh battery, Renault has managed to keep the weight of the Master E-Tech low"
   # Awards and background
   - claim: "International Van of the Year 2025"
     source: https://van-of-the-year.com/2024/09/16/new-renault-master-conquers-33rd-international-van-of-the-year-award-2025/

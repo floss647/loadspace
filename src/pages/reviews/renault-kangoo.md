@@ -3,14 +3,14 @@ layout: ../../layouts/Review.astro
 title: "Renault Kangoo E-Tech review"
 van: renault-kangoo
 date: 2026-10-30T08:00:00Z
-summary: "The van the Nissan and Mercedes versions are built from: smooth, comfortable and sensibly sized, with a heat pump as standard. Its range is modest, rapid charging is slow by current standards and the van warranty is the least generous of the three badges."
+summary: "The van the Nissan and Mercedes versions are built from: smooth, comfortable and sensibly sized, with a heat pump as standard. Its range is modest, rapid charging is slow by current standards and the van warranty is shorter than the Nissan twin's."
 specs:
   price: "Not confirmed (Renault's UK price doesn't state the VAT basis, see below)"
   range: "190 miles"
   charging: "80kW"
   payload: "Not confirmed (reports differ, see below)"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. Its 190-mile official range and 80kW rapid charging trail many rivals, and Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first, and ask when the updated 52kWh van Renault announced in October 2026 will reach the UK."
+verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. Its 190-mile official range is modest, its 80kW rapid charging trails rivals such as the 100kW Stellantis small vans, and Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first, and ask when the updated 52kWh van Renault announced in October 2026 will reach the UK."
 good: ["Smooth, comfortable drive", "Heat pump as standard", "Long LL van carries more and is on the large-van grant list"]
 bad: ["Three-year van warranty, where the Nissan twin gets five", "80kW rapid charging is slow by current standards", "No through-load bulkhead or pillarless side door in the UK"]
 sources:
@@ -64,6 +64,18 @@ facts:
   - claim: "80kW rapid charging"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "In DC mode, maximum power increases from 80 to 100 kW"
+  - claim: "the van warranty is shorter than the Nissan twin's"
+    source: https://www.autoexpress.co.uk/renault/kangoo/van
+    quote: "You can extend this at extra cost for up to five years, but the closely-related Nissan Townstar comes with this as standard"
+  - claim: "trails rivals such as the 100kW Stellantis small vans"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "CCS fast-charging at a rate of up to 100kW should also prove useful to operators"
+  - claim: "the Stellantis small vans"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "Toyota Proace City Electric and Vauxhall Combo Electric which all sit on the same underpinnings and share the same battery"
+  - claim: "slower than several rivals, such as the Stellantis small vans at up to 100kW"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "CCS fast-charging at a rate of up to 100kW should also prove useful to operators"
   - claim: "below 70% capacity"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "Renault has said that it will replace any battery that drops below 70% capacity"
@@ -251,7 +263,7 @@ UK vans miss out on the pillarless side opening sold in left-hand-drive markets,
 
 Renault's UK website now lists an official (WLTP) range of up to 190 miles; in August 2025 Renault quoted up to 186. A long-term test van managed around 130 miles in winter, dipping to about 100 miles in freezing weather, and around 140 miles as spring arrived. A heat pump is standard, which helps in the cold.
 
-Rapid charging tops out at 80kW, and Renault says a 15 to 80 per cent charge takes 40 minutes. That's fine for a lunch-break top-up but slower than several rivals. More in our [charging guide](/guides/charging-an-electric-van/).
+Rapid charging tops out at 80kW, and Renault says a 15 to 80 per cent charge takes 40 minutes. That's fine for a lunch-break top-up but slower than several rivals, such as the Stellantis small vans at up to 100kW. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 

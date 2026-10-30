@@ -5,22 +5,23 @@ van: kgm-musso
 date: 2026-10-30T08:00:00Z
 summary: "The cheapest way into an electric pickup, and by all accounts a comfortable, quiet and well-equipped one. But a 690 kg payload and 2,300kg towing make it closer to an electric SUV with a load bed than a working truck."
 specs:
-  price: "Not confirmed (only VAT-inclusive, after-grant prices, and reports differ)"
-  range: "Not confirmed (reports differ: 235 to 249 miles)"
-  charging: "Not confirmed (reports differ: 120kW to 300kW)"
+  price: "Not confirmed (KGM gives only a price including VAT and the grant)"
+  range: "235 miles"
+  charging: "120kW"
   payload: "690 kg"
   batteryWarranty: "10 years or 1,000,000 km"
 verdict: "The Musso EV is the electric pickup for buyers who want the shape and the four-wheel drive more than the tonnage. It costs far less than its electric rivals, comes with almost everything as standard and has a long battery warranty. The catch is a payload under a tonne, which puts it on the car side of HMRC's VAT test, and modest towing. For light loads, private use or a company car driver chasing low benefit in kind, it makes a lot of sense; for heavy site work, it doesn't."
 good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy cab", "10-year battery warranty"]
 bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
-factCheck:
-  by: "independent fact-checker"
-  date: 2026-10-30
 sources:
+  - https://www.kgm-motors.co.uk/new-cars/musso-ev/
+  - https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+  - https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/
+  - https://www.kgm-motors.co.uk/warranty/
+  - https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
   - https://www.autoexpress.co.uk/kgm/musso/ev
-  - https://www.autoexpress.co.uk/kgm/musso/prices-specs/63234/174kw-double-cab-pick-up-ev-81kwh-auto
   - https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
   - https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
@@ -29,17 +30,17 @@ sources:
   - https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
 facts:
   - claim: "690 kg"
-    source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
-    quote: "The Musso EV offers towing capacity of 2.3 tonnes and a 690kg payload"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "690kg payload limit"
+  - claim: "KGM gives the payload as 690 kg and braked towing as 2,300kg"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/
+    quote: "With the capability to tow up to 2,300kg and carry 690kg in the load bed"
   - claim: "690 kg"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
     quote: "The Musso EV’s 690kg payload lags a long way behind many other pickups"
   - claim: "690 kg"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "this truck’s payload is restricted to 690kg"
-  - claim: "one spec listing shows 730kg"
-    source: https://www.autoexpress.co.uk/kgm/musso/prices-specs/63234/174kw-double-cab-pick-up-ev-81kwh-auto
-    quote: "Payload 730 kg"
   - claim: "2,300kg"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "With a braked trailer capacity of 2,300kg"
@@ -50,56 +51,40 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
     quote: "it does lag behind the 3.5-tonne towing norm for most pickups"
   - claim: "10 years or 1,000,000 km"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "the Musso EV has a similar 10-year or 1,000,000km (621,000-mile) battery warranty"
+    calc: "KGM: '10-year or 1 million km battery warranty' (next fact). 1 million km = 1,000,000 km; 10-year = 10 years"
+  - claim: "The battery is covered for"
+    source: https://www.kgm-motors.co.uk/warranty/
+    quote: "Musso EV and Torres EVX both come with a 10-year or 1 million km battery warranty"
   - claim: "10-year battery warranty"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "The battery is also separately covered by 10 years and 1,000,000km"
-  - claim: "seven-year, 90,000-mile vehicle warranty"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "It also comes with a generous seven year and 90,000 mile warranty"
-  - claim: "seven-year, 90,000-mile vehicle warranty"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "a long seven-year/90,000-mile manufacturer’s warranty"
-  - claim: "one gives five years or 100,000 miles"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "The KGM Musso EV is covered by a five-year/100,000-mile warranty as standard"
-  - claim: "235"
-    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
-    quote: "Range? 235 miles (manufacturer figure)"
-  - claim: "236 miles"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "The quoted electric range of 236 miles"
-  - claim: "236 miles"
-    source: https://www.autoexpress.co.uk/kgm/musso/prices-specs/63234/174kw-double-cab-pick-up-ev-81kwh-auto
-    quote: "WLTP - Pure Electric Range (miles) - Comb 236"
-  - claim: "240 miles"
-    source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
-    quote: "delivers a range of 240 miles (WLTP)"
-  - claim: "249 miles"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "KGM claims that this can return up to 249 miles on a single charge"
+    source: https://www.kgm-motors.co.uk/warranty/
+    quote: "Musso EV and Torres EVX both come with a 10-year or 1 million km battery warranty"
+  - claim: "KGM's Musso EV page gives a seven-year, 90,000-mile vehicle warranty"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "giving us the confidence to provide an exceptional comprehensive 7-year / 90,000 mile warranty"
+  - claim: "the small print on its warranty page names only other models for seven-year cover"
+    source: https://www.kgm-motors.co.uk/warranty/
+    quote: "All KGM vehicles come as standard with a 5-year/100,000-mile warranty except for Korando e-Motion and Torres EVX, which attract a 7-year/90,000 mile warranty"
+  - claim: "235 miles"
+    source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+    quote: "Up to 235 miles of WLTP combined range, and up to 290 miles of range in city driving"
+  - claim: "KGM quotes up to 235 miles of WLTP combined range and up to 290 miles in city driving"
+    source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+    quote: "Up to 235 miles of WLTP combined range, and up to 290 miles of range in city driving"
+  - claim: "another KGM page gives 240 miles without naming the test"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/
+    quote: "240 Miles All-Electric Driving Range"
   - claim: "80.6kWh"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "The Musso EV uses an 80.6kWh battery sourced from BYD"
   - claim: "2.5 miles per kWh on the motorway and up to 2.9 on local runs"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "averaging 2.5mi/kWh on the motorway but up to 2.9mi/kWh on local runs"
-  - claim: "300kW"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "The Musso EV’s peak charging speed of 300kW"
-  - claim: "300kW"
-    source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
-    quote: "a 20 to 80% charge time of 31 minutes on a 300kW DC rapid charge"
   - claim: "120kW"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "rapid charge at speeds up to 120kW"
-  - claim: "300kW as the rating of the charger"
-    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
-    quote: "It can be charged on a 300kW rapid charger"
-  - claim: "300kW as the rating of the charger"
-    source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
-    quote: "a 20 to 80% charge time of 31 minutes on a 300kW DC rapid charge"
+    source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+    quote: "120kW rapid charging takes the battery from 20-80% in around 36 minutes"
+  - claim: "KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes"
+    source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+    quote: "120kW rapid charging takes the battery from 20-80% in around 36 minutes"
   - claim: "10 to 80 per cent in 46 minutes on a 100kW charger"
     source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
     quote: "How long to charge 10-80%? 46 minutes (100kW DC charger)"
@@ -241,22 +226,30 @@ facts:
   - claim: "Paint other than white costs £750"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "White is the standard colour, but yellow, blue, a dark green, black and a goldy-yellow colour are available as a £750 extra"
-  - claim: "£39,995 including the £5,000 grant"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "With prices starting from £39,995 (including the £5,000 government plug-in van grant )"
-  - claim: "In May 2026"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "KGM Musso EV pickup review (2026) 14 May 2026"
+  - claim: "KGM's UK site lists the Musso EV from £39,995 including VAT"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "39,995 inc VAT & inc"
+  - claim: "and the £5,000 Plug-in Van Grant"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "5,000 PiVG"
+  - claim: "£44,995 including VAT before the grant"
+    calc: "£39,995 (inc VAT, after the £5,000 grant) + £5,000 = £44,995 inc VAT before the grant"
+  - claim: "KGM doesn't publish a price excluding VAT"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "39,995 inc VAT & inc"
+  - claim: "one of its own pages mentions a £2,500 grant instead"
+    source: https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
+    quote: "The Musso EV also qualifies for the £2,500 Plug-in Van Grant"
   - claim: "£42,495 including VAT and the grant"
     source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
     quote: "Priced at £42,495 (incl. VAT and the Plug-in Van Grant)"
   - claim: "the March 2026 launch price"
     source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
     quote: "17 March 2026"
-  - claim: "It's on the government's approved list for the Plug-in Van Grant"
+  - claim: "The government lists it in the large-van group for the Plug-in Van Grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "KGM Musso EV"
-  - claim: "in the large-van group, where the grant is worth up to £5,000"
+  - claim: "where the grant is worth up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000"
   - claim: "around £60,000 before VAT, the reported price of an Isuzu D-Max EV"
@@ -283,7 +276,7 @@ Private buyers, company car drivers and light-duty businesses who want an electr
 
 It is double cab only. The bed is 1,345mm long, 1,515mm wide and 510mm deep, narrowing to 1,110mm between the arches, and it still takes a Euro pallet. A load liner comes fitted, and there's self-levelling rear suspension.
 
-Payload is 690 kg in most reports, though one spec listing shows 730kg. Braked towing is 2,300kg. Either way it falls well short of a tonne and of the usual 3.5-tonne towing.
+KGM gives the payload as 690 kg and braked towing as 2,300kg. Either way it falls well short of a tonne and of the usual 3.5-tonne towing.
 
 ### Tax: van or car?
 
@@ -293,9 +286,9 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 ### Range and charging in the real world
 
-The 80.6kWh battery is bigger than its rivals', but reports of the official range differ: 236 miles, 240 miles and 249 miles have all been quoted, so we haven't scored it. One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
+The 80.6kWh battery is bigger than its rivals'. KGM quotes up to 235 miles of WLTP combined range and up to 290 miles in city driving, though another KGM page gives 240 miles without naming the test. One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
 
-Charging figures disagree too. One review gives a peak of 120kW, while others mention 300kW as the rating of the charger used, so we haven't scored it. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
+KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -303,7 +296,7 @@ Reports agree on a reputation for a smooth, car-like ride and a quiet cab, thoug
 
 ### Cab and kit
 
-There's one trim, and it comes loaded: leather, heated and ventilated front seats, heated rear seats, a heated steering wheel, a 360-degree camera and adaptive cruise control. It's also roomy in the back by pickup standards. The let-downs are that the touchscreen is slow and fiddly and phone mirroring needs a cable. Paint other than white costs £750. Most reports give a seven-year, 90,000-mile vehicle warranty (one gives five years or 100,000 miles), and separate battery cover for 10 years or 1,000,000 km.
+There's one trim, and it comes loaded: leather, heated and ventilated front seats, heated rear seats, a heated steering wheel, a 360-degree camera and adaptive cruise control. It's also roomy in the back by pickup standards. The let-downs are that the touchscreen is slow and fiddly and phone mirroring needs a cable. Paint other than white costs £750. KGM's Musso EV page gives a seven-year, 90,000-mile vehicle warranty, though the small print on its warranty page names only other models for seven-year cover, so check the terms. The battery is covered for 10 years or 1,000,000 km.
 
 ### Alternatives
 
@@ -311,4 +304,4 @@ The [Toyota Hilux electric](/vans/toyota-hilux/) has a better off-road reputatio
 
 ### Price
 
-We can't give a confirmed list price excluding VAT. In May 2026 it was reported from £39,995 including the £5,000 grant, while the March 2026 launch price was £42,495 including VAT and the grant. It's on the government's approved list for the Plug-in Van Grant, in the large-van group, where the grant is worth up to £5,000. Ask the dealer for a written quote.
+KGM's UK site lists the Musso EV from £39,995 including VAT and the £5,000 Plug-in Van Grant, which makes £44,995 including VAT before the grant. KGM doesn't publish a price excluding VAT, and one of its own pages mentions a £2,500 grant instead, so we haven't scored price. The government lists it in the large-van group for the Plug-in Van Grant, where the grant is worth up to £5,000. The March 2026 launch price was reported as £42,495 including VAT and the grant. Get a written quote.

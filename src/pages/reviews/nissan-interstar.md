@@ -150,12 +150,14 @@ facts:
   - claim: "the side door opening is 1,312mm wide"
     source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-dimensions/
     quote: "Side door opening width 1,312mm 1,312mm"
-  - claim: "reports differ on whether the high-roof L3H3 is offered as an electric van"
+  - claim: "Nissan lists the electric panel van only as an L2H2 or L3H2"
+    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/dimensions.html
+    quote: "Figure quoted is the WLTP combined range figure for Nissan Interstar-e L2H2 and L3H2 variants"
+  - claim: "Nissan lists the electric panel van only as an L2H2 or L3H2"
+    calc: "Nissan's price list (1 July 2026) shows the Interstar-e panel van as PANEL VAN L2 and PANEL VAN L3, both in height H2 only; the L3H3 section of Nissan's dimensions page lists only a DIESEL version"
+  - claim: "so the high-roof L3H3 is diesel only"
     source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-dimensions/
     quote: "with the L3H3 that comes with the diesel models not due to be offered on the EV"
-  - claim: "reports differ on whether the high-roof L3H3 is offered as an electric van"
-    source: https://vanfleetworld.co.uk/road-test-nissan-interstar/
-    quote: "Van bodywork is available in either three sizes L2H2, L3H2 or L3H3"
   - claim: "Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van"
     source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
     quote: "up to 1,557kg (electric) & 1,726kg (diesel) maximum payload"
@@ -298,9 +300,9 @@ Rapid charging runs at up to 130kW, which Nissan says adds up to 157 miles of ra
 
 ### Load area and payload
 
-The panel van gives 10.8 cubic metres in the L2H2 and 13.0 in the L3H2, and the side door opening is 1,312mm wide. Reports differ on whether the high-roof L3H3 is offered as an electric van, so check with the dealer.
+The panel van gives 10.8 cubic metres in the L2H2 and 13.0 in the L3H2, and the side door opening is 1,312mm wide. Nissan lists the electric panel van only as an L2H2 or L3H2, so the high-roof L3H3 is diesel only.
 
-Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van, from the 4.0-tonne L2H2, and 1,048kg for the 3.5-tonne L2H2. Published reviews have quoted more: for a 3.5-tonne van from 1,125kg to 1,134kg, and for the 4.0-tonne van from 1,544kg to 1,631kg. Ask for the plated figure for the exact van you're buying.
+Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van, from the 4.0-tonne L2H2, and 1,048kg for the 3.5-tonne L2H2. Published reviews have quoted other figures: for a 3.5-tonne van from 1,125kg to 1,134kg, and for the 4.0-tonne van from 1,544kg to 1,631kg. Ask for the plated figure for the exact van you're buying.
 
 ### On the road
 

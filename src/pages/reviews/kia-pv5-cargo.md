@@ -17,6 +17,7 @@ sources:
   - https://www.kia.com/uk/pbv/lineup/pv5-cargo/
   - https://www.kia.com/uk/pbv/specification-pv5-cargo/
   - https://www.kia.com/uk/pbv/government-grants/
+  - https://www.kia.com/uk/about/7-year-warranty/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
   - https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
