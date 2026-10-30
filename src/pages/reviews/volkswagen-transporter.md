@@ -3,20 +3,20 @@ layout: ../../layouts/Review.astro
 title: "Volkswagen e-Transporter review"
 van: volkswagen-transporter
 date: 2026-10-30T08:00:00Z
-summary: "Volkswagen's electric Transporter shares its platform, motor and battery with the Ford E-Transit Custom, and much of its reputation for driving well. The VW's own case rests on a five-year warranty and a simple two-trim range, but published range, payload and price figures don't line up, so check them with a dealer."
+summary: "Volkswagen's electric Transporter shares its platform, motor and battery with the Ford E-Transit Custom, and has a reputation for driving well. The VW's own case rests on a five-year warranty and a simple two-trim range, but published range and payload figures don't line up and we couldn't confirm a current price, so check them with a dealer."
 specs:
   price: "Not confirmed (no current UK price list we could open)"
   range: "Not confirmed (reports differ: 201 to 237 miles)"
   charging: "125kW"
   payload: "Not confirmed (reports differ: 1,088 kg or 1,092 kg)"
   batteryWarranty: "8 years or 100,000 miles (reported)"
-verdict: "By reputation this is one of the two best electric medium vans, and the other one is its Ford twin. It's said to drive well, the cab is cleverly laid out and every version carries more than a tonne. The VW's five-year warranty is the main reason to pick it over the Ford, while the Ford has a few clever extras the VW lacks. Get quotes for both, and ask which battery the van you're offered has."
+verdict: "One published review rates this one of the two best electric medium vans, alongside its Ford twin. It's said to drive well, the cab is cleverly laid out and published payloads all top a tonne. The VW's five-year warranty is the main reason to pick it over the Ford, while the Ford has a few clever extras the VW lacks. Get quotes for both, and ask which battery the van you're offered has."
 good:
   - "Five-year, 124,000-mile warranty"
   - "A reputation for driving well"
   - "Flat cab floor and a usable middle seat"
 bad:
-  - "Range, payload and price figures vary between reports"
+  - "Range and payload figures vary between reports"
   - "Most controls are on the touchscreen"
   - "Misses some of the Ford's clever extras"
 sources:
@@ -33,7 +33,7 @@ sources:
 facts:
   # Specs
   - claim: "201 to 237 miles"
-    calc: "Launch figure: up to 201 miles WLTP (Van Fleet World road test and Auto Express review, facts below). Updated battery announced January 2026: up to 237 miles WLTP (Parkers news, fact below). Van Fleet World gives 236 miles for the same update. No UK on-sale date for the update was given, so the current UK figure isn't confirmed."
+    calc: "Launch figure: up to 201 miles WLTP (Van Fleet World road test and Auto Express review, facts below), though the Parkers news story says the update goes 'up from 225 miles'. Updated battery announced January 2026: up to 237 miles WLTP (Parkers news, fact below). Van Fleet World gives 236 miles for the same update. No UK on-sale date for the update was given, so the current UK figure isn't confirmed."
   - claim: "125kW"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "it can cope with up to 125kW on one of those where available"
@@ -81,7 +81,7 @@ facts:
   - claim: "the cab is cleverly laid out"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "The Volkswagen eTransporter has a cabin that is one of the more cleverly designed in the van sector at the moment"
-  - claim: "every version carries more than a tonne"
+  - claim: "published payloads all top a tonne"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "The smallest payload in the electric Transporter's offering is 1,009kg, meaning there is no lightweight model in the line-up."
   - claim: "The VW's five-year warranty is the main reason to pick it over the Ford"
@@ -149,17 +149,19 @@ facts:
   - claim: "the lowest is reported at 1,009kg"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "The smallest payload in the electric Transporter's offering is 1,009kg"
-  - claim: "the lowest is reported at 1,009kg"
+  - claim: "1,009kg, which one road test says includes a 75kg driver"
     source: https://vanfleetworld.co.uk/road-test-volkswagen-etransporter-l1h1/
-    quote: "Payload is restricted to 1,009kg for these versions."
+    quote: "GROSS PAYLOAD? 1,009kg (includes 75kg driver)"
   - claim: "Every version can tow a 2,300kg trailer"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "Every version of the Volkswagen e-Transporter has the same towing capacity, being able to tow a 2,300kg trailer."
   # Range and charging
-  - claim: "an official WLTP range of up to 201 miles"
+  - claim: "Launch reports put the official WLTP range at up to 201 miles"
+    calc: "Van Fleet World road test (April 2025) and Auto Express both give up to 201 miles WLTP for launch vans (facts below). The Parkers January 2026 news story instead says the update is 'up from 225 miles', so we say launch reports rather than stating it as VW's figure."
+  - claim: "up to 201 miles"
     source: https://vanfleetworld.co.uk/road-test-volkswagen-etransporter-l1h1/
     quote: "RANGE? Up to 201 miles (WLTP combined)"
-  - claim: "an official WLTP range of up to 201 miles"
+  - claim: "up to 201 miles"
     source: https://www.autoexpress.co.uk/volkswagen/transporter
     quote: "with a WLTP range of up to 201 miles for the 134bhp version"
   - claim: "In January 2026"
@@ -180,7 +182,7 @@ facts:
   - claim: "10 minutes less than before"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-e-transporter-updates/
     quote: "That's 10 minutes quicker than previously."
-  - claim: "VW hadn't given a UK on-sale date or prices for the update"
+  - claim: "VW hadn't given an on-sale date or prices for the update"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-e-transporter-updates/
     quote: "VW hasn't given an on-sale date for the updated e-Transporter and e-Caravelle, or announced prices."
   - claim: "updated in October 2026"
@@ -189,50 +191,53 @@ facts:
   - claim: "still quotes the older 64kWh battery"
     source: https://www.autoexpress.co.uk/volkswagen/transporter
     quote: "The e-Shuttle and e-Transporter both use a 64kWh lithium-ion battery"
-  - claim: "showing 160 miles to empty with 99% charge"
+  - claim: "the dash showed 160 miles to empty at 99% charge"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
-    quote: "with 99% showing on the dash, it was reading 160 miles to empty"
-  - claim: "lightly loaded"
+    quote: "with 99% showing on the dash, it was reading 160 miles to empty when the van arrived a week ago"
+  - claim: "that looked about right over a week of light loads"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
-    quote: "albeit only every lightly loaded"
+    quote: "That seems borne out after using it on a variety of roads, albeit only every lightly loaded"
   - claim: "Rapid charging runs at up to 125kW"
     source: https://www.autoexpress.co.uk/volkswagen/transporter
     quote: "125kW using a DC rapid charger"
-  - claim: "0 to 100% took just over six and a half hours on an 11kW charger and just under 10 hours on a 7.4kW wallbox"
+  - claim: "0 to 100% is quoted at just over six and a half hours on an 11kW charger and just under 10 hours on a 7.4kW wallbox"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "Going from 0-100% on an 11kW AC charger takes just over six and a half hours, while it is just under 10 hours on a common 7.4kW domestic wallbox."
   # On the road
-  - claim: "easy to handle in town, with light steering"
+  - claim: "One published review found it easy to handle in town, with light steering"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "The result is a van that is easy to handle around town, with a steering setup that is light enough"
   - claim: "a ride that soaks up bumps"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "The ride is brilliant as well, as it's well set up to cope with the usual street imperfections and bumps."
-  - claim: "It's also described as quiet and smooth"
+  - claim: "others describe it as quiet and smooth"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "It is quiet, refined and smooth in action"
-  - claim: "It's also described as quiet and smooth"
+  - claim: "others describe it as quiet and smooth"
     source: https://vanfleetworld.co.uk/road-test-volkswagen-etransporter-l1h1/
     quote: "The e-Transporter drives well, as you might expect, with low noise levels and comfortable seats."
   - claim: "136hp and 218hp"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "for the panel vans at least - with 136hp and 218hp available"
-  - claim: "acceleration is adequate rather than quick"
+  - claim: "One week-long test found the 136hp motor's acceleration adequate rather than quick"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "acceleration is adequate rather than impressive"
-  - claim: "copes with motorway speeds when unladen"
+  - claim: "another found it copes with motorway speeds when unladen"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "feeling perfectly capable when being asked to keep up at motorway speeds. This was with no payload in the back"
   # Cab and kit
-  - claim: "the gear selector on a stalk"
+  - claim: "the gear selector is on a stalk"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "As the electric is controlled via a stalk to the side of the steering wheel"
   - claim: "the middle passenger gets a better deal than in most vans"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "the central occupant has a far better deal of it in the Transporter"
-  - claim: "there's no overhead shelf, because the airbags sit up in the roof"
+  - claim: "There's no overhead storage, because the airbags sit up in the roof"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "this van has its airbags tucked up high in the roof"
+  - claim: "There's no overhead storage"
+    source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
+    quote: "No overhead storage in a low cabin"
   - claim: "13-inch touchscreen"
     source: https://vanfleetworld.co.uk/road-test-volkswagen-etransporter-l1h1/
     quote: "a 13-inch touchscreen infotainment system"
@@ -267,7 +272,7 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "Wireless phone charging Adaptive cruise control with speed limiter"
   # Which version to buy
-  - claim: "motor is enough for most buyers"
+  - claim: "the 136hp motor looks enough for most buyers"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "We think the majority of users will do just fine with the lower powered motor."
   - claim: "the Pro's extras are nice rather than necessary"
@@ -295,10 +300,9 @@ facts:
   - claim: "five years or 124,000 miles"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "the Volkswagen Transporter gets five years or 124,000 miles of coverage"
-  - claim: "three services for electric versions"
-    source: https://vanfleetworld.co.uk/volkswagen-debuts-first-ever-plug-in-hybrid-transporter/
-    quote: "three services for fully electric models"
-  - claim: "three services for electric versions"
+  - claim: "some free servicing"
+    calc: "All three sources say VW's 5+ Promise includes servicing, but they differ on how many services an electric van gets (Parkers: five; Auto Express and Van Fleet World: three for electric models), so no count is given."
+  - claim: "some free servicing"
     source: https://www.autoexpress.co.uk/volkswagen/transporter
     quote: "the electric version gets three complimentary services"
   - claim: "five years of roadside assistance"
@@ -330,33 +334,33 @@ The e-Transporter is Volkswagen's electric medium van, developed jointly with Fo
 
 There are two lengths, both with a roof comfortably under 2 metres, and the battery costs nothing in load space compared with the diesel: 5.8 cubic metres in the short van and 6.9 in the long one. The long van takes three Euro pallets, and an 8ft by 4ft board fits between the wheel arches.
 
-Published payloads don't agree. One puts the best payload at 1,088kg, another at 1,092kg, and the lowest is reported at 1,009kg, so every version clears a tonne. Check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
+Published payloads don't agree. One puts the best payload at 1,088kg, another at 1,092kg, and the lowest is reported at 1,009kg, which one road test says includes a 75kg driver. Check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
 
 ### Range and charging in the real world
 
-At launch the e-Transporter had an official WLTP range of up to 201 miles. In January 2026 VW announced a bigger battery of around 70kWh usable, with up to 237 miles on the WLTP test (236 in another report) and a 10 to 80% rapid charge in around 30 minutes, 10 minutes less than before. VW hadn't given a UK on-sale date or prices for the update, and a review updated in October 2026 still quotes the older 64kWh battery, so ask the dealer which battery you're getting.
+Launch reports put the official WLTP range at up to 201 miles. In January 2026 VW announced a bigger battery of around 70kWh usable, with up to 237 miles on the WLTP test (236 in another report) and a 10 to 80% rapid charge in around 30 minutes, 10 minutes less than before. VW hadn't given an on-sale date or prices for the update, and a review updated in October 2026 still quotes the older 64kWh battery, so ask the dealer which battery you're getting.
 
-One week-long test of a launch van saw it showing 160 miles to empty with 99% charge, lightly loaded. Rapid charging runs at up to 125kW. With the launch battery, 0 to 100% took just over six and a half hours on an 11kW charger and just under 10 hours on a 7.4kW wallbox. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
+In one week-long test of a launch van, the dash showed 160 miles to empty at 99% charge, and that looked about right over a week of light loads. Rapid charging runs at up to 125kW. With the launch battery, 0 to 100% is quoted at just over six and a half hours on an 11kW charger and just under 10 hours on a 7.4kW wallbox. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
 ### On the road
 
-We haven't driven it, but by all accounts it's easy to handle in town, with light steering and a ride that soaks up bumps. It's also described as quiet and smooth. Panel vans come with 136hp and 218hp motors. With the 136hp motor, acceleration is adequate rather than quick, but it copes with motorway speeds when unladen.
+We haven't driven it. One published review found it easy to handle in town, with light steering and a ride that soaks up bumps, and others describe it as quiet and smooth. Panel vans come with 136hp and 218hp motors. One week-long test found the 136hp motor's acceleration adequate rather than quick, and another found it copes with motorway speeds when unladen.
 
 ### Cab and kit
 
-With the gear selector on a stalk, the floor is flat and the middle passenger gets a better deal than in most vans. There's no overhead shelf, because the airbags sit up in the roof. There's a 13-inch touchscreen with Apple CarPlay and Android Auto and a permanent strip of ventilation controls along the bottom, but most functions still mean prodding the screen. You can add two optional 230V sockets in the load area, 2.3kW in total, but not the Ford's clever extras, such as the steering wheel that flips flat into a table.
+The floor is flat and the gear selector is on a stalk, so the middle passenger gets a better deal than in most vans. There's no overhead storage, because the airbags sit up in the roof. There's a 13-inch touchscreen with Apple CarPlay and Android Auto and a permanent strip of ventilation controls along the bottom, but most functions still mean prodding the screen. You can add two optional 230V sockets in the load area, 2.3kW in total, but not the Ford's clever extras, such as the steering wheel that flips flat into a table.
 
 Electric vans come in Commerce Plus and Commerce Pro trims. Commerce Plus has a heat pump, heated front seats and all-season tyres, plus a reversing camera, front and rear parking sensors and keyless start. Commerce Pro adds 16-inch alloy wheels, a heated windscreen, wireless phone charging and adaptive cruise control.
 
 ### Which version to buy
 
-Commerce Plus is the one: by most accounts the 136hp motor is enough for most buyers, and the Pro's extras are nice rather than necessary. At launch, the short van with the 136hp motor had the longest official range.
+Commerce Plus is the one: the 136hp motor looks enough for most buyers, and the Pro's extras are nice rather than necessary. At launch, the short van with the 136hp motor had the longest official range.
 
 ### Price
 
 We couldn't open Volkswagen's UK price list. A week-long test in August 2025 quoted £42,820 for a short-wheelbase Commerce Plus, without saying whether that included VAT, so get a written quote. GOV.UK lists the e-Transporter panel van for the government's van grant, a discount of 35% of the price, up to £5,000; see our [grants and tax guide](/guides/grants-and-tax/).
 
-The warranty is where the VW pulls ahead: it covers the van for five years or 124,000 miles, with three services for electric versions and five years of roadside assistance. Ford's own price list gives its van 3 years or 100,000 miles. The battery is reported to be covered for 8 years or 100,000 miles. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+The warranty is where the VW pulls ahead: it covers the van for five years or 124,000 miles, with some free servicing and five years of roadside assistance. Ford's own price list gives its van 3 years or 100,000 miles. The battery is reported to be covered for 8 years or 100,000 miles. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Alternatives
 

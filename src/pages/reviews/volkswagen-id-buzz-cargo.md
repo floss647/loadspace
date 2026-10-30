@@ -76,12 +76,12 @@ facts:
   - claim: "early vans had a 77kWh battery"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "This means you get a 204hp motor and a 77kWh battery pack"
-  - claim: "the earlier 77kWh van with the original 201bhp motor"
+  - claim: "the earlier 77kWh van"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "This means you get a 204hp motor and a 77kWh battery pack"
-  - claim: "the earlier 77kWh van with the original 201bhp motor"
+  - claim: "the original 201bhp motor"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
-    quote: "power for the ID. Buzz Cargo came solely from a 201bhp electric motor mounted at the back of the van and driving the rear wheels. We've tested this version"
+    quote: "From its launch, power for the ID. Buzz Cargo came solely from a 201bhp electric motor mounted at the back of the van and driving the rear wheels"
   - claim: "Car-like to drive, judging by tests of earlier vans"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "the ID. Buzz Cargo is one of the most car-like vans to drive"
@@ -204,7 +204,10 @@ facts:
     quote: "A high driving position and large windows mean visibility is very good"
   - claim: "bigger bumps can send a shudder through the body, especially when it's empty"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
-    quote: "impacts with bigger bumps can cause shudders to echo through the van's frame, especially when unloaded"
+    quote: "impacts with bigger bumps can cause shudders to echo through the van"
+  - claim: "especially when it's empty"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "frame, especially when unloaded"
   - claim: "The Cargo's cab is plainer than the MPV's, with darker, harder plastics"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "The ID. Buzz Cargo features a lot of black plastic trim, which distinguishes it from the passenger version that uses lighter-coloured plastics"
