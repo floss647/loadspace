@@ -19,6 +19,9 @@ bad:
   - "Not quick, and the regenerative braking can't be adjusted"
   - "Early vans had a turn key and manual handbrake"
   - "Published prices don't line up"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://van-of-the-year.com/2024/09/16/new-renault-master-conquers-33rd-international-van-of-the-year-award-2025/
   - https://www.autoexpress.co.uk/renault/master
