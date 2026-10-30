@@ -19,7 +19,8 @@
  * Offline checks (always):
  *   - every number in the title, summary, stat, statLabel and body is covered by a fact's claim
  *   - every claim appears in the story, and its numbers appear in its quote (or it has a calc)
- *   - every source is on the trusted list in scripts/news-sources.json
+ *   - every source is on the trusted list in scripts/news-sources.json, or is a saved document
+ *     (archive: sources/<file>) listed in sources/index.json with a trusted publisher and matching fingerprint
  *   - no links to other websites in the story
  *   - the story has a factCheck sign-off
  *
@@ -31,6 +32,7 @@
  * Exit code 1 on any problem.
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -42,6 +44,8 @@ const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'),
 const LIVE = process.argv.includes('--live');
 const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+// Saved copies of maker documents whose websites block automated visits (see sources/README.md).
+const ARCHIVE = existsSync(join(ROOT, 'sources/index.json')) ? JSON.parse(readFileSync(join(ROOT, 'sources/index.json'), 'utf8')) : {};
 const UA = 'LoadspaceFactCheck/1.0 (https://loadspace-vans.netlify.app; checking our own news sources)';
 
 // A number not glued to letters before it (so PV5, L1H1, eActros 600 model names aren't counted
@@ -62,6 +66,25 @@ function hostOk(url) {
     if (TRUSTED[tier].some((d) => host === d || host.endsWith('.' + d))) return tier;
   }
   return null;
+}
+
+// A saved document must be listed in sources/index.json, from a trusted publisher, and unchanged.
+function archiveProblem(path) {
+  const name = String(path).replace(/^sources\//, '');
+  const entry = ARCHIVE[name];
+  if (!String(path).startsWith('sources/') || !entry) return `saved document isn't listed in sources/index.json: ${path}`;
+  const file = join(ROOT, 'sources', name);
+  if (!existsSync(file)) return `saved document is missing: ${path}`;
+  if (!hostOk('https://' + entry.publisher + '/')) return `saved document's publisher isn't on the trusted list: ${entry.publisher}`;
+  const sha = createHash('sha256').update(readFileSync(file)).digest('hex');
+  if (sha !== entry.sha256) return `saved document has changed since it was recorded: ${path}`;
+  return null;
+}
+
+function archiveText(path) {
+  const file = join(ROOT, path);
+  if (file.toLowerCase().endsWith('.pdf')) return execFileSync('pdftotext', ['-layout', file, '-'], { maxBuffer: 64e6 }).toString();
+  return readFileSync(file, 'utf8').replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
 }
 
 function parse(file) {
@@ -102,8 +125,15 @@ function checkOffline(slug, fm, body, isBlog) {
       if (f.joke && !isBlog) errs.push(`${label}: joke facts are only allowed in blog columns, not news`);
       return;
     }
-    if (!f.source || !f.quote) { errs.push(`${label}: needs source and quote (or calc)`); return; }
-    if (!hostOk(f.source)) errs.push(`${label}: source isn't on the trusted list: ${f.source}`);
+    if (f.archive) {
+      if (f.source) errs.push(`${label}: give either source or archive, not both`);
+      if (!f.quote) { errs.push(`${label}: needs a quote from the saved document`); return; }
+      const err = archiveProblem(f.archive);
+      if (err) errs.push(`${label}: ${err}`);
+    } else {
+      if (!f.source || !f.quote) { errs.push(`${label}: needs source and quote (or calc)`); return; }
+      if (!hostOk(f.source)) errs.push(`${label}: source isn't on the trusted list: ${f.source}`);
+    }
     const qn = new Set(nums(f.quote));
     const missing = nums(f.claim).filter((n) => !qn.has(n));
     if (missing.length) errs.push(`${label}: number(s) ${missing.join(', ')} not in the quote. Quote the source exactly, or use calc for conversions.`);
@@ -141,6 +171,12 @@ async function pageText(url) {
 async function checkLive(slug, fm) {
   const errs = [];
   for (const [i, f] of (fm.facts || []).entries()) {
+    if (f.archive && f.quote) {
+      try {
+        if (!norm(archiveText(f.archive)).includes(norm(f.quote))) errs.push(`fact ${i + 1} (${f.claim}): quote not found in saved document ${f.archive}`);
+      } catch (e) { errs.push(`fact ${i + 1} (${f.claim}): couldn't read saved document ${f.archive} (${e.message})`); }
+      continue;
+    }
     if (!f.source || !f.quote) continue;
     try {
       const t = norm(await pageText(f.source));
