@@ -10,7 +10,7 @@ specs:
   charging: "125kW"
   payload: "1,126 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The E-Transit Custom is the electric van that feels least like a compromise: both Parkers and Auto Express found it car-like to drive, and it keeps the diesel's load space. Ford's official range of up to 230 miles is competitive rather than class-leading, and payloads are lower than the diesel's, so check the plated figure for the exact van you're buying. It isn't cheap at £43,630 before VAT and before the grant, and there's no basic trim to bring that down. If the payload and range suit your work, it's one of the easiest electric vans to recommend."
+verdict: "Among medium vans, the E-Transit Custom is the electric model that feels least like a compromise: both Parkers and Auto Express found it car-like to drive, and it keeps the diesel's load space. Ford's official range of up to 230 miles is competitive rather than class-leading, and payloads are lower than the diesel's, so check the plated figure for the exact van you're buying. It isn't cheap at £43,630 before VAT and before the grant, and there's no basic trim to bring that down. If the payload and range suit your work, it's one of the easiest electric vans to recommend."
 good:
   - "Car-like to drive, testers agree"
   - "Same load space as the diesel van"
@@ -19,6 +19,9 @@ bad:
   - "Expensive, with no basic trim"
   - "Lower payloads than the diesel version"
   - "Good range, but not class-leading"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit-custom
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
@@ -112,6 +115,9 @@ facts:
   - claim: "Car-like to drive, testers agree"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "it feels more car-like to drive than its predecessor"
+  - claim: "Among medium vans, the E-Transit Custom is the electric model that feels least like a compromise"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
+    quote: "this is the electric van that is closest in driving feel to its diesel counterparts, certainly in the medium sector at least"
   - claim: "there's no basic trim to bring that down"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "There is no basic level model"
@@ -152,7 +158,7 @@ facts:
   - claim: "covers the current line-up, where every version has the 71kWh battery"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "each version of the Ford E-Transit Custom is now powered by the same 71kWh battery"
-  - claim: "describes it as the UK's most popular van in electric form"
+  - claim: "describes it as the UK's most popular van, but in electric form"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The UK's most-popular van, but in electric form"
   - claim: "shares its underpinnings with the Ford through a partnership between the two companies"
@@ -261,7 +267,7 @@ facts:
   - claim: "feels odd when you're actually steering"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "the wheel feels a bit strange when you actually need it for steering"
-  - claim: "tilts flat to become a tablet stand or lunch tray"
+  - claim: "tilts to become a tablet stand or lunch tray"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "this wheel can be tilted for use as a tablet stand or even a lunch tray"
   # Where testers disagree
@@ -284,9 +290,9 @@ facts:
 
 ### Which versions were tested
 
-Parkers' review by Tom Webster, dated March 2026, reflects the battery upgrade from 64kWh to 71kWh. Its driving notes include an all-wheel-drive van tested on an ice track in the French Alps, on winter tyres that Ford doesn't offer in the UK. The page also carries a separate test of the MS-RT by Ben Whitworth: a double-cab-in-van with the earlier 64kWh battery, so treat its range findings as a guide to the old battery. Auto Express's review by Shane Wilkinson was updated in August 2026 and covers the current line-up, where every version has the 71kWh battery, but it doesn't say exactly which version its tester drove.
+Parkers' review by Tom Webster, dated March 2026, reflects the battery upgrade from 64kWh to 71kWh. Its driving notes include an all-wheel-drive van tested on an ice track in the French Alps, on winter tyres that Ford doesn't offer in the UK. The page also carries a separate test of the MS-RT by Ben Whitworth: a double-cab-in-van with the earlier 64kWh battery, so treat its range findings as a guide to the old battery. Auto Express's review by Shane Wilkinson was updated in August 2026 and covers the current line-up, where every version has the 71kWh battery, but it doesn't say exactly which version its tester drove, or when.
 
-Parkers describes it as the UK's most popular van in electric form, and points out that the [Volkswagen e-Transporter](/vans/volkswagen-transporter/) shares its underpinnings with the Ford through a partnership between the two companies.
+Parkers describes it as the UK's most popular van, but in electric form, and points out that the [Volkswagen e-Transporter](/vans/volkswagen-transporter/) shares its underpinnings with the Ford through a partnership between the two companies.
 
 ### Driving
 
@@ -298,7 +304,7 @@ Auto Express's tester also found it car-like and composed for its size, and says
 
 Ford quotes an official WLTP range of up to 230 miles, and Parkers notes the best figure comes from the 136hp short-wheelbase Trend. Parkers warns it may suffer when fully laden in winter. Parkers' MS-RT tester, on the older battery, reckoned you'd be lucky to manage 150 miles driving gently and could struggle to reach 100 miles if you used the extra power.
 
-Auto Express points out that some rivals go further on a charge, but every E-Transit Custom has a heat pump as standard. Rapid charging runs at up to 125kW. Ford's own time for a 10 to 80% rapid charge differs between its website (about 39 minutes) and its price list (29 minutes), so plan around the slower one. Our [charging guide](/guides/charging-an-electric-van/) explains what affects it.
+Auto Express points out that some rivals go further on a charge, but every E-Transit Custom has a heat pump as standard. Rapid charging runs at up to 125kW. Ford's own figures for a 10 to 80% rapid charge don't agree: its price list says 29 minutes, but the text on its website says about 39 minutes, so plan around the slower one. Our [charging guide](/guides/charging-an-electric-van/) explains what affects it.
 
 ### Load area and practicality
 
@@ -306,8 +312,8 @@ Auto Express confirms the same load volume as the diesel, and the same racking f
 
 ### Cabin and tech
 
-Both publications like the flat cab floor and the lack of floor-mounted controls, which make it easy to slide across. Both also grumble that the climate controls live on the touchscreen. There's a 13-inch touchscreen with Apple CarPlay and Android Auto as standard. Auto Express found thin seat backrests with little lumbar support, and says the oblong steering wheel feels odd when you're actually steering, though as an option it tilts flat to become a tablet stand or lunch tray.
+Both publications like the flat cab floor and the lack of floor-mounted controls, which make it easy to slide across. Both also grumble that the climate controls live on the touchscreen. There's a 13-inch touchscreen with Apple CarPlay and Android Auto as standard. Auto Express found thin seat backrests with little lumbar support, and says the oblong steering wheel feels odd when you're actually steering, though as an option it tilts to become a tablet stand or lunch tray.
 
 ### Where testers disagree
 
-Noise splits them. Parkers calls it a "wonderfully quiet van to drive", while Auto Express heard a loud whine from the motor, especially when setting off and stopping. Parkers' tester found the MS-RT highly entertaining but hard to recommend, and Auto Express struggles to see the point of paying the extra. To see how the running costs stack up against a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/) or the [Transit Custom van page](/vans/ford-transit-custom/).
+Noise splits them. Parkers calls it a "wonderfully quiet van to drive", while Auto Express heard a loud whine from the motor, especially when setting off and stopping. They broadly agree on the MS-RT, though: Parkers' tester found the MS-RT highly entertaining but hard to recommend, and Auto Express struggles to see the point of paying the extra. To see how the running costs stack up against a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/) or the [Transit Custom van page](/vans/ford-transit-custom/).
