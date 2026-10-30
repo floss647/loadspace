@@ -59,16 +59,16 @@ facts:
   - claim: "10-year, 100,000-mile service-activated warranty"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "10-year/100,000-mile service-activated warranty"
-  - claim: "149 to about 160 miles"
+  - claim: "149"
     source: https://www.autoexpress.co.uk/toyota/hilux/368216/new-toyota-hilux-arrives-uk-and-beats-ford-ranger-price
     quote: "gets a 59.2kWh battery for a range of up to 149 miles"
-  - claim: "149 to about 160 miles"
+  - claim: "160 miles"
     source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
     quote: "Toyota quotes approximately 160 miles on the WLTP combined cycle from the 59.2kWh battery"
   - claim: "One launch report gives up to 149 miles"
     source: https://www.autoexpress.co.uk/toyota/hilux/368216/new-toyota-hilux-arrives-uk-and-beats-ford-ranger-price
     quote: "for a range of up to 149 miles"
-  - claim: "a June 2026 first drive quotes Toyota's figure as about 160 miles WLTP"
+  - claim: "quotes Toyota's figure as about 160 miles WLTP"
     source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
     quote: "Toyota quotes approximately 160 miles on the WLTP combined cycle"
   - claim: "a June 2026 first drive"
@@ -80,10 +80,10 @@ facts:
   - claim: "the battery sits inside the chassis rails"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "Locating the drive battery within the chassis rails means that the Hilux BEV doesn"
-  - claim: "1,555mm long, 1,540mm wide and 480mm deep"
+  - claim: "1,555mm long, 1,540mm wide"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "It measures 1,555mm long and 1,540mm wide with minimal wheelarch intrusion to hamper cargo carrying, while there"
-  - claim: "1,555mm long, 1,540mm wide and 480mm deep"
+  - claim: "480mm deep"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "a load bed depth of 480mm"
   - claim: "It only comes as a double cab"
@@ -164,6 +164,9 @@ facts:
   - claim: "Its payload hasn't been published"
     source: https://vanfleetworld.co.uk/new-two-seat-toyota-hilux-offers-major-tax-breaks-for-businesses/
     quote: "The conversion is available for both diesel 48V and battery electric (BEV) Hilux models"
+  - claim: "Maxus eTerron 9"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "Maxus E Terron 9 Luxury"
   - claim: "Double cab counts as a car for VAT"
     source: https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
     quote: "From 1 December 1999 vehicles are not treated as cars for VAT purposes if they have a payload of one tonne or more"
