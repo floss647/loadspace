@@ -34,6 +34,10 @@ Some vehicle photos come from makers' press offices (Stellantis, Toyota, Mercede
 
 If we want a press photo for something promotional, ask that press office for written permission first.
 
+## Saved source documents
+
+Some makers' websites (Vauxhall, Citroën, Peugeot, Fiat, Mercedes-Benz UK) block automated visits, so the checker can't open their price lists. The editor downloads the document from the maker's UK site and we keep a copy in `sources/`, listed in `sources/index.json` with its publisher, date and fingerprint. A fact then uses `archive: sources/<file>` instead of `source:`, and the checker confirms the quote is in the saved copy. See `sources/README.md`.
+
 ## Facts list format
 
 ```yaml

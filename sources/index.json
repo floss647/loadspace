@@ -1,0 +1,18 @@
+{
+  "mercedes-esprinter-van-price-list-2026-07.pdf": {
+    "title": "Mercedes-Benz eSprinter Electric Panel van models price list",
+    "publisher": "mercedes-benz.co.uk",
+    "effective": "July 2026",
+    "received": "2026-10-30",
+    "via": "Supplied by the editor, downloaded from the maker's UK website",
+    "sha256": "bca4f94e791aca64402c69b15740f8c07febe3e5112a019922068105a0db8d5e"
+  },
+  "mercedes-ecitan-price-list-2025-01.pdf": {
+    "title": "Mercedes-Benz eCitan Electric Panel and Crew van models price list",
+    "publisher": "mercedes-benz.co.uk",
+    "effective": "January 2025",
+    "received": "2026-10-30",
+    "via": "Supplied by the editor, downloaded from the maker's UK website",
+    "sha256": "2b7044e29ef430343d8eef28836b3668b25b6922956c144642863696180e9497"
+  }
+}
