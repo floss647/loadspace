@@ -222,7 +222,7 @@ facts:
   - claim: "One week-long test found the 136hp motor's acceleration adequate rather than quick"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "acceleration is adequate rather than impressive"
-  - claim: "another found it copes with motorway speeds when unladen"
+  - claim: "one review found it copes with motorway speeds when unladen"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "feeling perfectly capable when being asked to keep up at motorway speeds. This was with no payload in the back"
   # Cab and kit
@@ -344,7 +344,7 @@ In one week-long test of a launch van, the dash showed 160 miles to empty at 99%
 
 ### On the road
 
-We haven't driven it. One published review found it easy to handle in town, with light steering and a ride that soaks up bumps, and others describe it as quiet and smooth. Panel vans come with 136hp and 218hp motors. One week-long test found the 136hp motor's acceleration adequate rather than quick, and another found it copes with motorway speeds when unladen.
+We haven't driven it. One published review found it easy to handle in town, with light steering and a ride that soaks up bumps, and others describe it as quiet and smooth. Panel vans come with 136hp and 218hp motors. One week-long test found the 136hp motor's acceleration adequate rather than quick, and one review found it copes with motorway speeds when unladen.
 
 ### Cab and kit
 
