@@ -4,7 +4,7 @@ name: News and column fact check
 # confirms every quoted fact is really there. A failing check means don't merge.
 on:
   pull_request:
-    paths: ['src/pages/news/**', 'src/pages/blog/**', 'scripts/check-news.mjs', 'scripts/check-style.mjs', 'scripts/news-sources.json']
+    paths: ['src/pages/news/**', 'src/pages/blog/**', 'src/pages/reviews/**', 'scripts/check-news.mjs', 'scripts/check-style.mjs', 'scripts/news-sources.json']
   workflow_dispatch:
 
 jobs:

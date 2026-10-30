@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { REVIEWS } from '../../lib/reviews.js';
+import IMAGES from '../../data/images.json';
+const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
+---
+<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs.">
+  <section class="review-hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="/">Home</a> › Reviews</div>
+      <p class="eyebrow">Loadspace reviews</p>
+      <h1>Electric van reviews</h1>
+      <p class="review-summary">Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Loadspace data score from its published specs, so you can compare them fairly.</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <div class="review-cards">
+      {REVIEWS.map((r) => (
+        <a class="review-card" href={r.url}>
+          <div class="review-card-img">
+            {card(r.van) && <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" />}
+            {r.score.overall != null && <span class="medal-score">{r.score.overall.toFixed(1)}<small>/5</small></span>}
+          </div>
+          <div class="review-card-text">
+            <h2>{r.vanName}</h2>
+            <p>{r.summary}</p>
+            <div class="mini-meters">
+              {r.score.rows.map((row) => (
+                <span title={`${row.label}: ${row.points != null ? row.points + '/5' : 'not confirmed'}`}>
+                  <em>{row.label}</em>
+                  <span class="meter">{[1, 2, 3, 4, 5].map((n) => <i class={n <= (row.points ?? 0) ? 'on' : ''} />)}</span>
+                </span>
+              ))}
+            </div>
+            <span class="arrow">Read the review →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+    <p class="small muted" style="margin-top:2rem">We haven't road-tested these vans ourselves yet. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
+  </div>
+</Base>
