@@ -104,7 +104,7 @@ facts:
   - claim: "only two seats"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "The cabin isn't wide enough to accommodate three seats"
-  - claim: "low enough for most height-restricted car parks"
+  - claim: "low enough to fit under common height barriers"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "all versions low enough to fit under the common height restrictions"
   # Load area and payload
@@ -129,8 +129,8 @@ facts:
   - claim: "683 kg for the Limited"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Van Limited 46kWh Electric Drive 136PS 1-speed auto - Zero Emission Electric 0 17.7 4.4 201 2250 / N/A 1549 683 / N/A 1025 1305 750 750 3000"
-  - claim: "That beats the standard petrol and diesel vans"
-    calc: "Ford price list standard (first) payload figures for petrol and diesel panel vans run from 614 kg (Active diesel) to 678 kg (Leader 125PS petrol auto), all below the Trend electric's 696 kg and the Limited electric's 683 kg"
+  - claim: "That beats every petrol and diesel panel van in standard-payload form"
+    calc: "Ford price list standard (first) payload figures for petrol and diesel Vans (Leader, Trend, Limited, Active; the Double Cab in Van crew version excluded) run from 614 kg (Active diesel) to 678 kg (Leader 125PS petrol auto), all below the Trend electric's 696 kg and the Limited electric's 683 kg"
   - claim: "a high-payload option"
     source: https://www.autoexpress.co.uk/ford/transit-courier
     quote: "There are two payload versions on combustion-engined Transit Couriers"
@@ -150,13 +150,22 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "the most any Transit Courier can manage is 1,100kg"
   # Range and charging
-  - claim: "Ford's price list, effective from 24 August 2026"
+  - claim: "Ford's price list for the 2027 model year"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "2027 MY Pricelist"
+  - claim: "effective from 24 August 2026"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Effective Date : 24th August 2026"
   - claim: "an official WLTP range"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "The electric range shown was achieved using the new (WLTP) test procedure."
   - claim: "In early 2025"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "11 April 2025 by Tom Webster"
+  - claim: "driven in Spain in early 2025"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "My first experience with the E-Transit Courier was in Spain"
+  - claim: "driven in Spain in early 2025"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "11 April 2025 by Tom Webster"
   - claim: "the official figure was 181 miles"
@@ -190,6 +199,8 @@ facts:
   - claim: "is the most powerful in the Courier range"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "This might make it the most powerful model in the range"
+  - claim: "is the most powerful in the Courier range"
+    calc: "Ford price list (effective 24 August 2026): petrol and diesel engines are 100PS or 125PS; the electric motor is 136PS (fact below), so it is the most powerful"
   - claim: "The 136PS motor"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Van Trend 46kWh Electric Drive 136PS 1-speed auto Electric TC39 £27,000.00 £32,400.00 £28,831.83 £34,515.20 £69.50 £139.00"
@@ -224,7 +235,7 @@ facts:
   - claim: "there are no physical climate buttons"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "you don't get physical climate control buttons so you have to delve into the touchscreen"
-  - claim: "One report warns that taller drivers may run out of seat travel"
+  - claim: "That same test warns that taller drivers may run out of seat travel"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "taller drivers will find that the seat only goes so far back"
   # Which version to buy
@@ -233,9 +244,24 @@ facts:
   - claim: "The Limited"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Van Limited 46kWh Electric Drive 136PS 1-speed auto Electric TC39 £28,000.00 £33,600.00 £29,831.83 £35,715.20 £69.50 £139.00"
-  - claim: "heated front seats, a heated steering wheel, 17-inch alloys, wireless phone charging and a three-pin socket in the load bay"
-    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
-    quote: "Heated front seats Heated steering wheel One-touch electric windows 17-inch alloy wheels (ICE only gets 16-inch wheels) Wireless phone charging Three-pin plug in the loading bay (bespoke to the BEV)"
+  - claim: "heated front seats"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Heated Driver Seat ICE & BEV BY1AB"
+  - claim: "heated front seats"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Heated Passenger Seat ICE & BEV BY2AB"
+  - claim: "a heated steering wheel"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Heated Steering Wheel (included in Winter Pack 2) ICE & BEV GTBAB"
+  - claim: "wireless phone charging"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Wireless Charging Pad IEXAB"
+  - claim: "A 230V socket on the centre console is an option on both trims"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Pro Power Onboard (400W 230V AC)"
+  - claim: "A 230V socket on the centre console is an option on both trims"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "Located at the front of the flexible centre console"
   - claim: "17-inch alloys"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "17\" Alloy Wheels - 5-spoke in Absolute Black / Machined finish Requires BEV D2YBT"
@@ -277,7 +303,7 @@ facts:
   - claim: "£28,832"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-courier
     quote: "£28,832 E-Transit Courier Van Trend 46kWh Electric Drive 136PS"
-  - claim: "Ford's website shows £28,832, which is that on-the-road figure rounded"
+  - claim: "Ford's website shows £28,832, which matches that on-the-road figure rounded to the pound"
     calc: "Ford price list OTR excl. VAT for the Trend £28,831.83 (fact above), rounded to the nearest pound = £28,832, the figure on Ford's website (fact above)"
   - claim: "the Limited is £28,000 before VAT"
     calc: "Ford price list RRP excl. VAT for the Limited £28,000.00 (fact above), written without pence: £28,000"
@@ -306,31 +332,31 @@ facts:
 
 ### Who it's for
 
-The E-Transit Courier is Ford's smallest van, and one of the smallest electric vans on sale in the UK. It suits tradespeople and delivery drivers who work in towns, park on the street and rarely carry much weight. There's one body size, one battery and one motor, and only two seats, so choosing is easy. It's also low enough for most height-restricted car parks.
+The E-Transit Courier is Ford's smallest van, and one of the smallest electric vans on sale in the UK. It suits tradespeople and delivery drivers who work in towns, park on the street and rarely carry much weight. There's one body size, one battery and one motor, and only two seats, so choosing is easy. It's also low enough to fit under common height barriers.
 
 ### Load area and payload
 
 It has the same body as the petrol and diesel Courier, so going electric costs you no load space. Ford quotes 2.9 cubic metres behind the bulkhead, room for two euro pallets on the floor and 1.2m between the wheel arches. An optional hatch in the bulkhead lets you carry items up to 2.6m long, and there's a 44-litre front boot under the bonnet, handy for charging cables.
 
-Payload is modest. Ford's current price list gives 696 kg for the Trend and 683 kg for the Limited. That beats the standard petrol and diesel vans, but they can be ordered with a high-payload option, up to 850kg on Ford's list, which the electric van can't have. Ford's website quotes up to 698kg; we've used the price list. Towing is limited to a 750kg braked trailer, against up to 1,100kg for other versions.
+Payload is modest. Ford's current price list gives 696 kg for the Trend and 683 kg for the Limited. That beats every petrol and diesel panel van in standard-payload form, but they can be ordered with a high-payload option, up to 850kg on Ford's list, which the electric van can't have. Ford's website quotes up to 698kg; we've used the price list. Towing is limited to a 750kg braked trailer, against up to 1,100kg for other versions.
 
 ### Range and charging in the real world
 
-Ford's price list, effective from 24 August 2026, gives an official WLTP range of 201 miles for both trims. Earlier figures were lower: in early 2025 the official figure was 181 miles, and Ford's own website still quotes 181 miles in its range section, so ask the dealer which figure applies to the van you order. Ford itself says real-world range depends on things like the weather, your driving style and the load, so plan winter work with a margin.
+Ford's price list for the 2027 model year, effective from 24 August 2026, gives an official WLTP range of 201 miles for both trims. Earlier figures were lower: in early 2025 the official figure was 181 miles, and Ford's own website still quotes 181 miles in its range section, so ask the dealer which model year and which figure apply to the van you order. Ford itself says real-world range depends on things like the weather, your driving style and the load, so plan winter work with a margin.
 
 Rapid charging runs at up to 100kW, and Ford says a 10 to 80% charge takes about 26 minutes. That's fine for a van of this size, and most owners will charge at home or at base overnight anyway. Our [charging guide](/guides/charging-an-electric-van/) covers the options.
 
 ### On the road
 
-We haven't driven it, and few UK road tests of the electric Courier have been published yet. The one UK review we've found rates its steering and ride highly, saying they're the same as the rest of the range. The petrol and diesel Courier, built on the platform of Ford's Puma SUV, has a reputation as one of the better-handling vans. The 136PS motor is the most powerful in the Courier range, though by that same report it has some zip but not the hard shove many electric vans give, which is no bad thing with a load on board.
+We haven't driven it, and few UK road tests of the electric Courier have been published yet. The one UK road test we've found, driven in Spain in early 2025, rates its steering and ride highly, saying they're the same as the rest of the range. The petrol and diesel Courier, built on the platform of Ford's Puma SUV, has a reputation as one of the better-handling vans. The 136PS motor is the most powerful in the Courier range, though by that same test it has some zip but not the hard shove many electric vans give, which is no bad thing with a load on board.
 
 ### Cab and kit
 
-The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen. One report warns that taller drivers may run out of seat travel, so try the driving position before you sign.
+The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen. That same test warns that taller drivers may run out of seat travel, so try the driving position before you sign.
 
 ### Which version to buy
 
-Buy the Trend. The Limited costs £1,000 more and adds heated front seats, a heated steering wheel, 17-inch alloys, wireless phone charging and a three-pin socket in the load bay. All nice to have, none of it work-critical.
+Buy the Trend. The Limited costs £1,000 more and adds heated front seats, a heated steering wheel, 17-inch alloys and wireless phone charging. All nice to have, none of it work-critical. A 230V socket on the centre console is an option on both trims.
 
 ### Alternatives
 
@@ -338,4 +364,4 @@ Compare it with the [Renault Kangoo E-Tech](/vans/renault-kangoo/) and its twins
 
 ### Price
 
-Ford lists the Trend at £27,000 before VAT, or £28,831.83 on the road before VAT, and the Limited is £28,000 before VAT. Ford's website shows £28,832, which is that on-the-road figure rounded. These prices are before the government's Plug-in Van Grant: GOV.UK lists both trims as eligible small vans, with a discount of up to £2,500, which the seller takes off the price. Read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles, and Ford is also including a free home charger for eligible retail and small business customers. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Ford lists the Trend at £27,000 before VAT, or £28,831.83 on the road before VAT, and the Limited is £28,000 before VAT. Ford's website shows £28,832, which matches that on-the-road figure rounded to the pound. These prices are before the government's Plug-in Van Grant: GOV.UK lists both trims as eligible small vans, with a discount of up to £2,500, which the seller takes off the price. Read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles, and Ford is also including a free home charger for eligible retail and small business customers. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
