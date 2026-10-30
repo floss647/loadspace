@@ -361,7 +361,7 @@ main:has(> .review-hero) { padding-top: 0; }
 .gb.bad li::before { content: "\2715"; background: #c0392b; }
 .review-method { border-top: 1px solid var(--line); padding-top: 1.2rem; margin-top: 2.4rem; }
 
-.review-aside { position: sticky; top: 1.5rem; display: grid; gap: 1rem; }
+.review-aside { position: sticky; top: 84px; display: grid; gap: 1rem; }
 .score-card { border: 1px solid var(--line); border-radius: 16px; padding: 1.2rem; background: var(--bg); box-shadow: var(--shadow); }
 .score-card-head { display: flex; align-items: center; gap: .9rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
 .score-card-head .medal-score { font-size: 1.8rem; min-width: 4rem; }
