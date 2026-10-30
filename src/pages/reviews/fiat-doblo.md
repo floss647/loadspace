@@ -13,6 +13,9 @@ specs:
 verdict: "The E-Doblo is a good small electric van that is, deliberately, almost nothing new: a revised nose on the van Citroën, Peugeot, Vauxhall and Toyota also sell. It carries up to 781kg, charges at up to 100kW and has a reputation for being easy to drive in town. There's no compelling reason to choose it over its siblings, but no reason to avoid it either, so let the deal and the dealer decide. If you plan to keep it, ask about Fiat's paid-for five-year warranty and servicing package, and compare it with Toyota's longer cover."
 good: ["Strong 781kg payload for a small electric van", "Load bay is no smaller than the diesel's", "Optional five-year warranty, servicing and roadside package"]
 bad: ["Official range figures are inconsistent", "Narrow middle seat in three-seat versions", "Alarm only on the top trim"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/fiat/doblo
   - https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
