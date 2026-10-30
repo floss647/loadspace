@@ -13,6 +13,9 @@ specs:
 verdict: "The Townstar EV is the same small electric van as the Renault Kangoo E-Tech underneath, and Nissan's five-year, 100,000-mile van warranty makes it the twin we'd look at first. It has a reputation for being quiet and easy to drive, it can tow 1,500kg and the long L2 van takes a Euro pallet through its side doors. Against that, the official range is under 200 miles, rapid charging stops at 80kW and the cameras have been criticised. Pick the L2 for payload, check the plated figure, and get a quote from your nearest Nissan van dealer alongside Renault and Mercedes."
 good: ["Five-year, 100,000-mile van warranty", "Tows up to 1,500kg", "L2 side doors wide enough for a Euro pallet"]
 bad: ["Official range under 200 miles", "Rapid charging stops at 80kW", "Camera systems criticised for poor picture quality"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar.html

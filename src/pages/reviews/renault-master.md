@@ -19,6 +19,9 @@ bad:
   - "Not quick, and the regenerative braking can't be adjusted"
   - "Early vans had a turn key and manual handbrake"
   - "Published prices don't line up"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.renault.co.uk/electric-vehicles.html
   - https://www.renault.co.uk/blog/large-electric-vans.html
