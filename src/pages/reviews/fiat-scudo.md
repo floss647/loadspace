@@ -36,7 +36,10 @@ facts:
   - claim: "rated the nicest of its range to drive in one published road test"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "The E-Scudo is the best of the bunch to drive"
-  - claim: "reported in 2025 as priced a little under the Peugeot"
+  - claim: "reported in 2025"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "5 Jun 2025"
+  - claim: "as priced a little under the Peugeot"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "the E-Scudo is actually better value than the Peugeot E-Expert, for example (it starts from around £38,000, a few grand less than the Peugeot)"
   - claim: "Its quoted range is slightly lower than its twins'"
@@ -45,10 +48,16 @@ facts:
   - claim: "the warranty is the legal-minimum sort"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "The Scudo has a normal three-year warranty with a 100,000 limit on mileage, which is the bare minimum you'll find in the UK."
-  - claim: "in 2025 it was reported as a few thousand pounds cheaper than the equivalent Peugeot"
+  - claim: "in 2025 it was reported"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "5 Jun 2025"
+  - claim: "a few thousand pounds cheaper than the equivalent Peugeot"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "it starts from around £38,000, a few grand less than the Peugeot"
-  - claim: "Reported in 2025 as cheaper than the Peugeot equivalent"
+  - claim: "Reported in 2025"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "5 Jun 2025"
+  - claim: "as cheaper than the Peugeot equivalent"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "the E-Scudo is actually better value than the Peugeot E-Expert"
   - claim: "Quiet and smooth in town"
@@ -99,9 +108,6 @@ facts:
   - claim: "the one published UK road test we found (from 2025)"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "5 Jun 2025"
-  - claim: "A 2025 review says Primo adds"
-    source: https://www.autoexpress.co.uk/fiat/scudo
-    quote: "Primo trim adds 17-inch wheels"
   - claim: "payloads of up to 1,000kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "payload weights of up to 1,000kg"
