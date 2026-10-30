@@ -13,6 +13,9 @@ specs:
 verdict: "The eCitan is a well-made small electric van that the one full UK road test we found rated smooth and quiet to drive, and it comes with plenty of standard safety kit. You pay for the badge, though: it has the highest starting price of the three twins, and its 176-mile official range is shorter than the Kangoo's. Choose it if the Mercedes dealer, the cabin or a fleet policy matters to you; otherwise the Nissan Townstar EV gives you the same van with a longer warranty."
 good: ["Plenty of safety kit as standard", "Smarter cabin than its twins", "Unlimited-mileage van warranty"]
 bad: ["Highest starting price of the three twins", "176-mile official range", "Modest payloads"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - sources/mercedes-ecitan-price-list-2025-01.pdf
   - https://www.autoexpress.co.uk/mercedes/citan
@@ -80,6 +83,21 @@ facts:
   - claim: "Unlimited-mileage van warranty"
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "is covered by your 3-year unlimited"
+  - claim: "a smarter cabin and more standard safety kit"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "the upgraded interior you get with a Mercedes van lifts the eCitan, improving safety and tech features"
+  - claim: "Smarter cabin than its twins"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "The main difference between the Renault and the Mercedes is the upgrades to the materials used in the cabin."
+  - claim: "Plenty of safety kit as standard"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "Strong safety kit"
+  - claim: "That's better than Renault for high-mileage drivers"
+    source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
+    quote: "The Kangoo E-Tech only gets a three-year warranty as standard"
+  - claim: "That's better than Renault for high-mileage drivers"
+    source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
+    quote: "but it does cover you for 100,000 miles"
   - claim: "Nissan gives the Townstar EV five years"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "All Nissan Townstar models get a five-year/100,000-mile warranty"
@@ -109,9 +127,9 @@ facts:
   - claim: "the L2 versions 165 to 168 miles"
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "eCitan Van L2 BASE 268/167 369/229 eCitan Van L2 PRO 271/168 369/229 eCitan Van L2 SELECT 266/165"
-  - claim: "Renault quotes 186 miles for the Kangoo"
+  - claim: "Renault quoted 186 miles for the 45kWh Kangoo"
     source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
-    quote: "while Renault quotes a range of up to 186 miles for the Kangoo"
+    quote: "connected to a 45kWh battery, but while Renault quotes a range of up to 186 miles for the Kangoo"
   - claim: "Mercedes called its figures preliminary"
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "Technical data of the eCitan in this publication are preliminary values and were determined internally in accordance with the WLTP certification methods."
@@ -303,7 +321,7 @@ The eCitan is the Mercedes-Benz version of the Renault Kangoo E-Tech. It shares 
 
 ### Who it's for
 
-Fleets and businesses that want a Mercedes on the drive, or already deal with a Mercedes van dealer for bigger vans. It suits local work: Mercedes' list gives the L1 BASE van 176 miles on the WLTP combined test and the L2 versions 165 to 168 miles, where Renault quotes 186 miles for the Kangoo. Mercedes called its figures preliminary.
+Fleets and businesses that want a Mercedes on the drive, or already deal with a Mercedes van dealer for bigger vans. It suits local work: Mercedes' list gives the L1 BASE van 176 miles on the WLTP combined test and the L2 versions 165 to 168 miles, where Renault quoted 186 miles for the 45kWh Kangoo. Mercedes called its figures preliminary.
 
 ### Load area and payload
 

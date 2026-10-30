@@ -13,6 +13,9 @@ specs:
 verdict: "The eSprinter is now a serious long-range large electric van rather than a town-only curiosity. The 113kWh battery's 272-mile official range, 115kW charging and a big L3 load bay make it a strong fit for fleets running long days. Against that, it is expensive to buy and payload depends heavily on the weight rating, so check the figure for the exact van you order. Few UK road tests have been published, but if the numbers work for your business, it deserves a place on the shortlist."
 good: ["272-mile official range (113kWh)", "14 cubic metres of load space in the L3 van", "Generous standard kit and a modern touchscreen"]
 bad: ["Expensive to buy", "Low payload on 3,500kg versions", "Few UK road tests of the current van so far"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - sources/mercedes-esprinter-van-price-list-2026-07.pdf
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
@@ -296,6 +299,20 @@ facts:
   - claim: "before the grant"
     archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
     quote: "The grant will be applied after any vehicle discount has been offered and includes VAT and number plate costs."
+  - claim: "Mercedes lists each L3 van for less than the matching L2"
+    calc: "Mercedes' list price summary, ex VAT (facts in this list): 314 L3 PRO £58,850 v 314 L2 PRO £60,025; 320 L3 PRO £59,990 v 320 L2 PRO £61,165; 320 L3 SELECT £63,125 v 320 L2 SELECT £64,305; 414 L3 PRO £60,715 v 414 L2 PRO £61,905; 420 L3 PRO £61,855 v 420 L2 PRO £63,045. Every 81kWh L3 is cheaper than its L2 (the 113kWh comes as L3 only)"
+  - claim: "Mercedes lists each L3 van for less than the matching L2"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "81kWh eSprinter 320 Van L2 PRO 0g/km £61,165 £73,398"
+  - claim: "Mercedes lists each L3 van for less than the matching L2"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "81kWh eSprinter 320 Van L3 PRO 0g/km £59,990 £71,988"
+  - claim: "Mercedes lists each L3 van for less than the matching L2"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "81kWh eSprinter 414 Van L2 PRO 0g/km £61,905 £74,286"
+  - claim: "the 314 L2 Pro is £60,025"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "81kWh eSprinter 314 Van L2 PRO 0g/km £60,025 £72,030"
   - claim: "The cheapest 113kWh van, the 414 L3 Pro, is £73,370"
     archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
     quote: "113kWh eSprinter 414 Van L3 PRO 0g/km £73,370 £88,044"
@@ -351,4 +368,4 @@ Compare it with the [Ford E-Transit](/vans/ford-transit/), the [Renault Master E
 
 ### Price
 
-Mercedes' UK price list, effective from July 2026, starts the eSprinter panel van at £58,850 excluding VAT and before the grant, for the 81kWh 314 L3 Pro. The cheapest 113kWh van, the 414 L3 Pro, is £73,370. Delivery charges are extra. The eSprinter is on the GOV.UK list of large vans eligible for the Plug-in Van Grant, where the maximum discount is £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Mercedes' UK price list, effective from July 2026, starts the eSprinter panel van at £58,850 excluding VAT and before the grant, for the 81kWh 314 L3 Pro. Oddly, Mercedes lists each L3 van for less than the matching L2: the 314 L2 Pro is £60,025. The cheapest 113kWh van, the 414 L3 Pro, is £73,370. Delivery charges are extra. The eSprinter is on the GOV.UK list of large vans eligible for the Plug-in Van Grant, where the maximum discount is £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
