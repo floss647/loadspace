@@ -13,6 +13,9 @@ specs:
 verdict: "The PV5 Cargo is a very good first van from Kia and one of the easiest electric vans to recommend for bulky, light loads. The Long Range battery's 258-mile official range, 150kW rapid charging and a seven-year, 100,000-mile warranty make a strong package. Payload peaks at 790 kg in the L2H1 van, so if you carry heavy kit every day, look at a bigger medium van instead. Pick the Long Range battery and the Essential trim, and get a written quote, because the published starting prices are on different bases and don't line up."
 good: ["Very low 419mm rear load lip", "258-mile official range (Long Range)", "Seven-year, 100,000-mile warranty"]
 bad: ["Modest payload for its size", "Climate controls only on the touchscreen", "Side door too narrow for a Euro pallet"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
@@ -189,10 +192,10 @@ facts:
   - claim: "Plus adds vehicle-to-load (V2L) power"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "The most notable advantages of the range-topper are its Vehicle-to-Load (V2L) capability"
-  - claim: "reported at £640 to £650 ex VAT"
+  - claim: "£650 ex VAT"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "is a £650 option (exc. VAT) that’s reserved for the Plus"
-  - claim: "reported at £640 to £650 ex VAT"
+  - claim: "reported at £640"
     source: https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
     quote: "Plus models can be upgraded with a heat pump for greater efficiency at cost of £640 (+VAT)"
   - claim: "option on the Plus only"
