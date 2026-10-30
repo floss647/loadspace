@@ -3,15 +3,15 @@ layout: ../../layouts/Review.astro
 title: "Fiat E-Scudo review"
 van: fiat-scudo
 date: 2026-10-30T08:00:00Z
-summary: "Fiat's version of the Stellantis electric medium van is said to be the nicest of its range to drive and has been priced a little under the Peugeot. Its quoted range is slightly lower than its twins', the warranty is the legal-minimum sort and we couldn't pin down a current payload."
+summary: "Fiat's version of the Stellantis electric medium van is rated the nicest of its range to drive in one published road test and was reported in 2025 as priced a little under the Peugeot. Its quoted range is slightly lower than its twins', the warranty is the legal-minimum sort and we couldn't pin down a current payload."
 specs:
   price: "Not confirmed (no current pre-grant list price found)"
   range: "219 miles"
   charging: "100kW"
   payload: "Not confirmed (no current figure for the panel van found)"
   batteryWarranty: "Up to eight years (reported)"
-verdict: "The E-Scudo is a pleasant, well-equipped electric medium van that suits town and suburban work best. Fiat quotes up to 219 miles of official range and it charges at up to 100kW, and it has been reported as a few thousand pounds cheaper than the equivalent Peugeot. The cargo bay is smaller than the best in class, the cab is snug for three and the main warranty is only three years. Because it's the same van as its Citroën, Peugeot, Vauxhall and Toyota twins, buy whichever comes with the best deal."
-good: ["Reported as cheaper than the Peugeot equivalent", "Quiet and smooth in town", "Rapid charging at up to 100kW"]
+verdict: "The E-Scudo is a pleasant, well-equipped electric medium van that suits town and suburban work best. Fiat quotes up to 219 miles of official range and it charges at up to 100kW, and in 2025 it was reported as a few thousand pounds cheaper than the equivalent Peugeot. The cargo bay is smaller than the best in class, the cab is snug for three and the main warranty is only three years. Because it's the same van as its Citroën, Peugeot, Vauxhall and Toyota twins, buy whichever comes with the best deal."
+good: ["Reported in 2025 as cheaper than the Peugeot equivalent", "Quiet and smooth in town", "Rapid charging at up to 100kW"]
 bad: ["Main warranty only three years", "No tow bar for the electric version", "Cargo volume behind the best rivals"]
 sources:
   - https://www.autoexpress.co.uk/fiat/scudo
@@ -33,10 +33,10 @@ facts:
   - claim: "Up to eight years (reported)"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "At least the E-Scudo's battery is covered for up to eight years."
-  - claim: "said to be the nicest of its range to drive"
+  - claim: "rated the nicest of its range to drive in one published road test"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "The E-Scudo is the best of the bunch to drive"
-  - claim: "priced a little under the Peugeot"
+  - claim: "reported in 2025 as priced a little under the Peugeot"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "the E-Scudo is actually better value than the Peugeot E-Expert, for example (it starts from around £38,000, a few grand less than the Peugeot)"
   - claim: "Its quoted range is slightly lower than its twins'"
@@ -45,10 +45,10 @@ facts:
   - claim: "the warranty is the legal-minimum sort"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "The Scudo has a normal three-year warranty with a 100,000 limit on mileage, which is the bare minimum you'll find in the UK."
-  - claim: "it has been reported as a few thousand pounds cheaper than the equivalent Peugeot"
+  - claim: "in 2025 it was reported as a few thousand pounds cheaper than the equivalent Peugeot"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "it starts from around £38,000, a few grand less than the Peugeot"
-  - claim: "Reported as cheaper than the Peugeot equivalent"
+  - claim: "Reported in 2025 as cheaper than the Peugeot equivalent"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "the E-Scudo is actually better value than the Peugeot E-Expert"
   - claim: "Quiet and smooth in town"
@@ -90,6 +90,18 @@ facts:
   - claim: "the E-Scudo Crew Van has the lowest payload in the range at 915kg"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "the E-Scudo Crew van has the lowest maximum payload, at 915kg, due to the heavy battery"
+  - claim: "Fiat's March 2024 launch details"
+    source: https://vanfleetworld.co.uk/fiat-professional-announces-pricing-and-specification-for-the-new-lcv-line-up/
+    quote: "22 March 2024"
+  - claim: "A 2026 buyers' guide"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "27 Jul 2026"
+  - claim: "the one published UK road test we found (from 2025)"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "5 Jun 2025"
+  - claim: "A 2025 review says Primo adds"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "Primo trim adds 17-inch wheels"
   - claim: "payloads of up to 1,000kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "payload weights of up to 1,000kg"
@@ -153,7 +165,7 @@ facts:
   - claim: "an alarm"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "it's included on Primo trim, though"
-  - claim: "plus Dynamic Surround View with a digital rear-view mirror and side view, and blind-spot detection"
+  - claim: "Dynamic Surround View with a digital rear-view mirror and side view, and blind-spot detection, on Primo"
     source: https://vanfleetworld.co.uk/fiat-professional-announces-pricing-and-specification-for-the-new-lcv-line-up/
     quote: "Additional features on 'Primo' include Dynamic Surround View, with digital rear view mirror and lateral side view"
   - claim: "blind-spot detection"
@@ -217,7 +229,7 @@ The E-Scudo is Fiat Professional's badge on the Stellantis medium electric van, 
 
 The L1 holds 5.3 cubic metres and the L2 6.1, and a through-load hatch stretches the L1's floor length from 2,512mm to 3,674mm for pipes and lengths of timber. The side door openings are 935mm wide, which is modest for the class, though you get one on each side as standard.
 
-We couldn't find a current maximum payload for the E-Scudo panel van. Buyers' guides put the whole family at payloads of up to 1,000kg, and the E-Scudo Crew Van has the lowest payload in the range at 915kg, so ask for the plated figure on the exact van. One more catch: the electric version can tow up to a tonne, but Fiat doesn't sell a tow bar for it.
+We couldn't find a current maximum payload for the E-Scudo panel van. A 2026 buyers' guide puts the whole family at payloads of up to 1,000kg, and the E-Scudo Crew Van has the lowest payload in the range at 915kg, so ask for the plated figure on the exact van. One more catch: the electric version can tow up to a tonne, but Fiat doesn't sell a tow bar for it.
 
 ### Range and charging in the real world
 
@@ -227,17 +239,17 @@ A 100kW rapid charger takes the 75kWh battery from 5 to 80% in 45 minutes. At ho
 
 ### On the road
 
-The E-Scudo has a reputation as the pick of the Scudo range to drive: smoother and quieter than the diesels, and its 134bhp is plenty at low speeds but runs short at higher ones. The regenerative braking is adjustable but not strong enough for one-pedal driving. Reports also mention grabby brakes and numb steering, and a smallish windscreen limits the view out, so the optional camera kit is worth a look.
+We haven't driven it, and the one published UK road test we found (from 2025) rates the E-Scudo the pick of the Scudo range to drive: smoother and quieter than the diesels, and its 134bhp is plenty at low speeds but runs short at higher ones. The regenerative braking is adjustable but not strong enough for one-pedal driving. The same test found grabby brakes and numb steering across the Scudo range, and a smallish windscreen limits the view out, so the optional camera kit is worth a look.
 
 ### Cab and kit
 
-Fiat calls its trims Scudo, Primo and Onyx. The base van gets a 10-inch touchscreen with smartphone connection, parking sensors, sliding doors on both sides, solid rear doors, 16-inch steel wheels and automatic emergency braking. Primo adds 17-inch wheels, painted bumpers, the through-load bulkhead, sat-nav and an alarm, plus Dynamic Surround View with a digital rear-view mirror and side view, and blind-spot detection. Onyx is a limited edition with a body kit, rally-style graphics, keyless go, wireless phone charging and heated seats.
+Fiat calls its trims Scudo, Primo and Onyx. The base van gets a 10-inch touchscreen with smartphone connection, parking sensors, sliding doors on both sides, solid rear doors, 16-inch steel wheels and automatic emergency braking. A 2025 review says Primo adds 17-inch wheels, painted bumpers, the through-load bulkhead, sat-nav and an alarm. Fiat's March 2024 launch details also listed Dynamic Surround View with a digital rear-view mirror and side view, and blind-spot detection, on Primo, so check the current Primo spec sheet for those. Onyx is a limited edition with a body kit, rally-style graphics, keyless go, wireless phone charging and heated seats.
 
 The options list mirrors the Peugeot's down to the prices: sat-nav is £650, the load-through bulkhead £350 and an alarm £225, and the £850 camera pack is identical too. You sit a little lower than in some rivals, the plastics are hard-wearing rather than plush and the middle seat is tight.
 
 ### Which version to buy
 
-The base van is well equipped, but add the alarm. Primo is the one if you want the cameras and the through-load bulkhead without ticking boxes. Servicing is every two years or 30,000 miles.
+The base van is well equipped, but add the alarm. Primo is the one if you want sat-nav, the alarm and the through-load bulkhead without ticking boxes. Servicing is every two years or 30,000 miles.
 
 ### Alternatives
 
