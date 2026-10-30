@@ -13,6 +13,9 @@ specs:
 verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. Its 186-mile official range and 80kW rapid charging trail many rivals, and Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first, and ask when the updated 52kWh van Renault announced in October 2026 will reach the UK."
 good: ["Smooth, comfortable drive", "Heat pump as standard", "Long LL van carries more and is on the large-van grant list"]
 bad: ["Three-year van warranty, where the Nissan twin gets five", "80kW rapid charging is slow by current standards", "No through-load bulkhead or pillarless side door in the UK"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/renault/kangoo/van
   - https://www.autoexpress.co.uk/best/electric-vans

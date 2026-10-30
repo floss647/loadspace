@@ -9,10 +9,13 @@ specs:
   range: "176 miles"
   charging: "80kW"
   payload: "Not confirmed (no current panel van figure found)"
-  batteryWarranty: "8 years or 100,000 miles"
-verdict: "The eCitan is a well-made small electric van with a reputation for a quiet, easy drive, and it comes with more standard safety kit than its Renault and Nissan twins. You pay for the badge, though: it has the highest starting price of the three, and its 176-mile official range and 80kW rapid charging are no better than theirs. Choose it if the Mercedes dealer, the cabin or a fleet policy matters to you; otherwise the Nissan Townstar EV gives you the same van with a longer warranty."
+  batteryWarranty: "8 years or 100,000 miles (reported)"
+verdict: "The eCitan is a well-made small electric van that the one full UK road test we found rated smooth and quiet to drive, and it comes with more standard safety kit than its Renault and Nissan twins. You pay for the badge, though: it has the highest starting price of the three, and its 176-mile official range and 80kW rapid charging are no better than theirs. Choose it if the Mercedes dealer, the cabin or a fleet policy matters to you; otherwise the Nissan Townstar EV gives you the same van with a longer warranty."
 good: ["Plenty of safety kit as standard", "Smarter cabin than its twins", "Unlimited-mileage van warranty"]
 bad: ["Highest starting price of the three twins", "176-mile official range", "Payload figures hard to pin down"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/mercedes/citan
   - https://www.autoexpress.co.uk/best/electric-vans
@@ -23,6 +26,7 @@ sources:
   - https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
   - https://www.autoexpress.co.uk/nissan/townstar
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
+  - https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
 facts:
   - claim: "same battery and motor"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
@@ -104,13 +108,16 @@ facts:
   - claim: "a little less than the Kangoo's 1,500kg"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-dimensions/
     quote: "falls slightly short of the largely identical Renault Kangoo E-Tech, which can take a round 1,500kg"
-  - claim: "a reputation for a quiet, easy drive"
+  - claim: "the one full UK road test we found rated smooth and quiet to drive"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "Smooth and quiet to drive"
-  - claim: "a reputation for a quiet, easy drive"
+  - claim: "described it as smooth, quiet and easy to drive, with a comfortable ride"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "Quiet to be in Easy to drive Comfortable ride"
+  - claim: "a brief side-by-side comparison in a Kangoo long-term test found the two feel identical on the road"
     source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
-    quote: "both vans are surprisingly quiet and refined"
-  - claim: "a long-term test that put the two side by side found they feel identical on the road"
+    quote: "we thought a brief comparison here was worthy of inclusion"
+  - claim: "a brief side-by-side comparison in a Kangoo long-term test found the two feel identical on the road"
     source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
     quote: "On the road, these two feel identical"
   - claim: "There are only three drive settings (D-, D and D+)"
@@ -140,18 +147,21 @@ facts:
   - claim: "three years with unlimited mileage"
     source: https://www.autoexpress.co.uk/mercedes/citan
     quote: "The Citan is covered by a three-year/unlimited-mileage warranty"
+  - claim: "In May 2025"
+    source: https://www.autoexpress.co.uk/mercedes/citan
+    quote: "By: Sam Naylor 23 May 2025"
+  - claim: "at launch the battery was covered for eight years and 100,000 miles"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "you get cover for eight years and 100,000 miles"
   - claim: "Unlimited-mileage van warranty"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "The eCitan comes with an unlimited mileage warranty that lasts for three years"
   - claim: "8 years or 100,000 miles"
-    calc: "Parkers reports battery 'cover for eight years and 100,000 miles' (next fact): eight years = 8 years"
-  - claim: "the battery for eight years and 100,000 miles"
-    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
-    quote: "you get cover for eight years and 100,000 miles"
+    calc: "Parkers reports battery 'cover for eight years and 100,000 miles' (see the 'at launch the battery' fact): eight years = 8 years"
   - claim: "Nissan gives the Townstar EV five years"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "All Nissan Townstar models get a five-year/100,000-mile warranty"
-  - claim: "At launch Mercedes included the first four services free"
+  - claim: "At launch Mercedes also included the first four services free"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "the first four services - two major, and two minor - will be provided free of charge"
   - claim: "the first four services free"
@@ -178,6 +188,26 @@ facts:
   - claim: "it was quoted from £33,995 ex VAT before the grant"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "So the entry-level £33,995 (not including VAT or the Plug-in Van Grant) price"
+  - claim: "still on the government's small-van grant list"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/vans
+    quote: "Maxus eDeliver 3 (short wheel base variants) Mercedes eCitan"
+  - claim: "buying guide still included it"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "Renault Kangoo E-Tech/Nissan Townstar EV/Mercedes eCitan"
+  - claim: "a July 2026 buying guide still included it"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "By: Antony Ingram 27 Jul 2026"
+  - claim: "One review site now dates this version"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
+    quote: "Mercedes-Benz eCitan (23-26) driving experience"
+  - claim: "2023 to 2026"
+    calc: "The review labels the van '(23-26)' (fact above): 23 = 2023, 26 = 2026"
+  - claim: "Renault announced a bigger-battery Kangoo E-Tech in October 2026"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "09 October 2026"
+  - claim: "a bigger-battery Kangoo E-Tech"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "battery capacity is increased from 45 to 52 kWh"
   - claim: "In December 2023"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "Mercedes-Benz eCitan van review (2023) 29 December 2023"
@@ -199,7 +229,7 @@ Rapid charging peaks at 80kW, so 0 to 80 per cent takes about 35 minutes. A full
 
 ### On the road
 
-It has a reputation for a quiet, easy drive, and a long-term test that put the two side by side found they feel identical on the road. There are only three drive settings (D-, D and D+), fewer than in bigger Mercedes electric vans.
+The one full UK road test we found described it as smooth, quiet and easy to drive, with a comfortable ride, and a brief side-by-side comparison in a Kangoo long-term test found the two feel identical on the road. There are only three drive settings (D-, D and D+), fewer than in bigger Mercedes electric vans.
 
 ### Cab and kit
 
@@ -207,11 +237,15 @@ This is where the money goes. Every Citan gets six airbags, Active Brake Assist,
 
 ### Warranty and servicing
 
-The van warranty runs three years with unlimited mileage, and the battery for eight years and 100,000 miles. That's better than Renault for high-mileage drivers, but Nissan gives the Townstar EV five years. At launch Mercedes included the first four services free; ask whether that still applies.
+In May 2025 the van warranty was reported as three years with unlimited mileage, and at launch the battery was covered for eight years and 100,000 miles. That's better than Renault for high-mileage drivers, but Nissan gives the Townstar EV five years. At launch Mercedes also included the first four services free; ask whether those terms still apply.
 
 ### Price
 
 We couldn't confirm a current UK list price. In December 2023 it was quoted from £33,995 ex VAT before the grant, and a May 2025 review put it at over £33,000 on the same basis. A July 2026 guide said it has the highest starting price of the three. The eCitan is on the government's small-van grant list, at up to £2,500 (see our [grants and tax guide](/guides/grants-and-tax/)).
+
+### Is it still on sale?
+
+It's still on the government's small-van grant list, and a July 2026 buying guide still included it. One review site now dates this version 2023 to 2026, but we couldn't find a Mercedes announcement of a replacement or update. Renault announced a bigger-battery Kangoo E-Tech in October 2026, and we couldn't confirm whether the eCitan will follow, so check with a Mercedes dealer before you order.
 
 ### Alternatives
 
