@@ -5,8 +5,10 @@ import { EV_VANS } from '../data/vans.js';
 const files = import.meta.glob('../pages/reviews/*.md', { eager: true });
 
 // Pull the first number out of a display string like "£38,630" or "1,088 kg".
+const WORDS = { three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, twelve: 12 };
 const num = (s) => {
-  const m = String(s ?? '').replace(/,/g, '').match(/\d+(?:\.\d+)?/);
+  const text = String(s ?? '').replace(/,/g, '').replace(/\b(three|four|five|six|seven|eight|nine|ten|twelve)\b/gi, (w) => WORDS[w.toLowerCase()]);
+  const m = text.match(/\d+(?:\.\d+)?/);
   return m ? Number(m[0]) : null;
 };
 const band = (value, steps) => {
@@ -44,11 +46,14 @@ export const CRITERIA = [
   },
 ];
 
+// A figure we couldn't confirm from a current source starts "Not confirmed" and isn't scored.
+const unconfirmed = (v) => v == null || /^not confirmed/i.test(String(v));
+
 export function scoreSpecs(specs = {}) {
-  const rows = CRITERIA.map((c) => ({ ...c, value: specs[c.key], points: c.score(specs[c.key]) }));
+  const rows = CRITERIA.map((c) => ({ ...c, value: specs[c.key], points: unconfirmed(specs[c.key]) ? null : c.score(specs[c.key]) }));
   const scored = rows.filter((r) => r.points != null);
   const overall = scored.length ? Math.round((scored.reduce((a, r) => a + r.points, 0) / scored.length) * 10) / 10 : null;
-  return { rows, overall };
+  return { rows, overall, scoredCount: scored.length };
 }
 
 export const REVIEWS = Object.entries(files)

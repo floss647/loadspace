@@ -9,7 +9,7 @@ import IMAGES from '../data/images.json';
 const { frontmatter: f } = Astro.props;
 const van = EV_VANS.find((v) => v.slug === f.van);
 const name = van?.name || f.van;
-const { rows, overall } = scoreSpecs(f.specs);
+const { rows, overall, scoredCount } = scoreSpecs(f.specs);
 const img = IMAGES[f.van];
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
 const ld = {
@@ -57,13 +57,14 @@ const ld = {
             {rows.map((r) => (
               <tr>
                 <td>{r.label}<br /><span class="muted small">{r.what}</span></td>
-                <td>{r.value ?? 'Not published'}</td>
+                <td>{r.value ?? 'Not confirmed yet'}</td>
                 <td class="num"><span class="pips" aria-label={`${r.points ?? 0} out of 5`}>{[1, 2, 3, 4, 5].map((n) => <i class={n <= (r.points ?? 0) ? 'on' : ''} />)}</span></td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      {scoredCount < rows.length && <p class="notice small">We couldn't confirm every figure from a current source, so this score is the average of the {scoredCount} we could. We'll add the rest when they're confirmed.</p>}
       <p class="small muted">Scored only from published specs, so vans can be compared fairly. <a href="/reviews/how-we-score/">How we score</a>.</p>
 
       <h2>What the testers say</h2>
