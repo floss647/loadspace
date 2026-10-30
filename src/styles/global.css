@@ -409,3 +409,33 @@ main:has(> .review-hero) { padding-top: 0; }
 .card-img-empty { aspect-ratio: 16 / 9; background: var(--surface); color: var(--line); display: grid; place-content: center; justify-items: center; gap: .4rem; }
 .card-img-empty svg { width: 96px; color: #c7ccd4; }
 .card-img-empty span { font-size: .8rem; color: var(--muted); }
+
+/* Van pages */
+main:has(> .van-hero) { padding-top: 0; }
+.van-figs { list-style: none; padding: 0; margin: 0 0 1.4rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .6rem; max-width: 560px; }
+.van-figs li { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 12px; padding: .7rem .8rem; }
+.van-figs strong { display: block; color: #fff; font-family: var(--display); font-size: 1.35rem; line-height: 1.1; }
+.van-figs span { font-size: .78rem; color: #aab5c6; }
+.btn.ghost-light { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.5); }
+.van-hero .btn-row { margin-top: 0; }
+.suit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.twin-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: .6rem 0 1rem; }
+.twin-chips a { border: 1px solid var(--line); border-radius: 999px; padding: .35rem .85rem; text-decoration: none; font-weight: 600; font-size: .92rem; color: var(--ink); background: var(--surface); }
+.twin-chips a:hover { border-color: var(--accent); }
+.check-grid { list-style: none; counter-reset: c; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.check-grid li { counter-increment: c; border: 1px solid var(--line); border-radius: 14px; padding: .9rem 1rem .9rem 3.1rem; position: relative; }
+.check-grid li::before { content: counter(c); position: absolute; left: 1rem; top: .85rem; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: .8rem; display: grid; place-items: center; }
+.check-grid strong { display: block; color: var(--ink); }
+.check-grid span { font-size: .93rem; color: var(--muted); }
+.van-review-card { display: block; text-decoration: none; color: var(--text); }
+.van-review-card:hover { border-color: var(--accent); }
+.van-review-card .arrow { font-weight: 700; color: var(--link); }
+.review-aside .cta-band { margin: 0; }
+.aside-fleet p { margin: .3rem 0 0; }
+@media (max-width: 640px) { .suit-grid, .check-grid { grid-template-columns: 1fr; } }
+.review-hero-grid > *, .review-grid > * { min-width: 0; }
+@media (max-width: 640px) {
+  .van-figs { grid-template-columns: 1fr 1fr; }
+  .van-figs strong { font-size: 1.15rem; }
+  .van-hero .btn-row .btn { flex: 1 1 100%; text-align: center; }
+}
