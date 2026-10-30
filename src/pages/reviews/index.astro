@@ -18,7 +18,12 @@ const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/
       {REVIEWS.map((r) => (
         <a class="review-card" href={r.url}>
           <div class="review-card-img">
-            {card(r.van) && <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" />}
+            {card(r.van) ? <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" /> : (
+              <div class="card-img-empty" aria-hidden="true">
+                <svg viewBox="0 0 64 32"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor"/></svg>
+                <span>Photo coming soon</span>
+              </div>
+            )}
             {r.score.overall != null && <span class="medal-score">{r.score.overall.toFixed(1)}<small>/5</small></span>}
           </div>
           <div class="review-card-text">

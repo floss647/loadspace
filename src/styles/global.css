@@ -406,3 +406,6 @@ main:has(> .review-hero) { padding-top: 0; }
 .price-row .muted:not(.small) { text-align: right; }
 .price-row .small { grid-column: 1 / -1; }
 .card-price { font-size: .88rem !important; color: var(--ink) !important; margin: 0 !important; }
+.card-img-empty { aspect-ratio: 16 / 9; background: var(--surface); color: var(--line); display: grid; place-content: center; justify-items: center; gap: .4rem; }
+.card-img-empty svg { width: 96px; color: #c7ccd4; }
+.card-img-empty span { font-size: .8rem; color: var(--muted); }
