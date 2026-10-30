@@ -3,16 +3,19 @@ layout: ../../layouts/Review.astro
 title: "Vauxhall Vivaro Electric review"
 van: vauxhall-vivaro
 date: 2026-10-30T08:00:00Z
-summary: "A sound, well-proven electric medium van with a roomy load area and quick charging, but its payload trails the best diesels, the cab is tight for three and the design is starting to feel its age."
+summary: "A sound, well-proven electric medium van with a roomy load area and quick charging, but its payload trails the best diesels, the cab isn't the most comfortable for three and the design is starting to feel its age."
 specs:
   price: "Not confirmed (announced at £42,055 ex VAT in 2023)"
   range: "219 miles"
   charging: "100kW"
   payload: "1,210 kg"
   batteryWarranty: "Eight years against loss of capacity"
-verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Its 219-mile official range and 100kW rapid charging cover most local and regional work, and it has a reputation for a quiet, brisk drive. The trade-offs are a payload below the best diesel versions, a low seat, a cab that is tight for three and a design that is starting to feel its age. It is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins, so get quotes on all five before you sign."
+verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Its 219-mile official range and 100kW rapid charging cover most local and regional work, and it has a reputation for a quiet, brisk drive. The trade-offs are a payload below the best diesel versions, a low seat, a cab that isn't the most comfortable for three and a design that is starting to feel its age. It is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins, so get quotes on all five before you sign."
 good: ["Quiet, brisk electric drive", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
-bad: ["Payload below the best diesel versions", "Low seat and a tight cab for three", "Smaller rear door openings than before"]
+bad: ["Payload below the best diesel versions", "Low seat, and not the comfiest cab for three", "Smaller rear door openings than before"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
@@ -51,7 +54,7 @@ facts:
   - claim: "Payload below the best diesel versions"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "The EV version has a restricted payload"
-  - claim: "Low seat and a tight cab for three"
+  - claim: "Low seat, and not the comfiest cab for three"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "if you are regularly travelling three-up, you might want to look elsewhere"
   - claim: "Smaller rear door openings than before"
@@ -129,13 +132,13 @@ facts:
   - claim: "Both electric and diesel versions are said to be fairly quiet at motorway speeds"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "both the diesel and electric Vivaros are relatively quiet at higher speeds"
-  - claim: "Much of the detailed road testing of the current van has been done in diesel form"
+  - claim: "The detailed road-test findings on the current van come from a diesel version"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "Our test van had the standard-fit six-speed manual gearbox"
   - claim: "quick, car-like steering"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "the Vivaro's responses are pretty car-like. The steering reacts quickly to inputs"
-  - claim: "good stability with a load on board"
+  - claim: "good stability with a half load on board"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "good stability with a half-load on board"
   - claim: "some bounce when it's empty"
@@ -147,7 +150,13 @@ facts:
   - claim: "there are no wide-angle door mirrors, which the old van had"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "The old van used to have a second smaller mirror below the main door mirror to boost rear visibility"
-  - claim: "a 10-inch touchscreen and a 10-inch digital instrument display"
+  - claim: "Recent vans get a pair of digital displays"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "with the latest examples getting a pair of bright, clear digital displays"
+  - claim: "When the facelift was announced in 2023"
+    source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
+    quote: "Published: 17 November 2023"
+  - claim: "a 10-inch touchscreen and a 10-inch instrument display"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "with a new 10-inch infotainment screen, even on the entry-level Prime version. It now offers wireless smartphone connectivity and charging. There is also a new 10-inch digital instrument display."
   - claim: "wireless smartphone connection"
@@ -174,7 +183,7 @@ facts:
   - claim: "The plastics are hard-wearing"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "with hard-wearing plastics that feel robust and solid"
-  - claim: "With the 75kWh battery"
+  - claim: "for the 75kWh battery"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "100kW DC rapid charging allows a 5-80 per cent top-up of the 75kWh battery within 45 minutes"
   - claim: "Servicing is every two years or 25,000 miles"
@@ -186,10 +195,13 @@ facts:
   - claim: "prices across the five can vary considerably"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "their respective prices can vary quite considerably"
-  - claim: "up to 5.8 cubic metres without a through-load hatch"
+  - claim: "is the obvious rival"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "is a huge seller in the UK and comes in both diesel, plug-in hybrid, and electric forms"
+  - claim: "5.8 cubic metres without a through-load hatch"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "the Ford Transit Custom offers up to 5.8 cubic metres of space without adding a through-load option"
-  - claim: "6.8 in XL form"
+  - claim: "6.8 in the longer version"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "XL variant that extends this to 6.8 cubic metres"
   - claim: "cut by £2,580 to £42,055 excluding VAT"
@@ -229,21 +241,21 @@ Charging is a strength. A 100kW rapid charger takes the battery from 5 to 80% wi
 
 ### On the road
 
-By all accounts the electric versions are the quietest and briskest Vivaros, with instant acceleration and none of a diesel's clatter. Both electric and diesel versions are said to be fairly quiet at motorway speeds. Much of the detailed road testing of the current van has been done in diesel form, which points to quick, car-like steering, good stability with a load on board and some bounce when it's empty. The Ford Transit Custom has a reputation as the more enjoyable drive. Visibility is the main gripe: there are no wide-angle door mirrors, which the old van had.
+By all accounts the electric versions are the quietest and briskest Vivaros, with instant acceleration and none of a diesel's clatter. Both electric and diesel versions are said to be fairly quiet at motorway speeds. The detailed road-test findings on the current van come from a diesel version, and point to quick, car-like steering, good stability with a half load on board and some bounce when it's empty. The Ford Transit Custom has a reputation as the more enjoyable drive. Visibility is the main gripe: there are no wide-angle door mirrors, which the old van had.
 
 ### Cab and kit
 
-The facelift brought a 10-inch touchscreen and a 10-inch digital instrument display, with wireless smartphone connection. The climate controls are separate, which we like. Lane departure warning, adaptive cruise control and autonomous emergency braking are standard, and the Vivaro earned a gold Euro NCAP rating when tested in 2024.
+Recent vans get a pair of digital displays. When the facelift was announced in 2023, these were listed as a 10-inch touchscreen and a 10-inch instrument display, with wireless smartphone connection, so check the spec of the van you're quoted. The climate controls are separate, which we like. Lane departure warning, adaptive cruise control and autonomous emergency braking are standard, and the Vivaro earned a gold Euro NCAP rating when tested in 2024.
 
 The plastics are hard-wearing, but the seating position is surprisingly low, the glovebox is small and it isn't the most comfortable van for carrying three.
 
 ### Which version to buy
 
-With the 75kWh battery, the main choice is length. Pick the standard van for tight streets and the XL for long loads. Budget for a home or depot wallbox too, because overnight charging is how this van works best. Servicing is every two years or 25,000 miles.
+Choose the length first: the standard van for tight streets and the XL for long loads. Budget for a home or depot wallbox too, because overnight charging is how this van works best. Servicing is every two years or 25,000 miles.
 
 ### Alternatives
 
-The [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Peugeot E-Expert](/vans/peugeot-expert/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/) are pretty much the same van, though the Toyota has a better warranty and prices across the five can vary considerably. The [Ford E-Transit Custom](/vans/ford-transit-custom/) is the obvious rival: the Transit Custom range offers up to 5.8 cubic metres without a through-load hatch, and 6.8 in XL form. Compare it with the newer [Kia PV5 Cargo](/vans/kia-pv5-cargo/) and the [Volkswagen e-Transporter](/vans/volkswagen-transporter/) too.
+The [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Peugeot E-Expert](/vans/peugeot-expert/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/) are pretty much the same van, though the Toyota has a better warranty and prices across the five can vary considerably. The [Ford E-Transit Custom](/vans/ford-transit-custom/) is the obvious rival. The load volumes quoted for the Transit Custom range in general, rather than the electric one specifically, run to 5.8 cubic metres without a through-load hatch and 6.8 in the longer version. Compare it with the newer [Kia PV5 Cargo](/vans/kia-pv5-cargo/) and the [Volkswagen e-Transporter](/vans/volkswagen-transporter/) too.
 
 ### Price
 
