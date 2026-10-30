@@ -9,9 +9,9 @@ specs:
   range: "Not confirmed (batteries updated; no current UK panel-van figure found)"
   charging: "Not confirmed (reports differ)"
   payload: "Not confirmed (no current panel-van figure for the updated batteries)"
-  batteryWarranty: "8 years or 100,000 miles"
+  batteryWarranty: "8 years or 100,000 miles (reported at launch)"
 verdict: "The eDeliver 9 has earned its place on big delivery fleets, and the launch-era road tests point to a punchy, planted and well-equipped large electric van. The problem for buyers today is that the battery line-up has changed and we couldn't find current UK figures we trust for range, charging, payload or price. Until Maxus publishes them where we can read them, treat any figure you're quoted as something to check in writing. It's worth a look alongside the bigger names, but make the dealer prove the numbers for the exact van you're ordering."
-good: ["Strong performance by all accounts", "Choice of two lengths, plus chassis cabs", "Battery covered for 8 years or 100,000 miles"]
+good: ["Strong performance by all accounts", "Choice of two lengths, plus chassis cabs", "Launch-era battery warranty of 8 years or 100,000 miles"]
 bad: ["Current UK specs hard to pin down", "Battery under the floor raises the load floor", "Limited cab storage"]
 sources:
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-review/
@@ -31,7 +31,7 @@ facts:
   - claim: "8 years or 100,000 miles"
     source: https://vanreviewer.co.uk/maxus/e-deliver-9/review/1766/
     quote: "the batteries are covered by and 8-year, 100,000 mile warranty"
-  - claim: "Battery covered for 8 years or 100,000 miles"
+  - claim: "Launch-era battery warranty of 8 years or 100,000 miles"
     source: https://vanreviewer.co.uk/maxus/e-deliver-9/review/1766/
     quote: "the batteries are covered by and 8-year, 100,000 mile warranty"
   - claim: "the battery for eight years or 100,000 miles"
@@ -112,6 +112,9 @@ facts:
   - claim: "from 1,200kg with the smallest battery in the medium wheelbase"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-dimensions/
     quote: "The medium wheelbase comes with the smaller two batteries, with the 51.5kWh version offering the biggest payload, of 1,200kg"
+  - claim: "one report listed a heavier 4,050kg version carrying 1,390kg"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-dimensions/
+    quote: "There is a heavier version, too, which has a 4,050kg gross vehicle weight. This is physically much the same as the long-wheelbase version with the 88.55kWh battery. It boosts payload to 1,390kg."
   - claim: "to 860kg with the biggest"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-dimensions/
     quote: "the lowest payload of the range, at 860kg"
@@ -133,10 +136,10 @@ facts:
   - claim: "a decent ride"
     source: https://vanreviewer.co.uk/maxus/e-deliver-9/review/1766/
     quote: "comfortable to be in with a decent level of ride comfort"
-  - claim: "more noise in the cab than you might expect"
+  - claim: "wind noise at speed in one"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-9/edeliver-9-review/
-    quote: "Lots of wind noise on the move"
-  - claim: "more noise in the cab than you might expect"
+    quote: "there is a fair amount of wind noise when you get above about 40mph"
+  - claim: "road noise in the other"
     source: https://vanreviewer.co.uk/maxus/e-deliver-9/review/1766/
     quote: "there's a great deal of road noise that penetrates into the cabin"
   - claim: "Limited cab storage"
@@ -173,11 +176,11 @@ Maxus's own UK site was not reachable for us, and the battery line-up has change
 
 ### Load area and payload
 
-There are medium and long wheelbase panel vans, holding 9.7 and 11 cubic metres. Both are 2,525mm tall, so this is not one for low barriers. The battery sits under the load floor, so loads have to be lifted about 5cm higher than in the diesel Deliver 9. Payloads for the launch batteries ran from 1,200kg with the smallest battery in the medium wheelbase to 860kg with the biggest, but those figures are for the older line-up.
+There are medium and long wheelbase panel vans, holding 9.7 and 11 cubic metres. Both are 2,525mm tall, so this is not one for low barriers. The battery sits under the load floor, so loads have to be lifted about 5cm higher than in the diesel Deliver 9. On the standard vans, payloads for the launch batteries ran from 1,200kg with the smallest battery in the medium wheelbase to 860kg with the biggest, and one report listed a heavier 4,050kg version carrying 1,390kg, but those figures are for the older line-up.
 
 ### On the road
 
-The published UK road tests are of the launch-era van. By all accounts it's quick, with a 150kW motor, and the low-mounted batteries help it feel planted, with a decent ride. Reports agree there's more noise in the cab than you might expect. We'd expect much of this to carry over, but no road test of the updated batteries had been published that we could find.
+The published UK road tests are of the launch-era van. By all accounts it's quick, with a 150kW motor, and the low-mounted batteries help it feel planted, with a decent ride. Both tests picked up noise in the cab: wind noise at speed in one, road noise in the other. We'd expect much of this to carry over, but no road test of the updated batteries had been published that we could find.
 
 ### Cab and kit
 
@@ -189,4 +192,4 @@ Compare it with the [Ford E-Transit](/vans/ford-transit/), [Renault Master E-Tec
 
 ### Price
 
-We couldn't find a UK price published in the last six months. In June 2023 it was reported from £63,000 excluding VAT and before the grant. It's on the government's list for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). The van is covered for five years or 60,000 miles and the battery for eight years or 100,000 miles. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will help you work out the running costs.
+We couldn't find a UK price published in the last six months. In June 2023 it was reported from £63,000 excluding VAT and before the grant. It's on the government's list for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). At launch the van was covered for five years or 60,000 miles and the battery for eight years or 100,000 miles; check the terms for the current batteries. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will help you work out the running costs.
