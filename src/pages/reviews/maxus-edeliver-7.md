@@ -43,19 +43,19 @@ facts:
   - claim: "the shorter L1H1 with the bigger battery is rated at 230 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "while this increases to 225 miles and 230 miles as you go for the smaller two models"
-  - claim: "The lowest figure is 190 miles, for the L2H1 with the 77kWh battery"
+  - claim: "The lowest figure is 190 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "even that provides an official WLTP combined range of 190 miles"
-  - claim: "The lowest figure is 190 miles, for the L2H1 with the 77kWh battery"
-    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
-    quote: "we got to grips with an L2H1 model with the 77kWh pack"
-  - claim: "The lowest figure is 190 miles, for the L2H1 with the 77kWh battery"
+  - claim: "The lowest figure is 190 miles"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Projected range is 190 miles on the combined cycle"
-  - claim: "one 2025 guide gives 226 miles for the bigger battery"
+  - claim: "the L2H1 with the 77kWh battery"
+    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
+    quote: "we got to grips with an L2H1 model with the 77kWh pack"
+  - claim: "226 miles for the bigger battery"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "up to 226 miles (365 km) for the larger battery"
-  - claim: "one 2025 guide gives 226 miles for the bigger battery"
+  - claim: "one 2025 guide"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "Published: August 17, 2025"
   - claim: "two batteries, 77kWh and 88kWh"
@@ -82,10 +82,19 @@ facts:
   - claim: "a payload of up to 1,200kg"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "with the smallest battery that is the strongest with a maximum payload of 1,200kg"
-  - claim: "the L1H1 with the 77kWh battery carries 1,200kg"
+  - claim: "the L1H1 with the 77kWh battery"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
-    quote: "eDELIVER 7 - L1H1 Cargo Van (77kWh) 4998 2030 1990 2300 1200"
-  - claim: "the L2H2, which only comes with the 88kWh battery, carries 1,025kg"
+    quote: "L1H1 Cargo Van (77kWh) 4998 2030 1990 2300 1200"
+  - claim: "carries 1,200kg"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
+    quote: "with the smallest battery that is the strongest with a maximum payload of 1,200kg"
+  - claim: "the L2H2, which only comes with the"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
+    quote: "the L2H2, which only comes with the bigger battery"
+  - claim: "the L2H2, which only comes with the 88kWh battery"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
+    quote: "There is a 77kWh battery and an 88kWh version. The former is only offered on the two low-roof models"
+  - claim: "carries 1,025kg"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "the L2H2, which only comes with the bigger battery and has a payload of 1,025kg"
   - claim: "Over 1,000kg payload in every version"
@@ -145,7 +154,7 @@ facts:
   - claim: "a loud warning when you go over the speed limit"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "The eDeliver 7 is very vocal if you go over the legal maximum"
-  - claim: "the sign-reading system doesn't always get the limit right"
+  - claim: "a sign-reading system that doesn't always get the limit right"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Unfortunately the eDeliver 7 does not always identify the limit correctly"
   - claim: "a driver-facing camera that sounds an alert if it thinks you're tired or distracted"
@@ -166,10 +175,10 @@ facts:
   - claim: "There's one trim"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "The eDeliver 7 is offered with just one level of specification in the UK"
-  - claim: "a 12.3-inch touchscreen with Apple CarPlay and Android Auto"
+  - claim: "a 12.3-inch touchscreen"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "a standard-fit 12.3-inch infotainment touchscreen"
-  - claim: "a 12.3-inch touchscreen with Apple CarPlay and Android Auto"
+  - claim: "with Apple CarPlay and Android Auto"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "it comes with Apple Carplay and Android Auto as standard"
   - claim: "a heated steering wheel and heated windscreen"
@@ -201,24 +210,24 @@ facts:
   - claim: "around 60 locations"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "now boasts 60 locations, including service dealers"
-  - claim: "When orders opened in January 2024, the eDeliver 7 was priced from £44,995 excluding VAT"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "Harris Maxus has opened orders for its new eDeliver 7 medium electric van, priced from £44,995 (excl. VAT)"
-  - claim: "When orders opened in January 2024, the eDeliver 7 was priced from £44,995 excluding VAT"
+  - claim: "When orders opened in January 2024"
     source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
     quote: "26 January 2024"
-  - claim: "In August 2026 the UK importer announced that the Deliver 7 line-up, diesel and electric, is now priced from £19,995"
-    source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
-    quote: "Available in both Euro-6 and fully electric variants, the Deliver 7 line-up is now priced from £19,995"
-  - claim: "In August 2026 the UK importer announced that the Deliver 7 line-up, diesel and electric, is now priced from £19,995"
+  - claim: "priced from £44,995 excluding VAT"
+    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
+    quote: "priced from £44,995 (excl. VAT)"
+  - claim: "In August 2026"
     source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
     quote: "7 August 2026"
-  - claim: "the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000"
-    source: https://www.gov.uk/plug-in-vehicle-grants/vans
-    quote: "The maximum discount available for some large vans is £5,000"
-  - claim: "the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000"
+  - claim: "the Deliver 7 line-up, diesel and electric, is now priced from £19,995"
+    source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
+    quote: "Available in both Euro-6 and fully electric variants, the Deliver 7 line-up is now priced from £19,995"
+  - claim: "the government's list of vans eligible for the large-van rate of the Plug-in Van Grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Maxus eDeliver 7"
+  - claim: "worth up to £5,000"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "The maximum discount available for some large vans is £5,000"
 ---
 
 The Maxus eDeliver 7 is the Chinese brand's medium electric van, slotting between the small eDeliver 3 and the large [Maxus eDeliver 9](/vans/maxus-deliver-9/). It goes up against the best-known names in the busiest part of the van market, and it does so on value and specification rather than badge.
