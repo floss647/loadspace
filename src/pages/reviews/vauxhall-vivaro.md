@@ -3,15 +3,15 @@ layout: ../../layouts/Review.astro
 title: "Vauxhall Vivaro Electric review: what the testers say"
 van: vauxhall-vivaro
 date: 2026-10-30T08:00:00Z
-summary: "UK testers find the Vivaro Electric quiet and easy to drive, but the 2024 facelift has not hidden its age, its payload limits or its tight cab."
+summary: "Auto Express finds the current Vivaro Electric the quietest and briskest Vivaro, but the 2024 facelift has not hidden its age, its restricted payload or its tight cab."
 specs:
-  price: "Not confirmed (launched at £42,055 ex VAT in 2023)"
+  price: "Not confirmed (announced at £42,055 ex VAT in 2023)"
   range: "219 miles"
   charging: "100kW"
   payload: "1,210 kg"
   batteryWarranty: "Eight years against loss of capacity"
-verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Testers agree it is quiet and easy to drive, and a 219-mile official range with 100kW rapid charging covers most local and regional work. The trade-offs are a payload below the best diesel versions, a low and slightly cramped cab, and a design that is starting to feel its age. It shares almost everything with its Stellantis and Toyota twins, so it pays to compare prices across all of them."
-good: ["Quiet, easy drive with instant acceleration", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
+verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Auto Express finds the current electric version quiet and brisk, as Parkers did the older one, and a reported 219-mile official range with 100kW rapid charging covers most local and regional work. The trade-offs are a payload below the best diesel versions, a low and slightly cramped cab, and a design that is starting to feel its age. It shares almost everything with its Stellantis and Toyota twins, so it pays to compare prices across all of them."
+good: ["Quiet, brisk drive with instant acceleration", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
 bad: ["Payload below the best diesel versions", "Low seat and a tight cab for three", "Smaller rear door openings than before"]
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
@@ -141,7 +141,7 @@ facts:
   - claim: "a cramped cab and an offset driving position"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
     quote: "Cramped cab Offset driving position"
-  - claim: "rated it 3.8 out of 5"
+  - claim: "rated the older electric Vivaro 3.8 out of 5"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
     quote: "Parkers overall rating: 3.8 out of 5"
   - claim: "\"sets a new standard\""
@@ -180,15 +180,36 @@ facts:
   - claim: "pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "are all pretty much the same van as the Vivaro"
-  - claim: "second, smaller mirror below each door mirror"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The old van used to have a second smaller mirror below the main door mirror"
   - claim: "with a through-load option for long items"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "which will be planks, ladders, tubing or pipework"
   - claim: "the cargo area is the same size as a diesel's"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
     quote: "The load space is exactly the same size as any other Vivaro of this generation"
+  - claim: "the quietest and briskest Vivaro"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "For the quietest and briskest experience, the Vivaro Electric delivers instant EV acceleration"
+  - claim: "its restricted payload"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "The EV version has a restricted payload"
+  - claim: "Judging from its diesel test van"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "Our test van had the standard-fit six-speed manual gearbox"
+  - claim: "Auto Express's cab notes cover the Vivaro range as a whole"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "One thing we immediately noticed upon climbing into the Vauxhall Vivaro is that the seating position feels surprisingly low"
+  - claim: "a £2,580 cut to £42,055 excluding VAT"
+    source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
+    quote: "reduce the price of the Vivaro Electric by £2,580, meaning it now starts at £42,055 (not including VAT)"
+  - claim: "before it went on sale"
+    source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
+    quote: "both are set to go on sale by the end of 2023"
+  - claim: "the battery is covered for eight years against loss of capacity"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "battery is covered for eight years against loss of capacity"
+  - claim: "eight years or 100,000 miles for the older van"
+    source: https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
+    quote: "the battery components get extra reassurance in the form of an eight-year / 100,000-mile warranty"
 ---
 
 ### Which vans were tested
@@ -197,7 +218,7 @@ Two UK publications we could read in full cover the Vivaro Electric, and they re
 
 ### Driving
 
-Auto Express says the electric version gives the quietest and briskest drive in the range, with instant acceleration and none of a diesel's clatter. It found both diesel and electric versions fairly quiet at higher speeds, but reckons a Ford Transit Custom is more enjoyable to drive. Parkers was keen on the older Vivaro-e, calling it quiet, refined and comfortable, and found the ride comfortable and the steering well judged.
+Auto Express says the electric version gives the quietest and briskest drive in the range, with instant acceleration and none of a diesel's clatter. It found both diesel and electric versions fairly quiet at higher speeds. Judging from its diesel test van, it reckons a Ford Transit Custom is more enjoyable to drive. Parkers was keen on the older Vivaro-e, calling it quiet, refined and comfortable, and found the ride comfortable and the steering well judged.
 
 ### Range in the real world
 
@@ -211,10 +232,14 @@ Auto Express gives load volumes of 5.3 cubic metres for the standard van and 6.1
 
 ### Cabin and tech
 
-Auto Express likes the pair of bright, clear digital displays in the latest vans, and the separate climate controls. It found the seating position surprisingly low, and suggests looking elsewhere if you are regularly carrying three people. It also misses the old van's second, smaller mirror below each door mirror: there are no wide-angle door mirrors now. Parkers' complaints about the older van were similar, with a cramped cab and an offset driving position.
+Auto Express's cab notes cover the Vivaro range as a whole rather than the electric version alone. It likes the pair of bright, clear digital displays in the latest vans, and the separate climate controls. It found the seating position surprisingly low, and suggests looking elsewhere if you are regularly carrying three people. It also regrets that there are no wide-angle door mirrors. Parkers' complaints about the older van were similar, with a cramped cab and an offset driving position.
+
+### Price and warranty
+
+We couldn't confirm a current list price, so price isn't scored. When the facelift was announced in November 2023, Parkers reported a £2,580 cut to £42,055 excluding VAT, before it went on sale, so treat that as a 2023 figure. Auto Express quotes one price spread for diesel and electric versions together, without saying whether VAT is included. Vauxhall's own site couldn't be read, so our specs come from these trade reviews. Auto Express says the battery is covered for eight years against loss of capacity, with no mileage limit given; Parkers quoted eight years or 100,000 miles for the older van.
 
 ### Where testers disagree
 
-Parkers rated it 3.8 out of 5 and said the older electric Vivaro "sets a new standard", judging it expensive to buy against a diesel but cheap to run. That verdict came when it comfortably out-ranged German rivals. Auto Express gives the Vivaro range as a whole 3.0, says the van is "starting to feel a bit dated", and points out this generation dates back to 2019, though it still lists the electric version as one of its strengths.
+Parkers rated the older electric Vivaro 3.8 out of 5 and said it "sets a new standard", judging it expensive to buy against a diesel but cheap to run. That verdict came when it comfortably out-ranged German rivals. Auto Express gives the Vivaro range as a whole 3.0, says the van is "starting to feel a bit dated", and points out this generation dates back to 2019, though it still lists the electric version as one of its strengths.
 
 Auto Express says the Vivaro is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins. It notes the twins' prices can vary considerably and that the Toyota has a better warranty, so get quotes on all five. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) and [Vivaro Electric page](/vans/vauxhall-vivaro/) can help with the sums.
