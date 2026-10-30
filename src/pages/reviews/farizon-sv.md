@@ -13,6 +13,9 @@ specs:
 verdict: "The SV is a serious, well-funded effort rather than a gamble on a start-up, and on paper it's strong: up to 1,350 kg of payload, five body sizes, a 247-mile official range in its biggest form and a long list of standard kit. Reports on the drive are split, and the warning chimes and lane-keeping assistance have a reputation for being intrusive. Before you sign, find your nearest dealer, get a written quote and the battery warranty terms in writing, and drive one on your own roads."
 good: ["Payload up to 1,350 kg", "Low 550mm load floor and pillarless side opening", "Lots of standard kit"]
 bad: ["Reports on the drive and ride are mixed", "Intrusive driver-assistance warnings", "Young, still-growing dealer network"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
   - https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-dimensions/
