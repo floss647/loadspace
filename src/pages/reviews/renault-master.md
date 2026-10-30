@@ -258,7 +258,7 @@ facts:
   - claim: "it was reported from £42,500 ex VAT and before the grant"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
     quote: "which starts at £42,500. This is not including VAT, but is also not factoring in the £5,000 government plug-in van grant"
-  - claim: "a June 2026 review still put it at around £42,500 on that basis"
+  - claim: "still put it at around £42,500 on that basis"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "starting from around £42,500 (exc. VAT), but this drops thanks to the Government"
   - claim: "a June 2026 review"

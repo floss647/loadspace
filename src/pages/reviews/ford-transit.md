@@ -343,13 +343,13 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350L LWB / L3 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD £56,245.00"
   # Alternatives
-  - claim: "The [Renault Master E-Tech](/vans/renault-master/) and its twin the [Nissan Interstar-e](/vans/nissan-interstar/) are the obvious rivals"
+  - claim: "The Renault Master E-Tech and its twin the Nissan Interstar-e are the obvious rivals"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "The Renault Master E-Tech is top of the pile now, with a superior range, excellent efficiency and a fantastic payload. The Nissan Interstar is almost identical"
   - claim: "Mercedes-Benz eSprinter"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "Then there is the Mercedes-Benz eSprinter"
-  - claim: "the [Vauxhall Movano Electric](/vans/vauxhall-movano/) and its Stellantis twins"
+  - claim: "the Vauxhall Movano Electric and its Stellantis twins"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "The Stellantis family of vans includes the Citroen e-Relay , Fiat E-Ducato , Peugeot e-Boxer and Vauxhall Movano are all joined by the mechanically identical Toyota Proace Max"
   - claim: "Iveco eDaily"
