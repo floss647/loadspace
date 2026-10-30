@@ -102,7 +102,7 @@ facts:
   - claim: "paddles behind the wheel"
     source: https://www.autoexpress.co.uk/citroen/berlingo-van
     quote: "you use paddles behind the steering wheel, rather than having to select"
-  - claim: "won't bring it to a stop on their own"
+  - claim: "won't bring it to a stop by itself"
     source: https://www.autoexpress.co.uk/citroen/berlingo-van
     quote: "It doesn’t provide a one-pedal driving experience."
   - claim: "Enterprise, Enterprise Plus and Driver"
@@ -166,7 +166,7 @@ A 100kW rapid charger takes the battery from zero to 80 per cent in about half a
 
 ### On the road
 
-By all accounts it is considerably more relaxing than the diesel on faster roads, quieter and with less vibration, and it rides well even with nothing in the back because the battery sits low between the axles. Regenerative braking is now set with paddles behind the wheel, though even the strongest setting won't bring it to a stop on their own. Visibility is the weak point: the mirrors are narrow, leaving big blind spots on both sides.
+By all accounts it is considerably more relaxing than the diesel on faster roads, quieter and with less vibration, and it rides well even with nothing in the back because the battery sits low between the axles. Regenerative braking is now set with paddles behind the wheel, though even the strongest setting won't bring it to a stop by itself. Visibility is the weak point: the mirrors are narrow, leaving big blind spots on both sides.
 
 ### Cab and kit
 

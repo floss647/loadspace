@@ -34,10 +34,10 @@ facts:
   - claim: "before the grant"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "doesn’t factor in the full £5,000 Government Plug-in-Van grant"
-  - claim: "a 2026 price cut has brought the entry model under £30,000 ex VAT"
+  - claim: "under £30,000 ex VAT"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "The VW has seen prices cut by more than £5,000 to dip below the £30,000 mark for the first time"
-  - claim: "a 2026 price cut has brought the entry model under £30,000 ex VAT"
+  - claim: "a 2026 price cut"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "Written by Tom Webster Updated: 16 September 2026"
   - claim: "In August 2026"
@@ -106,16 +106,19 @@ facts:
   - claim: "Low payload: 712kg at most"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum payload: 712kg"
-  - claim: "A July 2026 buying guide gave a maximum payload of 712kg"
+  - claim: "A July 2026 buying guide"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "By: Antony Ingram 27 Jul 2026"
-  - claim: "A July 2026 buying guide gave a maximum payload of 712kg"
+  - claim: "gave a maximum payload of 712kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum payload: 712kg"
-  - claim: "the 59kWh van launched in 2025 was rated at 692kg"
+  - claim: "the 59kWh van"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
     quote: "The 59kWh model has a payload of 692kg"
-  - claim: "the 59kWh van launched in 2025 was rated at 692kg"
+  - claim: "rated at 692kg"
+    source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
+    quote: "The 59kWh model has a payload of 692kg"
+  - claim: "launched in 2025"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
     quote: "Updated: 5 March 2025"
   - claim: "3.9 cubic metres"
@@ -136,7 +139,7 @@ facts:
   - claim: "little wheelarch intrusion"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "there is minimal wheel arch intrusion"
-  - claim: "the rear load lip is high at 632mm"
+  - claim: "a rear load lip that is high at 632mm"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "the load lip at the rear is 632mm off the ground"
   - claim: "the twin sliding side doors open to just 756mm"
@@ -258,7 +261,7 @@ The ID. Buzz Cargo is the van that gets noticed: a modern electric take on Volks
 
 ### Who it's for
 
-Businesses that carry light, bulky loads and want a van that does some of their marketing for them. If you carry heavy kit or need a big load bay, it isn't the obvious choice. UK buyers currently get one body length, though a longer version has been announced (see below).
+Businesses that carry light, bulky loads and want a van that does some of their marketing for them. UK buyers currently get one body length, though a longer version has been announced (see below).
 
 ### Load area and payload
 
@@ -268,9 +271,9 @@ Payload is the real weakness. A July 2026 buying guide gave a maximum payload of
 
 ### Range and charging in the real world
 
-There are two batteries. In August 2026 a 58kWh battery replaced the 59kWh in the entry Commerce van, and its official range rose to 218 miles, 17 miles more than before. It charges at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes. That's slower than the old battery: the 59kWh battery it replaced could take 165kW.
+There are two batteries. In August 2026 a 58kWh battery replaced the 59kWh in the entry Commerce van, and its official range rose to 218 miles, 17 miles more than before. It charges at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes, whereas the 59kWh battery it replaced could take 165kW.
 
-Commerce Plus keeps the 79kWh battery (early vans had a 77kWh battery), rated at up to 277 miles (one report gives 276). It rapid charges at up to 185kW, enough for five to 80 per cent in around half an hour. We couldn't find a measured real-world range for the current batteries, so we haven't guessed one. Our [charging guide](/guides/charging-an-electric-van/) covers the basics.
+Commerce Plus keeps the 79kWh battery (early vans had a 77kWh battery), rated at up to 277 miles (one report gives 276). It rapid charges at up to 185kW, enough for five to 80 per cent in around half an hour. We couldn't find a measured real-world range for the current batteries. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 

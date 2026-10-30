@@ -102,7 +102,7 @@ facts:
   - claim: "about ten miles fewer than Peugeot quotes for the E-Expert, even though the two are pretty much the same van"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "which is about ten miles fewer than Peugeot quotes for the electric Expert, despite the vans being pretty much the same"
-  - claim: "A 2025 review also lists a 50kWh version with a 139-mile range"
+  - claim: "also lists a 50kWh version with a 139-mile range"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "There is also a 50kWh option, which has a reduced range of 139 miles"
   - claim: "A 2025 review"
@@ -111,7 +111,10 @@ facts:
   - claim: "range falls at motorway speeds"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "if you do more long-distance trips then expect fewer miles between charges"
-  - claim: "A 100kW rapid charger takes the 75kWh battery from 5 to 80% in 45 minutes"
+  - claim: "A 100kW rapid charger takes the"
+    source: https://www.autoexpress.co.uk/fiat/scudo
+    quote: "You can charge it at up to 100kW, so a 5 to 80 per cent charge takes 45 minutes at a public rapid charge point."
+  - claim: "battery from 5 to 80% in 45 minutes"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "You can charge it at up to 100kW, so a 5 to 80 per cent charge takes 45 minutes at a public rapid charge point."
   - claim: "a 7.4kW wallbox needs 11 hours 20 minutes"
