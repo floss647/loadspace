@@ -22,7 +22,7 @@ const deals = DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '');
 ---
-<Base title={`${van.name} review and buying guide`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`}>
+<Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/vans/">Electric vans</a> › <a href={`/vans/#${van.size}`}>{size.label}</a></div>
     <article class="prose">

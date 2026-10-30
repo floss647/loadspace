@@ -1,13 +1,29 @@
 ---
 import Base from './Base.astro';
 import { fmtDate } from '../lib/news.js';
+import { SITE } from '../data/site.js';
 import { COLUMN } from '../lib/blog.js';
 import IMAGES from '../data/blog-images.json';
 const { frontmatter: f } = Astro.props;
 const slug = Astro.url.pathname.split('/').filter(Boolean).pop();
 const img = IMAGES[slug];
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: f.title,
+  description: f.summary,
+  datePublished: new Date(f.date).toISOString(),
+  dateModified: new Date(f.corrections?.length ? f.corrections[f.corrections.length - 1].date : f.date).toISOString(),
+  inLanguage: 'en-GB',
+  articleSection: 'Overloaded',
+  mainEntityOfPage: pageUrl,
+  image: img?.image ? [new URL(img.image, Astro.site).href] : undefined,
+  author: { '@type': 'Organization', name: SITE.name, url: new URL('/', Astro.site).href },
+  publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href } },
+};
 ---
-<Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image}>
+<Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image} type="article" jsonLd={ld}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">{COLUMN.name}</a></div>
     <article class="prose column">
