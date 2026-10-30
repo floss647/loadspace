@@ -165,6 +165,8 @@ for (const path of files) {
     failed++;
     console.error(`\n✗ ${slug}`);
     errs.forEach((e) => console.error('   - ' + e));
+    // On GitHub, also show each problem as an annotation on the run summary.
+    if (process.env.GITHUB_ACTIONS) errs.forEach((e) => console.log(`::error title=${slug}::${e.replace(/\n/g, ' ')}`));
   } else {
     console.log(`✓ ${slug}: ${(fm.facts || []).length} facts${LIVE ? ', all quotes found on source pages' : ''}`);
   }
