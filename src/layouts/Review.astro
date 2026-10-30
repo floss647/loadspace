@@ -33,6 +33,9 @@ const ld = {
         <p class="eyebrow">Loadspace review · {fmtDate(f.date)}</p>
         <h1>{f.title}</h1>
         <p class="review-summary">{f.summary}</p>
+        {overall == null && (
+          <div class="review-medal"><span class="medal-label"><strong>Not scored yet</strong>We could only confirm {scoredCount} of {rows.length} figures from current sources</span></div>
+        )}
         {overall != null && (
           <div class="review-medal">
             <span class="medal-score">{overall.toFixed(1)}<small>/5</small></span>
@@ -71,8 +74,8 @@ const ld = {
     <aside class="review-aside">
       <div class="score-card">
         <div class="score-card-head">
-          <span class="medal-score">{overall?.toFixed(1)}<small>/5</small></span>
-          <span><strong>Data score</strong><br /><span class="small muted">From published specs</span></span>
+          {overall != null ? <span class="medal-score">{overall.toFixed(1)}<small>/5</small></span> : <span class="medal-score">n/a</span>}
+          <span><strong>Data score</strong><br /><span class="small muted">{overall != null ? 'From published specs' : `Needs at least 3 confirmed figures`}</span></span>
         </div>
         <ul class="score-rows">
           {rows.map((r) => (
@@ -83,7 +86,8 @@ const ld = {
             </li>
           ))}
         </ul>
-        {scoredCount < rows.length && <p class="small muted score-note">We couldn't confirm every figure from a current source, so the score averages the {scoredCount} we could.</p>}
+        {overall != null && scoredCount < rows.length && <p class="small muted score-note">We couldn't confirm every figure from a current source, so the score averages the {scoredCount} we could.</p>}
+        {overall == null && <p class="small muted score-note">We could only confirm {scoredCount} of {rows.length} figures from current sources, so we haven't scored this van yet.</p>}
         <a class="small" href="/reviews/how-we-score/">How we score →</a>
       </div>
       <div class="aside-links">

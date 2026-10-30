@@ -56,10 +56,10 @@ facts:
   - claim: "300kg"
     source: https://evfleetworld.co.uk/citroen-e-c3-van-on-sale-with-200-mile-range-and-sub-20k-price/
     quote: "and payload is 300kg"
-  - claim: "A pre-launch report in March 2025 gave 494kg"
+  - claim: "gave 494kg"
     source: https://www.autoexpress.co.uk/citroen/c3/366273/new-citroen-e-c3-van-will-be-cheap-n-cheerful-option-business-april
     quote: "the e-C3 van has a maximum payload of 494kg"
-  - claim: "A pre-launch report in March 2025 gave 494kg"
+  - claim: "A pre-launch report in March 2025"
     source: https://www.autoexpress.co.uk/citroen/c3/366273/new-citroen-e-c3-van-will-be-cheap-n-cheerful-option-business-april
     quote: "18 Mar 2025"
   - claim: "1,220 litres"

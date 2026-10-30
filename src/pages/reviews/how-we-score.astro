@@ -13,7 +13,7 @@ import { CRITERIA } from '../../lib/review-score.js';
       <p>We study everything published about a van: the maker's specs and price lists, and the UK road tests from established titles. Then we make our own call on who it suits, which version to buy and what to watch out for. Every figure is checked against its source before publishing. We haven't road-tested these vans ourselves yet, and we never pretend we have: anything about how a van drives is based on published road tests, and we say so on every review.</p>
 
       <h2>The Loadspace data score</h2>
-      <p>Opinions vary, so the score sticks to numbers anyone can check. We score five things from 1 to 5, then take the average. Each figure is checked against its source before publishing, using the maker's own price list or spec sheet wherever we can.</p>
+      <p>Opinions vary, so the score sticks to numbers anyone can check. We score five things from 1 to 5, then take the average. If we can't confirm a figure from a current source, we leave it out of the average and say so. A van needs at least three confirmed figures to get a score. Each figure is checked against its source before publishing, using the maker's own price list or spec sheet wherever we can.</p>
       <ul>
         {CRITERIA.map((c) => <li><strong>{c.label}:</strong> {c.what.charAt(0).toLowerCase() + c.what.slice(1)}.</li>)}
       </ul>

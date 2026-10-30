@@ -46,10 +46,13 @@ export const CRITERIA = [
 // A figure we couldn't confirm from a current source starts "Not confirmed" and isn't scored.
 const unconfirmed = (v) => v == null || /^not confirmed/i.test(String(v));
 
+export const MIN_SCORED = 3;
+
 export function scoreSpecs(specs = {}) {
   const rows = CRITERIA.map((c) => ({ ...c, value: specs[c.key], points: unconfirmed(specs[c.key]) ? null : c.score(specs[c.key]) }));
   const scored = rows.filter((r) => r.points != null);
-  const overall = scored.length ? Math.round((scored.reduce((a, r) => a + r.points, 0) / scored.length) * 10) / 10 : null;
+// A score needs at least this many confirmed figures, so it isn't based on too little.
+  const overall = scored.length >= MIN_SCORED ? Math.round((scored.reduce((a, r) => a + r.points, 0) / scored.length) * 10) / 10 : null;
   return { rows, overall, scoredCount: scored.length };
 }
 

@@ -287,7 +287,7 @@ Early vans also came with a key you turn in the ignition and a manual handbrake.
 
 ### Cab and kit
 
-At launch the E-Tech came only in Advance trim, with manual air conditioning, automatic lights and wipers and rear parking sensors, plus a 10-inch touchscreen with Apple CarPlay and Android Auto and a digital driver's display. We like that there are proper dials for the climate controls. There's 135 litres of storage around the cab (the big space under the middle seat suits the charging cable), but right-hand-drive vans lose the big sliding glovebox. A rear-view camera is an option worth ticking.
+At launch the E-Tech came only in Advance trim, with manual air conditioning, automatic lights and wipers and rear parking sensors, plus a 10-inch touchscreen with Apple CarPlay and Android Auto and a digital driver's display. We like that there are proper dials for the climate controls. There's 135 litres of storage around the cab (a big space under the middle seat suits the charging cable), but right-hand-drive vans lose the big sliding glovebox. A rear-view camera is an option worth ticking.
 
 ### Which version to buy
 
