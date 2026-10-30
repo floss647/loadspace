@@ -3,12 +3,12 @@ layout: ../../layouts/Review.astro
 title: "Volkswagen e-Transporter review"
 van: volkswagen-transporter
 date: 2026-10-30T08:00:00Z
-summary: "Volkswagen's electric Transporter shares its platform, motor and battery with the Ford E-Transit Custom, and has a reputation for driving well. Volkswagen now sells it with a 70kWh battery, quotes up to 225 miles of official range and prices it from £42,260 ex VAT before the grant. Its own case rests on a five-year warranty."
+summary: "Volkswagen's electric Transporter shares its platform with the Ford E-Transit Custom and has a reputation for driving well. Volkswagen now sells it with a 70kWh battery, quotes up to 225 miles of official range and prices it from £42,260 ex VAT before the grant. Its own case rests on a five-year warranty."
 specs:
   price: "£42,260"
   range: "225 miles"
   charging: "125kW"
-  payload: "1,156 kg (excluding driver)"
+  payload: "1,081 kg (including driver)"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "One published review rates this one of the two best electric medium vans, alongside its Ford twin. It's said to drive well, the cab is cleverly laid out and the best versions carry more than a tonne. The VW's five-year warranty is the main reason to pick it over the Ford, while the Ford has a few clever extras the VW lacks. Get quotes for both, and ask which battery the van you're offered has."
 good:
@@ -19,6 +19,9 @@ bad:
   - "Over £10,000 dearer than the cheapest diesel Transporter"
   - "Most controls are on the touchscreen"
   - "Misses some of the Ford's clever extras"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
@@ -47,22 +50,19 @@ facts:
   - claim: "125kW"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "DC current - Rapid charger (up to 125kW)"
-  - claim: "1,156 kg"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
-    quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
-  - claim: "excluding driver"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
-    quote: "Kerb weight includes 90% fuel load with no driver or passengers."
+  - claim: "1,081 kg"
+    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
+    quote: "payload in the e-Transporter Panel van is slightly lower than comparable diesel models, at roughly 911 kg to 1,081 kg"
+  - claim: "including driver"
+    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
+    quote: "Payload = gross vehicle weight minus unladen weight (including driver)"
   - claim: "8 years or 100,000 miles"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "8 years or 100,000 miles (whichever comes first) from first"
   # Summary, verdict, good and bad
-  - claim: "shares its platform, motor and battery with the Ford E-Transit Custom"
+  - claim: "shares its platform with the Ford E-Transit Custom"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "complete with a platform shared with the Ford Transit Custom"
-  - claim: "shares its platform, motor and battery with the Ford E-Transit Custom"
-    source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
-    quote: "underneath you get the same motor and battery as is offered in the Transit Custom"
   - claim: "Ford E-Transit Custom"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "the Ford E-Transit Custom equivalent"
@@ -117,9 +117,12 @@ facts:
   - claim: "built on the same production line as the Ford"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-e-transporter-updates/
     quote: "built on the same production line as"
-  - claim: "It launched with the same motor and battery"
+  - claim: "One review says it launched with the same motor and battery"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "underneath you get the same motor and battery as is offered in the Transit Custom"
+  - claim: "another reports a slightly smaller battery than the Ford's"
+    source: https://www.autoexpress.co.uk/volkswagen/transporter
+    quote: "This is a slightly smaller capacity than the Ford E-Transit Custom"
   # Load area and payload
   - claim: "two lengths"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
@@ -139,23 +142,23 @@ facts:
   - claim: "an 8ft by 4ft board fits between the wheel arches"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "with the longer model able to take three Euro pallets and the space between the wheelarches wide enough to take the commonly used 8ft by 4ft board"
-  - claim: "Volkswagen's brochure gives the best payload as 1,156kg"
+  - claim: "Volkswagen's website puts electric panel van payloads at roughly 911kg to 1,081kg including a driver"
+    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
+    quote: "payload in the e-Transporter Panel van is slightly lower than comparable diesel models, at roughly 911 kg to 1,081 kg"
+  - claim: "including a driver"
+    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
+    quote: "Payload = gross vehicle weight minus unladen weight (including driver)"
+  - claim: "Its brochure gives a best of 1,156kg"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
   - claim: "for the long-wheelbase 136hp van"
     calc: "The 1,156kg row in VW's brochure weights table is the T34 (long wheelbase) 136PS 70 kWh van (fact above); 136PS is the motor this review, like other published reviews, calls 136hp (fact below)."
-  - claim: "worked out as gross weight minus kerb weight, with no driver aboard"
+  - claim: "worked out as gross weight minus kerb weight with no driver aboard"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "Payload is Gross vehicle weight minus Kerb weight."
-  - claim: "worked out as gross weight minus kerb weight, with no driver aboard"
+  - claim: "worked out as gross weight minus kerb weight with no driver aboard"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "Kerb weight includes 90% fuel load with no driver or passengers."
-  - claim: "roughly 911kg to 1,081kg once a driver is counted"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "at roughly 911 kg to 1,081 kg"
-  - claim: "once a driver is counted"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "Payload = gross vehicle weight minus unladen weight (including driver)"
   - claim: "Every version can tow a 2,300kg trailer"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "Every version of the Volkswagen e-Transporter has the same towing capacity, being able to tow a 2,300kg trailer."
@@ -359,13 +362,13 @@ facts:
 
 ### Who it's for
 
-The e-Transporter is Volkswagen's electric medium van, developed jointly with Ford alongside the [Ford E-Transit Custom](/vans/ford-transit-custom/) and reported to be built on the same production line as the Ford. It launched with the same motor and battery. Read our [E-Transit Custom review](/reviews/ford-transit-custom/) too. It suits local or regional work with somewhere to charge overnight.
+The e-Transporter is Volkswagen's electric medium van, developed jointly with Ford alongside the [Ford E-Transit Custom](/vans/ford-transit-custom/) and reported to be built on the same production line as the Ford. One review says it launched with the same motor and battery, though another reports a slightly smaller battery than the Ford's. Read our [E-Transit Custom review](/reviews/ford-transit-custom/) too. It suits local or regional work with somewhere to charge overnight.
 
 ### Load area and payload
 
 There are two lengths, both with a roof comfortably under 2 metres, and the battery costs nothing in load space compared with the diesel: Volkswagen quotes 5.8 cubic metres in the short van and 6.8 in the long one. The long van takes three Euro pallets, and an 8ft by 4ft board fits between the wheel arches.
 
-Volkswagen's brochure gives the best payload as 1,156kg, for the long-wheelbase 136hp van, worked out as gross weight minus kerb weight, with no driver aboard. Its website puts electric panel van payloads at roughly 911kg to 1,081kg once a driver is counted, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
+Volkswagen's website puts electric panel van payloads at roughly 911kg to 1,081kg including a driver, depending on specification. Its brochure gives a best of 1,156kg for the long-wheelbase 136hp van, but that's worked out as gross weight minus kerb weight with no driver aboard, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
 
 ### Range and charging in the real world
 

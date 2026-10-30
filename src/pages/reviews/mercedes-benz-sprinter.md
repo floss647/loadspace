@@ -13,6 +13,9 @@ specs:
 verdict: "The eSprinter is now a serious long-range large electric van rather than a town-only curiosity. The 113kWh battery's 272-mile official range, 115kW charging and a big L3 load bay make it a strong fit for fleets running long days. Against that, it is expensive to buy and payload is modest for a van this size, so check the figure for the exact van you order. Few UK road tests have been published, but if the numbers work for your business, it deserves a place on the shortlist."
 good: ["272-mile official range (113kWh)", "14 cubic metres of load space in the L3 van", "Generous standard kit and a modern touchscreen"]
 bad: ["Expensive to buy", "Payload not generous for a large van", "Few UK road tests of the current van so far"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://media.mercedes-benz.com/en/article/41ad237f-4110-424a-b802-40a46300850b
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
@@ -29,6 +32,9 @@ facts:
   - claim: "115kW"
     source: https://media.mercedes-benz.com/en/article/41ad237f-4110-424a-b802-40a46300850b
     quote: "The battery with a usable capacity of 113 kWh needs around 42 minutes at a maximum of 115 kW"
+  - claim: "115kW"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
+    quote: "The 113kWh battery will take up to 115kW charging"
   - claim: "8 years or 100,000 miles"
     calc: "eight years/100,000 miles (sourced below: the battery pack is warranted for eight years/100,000 miles) written as 8 years or 100,000 miles"
   - claim: "272 official miles"
@@ -136,9 +142,15 @@ facts:
   - claim: "there's no published figure with a heavy load"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "we haven’t tried it out with anything close to a full payload"
-  - claim: "Mercedes quotes rapid charging at up to 115kW, taking the 113kWh battery from 10 to 80% in around 42 minutes"
+  - claim: "Mercedes' January 2024 launch announcement"
+    source: https://media.mercedes-benz.com/en/article/41ad237f-4110-424a-b802-40a46300850b
+    quote: "Stuttgart , January 15, 2024"
+  - claim: "quoted rapid charging at up to 115kW, taking the 113kWh battery from 10 to 80% in around 42 minutes"
     source: https://media.mercedes-benz.com/en/article/41ad237f-4110-424a-b802-40a46300850b
     quote: "The battery with a capacity of 56 kWh is charged from 10 to 80 percent [6] in around 28 minutes at a maximum of 115 kW. The battery with a usable capacity of 113 kWh needs around 42 minutes at a maximum of 115 kW"
+  - claim: "a UK road test gives the same figures"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
+    quote: "The 113kWh battery will take up to 115kW charging, which means it should be able to get from 10-80% in 42 minutes"
   - claim: "On AC it takes 11 hours on an 11kW wallbox and around 17 hours on a 7kW supply"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "11 hours on an 11kW wallbox and around 17 hours on a 7kW socket"
@@ -222,7 +234,7 @@ The 113kWh battery has an official WLTP combined range of 272 miles: at launch, 
 
 On real-world range, the only measured figure we found is from the 2024 test, where an hour-long hilly route with a light load returned 3.1 miles per kWh, and there's no published figure with a heavy load.
 
-Mercedes quotes rapid charging at up to 115kW, taking the 113kWh battery from 10 to 80% in around 42 minutes, but public chargers that fast tend to be expensive. On AC it takes 11 hours on an 11kW wallbox and around 17 hours on a 7kW supply, so this is a van to charge overnight at base. See our [charging guide](/guides/charging-an-electric-van/).
+Mercedes' January 2024 launch announcement quoted rapid charging at up to 115kW, taking the 113kWh battery from 10 to 80% in around 42 minutes, and a UK road test gives the same figures, but public chargers that fast tend to be expensive. On AC it takes 11 hours on an 11kW wallbox and around 17 hours on a 7kW supply, so this is a van to charge overnight at base. See our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 

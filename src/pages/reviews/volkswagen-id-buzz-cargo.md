@@ -12,7 +12,10 @@ specs:
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "The ID. Buzz Cargo has always been more about image than capacity, and that hasn't changed: 3.9 cubic metres and a maximum payload of 690kg, driver included, leave it behind roomier rivals. What has changed is the price. The 58kWh Commerce now starts at £29,995 ex VAT before the grant, which puts it in the same price bracket as the Kia PV5 Cargo, and its 218-mile official range covers most working days. Buy one if you carry light loads and want a van people remember. If you need more room, wait for the long-wheelbase version or look at the PV5."
 good: ["Now from £29,995 ex VAT before the grant", "Up to 277 miles official range (79kWh)", "Car-like to drive, judging by tests of earlier vans"]
-bad: ["Low payload: 690kg at most, driver included", "Only 3.9 cubic metres of load space", "Frustrating touch-sensitive controls"]
+bad: ["Low payload: 690kg at most, driver included", "Only 3.9 cubic metres of load space", "Touch controls criticised in tests of earlier vans"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/id-buzz-cargo/id-buzz-cargo-pl.pdf
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
@@ -88,10 +91,10 @@ facts:
   - claim: "Only 3.9 cubic metres of load space"
     source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/id-buzz-cargo.html
     quote: "Load compartment volume Up to 3.9 cubic metres"
-  - claim: "Frustrating touch-sensitive controls"
+  - claim: "Touch controls criticised in tests of earlier vans"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "Frustrating cabin controls"
-  - claim: "Frustrating touch-sensitive controls"
+  - claim: "Touch controls criticised in tests of earlier vans"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "The lack of physical buttons for things like the climate control is particularly infuriating"
   # Intro and who it's for
@@ -111,16 +114,19 @@ facts:
   - claim: "1,732mm at its widest but 1,230mm between the wheel arches"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "Load compartment width, maximum/width between the wheel arches - mm 1,732/1,230"
-  - claim: "the rear sill is 623mm off the ground"
+  - claim: "The rear sill is 623mm off the ground"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "Height boot sill - mm 623"
   - claim: "the twin sliding side doors open to 756mm wide"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "Side sliding door, width x height - mm 756 x 1,092"
-  - claim: "There's no through-loading for long lengths"
-    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
-    quote: "no through-loading facility to help when carrying around long pipes"
-  - claim: "braked towing runs from 1,000kg (58kWh)"
+  - claim: "Through-loading for long lengths isn't standard"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Fixed bulkhead"
+  - claim: "Volkswagen lists a through-loading bulkhead as an option"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/id-buzz-cargo/id-buzz-cargo-pl.pdf
+    quote: "Bulkhead with fixed window and through-loading."
+  - claim: "Braked towing runs from 1,000kg (58kWh)"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "58 kWh Single-speed Automatic N/A 3,000 1,390/1,690 1,000/750 4,000 2,344 656"
   - claim: "1,800kg (4Motion)"
@@ -148,19 +154,19 @@ facts:
   - claim: "In August 2026"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
     quote: "By: Alastair Crooks 4 Aug 2026"
-  - claim: "a 58kWh battery replaced the 59kWh"
+  - claim: "a 58kWh battery reportedly replaced the 59kWh"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "the new 58kWh unit replacing a 59kWh version"
   - claim: "Volkswagen quotes 218 miles on the official WLTP test"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "58 kWh Single-speed Automatic 190 (140) N/A 0 3.00 218/351"
-  - claim: "17 miles more than before"
+  - claim: "reportedly 17 miles more than before"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "The official electric range has risen by 17 miles to 218 miles"
   - claim: "It's reported to charge at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
     quote: "it has the same 105kW charge rate here; a 10 to 80 per cent top-up takes 26 minutes"
-  - claim: "the 59kWh battery it replaced could take 165kW"
+  - claim: "the 59kWh battery it replaced was reported to take 165kW"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
     quote: "The 59kWh ID Buzz Cargo is capable of charging at a rate of 165kW"
   - claim: "The 79kWh battery is offered in both Commerce and Commerce Plus"
@@ -184,6 +190,9 @@ facts:
   - claim: "80% in around 30 minutes"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
     quote: "charged to 80% capacity in around 30 minutes using a 185 kW DC fast charging"
+  - claim: "a brochure footnote gives 170kW for what it calls the Pro battery"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Charging with max. 170 kW DC charging power for the Pro battery variant"
   # On the road
   - claim: "the earlier 77kWh van"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
@@ -237,16 +246,52 @@ facts:
   - claim: "The low roof makes the cab feel tight"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "Low roof makes it tight on space and storage"
-  - claim: "a 12.9-inch touchscreen, Apple CarPlay and Android Auto, climate control, a heated driver's seat and front and rear parking sensors"
-    source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
-    quote: "It comes in the Commerce trim level which includes such standard features as a 12.9-inch infotainment system display, Apple CarPlay and Android Auto connectivity, climate control, heated driver’s seat, front and rear parking sensors"
-  - claim: "navigation, a heated windscreen, keyless entry, adaptive cruise control and a rear-view camera"
+  - claim: "Tests of earlier vans criticised the touch-sensitive controls, including the climate control"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
-    quote: "navigation with connected services, a heated windscreen, keyless entry, adaptive cruise control, a rear-view camera"
+    quote: "frustrating touch-sensitive controls"
+  - claim: "Tests of earlier vans criticised the touch-sensitive controls, including the climate control"
+    source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
+    quote: "The lack of physical buttons for things like the climate control is particularly infuriating"
+  - claim: "Volkswagen's brochure now lists a steering wheel with hard-key controls on both trims"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Multifunction steering wheel with Hard Key controls"
+  - claim: "Volkswagen's brochure now lists a steering wheel with hard-key controls on both trims"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Leatherette wrapped multifunctional steering wheel with Hard Key controls"
+  - claim: "Commerce comes with a 12.9-inch touchscreen"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "system with 12.9-inch colour touchscreen"
+  - claim: "Apple CarPlay and Android Auto"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "App-Connect including App-Connect Wireless for Apple CarPlay"
+  - claim: "climate control"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "1-zone Climatronic with enhanced air filter and stationary air conditioning"
+  - claim: "heated front seats"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Heated front seats"
+  - claim: "front and rear parking sensors"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Front and rear parking sensors"
+  - claim: "Commerce Plus adds navigation"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Discover Pro navigation and infotainment system"
+  - claim: "a heated windscreen"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Heated windscreen"
+  - claim: "adaptive cruise control"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Adaptive Cruise Control (ACC) stop & go with speed limiter"
+  - claim: "a rear-view camera"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Rear View Camera"
   - claim: "vehicle-to-load (V2L) power at up to 3.6kW"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
     quote: "now gets vehicle-to-load charging technology with up to 3.6kW"
-  - claim: "can stop for red traffic lights"
+  - claim: "Travel Assist with traffic light recognition"
+    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/id-buzz-cargo/id-buzz-cargo-brochure.pdf
+    quote: "Travel Assist with Lane Assist and Emergency Assist and Traffic Light Recognition"
+  - claim: "reported to be able to stop the van at a red light"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
     quote: "recognising traffic lights and being able to automatically stop at a red light"
   # Which version to buy
@@ -312,15 +357,15 @@ Businesses that carry light, bulky loads and want a van that does some of their 
 
 ### Load area and payload
 
-The load bay holds 3.9 cubic metres, with room for two Euro pallets loaded widthways. Volkswagen gives the floor as 2,208mm long with the tailgate or 2,232mm with twin rear doors, and 1,732mm at its widest but 1,230mm between the wheel arches. Because the floor sits over the battery, the rear sill is 623mm off the ground, and the twin sliding side doors open to 756mm wide. There's no through-loading for long lengths, and braked towing runs from 1,000kg (58kWh) to 1,800kg (4Motion).
+The load bay holds 3.9 cubic metres, with room for two Euro pallets loaded widthways. Volkswagen gives the floor as 2,208mm long with the tailgate or 2,232mm with twin rear doors, and 1,732mm at its widest but 1,230mm between the wheel arches. The rear sill is 623mm off the ground, and the twin sliding side doors open to 756mm wide. Through-loading for long lengths isn't standard, but Volkswagen lists a through-loading bulkhead as an option. Braked towing runs from 1,000kg (58kWh) to 1,800kg (4Motion).
 
 Payload is the real weakness. Volkswagen's brochure gives 690kg for the 79kWh Commerce, 676kg for the Commerce Plus, 656kg for the 58kWh Commerce and 596kg or less for the 4Motion versions, all with a 75kg driver counted. For comparison, the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) offers 4.4 cubic metres and a maximum payload of 790kg.
 
 ### Range and charging in the real world
 
-There are two batteries. In August 2026 a 58kWh battery replaced the 59kWh in the entry Commerce van, and Volkswagen quotes 218 miles on the official WLTP test, 17 miles more than before. It's reported to charge at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes, whereas the 59kWh battery it replaced could take 165kW.
+There are two batteries. In August 2026 a 58kWh battery reportedly replaced the 59kWh in the entry Commerce van. Volkswagen quotes 218 miles on the official WLTP test, reportedly 17 miles more than before. It's reported to charge at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes, whereas the 59kWh battery it replaced was reported to take 165kW.
 
-The 79kWh battery is offered in both Commerce and Commerce Plus (early vans had a 77kWh battery). Volkswagen quotes up to 277 miles on the WLTP combined test with rear-wheel drive, or 260 miles for the 4Motion, and rapid charging at up to 185kW, enough for 80% in around 30 minutes. We couldn't find a measured real-world range for the current batteries. More in our [charging guide](/guides/charging-an-electric-van/).
+The 79kWh battery is offered in both Commerce and Commerce Plus (early vans had a 77kWh battery). Volkswagen quotes up to 277 miles on the WLTP combined test with rear-wheel drive, or 260 miles for the 4Motion, and rapid charging at up to 185kW, enough for 80% in around 30 minutes, though a brochure footnote gives 170kW for what it calls the Pro battery. We couldn't find a measured real-world range for the current batteries. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -328,7 +373,7 @@ The published road tests we found were of the earlier 77kWh van with the origina
 
 ### Cab and kit
 
-The Cargo's cab is plainer than the MPV's, with darker, harder plastics. The low roof makes the cab feel tight, and the touch-sensitive controls, including the climate control, are widely criticised. Commerce comes with a 12.9-inch touchscreen, Apple CarPlay and Android Auto, climate control, a heated driver's seat and front and rear parking sensors. Commerce Plus adds navigation, a heated windscreen, keyless entry, adaptive cruise control and a rear-view camera. Since the August update every version gets vehicle-to-load (V2L) power at up to 3.6kW, and the driver assistance can stop for red traffic lights.
+The Cargo's cab is plainer than the MPV's, with darker, harder plastics. The low roof makes the cab feel tight. Tests of earlier vans criticised the touch-sensitive controls, including the climate control, though Volkswagen's brochure now lists a steering wheel with hard-key controls on both trims. Commerce comes with a 12.9-inch touchscreen, Apple CarPlay and Android Auto, climate control, heated front seats and front and rear parking sensors. Commerce Plus adds navigation, a heated windscreen, adaptive cruise control and a rear-view camera, plus Travel Assist with traffic light recognition, which is reported to be able to stop the van at a red light. The August update is also reported to have added vehicle-to-load (V2L) power at up to 3.6kW.
 
 ### Which version to buy
 
