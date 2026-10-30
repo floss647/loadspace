@@ -13,6 +13,9 @@ specs:
 verdict: "The D-Max EV is the electric pickup to pick if the job is genuinely pickup work: it carries over a tonne, tows 3.5 tonnes and has full-time four-wheel drive, and its payload as built clears HMRC's one-tonne VAT line. The compromises are just as clear. A 163-mile official range and 50kW rapid charging suit farms, estates and utility crews who return to base each night, not long-distance contractors. It is also expensive, so get the sums done against a diesel D-Max before signing."
 good: ["Over a tonne of payload", "3,500kg braked towing, same as diesel", "Payload as built clears HMRC's one-tonne VAT line"]
 bad: ["163-mile official range", "Rapid charging tops out at 50kW", "Costs far more than the diesel"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-dimensions/
@@ -96,10 +99,7 @@ facts:
   - claim: "66.9kWh"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "It is a 66.9kWh Lithium-ion unit that only musters a 163-mile electric range"
-  - claim: "Isuzu says 224 miles in city driving is more representative of how it expects most owners to use it"
-    source: https://www.autoexpress.co.uk/isuzu/d-max/ev
-    quote: "the company claims that the city driving range of 224 miles is a more representative figure"
-  - claim: "2.5 miles per kWh"
+  - claim: "showed 2.5 miles per kWh"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "we saw the trip computer return 2.5 miles per kWh, which is good for 167 miles of range"
   - claim: "about 167 miles"
@@ -109,6 +109,9 @@ facts:
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "During our brief hour-long drive of the D-Max EV on UK roads"
   - claim: "50kW"
+    source: https://www.autoexpress.co.uk/isuzu/d-max/ev
+    quote: "The maximum DC rate is 50kW"
+  - claim: "One published test gives the fastest DC rate as 50kW"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "The maximum DC rate is 50kW"
   - claim: "20 to 80 per cent takes about an hour"
@@ -171,9 +174,6 @@ facts:
   - claim: "more responsive than the diesel once moving"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "if you put your foot down when you are already moving, then you get a more urgent response from the motor"
-  - claim: "the pull from a standstill isn't instant"
-    source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
-    quote: "There is a little of the low-down pull that comes from an electric vehicle, but it isn"
   - claim: "Reports on the ride differ"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "The D-Max’s ride is also well judged. It’s still on the bouncy side of comfortable"
@@ -207,12 +207,6 @@ facts:
   - claim: "new rear suspension in place of the diesel's leaf springs"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "replacing the leaf springs of the diesel with a pseudo MacPherson strut set-up"
-  - claim: "10.1 seconds"
-    source: https://www.autoexpress.co.uk/isuzu/d-max/ev
-    quote: "A 0-62mph time of 10.1 seconds is around three seconds faster than the 1.9 model is capable of"
-  - claim: "0-62mph"
-    source: https://www.autoexpress.co.uk/isuzu/d-max/ev
-    quote: "A 0-62mph time of 10.1 seconds"
   - claim: "leather upholstery, a powered driver's seat and heated front seats"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "with leather upholstery across the board, powered driver’s seat, heated front seats and carpet all around"
@@ -233,9 +227,6 @@ facts:
   - claim: "8 years or 100,000 miles"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "the 8-year or 100,000-mile policy for the Isuzu D-Max BEV"
-  - claim: "Servicing is every 12,000 miles or 12 months"
-    source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
-    quote: "it needing to be attended to every 12,000 miles or 12 months, whichever comes first"
   - claim: "£59,995 excluding VAT"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "the £59,995 starting price (excluding VAT) is considerably more than this KGM"
@@ -263,7 +254,7 @@ facts:
   - claim: "The D-Max EV is on the government's approved list for the Plug-in Van Grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Isuzu D-Max EV"
-  - claim: "worth up to £5,000 on some large vans"
+  - claim: "a discount of up to £5,000 on some large vans"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000"
   - claim: "close to £60,000 before VAT"
@@ -278,35 +269,35 @@ Isuzu has done something its electric rivals haven't: built a battery pickup tha
 
 ### Who it's for
 
-Estates, farms, utility crews and councils whose trucks work hard but don't go far, and who want a zero-emission vehicle that can still pull a full trailer. There are two trims, eDL40 and eV-Cross, in Extended Cab and Double Cab bodies. There's no single cab, and no two-seat version with the rear seats blanked off.
+Estates, farms, utility crews and councils whose trucks work hard, don't go far and still need to pull a full trailer. There are two trims, eDL40 and eV-Cross, in Extended Cab and Double Cab bodies. There's no single cab, and no two-seat version with the rear seats blanked off.
 
 ### Load bed, payload and towing
 
-Payload is 1,060kg for the Extended Cab and 1,015kg for the Double Cab, thanks to new rear suspension in place of the diesel's leaf springs. Braked towing is 3,500kg, same as the diesel. The bed is 1,785mm long in the Extended Cab and 1,520mm in the Double Cab, and 1,530mm wide and 500mm deep in both. The trade-off for that extra length is that the Extended Cab's rear seats are only fit for short trips.
+Payload is 1,060kg for the Extended Cab and 1,015kg for the Double Cab, thanks to new rear suspension in place of the diesel's leaf springs. Braked towing is 3,500kg, same as the diesel. The bed is 1,785mm long in the Extended Cab and 1,520mm in the Double Cab, and 1,530mm wide and 500mm deep in both. The catch: the Extended Cab's rear seats are only fit for short trips.
 
 ### Tax: does it count as a commercial vehicle?
 
-Check this with your accountant, because the rules are finely balanced. HMRC's VAT manual says a vehicle with a payload of one tonne or more isn't treated as a car, payload being the maximum gross weight minus the kerb weight. Both bodies clear that as built, at 1,060kg and 1,015kg. Watch the extras, though: HMRC warns that adding accessories can lower the payload enough to turn a double cab into a car, most likely on one with an ex-works payload of 1,000 to 1,050kg, which takes in the Double Cab. Under a 1999 agreement with the motor industry, a hard top counts as 45kg.
+Check this with your accountant. HMRC's VAT manual says a vehicle with a payload of one tonne or more isn't treated as a car, payload being the maximum gross weight minus the kerb weight. Both bodies clear that as built, at 1,060kg and 1,015kg. HMRC also warns that adding accessories can lower the payload enough to turn a double cab into a car, most likely on one with an ex-works payload of 1,000 to 1,050kg, which takes in the Double Cab. Under a 1999 agreement with the motor industry, a hard top counts as 45kg.
 
-Company car tax is different: from 6 April 2025 HMRC stopped using the VAT payload test for benefit in kind. It looks at each double cab as a whole, extended cabs included, judging whether its construction is primarily suited to carrying goods, and expects most to be classed as cars. Transitional rules cover only pickups bought, leased or ordered before 6 April 2025, until the earlier of disposal, lease expiry or 5 April 2029. See our [grants and tax guide](/guides/grants-and-tax/).
+For company car tax, from 6 April 2025 HMRC stopped using the VAT payload test for benefit in kind. It judges each double cab as a whole, extended cabs included, on whether its construction is primarily suited to carrying goods, and expects most to be classed as cars. Transitional rules cover only pickups bought, leased or ordered before 6 April 2025, until the earlier of disposal, lease expiry or 5 April 2029. See our [grants and tax guide](/guides/grants-and-tax/).
 
 ### Range and charging in the real world
 
-The 66.9kWh battery gives a 163-mile official range. Isuzu says 224 miles in city driving is more representative of how it expects most owners to use it. On an hour-long drive on UK roads, one test saw 2.5 miles per kWh, which works out at about 167 miles.
+The 66.9kWh battery gives a 163-mile official range. On an hour-long drive on UK roads, one test's trip computer showed 2.5 miles per kWh, or about 167 miles.
 
-Charging is the weak spot. The fastest DC rate is 50kW, so 20 to 80 per cent takes about an hour. Overnight on 11kW three-phase AC, a full charge takes 10 hours. Plan for depot charging; our [charging guide](/guides/charging-an-electric-van/) explains the options.
+Charging is the weak spot. One published test gives the fastest DC rate as 50kW, so 20 to 80 per cent takes about an hour. On 11kW three-phase AC, a full charge takes 10 hours. Our [charging guide](/guides/charging-an-electric-van/) covers depot options.
 
 ### On the road
 
-Across the two UK road tests we've seen, the D-Max EV has a reputation for being very quiet and more responsive than the diesel once moving, with 0-62mph in 10.1 seconds, though the pull from a standstill isn't instant. Reports on the ride differ: one found it well judged though still on the bouncy side, the other called it firm and bumpy with an empty bed. Neither published test went off road, so we can't say how it copes on rough ground. The specs are encouraging: permanent four-wheel drive, the standard Rough Terrain Mode, and 210mm of ground clearance and a 600mm wading depth, both 20mm less than the diesel.
+Across the two road tests we've seen, the D-Max EV has a reputation for being very quiet and more responsive than the diesel once moving. Reports on the ride differ: one found it well judged though still on the bouncy side, the other called it firm and bumpy with an empty bed. Neither published test went off road,. On paper it has permanent four-wheel drive, the standard Rough Terrain Mode, and 210mm of ground clearance and a 600mm wading depth, both 20mm less than the diesel.
 
 ### Cab and kit
 
-Both trims come with leather upholstery, a powered driver's seat and heated front seats, plus real buttons and dials for basics such as volume. The cab is otherwise much the same as the diesel's, and there's no front boot.
+Both trims come with leather upholstery, a powered driver's seat and heated front seats, plus real buttons and dials for basics such as volume. But there's no front boot.
 
-### Warranty and servicing
+### Warranty
 
-The truck has Isuzu's five-year, 125,000-mile warranty, while the battery is covered for eight years but only up to 100,000 miles. Servicing is every 12,000 miles or 12 months.
+The truck has Isuzu's five-year, 125,000-mile warranty, while the battery is covered for eight years but only up to 100,000 miles.
 
 ### Alternatives
 
@@ -314,4 +305,4 @@ None of its electric rivals matches both its payload and towing on published fig
 
 ### Price
 
-In May 2026 the D-Max EV was reported from £59,995 excluding VAT, and the Extended Cab eDL40 is the cheapest version. That report didn't say whether the grant was included, so we haven't scored price. An April 2026 report had the Double Cab about £1,000 more and the eV-Cross Double Cab £62,495, both ex VAT: nearly £20,000 more than an equivalent diesel automatic. It was listed as on sale in April 2026, and the D-Max EV is on the government's approved list for the Plug-in Van Grant, worth up to £5,000 on some large vans. Use our [electric vs diesel calculator](/tools/electric-vs-diesel/) before you commit.
+In May 2026 the D-Max EV was reported from £59,995 excluding VAT, and the Extended Cab eDL40 is the cheapest version. It didn't say whether the grant was included, so we haven't scored price. An April 2026 report had the Double Cab about £1,000 more and the eV-Cross Double Cab £62,495, both ex VAT: nearly £20,000 more than an equivalent diesel automatic. It was listed as on sale in April 2026, and the D-Max EV is on the government's approved list for the Plug-in Van Grant, a discount of up to £5,000 on some large vans. Use our [electric vs diesel calculator](/tools/electric-vs-diesel/) before you commit.

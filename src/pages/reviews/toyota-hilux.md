@@ -13,6 +13,9 @@ specs:
 verdict: "The electric Hilux is a proper Hilux that happens to run on a battery: it keeps the diesel's wading depth and approach angle and, by all accounts, rides more comfortably and more quietly. The catch is the numbers that matter to pickup buyers. A 715 kg payload and 1,600kg braked towing are well short of the diesel, and the official range is modest. Buy it for short, predictable off-road or airside work; for heavy loads or long days, look elsewhere."
 good: ["Keeps the diesel's 700mm wading depth", "Quiet, comfortable cab by all accounts", "Service-activated battery cover for up to 10 years"]
 bad: ["715 kg payload, well under a tonne", "Tows only 1,600kg braked", "Payload is below HMRC's one-tonne VAT line"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/toyota/hilux/bev
   - https://www.autoexpress.co.uk/toyota/hilux/368216/new-toyota-hilux-arrives-uk-and-beats-ford-ranger-price
