@@ -61,9 +61,6 @@ facts:
     quote: "We achieved this after a mixture of driving both in town and on rural A and B-roads"
   - claim: "about 220 miles"
     calc: "3.1 miles/kWh (Standard Range real-world figure, fact above) x 71.2kWh (Long Range battery, fact above) = 220.7 miles, rounded down to about 220. Same method as the 159-mile figure: 3.1 x 51.5 = 159.65. Our arithmetic, not a measured result."
-  - claim: "the range readout is said to be fairly accurate"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "initial testing seems to suggest that the range indicators will be quite accurate"
   - claim: "790 kg"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "able to carry up to 690kg in long-range form - or 790kg in the standard-range edition"
@@ -73,18 +70,12 @@ facts:
   - claim: "690kg with the Long Range battery and 790kg with the Standard Range"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "able to carry up to 690kg in long-range form - or 790kg in the standard-range edition"
-  - claim: "the bigger battery costs you 100kg of payload"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "the 100kg dip in payload that comes with the bigger battery"
   - claim: "A second sliding side door is a £355 (ex VAT) option"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "For an extra £355 (excluding VAT), the PV5 can be fitted with dual sliding doors"
   - claim: "cuts payload to 665kg or 745kg respectively"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "These models cope with a maximum of 665kg when fitted with the larger battery, increasing to 745kg with the smaller pack"
-  - claim: "the VW ID. Buzz Cargo's 595kg to 712kg"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "The Kia runs pretty close to the ID. Buzz here, given that the latter can take between 595kg and 712kg"
   - claim: "4.4 cubic metres"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "has a cargo volume of 4.4 cubic metres"
@@ -115,15 +106,9 @@ facts:
   - claim: "Side door too narrow for a Euro pallet"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "Side door can't take a Euro pallet"
-  - claim: "4,695mm long and 1,895mm wide"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "Measuring 4,695mm long, 1,923mm tall and 1,895mm wide"
   - claim: "1,923mm tall"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "Measuring 4,695mm long, 1,923mm tall and 1,895mm wide"
-  - claim: "It can tow a 750kg braked trailer"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
-    quote: "the PV5 can haul up to 750kg of braked trailer"
   - claim: "the only body you can buy is the L2H1"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Kia only offers the PV5 Cargo in one bodystyle configuration at the moment"
@@ -199,12 +184,6 @@ facts:
   - claim: "other storage is limited"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "The rest of the storage is middling, though"
-  - claim: "a fixed centre armrest that sits lower than the door armrest"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "it is set at a different height to the equivalent arm rest on the driver's door, sitting slightly lower"
-  - claim: "Apple CarPlay and Android Auto"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "It comes with Apple Carplay and Android Auto as standard"
   - claim: "two trims, Essential and Plus"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "There are two trim levels in the Kia PV5 range, the simply named Essential and Plus"
@@ -246,9 +225,6 @@ facts:
   - claim: "sits between the small and medium van classes"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "the PV5 sits between two categories in terms of its dimensions"
-  - claim: "a gross weight of 2,650kg"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
-    quote: "The L2H1 has a gross vehicle weight of 2,650kg"
   - claim: "the higher rate of the Plug-in Van Grant"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
     quote: "That the PV5 qualifies for the higher-level plug-in van grant"
@@ -275,43 +251,39 @@ facts:
     quote: "By: Antony Ingram 27 Jul 2026"
 ---
 
-The PV5 Cargo is Kia's first van, and it arrived with a strong hand: it won the Parkers Van of the Year 2026 award and the Auto Express Electric Van of the Year and Small Van of the Year titles for 2026. Awards aside, here's how it stacks up for someone spending their own money.
+The PV5 Cargo is Kia's first van, and it arrived with a strong hand: it won the Parkers Van of the Year 2026 award and the Auto Express Electric Van of the Year and Small Van of the Year titles for 2026.
 
 ### Who it's for
 
-It sits between the small and medium van classes, and it suits trades and delivery drivers whose loads are bulky rather than heavy: parcels, fixtures, flat-pack, tools and stock. It's 4,695mm long and 1,895mm wide, so it's easier to thread down tight streets than a full-size medium van, and at 1,923mm tall it's worth checking against any car park barrier you use. Right now the only body you can buy is the L2H1; a shorter L1H1 and a taller L2H2 have been promised.
+It sits between the small and medium van classes and suits trades and couriers whose loads are bulky rather than heavy. At 1,923mm tall, check it against any car park barrier you use. Right now the only body you can buy is the L2H1; a shorter L1H1 and a taller L2H2 have been promised.
 
 ### Load area and payload
 
-The load area is the big draw. You get 4.4 cubic metres, 0.5 cubic metres more than the ID. Buzz Cargo, room for two Euro pallets, and a loading lip of 419mm at the rear and 399mm at the side. That low floor saves your back every single drop.
+The load area is the big draw: 4.4 cubic metres, 0.5 cubic metres more than the ID. Buzz Cargo, room for two Euro pallets, and a loading lip of 419mm at the rear and 399mm at the side.
 
-There's a quirk: the floor sits below the top of the rear suspension, which adds a second pair of intrusions in the back corners on top of the wheelarches. A Euro pallet will go through the back doors sideways, but only just, and the side door is too narrow for one. If you need a level bay, Kia offers a separate flat floor.
+The catch is that the floor sits below the top of the rear suspension, which adds a second pair of intrusions in the back corners on top of the wheelarches. A Euro pallet will go through the back doors sideways, but only just, and the side door is too narrow for one. If you need a level bay, Kia offers a separate flat floor.
 
-Payload is the weak spot: 690kg with the Long Range battery and 790kg with the Standard Range, so the bigger battery costs you 100kg of payload. A second sliding side door is a £355 (ex VAT) option and cuts payload to 665kg or 745kg respectively. That's close to the VW ID. Buzz Cargo's 595kg to 712kg, but if you're hauling plasterboard or tiles every day, check the payload of a bigger medium van. It can tow a 750kg braked trailer.
+Payload is the weak spot: 690kg with the Long Range battery and 790kg with the Standard Range. A second sliding side door is a £355 (ex VAT) option and cuts payload to 665kg or 745kg respectively. If you're hauling plasterboard or tiles every day, check the payload of a bigger medium van.
 
 ### Range and charging in the real world
 
-The Long Range 71.2kWh battery is rated at 258 miles and the Standard Range 51.5kWh at 184 miles. The one published real-world figure we could find is for the smaller battery: 3.1 miles per kWh in mixed town and country driving at about 11°C, or about 159 miles. Apply that rate to the bigger battery and you get about 220 miles, though that's our sum, not a measured result. Encouragingly, the range readout is said to be fairly accurate.
+The Long Range 71.2kWh battery is rated at 258 miles and the Standard Range 51.5kWh at 184 miles. The one published real-world figure we could find is for the smaller battery: 3.1 miles per kWh in mixed town and country driving at about 11°C, or about 159 miles. Apply that rate to the bigger battery and you get about 220 miles, though that's our sum, not a measured result.
 
 The Long Range battery can rapid charge at up to 150kW, and a 10 to 80 per cent top-up should take under half an hour. Recharging it on an 11kW AC charger takes around six and a half hours. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-The PV5 has a reputation for being easy to drive: car-like, with steering that is quick in town and steadier at speed, and a comfortable ride, even with a load on board. Reports differ on how quiet it is at motorway speeds, so try one on the roads you use. A rear-view camera and front and rear parking sensors are standard, and it has a five-star Euro NCAP rating, tested in 2025.
+The PV5 has a reputation for being easy to drive: car-like, with steering that is quick in town and steadier at speed, and a comfortable ride, even with a load on board. Reports differ on how quiet it is at motorway speeds. A rear-view camera and front and rear parking sensors are standard, and it has a five-star Euro NCAP rating, tested in 2025.
 
-Early vans had niggles. On one test van, regenerative braking was stuck at its lowest level until the battery fell below 85 per cent (Kia said an over-the-air update would fix it), and the rear doors needed a hard slam before the sensors accepted they were shut. Check both on a demonstrator.
+One early test van had niggles: regenerative braking was stuck at its lowest level until the battery fell below 85 per cent (Kia said an over-the-air update would fix it), and the rear doors needed a hard slam before the sensors accepted they were shut.
 
 ### Cab and kit
 
-The cab is hard-wearing rather than plush, which suits van life. There's a flat cab floor and a big drawer under the centre console, but other storage is limited, and a fixed centre armrest that sits lower than the door armrest is an odd miss. Apple CarPlay and Android Auto are included. Our main gripe is the climate controls: they're only on the touchscreen, and the driver attention monitor is quick to complain when you look at the screen to change them.
+The cab is hard-wearing rather than plush, which suits van life. There's a flat cab floor and a big drawer under the centre console, but other storage is limited. Our main gripe is the climate controls: they're only on the touchscreen, and the driver attention monitor is quick to complain when you look at the screen to change them.
 
 ### Which version to buy
 
-There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and the heat pump is a £650 (ex VAT) option on the Plus only. Pick the Long Range battery unless you only do town work or need every kilo of payload. Essential is enough for most businesses.
-
-### Warranty
-
-Kia gives the PV5 its seven-year, 100,000-mile warranty. Separately, an eight-year battery warranty was reported, with Kia guaranteeing the battery keeps at least 70% of its original performance.
+There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and the heat pump is a £650 (ex VAT) option on the Plus only. Pick the Long Range battery unless you only do town work or need every kilo of payload, and Essential is enough for most businesses. Every PV5 gets Kia's seven-year, 100,000-mile warranty, and an eight-year battery warranty was reported, with Kia guaranteeing the battery keeps at least 70% of its original performance.
 
 ### Alternatives
 
@@ -319,4 +291,4 @@ Compare it with the [Ford E-Transit Custom](/vans/ford-transit-custom/), [VW ID.
 
 ### Price
 
-We couldn't confirm a current UK list price. In June 2025, Kia's launch prices were reported as £27,645 for the Standard Range L2H1 and £30,145 for the Long Range, both ex VAT and before the grant. A November 2025 buying guide still listed it from £27,645 on that basis, while a July 2026 list put it from £27,355 ex VAT after the grant. Those don't line up, so get a written quote. With a gross weight of 2,650kg it qualifies for the higher rate of the Plug-in Van Grant (see our [grants and tax guide](/guides/grants-and-tax/)). To see how it compares with diesel on running costs, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price. In June 2025, Kia's launch prices were reported as £27,645 for the Standard Range L2H1 and £30,145 for the Long Range, both ex VAT and before the grant. A November 2025 buying guide still listed it from £27,645 on that basis, while a July 2026 list put it from £27,355 ex VAT after the grant. Those don't line up, so get a written quote. It qualifies for the higher rate of the Plug-in Van Grant (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
