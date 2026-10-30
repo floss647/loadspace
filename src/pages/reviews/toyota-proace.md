@@ -10,7 +10,7 @@ specs:
   charging: "Not confirmed (100kW reported for the earlier van)"
   payload: "Not confirmed (no current figure found)"
   batteryWarranty: "Not confirmed (eight years or 100,000 miles reported for the earlier van)"
-verdict: "The Proace Electric is the twin to pick if long-term peace of mind matters more than the lowest price. Its Toyota Relax warranty starts at three years or 60,000 miles but extends with every Toyota service, up to 10 years or 100,000 miles, and new Toyota vans come with five years of roadside assistance. The trade-off is a price reported to be a little higher than its Stellantis siblings and a commitment to Toyota servicing. We couldn't confirm current figures for the electric van itself, so get a full spec sheet and a written quote before comparing it with the others."
+verdict: "The Proace Electric is the twin to pick if long-term peace of mind matters more than the lowest price. Toyota said in 2024 that all its new vans get up to 10 years or 100,000 miles of warranty and five years of roadside assistance. Under its Relax scheme the base cover, as reported for the earlier electric van and the current diesel, is three years or 60,000 miles, extended with every Toyota service. The trade-off is a price reported to be a little higher than its Stellantis siblings and a commitment to Toyota servicing. We couldn't confirm current figures for the electric van itself, so get a full spec sheet and a written quote before comparing it with the others."
 good: ["Warranty can run to 10 years with Toyota servicing", "Five years of roadside assistance", "Shares a well-proven body and drivetrain"]
 bad: ["Reported to cost more than its twins", "Warranty cover depends on Toyota servicing", "Current electric spec hard to confirm"]
 sources:
@@ -21,6 +21,7 @@ sources:
   - https://www.autoexpress.co.uk/citroen/dispatch
   - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/peugeot/expert
+  - https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
   - claim: "100kW reported for the earlier van"
@@ -38,12 +39,27 @@ facts:
   - claim: "it is reported to cost a little more than its twins"
     source: https://www.autoexpress.co.uk/citroen/dispatch
     quote: "the Toyota Proace has slightly higher prices"
-  - claim: "Its Toyota Relax warranty starts at three years or 60,000 miles but extends with every Toyota service, up to 10 years or 100,000 miles"
-    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
-    quote: "For while the standard Toyota Relax warranty is only three years / 60,000 miles, every time you get the vehicle serviced by Toyota the warranty is extended until the next service is due - right up until it's 10 years or 100,000 miles old."
-  - claim: "new Toyota vans come with five years of roadside assistance"
+  - claim: "Toyota said in 2024"
+    source: https://vanfleetworld.co.uk/toyota-introduces-new-look-proace-and-proace-city-vans/
+    quote: "26 February 2024"
+  - claim: "all its new vans get up to 10 years or 100,000 miles of warranty and five years of roadside assistance"
     source: https://vanfleetworld.co.uk/toyota-introduces-new-look-proace-and-proace-city-vans/
     quote: "In common with all new Toyota professional light commercial vehicles, the new Proace and Proace City come with five years' roadside assistance and up to 10 years or 100,000 miles of warranty cover."
+  - claim: "the base cover, as reported for the earlier electric van and the current diesel, is three years or 60,000 miles"
+    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
+    quote: "the standard warranty is actually reduced to three years / 60,000 miles"
+  - claim: "three years or 60,000 miles, extended with every Toyota service"
+    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
+    quote: "For while the standard Toyota Relax warranty is only three years / 60,000 miles, every time you get the vehicle serviced by Toyota the warranty is extended until the next service is due"
+  - claim: "a 2026 review of the diesel"
+    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
+    quote: "18 February 2026"
+  - claim: "When Toyota launched the scheme in 2021"
+    source: https://www.parkers.co.uk/vans-pickups/news/2021/toyota-relax-10-year-warranty-info/
+    quote: "Updated: 8 June 2021"
+  - claim: "Two 2025 reviews"
+    source: https://www.autoexpress.co.uk/citroen/dispatch
+    quote: "30 May 2025"
   - claim: "a price reported to be a little higher than its Stellantis siblings"
     source: https://www.autoexpress.co.uk/citroen/dispatch
     quote: "while the Stellantis models are all very similar, the Toyota Proace has slightly higher prices"
@@ -80,13 +96,13 @@ facts:
   - claim: "until the van is 10 years old or has covered 100,000 miles"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
     quote: "right up until it's 10 years or 100,000 miles old"
-  - claim: "Toyota says the scheme covers electric models as well as diesels"
+  - claim: "it said it covered electric models as well as diesels"
     source: https://www.parkers.co.uk/vans-pickups/news/2021/toyota-relax-10-year-warranty-info/
     quote: "it applies to all powertrain types: petrol, diesel and electric"
   - claim: "it can even be picked up on a used Toyota van that is out of warranty"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
     quote: "It can even be applied to used vehicles that are out of warranty now."
-  - claim: "Toyota servicing isn't the cheapest"
+  - claim: "Toyota servicing as not the cheapest"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2016-review/
     quote: "Up to 10-year warranty coverage, but servicing not the cheapest"
   - claim: "In February 2024 Toyota launched the facelifted diesel Proace"
@@ -126,7 +142,7 @@ We should be plain about what we could and couldn't confirm. We found no publish
 
 ### The warranty
 
-This is the main reason to choose the Toyota. The standard cover is three years or 60,000 miles, but every time the van is serviced by Toyota the warranty is extended to the next service, until the van is 10 years old or has covered 100,000 miles. Toyota says the scheme covers electric models as well as diesels, and it can even be picked up on a used Toyota van that is out of warranty. The catch is that you have to keep using Toyota dealers, and Toyota servicing isn't the cheapest. New Toyota vans also get five years of roadside assistance.
+This is the main reason to choose the Toyota. Toyota Relax works the same way in the reports we found on the earlier electric van and in a 2026 review of the diesel: the standard cover is three years or 60,000 miles, but every time the van is serviced by Toyota the warranty is extended to the next service, until the van is 10 years old or has covered 100,000 miles. When Toyota launched the scheme in 2021 it said it covered electric models as well as diesels, and it can even be picked up on a used Toyota van that is out of warranty. The catch is that you have to keep using Toyota dealers, and a 2026 review of the diesel rates Toyota servicing as not the cheapest. Toyota said in 2024 that all its new vans also get five years of roadside assistance. Ask the dealer to confirm these terms in writing for the electric van you order.
 
 We couldn't confirm the current battery warranty. Before the update, the Proace Electric's battery was covered for eight years or 100,000 miles, in line with most rivals, but check the current terms in writing.
 
@@ -138,4 +154,4 @@ The same goes for range and payload. The electric van before the update was rate
 
 ### Price and alternatives
 
-We couldn't find a current UK price. Reports agree the Toyota tends to be pricier because of its warranty, so get quotes on all five badges and set the extra cost against the longer cover. It is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; see our [grants guide](/guides/grants-and-tax/). Outside the family, compare the [Ford E-Transit Custom](/vans/ford-transit-custom/) and [Kia PV5 Cargo](/vans/kia-pv5-cargo/), and use our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the running costs.
+We couldn't find a current UK price. Two 2025 reviews say the Toyota tends to be pricier because of its warranty, so get quotes on all five badges and set the extra cost against the longer cover. It is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; see our [grants guide](/guides/grants-and-tax/). Outside the family, compare the [Ford E-Transit Custom](/vans/ford-transit-custom/) and [Kia PV5 Cargo](/vans/kia-pv5-cargo/), and use our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the running costs.
