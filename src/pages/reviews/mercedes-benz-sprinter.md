@@ -5,14 +5,17 @@ van: mercedes-benz-sprinter
 date: 2026-10-30T08:00:00Z
 summary: "The current eSprinter fixes the old one's short range with a 113kWh battery and 272 official miles, and backs it with a huge load bay and plenty of kit. The price is steep, though, and payload isn't generous for a van this size."
 specs:
-  price: "£59,915"
+  price: "Not confirmed (latest UK list price we could open dates from November 2025)"
   range: "272 miles"
   charging: "115kW"
-  payload: "1,278 kg"
+  payload: "Not confirmed (published maximum does not say if it is a panel van)"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The eSprinter is now a serious long-range large electric van rather than a town-only curiosity. The 113kWh battery's 272-mile official range, 115kW charging and a big L3 load bay make it a strong fit for fleets running long days. Against that, it is one of the most expensive vans in its class and payload peaks at 1,278kg, so check the figure for the exact van you order. Few UK road tests have been published, but if the numbers work for your business, it deserves a place on the shortlist."
+verdict: "The eSprinter is now a serious long-range large electric van rather than a town-only curiosity. The 113kWh battery's 272-mile official range, 115kW charging and a big L3 load bay make it a strong fit for fleets running long days. Against that, it is expensive to buy and payload is modest for a van this size, so check the figure for the exact van you order. Few UK road tests have been published, but if the numbers work for your business, it deserves a place on the shortlist."
 good: ["272-mile official range (113kWh)", "14 cubic metres of load space in the L3 van", "Generous standard kit and a modern touchscreen"]
 bad: ["Expensive to buy", "Payload not generous for a large van", "Few UK road tests of the current van so far"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-dimensions/
@@ -22,18 +25,12 @@ sources:
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://www.gov.uk/driving-licence-categories
 facts:
-  - claim: "£59,915"
-    source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
-    quote: "The alternative is an 81kWh battery, which promises up to 185 miles of driving range and costs from £59,915."
   - claim: "272 miles"
     source: https://www.autoexpress.co.uk/best/large-panel-vans
     quote: "this can cover up to 272 miles on the WLTP combined cycle"
   - claim: "115kW"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "The 113kWh battery will take up to 115kW charging"
-  - claim: "1,278 kg"
-    source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
-    quote: "Payload: 495-1,278kg"
   - claim: "8 years or 100,000 miles"
     calc: "eight years/100,000 miles (sourced below: the battery pack is warranted for eight years/100,000 miles) written as 8 years or 100,000 miles"
   - claim: "272 official miles"
@@ -57,12 +54,9 @@ facts:
   - claim: "a big L3 load bay"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-dimensions/
     quote: "It is officially classed as an L3H2 model"
-  - claim: "it is one of the most expensive vans in its class"
-    source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
-    quote: "Undeniably expensive"
-  - claim: "payload peaks at 1,278kg"
-    source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
-    quote: "it can still only carry 1,278kg at best"
+  - claim: "it is expensive to buy and payload is modest for a van this size"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
+    quote: "Expensive to buy Payload not huge for a large van"
   - claim: "272-mile official range (113kWh)"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "It’s available with a huge 113kWh battery pack, which gives a claimed driving range of 272 miles per charge"
@@ -81,10 +75,10 @@ facts:
   - claim: "which managed just 96 miles"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "it was hampered by a short range of just 96 miles"
-  - claim: "a next-generation Sprinter is due later in 2027"
+  - claim: "a next-generation Sprinter is expected to arrive in 2027"
     source: https://www.autoexpress.co.uk/mercedes/sprinter/368165/new-mercedes-sprinter-boulder-ever
     quote: "Expect more of the Sprinter to be revealed, both via the sculpture and also in actual metal, ahead of its arrival later in 2027."
-  - claim: "with its own electric platform"
+  - claim: "with electric versions on a new electric platform"
     source: https://www.autoexpress.co.uk/mercedes/sprinter/368165/new-mercedes-sprinter-boulder-ever
     quote: "The new Sprinter will sit on one of two platforms, either Mercedes’ VAN.EA for electric drive, or VAN.CA for combustion engines."
   - claim: "has 14 cubic metres of load space"
@@ -99,21 +93,27 @@ facts:
   - claim: "November 2025"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "Updated: 18 November 2025"
-  - claim: "Mercedes rates every 113kWh van at 4.25 tonnes gross weight"
+  - claim: "Mercedes rated every 113kWh van at 4.25 tonnes gross weight"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "Mercedes has classified all 113kWh versions of the eSprinter as having a 4.25-tonne gross vehicle weight"
-  - claim: "Payload across the range runs from 495kg to 1,278kg"
+  - claim: "995kg of payload"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-dimensions/
+    quote: "As a result of the classification change, it gets a more useful 995kg payload."
+  - claim: "at launch in 2024"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
+    quote: "This has been comprehensively addressed with the 2024 update."
+  - claim: "The same buying guide quotes 495kg to 1,278kg across the range"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "Payload: 495-1,278kg"
-  - claim: "the best figure needs the 4,250kg rating"
+  - claim: "with the best figure needing the 4,250kg rating"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "Even at its most generous with a 4,250kg gross vehicle weight rating (3,500kg and 4,150kg are also offered), it can still only carry 1,278kg at best."
   - claim: "Early reports warned that the heavier rating put it beyond a standard car licence"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "a standard category B licence won’t cut it"
-  - claim: "a category B licence (test passed on or after 1 January 1997) covers electric vehicles up to 4,250kg maximum authorised mass"
+  - claim: "a category B licence (test passed on or after 1 January 1997) covers electric or hydrogen vehicles, zero-emission only, up to 4,250kg maximum authorised mass"
     source: https://www.gov.uk/driving-licence-categories
-    quote: "Category B - if you passed your test on or after 1 January 1997 You can drive vehicles with up to 8 passenger seats with a maximum authorised mass ( MAM ) of: 3,500kg for petrol and diesel vehicles - this includes hybrid vehicles 4,250kg for electric or hydrogen vehicles"
+    quote: "Category B - if you passed your test on or after 1 January 1997 You can drive vehicles with up to 8 passenger seats with a maximum authorised mass ( MAM ) of: 3,500kg for petrol and diesel vehicles - this includes hybrid vehicles 4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
   - claim: "official WLTP combined range of 272 miles"
     source: https://www.autoexpress.co.uk/best/large-panel-vans
     quote: "this can cover up to 272 miles on the WLTP combined cycle"
@@ -186,9 +186,9 @@ facts:
   - claim: "servicing is every 12 months or 40,000 miles"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/sprinter/2020-esprinter-review/
     quote: "The Mercedes eSprinter service intervals are set at 12 months or 40,000 miles."
-  - claim: "Parkers Large Van of the Year 2026"
+  - claim: "the Master was named Parkers Large Van of the Year 2026"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
-    quote: "Renault Master E-Tech, Parkers Large Van of the Year 2026"
+    quote: "the electric versions make a mighty contribution to the Renault Master being named winner of the 2026 Parkers Large Van of the Year Award"
   - claim: "the 81kWh van from £59,915 and the 113kWh van from £73,260, both excluding VAT and before the grant"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "It’s available with a huge 113kWh battery pack, which gives a claimed driving range of 272 miles per charge, though this does cost from £73,260. The alternative is an 81kWh battery, which promises up to 185 miles of driving range and costs from £59,915."
@@ -208,15 +208,15 @@ facts:
 
 ### Who it's for
 
-The eSprinter is Mercedes' large electric panel van, for fleets and parcel operators who need a lot of space and a long range and can stomach a big bill. The current eSprinter arrived in 2024 and is a very different van from the one sold from 2020, which managed just 96 miles. Few UK road tests of the current electric van have been published yet, so this review leans mainly on the published figures. Bear in mind too that a next-generation Sprinter is due later in 2027, with its own electric platform.
+The eSprinter is Mercedes' large electric panel van, for fleets and parcel operators who need a lot of space and a long range and can stomach a big bill. The current eSprinter arrived in 2024 and is a very different van from the one sold from 2020, which managed just 96 miles. Few UK road tests of the current electric van have been published yet, so this review leans mainly on the published figures. Bear in mind too that a next-generation Sprinter is expected to arrive in 2027, with electric versions on a new electric platform.
 
 ### Load area and payload
 
 The L3 van tested in 2024 has 14 cubic metres of load space, with a maximum load length of 4,410mm and 1,350mm between the wheelarches. A buying guide updated in November 2025 lists load volumes of 9.0 to 14.0 cubic metres across the range.
 
-Payload is the catch. Big batteries are heavy, so Mercedes rates every 113kWh van at 4.25 tonnes gross weight. Payload across the range runs from 495kg to 1,278kg, and the best figure needs the 4,250kg rating. Get the figure for the exact van you're ordering in writing.
+Payload is the catch. Big batteries are heavy, so at launch in 2024 Mercedes rated every 113kWh van at 4.25 tonnes gross weight, which gave that L3 van 995kg of payload. The same buying guide quotes 495kg to 1,278kg across the range, with the best figure needing the 4,250kg rating, but doesn't say which body style that top figure applies to. Get the figure for the exact van you're ordering in writing.
 
-Early reports warned that the heavier rating put it beyond a standard car licence. GOV.UK's licence rules say a category B licence (test passed on or after 1 January 1997) covers electric vehicles up to 4,250kg maximum authorised mass. More in our [van sizes guide](/guides/van-sizes-explained/).
+Early reports warned that the heavier rating put it beyond a standard car licence. GOV.UK's licence rules now say a category B licence (test passed on or after 1 January 1997) covers electric or hydrogen vehicles, zero-emission only, up to 4,250kg maximum authorised mass. More in our [van sizes guide](/guides/van-sizes-explained/).
 
 ### Range and charging in the real world
 
@@ -236,11 +236,11 @@ The cab has a 10.25-inch MBUX touchscreen with wireless Apple CarPlay and Androi
 
 ### Which version to buy
 
-Take the 81kWh battery unless your routes need the extra range; it is far cheaper. Pro trim is enough for most fleets. The van warranty is three years with unlimited mileage, the battery is covered for eight years or 100,000 miles, and servicing is every 12 months or 40,000 miles.
+Take the 81kWh battery unless your routes need the extra range; it was listed for far less in the latest prices we found. Pro trim is enough for most fleets. The van warranty is three years with unlimited mileage, the battery is covered for eight years or 100,000 miles, and servicing is every 12 months or 40,000 miles.
 
 ### Alternatives
 
-Compare it with the [Ford E-Transit](/vans/ford-transit/), the [Renault Master E-Tech](/vans/renault-master/), which won Parkers Large Van of the Year 2026, the [Vauxhall Movano Electric](/vans/vauxhall-movano/) and its Stellantis twins, the [Iveco eDaily](/vans/iveco-daily/) and the [Maxus eDeliver 9](/vans/maxus-deliver-9/).
+Compare it with the [Ford E-Transit](/vans/ford-transit/), the [Renault Master E-Tech](/vans/renault-master/) (the Master was named Parkers Large Van of the Year 2026), the [Vauxhall Movano Electric](/vans/vauxhall-movano/) and its Stellantis twins, the [Iveco eDaily](/vans/iveco-daily/) and the [Maxus eDeliver 9](/vans/maxus-deliver-9/).
 
 ### Price
 
