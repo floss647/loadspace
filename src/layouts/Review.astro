@@ -3,7 +3,7 @@ import Base from './Base.astro';
 import VehicleImage from '../components/VehicleImage.astro';
 import { fmtDate } from '../lib/news.js';
 import { SITE } from '../data/site.js';
-import { EV_VANS } from '../data/vans.js';
+import { EV_VANS, SIZES } from '../data/vans.js';
 import { scoreSpecs } from '../lib/review-score.js';
 import IMAGES from '../data/images.json';
 const { frontmatter: f } = Astro.props;
@@ -26,59 +26,71 @@ const ld = {
 };
 ---
 <Base title={f.title} description={f.summary} image={img?.file} type="article" jsonLd={ld}>
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/reviews/">Reviews</a></div>
-    <article class="prose review">
-      <p class="small muted" style="margin:0 0 .4rem">{fmtDate(f.date)} · <span class="tag">Review roundup</span></p>
-      <h1>{f.title}</h1>
-      <VehicleImage slug={f.van} name={name} />
-      <p class="lede">{f.summary}</p>
-
-      <div class="verdict-box">
-        <div class="verdict-score" aria-label={`Loadspace data score ${overall} out of 5`}>
-          <span class="big">{overall?.toFixed(1)}</span><span class="of">/5</span>
-          <span class="small">Loadspace data score</span>
-        </div>
-        <div>
-          <h2>Our verdict</h2>
-          <p>{f.verdict}</p>
-          <div class="good-bad">
-            <div><strong>Good</strong><ul>{f.good?.map((g) => <li>{g}</li>)}</ul></div>
-            <div><strong>Not so good</strong><ul>{f.bad?.map((b) => <li>{b}</li>)}</ul></div>
+  <section class="review-hero">
+    <div class="wrap review-hero-grid">
+      <div class="review-hero-copy">
+        <div class="crumbs"><a href="/">Home</a> › <a href="/reviews/">Reviews</a>{van && <> › {SIZES[van.size]?.label}</>}</div>
+        <p class="eyebrow">Loadspace review · {fmtDate(f.date)}</p>
+        <h1>{f.title}</h1>
+        <p class="review-summary">{f.summary}</p>
+        {overall != null && (
+          <div class="review-medal">
+            <span class="medal-score">{overall.toFixed(1)}<small>/5</small></span>
+            <span class="medal-label"><strong>Loadspace data score</strong>Scored on {scoredCount} of {rows.length} published figures</span>
           </div>
-        </div>
+        )}
+      </div>
+      <div class="review-photo"><VehicleImage slug={f.van} name={name} /></div>
+    </div>
+  </section>
+
+  <div class="wrap review-grid">
+    <article class="prose review-body">
+      <div class="verdict-callout">
+        <p class="eyebrow">Our verdict</p>
+        <p>{f.verdict}</p>
+      </div>
+      <div class="good-bad">
+        <div class="gb good"><h3>Good</h3><ul>{f.good?.map((g) => <li>{g}</li>)}</ul></div>
+        <div class="gb bad"><h3>Not so good</h3><ul>{f.bad?.map((b) => <li>{b}</li>)}</ul></div>
       </div>
 
-      <h2>The numbers we scored</h2>
-      <div class="table-wrap">
-        <table class="score-table">
-          <thead><tr><th>What</th><th>{name}</th><th class="num">Score</th></tr></thead>
-          <tbody>
-            {rows.map((r) => (
-              <tr>
-                <td>{r.label}<br /><span class="muted small">{r.what}</span></td>
-                <td>{r.value ?? 'Not confirmed yet'}</td>
-                <td class="num"><span class="pips" aria-label={`${r.points ?? 0} out of 5`}>{[1, 2, 3, 4, 5].map((n) => <i class={n <= (r.points ?? 0) ? 'on' : ''} />)}</span></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      {scoredCount < rows.length && <p class="notice small">We couldn't confirm every figure from a current source, so this score is the average of the {scoredCount} we could. We'll add the rest when they're confirmed.</p>}
-      <p class="small muted">Scored only from published specs, so vans can be compared fairly. <a href="/reviews/how-we-score/">How we score</a>.</p>
-
-      <h2>What the testers say</h2>
-      <p class="notice small"><strong>This is a roundup, not our own road test.</strong> We've read the published UK reviews and summarised them in our own words, saying who thinks what. We haven't driven this van ourselves yet.</p>
+      <h2>Our review</h2>
       <slot />
 
+      <p class="review-method small muted"><strong>How we reviewed it:</strong> we haven't road-tested this van ourselves yet. This review is our own judgement, based on the maker's published figures and price lists and the UK road tests published so far. Every figure was checked against its source before publishing. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
       {f.corrections?.length > 0 && (
         <div class="notice small" id="corrections">
           <strong>Corrections</strong>
           <ul>{f.corrections.map((c) => <li>{fmtDate(c.date)}: {c.text}</li>)}</ul>
         </div>
       )}
-      <p class="small muted">Every figure and every reviewer's opinion here was checked against its original source before publishing. Spotted a mistake? <a href="/corrections/">Tell us</a> and we'll correct it openly.</p>
-      <p class="small">{van && <><a href={`/vans/${van.slug}/`}>{name}: buyer's guide, running costs and charging →</a><br /></>}<a href="/reviews/">More reviews →</a></p>
+      <p class="small muted">Spotted a mistake? <a href="/corrections/">Tell us</a> and we'll correct it openly.</p>
     </article>
+
+    <aside class="review-aside">
+      <div class="score-card">
+        <div class="score-card-head">
+          <span class="medal-score">{overall?.toFixed(1)}<small>/5</small></span>
+          <span><strong>Data score</strong><br /><span class="small muted">From published specs</span></span>
+        </div>
+        <ul class="score-rows">
+          {rows.map((r) => (
+            <li>
+              <div class="score-row-top"><span>{r.label}</span><strong>{r.points != null ? `${r.points}/5` : 'n/a'}</strong></div>
+              <div class="meter" aria-hidden="true">{[1, 2, 3, 4, 5].map((n) => <i class={n <= (r.points ?? 0) ? 'on' : ''} />)}</div>
+              <div class="score-value">{r.points != null ? r.value : 'Not confirmed yet'}</div>
+            </li>
+          ))}
+        </ul>
+        {scoredCount < rows.length && <p class="small muted score-note">We couldn't confirm every figure from a current source, so the score averages the {scoredCount} we could.</p>}
+        <a class="small" href="/reviews/how-we-score/">How we score →</a>
+      </div>
+      <div class="aside-links">
+        {van && <a class="btn" href={`/vans/${van.slug}/`}>{name} buyer's guide</a>}
+        <a class="btn secondary" href="/tools/electric-vs-diesel/">Electric vs diesel costs</a>
+        <a class="btn secondary" href="/reviews/">All reviews</a>
+      </div>
+    </aside>
   </div>
 </Base>

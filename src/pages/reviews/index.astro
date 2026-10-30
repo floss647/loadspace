@@ -1,26 +1,42 @@
 ---
 import Base from '../../layouts/Base.astro';
-import VehicleImage from '../../components/VehicleImage.astro';
 import { REVIEWS } from '../../lib/reviews.js';
+import IMAGES from '../../data/images.json';
+const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
 ---
-<Base title="Electric van reviews" description="What the UK's van testers say about each electric van, summarised in plain English, plus our own score from the published specs.">
-  <header class="page-head">
+<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs.">
+  <section class="review-hero">
     <div class="wrap">
-      <p class="eyebrow">Reviews</p>
+      <div class="crumbs"><a href="/">Home</a> › Reviews</div>
+      <p class="eyebrow">Loadspace reviews</p>
       <h1>Electric van reviews</h1>
-      <p class="lede">We read the published UK road tests so you don't have to, and sum up who thinks what. Each van also gets a Loadspace data score worked out from its published specs, so you can compare them fairly.</p>
+      <p class="review-summary">Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Loadspace data score from its published specs, so you can compare them fairly.</p>
     </div>
-  </header>
+  </section>
   <div class="wrap">
-    <div class="grid review-list">
+    <div class="review-cards">
       {REVIEWS.map((r) => (
-        <a class="card has-img" href={r.url}>
-          <VehicleImage slug={r.van} name={r.vanName} size="card" />
-          <h3>{r.score.overall != null && <span class="score">{r.score.overall.toFixed(1)}</span>}{r.vanName}</h3>
-          <p>{r.summary}</p>
+        <a class="review-card" href={r.url}>
+          <div class="review-card-img">
+            {card(r.van) && <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" />}
+            {r.score.overall != null && <span class="medal-score">{r.score.overall.toFixed(1)}<small>/5</small></span>}
+          </div>
+          <div class="review-card-text">
+            <h2>{r.vanName}</h2>
+            <p>{r.summary}</p>
+            <div class="mini-meters">
+              {r.score.rows.map((row) => (
+                <span title={`${row.label}: ${row.points != null ? row.points + '/5' : 'not confirmed'}`}>
+                  <em>{row.label}</em>
+                  <span class="meter">{[1, 2, 3, 4, 5].map((n) => <i class={n <= (row.points ?? 0) ? 'on' : ''} />)}</span>
+                </span>
+              ))}
+            </div>
+            <span class="arrow">Read the review →</span>
+          </div>
         </a>
       ))}
     </div>
-    <p class="small muted" style="margin-top:1.5rem">These are roundups of other people's road tests, not our own. <a href="/reviews/how-we-score/">How we score</a>.</p>
+    <p class="small muted" style="margin-top:2rem">We haven't road-tested these vans ourselves yet. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
   </div>
 </Base>
