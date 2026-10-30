@@ -8,11 +8,14 @@ specs:
   price: "£44,000"
   range: "247 miles"
   charging: "140kW"
-  payload: "1,350 kg"
+  payload: "1,350 kg (with two occupants)"
   batteryWarranty: "8 years or 120,000 miles"
 verdict: "The SV is a serious, well-funded effort rather than a gamble on a start-up, and on paper it's strong: up to 1,350 kg of payload, five body sizes, a 247-mile official range in its biggest form and a long list of standard kit. Reports on the drive are split, and the warning chimes and lane-keeping assistance have a reputation for being intrusive. Before you sign, find your nearest dealer, get a written quote and drive one on your own roads."
 good: ["Payload up to 1,350 kg", "Low 550mm load floor and pillarless side opening", "Lots of standard kit"]
 bad: ["Reports on the drive and ride are mixed", "Intrusive driver-assistance warnings", "Young, still-growing dealer network"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://farizonauto.co.uk/our-range/sv-range
   - https://farizonauto.co.uk/our-range/sv-range/product-detail
@@ -133,6 +136,9 @@ facts:
   - claim: "Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,265 kg with the 83kWh"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
     quote: "L1 H1 Weights - with two occupants Weights with two occupants 67 kWh 83 kWh Kerb Weight 2,150 kg 2,235 kg Front Axle 1,210 kg 1,225 kg Rear Axle 940 kg 1,010 kg Gross Weight 3,500 kg Gross Weight (front) 1,470 kg Gross Weight (rear) 2,030 kg Payload 1,350 kg 1,265 kg"
+  - claim: "1,350 kg (with two occupants)"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+    quote: "L1 H1 Weights - with two occupants Weights with two occupants 67 kWh 83 kWh Kerb Weight 2,150 kg 2,235 kg Front Axle 1,210 kg 1,225 kg Rear Axle 940 kg 1,010 kg Gross Weight 3,500 kg Gross Weight (front) 1,470 kg Gross Weight (rear) 2,030 kg Payload 1,350 kg 1,265 kg"
   - claim: "(weights with two occupants)"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
     quote: "Weights with two occupants"
@@ -185,7 +191,7 @@ facts:
   - claim: "the other two at 120kW"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
     quote: "while the small and large models charge at a slightly lower 120kW"
-  - claim: "a 20 to 80 per cent charge in 36 minutes for the two smaller packs and 40 minutes for the biggest"
+  - claim: "a 20 to 80 per cent charge is quoted at 36 minutes for the two smaller packs and 40 minutes for the biggest"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
     quote: "That's still enough to see the battery level increase from 20% up to 80% in just 36 minutes for the small battery and 40 minutes for the large model. The mid-size battery's high speed means it will do the same top-up charge in 36 minutes"
   - claim: "AC charging is up to 11kW"
@@ -326,7 +332,12 @@ facts:
     quote: "With prices starting from just £44,000.00 excluding VAT, delivery and OTR costs"
   - claim: "£45,000"
     calc: "Farizon's UK site lists the L1 H1 'Starting from £45,000.00' on the road (next fact): £45,000.00 = £45,000"
-  - claim: "on the road, still excluding VAT and before the Plug-in Van Grant"
+  - claim: "The £1,000 difference"
+    calc: "Farizon's L1 H1 on-the-road price £45,000 (excludes VAT and Plug-in Van Grant) minus its price excluding VAT, delivery and OTR costs £44,000 = £1,000, the delivery and on-the-road costs; so £44,000 is also before the grant"
+  - claim: "is before the grant too"
+    source: https://farizonauto.co.uk/our-range/sv-range
+    quote: "Starting from £44,000.00* *Excludes VAT, delivery and on the road (OTR) costs."
+  - claim: "which Farizon says excludes VAT and the Plug-in Van Grant"
     source: https://farizonauto.co.uk/our-range/sv-range
     quote: "L1 H1 L4990 x H1980 mm | 6.95 m 3 load capacity Starting from £45,000.00 * *On the road price (OTR) includes road fund licence, first registration fee and delivery but excludes VAT and Plug-in Van Grant."
   - claim: "Core isn't listed on Farizon's UK site now"
@@ -346,7 +357,7 @@ Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,
 
 ### Range and charging in the real world
 
-There are 67kWh and 83kWh LFP batteries, or a 106kWh NMC battery on the L3H3 only. The L1H1 is rated at 188 miles with the 67kWh pack and 234 miles with the 83kWh, and the L3H3 106kWh at 247 miles, the longest official (WLTP) range in the line-up. The 83kWh pack charges at up to 140kW and the other two at 120kW, and Farizon quotes a 20 to 80 per cent charge in 36 minutes for the two smaller packs and 40 minutes for the biggest. AC charging is up to 11kW. In one road test, an unladen 83kWh van averaged 2.6 miles per kWh, which that test put at around 215 miles from a charge. More in our [charging guide](/guides/charging-an-electric-van/).
+There are 67kWh and 83kWh LFP batteries, or a 106kWh NMC battery on the L3H3 only. The L1H1 is rated at 188 miles with the 67kWh pack and 234 miles with the 83kWh, and the L3H3 106kWh at 247 miles, the longest official (WLTP) range in the line-up. The 83kWh pack charges at up to 140kW and the other two at 120kW, and a 20 to 80 per cent charge is quoted at 36 minutes for the two smaller packs and 40 minutes for the biggest. AC charging is up to 11kW. In one road test, an unladen 83kWh van averaged 2.6 miles per kWh, which that test put at around 215 miles from a charge. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -358,7 +369,7 @@ The standard SV is well stocked, with heated and ventilated front seats, a heate
 
 ### Price
 
-Farizon's UK website lists the SV L1H1 from £44,000 excluding VAT, delivery and on-the-road costs, or £45,000 on the road, still excluding VAT and before the Plug-in Van Grant. The biggest L3H3 starts at £52,000 on the same ex-VAT basis. Those standard prices are the same as the April 2026 list. That list also added a new entry-level Core trim, an L1H1 only, at £39,000 ex VAT and before the grant, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Core isn't listed on Farizon's UK site now, so ask a dealer whether it's still offered. Get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
+Farizon's UK website lists the SV L1H1 from £44,000 excluding VAT, delivery and on-the-road costs, or £45,000 on the road, which Farizon says excludes VAT and the Plug-in Van Grant. The £1,000 difference is the delivery and on-the-road costs, so the £44,000 figure is before the grant too. The biggest L3H3 starts at £52,000 on the same ex-VAT basis. Those standard prices are the same as the April 2026 list. That list also added a new entry-level Core trim, an L1H1 only, at £39,000 ex VAT and before the grant, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Core isn't listed on Farizon's UK site now, so ask a dealer whether it's still offered. Get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
 
 ### Alternatives
 

@@ -5,7 +5,7 @@ van: isuzu-d-max
 date: 2026-10-30T08:00:00Z
 summary: "Of the electric pickups, this is the one that does the full pickup job on paper: over a tonne of payload and 3.5-tonne towing. You pay for it with a short range, slow rapid charging and a price close to £60,000 before VAT."
 specs:
-  price: "£59,995"
+  price: "Not confirmed (Isuzu only quotes an on-the-road price with the grant taken off)"
   range: "163 miles"
   charging: "50kW"
   payload: "1,060 kg"
@@ -13,10 +13,14 @@ specs:
 verdict: "The D-Max EV is the electric pickup to pick if the job is genuinely pickup work: it carries over a tonne, tows 3.5 tonnes and has full-time four-wheel drive, and its payload as built clears HMRC's one-tonne VAT line. The compromises are just as clear. A 163-mile official range and 50kW rapid charging suit farms, estates and utility crews who return to base each night, not long-distance contractors. It is also expensive, so get the sums done against a diesel D-Max before signing."
 good: ["Over a tonne of payload", "3,500kg braked towing, same as diesel", "Payload as built clears HMRC's one-tonne VAT line"]
 bad: ["163-mile official range", "Rapid charging tops out at 50kW", "Costs far more than the diesel"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.isuzu.co.uk/vehicles/isuzu-d-max-edl40/
   - https://www.isuzu.co.uk/vehicles/isuzu-d-max-ev-cross/
   - https://www.isuzu.co.uk/vehicles-ev/
+  - https://www.isuzu.co.uk/isuzu-d-max-ev-grant-guide/
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-dimensions/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
@@ -232,17 +236,15 @@ facts:
   - claim: "8 years or 100,000 miles"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "the 8-year or 100,000-mile policy for the Isuzu D-Max BEV"
-  - claim: "£59,995"
-    calc: "Isuzu lists the Extended Cab eDL40 at £54,995 CVOTR + VAT including the grant (facts below). GOV.UK: large-van grant is a 35% discount up to £5,000; 35% of £54,995 = £19,248, above the cap, so the grant is £5,000. £54,995 + £5,000 = £59,995 ex VAT before the grant"
-  - claim: "so before the grant the Extended Cab eDL40 is £59,995 ex VAT"
-    calc: "£54,995 + £5,000 = £59,995 (see the fact above)"
-  - claim: "£59,995 ex VAT"
-    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
-    quote: "the £59,995 starting price (excluding VAT) is considerably more than this KGM"
+  - claim: "Adding that back gives £59,995 plus VAT before the grant"
+    calc: "Isuzu lists the Extended Cab eDL40 at £54,995 CVOTR + VAT including the grant (facts below). GOV.UK: large-van grant is a 35% discount up to £5,000; 35% of £54,995 = £19,248, above the cap, so the grant is £5,000. £54,995 + £5,000 = £59,995 plus VAT, on the road, before the grant"
+  - claim: "which on this price means the full £5,000"
+    source: https://www.isuzu.co.uk/isuzu-d-max-ev-grant-guide/
+    quote: "Is the Isuzu D-Max EV eligible for the £5,000 government grant? Yes."
   - claim: "Isuzu's UK site lists the Extended Cab eDL40"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-edl40/
     quote: "Extended Cab Available from £54,995* CVOTR +VAT"
-  - claim: "from £54,995 plus VAT on the road"
+  - claim: "from £54,995 plus VAT on the road (CVOTR)"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-edl40/
     quote: "Extended Cab Available from £54,995* CVOTR +VAT"
   - claim: "the cheapest version"
@@ -251,7 +253,7 @@ facts:
   - claim: "says that price includes the van grant"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-edl40/
     quote: "*Price includes the Zero Emissions Van Grant"
-  - claim: "The large-van grant is a 35% discount"
+  - claim: "the large-van grant is a 35% discount"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Some vans can be sold at a 35% discount"
   - claim: "up to a maximum of £5,000"
@@ -267,10 +269,10 @@ facts:
     quote: "Double Cab Available from £55,995* CVOTR +VAT"
   - claim: "£1,000 more"
     calc: "£55,995 (eDL40 Double Cab) - £54,995 (eDL40 Extended Cab) = £1,000"
-  - claim: "the eV-Cross Double Cab is listed from £57,495 plus VAT with the grant"
+  - claim: "the eV-Cross Double Cab is listed from £57,495 plus VAT on the road with the grant"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-ev-cross/
     quote: "Double Cab Available from £57,495* CVOTR +VAT"
-  - claim: "plus VAT with the grant"
+  - claim: "plus VAT on the road with the grant"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-ev-cross/
     quote: "*Price includes the Zero Emissions Van Grant"
   - claim: "or £62,495 before it"
@@ -335,4 +337,4 @@ None of its electric rivals matches both its payload and towing on published fig
 
 ### Price
 
-Isuzu's UK site lists the Extended Cab eDL40, the cheapest version, from £54,995 plus VAT on the road, and says that price includes the van grant. The large-van grant is a 35% discount up to a maximum of £5,000, which on this price means the full £5,000, so before the grant the Extended Cab eDL40 is £59,995 ex VAT. The eDL40 Double Cab is £1,000 more, and the eV-Cross Double Cab is listed from £57,495 plus VAT with the grant, or £62,495 before it. An April 2026 report put the EV at nearly £20,000 more than an equivalent diesel automatic, ex VAT. The D-Max EV is on the government's approved list for the Plug-in Van Grant. Use our [electric vs diesel calculator](/tools/electric-vs-diesel/) before you commit.
+Isuzu's UK site lists the Extended Cab eDL40, the cheapest version, from £54,995 plus VAT on the road (CVOTR), and says that price includes the van grant. The D-Max EV is on the government's approved list for the Plug-in Van Grant, where the large-van grant is a 35% discount up to a maximum of £5,000, which on this price means the full £5,000. Adding that back gives £59,995 plus VAT before the grant, but that is still an on-the-road price, so it includes on-the-road costs that Isuzu doesn't list separately. That's why we haven't put a list price in the specs. The eDL40 Double Cab is £1,000 more, and the eV-Cross Double Cab is listed from £57,495 plus VAT on the road with the grant, or £62,495 before it. An April 2026 report put the EV at nearly £20,000 more than an equivalent diesel automatic, ex VAT. Use our [electric vs diesel calculator](/tools/electric-vs-diesel/) before you commit.

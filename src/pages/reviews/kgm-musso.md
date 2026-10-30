@@ -13,6 +13,9 @@ specs:
 verdict: "The Musso EV is the electric pickup for buyers who want the shape and the four-wheel drive more than the tonnage. It costs far less than its electric rivals, comes with almost everything as standard and has a long battery warranty. The catch is a payload under a tonne, which puts it on the car side of HMRC's VAT test, and modest towing. For light loads, private use or a company car driver chasing low benefit in kind, it makes a lot of sense; for heavy site work, it doesn't."
 good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy cab", "10-year battery warranty"]
 bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.kgm-motors.co.uk/new-cars/musso-ev/
   - https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
@@ -73,6 +76,12 @@ facts:
   - claim: "another KGM page gives 240 miles without naming the test"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/
     quote: "240 Miles All-Electric Driving Range"
+  - claim: "a third gives up to 240 miles (WLTP)"
+    source: https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
+    quote: "80.6 kWh battery delivering up to 240 miles (WLTP) range"
+  - claim: "another KGM page quotes 10 to 80 per cent in around 36 minutes"
+    source: https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
+    quote: "Fast charging from 10-80% in around 36 minutes"
   - claim: "80.6kWh"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "The Musso EV uses an 80.6kWh battery sourced from BYD"
@@ -276,7 +285,7 @@ Private buyers, company car drivers and light-duty businesses who want an electr
 
 It is double cab only. The bed is 1,345mm long, 1,515mm wide and 510mm deep, narrowing to 1,110mm between the arches, and it still takes a Euro pallet. A load liner comes fitted, and there's self-levelling rear suspension.
 
-KGM gives the payload as 690 kg and braked towing as 2,300kg. Either way it falls well short of a tonne and of the usual 3.5-tonne towing.
+KGM gives the payload as 690 kg and braked towing as 2,300kg. Both fall well short of a tonne and of the usual 3.5-tonne towing.
 
 ### Tax: van or car?
 
@@ -286,9 +295,9 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 ### Range and charging in the real world
 
-The 80.6kWh battery is bigger than its rivals'. KGM quotes up to 235 miles of WLTP combined range and up to 290 miles in city driving, though another KGM page gives 240 miles without naming the test. One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
+The battery is 80.6kWh. KGM quotes up to 235 miles of WLTP combined range and up to 290 miles in city driving, but its own figures vary: another KGM page gives 240 miles without naming the test, and a third gives up to 240 miles (WLTP). One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
 
-KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
+KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes, though another KGM page quotes 10 to 80 per cent in around 36 minutes. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
