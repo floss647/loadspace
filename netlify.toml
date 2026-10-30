@@ -4,3 +4,9 @@
 
 [functions]
   directory = "netlify/functions"
+
+# The Maxus T90EV is no longer listed; send old links to its successor.
+[[redirects]]
+  from = "/vans/maxus-t60-t90/*"
+  to = "/vans/maxus-eterron-9/"
+  status = 301
