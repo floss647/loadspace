@@ -216,10 +216,6 @@ export const VANS = [
     electric: true,
     electricNote: 'The Musso EV launched in the UK in 2026.',
   }),
-  v('Maxus', 'T60 / T90', 'pickup', {
-    electric: true,
-    electricNote: 'The T90EV is one of the first fully electric pickups sold in the UK.',
-  }),
   v('Maxus', 'eTerron 9', 'pickup', {
     electric: true,
     electricNote: 'Electric only. Official range up to 267 miles, from about £53,000 excluding VAT.',
@@ -264,7 +260,6 @@ const EV_NAMES = {
   'toyota-hilux': 'Toyota Hilux (electric)',
   'isuzu-d-max': 'Isuzu D-Max EV',
   'kgm-musso': 'KGM Musso EV',
-  'maxus-t60-t90': 'Maxus T90EV',
 };
 for (const v of VANS) {
   v.baseName = v.name;
