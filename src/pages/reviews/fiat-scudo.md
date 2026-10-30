@@ -13,6 +13,9 @@ specs:
 verdict: "The E-Scudo is a pleasant, well-equipped electric medium van that suits town and suburban work best. Fiat quotes up to 219 miles of official range and it charges at up to 100kW, and in 2025 it was reported as a few thousand pounds cheaper than the equivalent Peugeot. The cargo bay is smaller than the best in class, the cab is snug for three and the main warranty is only three years. Because it's the same van as its Citroën, Peugeot, Vauxhall and Toyota twins, buy whichever comes with the best deal."
 good: ["Reported in 2025 as cheaper than the Peugeot equivalent", "Quiet and smooth in town", "Rapid charging at up to 100kW"]
 bad: ["Main warranty only three years", "No tow bar for the electric version", "Cargo volume behind the best rivals"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/fiat/scudo
   - https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates
