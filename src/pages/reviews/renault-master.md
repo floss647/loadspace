@@ -8,7 +8,7 @@ specs:
   price: "Not confirmed (Renault's UK site doesn't state the VAT basis, see below)"
   range: "285 miles"
   charging: "130kW"
-  payload: "1,625 kg"
+  payload: "1,625 kg (4.0-tonne van; driver basis not stated)"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "This is the large electric van we'd shortlist first. An 87kWh battery is modest by class standards, but slippery aerodynamics give it a long official range while leaving plenty of weight for payload. It has a reputation for being smooth, quiet and comfortable rather than quick, and early vans came with some old-school controls. Pick a 3.5-tonne L2H2 or L3H2 unless you need the heavier payload, and push the dealer for a firm price, because the published figures don't agree."
 good:
@@ -19,6 +19,9 @@ bad:
   - "Not quick, and the regenerative braking can't be adjusted"
   - "Early vans had a turn key and manual handbrake"
   - "Published prices don't line up"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://business.renault.co.uk/master-range/master-panel-electric.html
   - https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
@@ -84,7 +87,7 @@ facts:
   - claim: "130kW"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "The battery can be DC rapid-charged at speeds of up to 130kW"
-  - claim: "1,625 kg"
+  - claim: "1,625 kg (4.0-tonne van; driver basis not stated)"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "the 3.5-tonne Master E-Tech capable of carrying up to 1,125kg, while the 4.0-tonne version manages up to 1,625kg"
   - claim: "up to 1,625 kg in the 4.0-tonne van"
@@ -131,9 +134,10 @@ facts:
   - claim: "10.8, 13.0 and 14.8 cubic metres"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "The panel van can be ordered in L2H2, L3H2, or L3H3 configurations, offering 10.8, 13.0, and 14.8 cubic metres of cargo volume, respectively"
-  - claim: "3,225mm long at the floor, or 3,855mm in the L3"
-    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-dimensions/
-    quote: "Maximum load length at floor 3,225mm 3,855mm 3,855mm"
+  - claim: "3,225mm long at the floor"
+    calc: "Renault ('Load Platform Length 3225', https://business.renault.co.uk/master-range/master-panel-electric/configurator.html): 3225mm = 3,225mm"
+  - claim: "or 3,857mm in the L3"
+    calc: "Renault ('Load Platform Length 3857', https://business.renault.co.uk/master-range/master-panel-electric.html): shown for the LH35 (LWB/high roof, L3) panel van; 3857mm = 3,857mm"
   - claim: "1,380mm between the wheelarches"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-dimensions/
     quote: "Width between wheel arches 1,380mm 1,380mm 1,380mm"
@@ -146,21 +150,41 @@ facts:
   - claim: "up to 1,125kg in a 3.5-tonne van"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "the 3.5-tonne Master E-Tech capable of carrying up to 1,125kg"
-  - claim: "Renault's configurator confirms the"
-    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
-    quote: "Maximum Payload (kg) 1125 Standard Load Volume (m3) 10.8"
+  - claim: "Renault's configurator confirms the 1,125kg figure for the 3.5-tonne MWB van"
+    calc: "Renault ('Maximum Payload (kg) 1125 Standard Load Volume (m3) 10.8', https://business.renault.co.uk/master-range/master-panel-electric/configurator.html): shown for the MM35 (MWB/medium roof) with Gross Vehicle Weight 3500kg selected; 1125kg = 1,125kg; 3,500kg = 3.5 tonnes"
+  - claim: "its technical specifications for the same van give 1,043kg"
+    calc: "Renault ('Gross Train Weight (kg) 5000 Maximum Payload (kg) 1043', https://business.renault.co.uk/master-range/master-panel-electric/configurator.html): technical specifications for the MM35 3500kg van; 1043kg = 1,043kg"
+  - claim: "Renault lists a braked towing limit of 2,450kg for the 3.5-tonne MWB van"
+    calc: "Renault ('Maximum Towing Weight Braked - Driver Only (kg) 2450', https://business.renault.co.uk/master-range/master-panel-electric/configurator.html): MM35 3500kg van; 2450kg = 2,450kg; 3,500kg = 3.5 tonnes"
+  - claim: "within a gross train weight of 5,000kg"
+    calc: "Renault ('Gross Train Weight (kg) 5000', https://business.renault.co.uk/master-range/master-panel-electric/configurator.html): 5000kg = 5,000kg"
   - claim: "Renault's configurator confirms the"
     source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
     quote: "MASTER E-TECH ELECTRIC MM35 Panel Van E-Tech Advance MY27"
   - claim: "a 4.0-tonne version takes that to 1,625kg"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "while the 4.0-tonne version manages up to 1,625kg"
+  - claim: "long at the floor"
+    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
+    quote: "Load Platform Length 3225"
+  - claim: "in the L3"
+    source: https://business.renault.co.uk/master-range/master-panel-electric.html
+    quote: "LWB/ high roof starting from"
+  - claim: "Renault's configurator confirms the"
+    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
+    quote: "Maximum Payload (kg) 1125 Standard Load Volume (m3) 10.8"
+  - claim: "its technical specifications for the same van give"
+    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
+    quote: "Gross Train Weight (kg) 5000 Maximum Payload (kg) 1043"
+  - claim: "Renault lists a braked towing limit"
+    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
+    quote: "Maximum Towing Weight Braked - Driver Only (kg) 2450"
+  - claim: "within a gross train weight"
+    source: https://business.renault.co.uk/master-range/master-panel-electric/configurator.html
+    quote: "Gross Train Weight (kg) 5000"
   - claim: "Nissan quotes up to 1,557kg for its electric twin"
     source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
     quote: "up to 1,557kg (electric) & 1,726kg (diesel) maximum payload"
-  - claim: "towing capacity drops from 1,500kg to 1,000kg"
-    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-dimensions/
-    quote: "The towing weights are 1,500kg for the 3.5-tonne model and 1,000kg for the 4.0-tonne"
   - claim: "vehicle-to-load (V2L) sockets"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "allowing you to power tools and appliances directly from its battery through power socket outlets in the cabin and load area"
@@ -361,9 +385,9 @@ Anyone who wants a full-size electric panel van without giving up range or paylo
 
 ### Load area and payload
 
-Three panel van bodies, L2H2, L3H2 and L3H3, give 10.8, 13.0 and 14.8 cubic metres. The load bay is 3,225mm long at the floor, or 3,855mm in the L3, with 1,380mm between the wheelarches, and the side door opening is 1,312mm wide, so a Euro pallet goes in from the side.
+Three panel van bodies, L2H2, L3H2 and L3H3, give 10.8, 13.0 and 14.8 cubic metres. The load bay is 3,225mm long at the floor, or 3,857mm in the L3, with 1,380mm between the wheelarches, and the side door opening is 1,312mm wide, so a Euro pallet goes in from the side.
 
-Payload is the headline: thanks to the modest battery, you get up to 1,125kg in a 3.5-tonne van, and a 4.0-tonne version takes that to 1,625kg. Renault's configurator confirms the 3.5-tonne figure for the MWB van but doesn't say whether it allows for a driver. Nissan quotes up to 1,557kg for its electric twin, so check the plated figure. If you tow, note that towing capacity drops from 1,500kg to 1,000kg on the heavier van, and check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) sockets and vehicle-to-grid (V2G) charging.
+Payload is the headline: thanks to the modest battery, you get up to 1,125kg in a 3.5-tonne van, and a 4.0-tonne version takes that to 1,625kg. Renault's configurator confirms the 1,125kg figure for the 3.5-tonne MWB van, but its technical specifications for the same van give 1,043kg, and neither figure says whether it allows for a driver. Nissan quotes up to 1,557kg for its electric twin, so check the plated figure. Renault lists a braked towing limit of 2,450kg for the 3.5-tonne MWB van, within a gross train weight of 5,000kg. If you're looking at the 4.0-tonne van, check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) sockets and vehicle-to-grid (V2G) charging.
 
 ### Range and charging in the real world
 

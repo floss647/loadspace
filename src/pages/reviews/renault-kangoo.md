@@ -3,16 +3,19 @@ layout: ../../layouts/Review.astro
 title: "Renault Kangoo E-Tech review"
 van: renault-kangoo
 date: 2026-10-30T08:00:00Z
-summary: "The van the Nissan and Mercedes versions are built from: smooth, comfortable and sensibly sized, with a heat pump as standard. Renault's UK business site now lists the updated 52kWh van, with 214 miles pending homologation and 100kW charging, but the van warranty is shorter than the Nissan twin's."
+summary: "The van the Nissan and Mercedes versions are built from: sensibly sized, with a heat pump as standard and, on the older 45kWh van, a reputation for a smooth, comfortable drive. Renault's UK business site now lists the updated 52kWh van, with 214 miles pending homologation and 100kW charging, but the van warranty is shorter than the Nissan twin's."
 specs:
   price: "Not confirmed (Renault's UK site doesn't state the VAT basis, see below)"
-  range: "214 miles (pending homologation)"
+  range: "Not confirmed (214 miles pending homologation)"
   charging: "100kW"
-  payload: "702 kg"
+  payload: "702 kg (driver basis not stated)"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. The updated 52kWh van now listed in the UK fixes its weak spots on paper, with up to 214 miles pending homologation and 100kW rapid charging, though the road reports so far are for the older van. Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first."
-good: ["Smooth, comfortable drive", "Heat pump as standard", "Long LL van carries 702kg and is on the large-van grant list"]
+verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay of more than 4 cubic metres in the long version. The updated 52kWh van now listed in the UK fixes its weak spots on paper, with up to 214 miles pending homologation and 100kW rapid charging, though the road reports so far are for the older van. Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first."
+good: ["Smooth, comfortable drive, judging by tests of the 45kWh van", "Heat pump as standard", "Long LL van carries 702kg and is on the large-van grant list"]
 bad: ["Three-year van warranty, where the Nissan twin gets five", "Short ML van carries only 537kg", "No through-load bulkhead or pillarless side door in the UK"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://business.renault.co.uk/van-range/kangoo-van.html
   - https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html
@@ -35,7 +38,7 @@ sources:
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
 facts:
   # Specs
-  - claim: "214 miles"
+  - claim: "Not confirmed (214 miles pending homologation)"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html
     quote: "up to 214 miles of driving range Based on L1 version, pending homologation"
   - claim: "pending homologation"
@@ -47,7 +50,7 @@ facts:
   - claim: "100kW"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html
     quote: "30 mins of charging time, from 15 to 80% at 100 kW DC charge"
-  - claim: "702 kg"
+  - claim: "702 kg (driver basis not stated)"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html?bodyTypeCode=PT1261_panel_van
     quote: "KANGOO E-TECH ELECTRIC LL21 E-Tech Advance Panel Van MY27 *MRRP after ZEVG, excluding metallic paint. build yours compare Overall Width (Excluding Door Mirrors) 1860 Standard Load Volume (m3) 4.3 Maximum Payload (kg) 702"
   - claim: "8 years or 100,000 miles"
@@ -57,6 +60,15 @@ facts:
     source: https://www.renault.co.uk/electric-vehicles.html
     quote: "E-Tech electric vehicle batteries are guaranteed for 8 years or 100,000 miles"
   # Summary, verdict, background
+  - claim: "on the older 45kWh van"
+    source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
+    quote: "Power for the pair comes from a 120bhp electric motor connected to a 45kWh battery"
+  - claim: "a reputation for a smooth, comfortable drive"
+    source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
+    quote: "Comfortable and easy to drive"
+  - claim: "a reputation for a smooth, comfortable drive"
+    source: https://www.autoexpress.co.uk/renault/kangoo/van
+    quote: "The Kangoo is easy to drive, especially in EV form, and it's comfortable on a long trip as well"
   - claim: "Renault's UK business site now lists the updated 52kWh van"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric/configurator.html
     quote: "Battery Capacity (Kwh) 52 kWh choose your version advance Van MWB extra MWB starting from £30,835"
@@ -78,9 +90,11 @@ facts:
   - claim: "the van warranty is shorter than the Nissan twin's"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "You can extend this at extra cost for up to five years, but the closely-related Nissan Townstar comes with this as standard"
-  - claim: "a load bay that goes up to 4.2 cubic metres in the long version"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Maximum load volume: 4.2 cubic metres"
+  - claim: "a load bay of more than 4 cubic metres in the long version"
+    calc: "Renault gives 4.2m3 for the long-wheelbase L2 van ('Kangoo van L2 (long wheel base) provides a load volume of 4.2m 3', https://business.renault.co.uk/van-range/kangoo-van/dimensions.html) and 4.3m3 for the LL21 E-Tech panel van (fact below): both more than 4 cubic metres"
+  - claim: "a load bay of more than"
+    source: https://business.renault.co.uk/van-range/kangoo-van/dimensions.html
+    quote: "Kangoo van L2 (long wheel base) provides a load volume of 4.2m 3"
   - claim: "Heat pump as standard"
     source: https://business.renault.co.uk/e-tech-electric-technology/electric-vans-driving-range.html
     quote: "Renault Kangoo E-Tech electric is equipped with a heat pump"
@@ -115,6 +129,15 @@ facts:
   - claim: "the standard ML has 3.3 cubic metres and the longer LL has 4.2 cubic metres"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
     quote: "Standard load volume: 3.3 cubic metres Renault Kangoo E-Tech LL load space dimensions: Maximum load length to bulkhead: 2,230mm Maximum load height: 1,215mm Maximum load width: 1,517mm Width between the wheelarches: 1,247mm Standard load volume: 4.2 cubic metres"
+  - claim: "Renault's E-Tech panel van page lists 4.3"
+    source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html?bodyTypeCode=PT1261_panel_van
+    quote: "LL21 E-Tech Advance Panel Van MY27 *MRRP after ZEVG, excluding metallic paint. build yours compare Overall Width (Excluding Door Mirrors) 1860 Standard Load Volume (m3) 4.3"
+  - claim: "the longer LL has 4.2 cubic metres"
+    source: https://business.renault.co.uk/van-range/kangoo-van/dimensions.html
+    quote: "Kangoo van L2 (long wheel base) provides a load volume of 4.2m 3"
+  - claim: "the standard ML has 3.3 cubic metres"
+    source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric/configurator.html
+    quote: "Standard Load Volume (m3) 3.3"
   - claim: "with a sliding door on each side"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "the long-wheelbase version has twin sliding doors, one on either side"
@@ -158,7 +181,7 @@ facts:
   - claim: "a 155hp motor"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html
     quote: "powertrain 155 hp (115 kW) E-Tech electric powertrain"
-  - claim: "up to 214 miles for the ML (pending homologation)"
+  - claim: "up to 214 miles for the ML (a provisional figure, pending homologation, so not yet an official WLTP range)"
     source: https://business.renault.co.uk/van-range/kangoo-van-e-tech-electric.html
     quote: "up to 214 miles of driving range Based on L1 version, pending homologation"
   - claim: "for the ML"
@@ -200,7 +223,10 @@ facts:
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "it comes with a heat pump as standard"
   # On the road
-  - claim: "Our road impressions come from the"
+  - claim: "Published road tests so far are of the older 45kWh van"
+    source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
+    quote: "Power for the pair comes from a 120bhp electric motor connected to a 45kWh battery"
+  - claim: "Published road tests so far are of the older"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "03 October 2024"
   - claim: "a reputation for being smooth, easy to drive and comfortable"
@@ -218,19 +244,34 @@ facts:
   - claim: "reports differ on how much road noise gets in at speed"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "At a cruise, the Kangoo E-Tech is quiet and refined, with minimal wind and tyre noise"
+  - claim: "judging by tests of the 45kWh van"
+    source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
+    quote: "Power for the pair comes from a 120bhp electric motor connected to a 45kWh battery"
   - claim: "Smooth, comfortable drive"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "Comfortable and easy to drive"
   - claim: "even the strongest setting won't bring it to a stop"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "Even in the strongest setting, there isn't enough engine braking to take the Kangoo to a standstill"
+  - claim: "Renault says the updated van gets four levels of regenerative braking, up from three"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "Renault Kangoo VAN and Kangoo E-Tech electric now offer four levels of regenerative braking, compared with three previously"
+  - claim: "chosen with paddles on the steering wheel"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "along with four levels of regenerative braking, selected from the steering wheel paddles"
   - claim: "so there's no one-pedal driving"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "No one-pedal driving for EV"
   # Cab and kit
-  - claim: "The climate dials and steering wheel come from the Clio"
+  - claim: "the climate dials and steering wheel come from the Clio"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "The rotary dials for the climate controls are taken from the Clio supermini"
+  - claim: "the climate dials and steering wheel come from the Clio"
+    source: https://www.autoexpress.co.uk/renault/kangoo/van
+    quote: "The steering wheel is the same as the Clio"
+  - claim: "On the older van"
+    source: https://www.autoexpress.co.uk/renault/kangoo/van
+    quote: "By: Sam Naylor 29 May 2025"
   - claim: "the cabin is hard-wearing grey and black plastic rather than plush"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "greeted by plenty of grey and black plastic, while hard-wearing seat fabric features, too"
@@ -240,7 +281,10 @@ facts:
   - claim: "A June 2024 update"
     source: https://www.autoexpress.co.uk/renault/kangoo/363451/price-cut-renault-kangoo-electric-van-new-look-across-range
     quote: "By: Sam Naylor 17 Jun 2024"
-  - claim: "One long-term test van kept dropping its Apple CarPlay connection"
+  - claim: "Renault says the updated van gets a new, more responsive 10-inch screen"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "a new, more responsive 10-inch OpenR Link screen of improved quality"
+  - claim: "One long-term test of the older van found it kept dropping its Apple CarPlay connection"
     source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
     quote: "The other disappointment we've had with our Kangoo's screen is its inability to hold on to an Apple CarPlay connection, because it has a tendency to drop out at random points"
   - claim: "Renault now lists the E-Tech panel van in Advance and Extra trims"
@@ -314,7 +358,7 @@ Trades, couriers and service fleets doing local and regional work. It's at its b
 
 ### Load area and payload
 
-There are two lengths: the standard ML has 3.3 cubic metres and the longer LL has 4.2 cubic metres, with a sliding door on each side. Oddly, the longer van carries more, because it gets a heavier-duty rear axle that the short electric van can't have.
+There are two lengths: the standard ML has 3.3 cubic metres and the longer LL has 4.2 cubic metres (Renault's E-Tech panel van page lists 4.3), with a sliding door on each side. Oddly, the longer van carries more, because it gets a heavier-duty rear axle that the short electric van can't have.
 
 Renault's UK business site lists 537kg for the ML panel van and 702kg for the LL panel van, without saying whether that allows for a driver. Older reports for the 45kWh van gave 608kg and 764kg, so check the plated figure on the exact van. It can tow up to 1,500kg.
 
@@ -322,17 +366,17 @@ UK vans miss out on the pillarless side opening sold in left-hand-drive markets,
 
 ### Range and charging
 
-In October 2026 Renault announced an updated Kangoo E-Tech, and its UK business site now lists it: a 52kWh battery, a 155hp motor, up to 214 miles for the ML (pending homologation) and 100kW DC charging, with 15 to 80 per cent in 30 minutes. That's up from 45kWh, 190 miles and 80kW on the old van, and some of Renault's UK pages still show those older figures, so check which van you're quoted. Renault also announced vehicle-to-load (V2L) power, but we couldn't confirm it on UK vans, or whether the Nissan and Mercedes versions get the same upgrade.
+In October 2026 Renault announced an updated Kangoo E-Tech, and its UK business site now lists it: a 52kWh battery, a 155hp motor, up to 214 miles for the ML (a provisional figure, pending homologation, so not yet an official WLTP range) and 100kW DC charging, with 15 to 80 per cent in 30 minutes. That's up from 45kWh, 190 miles and 80kW on the old van, and some of Renault's UK pages still show those older figures, so check which van you're quoted. Renault also announced vehicle-to-load (V2L) power, but we couldn't confirm it on UK vans, or whether the Nissan and Mercedes versions get the same upgrade.
 
 On the old 45kWh van, a long-term test managed around 130 miles in winter, dipping to about 100 miles in freezing weather, and around 140 miles as spring arrived. Expect more from the new battery, but we haven't seen tested figures. A heat pump is standard, which helps in the cold. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-Our road impressions come from the 45kWh van. The Kangoo E-Tech has a reputation for being smooth, easy to drive and comfortable, with a quiet motor, though reports differ on how much road noise gets in at speed. The brake energy recovery is gentle: even the strongest setting won't bring it to a stop, so there's no one-pedal driving.
+Published road tests so far are of the older 45kWh van, so treat what follows as a guide to the new one. The Kangoo E-Tech has a reputation for being smooth, easy to drive and comfortable, with a quiet motor, though reports differ on how much road noise gets in at speed. The brake energy recovery is gentle: even the strongest setting won't bring it to a stop, so there's no one-pedal driving. Renault says the updated van gets four levels of regenerative braking, up from three, chosen with paddles on the steering wheel, but no road test has yet said how strong the top setting is.
 
 ### Cab and kit
 
-The climate dials and steering wheel come from the Clio, and the cabin is hard-wearing grey and black plastic rather than plush. A June 2024 update made a reversing camera, an electric parking brake and a digital driver's display standard. Renault now lists the E-Tech panel van in Advance and Extra trims. One long-term test van kept dropping its Apple CarPlay connection.
+On the older van, the climate dials and steering wheel come from the Clio, and the cabin is hard-wearing grey and black plastic rather than plush. A June 2024 update made a reversing camera, an electric parking brake and a digital driver's display standard. Renault now lists the E-Tech panel van in Advance and Extra trims. One long-term test of the older van found it kept dropping its Apple CarPlay connection; Renault says the updated van gets a new, more responsive 10-inch screen.
 
 ### Warranty
 
