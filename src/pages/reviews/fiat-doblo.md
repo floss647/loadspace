@@ -3,14 +3,14 @@ layout: ../../layouts/Review.astro
 title: "Fiat E-Doblo review"
 van: fiat-doblo
 date: 2026-10-30T08:00:00Z
-summary: "Fiat's badge on the Stellantis small electric van: the same strong payload, load bay and 100kW charging as its siblings, plus the option of a paid-for five-year warranty and servicing deal. Its official range is muddled in print, so check your quote."
+summary: "Fiat's badge on the Stellantis small electric van, with a strong 781kg payload, a load bay as big as the diesel's and 100kW charging, plus the option of a paid-for five-year warranty and servicing deal. Its official range is muddled in print, so check your quote."
 specs:
   price: "Not confirmed (no current list price before the grant found)"
   range: "Not confirmed (current reports differ)"
   charging: "100kW"
   payload: "781 kg"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Doblo is a good small electric van that is, deliberately, almost nothing new: a revised nose on the van Citroën, Peugeot, Vauxhall and Toyota also sell. It carries up to 781kg, charges at up to 100kW and is easy to drive in town. There's no compelling reason to choose it over its siblings, but no reason to avoid it either, so let the deal and the dealer decide. If you plan to keep it, ask about Fiat's paid-for five-year warranty and servicing package, and compare it with Toyota's longer cover."
+verdict: "The E-Doblo is a good small electric van that is, deliberately, almost nothing new: a revised nose on the van Citroën, Peugeot, Vauxhall and Toyota also sell. It carries up to 781kg, charges at up to 100kW and has a reputation for being easy to drive in town. There's no compelling reason to choose it over its siblings, but no reason to avoid it either, so let the deal and the dealer decide. If you plan to keep it, ask about Fiat's paid-for five-year warranty and servicing package, and compare it with Toyota's longer cover."
 good: ["Strong 781kg payload for a small electric van", "Load bay is no smaller than the diesel's", "Optional five-year warranty, servicing and roadside package"]
 bad: ["Official range figures are inconsistent", "Narrow middle seat in three-seat versions", "Alarm only on the top trim"]
 sources:
@@ -46,6 +46,18 @@ facts:
   - claim: "paid-for five-year warranty and servicing package"
     source: https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
     quote: "This brings you five years of warranty, five years of servicing and five years of roadside assistance."
+  - claim: "a strong 781kg payload"
+    source: https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
+    quote: "it is still impressive with a top figure of 781kg"
+  - claim: "a load bay as big as the diesel's"
+    source: https://www.autoexpress.co.uk/fiat/doblo
+    quote: "whether you go for diesel or the all-electric E-Doblo in L1, L2 or Crew Van body versions, they all have the same amount of room inside"
+  - claim: "Load bay is no smaller than the diesel's"
+    source: https://www.autoexpress.co.uk/fiat/doblo
+    quote: "whether you go for diesel or the all-electric E-Doblo in L1, L2 or Crew Van body versions, they all have the same amount of room inside"
+  - claim: "has a reputation for being easy to drive in town"
+    source: https://www.autoexpress.co.uk/fiat/doblo
+    quote: "Light steering helps with low-speed driving and parking"
   - claim: "Strong 781kg payload"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "carry 781kg in L1 form"
@@ -115,13 +127,16 @@ facts:
   - claim: "zero to 80 per cent in half an hour"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "you can top up the battery from 0 to 80 per cent from a 100kW charger in 30 mins"
-  - claim: "it is easier and more relaxing to drive than the diesel"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "The electric E-Doblo is more relaxing to drive than the petrol or diesel models because there are fewer vibrations and a lot less noise entering the cabin."
-  - claim: "smooth and quiet up to the national limit"
+  - claim: "Both published road tests describe it as smooth and quiet"
     source: https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
     quote: "The E-Doblo is a smooth, quiet and settled vehicle at all speeds up to the national limit"
-  - claim: "leans less in corners thanks to the low battery"
+  - claim: "One found it more relaxing to drive than the diesel, with less noise and vibration and no gearchanges to think about"
+    source: https://www.autoexpress.co.uk/fiat/doblo
+    quote: "The electric E-Doblo is more relaxing to drive than the petrol or diesel models because there are fewer vibrations and a lot less noise entering the cabin. You’ll also be able to concentrate more on your route without having to deal with distracting gear changes."
+  - claim: "the other found it settled at all speeds up to the national limit"
+    source: https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
+    quote: "The E-Doblo is a smooth, quiet and settled vehicle at all speeds up to the national limit"
+  - claim: "lean less in corners than the diesel thanks to the low battery"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "it leans over less because the mass of the battery pack is located under the floor between the axles"
   - claim: "One says the unladen ride is more settled than the diesel's"
@@ -204,7 +219,7 @@ Every version can rapid charge at up to 100kW, which takes it from zero to 80 pe
 
 ### On the road
 
-There's broad agreement that it is easier and more relaxing to drive than the diesel: smooth and quiet up to the national limit, with no gearchanges, and it leans less in corners thanks to the low battery. It also has a tight turning circle. Reports differ on the ride with nothing in the back. One says the unladen ride is more settled than the diesel's; the other found it a little jittery when empty.
+Both published road tests describe it as smooth and quiet. One found it more relaxing to drive than the diesel, with less noise and vibration and no gearchanges to think about; the other found it settled at all speeds up to the national limit. It is said to lean less in corners than the diesel thanks to the low battery, and it has a tight turning circle. Reports differ on the ride with nothing in the back. One says the unladen ride is more settled than the diesel's; the other found it a little jittery when empty.
 
 ### Cab and kit
 

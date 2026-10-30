@@ -10,7 +10,7 @@ specs:
   charging: "100kW"
   payload: "780 kg"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Partner is a capable small electric van for local work, with a 213-mile official range, 100kW rapid charging and a load bay no smaller than the diesel's. What sets it apart from its Citroën, Vauxhall, Fiat and Toyota twins is the i-Cockpit, a small, low steering wheel with the dials set above it, which some drivers like and others can't get comfortable with. Prices and kit closely track the Citroën, so the choice usually comes down to the driving position, the deal and the dealer. Try one first."
+verdict: "The E-Partner is a capable small electric van for local work, with a 213-mile official range, 100kW rapid charging and up to 4.4 cubic metres of load space, the same maximum as the diesel. What sets it apart from its Citroën, Vauxhall, Fiat and Toyota twins is the i-Cockpit, a small, low steering wheel with the dials set above it, which some drivers like and others can't get comfortable with. Prices and kit closely track the Citroën, so the choice usually comes down to the driving position, the deal and the dealer. Try one first."
 good: ["Smoother and quieter than the diesel at speed", "Rapid charging at up to 100kW", "Large load area with a through-load option"]
 bad: ["The i-Cockpit layout won't suit every driver", "Blind spots on both sides", "Tight for three in the cab"]
 sources:
@@ -30,6 +30,15 @@ facts:
   - claim: "Eight years or 100,000 miles"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "the E-Partner’s battery has a separate eight-year/100,000-mile warranty"
+  - claim: "up to 4.4 cubic metres of load space, the same maximum as the diesel"
+    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
+    quote: "The E-Partner offers up to 4.4 cubic metres of cargo space"
+  - claim: "The E-Partner offers up to 4.4 cubic metres, the same maximum as the diesel Partner"
+    source: https://www.autoexpress.co.uk/peugeot/partner
+    quote: "Go for a Long van, and cargo volume is 3.9 cubic metres as standard, and 4.4 cubic metres in Multi-Flex mode."
+  - claim: "where its sister vans use a larger wheel with the dials behind it"
+    source: https://www.autoexpress.co.uk/peugeot/partner
+    quote: "its sister models have a more conventional setup and bigger steering wheel"
   - claim: "a 213-mile official range"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "saw its range figure increase to 213 miles"
@@ -60,9 +69,12 @@ facts:
   - claim: "since the 2024 facelift"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "12 Mar 2024"
-  - claim: "you lose the lidded cubby above the dials that the others have, and get a small tray instead"
+  - claim: "you lose the lidded cubby above the dials that the Citroën and Vauxhall have, and get a small tray instead"
     source: https://www.autoexpress.co.uk/peugeot/partner
-    quote: "the i-Cockpit layout foregoes this, so you get a small storage tray ahead of the dials instead"
+    quote: "Berlingo Van and Combo means there"
+  - claim: "the lidded cubby above the dials"
+    source: https://www.autoexpress.co.uk/peugeot/partner
+    quote: "an extra lidded storage area above the dials, the i-Cockpit layout foregoes this, so you get a small storage tray ahead of the dials instead"
   - claim: "The Standard van holds 3.3 cubic metres"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "Cargo volume for the Standard van is 3.3 cubic metres"
@@ -75,7 +87,7 @@ facts:
   - claim: "a 750kg trailer"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "For those with frequent motorway miles or the need to tow more than 750kg, a diesel version will make more sense."
-  - claim: "Peugeot quoted 205 miles"
+  - claim: "the quoted figure was 205 miles"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "can now cover up to 205 miles from a single charge"
   - claim: "A 2025 review"
@@ -161,21 +173,21 @@ The E-Partner is for local trades and delivery work where the van does its miles
 
 ### The cockpit question
 
-This is the bit that makes the Peugeot different, so it comes first. The i-Cockpit gives you a small steering wheel with the dials set above it, where the other four use a larger wheel with the dials behind it. It's a layout some drivers like and others can't get comfortable with, and the wheel can end up lower than you'd like if you want to read the dials. It costs a little storage too: you lose the lidded cubby above the dials that the others have, and get a small tray instead. If the driving position doesn't suit you, buy one of the siblings. There's nothing else to lose.
+This is the bit that makes the Peugeot different, so it comes first. The i-Cockpit gives you a small steering wheel with the dials set above it, where its sister vans use a larger wheel with the dials behind it. It's a layout some drivers like and others can't get comfortable with, and the wheel can end up lower than you'd like if you want to read the dials. It costs a little storage too: you lose the lidded cubby above the dials that the Citroën and Vauxhall have, and get a small tray instead. If the driving position doesn't suit you, look at one of the siblings.
 
 ### Load area and payload
 
-The load bay is the same as the diesel's. The Standard van holds 3.3 cubic metres and the Long 3.9, or 4.4 with the through-load seat and hatch in use. At the 2024 relaunch the payload was quoted at up to 780kg, and the electric van tows a 750kg trailer at most, so heavy towing is still diesel territory.
+The E-Partner offers up to 4.4 cubic metres, the same maximum as the diesel Partner. The Standard van holds 3.3 cubic metres and the Long 3.9, or 4.4 with the through-load seat and hatch in use. At the 2024 relaunch the payload was quoted at up to 780kg, and the electric van tows a 750kg trailer at most, so heavy towing is still diesel territory.
 
 ### Range and charging in the real world
 
-At the facelift launch, Peugeot quoted 205 miles. A 2025 review gives 213 miles, against 220 for the Citroën, so check the exact figure on your quote. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
+At the facelift launch the quoted figure was 205 miles. A 2025 review gives 213 miles, against 220 for the Citroën, so check the exact figure on your quote. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
 
 Rapid charging runs at up to 100kW, enough to go from zero to 80 per cent in half an hour. At the depot it's seven and a half hours on a 7.4kW wallbox, or five hours at 11kW with the £350 onboard charger upgrade. See our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-The electric version has a reputation for being smoother and quieter than the diesel at speed, and the battery's weight helps settle the ride with a light load on board. Regenerative braking is set with paddles behind the wheel, though it's not strong enough for one-pedal driving. Watch the blind spots on both sides.
+The one published road test of the facelifted E-Partner we've seen found it smoother and quieter than the diesel at speed, and said the battery's weight helps settle the ride with a light load on board. Regenerative braking is set with paddles behind the wheel, though it's not strong enough for one-pedal driving. Watch the blind spots on both sides.
 
 ### Cab and kit
 

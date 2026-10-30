@@ -10,7 +10,7 @@ specs:
   charging: "100kW"
   payload: "781 kg"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The Combo Electric is a sensible small electric van for town and suburban work: a 220-mile official range, 100kW rapid charging, a payload of up to 781kg and a reputation for being quiet and smooth. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, switches and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
+verdict: "The Combo Electric is a sensible small electric van for town and suburban work: a 220-mile official range, 100kW rapid charging, a payload of up to 781kg and a reputation for being quiet and smooth. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
 good: ["Quiet and smooth, especially in town", "Payload of up to 781kg for an electric small van", "Range quoted at 220 miles for every body style"]
 bad: ["Cramped for three adults", "Adaptive cruise control and 11kW charging cost extra", "Only a three-year warranty on the van itself"]
 sources:
@@ -43,10 +43,16 @@ facts:
   - claim: "Payload of up to 781kg"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-dimensions/
     quote: "The figures range from 691kg for the XL Pro model up to 781kg for the shorter model."
+  - claim: "Motorway runs hurt its efficiency"
+    source: https://www.autoexpress.co.uk/vauxhall/combo
+    quote: "Motorway runs can harm the EV’s efficiency"
+  - claim: "a reputation for being smooth and quiet"
+    source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
+    quote: "Smooth, quiet and easy to drive"
   - claim: "a reputation for being quiet and smooth"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "Electric version is smooth to drive"
-  - claim: "Vauxhall's own steering wheel, switches and screen graphics"
+  - claim: "Vauxhall's own steering wheel, stalks and screen graphics"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "You get a steering wheel, gearlever and indicator stalks that are the same as those found in cars such as the Astra"
   - claim: "Range quoted at 220 miles for every body style"
@@ -180,19 +186,19 @@ The Combo Electric is for multi-drop couriers, service engineers and local trade
 
 ### Load area and payload
 
-Electric power takes nothing from the load bay. The standard van holds 3.3 cubic metres and the XL 3.9, and there's room for two Euro pallets between the wheelarches. The optional FlexCargo pack adds a bulkhead hatch for items up to 3,090mm long, or 3,440mm in the XL, plus a folding outer seat and a protective cargo bag.
+Electric power takes nothing from the load bay. The standard van holds 3.3 cubic metres and the XL 3.9, and there's room for two Euro pallets in the back. The optional FlexCargo pack adds a bulkhead hatch for items up to 3,090mm long, or 3,440mm in the XL, plus a folding outer seat and a protective cargo bag.
 
 The electric van carries between 642kg and 781kg depending on the version, and the lowest figure is for the Crew Van, against 669kg to 984kg for the diesels. It can also only tow a 750kg braked trailer. If you're regularly near the limit, the diesel is still the better tool.
 
 ### Range and charging in the real world
 
-The 220-mile figure applies to every body style. Earlier numbers vary, though: a 2024 review of the facelifted van quoted 205 miles, so make sure your quote gives the current figure. Vauxhall also gives a city figure of up to 304 miles, which tells you it is at its best in town. Motorway work drains it far faster.
+The 220-mile figure applies to every body style. Earlier numbers vary, though: a 2024 review of the facelifted van quoted 205 miles, so make sure your quote gives the current figure. Vauxhall also gives a city figure of up to 304 miles, which tells you it is at its best in town. Motorway runs hurt its efficiency.
 
 At a public rapid charger it takes up to 100kW, which means around half an hour to 80 per cent. A 7.4kW wallbox refills it from empty in seven and a half hours, and 11kW charging, which cuts that to around five hours, is an option on every trim. Our [charging guide](/guides/charging-an-electric-van/) has more on depot charging.
 
 ### On the road
 
-The electric Combo has a reputation for refinement, with just a faint whine under hard acceleration, and the low battery makes the ride smoother than the diesel's most of the time. A heavy load can make the rear feel harsh over big bumps. Regenerative braking helps in traffic but is best switched off on the motorway, where it can feel abrupt each time you lift off.
+The electric Combo has a reputation for being smooth and quiet. The most recent road test we've seen heard just a faint whine under hard acceleration, and found the low battery makes the ride smoother than the diesel's most of the time, though a heavy load can make the rear feel harsh over big bumps. Regenerative braking helps in traffic but is best switched off on the motorway, where it can feel abrupt each time you lift off.
 
 ### Cab and kit
 

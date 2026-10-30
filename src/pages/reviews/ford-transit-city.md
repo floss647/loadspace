@@ -3,7 +3,7 @@ layout: ../../layouts/Review.astro
 title: "Ford Transit City review"
 van: ford-transit-city
 date: 2026-10-30T08:00:00Z
-summary: "Ford's cheapest medium-sized electric van is a simple, single-spec urban tool with a big payload and a low price. The trade-off is a modest official range and slower rapid charging than its pricier rivals."
+summary: "Ford's cheapest medium-sized electric van is a simple, single-spec urban tool with a big payload and a low price. The trade-offs are a modest official range and rapid charging that peaks at 87kW."
 specs:
   price: "£29,000"
   range: "158 miles"
@@ -62,6 +62,15 @@ facts:
   - claim: "Ford's cheapest medium-sized electric van"
     source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
     quote: "it's positioned between the smaller E-Transit Courier and the medium-sized E-Transit Custom in terms of pricing"
+  - claim: "Ford's cheapest medium-sized electric van"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "A chassis cab, which is a first for a medium-sized Ford van, will be made available later"
+  - claim: "Ford's cheapest medium-sized electric van"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "From £43,630 Recommended Retail Price Excl. Vat"
+  - claim: "rapid charging that peaks at 87kW"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "E-Motor 11kW 87kW 56kWh 110kW / 150PS 260Nm"
   - claim: "Transit Custom-like size"
     source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
     quote: "The electric-only Transit City is comparable in size to the Transit Custom"
@@ -102,9 +111,12 @@ facts:
   - claim: "built with Ford's long-standing Chinese joint-venture partner, JMC"
     source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
     quote: "The Transit City is produced in collaboration with Jiangling Motors Corporation (JMC), a longstanding Ford joint-venture partner in China, on a dedicated EV platform."
-  - claim: "it went on sale in the UK in September 2026"
+  - claim: "on a dedicated electric platform"
+    source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
+    quote: "on a dedicated EV platform"
+  - claim: "it's on sale in the UK now"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
-    quote: "25 Sep 2026 25 Sep 2026 10 The all-new Ford Transit City has gone on sale in the UK"
+    quote: "The all-new Ford Transit City has gone on sale in the UK"
   - claim: "90% of van operators in this class drive less than 68 miles a day"
     source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
     quote: "According to Ford, 90% of van operators in the segment drive less than 68 miles (110km) per day."
@@ -139,7 +151,7 @@ facts:
   - claim: "Ford's payloads are gross figures that don't include the driver"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "The payload stated above is the gross payload not including the driver"
-  - claim: "a chassis cab rated at 1,600kg"
+  - claim: "a chassis cab with a 1,600kg payload"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Chassis Cab LWB 330M 56kWh 110kW / 150PS 1-speed automatic FWD 1,670 3,270 1,600 1,745 1,440 1,920"
   # Range and charging
@@ -187,9 +199,9 @@ facts:
   - claim: "a 110kW (150PS) motor driving the front wheels"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 300S SWB H1 56kWh 110kW / 150PS 1-speed automatic FWD"
-  - claim: "0-62mph in 13.7 seconds, with a 75mph top speed and a 12-metre turning circle"
+  - claim: "0-62mph in 13.7 seconds, with a 75mph top speed"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
-    quote: "meaning the van can go from 0-62mph in 13.7 seconds and top out at 75mph. In accordance with its focus on urban use, the turning circle is a tight 12 metres."
+    quote: "meaning the van can go from 0-62mph in 13.7 seconds and top out at 75mph"
   - claim: "a one-pedal driving mode"
     source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
     quote: "Ford has optimised the one-pedal mode designed for the Transit City"
@@ -206,6 +218,9 @@ facts:
   - claim: "front and rear parking sensors"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Front Parking Aid - 4 ultrasonic sensors CL7AB"
+  - claim: "front and rear parking sensors"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "Rear Parking Aid - 4 ultrasonic sensors CLUAB"
   - claim: "a reversing camera"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Fixed Rear View Camera J3KAB"
@@ -250,6 +265,12 @@ facts:
   - claim: "up to 230 miles"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "All-electric driving range of up to 230 miles"
+  - claim: "a higher 125kW rapid-charging peak"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "High-speed 125 kW DC public chargers"
+  - claim: "the E-Transit Custom's 125kW"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "High-speed 125 kW DC public chargers"
   # Price
   - claim: "£31,500 for the L2H2"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
@@ -274,6 +295,9 @@ facts:
   - claim: "a headline figure of £22,200"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "£22,200 SWB Van"
+  - claim: "£22,200 before VAT"
+    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
+    quote: "This is the Basic Recommended Retail price excluding VAT, and"
   - claim: "includes both the grant and a customer saving for VAT-registered businesses"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "The price shown includes a Customer Saving, which is available to VAT registered business customers who must retain the vehicle for at least 9 months and a government grant saving, which is available to all customers."
@@ -294,21 +318,21 @@ facts:
 
 ### Who it's for
 
-The Transit City is Ford's answer to a simple question: what's the cheapest way to put a Transit Custom-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on its own electric platform, and it went on sale in the UK in September 2026. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says 90% of van operators in this class drive less than 68 miles a day. If that sounds like your fleet, the modest range matters less than the low price.
+The Transit City is Ford's answer to a simple question: what's the cheapest way to put a Transit Custom-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on a dedicated electric platform, and it's on sale in the UK now. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says 90% of van operators in this class drive less than 68 miles a day. If that sounds like your fleet, the modest range matters less than the low price.
 
 ### Load area and payload
 
-There are two panel vans. The L1H1 van has up to 6.4m³ of load space, room for three Euro pallets and a 1,085kg payload, and it stands 1,991mm tall. The high-roof L2H2 has 8.5m³ and carries up to 1,275kg, which is a lot for a van at this price. Load length at the floor is 2,770mm and 3,070mm respectively, with 1,300mm between the wheel arches, and the side door opening is 1,164mm wide. Ford's payloads are gross figures that don't include the driver, so allow for that before you plan a full load. Ford also lists a chassis cab rated at 1,600kg for conversions.
+There are two panel vans. The L1H1 van has up to 6.4m³ of load space, room for three Euro pallets and a 1,085kg payload, and it stands 1,991mm tall. The high-roof L2H2 has 8.5m³ and carries up to 1,275kg, which is a lot for a van at this price. Load length at the floor is 2,770mm and 3,070mm respectively, with 1,300mm between the wheel arches, and the side door opening is 1,164mm wide. Ford's payloads are gross figures that don't include the driver, so allow for that before you plan a full load. Ford also lists a chassis cab with a 1,600kg payload for conversions.
 
 ### Range and charging in the real world
 
 Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford quotes 236 miles. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
 
-Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and Ford's launch figures give an average rate of 67kW. That's slower than most rivals, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
+Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and Ford's launch figures give an average rate of 67kW. That's a lower peak than the E-Transit Custom's 125kW, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 
-Few UK road tests of the Transit City have been published yet, so we can't tell you how it rides or handles. On paper, it has a 110kW (150PS) motor driving the front wheels, with 260Nm of torque. It's reported to do 0-62mph in 13.7 seconds, with a 75mph top speed and a 12-metre turning circle, and there's a one-pedal driving mode for stop-start town work.
+Few UK road tests of the Transit City have been published yet, so we can't tell you how it rides or handles. On paper, it has a 110kW (150PS) motor driving the front wheels, with 260Nm of torque. It's reported to do 0-62mph in 13.7 seconds, with a 75mph top speed, and there's a one-pedal driving mode for stop-start town work.
 
 ### Cab and kit
 
@@ -320,8 +344,8 @@ Choose by the job. The L1H1 goes further on a charge and is easier to park. The 
 
 ### Alternatives
 
-The [Ford E-Transit Custom](/reviews/ford-transit-custom/) costs much more, from £43,630 before VAT, but goes further, up to 230 miles, and charges faster. Also compare the [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and the [Toyota Proace Electric](/vans/toyota-proace/).
+The [Ford E-Transit Custom](/reviews/ford-transit-custom/) costs much more, from £43,630 before VAT, but goes further, up to 230 miles, and has a higher 125kW rapid-charging peak. Also compare the [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and the [Toyota Proace Electric](/vans/toyota-proace/).
 
 ### Price
 
-On Ford's price list, effective from 29 April 2026, the L1H1 van is £29,000 before VAT and £31,500 for the L2H2. On the road before VAT, that's £29,436 and £31,936. Both vans are on the government's list of vans eligible for a grant of up to £5,000, and Ford shows the grant as a separate £5,000 saving. Ford's website quotes a headline figure of £22,200, but that includes both the grant and a customer saving for VAT-registered businesses that keep the van for at least 9 months, so compare like with like. The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years. See our [grants and tax guide](/guides/grants-and-tax/) and [electric vs diesel calculator](/tools/electric-vs-diesel/) before you order.
+On Ford's price list, effective from 29 April 2026, the L1H1 van is £29,000 before VAT and £31,500 for the L2H2. On the road before VAT, that's £29,436 and £31,936. Both vans are on the government's list of vans eligible for a grant of up to £5,000, and Ford shows the grant as a separate £5,000 saving. Ford's website quotes a headline figure of £22,200 before VAT, but that includes both the grant and a customer saving for VAT-registered businesses that keep the van for at least 9 months, so compare like with like. The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years. See our [grants and tax guide](/guides/grants-and-tax/) and [electric vs diesel calculator](/tools/electric-vs-diesel/) before you order.

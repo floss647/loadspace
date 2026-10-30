@@ -3,16 +3,16 @@ layout: ../../layouts/Review.astro
 title: "Mercedes-Benz eVito review"
 van: mercedes-benz-vito
 date: 2026-10-30T08:00:00Z
-summary: "The eVito on sale in the UK is the familiar Mercedes medium van with a 60kWh battery: well built, roomy and refined around town, but short on range and payload next to newer rivals, and its replacement is still to come."
+summary: "The eVito on sale in the UK is the familiar Mercedes medium van with a 60kWh battery: well built, roomy and brisk around town, but short on range and payload next to newer rivals, and its replacement is still to come."
 specs:
   price: "Not confirmed (last reported in March 2025)"
-  range: "Not confirmed (reports differ: 159 to 162 miles)"
+  range: "160 miles"
   charging: "80kW"
   payload: "Not confirmed (reports differ: 807 kg to 882 kg)"
   batteryWarranty: "Not confirmed (no current maker statement)"
-verdict: "The eVito is a well-made electric version of a van many firms already know, with the same load space as the diesel Vito and a reputation for brisk, refined town driving. Its weak points are clear: a modest official range from the 60kWh battery, 80kW rapid charging and a payload below a tonne. The bigger-battery version sold elsewhere isn't coming to the UK, and a new Vito on a fresh electric platform is on the way. Buy one for local work if the badge, the build and the dealer network matter to you, but compare it hard against newer rivals first."
-good: ["Same load space as the diesel Vito", "Refined and brisk around town", "Sliding side doors on both sides"]
-bad: ["Short official range for the money", "Payload below a tonne", "No high-roof version"]
+verdict: "The eVito is a well-made electric version of a van many firms already know, with the same load space as the diesel Vito and a reputation for brisk town driving. Its weak points are clear: a modest official range from the 60kWh battery, 80kW rapid charging and a payload below a tonne. The bigger-battery version sold elsewhere isn't coming to the UK, and a new Vito on a fresh electric platform is on the way. Buy one for local work if the badge, the build and the dealer network matter to you, but compare it hard against newer rivals first."
+good: ["Same load space as the diesel Vito", "Brisk away from a standstill", "Sliding side doors on both sides"]
+bad: ["Shorter official range than many rivals", "Payload below a tonne", "No high-roof version"]
 sources:
   - https://www.autoexpress.co.uk/mercedes/vito
   - https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
@@ -29,8 +29,9 @@ facts:
   - claim: "March 2025"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "27 Mar 2025"
-  - claim: "159 to 162 miles"
-    calc: "Lowest and highest of the sourced figures below: 159 miles (Auto Express, March 2025), 160 miles (Auto Express, July 2026), 162 miles (Van Reviewer, February 2026)"
+  - claim: "160 miles"
+    source: https://www.autoexpress.co.uk/best/medium-van
+    quote: "offers up to 160 miles of range on the WLTP combined cycle"
   - claim: "80kW"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "The eVito has a maximum charging speed of 80kW"
@@ -42,18 +43,18 @@ facts:
   - claim: "the same load space as the diesel Vito"
     source: https://www.autoexpress.co.uk/best/medium-van
     quote: "the eVito loses nothing when it comes to cargo capacity to the diesel vans"
-  - claim: "Refined and brisk around town"
+  - claim: "Brisk away from a standstill"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "decent acceleration off the line"
-  - claim: "a reputation for brisk, refined town driving"
-    source: https://www.autoexpress.co.uk/mercedes/vito
-    quote: "extremely refined at low speeds"
+  - claim: "a reputation for brisk town driving"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
+    quote: "it picks up from a standstill and low speeds very quickly"
   - claim: "Sliding side doors on both sides"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "you get a pair of sliding side doors"
-  - claim: "Short official range for the money"
-    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
-    quote: "Rivals go further for less money"
+  - claim: "Shorter official range than many rivals"
+    source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
+    quote: "Citroën e-Dispatch 1,904 2,204 4,981 231 45 4.1"
   - claim: "Payload below a tonne"
     source: https://www.autoexpress.co.uk/best/medium-van
     quote: "the maximum payload drops slightly to 807kg"
@@ -147,7 +148,7 @@ facts:
   - claim: "motorway speeds cut it significantly"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "runs at higher motorway speeds will see the range drop significantly"
-  - claim: "One long-term road test found the official figure realistic in fair weather"
+  - claim: "A January 2023 road test, from before the facelift, found the official figure realistic in fair weather"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "We've found this to be pretty accurate, and had no qualms about setting off for a long-distance drive in fair weather."
   - claim: "winter range noticeably lower"
@@ -162,31 +163,34 @@ facts:
   - claim: "the 90kWh version sold elsewhere charges at up to 110kW"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "There’s also a higher maximum recharge rate for the 90kWh version over the 60kWh at up to 110kW."
-  - claim: "The most detailed UK road test of the electric van dates from January 2023"
+  - claim: "a January 2023 road test"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "04 January 2023"
-  - claim: "it picks up quickly from a standstill"
+  - claim: "a February 2024 review of the facelifted range"
+    source: https://www.autoexpress.co.uk/mercedes/vito
+    quote: "7 Feb 2024"
+  - claim: "Both say it picks up quickly from a standstill"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "it picks up from a standstill and low speeds very quickly"
-  - claim: "is very refined at low speeds"
+  - claim: "one calls it very refined at low speeds"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "extremely refined at low speeds"
-  - claim: "road noise becomes the main intrusion as speed rises"
+  - claim: "tyre noise becoming the main intrusion as speed rises"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "tyre noise is the biggest issue the faster you go"
-  - claim: "a fair bit of road noise"
+  - claim: "noticeable road noise and motor hum"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "there is also a fair bit of road noise and humming from the motor"
   - claim: "feel strained at 70mph"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "it does feel a little strained when sitting at 70pmh"
-  - claim: "It also has a choice of driving modes and adjustable regenerative braking"
+  - claim: "There's a choice of driving modes and adjustable regenerative braking"
     source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
     quote: "For those that really like to feel in charge of their van there’s also a choice of regenerative braking settings."
   - claim: "a foot-operated parking brake"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "foot-operated parking brake takes a lot of getting used to"
-  - claim: "a gear selector on the steering column"
+  - claim: "the gear selector on the steering column"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "you select drive and reverse via a steering-column-mounted lever"
   - claim: "the cab as solidly built but on the cramped side"
@@ -198,16 +202,19 @@ facts:
   - claim: "Pro and Select"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "The eVito is currently offered in Pro and Select trim levels in the UK"
-  - claim: "Mercedes vans come with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer"
+  - claim: "new Mercedes vans came with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "All new Mercedes Vans come with MobiloVan roadside assistance, which is free for up to 30 years (!) as long as the van is serviced by a Mercedes dealer."
-  - claim: "Most of the eVito's rivals go further on a charge and carry more"
-    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
-    quote: "Rivals go further for less money"
+  - claim: "gives the Citroën e-Dispatch 231 miles"
+    source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
+    quote: "Citroën e-Dispatch 1,904 2,204 4,981 231 45 4.1"
+  - claim: "against the eVito's 162"
+    source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
+    quote: "allowing a range of up to 162 miles on the official WLTP cycle"
   - claim: "the 60kWh eVito was reported at £48,530 to £51,915"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "The eVito is currently offered in Pro and Select trim levels in the UK for the 60kWh battery model, priced between £48,530 and £51,915."
-  - claim: "worth up to £5,000 for vans of its size"
+  - claim: "a discount of up to £5,000 on large vans like this one"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
 ---
@@ -230,22 +237,22 @@ Payload is the catch, and the published figures don't agree. One report gives a 
 
 ### Range and charging in the real world
 
-Range figures differ slightly too. A February 2026 roundup quotes 162 miles on the official WLTP cycle, a July 2026 one says up to 160 miles on the WLTP combined cycle, and an earlier report said 159. That is modest for a medium electric van, and motorway speeds cut it significantly. One long-term road test found the official figure realistic in fair weather, with winter range noticeably lower.
+Range figures differ slightly too. A February 2026 roundup quotes 162 miles on the official WLTP cycle, a July 2026 one says up to 160 miles on the WLTP combined cycle, and an earlier report said 159. That is modest for a medium electric van, and motorway speeds cut it significantly. A January 2023 road test, from before the facelift, found the official figure realistic in fair weather, with winter range noticeably lower.
 
 Rapid charging peaks at 80kW, and a 10 to 80% top-up takes around 35 minutes. A 7kW wallbox takes just under 10 hours to fill it, so plan on overnight charging at home or the depot. For comparison, the 90kWh version sold elsewhere charges at up to 110kW. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 
-The most detailed UK road test of the electric van dates from January 2023, before the facelift, so treat what follows as reputation rather than a verdict on the latest van. By all accounts it picks up quickly from a standstill and is very refined at low speeds, but road noise becomes the main intrusion as speed rises. That test also noted a fair bit of road noise and found it could feel strained at 70mph. It also has a choice of driving modes and adjustable regenerative braking.
+Two published UK reviews describe how the electric van drives: a January 2023 road test, from before the facelift, and a February 2024 review of the facelifted range. Treat this as reputation rather than a verdict on the latest van. Both say it picks up quickly from a standstill. On refinement they differ: one calls it very refined at low speeds, with tyre noise becoming the main intrusion as speed rises, while the older test reported noticeable road noise and motor hum and found it could feel strained at 70mph. There's a choice of driving modes and adjustable regenerative braking.
 
 ### Cab and kit
 
-Expect Mercedes quirks: a foot-operated parking brake and a gear selector on the steering column, both of which take some getting used to. One road test describes the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list. Mercedes vans come with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer.
+Expect Mercedes quirks: a foot-operated parking brake takes some getting used to, and the older road test flagged the gear selector on the steering column too. That test described the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list. At the start of 2023, new Mercedes vans came with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer; check the terms still apply.
 
 ### Alternatives
 
-Most of the eVito's rivals go further on a charge and carry more. Compare it with the [Ford E-Transit Custom](/reviews/ford-transit-custom/), [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and [Volkswagen ID. Buzz Cargo](/vans/volkswagen-id-buzz-cargo/). For more space, there's the [Mercedes-Benz eSprinter](/vans/mercedes-benz-sprinter/).
+Many electric rivals go further on a charge: a February 2026 roundup of medium electric vans gives the Citroën e-Dispatch 231 miles, for example, against the eVito's 162. Compare it with the [Ford E-Transit Custom](/reviews/ford-transit-custom/), [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and [Volkswagen ID. Buzz Cargo](/vans/volkswagen-id-buzz-cargo/). For more space, there's the [Mercedes-Benz eSprinter](/vans/mercedes-benz-sprinter/).
 
 ### Price
 
-We couldn't confirm a current UK list price. In March 2025 the 60kWh eVito was reported at £48,530 to £51,915, without saying whether VAT was included, so get a written quote. The eVito qualifies for the plug-in van grant, worth up to £5,000 for vans of its size; see our [grants and tax guide](/guides/grants-and-tax/). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will show whether it pays for your mileage.
+We couldn't confirm a current UK list price. In March 2025 the 60kWh eVito was reported at £48,530 to £51,915, without saying whether VAT was included, so get a written quote. The eVito is on the plug-in van grant list, which gives a discount of up to £5,000 on large vans like this one; see our [grants and tax guide](/guides/grants-and-tax/). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will show whether it pays for your mileage.
