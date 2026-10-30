@@ -26,6 +26,7 @@ sources:
   - https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
   - https://vanreviewer.co.uk/fiat/e-ducato/review/4156/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
+  - https://www.gov.uk/driving-licence-categories
 facts:
   - claim: "263 miles"
     source: https://www.autoexpress.co.uk/fiat/ducato
@@ -81,7 +82,7 @@ facts:
   - claim: "Fiat developed its own electric Ducato"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "before then, Fiat created the e-Ducato in-house, while Citroen/Peugeot farmed the Relay/Boxer electrification out to a third party"
-  - claim: "since an update at the end of 2024"
+  - claim: "the updated E-Ducato uses the same electric drive"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "an update at the end of 2024 saw all three models achieve equal status in terms of electric drive"
   - claim: "Older E-Ducatos had smaller batteries"
@@ -117,7 +118,7 @@ facts:
   - claim: "2,400kg"
     source: https://www.autoexpress.co.uk/fiat/ducato
     quote: "You can carry 2,400kg in the E-Ducato and a tow hook is £500 on the options list."
-  - claim: "the smaller vans reach 263 miles and some versions only 235"
+  - claim: "up to 263 miles, with some versions only managing 235"
     source: https://www.autoexpress.co.uk/fiat/ducato
     quote: "The electric E-Ducato has a range of up to 263 miles, although some models are only capable of 235 miles according to official figures."
   - claim: "Other reports give 261 miles"
@@ -132,7 +133,7 @@ facts:
   - claim: "a 7.4kW wallbox takes about 17 hours"
     source: https://www.autoexpress.co.uk/fiat/ducato
     quote: "7.4kW single-phase charging will take about 17 hours to recharge the van fully"
-  - claim: "it is composed, with little body roll for its size"
+  - claim: "composed, with little body roll for its size"
     source: https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
     quote: "On the road, e-Ducato feels composed"
   - claim: "little body roll for its size"
@@ -168,7 +169,7 @@ facts:
   - claim: "In June 2025"
     source: https://www.autoexpress.co.uk/fiat/ducato
     quote: "By: Sam Naylor 18 Jun 2025"
-  - claim: "Fiat's launch price"
+  - claim: "An earlier published list price"
     source: https://vanreviewer.co.uk/fiat/e-ducato/review/4156/
     quote: "E-Ducato list price starts at £44,485 (exc. VAT and incl. Plug-in Van Grant)"
   - claim: "£44,485 excluding VAT with the grant already taken off"
@@ -180,9 +181,30 @@ facts:
   - claim: "The E-Ducato is on the government's list of large vans eligible for the van grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Fiat e-Ducato Fiat E-Scudo"
+  - claim: "One 2024 first drive gave"
+    source: https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
+    quote: "First Drive: Fiat e-Ducato 31 July 2024"
+  - claim: "130kW in its data panel"
+    source: https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
+    quote: "CHARGING? 130kW DC / 11kW AC"
+  - claim: "but 150kW in its text"
+    source: https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
+    quote: "e-Ducato has the potential to charge at a rate of 150kW"
+  - claim: "other sources agree on 150kW"
+    source: https://vanreviewer.co.uk/fiat/e-ducato/review/4156/
+    quote: "It is capable of charging at 150kW from a DC rapid charger"
+  - claim: "Published reports describe it as composed"
+    source: https://vanfleetworld.co.uk/first-drive-fiat-e-ducato/
+    quote: "On the road, e-Ducato feels composed"
+  - claim: "Wind noise at speed is a common criticism"
+    source: https://www.autoexpress.co.uk/fiat/ducato
+    quote: "there's a lot of road and wind noise transmitted straight into the cabin"
+  - claim: "a car (category B) licence covers zero-emission vehicles up to 4,250kg"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
 ---
 
-Fiat developed its own electric Ducato, but since an update at the end of 2024 the E-Ducato has used the same electric drive as the [Vauxhall Movano Electric](/vans/vauxhall-movano/), [Citroën ë-Relay](/vans/citroen-relay/), [Peugeot E-Boxer](/vans/peugeot-boxer/) and [Toyota Proace Max Electric](/vans/toyota-proace-max/). These vans are essentially the same, with virtually identical figures, so we focus here on what you get by choosing the Fiat. Older E-Ducatos had smaller batteries and are a different proposition, so don't confuse them with the current 110kWh van.
+Fiat developed its own electric Ducato, but the updated E-Ducato uses the same electric drive as the [Vauxhall Movano Electric](/vans/vauxhall-movano/), [Citroën ë-Relay](/vans/citroen-relay/), [Peugeot E-Boxer](/vans/peugeot-boxer/) and [Toyota Proace Max Electric](/vans/toyota-proace-max/). These vans are essentially the same, with virtually identical figures, so we focus here on what you get by choosing the Fiat. Older E-Ducatos had smaller batteries and are a different proposition, so don't confuse them with the current 110kWh van.
 
 ### Who it's for
 
@@ -192,17 +214,17 @@ Fleets and trades that need a full-size electric van with real range, and anyone
 
 You can have L3H2, L3H3, L4H2 and L4H3 panel vans, an L4H2 Window Van and an L3H1 Chassis Cab. The biggest holds 17 cubic metres.
 
-The van comes at 3.5 and 4.25 tonnes, and the weight rating makes a huge difference. Some versions can carry only 710kg, while the 4.25-tonne versions with stronger suspension carry up to 1,460kg. A 2024 first drive quoted up to 1,695kg, so published maximums disagree. Ask for the plated payload of the exact van before you order. A tow hook is a £500 option, and towing up to 2,400kg is quoted.
+The van comes at 3.5 and 4.25 tonnes, and the weight rating makes a huge difference. Some versions can carry only 710kg, while the 4.25-tonne versions with stronger suspension carry up to 1,460kg. A 2024 first drive quoted up to 1,695kg, so published maximums disagree. Ask for the plated payload of the exact van before you order. Under current GOV.UK rules, a car (category B) licence covers zero-emission vehicles up to 4,250kg, so the heavier versions can still be driven on one. A tow hook is a £500 option, and towing up to 2,400kg is quoted.
 
 ### Range and charging in the real world
 
-Official range depends on the version: the smaller vans reach 263 miles and some versions only 235. Other reports give 261 miles. Plan around less when you're loaded.
+Official range depends on the version: up to 263 miles, with some versions only managing 235. Other reports give 261 miles. Plan around less when you're loaded.
 
-Rapid charging at up to 150kW takes the battery from five to 80% in 55 minutes. On AC, a 7.4kW wallbox takes about 17 hours, and the first drive quoted 11 hours 45 minutes from empty on an 11kW supply. If you run it hard every day, fit three-phase charging at the depot. See our [charging guide](/guides/charging-an-electric-van/).
+Rapid charging at up to 150kW takes the battery from five to 80% in 55 minutes. One 2024 first drive gave 130kW in its data panel, but 150kW in its text, and other sources agree on 150kW. On AC, a 7.4kW wallbox takes about 17 hours, and the first drive quoted 11 hours 45 minutes from empty on an 11kW supply. If you run it hard every day, fit three-phase charging at the depot. See our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-By early accounts it is composed, with little body roll for its size, and the electric motor is smooth and punchy. The extra weight means it rides better unladen than the bouncy diesel, and the electric one is the best Ducato for town work. Wind noise is the main complaint at speed.
+Published reports describe it as composed, with little body roll for its size, and the electric motor is smooth and punchy. The extra weight means it rides better unladen than the bouncy diesel, and the electric one is the best Ducato for town work. Wind noise at speed is a common criticism.
 
 ### Cab and kit
 
@@ -212,7 +234,7 @@ Fiat sells two trims, Ducato and Primo. Primo adds keyless entry and go, climate
 
 The van gets three years or 100,000 miles, and the battery is covered for eight years or 100,000 miles. Among the twins, the Toyota comes with a better warranty but fewer versions.
 
-We couldn't confirm a current UK list price. In June 2025, a price of around £46,000 for the panel van was reported, without saying whether VAT or the grant was included. Fiat's launch price was £44,485 excluding VAT with the grant already taken off. The E-Ducato is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price. In June 2025, a price of around £46,000 for the panel van was reported, without saying whether VAT or the grant was included. An earlier published list price was £44,485 excluding VAT with the grant already taken off. The E-Ducato is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Alternatives
 

@@ -10,9 +10,9 @@ specs:
   charging: "Not confirmed (reports differ: 120kW to 300kW)"
   payload: "690 kg"
   batteryWarranty: "10 years or 1,000,000 km"
-verdict: "The Musso EV is the electric pickup for buyers who want the shape and the four-wheel drive more than the tonnage. It costs far less than its electric rivals, comes with almost everything as standard and has a long battery warranty. The catch is a payload under a tonne, so a business can't reclaim the VAT, and modest towing. For light loads, private use or a company car driver chasing low benefit in kind, it makes a lot of sense; for heavy site work, it doesn't."
+verdict: "The Musso EV is the electric pickup for buyers who want the shape and the four-wheel drive more than the tonnage. It costs far less than its electric rivals, comes with almost everything as standard and has a long battery warranty. The catch is a payload under a tonne, which puts it on the car side of HMRC's VAT test, and modest towing. For light loads, private use or a company car driver chasing low benefit in kind, it makes a lot of sense; for heavy site work, it doesn't."
 good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy cab", "10-year battery warranty"]
-bad: ["690 kg payload, so no VAT reclaim", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
+bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
 sources:
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
@@ -21,6 +21,7 @@ sources:
   - https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
   - https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
+  - https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
   - https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
   - https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
 facts:
@@ -51,12 +52,15 @@ facts:
   - claim: "10-year battery warranty"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "The battery is also separately covered by 10 years and 1,000,000km"
-  - claim: "seven-year, 90,000-mile warranty"
+  - claim: "seven-year, 90,000-mile vehicle warranty"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "It also comes with a generous seven year and 90,000 mile warranty"
-  - claim: "seven-year, 90,000-mile warranty"
+  - claim: "seven-year, 90,000-mile vehicle warranty"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "a long seven-year/90,000-mile manufacturer’s warranty"
+  - claim: "one gives five years or 100,000 miles"
+    source: https://www.autoexpress.co.uk/kgm/musso/ev
+    quote: "The KGM Musso EV is covered by a five-year/100,000-mile warranty as standard"
   - claim: "235"
     source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
     quote: "Range? 235 miles (manufacturer figure)"
@@ -87,6 +91,12 @@ facts:
   - claim: "120kW"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "rapid charge at speeds up to 120kW"
+  - claim: "300kW as the rating of the charger"
+    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
+    quote: "It can be charged on a 300kW rapid charger"
+  - claim: "300kW as the rating of the charger"
+    source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
+    quote: "a 20 to 80% charge time of 31 minutes on a 300kW DC rapid charge"
   - claim: "10 to 80 per cent took 46 minutes on a 100kW charger"
     source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
     quote: "How long to charge 10-80%? 46 minutes (100kW DC charger)"
@@ -126,15 +136,39 @@ facts:
   - claim: "self-levelling rear suspension"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "It also has standard rear self-levelling suspension for better control of heavy loads"
-  - claim: "690 kg payload, so no VAT reclaim"
+  - claim: "690 kg payload, a car for VAT"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "The Musso EV’s 690kg payload means it misses out on the one-tonne requirement required for a pickup to be VAT reclaimable"
-  - claim: "HMRC treats a double cab with a payload under one tonne as a car for VAT"
+  - claim: "690 kg payload, a car for VAT"
+    source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
+    quote: "Under the VAT approach double cab pickups are classified based on payload capacity, with anything under one tonne classified as a car, and anything a tonne and over as a van"
+  - claim: "the car side of HMRC's VAT test"
+    source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
+    quote: "Under the VAT approach double cab pickups are classified based on payload capacity, with anything under one tonne classified as a car, and anything a tonne and over as a van"
+  - claim: "HMRC's VAT approach sorts double cab pickups by payload: under one tonne counts as a car, a tonne or more as a van"
+    source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
+    quote: "Under the VAT approach double cab pickups are classified based on payload capacity, with anything under one tonne classified as a car, and anything a tonne and over as a van"
+  - claim: "HMRC's VAT approach sorts double cab pickups by payload: under one tonne counts as a car, a tonne or more as a van"
     source: https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
     quote: "From 1 December 1999 vehicles are not treated as cars for VAT purposes if they have a payload of one tonne or more"
-  - claim: "since 6 April 2025 most double cabs are taxed as cars for benefit in kind anyway"
+  - claim: "most ordinary business cars carry a block on reclaiming the input tax"
+    source: https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
+    quote: "most ordinary business cars are subject to a block on input tax recovery"
+  - claim: "Payload for this test is gross weight minus kerb weight"
+    source: https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
+    quote: "Payload is the difference between a vehicle’s maximum gross weight and its kerbside weight"
+  - claim: "fitting accessories can lower it"
+    source: https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
+    quote: "by adding accessories to the ex-works model they may, by lowering the payload of the vehicle, convert it into a car"
+  - claim: "from 6 April 2025 most double cab pickups are expected to be classified as cars"
     source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
     quote: "It therefore follows that from 6 April 2025 most double cab pickups are expected to be classified as cars when calculating the benefit charge"
+  - claim: "transitional rules for some pickups bought, leased or ordered before that date"
+    source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
+    quote: "Transitional arrangements will apply for employers that have purchased , leased, or ordered a double cab pickup before 6 April 2025"
+  - claim: "With zero tailpipe emissions it is taxed like an electric car"
+    source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
+    quote: "because of the Musso EV’s 0g/km CO2 emissions, it’s taxed like it’s an electric car"
   - claim: "from about £30 a month in company car tax in 2026/27, against £227 for a diesel Musso"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "a Musso diesel would cost from £227 per month in company car tax, whereas the EV starts from only £30 a month in the 2026/27 tax year"
@@ -228,6 +262,12 @@ facts:
   - claim: "Maxus eTerron 9"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "the Maxus eTerron 9, which starts at nearly £55,000 before VAT"
+  - claim: "has a better off-road reputation"
+    source: https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
+    quote: "it’s a great truck to drive, it’s comfortable and it’s surprisingly good off-road"
+  - claim: "a much shorter range"
+    source: https://www.autoexpress.co.uk/kgm/musso/ev
+    quote: "it’s well ahead of the Isuzu D-Max EV ’s 163 miles, or 143 miles from the Toyota Hilux BEV"
 ---
 
 The Musso EV borrows a famous pickup name but very little else. It is built on KGM's car platform rather than a separate chassis and shares almost nothing with the diesel Musso. That explains both its strengths and its limits.
@@ -244,25 +284,27 @@ Payload is 690 kg in most reports, though one spec listing shows 730kg. Braked t
 
 ### Tax: van or car?
 
-HMRC treats a double cab with a payload under one tonne as a car for VAT, so most businesses can't reclaim VAT on the purchase. On the other hand, since 6 April 2025 most double cabs are taxed as cars for benefit in kind anyway, and here zero emissions help: one estimate puts it from about £30 a month in company car tax in 2026/27, against £227 for a diesel Musso. See our [grants and tax guide](/guides/grants-and-tax/).
+HMRC's VAT approach sorts double cab pickups by payload: under one tonne counts as a car, a tonne or more as a van. Payload for this test is gross weight minus kerb weight, and fitting accessories can lower it. HMRC's VAT manual also says most ordinary business cars carry a block on reclaiming the input tax. Every reported Musso EV payload is well under a tonne, so don't plan on reclaiming the VAT without advice.
+
+For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups are expected to be classified as cars, judged on the vehicle as a whole, with transitional rules for some pickups bought, leased or ordered before that date. With zero tailpipe emissions it is taxed like an electric car, which helps: one estimate puts it from about £30 a month in company car tax in 2026/27, against £227 for a diesel Musso. Your own position depends on how you buy and use it, so check with your accountant. See our [grants and tax guide](/guides/grants-and-tax/).
 
 ### Range and charging in the real world
 
 The 80.6kWh battery is bigger than its rivals', but reports of the official range differ: 236 miles, 240 miles and 249 miles have all been quoted, so we haven't scored it. One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
 
-Charging figures disagree too. One review says 120kW at most, while others quote 300kW. In one first drive, 10 to 80 per cent took 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
+Charging figures disagree too. One review gives a peak of 120kW, while others mention 300kW as the rating of the charger used, so we haven't scored it. In one first drive, 10 to 80 per cent took 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-Reports agree on a reputation for a smooth, car-like ride and a quiet cab, with some bounce from the back when it's empty and brisk pace (0-62mph in eight seconds). The downsides are slow steering, and the driver attention monitor is oversensitive while the lane-keeping assist tugs at the wheel. Off road it is weaker than the diesel: one test found it struggled on a damp grassy slope. There are no off-road modes beyond hill descent control.
+Reports agree on a reputation for a smooth, car-like ride and a quiet cab, with some bounce from the back when it's empty and brisk pace (0-62mph in eight seconds). One test found slow steering, reports agree the driver attention monitor is oversensitive, and another test found the lane-keeping assist tugs at the wheel. Off road, one test found it happier on tarmac: it struggled on a damp grassy slope. There are no off-road modes beyond hill descent control.
 
 ### Cab and kit
 
-There's one trim, and it comes loaded: leather, heated and ventilated front seats, heated rear seats, a heated steering wheel, a 360-degree camera and adaptive cruise control. It's also roomy in the back by pickup standards. The let-downs are that the touchscreen is slow and fiddly and phone mirroring needs a cable. Paint other than white costs £750. KGM backs it with a seven-year, 90,000-mile warranty and separate battery cover for 10 years or 1,000,000 km.
+There's one trim, and it comes loaded: leather, heated and ventilated front seats, heated rear seats, a heated steering wheel, a 360-degree camera and adaptive cruise control. It's also roomy in the back by pickup standards. The let-downs are that the touchscreen is slow and fiddly and phone mirroring needs a cable. Paint other than white costs £750. Most reports give a seven-year, 90,000-mile vehicle warranty (one gives five years or 100,000 miles), and separate battery cover for 10 years or 1,000,000 km.
 
 ### Alternatives
 
-The [Toyota Hilux electric](/vans/toyota-hilux/) is tougher off road but has a shorter range, and the [Maxus eTerron 9](/vans/maxus-eterron-9/) tows 3.5 tonnes at a much higher price. The [diesel Musso](/vans/kgm-musso/) is the obvious comparison on running costs; try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+The [Toyota Hilux electric](/vans/toyota-hilux/) has a better off-road reputation but a much shorter range, and the [Maxus eTerron 9](/vans/maxus-eterron-9/) tows 3.5 tonnes at a much higher price. The [diesel Musso](/vans/kgm-musso/) is the obvious comparison on running costs; try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Price
 
