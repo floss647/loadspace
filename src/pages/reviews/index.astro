@@ -24,6 +24,7 @@ const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/
           <div class="review-card-text">
             <h2>{r.vanName}</h2>
             <p>{r.summary}</p>
+            <p class="card-price">{r.price.confirmed ? <>From <strong>{r.price.value}</strong> ex VAT, before grant</> : 'Price not confirmed'}</p>
             <div class="mini-meters">
               {r.score.rows.map((row) => (
                 <span title={`${row.label}: ${row.points != null ? row.points + '/5' : 'not confirmed'}`}>

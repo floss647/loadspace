@@ -3,20 +3,24 @@ layout: ../../layouts/Review.astro
 title: "Renault Kangoo E-Tech review"
 van: renault-kangoo
 date: 2026-10-30T08:00:00Z
-summary: "The van the Nissan and Mercedes versions are built from: smooth, comfortable and sensibly sized, with a heat pump as standard. Its range is modest, rapid charging is slow by current standards and the van warranty is the least generous of the three badges."
+summary: "The van the Nissan and Mercedes versions are built from: smooth, comfortable and sensibly sized, with a heat pump as standard. Its range is modest, rapid charging is slow by current standards and the van warranty is shorter than the Nissan twin's."
 specs:
-  price: "Not confirmed (reports differ, see below)"
-  range: "186 miles"
+  price: "Not confirmed (Renault's UK price doesn't state the VAT basis, see below)"
+  range: "190 miles"
   charging: "80kW"
   payload: "Not confirmed (reports differ, see below)"
-  batteryWarranty: "8 years (reported)"
-verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. Its 186-mile official range and 80kW rapid charging trail many rivals, and Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first, and ask when the updated 52kWh van Renault announced in October 2026 will reach the UK."
+  batteryWarranty: "8 years or 100,000 miles"
+verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay that goes up to 4.2 cubic metres in the long version. Its 190-mile official range is modest, its 80kW rapid charging trails rivals such as the 100kW Stellantis small vans, and Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first, and ask when the updated 52kWh van Renault announced in October 2026 will reach the UK."
 good: ["Smooth, comfortable drive", "Heat pump as standard", "Long LL van carries more and is on the large-van grant list"]
 bad: ["Three-year van warranty, where the Nissan twin gets five", "80kW rapid charging is slow by current standards", "No through-load bulkhead or pillarless side door in the UK"]
 factCheck:
   by: "independent fact-checker"
   date: 2026-10-30
 sources:
+  - https://www.renault.co.uk/electric-vehicles.html
+  - https://www.renault.co.uk/blog/large-electric-vans.html
+  - https://www.renault.co.uk/van-range.html
+  - https://www.renault.co.uk/e-tech-electric/advantages.html
   - https://www.autoexpress.co.uk/renault/kangoo/van
   - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
@@ -27,29 +31,54 @@ sources:
   - https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
 facts:
-  - claim: "186 miles"
-    source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "The all-electric Kangoo E-Tech has a WLTP -tested range of 186 miles from its 44kWh battery"
-  - claim: "186 miles"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Maximum WLTP combined battery range: 186 miles"
-  - claim: "Its 186-mile official range"
-    source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
-    quote: "a WLTP -tested range of 186 miles is 12 miles longer than you'll get in a Citroen e-Berlingo"
+  - claim: "190 miles"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "Kangoo Van E-Tech electric up to 190 miles"
+  - claim: "Its 190-mile official range"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "Kangoo Van E-Tech electric up to 190 miles"
+  - claim: "an official (WLTP) range"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "vehicle driving range (WLTP)^ driving range simulator charging time"
+  - claim: "Renault quoted up to 186"
+    source: https://www.renault.co.uk/blog/large-electric-vans.html
+    quote: "With a driving range of up to 186 miles"
+  - claim: "in August 2025"
+    source: https://www.renault.co.uk/blog/large-electric-vans.html
+    quote: "Steve Fowler - 22/08/2025"
+  - claim: "Renault says a 15 to 80 per cent charge takes 40 minutes"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "Kangoo Van E-Tech electric up to 190 miles simulate driving range 15-80% 40 min"
+  - claim: "8 years or 100,000 miles"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "E-Tech electric vehicle batteries are guaranteed for 8 years or 100,000 miles"
+  - claim: "the battery is covered for eight years or 100,000 miles"
+    source: https://www.renault.co.uk/e-tech-electric/advantages.html
+    quote: "Our batteries are guaranteed for 8 years or 100,000 miles"
+  - claim: "Renault's UK website lists the Kangoo E-Tech from £30,835 after the van grant"
+    source: https://www.renault.co.uk/van-range.html
+    quote: "KANGOO starting from £30,835 * *MRRP after ZEVG, excluding metallic paint. electric"
+  - claim: "Renault's UK website still lists the current van"
+    source: https://www.renault.co.uk/electric-vehicles.html
+    quote: "Kangoo Van E-Tech electric up to 190 miles"
   - claim: "80kW"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "the van can accept a supply of up to 80kW without issue"
   - claim: "80kW rapid charging"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "In DC mode, maximum power increases from 80 to 100 kW"
-  - claim: "20 to 80 per cent in about 40 minutes"
+  - claim: "the van warranty is shorter than the Nissan twin's"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "you can take the battery from 20-80 per cent capacity (by plugging into the charging port located behind the Renault badge on the nose) in 40 minutes"
-  - claim: "8 years"
-    calc: "Parkers reports an 'eight-year warranty' on the battery (next fact): eight years = 8 years"
-  - claim: "the battery is covered for eight years"
-    source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
-    quote: "The battery, as is often the case with electric vehicles, gets longer cover, with an eight-year warranty on that alone"
+    quote: "You can extend this at extra cost for up to five years, but the closely-related Nissan Townstar comes with this as standard"
+  - claim: "trails rivals such as the 100kW Stellantis small vans"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "CCS fast-charging at a rate of up to 100kW should also prove useful to operators"
+  - claim: "the Stellantis small vans"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "Toyota Proace City Electric and Vauxhall Combo Electric which all sit on the same underpinnings and share the same battery"
+  - claim: "slower than several rivals, such as the Stellantis small vans at up to 100kW"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "CCS fast-charging at a rate of up to 100kW should also prove useful to operators"
   - claim: "below 70% capacity"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "Renault has said that it will replace any battery that drops below 70% capacity"
@@ -219,25 +248,25 @@ facts:
     quote: "Prices from: £34,435 (Kangoo E-Tech, excl. VAT, after PiVG)"
 ---
 
-The Kangoo E-Tech is the electric version of Renault's small van, and it's the van the [Nissan Townstar EV](/vans/nissan-townstar/) and [Mercedes-Benz eCitan](/vans/mercedes-benz-citan/) are based on. Renault builds it in France, at Maubeuge, and the three share their underpinnings, with the same body, 45kWh battery and motor in the Kangoo and the Mercedes. So the real question isn't which one drives best. It's which badge gives you the best price, warranty and dealer.
+The Kangoo E-Tech is the electric version of Renault's small van, and it's the van the [Nissan Townstar EV](/vans/nissan-townstar/) and [Mercedes-Benz eCitan](/vans/mercedes-benz-citan/) are based on. Renault builds it in France, at Maubeuge, and the three share their underpinnings, with the same body, 45kWh battery and motor in the Kangoo and the Mercedes. So the real question is which badge gives you the best price, warranty and dealer.
 
 ### Who it's for
 
-Trades, couriers and service fleets doing local and regional work. It's at its best around town: with an official range of 186 miles, long motorway days aren't its strength.
+Trades, couriers and service fleets doing local and regional work. It's at its best around town: with an official range of 190 miles, long motorway days aren't its strength.
 
 ### Load area and payload
 
 There are two lengths: the standard ML has 3.3 cubic metres and the longer LL has 4.2 cubic metres, with a sliding door on each side. Oddly, the longer van carries more, because it gets a heavier-duty rear axle that the short electric van can't have.
 
-Published payload figures don't agree. The ML has been quoted at 608kg and the LL at 764kg, while a July 2026 buying guide put the maximum at 702kg. Ask for the plated figure on the exact van you're quoted for. It can tow up to 1,500kg.
+Published payload figures don't agree. The ML has been quoted at 608kg and the LL at 764kg, while a July 2026 buying guide put the maximum at 702kg. Ask for the plated figure on the exact van. It can tow up to 1,500kg.
 
 UK vans miss out on the pillarless side opening sold in left-hand-drive markets, and there's no through-load bulkhead for lengths of pipe or timber.
 
 ### Range and charging in the real world
 
-A long-term test van managed around 130 miles in winter, dipping to about 100 miles in freezing weather, and around 140 miles as spring arrived. A heat pump is standard, which helps in the cold.
+Renault's UK website now lists an official (WLTP) range of up to 190 miles; in August 2025 Renault quoted up to 186. A long-term test van managed around 130 miles in winter, dipping to about 100 miles in freezing weather, and around 140 miles as spring arrived. A heat pump is standard, which helps in the cold.
 
-Rapid charging tops out at 80kW, which takes the battery from 20 to 80 per cent in about 40 minutes. That's fine for a lunch-break top-up but slower than several rivals. Our [charging guide](/guides/charging-an-electric-van/) covers home and depot options.
+Rapid charging tops out at 80kW, and Renault says a 15 to 80 per cent charge takes 40 minutes. That's fine for a lunch-break top-up but slower than several rivals, such as the Stellantis small vans at up to 100kW. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -249,11 +278,11 @@ The climate dials and steering wheel come from the Clio, and the cabin is hard-w
 
 ### What's coming
 
-In October 2026 Renault announced an updated Kangoo E-Tech with a bigger 52kWh battery, 100kW DC charging, a claimed WLTP range of up to 354km (about 220 miles, homologation pending) and vehicle-to-load (V2L) power. Renault says prices will follow in the coming weeks. Everything else in this review is about the 45kWh van. We couldn't confirm when the new one reaches the UK, or whether the Nissan and Mercedes versions get the same upgrade, so ask your dealer before you order.
+In October 2026 Renault announced an updated Kangoo E-Tech with a bigger 52kWh battery, 100kW DC charging, a claimed WLTP range of up to 354km (about 220 miles, homologation pending) and vehicle-to-load (V2L) power. Renault says prices will follow in the coming weeks. Everything else in this review is about the 45kWh van. Renault's UK website still lists the current van, with up to 190 miles, so we couldn't confirm when the new one reaches the UK, or whether the Nissan and Mercedes versions get the same upgrade, so ask your dealer before you order.
 
 ### Warranty
 
-This is where the Renault badge loses out. The van warranty is three years or 100,000 miles, extendable at extra cost, while Nissan gives the Townstar EV five years as standard. The battery is covered for eight years, and Renault has said it will replace one that falls below 70% capacity. Servicing is every two years or 24,000 miles.
+This is where the Renault badge loses out. The van warranty is three years or 100,000 miles, extendable at extra cost, while Nissan gives the Townstar EV five years as standard. The battery is covered for eight years or 100,000 miles, and Renault has said it will replace one that falls below 70% capacity. Servicing is every two years or 24,000 miles.
 
 ### Which version to buy
 
@@ -265,4 +294,4 @@ Get quotes on the twins, the [Nissan Townstar EV](/reviews/nissan-townstar/) and
 
 ### Price
 
-We couldn't confirm a current UK list price. In October 2024 it was reported at £30,600 ex VAT before the grant, while a July 2026 buying guide listed it from £34,435 ex VAT after the grant. Those figures don't line up, so get a written quote. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Renault's UK website lists the Kangoo E-Tech from £30,835 after the van grant, but doesn't say whether that includes VAT or which version it is, and we couldn't get Renault's van price list. In October 2024 it was reported at £30,600 ex VAT before the grant, while a July 2026 buying guide listed it from £34,435 ex VAT after the grant. Those figures don't line up, so get a written quote. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).

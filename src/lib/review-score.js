@@ -15,12 +15,9 @@ const band = (value, steps) => {
 };
 
 // The score bands. Change them here and the method page updates too.
+// Price isn't scored: prices change often and we can't confirm them for every van,
+// so scoring them made vans with a confirmed price look worse. It's shown separately.
 export const CRITERIA = [
-  {
-    key: 'price', label: 'Price', what: 'Cheapest version, list price before the van grant, excluding VAT',
-    bands: [['under £30,000', 5], ['£30,000 to £34,999', 4], ['£35,000 to £39,999', 3], ['£40,000 to £44,999', 2], ['£45,000 or more', 1]],
-    score: (s) => { const p = num(s); return p == null ? null : p < 30000 ? 5 : p < 35000 ? 4 : p < 40000 ? 3 : p < 45000 ? 2 : 1; },
-  },
   {
     key: 'range', label: 'Range', what: 'Official (WLTP) combined range of the longest-range version',
     bands: [['250 miles or more', 5], ['200 to 249 miles', 4], ['160 to 199 miles', 3], ['120 to 159 miles', 2], ['under 120 miles', 1]],
@@ -47,6 +44,13 @@ export const CRITERIA = [
 const unconfirmed = (v) => v == null || /^not confirmed/i.test(String(v));
 
 export const MIN_SCORED = 3;
+
+// The price shown beside the score: confirmed list price, or why we don't have one.
+export function priceOf(specs = {}) {
+  const v = specs.price;
+  if (unconfirmed(v)) return { confirmed: false, value: null, note: v ? String(v).replace(/^not confirmed\s*/i, '').replace(/^\((.*)\)$/, '$1') : '' };
+  return { confirmed: true, value: String(v), note: '' };
+}
 
 export function scoreSpecs(specs = {}) {
   const rows = CRITERIA.map((c) => ({ ...c, value: specs[c.key], points: unconfirmed(specs[c.key]) ? null : c.score(specs[c.key]) }));
