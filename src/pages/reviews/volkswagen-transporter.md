@@ -286,10 +286,10 @@ facts:
   - claim: "GOV.UK lists the e-Transporter panel van"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Volkswagen E-Transporter Panel Van"
-  - claim: "a discount of up to £5,000"
+  - claim: "up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
-  - claim: "35% of the price"
+  - claim: "a discount of 35% of the price"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Some vans can be sold at a 35% discount."
   - claim: "five years or 124,000 miles"
@@ -354,7 +354,7 @@ Commerce Plus is the one: by most accounts the 136hp motor is enough for most bu
 
 ### Price
 
-We couldn't open Volkswagen's UK price list. A week-long test in August 2025 quoted £42,820 for a short-wheelbase Commerce Plus, without saying whether that included VAT, so get a written quote. GOV.UK lists the e-Transporter panel van for the government's van grant, a discount of up to £5,000 or 35% of the price; see our [grants and tax guide](/guides/grants-and-tax/).
+We couldn't open Volkswagen's UK price list. A week-long test in August 2025 quoted £42,820 for a short-wheelbase Commerce Plus, without saying whether that included VAT, so get a written quote. GOV.UK lists the e-Transporter panel van for the government's van grant, a discount of 35% of the price, up to £5,000; see our [grants and tax guide](/guides/grants-and-tax/).
 
 The warranty is where the VW pulls ahead: it covers the van for five years or 124,000 miles, with three services for electric versions and five years of roadside assistance. Ford's own price list gives its van 3 years or 100,000 miles. The battery is reported to be covered for 8 years or 100,000 miles. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 

@@ -265,29 +265,29 @@ The Master E-Tech on sale now is the fourth-generation Master, and it shares lit
 
 ### Who it's for
 
-Anyone who needs a full-size panel van and wants to stop buying diesel without giving up range or payload. There's one battery (87kWh) and one motor in the UK, so the choice comes down to body size and gross weight. If you need a huge box or a long-wheelbase high-roof monster, look elsewhere: this is a practical mid-sized large van, not the biggest in the class.
+Anyone who needs a full-size panel van and wants to go electric without giving up range or payload. There's one battery (87kWh) and one motor in the UK, so the choice comes down to body size and gross weight.
 
 ### Load area and payload
 
 Three panel van bodies, L2H2, L3H2 and L3H3, give 10.8, 13.0 and 14.8 cubic metres. The load bay is 3,225mm long at the floor, or 3,855mm in the L3, with 1,380mm between the wheelarches, and the side door opening is 1,312mm wide, so a Euro pallet goes in from the side.
 
-Payload is the headline. Because the battery is modest by large-van standards, you get up to 1,125kg in a 3.5-tonne van, and a 4.0-tonne version takes that to 1,625kg. If you tow, note that towing capacity drops from 1,500kg to 1,000kg on the heavier van, and check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) sockets for running tools from the battery, and vehicle-to-grid (V2G) charging.
+Payload is the headline. Thanks to the modest battery, you get up to 1,125kg in a 3.5-tonne van, and a 4.0-tonne version takes that to 1,625kg. If you tow, note that towing capacity drops from 1,500kg to 1,000kg on the heavier van, and check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) sockets for running tools from the battery, and vehicle-to-grid (V2G) charging.
 
 ### Range and charging in the real world
 
 The official range is 285 miles, but that is the best case, and reports differ on the range of the lighter vans, so ask for the figure for the exact van you're quoted. One road test with 400kg aboard used 21 per cent of the battery over 52 miles at around 20°C with the air conditioning on, and in a separate test an unladen van returned 2.4 miles per kWh. Expect less in winter.
 
-Rapid charging peaks at 130kW, which was reported to add more than 140 miles of range in 30 minutes. AC charging goes up to 22kW, good for 10 to 100 per cent in around four hours on a charger that can supply it. There's no heat pump. Our [charging guide](/guides/charging-an-electric-van/) covers depot and home set-ups.
+Rapid charging peaks at 130kW, which was reported to add more than 140 miles of range in 30 minutes. AC charging goes up to 22kW, good for 10 to 100 per cent in around four hours on a charger that can supply it. There's no heat pump. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-Most published drives were early ones, some of them in France and some in vans that weren't in final UK spec. They agree on the basics. The 138bhp motor means it isn't quick, though a 400kg load didn't seem to trouble it. In return it has a reputation for a smooth, quiet drive, a comfortable ride, steering that is steady on the motorway and a tight turning circle. At more than two metres wide it can feel bulky on narrow streets. The B mode gives strong regenerative braking, but its strength can't be adjusted.
+Most published drives were early ones, some of them in France and some in vans that weren't in final UK spec. The 138bhp motor means it isn't quick, though a 400kg load didn't seem to trouble it. In return it has a reputation for a smooth, quiet drive, a comfortable ride, steering that is steady on the motorway and a tight turning circle. At more than two metres wide it can feel bulky on narrow streets. The B mode gives strong regenerative braking, but its strength can't be adjusted.
 
 Early vans also came with a key you turn in the ignition and a manual handbrake. Renault said an electronic parking brake would arrive on electric Masters by the end of 2025, so check what your van has.
 
 ### Cab and kit
 
-At launch the E-Tech came only in Advance trim, with manual air conditioning, automatic lights and wipers and rear parking sensors, plus a 10-inch touchscreen with Apple CarPlay and Android Auto and a digital driver's display. We like that there are proper dials for the climate controls. There's 135 litres of storage around the cab, including a big space under the middle seat that suits the charging cable, but right-hand-drive vans lose the big sliding glovebox. A rear-view camera is an option worth ticking.
+At launch the E-Tech came only in Advance trim, with manual air conditioning, automatic lights and wipers and rear parking sensors, plus a 10-inch touchscreen with Apple CarPlay and Android Auto and a digital driver's display. We like that there are proper dials for the climate controls. There's 135 litres of storage around the cab (the big space under the middle seat suits the charging cable), but right-hand-drive vans lose the big sliding glovebox. A rear-view camera is an option worth ticking.
 
 ### Which version to buy
 
@@ -299,4 +299,4 @@ The [Nissan Interstar-e](/vans/nissan-interstar/) is the same van with a longer 
 
 ### Price
 
-We couldn't confirm a current UK list price. At launch it was reported from £42,500 ex VAT and before the grant, and a November 2025 buying guide listed it from £42,100 on the same basis. But a July 2026 list gave £47,115 ex VAT after the grant, which doesn't fit with those. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)), and our [electric vs diesel calculator](/tools/electric-vs-diesel/) will show whether the sums work for you.
+We couldn't confirm a current UK list price. At launch it was reported from £42,500 ex VAT and before the grant, and a November 2025 buying guide listed it from £42,100 on the same basis. But a July 2026 list gave £47,115 ex VAT after the grant, which doesn't fit with those. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) shows whether the sums work.

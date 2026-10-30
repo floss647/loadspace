@@ -38,14 +38,14 @@ facts:
     quote: "peak charging speeds of 100kW at a DC rapid charger"
   - claim: "a small, low steering wheel with the dials set above it"
     source: https://www.autoexpress.co.uk/peugeot/partner
-    quote: "so you get a small, low-set steering wheel and dials positioned high on the dashboard in the driver’s line of sight"
+    quote: "so you get a small, low-set steering wheel and dials positioned high on the dashboard"
   - claim: "some drivers like and others can't get comfortable with"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "it’s a layout that some drivers might find awkward"
   - claim: "Prices and kit closely track the Citroën"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "prices and specifications for the Partner are virtually identical to the Berlingo Van across the board"
-  - claim: "Smoother and quieter than the diesel at speed"
+  - claim: "smoother and quieter than the diesel at speed"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "the E-Partner is also smoother and quieter at higher speeds, with less vibration and noise than its diesel equivalent"
   - claim: "Blind spots on both sides"
@@ -78,9 +78,15 @@ facts:
   - claim: "Peugeot quoted 205 miles"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "can now cover up to 205 miles from a single charge"
-  - claim: "a 2025 review gives 213 miles"
+  - claim: "A 2025 review"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "3 Jul 2025"
+  - claim: "gives 213 miles"
+    source: https://www.autoexpress.co.uk/peugeot/partner
+    quote: "saw its range figure increase to 213 miles"
+  - claim: "the wheel can end up lower than you'd like if you want to read the dials"
+    source: https://www.autoexpress.co.uk/peugeot/partner
+    quote: "you may find the small wheel is positioned lower than you like if you want to read the dials"
   - claim: "220 for the Citroën"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "even if the E-Berlingo can manage 220 miles"
@@ -135,7 +141,7 @@ facts:
   - claim: "Toyota's warranty can run to 10 years if the van is serviced by Toyota"
     source: https://www.autoexpress.co.uk/citroen/berlingo-van
     quote: "Toyota’s version has the added attraction of a potential 10-year warranty if you keep up regular maintenance at a franchised service centre"
-  - claim: "In March 2024 the E-Partner was reported from £26,205 after the plug-in van grant"
+  - claim: "the E-Partner was reported from £26,205 after the plug-in van grant"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "Prices start from £26,205, after the Government’s plug-in van grant (PiVG) has been subtracted"
   - claim: "In March 2024"
@@ -155,7 +161,7 @@ The E-Partner is for local trades and delivery work where the van does its miles
 
 ### The cockpit question
 
-This is the bit that makes the Peugeot different, so it comes first. The i-Cockpit gives you a small steering wheel with the dials set above it, where the other four use a larger wheel with the dials behind it. It's a layout some drivers like and others can't get comfortable with, especially taller drivers who find the wheel blocks the dials. It costs a little storage too: you lose the lidded cubby above the dials that the others have, and get a small tray instead. If the driving position doesn't suit you, buy one of the siblings. There's nothing else to lose.
+This is the bit that makes the Peugeot different, so it comes first. The i-Cockpit gives you a small steering wheel with the dials set above it, where the other four use a larger wheel with the dials behind it. It's a layout some drivers like and others can't get comfortable with, and the wheel can end up lower than you'd like if you want to read the dials. It costs a little storage too: you lose the lidded cubby above the dials that the others have, and get a small tray instead. If the driving position doesn't suit you, buy one of the siblings. There's nothing else to lose.
 
 ### Load area and payload
 
@@ -163,13 +169,13 @@ The load bay is the same as the diesel's. The Standard van holds 3.3 cubic metre
 
 ### Range and charging in the real world
 
-At the facelift launch, Peugeot quoted 205 miles. a 2025 review gives 213 miles, against 220 for the Citroën, so check the exact figure on your quote. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
+At the facelift launch, Peugeot quoted 205 miles. A 2025 review gives 213 miles, against 220 for the Citroën, so check the exact figure on your quote. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
 
 Rapid charging runs at up to 100kW, enough to go from zero to 80 per cent in half an hour. At the depot it's seven and a half hours on a 7.4kW wallbox, or five hours at 11kW with the £350 onboard charger upgrade. See our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-The electric version has a reputation as the pick of the Partner range to drive: smoother and quieter than the diesel at speed, and the battery's weight helps settle the ride with a light load on board. Regenerative braking is set with paddles behind the wheel, though it's not strong enough for one-pedal driving. Watch the blind spots on both sides.
+The electric version has a reputation for being smoother and quieter than the diesel at speed, and the battery's weight helps settle the ride with a light load on board. Regenerative braking is set with paddles behind the wheel, though it's not strong enough for one-pedal driving. Watch the blind spots on both sides.
 
 ### Cab and kit
 
