@@ -13,6 +13,9 @@ specs:
 verdict: "The ID. Buzz Cargo has always been more about image than capacity, and that hasn't changed: 3.9 cubic metres and a quoted maximum payload of 712kg leave it behind roomier rivals. What has changed is the price. The 58kWh Commerce now starts at £29,995 ex VAT before the grant, which puts it in the same price bracket as the Kia PV5 Cargo, and its 218-mile official range covers most working days. Buy one if you carry light loads and want a van people remember. If you need more room, wait for the long-wheelbase version or look at the PV5."
 good: ["Now from £29,995 ex VAT before the grant", "Up to 276 miles official range (79kWh)", "Car-like to drive, judging by tests of earlier vans"]
 bad: ["Low payload: 712kg quoted maximum", "Only 3.9 cubic metres of load space", "Frustrating touch-sensitive controls"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
   - https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
