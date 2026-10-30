@@ -14,5 +14,13 @@
     "received": "2026-10-30",
     "via": "Supplied by the editor, downloaded from the maker's UK website",
     "sha256": "2b7044e29ef430343d8eef28836b3668b25b6922956c144642863696180e9497"
+  },
+  "vauxhall-movano-price-spec-guide-2025-05.pdf": {
+    "title": "Vauxhall New Movano price and specification guide (MY25.5), including Movano Electric",
+    "publisher": "vauxhall.co.uk",
+    "effective": "1 May 2025",
+    "received": "2026-10-30",
+    "via": "Supplied by the editor, downloaded from the maker's UK website",
+    "sha256": "b8530eb7c821a3cd8a08abe46005aabecc849b28df8e8329bb1d0a66053c4a70"
   }
 }
