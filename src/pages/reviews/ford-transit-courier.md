@@ -19,6 +19,9 @@ bad:
   - "Payload under 700kg"
   - "Tows only 750kg"
   - "No physical climate controls"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
   - https://www.ford.co.uk/vans-and-pickups/e-transit-courier
@@ -162,7 +165,7 @@ facts:
   - claim: "In early 2025"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "11 April 2025 by Tom Webster"
-  - claim: "driven in Spain in early 2025"
+  - claim: "driven in Spain"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "My first experience with the E-Transit Courier was in Spain"
   - claim: "driven in Spain in early 2025"
@@ -235,7 +238,7 @@ facts:
   - claim: "there are no physical climate buttons"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "you don't get physical climate control buttons so you have to delve into the touchscreen"
-  - claim: "That same test warns that taller drivers may run out of seat travel"
+  - claim: "The same road test warns that taller drivers may run out of seat travel"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "taller drivers will find that the seat only goes so far back"
   # Which version to buy
@@ -259,9 +262,12 @@ facts:
   - claim: "A 230V socket on the centre console is an option on both trims"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Pro Power Onboard (400W 230V AC)"
-  - claim: "A 230V socket on the centre console is an option on both trims"
+  - claim: "on the centre console"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Located at the front of the flexible centre console"
+  - claim: "an option on both trims"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
+    quote: "HUKAJ - - - - O O £150.00 £180.00"
   - claim: "17-inch alloys"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "17\" Alloy Wheels - 5-spoke in Absolute Black / Machined finish Requires BEV D2YBT"
@@ -348,11 +354,11 @@ Rapid charging runs at up to 100kW, and Ford says a 10 to 80% charge takes about
 
 ### On the road
 
-We haven't driven it, and few UK road tests of the electric Courier have been published yet. The one UK road test we've found, driven in Spain in early 2025, rates its steering and ride highly, saying they're the same as the rest of the range. The petrol and diesel Courier, built on the platform of Ford's Puma SUV, has a reputation as one of the better-handling vans. The 136PS motor is the most powerful in the Courier range, though by that same test it has some zip but not the hard shove many electric vans give, which is no bad thing with a load on board.
+We haven't driven it, and few UK road tests of the electric Courier have been published yet. The one UK road test we've found, driven in Spain in early 2025, rates its steering and ride highly, saying they're the same as the rest of the range. The petrol and diesel Courier, built on the platform of Ford's Puma SUV, has a reputation as one of the better-handling vans. The 136PS motor is the most powerful in the Courier range, though by the account of that test in Spain it has some zip but not the hard shove many electric vans give, which is no bad thing with a load on board.
 
 ### Cab and kit
 
-The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen. That same test warns that taller drivers may run out of seat travel, so try the driving position before you sign.
+The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen. The same road test warns that taller drivers may run out of seat travel, so try the driving position before you sign.
 
 ### Which version to buy
 
