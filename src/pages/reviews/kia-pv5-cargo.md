@@ -13,6 +13,9 @@ specs:
 verdict: "On the evidence of the UK road tests, the PV5 Cargo is a very strong first van from Kia, best suited to trades whose loads are bulky rather than heavy. The Long Range battery's 258-mile official range, 150kW rapid charging and a seven-year, 100,000-mile warranty all stack up well, and both testers like the way it drives. Payload peaks at 790 kg in the L2H1 van, so anyone carrying heavy kit should look at bigger rivals. Get a written quote before you commit, because the published starting prices are quoted on different bases and don't line up."
 good: ["Smooth, refined drive", "258-mile official range (Long Range)", "Seven-year, 100,000-mile warranty"]
 bad: ["Modest payload for its size", "Climate controls only on the touchscreen", "Side door too narrow for a Euro pallet"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
