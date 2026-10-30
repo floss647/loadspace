@@ -22,6 +22,7 @@ sources:
   - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369881/small-van-year-2026-kia-pv5-cargo
+  - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
   - claim: "258 miles"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
@@ -50,17 +51,18 @@ facts:
   - claim: "3.1 miles per kWh"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "we saw an average efficiency rate of 3.1 miles/kWh, which equates to around 159 miles of real-world range"
-  - claim: "about 159 miles"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "which equates to around 159 miles of real-world range"
   - claim: "about 11°C"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "an average ambient temperature of 11 degrees celsius"
   - claim: "mixed town and country driving"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "We achieved this after a mixture of driving both in town and on rural A and B-roads"
-  - claim: "about 220 miles"
-    calc: "3.1 miles/kWh (Standard Range real-world figure, fact above) x 71.2kWh (Long Range battery, fact above) = 220.7 miles, rounded down to about 220. Same method as the 159-mile figure: 3.1 x 51.5 = 159.65. Our arithmetic, not a measured result."
+  - claim: "A road test of the Standard Range van recorded 3.1 miles per kWh"
+    source: https://www.autoexpress.co.uk/kia/pv5-cargo
+    quote: "In our test van fitted with this battery, we saw an average efficiency rate of 3.1 miles/kWh"
+  - claim: "equivalent to around 159 miles from a full battery"
+    source: https://www.autoexpress.co.uk/kia/pv5-cargo
+    quote: "which equates to around 159 miles of real-world range"
   - claim: "790 kg"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "able to carry up to 690kg in long-range form - or 790kg in the standard-range edition"
@@ -133,12 +135,9 @@ facts:
   - claim: "a comfortable ride"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "The ride and handling are excellent in the PV5"
-  - claim: "even with a load on board"
+  - claim: "though it can get bouncy over rough roads when the back is empty"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "which is at its worst when the van is unladen"
-  - claim: "even with a load on board"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "the fastenings holding the 400kg load secure in the loading bay"
+    quote: "There’s some inevitable bounciness over the most uneven surfaces (which is at its worst when the van is unladen)"
   - claim: "Reports differ on how quiet it is at motorway speeds"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "very refined and quiet on the move"
@@ -190,9 +189,12 @@ facts:
   - claim: "Plus adds vehicle-to-load (V2L) power"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "The most notable advantages of the range-topper are its Vehicle-to-Load (V2L) capability"
-  - claim: "the heat pump is a £650 (ex VAT) option"
+  - claim: "reported at £640 to £650 ex VAT"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "is a £650 option (exc. VAT) that's reserved for the Plus"
+    quote: "is a £650 option (exc. VAT) that’s reserved for the Plus"
+  - claim: "reported at £640 to £650 ex VAT"
+    source: https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
+    quote: "Plus models can be upgraded with a heat pump for greater efficiency at cost of £640 (+VAT)"
   - claim: "option on the Plus only"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "the Plus trim can also come fitted with a heat pump"
@@ -225,7 +227,13 @@ facts:
   - claim: "sits between the small and medium van classes"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "the PV5 sits between two categories in terms of its dimensions"
-  - claim: "the higher rate of the Plug-in Van Grant"
+  - claim: "the government's approved list for the higher, large-van rate of the Plug-in Van Grant"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "Kia PV5 Cargo"
+  - claim: "the higher, large-van rate of the Plug-in Van Grant"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "The maximum discount available for some large vans is £5,000"
+  - claim: "the higher, large-van rate of the Plug-in Van Grant"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
     quote: "That the PV5 qualifies for the higher-level plug-in van grant"
   - claim: "£27,645 for the Standard Range L2H1 and £30,145 for the Long Range"
@@ -267,13 +275,13 @@ Payload is the weak spot: 690kg with the Long Range battery and 790kg with the S
 
 ### Range and charging in the real world
 
-The Long Range 71.2kWh battery is rated at 258 miles and the Standard Range 51.5kWh at 184 miles. The one published real-world figure we could find is for the smaller battery: 3.1 miles per kWh in mixed town and country driving at about 11°C, or about 159 miles. Apply that rate to the bigger battery and you get about 220 miles, though that's our sum, not a measured result.
+The Long Range 71.2kWh battery is rated at 258 miles and the Standard Range 51.5kWh at 184 miles. A road test of the Standard Range van recorded 3.1 miles per kWh in mixed town and country driving at about 11°C, equivalent to around 159 miles from a full battery. We couldn't find a measured real-world figure for the Long Range battery.
 
 The Long Range battery can rapid charge at up to 150kW, and a 10 to 80 per cent top-up should take under half an hour. Recharging it on an 11kW AC charger takes around six and a half hours. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-The PV5 has a reputation for being easy to drive: car-like, with steering that is quick in town and steadier at speed, and a comfortable ride, even with a load on board. Reports differ on how quiet it is at motorway speeds. A rear-view camera and front and rear parking sensors are standard, and it has a five-star Euro NCAP rating, tested in 2025.
+The PV5 has a reputation for being easy to drive: car-like, with steering that is quick in town and steadier at speed, and a comfortable ride, though it can get bouncy over rough roads when the back is empty. Reports differ on how quiet it is at motorway speeds. A rear-view camera and front and rear parking sensors are standard, and it has a five-star Euro NCAP rating, tested in 2025.
 
 One early test van had niggles: regenerative braking was stuck at its lowest level until the battery fell below 85 per cent (Kia said an over-the-air update would fix it), and the rear doors needed a hard slam before the sensors accepted they were shut.
 
@@ -283,7 +291,7 @@ The cab is hard-wearing rather than plush, which suits van life. There's a flat 
 
 ### Which version to buy
 
-There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and the heat pump is a £650 (ex VAT) option on the Plus only. Pick the Long Range battery unless you only do town work or need every kilo of payload, and Essential is enough for most businesses. Every PV5 gets Kia's seven-year, 100,000-mile warranty, and an eight-year battery warranty was reported, with Kia guaranteeing the battery keeps at least 70% of its original performance.
+There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and a heat pump is an option on the Plus only, reported at £640 to £650 ex VAT. Pick the Long Range battery unless you only do town work or need every kilo of payload, and Essential is enough for most businesses. Every PV5 gets Kia's seven-year, 100,000-mile warranty, and an eight-year battery warranty was reported, with Kia guaranteeing the battery keeps at least 70% of its original performance.
 
 ### Alternatives
 
@@ -291,4 +299,4 @@ Compare it with the [Ford E-Transit Custom](/vans/ford-transit-custom/), [VW ID.
 
 ### Price
 
-We couldn't confirm a current UK list price. In June 2025, Kia's launch prices were reported as £27,645 for the Standard Range L2H1 and £30,145 for the Long Range, both ex VAT and before the grant. A November 2025 buying guide still listed it from £27,645 on that basis, while a July 2026 list put it from £27,355 ex VAT after the grant. Those don't line up, so get a written quote. It qualifies for the higher rate of the Plug-in Van Grant (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price. In June 2025, Kia's launch prices were reported as £27,645 for the Standard Range L2H1 and £30,145 for the Long Range, both ex VAT and before the grant. A November 2025 buying guide still listed it from £27,645 on that basis, while a July 2026 list put it from £27,355 ex VAT after the grant. Those don't line up, so get a written quote. It's on the government's approved list for the higher, large-van rate of the Plug-in Van Grant (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
