@@ -19,6 +19,9 @@ bad:
   - "Few UK road tests of the electric version yet"
   - "Turn key and manual handbrake on early vans"
   - "No current UK price we could confirm"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-review/
   - https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-dimensions/

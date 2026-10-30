@@ -13,6 +13,9 @@ specs:
 verdict: "The ë-C3 Van is a likeable, well-equipped little runabout for anyone whose load fits in a large car boot. Its 200-mile official range and 100kW rapid charging are strong for something this small, and it is on the government's approved list for the small-van grant. The 300kg payload, which includes the driver, rules it out for most trades, so treat it as a car with a bulkhead rather than a proper van. If you carry tools and little else, it's worth a look; if you carry materials, buy a bigger small van."
 good: ["200-mile official range", "100kW rapid charging", "Lots of standard kit for the money"]
 bad: ["300kg payload includes the driver", "Load bay is only 1.2m long", "Regen braking set through the gear selector, not paddles"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://evfleetworld.co.uk/citroen-e-c3-van-on-sale-with-200-mile-range-and-sub-20k-price/
   - https://evfleetworld.co.uk/road-test-citroen-e-c3-van/
