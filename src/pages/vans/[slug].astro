@@ -39,7 +39,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       {!electricOnly && <p class="small muted">Also sold with diesel or petrol engines as the {van.baseName}.</p>}
 
       {review ? (
-        <a class="card" href={review.url} style="margin:1rem 0"><strong>Read our {van.name} review: Loadspace data score {review.score.overall?.toFixed(1)}/5.</strong> Who it suits, which version to buy and what to watch out for. →</a>
+        <a class="card" href={review.url} style="margin:1rem 0"><strong>Read our {van.name} review{review.score.overall != null ? `: Loadspace data score ${review.score.overall.toFixed(1)}/5` : ''}.</strong> Who it suits, which version to buy and what to watch out for. →</a>
       ) : (
       <div class="notice"><strong>Full road test coming.</strong> We're adding loaded-up driving impressions, real-world range in summer and winter, and owner interviews. This page already covers the buying basics.</div>
       )}

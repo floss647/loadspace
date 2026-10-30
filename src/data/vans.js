@@ -44,7 +44,7 @@ export const TWINS = {
   },
   'ford-vw-medium': {
     name: 'Ford Transit Custom family',
-    note: 'The latest VW Transporter is built by Ford on the Transit Custom.',
+    note: 'The latest VW Transporter was developed with Ford and shares its underpinnings with the Transit Custom.',
   },
   'renault-medium': {
     name: 'Renault Trafic family',
@@ -138,7 +138,7 @@ export const VANS = [
     electric: true,
     electricNote: 'Sold as the e-Transporter.',
     intro:
-      'The latest e-Transporter is built by Ford alongside the E-Transit Custom. Compare the two on price, warranty and lease offers: the van underneath is the same.',
+      'The latest e-Transporter shares its underpinnings with the Ford E-Transit Custom, through a partnership between the two makers. Compare the two on price, warranty and lease offers: the van underneath is the same.',
   }),
   v('Volkswagen', 'ID. Buzz Cargo', 'medium', {
     electric: true,

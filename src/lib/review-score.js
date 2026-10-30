@@ -32,7 +32,7 @@ export const CRITERIA = [
     score: (s) => band(num(s), [[150, 5], [100, 4], [80, 3], [50, 2]]),
   },
   {
-    key: 'payload', label: 'Payload', what: 'Highest payload of any panel van version',
+    key: 'payload', label: 'Payload', what: 'Highest payload of any UK panel van version (any version for pickups)',
     bands: [['1,200kg or more', 5], ['1,000kg to 1,199kg', 4], ['800kg to 999kg', 3], ['600kg to 799kg', 2], ['under 600kg', 1]],
     score: (s) => band(num(s), [[1200, 5], [1000, 4], [800, 3], [600, 2]]),
   },
@@ -46,10 +46,13 @@ export const CRITERIA = [
 // A figure we couldn't confirm from a current source starts "Not confirmed" and isn't scored.
 const unconfirmed = (v) => v == null || /^not confirmed/i.test(String(v));
 
+export const MIN_SCORED = 3;
+
 export function scoreSpecs(specs = {}) {
   const rows = CRITERIA.map((c) => ({ ...c, value: specs[c.key], points: unconfirmed(specs[c.key]) ? null : c.score(specs[c.key]) }));
   const scored = rows.filter((r) => r.points != null);
-  const overall = scored.length ? Math.round((scored.reduce((a, r) => a + r.points, 0) / scored.length) * 10) / 10 : null;
+// A score needs at least this many confirmed figures, so it isn't based on too little.
+  const overall = scored.length >= MIN_SCORED ? Math.round((scored.reduce((a, r) => a + r.points, 0) / scored.length) * 10) / 10 : null;
   return { rows, overall, scoredCount: scored.length };
 }
 
