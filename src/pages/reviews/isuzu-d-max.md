@@ -92,7 +92,7 @@ facts:
   - claim: "since 6 April 2025 HMRC expects most double cabs, extended cabs included, to be treated as cars"
     source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
     quote: "It therefore follows that from 6 April 2025 most double cab pickups are expected to be classified as cars when calculating the benefit charge"
-  - claim: "since 6 April 2025 HMRC expects most double cabs, extended cabs included, to be treated as cars"
+  - claim: "extended cabs included"
     source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
     quote: "classification of double cab pickups (including variants such as extended, extra, king and super cab pickups etc)"
   - claim: "permanent four-wheel drive"
@@ -157,7 +157,7 @@ facts:
     quote: "The Isuzu D-Max BEV matches the five-year, 125,000-mile warranty of the rest of the D-Max range"
   - claim: "8 years"
     calc: "the review says the battery gets 'the mandatory eight-year cover' (next fact): eight years = 8 years"
-  - claim: "the battery is covered for 8 years but only 100,000 miles"
+  - claim: "the battery is covered for eight years but only 100,000 miles"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "the battery gets the mandatory eight-year cover. However, that is only for 100,000 miles"
   - claim: "8 years or 100,000 miles"
@@ -175,7 +175,7 @@ facts:
   - claim: "the Extended Cab eDL40 is the cheapest version"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "It starts at around £60,000 for the extended cab version in DL40 trim"
-  - claim: "The Double Cab is about £1,000 more"
+  - claim: "the Double Cab about £1,000 more"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "while the Double Cab version is £1,000 on top of that"
   - claim: "the eV-Cross Double Cab £62,495"
@@ -193,6 +193,9 @@ facts:
   - claim: "worth up to £5,000 on some large vans"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000"
+  - claim: "close to £60,000 before VAT"
+    source: https://www.autoexpress.co.uk/kgm/musso/ev
+    quote: "the Isuzu D-Max BEV, which costs around £60,000 before VAT"
   - claim: "Maxus eTerron 9"
     source: https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
     quote: "with Maxus offering the T90EV and the eTerron 9"
@@ -228,7 +231,7 @@ Both trims come with leather upholstery, a powered driver's seat and heated fron
 
 ### Warranty and servicing
 
-The truck has Isuzu's five-year, 125,000-mile warranty, but the battery is covered for 8 years but only 100,000 miles. Servicing is every 12,000 miles or 12 months.
+The truck has Isuzu's five-year, 125,000-mile warranty, but the battery is covered for eight years but only 100,000 miles. Servicing is every 12,000 miles or 12 months.
 
 ### Alternatives
 

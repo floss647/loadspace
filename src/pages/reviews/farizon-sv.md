@@ -180,18 +180,15 @@ facts:
   - claim: "the longest official (WLTP) range in the line-up"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "The 106kWh battery (which is only available on the L3H3 model) has the longest electric range in the line-up, with an official maximum of 247 miles"
-  - claim: "bigger bodies with the smaller packs are rated lower"
-    source: https://vanreviewer.co.uk/farizon/sv/review/6715/
-    quote: "WLTP Combined (miles) 188 234 - 214 177 214 - 198 204 247"
   - claim: "234 miles"
     source: https://evfleetworld.co.uk/dragonsea-shifts-to-electric-removals-with-37-farizon-svs/
     quote: "Combined with a range of up to 234 miles (WLTP Combined)"
   - claim: "the other two at 120kW"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
     quote: "while the small and large models charge at a slightly lower 120kW"
-  - claim: "a 20 to 80 per cent charge in 36 minutes for the 67kWh and 83kWh packs and 40 minutes for the 106kWh"
+  - claim: "a 20 to 80 per cent charge in 36 minutes for the two smaller packs and 40 minutes for the biggest"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
-    quote: "DC Charging 20% to 80% min 36 36 40"
+    quote: "That's still enough to see the battery level increase from 20% up to 80% in just 36 minutes for the small battery and 40 minutes for the large model. The mid-size battery's high speed means it will do the same top-up charge in 36 minutes"
   - claim: "AC charging is up to 11kW"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
     quote: "AC Charging (max) kW 11 11 11"
@@ -214,10 +211,10 @@ facts:
   - claim: "Early drives found it pleasant, composed and smooth over bumps"
     source: https://evfleetworld.co.uk/road-test-farizon-sv-l1h1/
     quote: "the SV became as pleasant to drive as we had experienced at Millbrook"
-  - claim: "One test on UK roads, published in January 2026"
+  - claim: "published in January 2026"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "Farizon SV (2026) van review 27 January 2026"
-  - claim: "One test on UK roads, published in January 2026"
+  - claim: "One test on UK roads"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "But on real UK roads, with real UK potholes, the SV doesn't fare as well"
   - claim: "That test predates the 2026 model-year updates"
@@ -339,15 +336,15 @@ Farizon is the commercial vehicle brand of Geely, and the SV is a purpose-built 
 
 ### Who it's for
 
-The SV straddles two classes. With five body sizes from 6.95 to 13.0 cubic metres, the smallest is closest to the [Ford E-Transit Custom](/reviews/ford-transit-custom/) and the biggest is in [Ford E-Transit](/reviews/ford-transit/) territory. It suits trades who want a heavy payload and lots of standard kit, and who don't mind buying from a young brand. Only the L1H1, at 1,980mm tall, gets under 2m.
+With five body sizes from 6.95 to 13.0 cubic metres, the smallest is closest to the [Ford E-Transit Custom](/reviews/ford-transit-custom/) and the biggest is in [Ford E-Transit](/reviews/ford-transit/) territory. It suits trades who want a heavy payload and lots of standard kit, and who don't mind buying from a young brand. Only the L1H1, at 1,980mm tall, gets under 2m.
 
 ### Load area and payload
 
-Payload is the headline. The L1H1 with the 67kWh battery carries 1,350 kg, falling to 1,265 kg with the 83kWh battery, and the L3H3 still carries 1,045 kg or 1,035 kg (83kWh or 106kWh battery, driver included). Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
+The L1H1 with the 67kWh battery carries 1,350 kg, falling to 1,265 kg with the 83kWh battery, and the L3H3 still carries 1,045 kg or 1,035 kg (83kWh or 106kWh battery, driver included). Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
 
 ### Range and charging in the real world
 
-There are 67kWh and 83kWh LFP batteries, or a 106kWh NMC battery on the L3H3 only. The L1H1 is rated at 188 miles with the 67kWh pack and 234 miles with the 83kWh, and the L3H3 106kWh at 247 miles, the longest official (WLTP) range in the line-up; bigger bodies with the smaller packs are rated lower. The 83kWh pack charges at up to 140kW and the other two at 120kW, and Farizon quotes a 20 to 80 per cent charge in 36 minutes for the 67kWh and 83kWh packs and 40 minutes for the 106kWh. AC charging is up to 11kW. In one road test, an unladen 83kWh van averaged 2.6 miles per kWh, which that test put at around 215 miles from a charge. More in our [charging guide](/guides/charging-an-electric-van/).
+There are 67kWh and 83kWh LFP batteries, or a 106kWh NMC battery on the L3H3 only. The L1H1 is rated at 188 miles with the 67kWh pack and 234 miles with the 83kWh, and the L3H3 106kWh at 247 miles, the longest official (WLTP) range in the line-up. The 83kWh pack charges at up to 140kW and the other two at 120kW, and Farizon quotes a 20 to 80 per cent charge in 36 minutes for the two smaller packs and 40 minutes for the biggest. AC charging is up to 11kW. In one road test, an unladen 83kWh van averaged 2.6 miles per kWh, which that test put at around 215 miles from a charge. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 

@@ -12,11 +12,12 @@ specs:
   batteryWarranty: "8 years or up to 250,000 km"
 verdict: "The eDaily makes sense when an ordinary electric van won't do the job: when you need more than 3.5 tonnes gross, heavy towing or bodywork powered from the battery. For everyday parcel and trade work it's more van than most people need. Iveco quotes only an urban range and hasn't published current UK prices or payloads, so get every figure in writing from the dealer. Match the number of batteries to your routes, and check your drivers' licences before you order anything heavier than 4.25 tonnes."
 good: ["Gross weights up to 7.2 tonnes", "Tows up to 3.5 tonnes", "Battery replaced if capacity falls below 80% within the warranty"]
-bad: ["No current UK prices or payloads published", "Range only quoted as an urban figure", "Heavy versions need a C1 licence and miss the van grant"]
+bad: ["No current UK prices or payloads published", "Range only quoted as an urban figure", "Heavier versions need a C1 licence"]
 sources:
   - https://www.iveco.com/uk/eDaily
   - https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
+  - https://www.gov.uk/zero-emission-vehicle-grants/trucks
   - https://www.gov.uk/driving-licence-categories
 facts:
   - claim: "7.2 tonnes"
@@ -41,6 +42,8 @@ facts:
   - claim: "an eight-year battery warranty"
     source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
     quote: "8-year and up to 250.000 km battery warranty."
+  - claim: "a mileage limit of up to 250,000 km"
+    calc: "Iveco's brochure ('8-year and up to 250.000 km battery warranty', fact above): 250.000 km in continental notation = 250,000 km"
   - claim: "Battery replaced if capacity falls below 80% within the warranty"
     source: https://www.iveco.com/uk/eDaily
     quote: "8-year battery warranty with replacement when residual capacity falls below 80%"
@@ -86,7 +89,7 @@ facts:
   - claim: "148kWh"
     source: https://www.iveco.com/uk/eDaily
     quote: "up to 4 batteries and up to 148kWh"
-  - claim: "single-wheel vans use an LFP battery and twin-wheel vans an NMC battery"
+  - claim: "single-wheel versions can have an LFP battery and twin-wheel versions an NMC battery"
     source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
     quote: "You can set your single wheel eDaily with LFP battery and your twin wheel eDaily with NMC battery."
   - claim: "up to 400 km"
@@ -97,6 +100,9 @@ facts:
     quote: "42S VAN H2 WB 4.100 for 111 kWh battery"
   - claim: "just under 250 miles"
     calc: "400 km (fact above) ÷ 1.609 = 248.6 miles, just under 250 miles"
+  - claim: "the brochure's range table is headed WLTP"
+    source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
+    quote: "42S WLTP 280 - 400 -"
   - claim: "Iveco labels its headline figure an urban range based on simulations"
     source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
     quote: "URBAN RANGE"
@@ -112,7 +118,7 @@ facts:
   - claim: "72C with the 148kWh battery"
     source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
     quote: "72C CAB 5,25 m2 WB 5.100 148 kWh battery"
-  - claim: "a chassis cab"
+  - claim: "a chassis cab as Iveco's reference vehicle"
     source: https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
     quote: "72C CAB 5,25 m2 WB 5.100 148 kWh battery"
   - claim: "20 to 80 per cent"
@@ -145,9 +151,15 @@ facts:
   - claim: "adaptive cruise control with stop and go, lane centring and blind spot warning"
     source: https://www.iveco.com/uk/eDaily
     quote: "Advanced Lane Centering"
-  - claim: "IVECO eDaily (N1 Complete)"
+  - claim: "IVECO eDaily (N1 Complete) and (N1 Incomplete)"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
-    quote: "IVECO eDaily (N1 Complete)"
+    quote: "IVECO eDaily (N1 Incomplete) IVECO eDaily (N1 Complete)"
+  - claim: "IVECO eDaily (N2 Complete) and (N2 Incomplete)"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/trucks
+    quote: "IVECO eDaily (N2 Incomplete) IVECO eDaily (N2 Complete)"
+  - claim: "the lower of £15,000 or 20% of the upfront cost for some trucks of 4.25 to 12 tonnes"
+    source: https://www.gov.uk/zero-emission-vehicle-grants/trucks
+    quote: "The maximum discount available for some trucks weighing 4.25 to 12 tonnes is the lower of: £15,000 20% of the cost of the upfront cost of the vehicle"
   - claim: "between 2,500kg and 4,250kg gross vehicle weight"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "be between 2,500kg and 4,250kg gross vehicle weight"
@@ -157,10 +169,13 @@ facts:
   - claim: "passed their car test on or after 1 January 1997"
     source: https://www.gov.uk/driving-licence-categories
     quote: "Category B - if you passed your test on or after 1 January 1997"
-  - claim: "electric vans up to 4,250kg"
+  - claim: "zero-emission vans up to 4,250kg maximum authorised mass"
     source: https://www.gov.uk/driving-licence-categories
     quote: "4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
-  - claim: "category C1, which covers 3,500kg to 7,500kg"
+  - claim: "3,500kg for petrol and diesel"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "3,500kg for petrol and diesel vehicles - this includes hybrid vehicles"
+  - claim: "category C1, which covers vehicles between 3,500kg and 7,500kg maximum authorised mass"
     source: https://www.gov.uk/driving-licence-categories
     quote: "Category C1 You can drive vehicles between 3,500 and 7,500kg maximum authorised mass"
 ---
@@ -179,9 +194,9 @@ We can't give you a payload. Iveco's UK site and brochure list gross weights but
 
 ### Batteries, range and charging
 
-You choose the battery to suit the job. Single-wheel vans use an LFP battery and twin-wheel vans an NMC battery, in sizes of 77kWh, 74kWh, 111kWh and 148kWh, with up to four batteries in all.
+You choose the battery to suit the job. Iveco says single-wheel versions can have an LFP battery and twin-wheel versions an NMC battery, with capacities of 77kWh, 74kWh, 111kWh and 148kWh and up to four batteries in all.
 
-Range is the hard part to pin down. Iveco's best figure is up to 400 km (just under 250 miles) for a 42S van with the 111kWh battery, but Iveco labels its headline figure an urban range based on simulations, and we couldn't find a WLTP combined figure, so we don't score it. At the other end, Iveco quotes 240 km for the heaviest 72C with the 148kWh battery, measured on a chassis cab.
+Range is the hard part to pin down. Iveco's best figure is up to 400 km (just under 250 miles) for a 42S van with the 111kWh battery. Although the brochure's range table is headed WLTP, Iveco labels its headline figure an urban range based on simulations, so we treat them as urban figures, not WLTP combined, and don't score range. At the other end, Iveco quotes 240 km for the heaviest 72C with the 148kWh battery, with a chassis cab as Iveco's reference vehicle.
 
 Rapid charging goes up to 115kW. Iveco's table puts a 20 to 80 per cent charge at that rate at about 35 minutes for the 111kWh battery and 47 minutes for the 148kWh. On the standard 11kW on-board charger, a full charge of the 111kWh battery takes about nine and a half hours, and there's an optional 22kW charger. Our [charging guide](/guides/charging-an-electric-van/) covers depot and home charging.
 
@@ -191,13 +206,13 @@ Iveco quotes up to 140kW and 400Nm through the rear wheels, and offers AIR-PRO a
 
 ### Licence and grant
 
-Check your drivers' licences. If a driver passed their car test on or after 1 January 1997, a car licence covers electric vans up to 4,250kg. Heavier versions need category C1, which covers 3,500kg to 7,500kg, so check what each driver holds.
+Check your drivers' licences. If a driver passed their car test on or after 1 January 1997, their category B licence covers zero-emission vans up to 4,250kg maximum authorised mass (3,500kg for petrol and diesel). Heavier versions need category C1, which covers vehicles between 3,500kg and 7,500kg maximum authorised mass, so check what each driver holds.
 
-The IVECO eDaily (N1 Complete) is on the government's list for the van grant, worth up to £5,000 on some large vans, but only for vans between 2,500kg and 4,250kg gross vehicle weight. The heavier versions don't qualify. See our [grants and tax guide](/guides/grants-and-tax/).
+The IVECO eDaily (N1 Complete) and (N1 Incomplete) are on the government's list for the van grant, worth up to £5,000 on some large vans, which covers vans between 2,500kg and 4,250kg gross vehicle weight. Heavier versions miss the van grant, but the IVECO eDaily (N2 Complete) and (N2 Incomplete) are on the truck grant list instead, where the maximum discount is the lower of £15,000 or 20% of the upfront cost for some trucks of 4.25 to 12 tonnes. See our [grants and tax guide](/guides/grants-and-tax/).
 
 ### Which version to buy
 
-If your drivers have car licences, stick to versions up to 4.25 tonnes. Pick the battery from your longest regular day, not your average one, and don't pay for more battery than you need, because batteries add weight. An eight-year battery warranty covers the pack, and Iveco replaces it if capacity falls below 80% within that time.
+If your drivers have car licences, stick to versions up to 4.25 tonnes. Pick the battery from your longest regular day, not your average one, and don't pay for more battery than you need, because batteries add weight. An eight-year battery warranty, with a mileage limit of up to 250,000 km, covers the pack, and Iveco replaces it if capacity falls below 80% within that time.
 
 ### Alternatives
 
