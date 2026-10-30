@@ -288,7 +288,7 @@ If you need more room, it may be worth waiting. In September 2026 Volkswagen ann
 
 ### Alternatives
 
-Compare it with the [Kia PV5 Cargo](/vans/kia-pv5-cargo/), [Ford E-Transit Custom](/vans/ford-transit-custom/), [Volkswagen e-Transporter](/vans/volkswagen-transporter/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/) and, if you want the space for less, the [Citroën ë-Berlingo](/vans/citroen-berlingo/).
+Compare it with the [Kia PV5 Cargo](/vans/kia-pv5-cargo/), [Ford E-Transit Custom](/vans/ford-transit-custom/), [Volkswagen e-Transporter](/vans/volkswagen-transporter/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/) and [Citroën ë-Berlingo](/vans/citroen-berlingo/).
 
 ### Price
 

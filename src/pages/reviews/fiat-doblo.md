@@ -79,7 +79,7 @@ facts:
   - claim: "Only the L2 gets a sliding door on each side"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "Only L2 vans get two side doors"
-  - claim: "Payload runs from 642kg for the electric L2 Crew Van up to 781kg for the L1"
+  - claim: "Payload runs from 642kg for the electric L2 Crew Van"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "Payload ratings vary from around 980kg for the entry-level diesel to 642kg for the L2 Crew Van E-Doblo"
   - claim: "up to 781kg for the L1"
@@ -88,13 +88,13 @@ facts:
   - claim: "towing tops out at 750kg against 1,050kg for the diesel"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "The E-Doblo can tow up to 750kg, which does give it a disadvantage versus the 1,050kg capacity of the standard diesel Doblo."
-  - claim: "the same review quotes 222 miles"
+  - claim: "quotes 222 miles"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "has a quoted electric driving range of up to 222 miles"
   - claim: "and 217 miles"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "all versions of E-Doblo have a WLTP rating of 217 miles on a full charge"
-  - claim: "another 2025 review says 213 miles"
+  - claim: "says 213 miles"
     source: https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2023-e-doblo-review/
     quote: "with the official electric range now upped to 213 miles"
   - claim: "another 2025 review"
@@ -103,7 +103,10 @@ facts:
   - claim: "A 2025 review"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "4 Jul 2025"
-  - claim: "the launch figure in 2024 was 205 miles"
+  - claim: "the launch figure in 2024"
+    source: https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates
+    quote: "25 Mar 2024"
+  - claim: "was 205 miles"
     source: https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates
     quote: "The E-Doblo gets a 50kWh battery with a maximum range of 205 miles"
   - claim: "fast driving eats into it noticeably"
@@ -169,7 +172,7 @@ facts:
   - claim: "the Citroën has softer front seats"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "the Citroen Berlingo has softer front seats that you may prefer for long stints at the wheel"
-  - claim: "In March 2024 the cheapest E-Doblo was reported at £26,205 excluding VAT, after the plug-in van grant"
+  - claim: "the cheapest E-Doblo was reported at £26,205 excluding VAT, after the plug-in van grant"
     source: https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates
     quote: "Pricing (excluding VAT) kicks off at £21,325 for the Fiat Doblo , rising to £26,205 for the cheapest all-electric E-Doblo (after the plug-in vehicle grant)."
   - claim: "In March 2024"

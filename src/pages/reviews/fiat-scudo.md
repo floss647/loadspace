@@ -96,7 +96,7 @@ facts:
   - claim: "the electric version can tow up to a tonne, but Fiat doesn't sell a tow bar for it"
     source: https://www.autoexpress.co.uk/fiat/scudo
     quote: "You can technically tow up to a tonne in the electric versions, but you can't buy a tow bar from Fiat anyway."
-  - claim: "the 2024 launch information gave 217 miles from the 75kWh battery"
+  - claim: "launch information gave 217 miles from the 75kWh battery"
     source: https://www.autoexpress.co.uk/fiat/362686/fiat-doblo-scudo-and-ducato-vans-go-sale-2024-style-and-tech-updates
     quote: "The Fiat E-Scudo comes with a 75kWh battery, 134bhp electric motor and a maximum range of 217 miles."
   - claim: "about ten miles fewer than Peugeot quotes for the E-Expert, even though the two are pretty much the same van"
