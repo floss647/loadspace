@@ -3,16 +3,19 @@ layout: ../../layouts/Review.astro
 title: "Toyota Hilux (electric) review"
 van: toyota-hilux
 date: 2026-10-30T08:00:00Z
-summary: "The electric Hilux keeps the badge's toughness off road and, by all accounts, adds a quiet, comfortable cab, but a 715 kg payload, 1,600kg towing and a short range make it a specialist tool rather than a diesel replacement."
+summary: "The electric Hilux keeps the badge's toughness off road and, by all accounts, adds a quiet, comfortable cab, but a 715 kg payload, 1,600kg to 1,700kg towing (Toyota's figures vary) and a short range make it a specialist tool rather than a diesel replacement."
 specs:
   price: "£47,170"
   range: "159 miles"
   charging: "150kW"
-  payload: "715 kg"
+  payload: "715 kg (Toyota doesn't say if a driver is included)"
   batteryWarranty: "10 years or 1 million miles (service-activated)"
-verdict: "The electric Hilux is a proper Hilux that happens to run on a battery: it keeps the diesel's wading depth and approach angle and, by all accounts, rides more comfortably and more quietly. The catch is the numbers that matter to pickup buyers. A 715 kg payload and 1,600kg braked towing are well short of the diesel, and the official range is modest. Buy it for short, predictable off-road or airside work; for heavy loads or long days, look elsewhere."
+verdict: "The electric Hilux is a proper Hilux that happens to run on a battery: it keeps the diesel's wading depth and approach angle and, by all accounts, rides more comfortably and more quietly. The catch is the numbers that matter to pickup buyers. A 715 kg payload and towing of 1,600kg to 1,700kg, depending on which Toyota figure you read, are well short of the diesel, and the official range is modest. Buy it for short, predictable off-road or airside work; for heavy loads or long days, look elsewhere."
 good: ["Keeps the diesel's 700mm wading depth", "Quiet, comfortable cab by all accounts", "Service-activated battery cover for up to 10 years"]
-bad: ["715 kg payload, well under a tonne", "Tows only 1,600kg braked", "Payload is below HMRC's one-tonne VAT line"]
+bad: ["715 kg payload, well under a tonne", "Tows only 1,600kg to 1,700kg, by Toyota's figures", "Payload is below HMRC's one-tonne VAT line"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.toyota.co.uk/new-cars/hilux
   - https://www.toyota.co.uk/owners/toyota-warranty
@@ -30,9 +33,17 @@ sources:
   - https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
   - https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
 facts:
-  - claim: "1,600kg"
+  - claim: "the braked figure early reports also give"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "the BEV is limited to 1,600kg braked"
+  - claim: "Toyota's headline maximum is 1,600kg"
+    calc: "Toyota's Hilux page (https://www.toyota.co.uk/new-cars/hilux) headline figures: 'Max Towing Capacity (Electric) Up to 1600kg'. 1600kg = 1,600kg."
+  - claim: "the spec panel and FAQ on the same Toyota page say up to 1,700kg"
+    calc: "Toyota's Hilux page (https://www.toyota.co.uk/new-cars/hilux): electric spec panel 'Payload Up to 715 kg Towing Up to 1700 kg', and FAQ 'What is the towing capacity for the All-Electric Hilux? The towing capacity is up to 1,700kg'. 1700 kg = 1,700kg."
+  - claim: "1,600kg to 1,700kg"
+    calc: "Toyota's Hilux page (https://www.toyota.co.uk/new-cars/hilux) gives electric towing as 'Up to 1600kg' in its headline figures and 'Up to 1700 kg' / 'up to 1,700kg' in its spec panel and FAQ, so Toyota's figures range from 1,600kg to 1,700kg. Auto Express gives 1,600kg braked."
+  - claim: "Toyota doesn't say if a driver is included"
+    calc: "Toyota's Hilux page (https://www.toyota.co.uk/new-cars/hilux), checked 30 October 2026, gives 'Max Payload (Electric) Up to 715kg' and 'Payload Up to 715 kg' but doesn't say whether a driver's weight is included."
   - claim: "the diesel can tow 3.5 tonnes"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "While the diesel Hilux can haul a maximum of 3.5 tonnes"
@@ -175,8 +186,7 @@ facts:
     source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
     quote: "Icon 2-seats Double Cab Electric 59.2 kWh Auto HE1 F3T 196 hp 0 g/km £4,020.00 LCV £ 360 £ 48,253.33"
   - claim: "Toyota's own figures disagree on whether its quoted on-the-road price for the conversion includes the grant"
-    source: https://media.toyota.co.uk/tailor-made-for-business-all-new-toyota-hilux-now-available-with-two-seat-conversion/
-    quote: "Commercial vehicle on-the-road prices (excluding VAT) are from £36,815 for the Diesel 48V and £49,356 for the battery electric model, including a £5,000 discount funded by the Government's OZEV large electric van grant."
+    calc: "Toyota's 6 August 2026 release (https://media.toyota.co.uk/tailor-made-for-business-all-new-toyota-hilux-now-available-with-two-seat-conversion/) says: 'Commercial vehicle on-the-road prices (excluding VAT) are from £36,815 for the Diesel 48V and £49,356 for the battery electric model, including a £5,000 discount funded by the Government's OZEV large electric van grant.' But in the 1 October 2026 price list, the Icon 2-seats electric (HE1 F3T) has On the Road £59,145.00, On the Road with OZEV grant £54,145.00, Maximum Reclaimable VAT £9,788.34 and Commercial Vehicle On Road £49,356.66; £59,145.00 - £9,788.34 = £49,356.66, so the list's £49,356 figure is before the grant, not after it."
   - claim: "On the road with VAT, Toyota gives £57,845 for the Icon and £60,695 for the Invincible"
     source: https://media.toyota.co.uk/the-all-new-toyota-hilux-model-range-and-prices-revealed/
     quote: "OTR PRICE (inc. VAT) Icon £57,845* Invincible £60,695* *Not including £5,000 grant support."
@@ -204,8 +214,6 @@ facts:
   - claim: "a maximum payload of up to 715kg"
     source: https://www.toyota.co.uk/new-cars/hilux
     quote: "Max Payload (Electric) Up to 715kg"
-  - claim: "Toyota's own page gives 1,700kg for towing in one place"
-    calc: "Toyota's Hilux page (https://www.toyota.co.uk/new-cars/hilux) shows 'Max Towing Capacity (Electric) Up to 1600kg' in its headline figures but 'Payload Up to 715 kg Towing Up to 1700 kg' in the electric spec panel. 1700 kg = 1,700kg."
   - claim: "Toyota doesn't publish a separate payload for it"
     source: https://media.toyota.co.uk/tailor-made-for-business-all-new-toyota-hilux-now-available-with-two-seat-conversion/
     quote: "Available for both Diesel 48V and battery electric Hilux models"
@@ -246,7 +254,7 @@ Think depot-based crews on short, predictable shifts who still need four-wheel d
 
 ### Load area, payload and towing
 
-Because the battery sits inside the chassis rails, the bed is the same size as the diesel's: 1,555mm long, 1,540mm wide and 480mm deep. What you can put in it is the problem. Toyota gives the electric Hilux a maximum payload of up to 715kg, and it tows 1,600kg braked, where the diesel can tow 3.5 tonnes. Toyota's own page gives 1,700kg for towing in one place, so check the plate.
+Because the battery sits inside the chassis rails, the bed is the same size as the diesel's: 1,555mm long, 1,540mm wide and 480mm deep. What you can put in it is the problem. Toyota gives the electric Hilux a maximum payload of up to 715kg. For towing, Toyota's headline maximum is 1,600kg, the braked figure early reports also give, where the diesel can tow 3.5 tonnes; but the spec panel and FAQ on the same Toyota page say up to 1,700kg, so check the plate.
 
 In August 2026 a factory two-seat conversion went on sale. It replaces the rear bench with a flat, secure load area of 1,290mm wide and 640mm deep. Toyota doesn't publish a separate payload for it, so we've scored the 715 kg maximum.
 

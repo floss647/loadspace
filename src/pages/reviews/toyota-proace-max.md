@@ -3,25 +3,29 @@ layout: ../../layouts/Review.astro
 title: "Toyota Proace Max Electric review"
 van: toyota-proace-max
 date: 2026-10-30T08:00:00Z
-summary: "Toyota's version of the big Stellantis electric van trades choice for reassurance: fewer body sizes and one trim, but every electric van is plated heavy enough for a real payload and the warranty can run to 10 years. Toyota lists it from £50,637 excluding VAT, but it isn't on the government's published list of eligible vans when we checked (October 2026)."
+summary: "Toyota's version of the big Stellantis electric van trades choice for reassurance: fewer body sizes and one trim, but every electric van is plated heavy enough for a real payload and the warranty can run to 10 years. Toyota lists it from £50,637 excluding VAT, but it wasn't on the government's published list of grant-eligible vans when we checked (October 2026)."
 specs:
   price: "£50,637"
-  range: "260 miles"
+  range: "260 miles (Toyota: from a simulation of the WLTP test)"
   charging: "150kW"
-  payload: "1,460 kg"
+  payload: "Not confirmed (Toyota gives 1,250kg to 1,665kg for all electric versions, not a panel-van figure)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The Proace Max Electric is the twin to pick if you value peace of mind over choice. Every electric version is rated at 4,250kg, so there's no feeble low-payload model, the standard kit is generous and the warranty can stretch to 10 years if you keep servicing it at a Toyota dealer. Against it, there are only three panel van sizes, reports on how it drives are mixed and the old design shows its age. Ask the dealer whether the van grant applies, as it isn't on the government's published list of eligible vans when we checked (October 2026)."
+verdict: "The Proace Max Electric is the twin to pick if you value peace of mind over choice. Every electric version is rated at 4,250kg, so there's no feeble low-payload model, the standard kit is generous and the warranty can stretch to 10 years if you keep servicing it at a Toyota dealer. Against it, there are only three panel van sizes, reports on how it drives are mixed and the old design shows its age. Ask the dealer whether the van grant applies: it wasn't on the government's published list of grant-eligible vans when we checked (October 2026), and Toyota's price list says the grant is subject to PIVG approval."
 good:
   - "Warranty of up to 10 years with dealer servicing"
-  - "No low-payload versions: 1,460kg in the L3H2"
+  - "No low-payload versions: every electric van is rated at 4,250kg"
   - "Generous standard kit on the single Icon grade"
 bad:
   - "Only three electric panel van sizes"
-  - "Isn't on the government's published list of eligible vans when we checked (October 2026)"
+  - "Not on the government's published list of grant-eligible vans when we checked (October 2026)"
   - "Light steering and a bouncy ride, by some accounts"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.toyota.co.uk/new-cars/proace-max
   - https://www.toyota.co.uk/owners/toyota-warranty
+  - https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf
   - https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
   - https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
   - https://www.autoexpress.co.uk/toyota/proace-max/prices-specs/63890/205kw-icon-110kwh-h3-van-auto-revised
@@ -45,7 +49,7 @@ facts:
   - claim: "Toyota's UK price list, effective from 1 October 2026"
     source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
     quote: "Toyota PROACE MAX EV LCV PRICE LIST 2026 Model Year Price list effective from - 1st October 2026"
-  - claim: "the list marks the grant as subject to approval"
+  - claim: "Toyota's price list says the grant is subject to PIVG approval"
     source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
     quote: "* OZEV GRANT subject to PIVG approval"
   - claim: "a finance example on Toyota's own site shows a £5,000 grant already deducted"
@@ -69,9 +73,24 @@ facts:
   - claim: "1,250kg to 1,665kg"
     source: https://www.toyota.co.uk/new-cars/proace-max
     quote: "Max Payload (Electric) 1,250kg - 1,665kg"
-  - claim: "1,460 kg"
+  - claim: "payloads of 1,460kg in the L3H2"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace-max/2024-dimensions/
     quote: "The result is a maximum payload of 1,460kg on the L3H2 model."
+  - claim: "Not confirmed (Toyota gives 1,250kg to 1,665kg for all electric versions, not a panel-van figure)"
+    source: https://www.toyota.co.uk/new-cars/proace-max
+    quote: "Max Payload (Electric) 1,250kg - 1,665kg"
+  - claim: "elsewhere quotes a maximum of 1,425kg for the panel van"
+    source: https://www.toyota.co.uk/new-cars/proace-max
+    quote: "it offers a maximum payload of 1,425kg (based on the panel van)"
+  - claim: "(Toyota: from a simulation of the WLTP test)"
+    source: https://www.toyota.co.uk/new-cars/proace-max
+    quote: "Electric range figures were achieved using a simulation of the WLTP test procedure"
+  - claim: "say Toyota Proace vehicles are not eligible"
+    source: https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf
+    quote: "Toyota Proace vehicles are not"
+  - claim: "19 February 2026"
+    source: https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf
+    quote: "These Terms are effective from 19/02/2026"
   - claim: "Eight years or 100,000 miles"
     source: https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
     quote: "In addition, the high-voltage battery on EV models benefits from eight years/100,000 miles warranty protection."
@@ -105,9 +124,9 @@ facts:
   - claim: "Every electric version is rated at 4,250kg"
     source: https://vanfleetworld.co.uk/road-test-toyota-proace-max-electric/
     quote: "Toyota has opted for 4,250kg gross weight models only for its electric range."
-  - claim: "No low-payload versions: 1,460kg in the L3H2"
-    source: https://www.parkers.co.uk/vans-pickups/toyota/proace-max/2024-dimensions/
-    quote: "there are no low-payload models in the range. The result is a maximum payload of 1,460kg on the L3H2 model."
+  - claim: "No low-payload versions: every electric van is rated at 4,250kg"
+    source: https://vanfleetworld.co.uk/road-test-toyota-proace-max-electric/
+    quote: "Toyota has opted for 4,250kg gross weight models only for its electric range."
   - claim: "Generous standard kit on the single Icon grade"
     source: https://vanfleetworld.co.uk/road-test-toyota-proace-max-electric/
     quote: "Whether diesel or electric, there is one equipment grade, Icon."
@@ -120,10 +139,10 @@ facts:
   - claim: "there are only three panel van sizes"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace-max/2024-review/
     quote: "with only three options for the Electric"
-  - claim: "Isn't on the government's published list of eligible vans"
+  - claim: "Not on the government's published list of grant-eligible vans"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Toyota Hilux Electric Icon Toyota Hilux Electric Invincible Toyota Proace Electric Vauxhall Movano"
-  - claim: "It isn't on the government's published list of eligible vans"
+  - claim: "it wasn't on the government's published list of grant-eligible vans"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Toyota Hilux Electric Icon Toyota Hilux Electric Invincible Toyota Proace Electric Vauxhall Movano"
   - claim: "Ask the dealer whether the van grant applies"
@@ -231,7 +250,7 @@ facts:
     quote: "The maximum discount available for some large vans is £5,000."
   - claim: "when we checked (October 2026)"
     calc: "The GOV.UK large vans list (https://www.gov.uk/plug-in-vehicle-grants/vans) was checked live on 30 October 2026; it names Toyota Proace City Electric, Toyota Proace Electric and the Toyota Hilux Electric but no Proace Max, and the trucks list names no Toyota."
-  - claim: "The Proace Max Electric isn't on the government's published list"
+  - claim: "The Proace Max Electric wasn't on the government's published list"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Toyota Hilux Electric Icon Toyota Hilux Electric Invincible Toyota Proace Electric Vauxhall Movano"
   - claim: "the smaller Proace Electric and Proace City Electric are listed"
@@ -259,11 +278,11 @@ Fleets that keep vans for a long time and want the longest cover, and businesses
 
 ### Load area and payload
 
-This is the clearest difference from the twins. Its twins sell 3.5-tonne electric versions that carry as little as 710kg, but Toyota only sells electric vans rated at 4,250kg. Payload is 1,460kg in the L3H2, 1,435kg in the L3H3 and 1,385kg in the L4H3, according to independent spec data; Toyota's own site gives 1,250kg to 1,665kg for the electric range as a whole, without saying which version is which. Those three are the only electric panel vans, holding 13, 15 and 17 cubic metres, plus an L3 electric chassis cab. Towing is rated at 2,400kg, and ply lining is standard. Under current GOV.UK rules, a car (category B) licence covers zero-emission vehicles up to 4,250kg, so you can drive one on a car licence.
+This is the clearest difference from the twins. Its twins sell 3.5-tonne electric versions that carry as little as 710kg, but Toyota only sells electric vans rated at 4,250kg. Independent spec data gives payloads of 1,460kg in the L3H2, 1,435kg in the L3H3 and 1,385kg in the L4H3. Toyota's own site gives 1,250kg to 1,665kg for the electric range as a whole, without saying which version is which, and elsewhere quotes a maximum of 1,425kg for the panel van without saying whether that's diesel or electric. As the figures don't line up, we haven't scored payload; ask for the plated payload of the exact van. The L3H2, L3H3 and L4H3 are the only electric panel vans, holding 13, 15 and 17 cubic metres, plus an L3 electric chassis cab. Towing is rated at 2,400kg, and ply lining is standard. Under current GOV.UK rules, a car (category B) licence covers zero-emission vehicles up to 4,250kg, so you can drive one on a car licence.
 
 ### Range and charging
 
-Toyota quotes up to 260 miles, a figure it says comes from a simulation of the WLTP test, and road tests quote 260 or 261 miles. Rapid charging at up to 150kW gets you from 10 to 80% in about 55 minutes, Toyota says, and there's an 11kW on-board charger for the depot. More in our [charging guide](/guides/charging-an-electric-van/).
+Toyota quotes up to 260 miles, a figure it says comes from a simulation of the WLTP test rather than a full test, and road tests quote 260 or 261 miles. We've scored it as the official figure, as it's the one Toyota publishes. Rapid charging at up to 150kW gets you from 10 to 80% in about 55 minutes, Toyota says, and there's an 11kW on-board charger for the depot. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -275,11 +294,11 @@ There's one grade, Icon, and it's well stocked: a 10-inch touchscreen with navig
 
 ### Warranty
 
-Toyota gives every new van three years or 60,000 miles of cover, and each qualifying service at a Toyota dealer adds a further 12 or 24 months, depending on the service schedule, up to 10 years or 100,000 miles. You also get five years of roadside assistance and a courtesy van while yours is repaired under warranty, and a used van's lapsed cover can be reactivated by servicing it at a main dealer. Its Stellantis twins offer three years on the van. In September 2024, Toyota's UK press office said the battery is covered for eight years or 100,000 miles. Toyota's service-activated Battery Care cover, offered on its other electric models, excludes the Proace, so check the battery terms in writing.
+Toyota gives every new van three years or 60,000 miles of cover, and each qualifying service at a Toyota dealer adds a further 12 or 24 months, depending on the service schedule, up to 10 years or 100,000 miles. You also get five years of roadside assistance and a courtesy van while yours is repaired under warranty, and a used van's lapsed cover can be reactivated by servicing it at a main dealer. Its Stellantis twins offer three years on the van. In September 2024, Toyota's UK press office said the battery is covered for eight years or 100,000 miles. Toyota's service-activated Battery Care cover, offered on its other electric models, excludes the Proace, and Toyota's Battery Care terms, effective from 19 February 2026, say Toyota Proace vehicles are not eligible, without naming the Max, so check the battery terms in writing.
 
 ### Price and the grant
 
-Toyota's UK price list, effective from 1 October 2026, starts the electric panel van at £50,637 excluding VAT and before any grant, for the L3H2 Icon without ply lining. The Proace Max Electric isn't on the government's published list of eligible vans when we checked (October 2026), and the list marks the grant as subject to approval, though a finance example on Toyota's own site shows a £5,000 grant already deducted. The smaller Proace Electric and Proace City Electric are listed, but they are different vans. Check with the dealer whether the grant applies before you compare quotes. The Movano, ë-Relay, E-Boxer and E-Ducato are all on the list, with a discount worth up to £5,000 on some large vans (see our [grants and tax guide](/guides/grants-and-tax/)), so compare quotes after the grant. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the running costs.
+Toyota's UK price list, effective from 1 October 2026, starts the electric panel van at £50,637 excluding VAT and before any grant, for the L3H2 Icon without ply lining. The Proace Max Electric wasn't on the government's published list of grant-eligible vans when we checked (October 2026), and Toyota's price list says the grant is subject to PIVG approval, though a finance example on Toyota's own site shows a £5,000 grant already deducted. The smaller Proace Electric and Proace City Electric are listed, but they are different vans. Check with the dealer whether the grant applies before you compare quotes. The Movano, ë-Relay, E-Boxer and E-Ducato are all on the list, with a discount worth up to £5,000 on some large vans (see our [grants and tax guide](/guides/grants-and-tax/)), so compare quotes after the grant. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the running costs.
 
 ### Alternatives
 

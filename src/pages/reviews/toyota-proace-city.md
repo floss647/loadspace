@@ -13,6 +13,9 @@ specs:
 verdict: "The Proace City Electric is built by Stellantis and is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions, so its load bay and electric drivetrain are a known, well-regarded quantity. The reason to buy the Toyota is the warranty: keep it serviced by Toyota and the cover can run to 10 years. Toyota's own figures are middling for the class (208 miles, 100kW charging, 759 kg payload), so set the longer cover against the price and compare the whole-life deal with its siblings."
 good: ["Warranty can run to 10 years with Toyota servicing", "Same proven body and drivetrain as its four siblings", "On the government's small-van grant list"]
 bad: ["No UK road test of the current electric van found", "Electric payload of up to 759kg", "The long warranty depends on Toyota servicing"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.toyota.co.uk/new-cars/proace-city
   - https://www.toyota.co.uk/owners/toyota-warranty
@@ -57,7 +60,7 @@ facts:
     quote: "Payload 759 kg"
   - claim: "Toyota doesn't say if a driver is included"
     calc: "Toyota's Proace City page (https://www.toyota.co.uk/new-cars/proace-city), checked 30 October 2026, gives 'Payload 759 kg' and 'Max Payload (Electric) 691 - 759kg' but doesn't say whether a driver's weight is included."
-  - claim: "Toyota's Battery Care terms, effective from 19 February 2026, say Toyota Proace vehicles are not eligible"
+  - claim: "say Toyota Proace vehicles are not eligible"
     source: https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf
     quote: "Toyota Proace vehicles are not"
   - claim: "19 February 2026"
