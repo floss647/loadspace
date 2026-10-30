@@ -146,8 +146,7 @@ facts:
     source: https://uk.nissannews.com/en-GB/releases/interstar-crowned-large-van-of-the-year-at-the-annual-what-van-awards
     quote: "maximum payloads of up to 1.6 tonnes (electric)"
   - claim: "in the 4.0-tonne version"
-    source: https://uk.nissannews.com/en-GB/releases/the-big-van-for-bold-business-all-new-interstar-available-now-in-dealerships
-    quote: "4T up to 1.6 tonnes for the EV version"
+    calc: "Nissan's November 2024 release gives '4T up to 1.6 tonnes for the EV version': 4T = the 4.0-tonne van"
   - claim: "for the 4.0-tonne van"
     source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-dimensions/
     quote: "while the 4.0-tonne 87kg goes up to 1,631kg"
@@ -241,7 +240,7 @@ facts:
     quote: "2024/11/06"
   - claim: "a starting price of £32,390 excluding VAT"
     source: https://uk.nissannews.com/en-GB/releases/the-big-van-for-bold-business-all-new-interstar-available-now-in-dealerships
-    quote: "basic prices starting from &pound;32,390 (excluding VAT and taxes)"
+    quote: "basic prices starting from £32,390 (excluding VAT and taxes)"
   - claim: "the government's list of large vans eligible for the van grant"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "Nissan Interstar-e"

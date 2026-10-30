@@ -29,13 +29,13 @@ facts:
   - claim: "£29,000"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 300S SWB H1 56kWh 110kW / 150PS 1-speed automatic FWD 29,000 34,800 29,436 35,240"
-  - claim: "£29,000"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
-    quote: "Effective: 29/04/2026"
   - claim: "158 miles"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Up to 158-mile"
-  - claim: "158 miles"
+  - claim: "158 miles for the L1H1"
+    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
+    quote: "158 Miles WLTP Combined range reflects a combined WLTP driving cycle"
+  - claim: "for the L1H1"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "Based on L1H1 with full charge and speed limiter."
   - claim: "87kW"
@@ -48,9 +48,11 @@ facts:
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "backed by a robust 1,275kg"
   - claim: "8 years or 100,000 miles"
+    calc: "Ford UK EV benefits page: 'all Ford EVs come with an eight-year, 100,000 mile EV battery warranty' (fact below). Eight years written as a figure: 8 years or 100,000 miles"
+  - claim: "100,000 miles"
     source: https://www.ford.co.uk/hybrid-electric/benefits
     quote: "all Ford EVs come with an eight-year, 100,000 mile EV battery warranty"
-  - claim: "8 years or 100,000 miles"
+  - claim: "100,000 miles"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "There's also an eight-year, 100,000-mile warranty on the Transit City's electrical components."
   # Summary, verdict, good and bad
@@ -78,7 +80,7 @@ facts:
   - claim: "far less than an E-Transit Custom"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "From £43,630 Recommended Retail Price Excl. Vat"
-  - claim: "an official range of up to 158 miles"
+  - claim: "an official range of up to"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "WLTP Combined Range up to"
   - claim: "an official range of up to 158 miles"
@@ -119,10 +121,10 @@ facts:
   - claim: "it stands 1,991mm tall"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Overall height 1,991 2,285"
-  - claim: "The high-roof L2H2 has 8.5m³ and carries up to 1,275kg"
+  - claim: "The high-roof L2H2 has 8.5m³"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Up to 8.5m³"
-  - claim: "The high-roof L2H2 has 8.5m³ and carries up to 1,275kg"
+  - claim: "carries up to 1,275kg"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "backed by a robust 1,275kg"
   - claim: "Load length at the floor is 2,770mm and 3,070mm"
@@ -146,10 +148,10 @@ facts:
     quote: "The 56kWh LFP battery covers daily routes with capacity to spare."
   - claim: "the high-roof van is rated at 139 miles"
     calc: "Ford UK price list, WLTP Combined Range (m) column: LWB High Roof 139.2 (fact below), rounded to the nearest mile = 139 miles"
-  - claim: "the high-roof van is rated at 139 miles"
+  - claim: "the high-roof van is rated at"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "LWB High Roof 139.2 43.45 211.2 28 33 mins 87"
-  - claim: "236 miles on the WLTP city cycle"
+  - claim: "Ford quotes 236 miles"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "158 Miles WLTP Combined range reflects a combined WLTP driving cycle whilst 236 Miles WLTP City Range reflects the WLTP city driving cycle"
   - claim: "tested at 23°C with no heating or other electrical load"
@@ -161,39 +163,41 @@ facts:
   - claim: "Ford's standard equipment list shows a PTC heater and a battery heater"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Battery Heater HTEAB"
-  - claim: "Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes"
+  - claim: "Rapid charging tops out at 87kW"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
-    quote: "SWB Low Roof 157.8 38.3 236.7 24.95 33 mins 87 8 hours 5.5 hours"
-  - claim: "Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes"
+    quote: "E-Motor 11kW 87kW 56kWh 110kW / 150PS 260Nm"
+  - claim: "with a 10 to 80% charge taking 33 minutes"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Charge 10% to 80% in just 33 minutes."
   - claim: "an average rate of 67kW"
     source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
     quote: "with an average charging power of 67kW"
   - claim: "10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one"
+    calc: "Ford UK price list, Consumption, Range and Charging table, SWB Low Roof row (fact below): the column headed 'AC Charging Time 10-100% - 7.4kW 1-phase' reads 8 hours and the column headed 'AC Charging Time 10-100% - 11kW 3-phase' reads 5.5 hours (LWB High Roof row the same)"
+  - claim: "takes 5.5 hours"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "SWB Low Roof 157.8 38.3 236.7 24.95 33 mins 87 8 hours 5.5 hours"
-  - claim: "10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one"
+  - claim: "on a 7.4kW single-phase one"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
-    quote: "AC Charging Time 10-100% - 7.4kW"
+    quote: "10-100% - 7.4kW"
   # On the road
-  - claim: "a 110kW (150PS) motor driving the front wheels, with 260Nm of torque"
+  - claim: "with 260Nm of torque"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "E-Motor 11kW 87kW 56kWh 110kW / 150PS 260Nm"
-  - claim: "a 110kW (150PS) motor driving the front wheels, with 260Nm of torque"
+  - claim: "a 110kW (150PS) motor driving the front wheels"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 300S SWB H1 56kWh 110kW / 150PS 1-speed automatic FWD"
-  - claim: "0-62mph in 13.7 seconds, a 75mph top speed and a 12-metre turning circle"
+  - claim: "0-62mph in 13.7 seconds, with a 75mph top speed and a 12-metre turning circle"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "meaning the van can go from 0-62mph in 13.7 seconds and top out at 75mph. In accordance with its focus on urban use, the turning circle is a tight 12 metres."
   - claim: "a one-pedal driving mode"
     source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
     quote: "Ford has optimised the one-pedal mode designed for the Transit City"
   # Cab and kit
-  - claim: "a 12.3-inch touchscreen with Apple CarPlay and Android Auto"
+  - claim: "a 12.3-inch touchscreen"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Keep informed and entertained with the 12.3” touchscreen"
-  - claim: "a 12.3-inch touchscreen with Apple CarPlay and Android Auto"
+  - claim: "Apple CarPlay and Android Auto"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Mirror apps on your touchscreen with Apple CarPlay and Android Auto."
   - claim: "adaptive cruise control"
@@ -230,9 +234,9 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Standard Content - Trend"
   # Which version to buy
-  - claim: "the L2H2 costs £2,500 more"
+  - claim: "The L2H2 costs £2,500 more"
     calc: "Ford UK price list, NRP less VAT: L2H2 (LWB H2) £31,500 (fact below) minus L1H1 (SWB H1) £29,000 (spec fact) = £2,500"
-  - claim: "the L2H2 costs £2,500 more"
+  - claim: "The L2H2 costs"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 330M LWB H2 56kWh 110kW / 150PS 1-speed automatic FWD 31,500 37,800 31,936 38,240"
   - claim: "190kg more payload"
@@ -252,16 +256,16 @@ facts:
     quote: "Van Trend 330M LWB H2 56kWh 110kW / 150PS 1-speed automatic FWD 31,500 37,800 31,936 38,240"
   - claim: "29 April 2026"
     calc: "Ford UK Transit City price list footer reads 'Effective: 29/04/2026', which is 29 April 2026 (UK date order)"
-  - claim: "On the road before VAT, that's £29,436 and £31,936"
+  - claim: "£29,436"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 300S SWB H1 56kWh 110kW / 150PS 1-speed automatic FWD 29,000 34,800 29,436 35,240"
-  - claim: "On the road before VAT, that's £29,436 and £31,936"
+  - claim: "£31,936"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Van Trend 330M LWB H2 56kWh 110kW / 150PS 1-speed automatic FWD 31,500 37,800 31,936 38,240"
-  - claim: "Both vans are on the government's list of vans eligible for a grant of up to £5,000"
+  - claim: "Both vans are on the government's list of vans eligible for a grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Ford Transit City Van"
-  - claim: "Both vans are on the government's list of vans eligible for a grant of up to £5,000"
+  - claim: "a grant of up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
   - claim: "Ford shows the grant as a separate £5,000 saving"
@@ -276,12 +280,16 @@ facts:
   - claim: "keep the van for at least 9 months"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "who must retain the vehicle for at least 9 months"
-  - claim: "The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years"
+  - claim: "The van warranty is 3 years or 100,000 miles"
+    calc: "Ford UK Transit City price list: 'Base Warranty: 3years, 100K Miles' (fact below). 100K = 100,000, so 3 years or 100,000 miles"
+  - claim: "The van warranty is 3 years"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
-    quote: "Service Interval: 2Years, Unlimited Miles Base Warranty: 3years, 100K Miles"
-  - claim: "The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years"
-    source: https://www.ford.co.uk/hybrid-electric/benefits
-    quote: "all Ford EVs come with an eight-year, 100,000 mile EV battery warranty"
+    quote: "Base Warranty: 3years, 100K Miles"
+  - claim: "servicing is every 2 years"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "Service Interval: 2Years, Unlimited Miles"
+  - claim: "the battery is covered for 8 years or 100,000 miles"
+    calc: "Ford UK EV benefits page: 'all Ford EVs come with an eight-year, 100,000 mile EV battery warranty' (spec facts above) = 8 years or 100,000 miles"
 ---
 
 ### Who it's for
@@ -312,7 +320,7 @@ Choose by the job. The L1H1 goes further on a charge and is easier to park. The 
 
 ### Alternatives
 
-The [Ford E-Transit Custom](/reviews/ford-transit-custom/) costs much more, from £43,630 before VAT, but goes further, up to 230 miles, and charges faster. Also compare the [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and the [Maxus eDeliver 7](/vans/maxus-edeliver-7/).
+The [Ford E-Transit Custom](/reviews/ford-transit-custom/) costs much more, from £43,630 before VAT, but goes further, up to 230 miles, and charges faster. Also compare the [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and the [Toyota Proace Electric](/vans/toyota-proace/).
 
 ### Price
 

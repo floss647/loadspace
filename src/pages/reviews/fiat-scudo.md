@@ -221,13 +221,13 @@ We couldn't find a current maximum payload for the E-Scudo panel van. Buyers' gu
 
 ### Range and charging in the real world
 
-Range figures for the Fiat don't quite line up. The 2024 launch information gave 217 miles from the 75kWh battery, and Fiat now quotes 219. That's about ten miles fewer than Peugeot quotes for the E-Expert, even though the two are pretty much the same van, which tells you how much weight to put on small differences in brochure numbers. A 2025 review also lists a 50kWh version with a 139-mile range, which the Peugeot doesn't offer, but the launch information only mentioned the bigger battery, so check availability with a dealer. As with any electric van, range falls at motorway speeds.
+Range figures for the Fiat don't quite line up. The 2024 launch information gave 217 miles from the 75kWh battery, and Fiat now quotes 219. That's about ten miles fewer than Peugeot quotes for the E-Expert, even though the two are pretty much the same van. A 2025 review also lists a 50kWh version with a 139-mile range, which the Peugeot doesn't offer, but the launch information only mentioned the bigger battery, so check availability with a dealer. As with any electric van, range falls at motorway speeds.
 
 A 100kW rapid charger takes the 75kWh battery from 5 to 80% in 45 minutes. At home, a 7.4kW wallbox needs 11 hours 20 minutes, and 11kW charging is a £400 option. Our [charging guide](/guides/charging-an-electric-van/) covers what to install.
 
 ### On the road
 
-The E-Scudo has a reputation as the pick of the Scudo range to drive: smoother and quieter than the diesels, and its 134bhp is plenty at low speeds but runs short at higher ones. It's clearly a town van first. The regenerative braking is adjustable but not strong enough for one-pedal driving. Reports also mention grabby brakes and numb steering, and a smallish windscreen limits the view out, so the optional camera kit is worth a look.
+The E-Scudo has a reputation as the pick of the Scudo range to drive: smoother and quieter than the diesels, and its 134bhp is plenty at low speeds but runs short at higher ones. The regenerative braking is adjustable but not strong enough for one-pedal driving. Reports also mention grabby brakes and numb steering, and a smallish windscreen limits the view out, so the optional camera kit is worth a look.
 
 ### Cab and kit
 

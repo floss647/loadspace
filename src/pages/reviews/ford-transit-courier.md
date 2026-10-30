@@ -153,7 +153,7 @@ facts:
   - claim: "Ford's price list, effective from 24 August 2026"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Effective Date : 24th August 2026"
-  - claim: "an official WLTP range of 201 miles for both trims"
+  - claim: "an official WLTP range"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "The electric range shown was achieved using the new (WLTP) test procedure."
   - claim: "In early 2025"
@@ -187,7 +187,7 @@ facts:
   - claim: "a reputation as one of the better-handling vans"
     source: https://www.autoexpress.co.uk/ford/transit-courier
     quote: "it can lay claim to being one of the best-handling vans on the market"
-  - claim: "The 136PS motor is the most powerful in the Courier range"
+  - claim: "is the most powerful in the Courier range"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "This might make it the most powerful model in the range"
   - claim: "The 136PS motor"
@@ -243,9 +243,27 @@ facts:
   - claim: "Renault Kangoo E-Tech"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "These alternatives include the Renault Kangoo E-Tech and its sibling vehicles the Nissan eTownstar and Mercedes-Benz eCitan"
-  - claim: "Citroën ë-Berlingo, Peugeot E-Partner, Vauxhall Combo Electric, Fiat E-Doblo and Toyota Proace City Electric"
+  - claim: "Citroën ë-Berlingo"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "These include the Citroen eBerlingo , Fiat E-Doblo , Peugeot e-Partner and Vauxhall Combo Electric . You can add the mechanically identical Toyota Proace City Electric to this collection too"
+  - claim: "Peugeot E-Partner"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These include the Citroen eBerlingo , Fiat E-Doblo , Peugeot e-Partner and Vauxhall Combo Electric . You can add the mechanically identical Toyota Proace City Electric to this collection too"
+  - claim: "Vauxhall Combo Electric"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These include the Citroen eBerlingo , Fiat E-Doblo , Peugeot e-Partner and Vauxhall Combo Electric . You can add the mechanically identical Toyota Proace City Electric to this collection too"
+  - claim: "Fiat E-Doblo"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These include the Citroen eBerlingo , Fiat E-Doblo , Peugeot e-Partner and Vauxhall Combo Electric . You can add the mechanically identical Toyota Proace City Electric to this collection too"
+  - claim: "Toyota Proace City Electric"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These include the Citroen eBerlingo , Fiat E-Doblo , Peugeot e-Partner and Vauxhall Combo Electric . You can add the mechanically identical Toyota Proace City Electric to this collection too"
+  - claim: "Nissan Townstar EV"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These alternatives include the Renault Kangoo E-Tech and its sibling vehicles the Nissan eTownstar and Mercedes-Benz eCitan"
+  - claim: "Mercedes-Benz eCitan"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
+    quote: "These alternatives include the Renault Kangoo E-Tech and its sibling vehicles the Nissan eTownstar and Mercedes-Benz eCitan"
   - claim: "which are slightly bigger"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-courier/2025-e-transit-courier-review/
     quote: "it is now only slightly smaller than the competition"
@@ -253,7 +271,7 @@ facts:
   - claim: "£28,831.83 on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "Van Trend 46kWh Electric Drive 136PS 1-speed auto Electric TC39 £27,000.00 £32,400.00 £28,831.83 £34,515.20 £69.50 £139.00"
-  - claim: "£28,831.83 on the road before VAT"
+  - claim: "on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
     quote: "'On the road' price includes £1396 (excl VAT) delivery charge, one year's Road Fund Licence, £55 DVLA first registration fee and an estimated £25 for number plates."
   - claim: "£28,832"
@@ -261,9 +279,6 @@ facts:
     quote: "£28,832 E-Transit Courier Van Trend 46kWh Electric Drive 136PS"
   - claim: "Ford's website shows £28,832, which is that on-the-road figure rounded"
     calc: "Ford price list OTR excl. VAT for the Trend £28,831.83 (fact above), rounded to the nearest pound = £28,832, the figure on Ford's website (fact above)"
-  - claim: "the Limited is £28,000 before VAT"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/All_New_PL-Transit_Courier.pdf
-    quote: "Van Limited 46kWh Electric Drive 136PS 1-speed auto Electric TC39 £28,000.00 £33,600.00 £29,831.83 £35,715.20 £69.50 £139.00"
   - claim: "the Limited is £28,000 before VAT"
     calc: "Ford price list RRP excl. VAT for the Limited £28,000.00 (fact above), written without pence: £28,000"
   - claim: "These prices are before the government's Plug-in Van Grant"
@@ -311,7 +326,7 @@ We haven't driven it, and few UK road tests of the electric Courier have been pu
 
 ### Cab and kit
 
-The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen, which is a pain in gloves. One report warns that taller drivers may run out of seat travel, so try the driving position before you sign.
+The cab is a strict two-seater, and the gear selector sits on a stalk behind the wheel, which frees up storage between the seats. The electric van gets more standard kit than the petrol and diesel versions. The Trend has a 12-inch touchscreen (the petrol and diesel get an 8-inch one) with Apple CarPlay and Android Auto, plus climate control, keyless start, front and rear parking sensors and a reversing camera. The catch is that there are no physical climate buttons, so heat and fan settings live on the touchscreen. One report warns that taller drivers may run out of seat travel, so try the driving position before you sign.
 
 ### Which version to buy
 
@@ -319,7 +334,7 @@ Buy the Trend. The Limited costs £1,000 more and adds heated front seats, a hea
 
 ### Alternatives
 
-Compare it with the [Renault Kangoo E-Tech](/vans/renault-kangoo/) and its twins, the [Nissan Townstar EV](/vans/nissan-townstar/) and [Mercedes-Benz eCitan](/vans/mercedes-benz-citan/), and with the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Vauxhall Combo Electric](/vans/vauxhall-combo/), [Fiat E-Doblo](/vans/fiat-doblo/) and [Toyota Proace City Electric](/vans/toyota-proace-city/), which are slightly bigger. If you need more space or payload, they're worth a quote.
+Compare it with the [Renault Kangoo E-Tech](/vans/renault-kangoo/) and its twins, the [Nissan Townstar EV](/vans/nissan-townstar/) and [Mercedes-Benz eCitan](/vans/mercedes-benz-citan/), and with the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Vauxhall Combo Electric](/vans/vauxhall-combo/), [Fiat E-Doblo](/vans/fiat-doblo/) and [Toyota Proace City Electric](/vans/toyota-proace-city/), which are slightly bigger.
 
 ### Price
 

@@ -211,33 +211,33 @@ facts:
 
 ### Who it's for
 
-The ë-Dispatch is Citroën's badge on the Stellantis medium electric van. It shares its body and electric drivetrain with the [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Peugeot E-Expert](/vans/peugeot-expert/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/), and the differences come down to small design changes to the nose and the cab. So the real choice is about price, kit and which dealer is closest. It suits a trade or fleet doing mostly local and regional runs that wants a well-equipped van straight off the price list. Our [Vivaro Electric review](/reviews/vauxhall-vivaro/) covers the shared basics from Vauxhall's side.
+The ë-Dispatch is Citroën's badge on the Stellantis medium electric van. It shares its body and electric drivetrain with the [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Peugeot E-Expert](/vans/peugeot-expert/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/), and the differences come down to small design changes to the nose and the cab. So the real choice is about price, kit and which dealer is closest. It suits local and regional work. Our [Vivaro Electric review](/reviews/vauxhall-vivaro/) covers the shared basics from Vauxhall's side.
 
 ### Load area and payload
 
-The compact version was dropped in the 2024 facelift, leaving two lengths, M and XL. The M holds 5.3 cubic metres and the XL 6.1, and both share a 3,275mm wheelbase, with the XL's extra 350mm all in the rear overhang. The Moduwork through-load bulkhead, standard on Driver trim, stretches the floor length of an M from 2,512mm to 3,674mm for pipes and lengths of timber. The sliding side doors are 935mm wide, which is on the small side for this class.
+The compact version was dropped in the 2024 facelift, leaving two lengths, M and XL. The M holds 5.3 cubic metres and the XL 6.1, and both share a 3,275mm wheelbase, with the XL's extra 350mm all in the rear overhang. The Moduwork through-load bulkhead, standard on Driver trim, stretches the floor length of an M from 2,512mm to 3,674mm. The sliding side doors are 935mm wide, small for this class.
 
-At launch, Citroën quoted 1,000kg for the electric van. Oddly, the Vauxhall twin has been reported at up to 1,210kg, so check the plated weights for the exact van you're quoted. The electric van is rated to tow a tonne, but the only tow bar on Citroën's options list is for the diesel.
+At launch, Citroën quoted 1,000kg for the electric van. The Vauxhall twin has been reported at up to 1,210kg, so check the plated weights for your exact van. The electric van is rated to tow a tonne, but the only tow bar on Citroën's options list is for the diesel.
 
 ### Range and charging in the real world
 
-The 50kWh battery was dropped in 2024, so every ë-Dispatch now has a 75kWh pack. Published range figures differ: the March 2024 launch figure was 217 miles, a 2025 review gives Citroën's figure as 195 to 230 miles depending on the version, and a July 2026 buyers' list says 231. Whatever the brochure says, the heavier XL is less likely to get near the top figure, and speed matters: at a steady 70mph you can expect to lose around two miles of range for every seven or eight you drive.
+The 50kWh battery was dropped in 2024, so every ë-Dispatch now has a 75kWh pack. Published range figures differ: the March 2024 launch figure was 217 miles, a 2025 review gives Citroën's figure as 195 to 230 miles depending on the version, and a July 2026 buyers' list says 231. The heavier XL is less likely to get near the top figure, and speed matters: at a steady 70mph you can expect to lose around two miles of range for every seven or eight you drive.
 
-A 100kW rapid charger takes it from 5 to 80% in 45 minutes, and a 7.4kW wallbox fills it in 11 hours 20 minutes. The 11kW on-board charger is a £400 option, worth it only if you have a three-phase supply. Our [charging guide](/guides/charging-an-electric-van/) explains the choices.
+A 100kW rapid charger takes it from 5 to 80% in 45 minutes, and a 7.4kW wallbox fills it in 11 hours 20 minutes. The 11kW on-board charger is a £400 option. Our [charging guide](/guides/charging-an-electric-van/) explains the choices.
 
 ### On the road
 
-By all accounts the electric version is the one to have: it has a reputation for being quiet and refined. Its 134bhp motor feels keen off the line but has little more to give once you're moving. The battery sits low under the load floor, which is said to help the ride, though wind and road noise are noticeable at motorway speeds. Paddles behind the wheel give three levels of regenerative braking, and the strongest setting is well suited to town work, though it won't bring the van to a stop on its own. The view out is the main gripe: there are no wide-angle mirrors, so blind-spot kit is worth having.
+By all accounts it has a reputation for being quiet and refined. Its 134bhp motor feels keen off the line but has little more to give once you're moving. The battery sits low under the load floor, which is said to help the ride, though wind and road noise are noticeable at motorway speeds. Paddles behind the wheel give three levels of regenerative braking, and the strongest setting is well suited to town work, though it won't bring the van to a stop on its own. The view out is the main gripe: there are no wide-angle mirrors.
 
 ### Cab and kit
 
 There are two trims, Enterprise and Driver, with around £2,700 between them. Enterprise has twin sliding doors, a full steel bulkhead, air conditioning, rear parking sensors, auto lights and wipers, a 10-inch driver's display and a 10-inch touchscreen with wireless phone connection. Driver adds the Moduwork through-load bulkhead, a Thatcham category 1 alarm, LED headlights, front parking sensors, a 180-degree reversing camera, a digital rear-view mirror, blind-spot detection and sat-nav. One option that suits trades is a £350 power take-off, which lets you run tools from the drive battery.
 
-The heating and ventilation keep their own physical controls, which we like. But you sit lower than in most rivals, and the cab is narrow if you regularly carry two passengers.
+The heating and ventilation keep their own physical controls. But you sit lower than in most rivals, and the cab is narrow if you regularly carry two passengers.
 
 ### Which version to buy
 
-An Enterprise M covers most needs, but on that trim the alarm is a £225 option, and we'd tick it. Go for Driver if you want the cameras and through-load bulkhead anyway. The Drive Assist Pack (adaptive cruise control and an electric parking brake) is £950. Servicing is every two years or 30,000 miles.
+An Enterprise M covers most needs, but on that trim the alarm is a £225 option, and we'd tick it. The Drive Assist Pack (adaptive cruise control and an electric parking brake) is £950. Servicing is every two years or 30,000 miles.
 
 ### Alternatives
 

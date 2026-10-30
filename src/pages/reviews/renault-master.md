@@ -29,6 +29,7 @@ sources:
   - https://www.parkers.co.uk/vans-pickups/best/electric-vans/
   - https://www.parkers.co.uk/vans-pickups/best/large-vans/
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
+  - https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-review/
 facts:
   # Specs
   - claim: "285 miles"
@@ -133,12 +134,12 @@ facts:
     source: https://www.autoexpress.co.uk/renault/master
     quote: "There's no heat pump"
   # On the road
-  - claim: "some of them in France and some in vans that weren't in final UK spec"
+  - claim: "one drive was in France"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "While I found no problem piloting the Master through narrow French streets"
-  - claim: "some of them in France and some in vans that weren't in final UK spec"
+  - claim: "another was in a van that wasn't in final UK spec"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
-    quote: "although that wasn't in final UK spec"
+    quote: "the MM (Renault's name for the L2H2) I drove officially offers a maximum of 261 miles, although that wasn't in final UK spec"
   - claim: "The 138bhp motor"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "With only 138bhp and 300Nm of torque"
@@ -148,7 +149,7 @@ facts:
   - claim: "it isn't quick"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "it's no quicker than the diesels"
-  - claim: "a 400kg load didn't seem to trouble it"
+  - claim: "a 400kg load reportedly didn't trouble it"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
     quote: "I initially drove it with a 400kg payload in the back, and it certainly didn't feel like it struggled"
   - claim: "a smooth, quiet drive"
@@ -190,9 +191,12 @@ facts:
   - claim: "Early vans had a turn key and manual handbrake"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "all models have a manual handbrake for now"
-  - claim: "an electronic parking brake would arrive on electric Masters by the end of 2025"
+  - claim: "An electronic parking brake was due on electric Masters by the end of 2025"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
     quote: "all electric Masters will get an electronic parking brake by the end of 2025"
+  - claim: "but we couldn't confirm that it has arrived"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "all models have a manual handbrake for now"
   # Cab and kit
   - claim: "the E-Tech came only in Advance trim"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
@@ -234,17 +238,39 @@ facts:
   - claim: "Servicing is every two years or 24,000 miles"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "Renault recommends that both the diesel and electric Master be serviced every two years or 24,000 miles, whichever comes first"
+  - claim: "check the licence rules for your drivers before ordering one"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "we'd stick with the 3.5-tonne so as to maximise the number of potential drivers who can get behind the wheel with a standard car driving licence"
+  - claim: "your drivers can legally drive it"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "maximise the number of potential drivers who can get behind the wheel with a standard car driving licence"
+  # Alternatives
+  - claim: "is the same van"
+    source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-review/
+    quote: "The electric Nissan Interstar is technically identical to the Renault Master"
+  - claim: "with a longer warranty"
+    source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-review/
+    quote: "the five-year, 100,000-mile warranty. This is an improvement over Renault's fairly standard three-year offering"
   # Price and grant
-  - claim: "At launch it was reported from £42,500 ex VAT and before the grant"
+  - claim: "In February 2025"
+    source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
+    quote: "06 February 2025"
+  - claim: "it was reported from £42,500 ex VAT and before the grant"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
     quote: "which starts at £42,500. This is not including VAT, but is also not factoring in the £5,000 government plug-in van grant"
+  - claim: "a June 2026 review still put it at around £42,500 on that basis"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "starting from around £42,500 (exc. VAT), but this drops thanks to the Government"
+  - claim: "a June 2026 review"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "By: Shane Wilkinson , Dean Gibson 25 Jun 2026"
   - claim: "listed it from £42,100"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "Price: from £42,100"
-  - claim: "a November 2025 buying guide"
+  - claim: "A buying guide last dated November 2025"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "Updated: 18 November 2025"
-  - claim: "on the same basis"
+  - claim: "also ex VAT and before the grant"
     source: https://www.parkers.co.uk/vans-pickups/best/electric-vans/
     quote: "All prices quoted are correct at the time of writing and exclude VAT. They also exclude any applicable UK government Plug-in Van Grant"
   - claim: "gave £47,115 ex VAT after the grant"
@@ -281,9 +307,9 @@ Rapid charging peaks at 130kW, which was reported to add more than 140 miles of 
 
 ### On the road
 
-Most published drives were early ones, some of them in France and some in vans that weren't in final UK spec. The 138bhp motor means it isn't quick, though a 400kg load didn't seem to trouble it. In return it has a reputation for a smooth, quiet drive, a comfortable ride, steering that is steady on the motorway and a tight turning circle. At more than two metres wide it can feel bulky on narrow streets. The B mode gives strong regenerative braking, but its strength can't be adjusted.
+Treat the published road tests as a guide: one drive was in France and another was in a van that wasn't in final UK spec. The 138bhp motor means it isn't quick, though a 400kg load reportedly didn't trouble it. In return it has a reputation for a smooth, quiet drive, a comfortable ride, steering that is steady on the motorway and a tight turning circle. At more than two metres wide it can feel bulky on narrow streets. The B mode gives strong regenerative braking, but its strength can't be adjusted.
 
-Early vans also came with a key you turn in the ignition and a manual handbrake. Renault said an electronic parking brake would arrive on electric Masters by the end of 2025, so check what your van has.
+Early vans also came with a key you turn in the ignition and a manual handbrake. An electronic parking brake was due on electric Masters by the end of 2025, but we couldn't confirm that it has arrived, so check what your van has.
 
 ### Cab and kit
 
@@ -299,4 +325,4 @@ The [Nissan Interstar-e](/vans/nissan-interstar/) is the same van with a longer 
 
 ### Price
 
-We couldn't confirm a current UK list price. At launch it was reported from £42,500 ex VAT and before the grant, and a November 2025 buying guide listed it from £42,100 on the same basis. But a July 2026 list gave £47,115 ex VAT after the grant, which doesn't fit with those. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) shows whether the sums work.
+We couldn't confirm a current UK list price. In February 2025 it was reported from £42,500 ex VAT and before the grant, and a June 2026 review still put it at around £42,500 on that basis. A buying guide last dated November 2025 listed it from £42,100, also ex VAT and before the grant. But a July 2026 list gave £47,115 ex VAT after the grant, which doesn't fit with those. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) shows whether the sums work.

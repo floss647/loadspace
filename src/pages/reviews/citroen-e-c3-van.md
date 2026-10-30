@@ -47,6 +47,9 @@ facts:
   - claim: "300 kg"
     source: https://evfleetworld.co.uk/road-test-citroen-e-c3-van/
     quote: "GROSS PAYLOAD? Up to 300kg"
+  - claim: "300 kg (including 75kg driver)"
+    source: https://evfleetworld.co.uk/road-test-citroen-e-c3-van/
+    quote: "the ë-C3 offers a payload of 300kg (including 75kg driver)"
   - claim: "300kg payload includes the driver"
     source: https://evfleetworld.co.uk/road-test-citroen-e-c3-van/
     quote: "the ë-C3 offers a payload of 300kg (including 75kg driver)"
@@ -134,7 +137,7 @@ facts:
   - claim: "£15,035"
     source: https://www.autoexpress.co.uk/citroen/c3/366273/new-citroen-e-c3-van-will-be-cheap-n-cheerful-option-business-april
     quote: "With the e-C3's VAT removed and the maximum Plug-in Van Grant applied, the e-C3 van could cost from as little as £15,035"
-  - claim: "a cheaper version with a smaller battery was reported to be coming"
+  - claim: "A cheaper version with a smaller battery was reported to be coming"
     source: https://evfleetworld.co.uk/citroen-e-c3-van-on-sale-with-200-mile-range-and-sub-20k-price/
     quote: "A cheaper version with a smaller battery is expected to arrive later"
   - claim: "It launched with one body and one battery"

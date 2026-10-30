@@ -61,12 +61,6 @@ facts:
   - claim: "the bodywork, battery and motor are shared"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "That's the same as for the electric version of the Citroen Dispatch , since it uses the same motor and battery set-up."
-  - claim: "This generation dates from 2016"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The current-generation Peugeot Expert first arrived in 2016"
-  - claim: "updated in 2024"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The range was then updated in 2024 with a facelift"
   - claim: "There are two lengths, Standard and Long, with 5.3 and 6.1 cubic metres of space"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The Peugeot Expert's cargo volume of 5.3 cubic metres for the base model (the longer model has 6.1m3)"
@@ -218,7 +212,7 @@ facts:
 
 ### Who it's for
 
-Peugeot's electric medium van makes most sense for businesses doing town and regional work who want a comfortable, well-kitted cab. Strip off the lion badge and it's the same van as the [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/): the bodywork, battery and motor are shared, and only the styling and badges really change. This generation dates from 2016 and was updated in 2024, so it's a known quantity rather than a fresh design.
+Peugeot's electric medium van makes most sense for businesses doing town and regional work who want a comfortable, well-kitted cab. Strip off the lion badge and it's the same van as the [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/): the bodywork, battery and motor are shared, and only the styling and badges really change.
 
 ### Load area and payload
 
@@ -228,7 +222,7 @@ Peugeot quotes exactly 1,000kg for both payload and braked towing. That's respec
 
 ### Range and charging in the real world
 
-The 50kWh battery went at the 2024 facelift, so every E-Expert has the 75kWh pack. The quoted range has moved about: Peugeot's launch figure in March 2024 was 217 miles, while a June 2025 review gives 230. One road test of a Long van in Asphalt trim reported getting very close to 230 miles in cold weather with some weight aboard, which is encouraging, but motorway driving cuts range noticeably.
+The 50kWh battery went at the 2024 facelift, so every E-Expert has the 75kWh pack. The quoted range has moved about: Peugeot's launch figure in March 2024 was 217 miles, while a June 2025 review gives 230. One road test of a Long van in Asphalt trim reported getting very close to 230 miles in cold weather with some weight aboard, but motorway driving cuts range noticeably.
 
 From 5 to 80% on a 100kW charger takes 45 minutes. At the depot, a 7.4kW wallbox does a full charge in 11 hours 20 minutes, while a three-pin plug takes 37 hours, so don't rely on one. The 11kW on-board charger, with a 22kW cable, is a £400 option. See our [charging guide](/guides/charging-an-electric-van/) for wallbox advice.
 

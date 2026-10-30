@@ -10,7 +10,7 @@ specs:
   charging: "180kW"
   payload: "1,586 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The E-Transit is still one of the large electric vans we'd look at first. It has a reputation for driving as well as the diesel Transit, there's a huge choice of versions, and the Enhanced Range battery lifts the official range to 249 miles with faster rapid charging. Against that, it starts at £49,545 before VAT and before the van grant, and the bigger battery means less payload. For most fleets the 184PS Trend makes the most sense: choose the battery to suit your routes, not the brochure."
+verdict: "The E-Transit is still one of the large electric vans we'd look at first. It has a reputation for driving as well as the diesel Transit, there's a huge choice of versions, and the Enhanced Range battery lifts Ford's WLTP range figure to 249 miles with faster rapid charging. Against that, it starts at £49,545 before VAT and before the van grant, and the bigger battery means less payload. For most fleets the 184PS Trend makes the most sense: choose the battery to suit your routes, not the brochure."
 good:
   - "Quiet and composed by all accounts"
   - "Enhanced Range battery adds range and charges faster"
@@ -109,9 +109,15 @@ facts:
   - claim: "Huge choice of lengths, roofs and weights"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Trend 425E LWB-E H3 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD"
-  - claim: "the Enhanced Range battery lifts the official range to 249 miles with faster rapid charging"
+  - claim: "the Enhanced Range battery lifts Ford's WLTP range figure to 249 miles with faster rapid charging"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit
     quote: "Max range: up to 211-249 miles [disclosure: Estimated electric driving range] 10-80% DC fast charge (180 kW): 28 mins (approx.)"
+  - claim: "Ford's WLTP range figure to 249 miles"
+    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
+    quote: "249-mile WLTP Overall Range reflects a combined driving cycle"
+  - claim: "Ford's WLTP range figure to 249 miles"
+    source: https://www.autoexpress.co.uk/ford/transit/362939/ford-e-transit-updated-bigger-battery-and-249-mile-range
+    quote: "the E-Transit has a WLTP -certified range of 249 miles from a full charge"
   - claim: "Enhanced Range battery adds range and charges faster"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "The bigger battery has also heralded an uptick in the E-Transit's fast charging abilities"
@@ -195,6 +201,9 @@ facts:
   - claim: "The Standard Range van is rated at up to 196 miles on the WLTP combined cycle and 166 miles on its motorway-speed part"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "196-mile WLTP Overall Range reflects a combined driving cycle and 166-mile WLTP Extra High range reflects motorway driving"
+  - claim: "The Standard Range van is rated at up to 196 miles on the WLTP combined cycle"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "a maximum claim of 196 miles per charge on the WLTP combined testing cycle on the standard model"
   - claim: "The Enhanced Range raises those to 249 and 211 miles"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "249-mile WLTP Overall Range reflects a combined driving cycle and 211-mile WLTP Extra High range reflects motorway driving"
@@ -207,6 +216,15 @@ facts:
   - claim: "Rapid charging on the Standard Range runs at up to 115kW, for 10 to 80% in about 37 minutes"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit
     quote: "10-80% DC fast charge (115 kW): 37 mins (approx.)"
+  - claim: "Rapid charging on the Standard Range runs at up to 115kW"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "The standard model is still restricted to a 115kW charger"
+  - claim: "the Enhanced Range takes up to 180kW"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "it now possible to connect to anything up to a 180kW DC charger"
+  - claim: "the Enhanced Range takes up to 180kW"
+    source: https://www.autoexpress.co.uk/ford/transit/362939/ford-e-transit-updated-bigger-battery-and-249-mile-range
+    quote: "Rapid DC charging is up from 115kW to 180kW"
   - claim: "the Enhanced Range takes up to 180kW and does it in about 28 minutes"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit
     quote: "10-80% DC fast charge (180 kW): 28 mins (approx.)"
@@ -253,7 +271,7 @@ facts:
   - claim: "is said to be strong"
     source: https://vanreviewer.co.uk/ford/e-transit/review/1394
     quote: "both are very quick"
-  - claim: "the bigger battery doesn't change how it drives"
+  - claim: "One published road test says the bigger battery doesn't change how it drives"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "It's worth noting that the larger battery doesn't have an impact on how the Transit drives."
   - claim: "tap the brake pedal once or twice for stronger regenerative braking"
@@ -262,10 +280,10 @@ facts:
   - claim: "tap the brake pedal once or twice for stronger regenerative braking"
     source: https://vanreviewer.co.uk/ford/e-transit/review/1394
     quote: "The first touch of the brake pedal gives a moderate level of braking, which is quite gentle and subtle. A second touch of the brake pedal increases the force"
-  - claim: "opinions differ on how natural that feels"
+  - claim: "one road test found that fussy next to steering-wheel paddles"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "we can't help thinking it's a rather fussy, unnatural approach compared with a set of paddles"
-  - claim: "opinions differ on how natural that feels"
+  - claim: "while another liked the extra control it gives"
     source: https://vanreviewer.co.uk/ford/e-transit/review/1394
     quote: "The two taps of the brake gives you a bit more control over how the van behaves."
   # Cab and kit
@@ -286,12 +304,14 @@ facts:
   - claim: "an electronic parking brake"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit
     quote: "Electronic parking brake Helping to free up more space in your E-Transit interior"
-  - claim: "There are two trims, Leader (Ford's price list also shows a Base) and Trend"
+  - claim: "The main trims are Leader and Trend"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "it comes in two specifications: Leader (also known as Base) and Trend"
-  - claim: "There are two trims, Leader (Ford's price list also shows a Base) and Trend"
+  - claim: "Ford's price list also has a Base version of the medium-wheelbase, medium-roof van"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "E-TRANSIT BASE"
+  - claim: "a Base version of the medium-wheelbase, medium-roof van"
+    calc: "Ford price list (effective 28 August 2026): the only E-Transit rows with BASE trim are two Van BASE 350M MWB / L2 H2 rows (184PS at £49,545.00 and 269PS at £50,695.00 RRP excl. VAT); H2 is the medium roof"
   - claim: "Trend adds sat nav, cruise control and front and rear parking sensors"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "Ford E-Transit Trend standard equipment highlights (in addition to Leader): Satellite-navigation Moulded load-floor liner Cruise control Front and rear parking sensors Automatic wipers"
@@ -300,7 +320,7 @@ facts:
     quote: "being awarded a Platinum rating in 2024"
   # Which version to buy
   - claim: "The 269PS motor adds £1,150"
-    calc: "Ford price list (effective 28 August 2026), NRP excl. VAT: Van BASE 350M H2 Standard Range 269PS £50,695.00 - 184PS £49,545.00 = £1,150; Van Leader 350L H2 Standard Range 269PS £51,495.00 - 184PS £50,345.00 = £1,150"
+    calc: "Ford price list (effective 28 August 2026), RRP excl. VAT: Van BASE 350M H2 Standard Range 269PS £50,695.00 - 184PS £49,545.00 = £1,150; Van Leader 350L H2 Standard Range 269PS £51,495.00 - 184PS £50,345.00 = £1,150"
   - claim: "The 269PS motor adds"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van BASE 350M MWB / L2 H2 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £50,695.00"
@@ -311,18 +331,30 @@ facts:
     source: https://vanreviewer.co.uk/ford/e-transit/review/1394
     quote: "Perhaps our greatest reservation is all that power - particularly if you're running a fleet."
   - claim: "Trend costs £3,190 more than Leader"
-    calc: "Ford price list (effective 28 August 2026), NRP excl. VAT, Van 350L LWB / L3 H2 184PS Standard Range: Trend £53,535.00 - Leader £50,345.00 = £3,190"
+    calc: "Ford price list (effective 28 August 2026), RRP excl. VAT, Van 350L LWB / L3 H2 184PS Standard Range: Trend £53,535.00 - Leader £50,345.00 = £3,190"
   - claim: "more than Leader on a long-wheelbase medium-roof van"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350L LWB / L3 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £50,345.00"
   - claim: "The Enhanced Range battery only comes on the longer L3 and extended vans"
     calc: "Ford price list (effective 28 August 2026): every Van row with 'Enhanced Range 96kWh' is a 350L, 390L or 425L (LWB / L3) or a 350E or 425E (LWB-E); no MWB / L2 (350M, 390M, 425M) van row has it"
   - claim: "adds £5,900 to a Leader 350L"
-    calc: "Ford price list (effective 28 August 2026), NRP excl. VAT, Van Leader 350L LWB / L3 H2 184PS: Enhanced Range £56,245.00 - Standard Range £50,345.00 = £5,900"
+    calc: "Ford price list (effective 28 August 2026), RRP excl. VAT, Van Leader 350L LWB / L3 H2 184PS: Enhanced Range £56,245.00 - Standard Range £50,345.00 = £5,900"
   - claim: "to a Leader 350L"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350L LWB / L3 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD £56,245.00"
   # Alternatives
+  - claim: "The [Renault Master E-Tech](/vans/renault-master/) and its twin the [Nissan Interstar-e](/vans/nissan-interstar/) are the obvious rivals"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "The Renault Master E-Tech is top of the pile now, with a superior range, excellent efficiency and a fantastic payload. The Nissan Interstar is almost identical"
+  - claim: "Mercedes-Benz eSprinter"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "Then there is the Mercedes-Benz eSprinter"
+  - claim: "the [Vauxhall Movano Electric](/vans/vauxhall-movano/) and its Stellantis twins"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
+    quote: "The Stellantis family of vans includes the Citroen e-Relay , Fiat E-Ducato , Peugeot e-Boxer and Vauxhall Movano are all joined by the mechanically identical Toyota Proace Max"
+  - claim: "Iveco eDaily"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "IVECO eDaily"
   - claim: "Maxus eDeliver 9"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Maxus eDeliver 9"
@@ -334,12 +366,17 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Effective: 28th August 2026"
   - claim: "£63,635"
-    calc: "Ford price list (effective 28 August 2026), Van Trend 425E LWB-E H3 269PS Enhanced Range NRP excl. VAT £63,635.00 (fact below), written as £63,635"
+    calc: "Ford price list (effective 28 August 2026), Van Trend 425E LWB-E H3 269PS Enhanced Range RRP excl. VAT £63,635.00 (fact below), written as £63,635"
   - claim: "a Trend 425E with the 269PS motor and the Enhanced Range battery"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Trend 425E LWB-E H3 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD £63,635.00"
+  - claim: "the £50,695 headline on Ford's website is the 269PS Base"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit
+    quote: "Recommended retail price excl. vat [disclosure: Recommended Retail price] £50,695 E-Transit Base 198kW/269PS"
+  - claim: "its list doesn't name the Base"
+    calc: "GOV.UK plug-in van grant page, large vans list: the E-Transit entries are 'Ford E-Transit (Leader)', 'Ford E-Transit (Trend)', 'Ford E-Transit (Leader) Enhanced Range' and 'Ford E-Transit (Trend) Enhanced Range' (facts below); no Base entry"
   - claim: "the most expensive panel van"
-    calc: "Ford price list (effective 28 August 2026): the highest NRP excl. VAT among E-Transit 'Van' rows is Trend 425E LWB-E H3 269PS Enhanced Range at £63,635.00; only DCiV, bus and welfare rows cost more"
+    calc: "Ford price list (effective 28 August 2026): the highest RRP excl. VAT among E-Transit 'Van' rows is Trend 425E LWB-E H3 269PS Enhanced Range at £63,635.00; only DCiV, bus and welfare rows cost more"
   - claim: "GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Ford E-Transit (Leader) Ford E-Transit (Trend)"
@@ -378,11 +415,11 @@ Rapid charging on the Standard Range runs at up to 115kW, for 10 to 80% in about
 
 ### On the road
 
-We haven't driven it. Most road tests cover the Standard Range van, but one that tried both says the bigger battery doesn't change how it drives. It has a reputation for being quiet, and with independent rear suspension in place of the diesel's leaf springs it handles tidily for something so big. There are two motors, 184PS and 269PS, and even the 184PS version is said to be strong. You can tap the brake pedal once or twice for stronger regenerative braking; opinions differ on how natural that feels.
+We haven't driven it. One published road test says the bigger battery doesn't change how it drives. It has a reputation for being quiet, and with independent rear suspension in place of the diesel's leaf springs it handles tidily for something so big. There are two motors, 184PS and 269PS, and even the 184PS version is said to be strong. You can tap the brake pedal once or twice for stronger regenerative braking; one road test found that fussy next to steering-wheel paddles, while another liked the extra control it gives.
 
 ### Cab and kit
 
-The cab gets a 12-inch SYNC 4 touchscreen, and the ventilation controls live in the screen too. A rotary dial replaces the gear lever and there's an electronic parking brake. There are two trims, Leader (Ford's price list also shows a Base) and Trend. Trend adds sat nav, cruise control and front and rear parking sensors. Euro NCAP gave it a Platinum rating in 2024.
+The cab gets a 12-inch SYNC 4 touchscreen, and the ventilation controls live in the screen too. A rotary dial replaces the gear lever and there's an electronic parking brake. The main trims are Leader and Trend, and Ford's price list also has a Base version of the medium-wheelbase, medium-roof van. Trend adds sat nav, cruise control and front and rear parking sensors. Euro NCAP gave it a Platinum rating in 2024.
 
 ### Which version to buy
 
@@ -394,4 +431,4 @@ The [Renault Master E-Tech](/vans/renault-master/) and its twin the [Nissan Inte
 
 ### Price
 
-Ford lists it from £49,545 before VAT, or £51,424.83 on the road before VAT, on its price list effective from 28 August 2026. That's for a Base 350M with the 184PS motor and the Standard Range battery; the most expensive panel van is £63,635 for a Trend 425E with the 269PS motor and the Enhanced Range battery. All are before the van grant: GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant, worth up to £5,000; confirm your exact version with the dealer and see our [grants and tax guide](/guides/grants-and-tax/). The battery is covered for 8 years or 100,000 miles and the van itself for 3 years or 100,000 miles, and servicing is every two years with no mileage limit. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Ford lists it from £49,545 before VAT, or £51,424.83 on the road before VAT, on its price list effective from 28 August 2026. That's for a Base 350M with the 184PS motor and the Standard Range battery (the £50,695 headline on Ford's website is the 269PS Base); the most expensive panel van is £63,635 for a Trend 425E with the 269PS motor and the Enhanced Range battery. All are before the van grant: GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant, worth up to £5,000, but its list doesn't name the Base, so check with the dealer whether that version qualifies and see our [grants and tax guide](/guides/grants-and-tax/). The battery is covered for 8 years or 100,000 miles and the van itself for 3 years or 100,000 miles, and servicing is every two years with no mileage limit. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
