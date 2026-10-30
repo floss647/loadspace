@@ -20,7 +20,6 @@ sources:
   - https://www.autoexpress.co.uk/renault/kangoo/363451/price-cut-renault-kangoo-electric-van-new-look-across-range
   - https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
   - https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
-  - https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
   - https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
   - https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
@@ -51,10 +50,10 @@ facts:
   - claim: "below 70% capacity"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "Renault has said that it will replace any battery that drops below 70% capacity"
-  - claim: "share the body, the 45kWh battery and the motor"
-    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
-    quote: "This also means it shares a chassis, motor and battery pack with the Renault Kangoo E-Tech and the Nissan Townstar Electric to which it is closely related"
-  - claim: "share the body, the 45kWh battery and the motor"
+  - claim: "share the body"
+    source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
+    quote: "because they share the same bodyshell and running gear"
+  - claim: "the 45kWh battery and the motor"
     source: https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
     quote: "Power for the pair comes from a 120bhp electric motor connected to a 45kWh battery"
   - claim: "The Townstar EV shares its underpinnings too"
@@ -67,11 +66,8 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
     quote: "Standard load volume: 3.3 cubic metres Renault Kangoo E-Tech LL load space dimensions: Maximum load length to bulkhead: 2,230mm Maximum load height: 1,215mm Maximum load width: 1,517mm Width between the wheelarches: 1,247mm Standard load volume: 4.2 cubic metres"
   - claim: "a load bay that goes up to 4.2 cubic metres in the long version"
-    source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "Choose the long-wheelbase model, and there"
-  - claim: "a load bay that goes up to 4.2 cubic metres in the long version"
-    source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "s a 4.2 cubic metre cargo capacity"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "Maximum load volume: 4.2 cubic metres"
   - claim: "with a sliding door on each side"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "the long-wheelbase version has twin sliding doors, one on either side"
@@ -84,21 +80,18 @@ facts:
   - claim: "the ML has been quoted at 608kg and the LL at 764kg"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "The Kangoo E-Tech has payload weights of 608kg and 764kg respectively"
-  - claim: "a July 2026 buying guide put the maximum at 702kg"
+  - claim: "put the maximum at 702kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum payload: 702kg"
-  - claim: "a July 2026 buying guide put the maximum at 702kg"
+  - claim: "a July 2026 buying guide"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "By: Antony Ingram 27 Jul 2026"
   - claim: "It can tow up to 1,500kg"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
     quote: "it can take a trailer weighing up to 1,500kg. This is the case for both the ML and LL versions"
   - claim: "pillarless side opening sold in left-hand-drive markets"
-    source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "One feature that"
-  - claim: "pillarless side opening sold in left-hand-drive markets"
-    source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "s available in left-hand-drive markets that isn"
+    source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
+    quote: "a so-called 'Open Sesame' side door that does away with the B-pillar"
   - claim: "No through-load bulkhead or pillarless side door in the UK"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "No pillarless option in UK"
@@ -137,8 +130,8 @@ facts:
     quote: "The rotary dials for the climate controls are taken from the Clio supermini"
   - claim: "the cabin is hard-wearing grey and black plastic rather than plush"
     source: https://www.autoexpress.co.uk/renault/kangoo/van
-    quote: "you're greeted by plenty of grey and black plastic, while hard-wearing seat fabric features, too"
-  - claim: "A June 2024 update made a reversing camera, an electric parking brake and a digital driver's display standard"
+    quote: "greeted by plenty of grey and black plastic, while hard-wearing seat fabric features, too"
+  - claim: "made a reversing camera, an electric parking brake and a digital driver's display standard"
     source: https://www.autoexpress.co.uk/renault/kangoo/363451/price-cut-renault-kangoo-electric-van-new-look-across-range
     quote: "All models now come with a 4.2-inch digital driver's information display screen, an electric parking brake, a passenger sun visor, auto high beam assist and a reversing camera"
   - claim: "A June 2024 update"
@@ -156,16 +149,19 @@ facts:
   - claim: "In October 2026 Renault announced an updated Kangoo E-Tech"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "09 October 2026"
-  - claim: "the updated 52kWh van Renault announced in October 2026"
+  - claim: "the updated 52kWh van"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "battery capacity is increased from 45 to 52 kWh"
-  - claim: "a bigger 52kWh battery, 100kW DC charging"
+  - claim: "announced in October 2026"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "09 October 2026"
+  - claim: "a bigger 52kWh battery"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "Renault Kangoo VAN and Kangoo E-Tech electric versions are now available with a new 52 kWh NMC battery, taking their range to up to 354 km WLTP (homologation pending)"
-  - claim: "a bigger 52kWh battery, 100kW DC charging"
+  - claim: "100kW DC charging"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "maximum DC charging power increased from 80 to 100 kW"
-  - claim: "an official range of up to 354km (about 220 miles)"
+  - claim: "an official range of up to 354km"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "for a range of up to 354 km over an WLTP cycle (homologation pending)"
   - claim: "about 220 miles"
@@ -200,13 +196,13 @@ facts:
   - claim: "up to £2,500"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some small vans is £2,500"
-  - claim: "In October 2024 it was reported at £30,600 ex VAT before the grant"
+  - claim: "it was reported at £30,600 ex VAT before the grant"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "It starts at £30,600 (not including VAT)"
   - claim: "In October 2024"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "03 October 2024"
-  - claim: "a July 2026 buying guide listed it from £34,435 ex VAT after the grant"
+  - claim: "listed it from £34,435 ex VAT after the grant"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Prices from: £34,435 (Kangoo E-Tech, excl. VAT, after PiVG)"
 ---

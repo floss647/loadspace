@@ -6,13 +6,13 @@ date: 2026-10-30T08:00:00Z
 summary: "Volkswagen's retro electric van has a reputation as one of the nicest vans to drive, and a 2026 price cut has brought the entry model under £30,000 ex VAT. The catches are a small load bay and a low payload, though a long-wheelbase version is on its way."
 specs:
   price: "£29,995"
-  range: "277 miles"
+  range: "276 miles"
   charging: "185kW"
   payload: "712 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The ID. Buzz Cargo has always been more about image than capacity, and that hasn't changed: 3.9 cubic metres and a payload of no more than 712kg leave it behind roomier rivals. What has changed is the price. The 58kWh Commerce now starts at £29,995 ex VAT before the grant, which puts it in the same price bracket as the Kia PV5 Cargo, and its 218-mile official range covers most working days. Buy one if you carry light loads and want a van people remember. If you need more room, wait for the long-wheelbase version or look at the PV5."
-good: ["Now from £29,995 ex VAT before the grant", "Up to 277 miles official range (79kWh)", "Car-like to drive, by all accounts"]
-bad: ["Low payload: 712kg at most", "Only 3.9 cubic metres of load space", "Frustrating touch-sensitive controls"]
+verdict: "The ID. Buzz Cargo has always been more about image than capacity, and that hasn't changed: 3.9 cubic metres and a quoted maximum payload of 712kg leave it behind roomier rivals. What has changed is the price. The 58kWh Commerce now starts at £29,995 ex VAT before the grant, which puts it in the same price bracket as the Kia PV5 Cargo, and its 218-mile official range covers most working days. Buy one if you carry light loads and want a van people remember. If you need more room, wait for the long-wheelbase version or look at the PV5."
+good: ["Now from £29,995 ex VAT before the grant", "Up to 276 miles official range (79kWh)", "Car-like to drive, judging by tests of earlier vans"]
+bad: ["Low payload: 712kg quoted maximum", "Only 3.9 cubic metres of load space", "Frustrating touch-sensitive controls"]
 sources:
   - https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
   - https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
@@ -46,15 +46,24 @@ facts:
   - claim: "the same price bracket as the Kia PV5 Cargo"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-id-buzz-cargo-58kwh-battery/
     quote: "taking it into the same bracket as the Ford Transit City and the Parkers Award winning Kia PV5"
-  - claim: "277 miles"
-    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
-    quote: "the larger 79kWh battery with up to 277 miles of range"
-  - claim: "Up to 277 miles official range (79kWh)"
-    source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
-    quote: "Its 200 miles of range plays against the 277 miles offered by the 79kWh version"
-  - claim: "one report gives 276"
+  - claim: "276 miles"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "VW quotes a range of up to 276 miles on the combined WLTP test"
+  - claim: "276 miles"
+    source: https://www.autoexpress.co.uk/best/electric-vans
+    quote: "Maximum WLTP combined battery range: 276 miles"
+  - claim: "Up to 276 miles official range (79kWh)"
     source: https://evfleetworld.co.uk/entry-level-volkswagen-id-buzz-cargo-van-on-sale-from-35960/
     quote: "The existing 79kWh battery in the ID. Cargo line-up delivers up to 276 miles of range and can charge at up to 185kW"
+  - claim: "rated at up to 276 miles on the official WLTP combined test"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "VW quotes a range of up to 276 miles on the combined WLTP test"
+  - claim: "some reports give 277"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/370139/volkswagen-id-buzz-cargo-gets-new-battery-and-motor-see-kia-pv5
+    quote: "the larger 79kWh battery with up to 277 miles of range"
+  - claim: "some reports give 277"
+    source: https://www.parkers.co.uk/vans-pickups/news/2025/lower-cost-vw-id-buzz-cargo/
+    quote: "Its 200 miles of range plays against the 277 miles offered by the 79kWh version"
   - claim: "185kW"
     source: https://evfleetworld.co.uk/entry-level-volkswagen-id-buzz-cargo-van-on-sale-from-35960/
     quote: "The existing 79kWh battery in the ID. Cargo line-up delivers up to 276 miles of range and can charge at up to 185kW"
@@ -67,6 +76,15 @@ facts:
   - claim: "early vans had a 77kWh battery"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "This means you get a 204hp motor and a 77kWh battery pack"
+  - claim: "the earlier 77kWh van with the original 201bhp motor"
+    source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
+    quote: "This means you get a 204hp motor and a 77kWh battery pack"
+  - claim: "the earlier 77kWh van with the original 201bhp motor"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "power for the ID. Buzz Cargo came solely from a 201bhp electric motor mounted at the back of the van and driving the rear wheels. We've tested this version"
+  - claim: "Car-like to drive, judging by tests of earlier vans"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "the ID. Buzz Cargo is one of the most car-like vans to drive"
   - claim: "the original 201bhp motor"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "Replacing the original 201bhp electric motor is an upgraded 282bhp version with a 79kWh battery"
@@ -100,10 +118,10 @@ facts:
   - claim: "712 kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Prices from: £26,265 (exc. VAT, after PiVG) Van size: Medium Maximum WLTP combined battery range: 276 miles Maximum payload: 712kg"
-  - claim: "a payload of no more than 712kg"
+  - claim: "a quoted maximum payload of 712kg"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum payload: 712kg Maximum load volume: 3.9 cubic metres"
-  - claim: "Low payload: 712kg at most"
+  - claim: "Low payload: 712kg quoted maximum"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum payload: 712kg"
   - claim: "A July 2026 buying guide"
@@ -166,7 +184,7 @@ facts:
   - claim: "a reputation for being one of the most car-like vans to drive"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "Smooth, swift and car-like to drive"
-  - claim: "Car-like to drive, by all accounts"
+  - claim: "Car-like to drive, judging by tests of earlier vans"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "Excellent to drive and rides well"
   - claim: "quiet on the move"
@@ -184,9 +202,15 @@ facts:
   - claim: "good visibility"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
     quote: "A high driving position and large windows mean visibility is very good"
-  - claim: "bigger bumps can send a shudder through the body"
+  - claim: "bigger bumps can send a shudder through the body, especially when it's empty"
     source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
-    quote: "impacts with bigger bumps can cause shudders to echo through the van"
+    quote: "impacts with bigger bumps can cause shudders to echo through the van's frame, especially when unloaded"
+  - claim: "The Cargo's cab is plainer than the MPV's, with darker, harder plastics"
+    source: https://www.autoexpress.co.uk/volkswagen/id-buzz/id-buzz-cargo
+    quote: "The ID. Buzz Cargo features a lot of black plastic trim, which distinguishes it from the passenger version that uses lighter-coloured plastics"
+  - claim: "The Cargo's cab is plainer than the MPV's, with darker, harder plastics"
+    source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
+    quote: "The dash features straight lines, hard plastics and little in the way of colour"
   - claim: "The low roof makes the cab feel tight"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/id-buzz-cargo/2023-review/
     quote: "Low roof makes it tight on space and storage"
@@ -267,17 +291,17 @@ Businesses that carry light, bulky loads and want a van that does some of their 
 
 The load bay holds 3.9 cubic metres, with room for two Euro pallets loaded widthways. The floor is 2,208mm long with the tailgate or 2,232mm with twin rear doors, and 1,217mm wide, with little wheelarch intrusion because the floor sits high over the battery. The price of that is a rear load lip that is high at 632mm, and the twin sliding side doors open to just 756mm. There's no through-loading for long lengths, and it tows one tonne.
 
-Payload is the real weakness. A July 2026 buying guide gave a maximum payload of 712kg, and the 59kWh van launched in 2025 was rated at 692kg. For comparison, the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) offers 4.4 cubic metres and a maximum payload of 790kg.
+Payload is the real weakness. A July 2026 buying guide gave a maximum payload of 712kg, and the 59kWh van launched in 2025 was rated at 692kg. We couldn't find a payload figure for the new 58kWh van. For comparison, the [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) offers 4.4 cubic metres and a maximum payload of 790kg.
 
 ### Range and charging in the real world
 
 There are two batteries. In August 2026 a 58kWh battery replaced the 59kWh in the entry Commerce van, and its official range rose to 218 miles, 17 miles more than before. It charges at up to 105kW, with a 10 to 80 per cent top-up taking 26 minutes, whereas the 59kWh battery it replaced could take 165kW.
 
-Commerce Plus keeps the 79kWh battery (early vans had a 77kWh battery), rated at up to 277 miles (one report gives 276). It rapid charges at up to 185kW, enough for five to 80 per cent in around half an hour. We couldn't find a measured real-world range for the current batteries. More in our [charging guide](/guides/charging-an-electric-van/).
+Commerce Plus keeps the 79kWh battery (early vans had a 77kWh battery), rated at up to 276 miles on the official WLTP combined test (some reports give 277). It rapid charges at up to 185kW, enough for five to 80 per cent in around half an hour. We couldn't find a measured real-world range for the current batteries. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-Most published road tests were of earlier versions, with the original 201bhp motor, not the new 58kWh van. On that evidence the ID. Buzz Cargo has a reputation for being one of the most car-like vans to drive: smooth, quiet on the move, with good visibility and a tight turning circle. One test found that, with the back empty, bigger bumps can send a shudder through the body. Power runs from 188bhp in the entry van to 282bhp in the 79kWh van and 335bhp 4Motion all-wheel drive.
+The published road tests we found were of the earlier 77kWh van with the original 201bhp motor, not today's 58kWh or 79kWh versions. On that evidence the ID. Buzz Cargo has a reputation for being one of the most car-like vans to drive: smooth, quiet on the move, with good visibility and a tight turning circle. One test found that bigger bumps can send a shudder through the body, especially when it's empty. Power runs from 188bhp in the entry van to 282bhp in the 79kWh van and 335bhp 4Motion all-wheel drive.
 
 ### Cab and kit
 
