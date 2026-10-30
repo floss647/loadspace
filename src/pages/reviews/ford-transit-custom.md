@@ -3,22 +3,25 @@ layout: ../../layouts/Review.astro
 title: "Ford E-Transit Custom review"
 van: ford-transit-custom
 date: 2026-10-30T08:00:00Z
-summary: "The electric Transit Custom keeps the diesel's load space and has a reputation as one of the most car-like vans to drive. Payload, price and a range that is decent rather than class-leading are the things to weigh up."
+summary: "The electric Transit Custom keeps the diesel's load space and has a reputation for being car-like to drive. Payload, price and a range that is decent rather than class-leading are the things to weigh up."
 specs:
   price: "£43,630"
   range: "230 miles"
   charging: "125kW"
   payload: "1,126 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "This is the electric medium van we'd look at first. It gives up nothing to the diesel in load space, every version has a heat pump, and by all accounts it drives like a big car. The catches are payloads below the diesel's and a starting price of £43,630 before VAT, with no basic trim to bring that down. Buy the 136PS Trend with rear-wheel drive unless your work really needs more."
+verdict: "This is the electric medium van we'd look at first. It gives up nothing to the diesel in load space, every version has a heat pump, and by all accounts it drives much like a car. The catches are payloads below the diesel's and a starting price of £43,630 before VAT and before the government van grant, with no basic trim to bring that down. Buy the 136PS Trend with rear-wheel drive unless your work really needs more."
 good:
   - "Same load space as the diesel van"
-  - "A reputation as one of the most car-like vans to drive"
+  - "A reputation for car-like driving"
   - "Heat pump fitted as standard"
 bad:
   - "Lower payloads than the diesel version"
   - "Expensive, with no basic trim"
   - "Decent range, but not class-leading"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit-custom
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
@@ -52,16 +55,16 @@ facts:
   - claim: "keeps the diesel's load space"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "The E-Transit Custom provides the same amount of load volume as its combustion counterparts."
-  - claim: "a reputation as one of the most car-like vans to drive"
+  - claim: "a reputation for being car-like to drive"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Genuinely car-like to drive"
-  - claim: "a reputation as one of the most car-like vans to drive"
-    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
-    quote: "this is the electric van that is closest in driving feel to its diesel counterparts, certainly in the medium sector at least"
-  - claim: "A reputation as one of the most car-like vans to drive"
+  - claim: "a reputation for being car-like to drive"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "it feels more car-like to drive than its predecessor"
-  - claim: "A reputation as one of the most car-like vans to drive"
+  - claim: "A reputation for car-like driving"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
+    quote: "it feels more car-like to drive than its predecessor"
+  - claim: "A reputation for car-like driving"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Genuinely car-like to drive"
   - claim: "a range that is decent rather than class-leading"
@@ -91,10 +94,10 @@ facts:
   - claim: "Heat pump fitted as standard"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Heat Pump (BEV Only)"
-  - claim: "by all accounts it drives like a big car"
+  - claim: "by all accounts it drives much like a car"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "the E-Transit Custom feels like a car from behind the wheel"
-  - claim: "by all accounts it drives like a big car"
+  - claim: "by all accounts it drives much like a car"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "it feels more car-like to drive than its predecessor"
   - claim: "payloads below the diesel's"
@@ -106,6 +109,9 @@ facts:
   - claim: "a starting price of £43,630 before VAT"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "From £43,630 Recommended Retail Price Excl. Vat"
+  - claim: "before the government van grant"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "Save £5,000 on RRP Benefit from a saving of £5,000 with the Gov Plug-In Van Grant"
   - claim: "no basic trim to bring that down"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "There is no basic level model"
@@ -193,6 +199,9 @@ facts:
   - claim: "Ford's own WLTP motorway figure"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
+  - claim: "Ford's own WLTP motorway figure for the same van is 172 miles"
+    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
+    quote: "172-mile WLTP Extra High range reflects motorway driving and 230-mile WLTP Overall Range reflects a combined driving cycle"
   - claim: "212 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
@@ -224,18 +233,21 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
   # On the road
-  - claim: "a comfortable ride even over broken town roads"
+  - claim: "a ride that copes well with bumpy town roads"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The ride is fantastic, too, even over the lumps and bumps that town driving throws at you."
-  - claim: "a comfortable ride even over broken town roads"
+  - claim: "a ride that copes well with bumpy town roads"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Even at slower speeds, the ride remains mostly bounce- and crash-free"
-  - claim: "quiet at speed, with wind and tyre noise well kept down"
+  - claim: "said to be quiet once under way"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
+    quote: "Quiet on the move"
+  - claim: "said to be quiet once under way"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "wind and tyre roar are kept well under control"
-  - claim: "quiet at speed, with wind and tyre noise well kept down"
-    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
-    quote: "this is a wonderfully quiet van to drive"
+  - claim: "the motor can whine noticeably as you pull away and come to a stop"
+    source: https://www.autoexpress.co.uk/ford/transit-custom/e
+    quote: "There is a noticeably loud whine from the electric motor, though, particularly when setting off and coming to a stop."
   - claim: "There are three motors"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "Choice of three power outputs"
@@ -248,28 +260,34 @@ facts:
   - claim: "136PS"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
-  - claim: "the last only in the MS-RT"
+  - claim: "the last only in the MS-RT on Ford's current price list"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MS-RT 320 2.0L EcoBlue 150PS 6 Speed Manual Diesel FWD TC39 51,750 62,100 53,629.83 64,272.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel FWD TC39 54,550 65,460 56,429.83 67,632.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel AWD TC39 57,050 68,460 58,929.83 70,632.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 54,550 65,460 56,429.83 67,632.80 320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 60,490"
   - claim: "with rear- or all-wheel drive"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "All-wheel drive is also available, adding an extra motor to the equation."
-  - claim: "has plenty in reserve for motorway work"
+  - claim: "has enough punch for motorway work"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "even the least-powerful variant is more than capable of spirited overtaking manoeuvres and motorway driving"
+  - claim: "has enough punch for motorway work"
+    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
+    quote: "In all power outputs it is a smooth and punchy motor"
   - claim: "even the 136PS version"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
   - claim: "that's the one we'd pick"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The 136hp version is the one that is most suited to van duties."
-  - claim: "The MS-RT is generally seen as fun but hard to justify"
+  - claim: "The MS-RT is quicker still"
+    source: https://www.autoexpress.co.uk/ford/transit-custom/e
+    quote: "This version is certainly a bit quicker"
+  - claim: "it's generally seen as hard to justify"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "it's difficult to recommend the E-Transit Custom MS-RT"
-  - claim: "The MS-RT is generally seen as fun but hard to justify"
+  - claim: "it's generally seen as hard to justify"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
-    quote: "Highly entertaining, in a word."
-  - claim: "The MS-RT is generally seen as fun but hard to justify"
+    quote: "the 285hp model tiptoes into the unnecessary but fun realm"
+  - claim: "it's generally seen as hard to justify"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "it's difficult to see the advantage of spending a significant amount more for it"
   # Cab and kit
@@ -303,15 +321,27 @@ facts:
   - claim: "The optional Mobile Office pack adds a steering wheel that tilts to become a tablet stand or lunch tray"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "Mobile office A tilting steering wheel [disclosure: Optional feature] turns the cab into an office on wheels"
-  - claim: "Even the Trend has adaptive cruise control"
-    source: https://www.autoexpress.co.uk/ford/transit-custom/e
-    quote: "Even base Trend trim models get pre-collision assist, adaptive cruise control"
+  - claim: "Even the Trend has cruise control, a reversing camera and front and rear parking sensors as standard"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Trend VAN - Standard Equipment"
+  - claim: "Even the Trend has cruise control"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Driver lumbar support Cruise Control"
+  - claim: "a reversing camera and front and rear parking sensors as standard"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Reverse Parking Aid 13\" Touchscreen Front Parking Aid Courtesy Light Rear View Camera"
   - claim: "a reversing camera and front and rear parking sensors as standard"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "a reversing camera and front and rear sensors as standard"
+  - claim: "adaptive cruise is part of an optional camera pack"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "360 Degrees Camera Pack (DAT Pack 6):"
+  - claim: "adaptive cruise is part of an optional camera pack"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Intelligent Adaptive Cruise Control - (Manual Transmission) DBCAJ HKCAB O O O O O 1675 2010 Intelligent Adaptive Cruise Control with Stop & Go - (Automatic Transmission)"
   # Which version to buy
   - claim: "In short-wheelbase form it has the longest official range"
-    calc: "Ford price list Van Low Roof Technical Data, AER Overall column: the SWB Trend 136PS RWD row shows 230 (fact above), the highest of any E-Transit Custom panel van row; others range from 229 down to 170"
+    calc: "Ford price list Van Low Roof Technical Data, AER Overall column: the SWB Trend 136PS RWD row shows 230 (fact above), the highest of any E-Transit Custom panel van row; others range from 229 down to 169"
   - claim: "the standard kit is generous enough that you don't need to go higher"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "Trend providing a good level of kit so you don't really need to go above that"
@@ -320,12 +350,33 @@ facts:
   - claim: "long wheelbase"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 44,330 53,196 46,209.83 55,368.80"
-  - claim: "Limited adds heated seats"
+  - claim: "Limited adds heated front seats, alloy wheels and keyless entry"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Limited VAN - Standard Equipment above Trend"
+  - claim: "Limited adds heated front seats"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Auto-heated manual 4-way adjustable driver seat Auto-heated passenger seat and front seat tray table"
+  - claim: "Limited adds heated front seats"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Opt for Limited trim or above, and you'll get heated seats"
-  - claim: "a hands-free power sliding door"
-    source: https://www.autoexpress.co.uk/ford/transit-custom/e
-    quote: "a hands-free power-assisted sliding door is included as standard with the Limited, Sport and MS-RT trims"
+  - claim: "alloy wheels"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "16\" Alloy Wheel"
+  - claim: "keyless entry"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Keyless Entry and Keyless Start"
+  - claim: "A hands-free power sliding door is an extra-cost option on every trim"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Exterior Features MFC Content Trend Limited Trail Sport MS-RT NRP RRP"
+  - claim: "A hands-free power sliding door is an extra-cost option on every trim"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Power Hands Free Side Opening A4LAD A6QAL O - O - - 1000 1200"
+  - claim: "A hands-free power sliding door is an extra-cost option on every trim"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Power Hands Free Side Opening A4LAD A6QAL - O - - - 725 870"
+  - claim: "A hands-free power sliding door is an extra-cost option on every trim"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Power Hands Free Side Opening A4LAD A6QAL - - - O O 525 630"
   - claim: "for £1,550 over the equivalent Trend"
     calc: "Ford price list (effective 01/06/2026), 136PS RWD NRP less VAT: SWB Limited £45,180 - SWB Trend £43,630 = £1,550; LWB Limited £45,880 - LWB Trend £44,330 = £1,550"
   - claim: "over the equivalent Trend"
@@ -371,6 +422,14 @@ facts:
   - claim: "on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Engine NRP RRP (£) OTR OTR GVM Transmission Fuel Drive VED (Usable) (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
+  - claim: "Both figures are before the government's Plug-in Van Grant"
+    calc: "Ford's website gives the same £43,630 as 'Recommended Retail Price Excl. Vat' and separately says 'Save £5,000 on RRP ... with the Gov Plug-In Van Grant', so the price list NRP (identical figure) and the OTR built on it are pre-grant; the price list itself makes no grant deduction"
+  - claim: "a separate £5,000 saving"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "Save £5,000 on RRP Benefit from a saving of £5,000 with the Gov Plug-In Van Grant"
+  - claim: "The list price before VAT rises to"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Engine NRP RRP (£) OTR OTR GVM Transmission Fuel Drive VED (Usable) (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
   - claim: "£66,190 for a long-wheelbase MS-RT with all-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "340 71kWh 210kW / 285PS 1 Speed Automatic BEV AWD TC39 66,190 79,428 68,069.83 81,600.80"
@@ -403,17 +462,17 @@ Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid c
 
 ### On the road
 
-We haven't driven it ourselves, but it has a reputation as one of the most car-like vans to drive, with a comfortable ride even over broken town roads, and it's said to be quiet at speed, with wind and tyre noise well kept down.
+We haven't driven it ourselves, but it has a reputation for being car-like to drive, with a ride that copes well with bumpy town roads. It's also said to be quiet once under way, though the motor can whine noticeably as you pull away and come to a stop.
 
-There are three motors, 136PS, 218PS and 285PS (the last only in the MS-RT), with rear- or all-wheel drive. By all accounts even the 136PS version has plenty in reserve for motorway work, and that's the one we'd pick. The MS-RT is generally seen as fun but hard to justify.
+There are three motors, 136PS, 218PS and 285PS (the last only in the MS-RT on Ford's current price list), with rear- or all-wheel drive. By all accounts even the 136PS version has enough punch for motorway work, and that's the one we'd pick. The MS-RT is quicker still, but it's generally seen as hard to justify.
 
 ### Cab and kit
 
-With the gear selector on a steering column stalk and the parking brake switch between the centre air vents, the floor is flat and it's easy to move across the cab. Every version gets a 13-inch touchscreen with Apple CarPlay and Android Auto, but the climate controls are on that screen too, which is fiddlier than proper knobs. The optional Mobile Office pack adds a steering wheel that tilts to become a tablet stand or lunch tray. Even the Trend has adaptive cruise control, a reversing camera and front and rear parking sensors as standard.
+With the gear selector on a steering column stalk and the parking brake switch between the centre air vents, the floor is flat and it's easy to move across the cab. Every version gets a 13-inch touchscreen with Apple CarPlay and Android Auto, but the climate controls are on that screen too, which is fiddlier than proper knobs. The optional Mobile Office pack adds a steering wheel that tilts to become a tablet stand or lunch tray. Even the Trend has cruise control, a reversing camera and front and rear parking sensors as standard, though adaptive cruise is part of an optional camera pack.
 
 ### Which version to buy
 
-Buy the Trend with the 136PS motor and rear-wheel drive. In short-wheelbase form it has the longest official range, and the standard kit is generous enough that you don't need to go higher. The long wheelbase costs £700 more. Limited adds heated seats and a hands-free power sliding door for £1,550 over the equivalent Trend. All-wheel drive adds £5,000 to a Trend and costs payload and range, so only pick it if you need the traction. We'd skip the MS-RT.
+Buy the Trend with the 136PS motor and rear-wheel drive. In short-wheelbase form it has the longest official range, and the standard kit is generous enough that you don't need to go higher. The long wheelbase costs £700 more. Limited adds heated front seats, alloy wheels and keyless entry for £1,550 over the equivalent Trend. A hands-free power sliding door is an extra-cost option on every trim. All-wheel drive adds £5,000 to a Trend and costs payload and range, so only pick it if you need the traction. We'd skip the MS-RT.
 
 ### Alternatives
 
@@ -421,4 +480,4 @@ The [Volkswagen e-Transporter](/vans/volkswagen-transporter/) shares its underpi
 
 ### Price
 
-Ford lists it from £43,630 before VAT, or £45,509.83 on the road before VAT, on its price list effective from 1 June 2026. That rises to £66,190 for a long-wheelbase MS-RT with all-wheel drive. Prices change, so get a written quote, and read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles and the van for 3 years or 100,000 miles, with servicing every 2 years and no mileage limit. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Ford lists it from £43,630 before VAT, or £45,509.83 on the road before VAT, on its price list effective from 1 June 2026. Both figures are before the government's Plug-in Van Grant, which Ford shows as a separate £5,000 saving. The list price before VAT rises to £66,190 for a long-wheelbase MS-RT with all-wheel drive. Prices change, so get a written quote, and read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles and the van for 3 years or 100,000 miles, with servicing every 2 years and no mileage limit. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
