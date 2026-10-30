@@ -6,13 +6,16 @@ date: 2026-10-30T08:00:00Z
 summary: "The Nissan version of Renault's small electric van, and the one with the longest warranty: five years or 100,000 miles on the van. It's quiet and easy to drive, but range is modest and the published payload figures don't agree."
 specs:
   price: "Not confirmed (no current UK list price found)"
-  range: "Not confirmed (reports differ, see below)"
+  range: "183 miles"
   charging: "80kW"
   payload: "Not confirmed (reports differ, see below)"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "The Townstar EV is the same small electric van as the Renault Kangoo E-Tech underneath, and Nissan's five-year, 100,000-mile van warranty makes it the twin we'd look at first. It has a reputation for being quiet and easy to drive, it can tow 1,500kg and the long L2 van takes a Euro pallet through its side doors. Against that, the official range is under 200 miles, rapid charging stops at 80kW and the cameras have been criticised. Pick the L2 for payload, check the plated figure, and get a quote from your nearest Nissan van dealer alongside Renault and Mercedes."
 good: ["Five-year, 100,000-mile van warranty", "Tows up to 1,500kg", "L2 side doors wide enough for a Euro pallet"]
 bad: ["Official range under 200 miles", "Rapid charging stops at 80kW", "Camera systems criticised for poor picture quality"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/nissan/townstar
   - https://www.autoexpress.co.uk/best/electric-vans
@@ -20,10 +23,21 @@ sources:
   - https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
   - https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-dimensions/
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
+  - https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van
+  - https://uk.nissannews.com/en-GB/releases/grants-reduce-price-of-nissan-townstar-ev-by-12000-as-ulez-expands
+  - https://uk.nissannews.com/en-GB/releases/nissan-townstar-crew-van-the-compact-van-with-big-flexibility
+  - https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
+  - https://www.autoexpress.co.uk/renault/kangoo/van
 facts:
   - claim: "five years or 100,000 miles on the van"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "All Nissan Townstar models get a five-year/100,000-mile warranty"
+  - claim: "Nissan covers the van for five years or 100,000 miles"
+    source: https://uk.nissannews.com/en-GB/releases/grants-reduce-price-of-nissan-townstar-ev-by-12000-as-ulez-expands
+    quote: "an industry-leading, pan-European five-year or 100,000-mile warranty"
+  - claim: "the battery is covered for eight years with the same 100,000-mile limit"
+    source: https://uk.nissannews.com/en-GB/releases/grants-reduce-price-of-nissan-townstar-ev-by-12000-as-ulez-expands
+    quote: "the eight-year or 100,000-mile battery warranty for the EV version"
   - claim: "Nissan's five-year, 100,000-mile van warranty"
     source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
     quote: "The Townstar comes with a five-year/ 100,000-mile vehicle warranty"
@@ -31,7 +45,11 @@ facts:
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "All Nissan Townstar models get a five-year/100,000-mile warranty"
   - claim: "8 years or 100,000 miles"
-    calc: "Auto Express reports 'eight years of cover for the battery' with 'the same 100,000-mile limit' (next fact): eight years = 8 years"
+    source: https://uk.nissannews.com/en-GB/releases/nissan-townstar-crew-van-the-compact-van-with-big-flexibility
+    quote: "8 years/ 100,000 miles for the EV battery warranty"
+  - claim: "three years as standard"
+    source: https://www.autoexpress.co.uk/renault/kangoo/van
+    quote: "The Kangoo comes with a three-year/100,000-mile warranty, while Renault offers warranty extensions at extra cost that take this up to five years"
   - claim: "the battery is covered for eight years with the same 100,000-mile limit"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "there's eight years of cover for the battery in the Townstar EV with the same 100,000-mile limit"
@@ -68,6 +86,12 @@ facts:
   - claim: "Tows up to 1,500kg"
     source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-dimensions/
     quote: "The Nissan Townstar EV has one of the best towing capacities in its class at up to 1,500kg"
+  - claim: "Nissan quoted 600kg to 800kg"
+    source: https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van
+    quote: "Depending on the specifications, other highlights include a payload of between 600 and 800kg"
+  - claim: "At launch in 2023"
+    source: https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van
+    quote: "PARIS (7 March 2023)"
   - claim: "gave 600kg for the L1"
     source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-dimensions/
     quote: "The cheapest L1 model can only carry 600kg"
@@ -92,12 +116,29 @@ facts:
   - claim: "a July 2026 guide"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "By: Antony Ingram 27 Jul 2026"
-  - claim: "183 miles in a"
-    source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
-    quote: "The Townstar EV is powered by a 45kWh battery that offers a claimed WLTP range of 183 miles"
-  - claim: "a 2023 review"
+  - claim: "183 miles"
+    source: https://uk.nissannews.com/en-GB/releases/grants-reduce-price-of-nissan-townstar-ev-by-12000-as-ulez-expands
+    quote: "a class-leading zero-emission range of up to 183 miles WLTP Combined"
+  - claim: "Nissan's UK figure is 183 miles WLTP combined"
+    source: https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van
+    quote: "a class-leading range of 183 miles WLTP Combined"
+  - claim: "a 2023 review agreed"
     source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
     quote: "Nissan Townstar EV (2023) van review 02 August 2023"
+  - claim: "review agreed"
+    source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
+    quote: "offers a claimed WLTP range of 183 miles"
+  - claim: "a September 2025 Nissan release"
+    source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
+    quote: "2025/09/29"
+  - claim: "up to 301km"
+    source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
+    quote: "The Townstar EV - with its 45kWh battery - offers an impressive range of up to 301km"
+  - claim: "about 187 miles"
+    calc: "301km (fact above) / 1.609 = 187 miles"
+  - claim: "in a May 2025 review"
+    source: https://www.autoexpress.co.uk/nissan/townstar
+    quote: "By: Sam Naylor 30 May 2025"
   - claim: "around 178 miles"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "has an impressive WLTP combined range of around 178 miles"
@@ -120,6 +161,9 @@ facts:
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "which equates to a real-world range of 139 miles"
   - claim: "80kW"
+    source: https://uk.nissannews.com/en-GB/releases/grants-reduce-price-of-nissan-townstar-ev-by-12000-as-ulez-expands
+    quote: "80kW DC CCS quick-charging, the latter of which enables users to charge the battery from 15% to 80% in as little as 37 minutes"
+  - claim: "80kW"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "Its 80kW DC charging ability provides the same top-up in just 37 minutes"
   - claim: "rapid charging stops at 80kW"
@@ -138,12 +182,21 @@ facts:
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "The Townstar boasts 22kW AC charging which means you can fully replenish the Townstar's battery from 15-80 per cent in 1.5 hours using a suitable home wallbox"
   - claim: "Acenta trim brings the 22kW on-board charger and 80kW rapid charging"
+    source: https://uk.nissannews.com/en-GB/releases/future-proof-your-business-with-the-all-new-electric-nissan-townstar-van
+    quote: "Battery thermal cooling combined with the 22kW AC and 80kW DC CCS charging is standard from Acenta grade onward"
+  - claim: "Acenta trim brings the 22kW on-board charger and 80kW rapid charging"
     source: https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
     quote: "The van's charging system is given a boost, too, with a faster 22kW AC on-board charger and support for up to 80kW DC rapid charging speeds at public charging points"
-  - claim: "Both Nissan's base Visia and top Tekna+ trims have been dropped"
+  - claim: "had both been dropped"
+    source: https://www.autoexpress.co.uk/nissan/townstar
+    quote: "The entry Visia and top-of-the-range Tekna+ specifications are no longer available, leaving just the Acenta and Tekna trims"
+  - claim: "dropped by May 2025"
+    source: https://www.autoexpress.co.uk/nissan/townstar
+    quote: "By: Sam Naylor 30 May 2025"
+  - claim: "Nissan's base Visia and top Tekna+ trims"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "The top-of-the-range Tekna+ has also been discontinued, leaving the Acenta and Tekna specifications to choose from"
-  - claim: "Both Nissan's base Visia and top Tekna+ trims have been dropped"
+  - claim: "Nissan's base Visia and top Tekna+ trims"
     source: https://www.autoexpress.co.uk/nissan/townstar
     quote: "Although no longer available on the latest price list, the Townstar Visia model"
   - claim: "Acenta has LED headlights, rear parking sensors and cruise control"
@@ -211,7 +264,7 @@ facts:
     quote: "The maximum discount available for some small vans is £2,500"
 ---
 
-The Townstar EV is Nissan's version of the small electric van Renault builds. It shares its underpinnings with the Renault Kangoo and Mercedes Citan, including a 45kWh battery and front-mounted motor, and the Nissan's cabin and touchscreen are nearly identical to the Renault's. It replaces the e-NV200, Nissan's earlier small electric van. So what you're really choosing here is the badge, and with it the warranty, the price and the dealer.
+The Townstar EV is Nissan's version of Renault's Kangoo E-Tech. It shares its underpinnings with the Renault Kangoo and Mercedes Citan, including a 45kWh battery and front-mounted motor, and the Nissan's cabin and touchscreen are nearly identical to the Renault's. It replaces the e-NV200, Nissan's earlier small electric van. So what you're really choosing here is the badge, and with it the warranty, the price and the dealer.
 
 ### Who it's for
 
@@ -225,11 +278,11 @@ Nissan covers the van for five years or 100,000 miles, where Renault gives the [
 
 There are two lengths: the L1 with 3.3 cubic metres and the L2 with 4.3 cubic metres. The L2's twin sliding doors are wider, at 831mm, and you can load a Euro pallet through them.
 
-Payload is where the published figures fall apart. A 2023 review gave 600kg for the L1 and 800kg for the L2. A May 2025 review quoted 612kg and 788kg in one place and 502kg and 713kg in another, and a July 2026 guide to the Kangoo family put the maximum just over 700kg. Whatever the true number, the L2 carries more. Ask the dealer for the plated payload of the exact van before you sign.
+Payload is where the published figures fall apart. At launch in 2023 Nissan quoted 600kg to 800kg depending on the spec, and a 2023 review gave 600kg for the L1 and 800kg for the L2. A May 2025 review quoted 612kg and 788kg in one place and 502kg and 713kg in another, and a July 2026 guide to the Kangoo family put the maximum just over 700kg. Whatever the true number, the L2 carries more. Ask the dealer for the plated payload of the exact van before you sign.
 
 ### Range and charging in the real world
 
-Even the official range isn't settled: 183 miles in a 2023 review, around 178 miles in 2025, and a July 2026 guide gave 183 to 186 miles for the Townstar and Kangoo together. Either way, the official range is under 200 miles. One road test averaged 3.1 miles per kWh over about 150 miles of mixed UK roads, equivalent to around 139 miles from a full battery.
+Nissan's UK figure is 183 miles WLTP combined, and a 2023 review agreed. Other published figures vary slightly: around 178 miles in a May 2025 review, up to 301km (about 187 miles) in a September 2025 Nissan release, and a July 2026 guide gave 183 to 186 miles for the Townstar and Kangoo together. Either way, the official range is under 200 miles. One road test averaged 3.1 miles per kWh over about 150 miles of mixed UK roads, equivalent to around 139 miles from a full battery.
 
 Rapid charging stops at 80kW, enough for 15 to 80 per cent in 37 minutes, and a 22kW AC wallbox does the same in about 1.5 hours. More in our [charging guide](/guides/charging-an-electric-van/).
 
@@ -239,7 +292,7 @@ The Townstar EV has a reputation for being quiet and easy to drive. Reports diff
 
 ### Cab and kit
 
-Both Nissan's base Visia and top Tekna+ trims have been dropped, leaving Acenta and Tekna. Acenta has LED headlights, rear parking sensors and cruise control. Tekna adds front, rear and side sensors, keyless entry and go, a phone holder and built-in navigation. Apple CarPlay and Android Auto are standard. The weak spot is the camera kit: the cameras have been criticised for poor picture quality and distorted distances, so don't lean on them.
+Nissan's base Visia and top Tekna+ trims had both been dropped by May 2025, leaving Acenta and Tekna. Acenta has LED headlights, rear parking sensors and cruise control. Tekna adds front, rear and side sensors, keyless entry and go, a phone holder and built-in navigation. Apple CarPlay and Android Auto are standard. The weak spot is the camera kit: the cameras have been criticised for poor picture quality and distorted distances, so don't lean on them.
 
 Acenta trim brings the 22kW on-board charger and 80kW rapid charging, so there's no charging penalty for skipping Tekna.
 
