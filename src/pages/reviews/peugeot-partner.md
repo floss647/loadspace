@@ -13,6 +13,9 @@ specs:
 verdict: "The E-Partner is a capable small electric van for local work, with a 213-mile official range, 100kW rapid charging and up to 4.4 cubic metres of load space, the same maximum as the diesel. What sets it apart from its Citroën, Vauxhall, Fiat and Toyota twins is the i-Cockpit, a small, low steering wheel with the dials set above it, which some drivers like and others can't get comfortable with. Prices and kit closely track the Citroën, so the choice usually comes down to the driving position, the deal and the dealer. Try one first."
 good: ["Smoother and quieter than the diesel at speed", "Rapid charging at up to 100kW", "Large load area with a through-load option"]
 bad: ["The i-Cockpit layout won't suit every driver", "Blind spots on both sides", "Tight for three in the cab"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/peugeot/partner
   - https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once

@@ -13,6 +13,9 @@ specs:
 verdict: "The Combo Electric is a sensible small electric van for town and suburban work: a 220-mile official range, 100kW rapid charging, a payload of up to 781kg and a reputation for being quiet and smooth. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
 good: ["Quiet and smooth, especially in town", "Payload of up to 781kg for an electric small van", "Range quoted at 220 miles for every body style"]
 bad: ["Cramped for three adults", "Adaptive cruise control and 11kW charging cost extra", "Only a three-year warranty on the van itself"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/vauxhall/combo
   - https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/

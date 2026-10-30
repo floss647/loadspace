@@ -13,6 +13,9 @@ specs:
 verdict: "The ë-Berlingo is a well-sorted small electric van and our pick over the Peugeot, Vauxhall and Fiat versions for anyone who spends all day in the seat, thanks to its denser, better-bolstered seats. Payload is strong for an electric van, there's up to 4.4 cubic metres in the back and it charges at up to 100kW. It shares its body, battery and motor with the Peugeot, Vauxhall, Fiat and Toyota versions, and Citroën can't match the Toyota's potential 10-year warranty. Treat it as a shortlist of five and buy the best deal from the nearest decent dealer."
 good: ["Seats with denser foam and thicker bolsters than the Peugeot, Vauxhall and Fiat", "781kg payload, strong for a small electric van", "Rapid charging at up to 100kW"]
 bad: ["Three-seat cab is very cramped", "Big blind spots down both sides", "Only a three-year warranty on the van itself"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/citroen/berlingo-van
   - https://www.autoexpress.co.uk/best/electric-vans
