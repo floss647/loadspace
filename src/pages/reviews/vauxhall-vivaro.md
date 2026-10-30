@@ -13,6 +13,9 @@ specs:
 verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Auto Express finds the current electric version quiet and brisk, as Parkers did the older one, and a reported 219-mile official range with 100kW rapid charging covers most local and regional work. The trade-offs are a payload below the best diesel versions, a low and slightly cramped cab, and a design that is starting to feel its age. It shares almost everything with its Stellantis and Toyota twins, so it pays to compare prices across all of them."
 good: ["Quiet, brisk drive with instant acceleration", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
 bad: ["Payload below the best diesel versions", "Low seat and a tight cab for three", "Smaller rear door openings than before"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
