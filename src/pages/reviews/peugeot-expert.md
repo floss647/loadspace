@@ -3,20 +3,24 @@ layout: ../../layouts/Review.astro
 title: "Peugeot E-Expert review"
 van: peugeot-expert
 date: 2026-10-30T08:00:00Z
-summary: "Peugeot's electric medium van pairs a 75kWh battery and 100kW charging with a three-trim line-up that runs from sensible to showy. It's comfortable and well equipped, but the load area is modest, the cab is narrow and the infotainment takes some learning."
+summary: "Peugeot's electric medium van pairs a 75kWh battery and 100kW charging with a three-trim line-up that runs from sensible to showy. It's well equipped and has a quiet cab, but the load area is modest, the cab is narrow and the infotainment takes some learning."
 specs:
   price: "Not confirmed (no current pre-grant list price found)"
   range: "230 miles"
   charging: "100kW"
-  payload: "1,000 kg"
+  payload: "Not confirmed (published figures differ)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Expert is a capable, comfortable electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras and through-load bulkhead for not much more, and Sport is there if you want to be noticed. Payload is exactly a tonne, the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
+verdict: "The E-Expert is a capable, well-equipped electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras and through-load bulkhead for not much more, and Sport is there if you want to be noticed. Published payload figures vary, the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
 good: ["Asphalt trim adds plenty for a small premium", "Heated driver's seat standard", "Rapid charging at up to 100kW"]
 bad: ["Cargo volume trails rivals", "Infotainment is complicated", "Cab feels cramped for three"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/peugeot/expert
   - https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
   - https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
+  - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
   - claim: "230 miles"
@@ -28,18 +32,15 @@ facts:
   - claim: "100kW"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The maximum charging rate here is 100kW, which can bring the battery from five to 80 per cent capacity in 45 minutes."
-  - claim: "1,000 kg"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "a maximum payload and towing capacity of exactly 1,000kg"
   - claim: "Eight years or 100,000 miles"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The Expert has a three-year warranty with a maximum 100,000-mile limit, while the battery and running gear of the e-Expert is covered for eight years and the same mileage."
   - claim: "75kWh battery"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "But it uses a bigger 75kWh battery that provides a range of up to 217 miles"
-  - claim: "Payload is exactly a tonne"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "a maximum payload and towing capacity of exactly 1,000kg"
+  - claim: "Published payload figures vary"
+    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
+    quote: "Maximum gross payload is a smidgeon over a tonne in all cases"
   - claim: "Asphalt trim adds plenty for a small premium"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "Asphalt trim adds a through-loading bulkhead, sat-nav, larger wheels and a different exterior look for not a lot more money"
@@ -70,9 +71,18 @@ facts:
   - claim: "There are eight tie-down points and a full-height steel bulkhead"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "Eight cargo tie-down points are provided, while a full-height steel bulkhead protects the cab's occupants"
-  - claim: "Peugeot quotes exactly 1,000kg for both payload and braked towing"
+  - claim: "Peugeot quoted exactly 1,000kg for both payload and braked towing"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "a maximum payload and towing capacity of exactly 1,000kg"
+  - claim: "one road test puts the maximum a little over a tonne in every version"
+    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
+    quote: "Maximum gross payload is a smidgeon over a tonne in all cases"
+  - claim: "the Vauxhall twin has been reported at up to 1,210kg"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
+  - claim: "the best diesel manages 1,384kg"
+    source: https://www.autoexpress.co.uk/peugeot/expert
+    quote: "The best payload available is in the BlueHDi 145 manual, which has a maximum payload of 1,384kg"
   - claim: "drops to 915kg in the electric Crew Van"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "while the electric Crew van has a maximum of 915kg"
@@ -112,22 +122,28 @@ facts:
   - claim: "The 11kW on-board charger, with a 22kW cable, is a £400 option"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "an 11kW onboard charger with a 22kW cable (£400)"
-  - claim: "the electric E-Expert has a reputation for being quiet and smooth"
+  - claim: "Both road tests we found describe a quiet cab"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The electric e-Expert is quiet and smooth to drive"
-  - claim: "its 134bhp is fine away from the lights but can feel short when you want to overtake on the motorway"
+  - claim: "Both road tests we found describe a quiet cab"
+    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
+    quote: "the main source of noise in what was otherwise a commendably- quiet cabin"
+  - claim: "one notes wind and road noise at motorway speeds"
+    source: https://www.autoexpress.co.uk/peugeot/expert
+    quote: "Wind and road noise at motorway speeds is the main issue in all versions, as they drown out the engines and are present in the EV model too."
+  - claim: "That test found its 134bhp fine away from the lights but short when you want to overtake on the motorway"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "its 134bhp output means it feels quick enough off the line, but on the motorway it can be found lacking if you try to speed up quickly to overtake something"
   - claim: "One account says the battery's weight keeps it comfortable nearly all the time"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The electric model's heavy batteries mean it's comfortable pretty much all the time."
-  - claim: "another found the ride under-damped, with bumping and thumping from the tyres and suspension the main noise"
+  - claim: "the other found the ride under-damped, with bumping and thumping from the tyres and suspension the main noise"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "although the ride could be better damped. An excess of bumping and thumping from the tyres and suspension was the main source of noise"
-  - claim: "the strongest regen setting slows you hard enough to switch on the brake lights"
+  - claim: "The first test also says the strongest regen setting slows you hard enough to switch on the brake lights"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The most aggressive mode is so strong the brake lights will come on to warn drivers behind"
-  - claim: "door mirrors are the weak point for visibility"
+  - claim: "the door mirrors are the weak point for visibility"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "only the door mirrors could be improved when it comes to visibility"
   - claim: "Professional, Asphalt and Sport"
@@ -145,12 +161,15 @@ facts:
   - claim: "adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "Asphalt adds 17-inch wheels, a more upmarket exterior look, a load-through hatch for the bulkhead and a TomTom sat-nav system."
-  - claim: "Sport, offered only on the Standard length, adds a rally-style body kit and graphics, a heated steering wheel, wireless phone charging and a rear-view camera"
+  - claim: "Sport, offered only on the Standard length, gets a rally-style body kit and graphics"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "Sport is a special model with Peugeot graphics on the outside, fancy wheels and a bodykit that makes it look like a rally support vehicle."
-  - claim: "a heated steering wheel, wireless phone charging and a rear-view camera"
+  - claim: "a heated steering wheel and wireless phone charging"
     source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "a heated steering wheel, wireless phone charging and a rear-view camera"
+    quote: "a heated steering wheel, wireless phone charging"
+  - claim: "dual-zone climate control"
+    source: https://www.autoexpress.co.uk/peugeot/expert
+    quote: "Dual-zone climate control"
   - claim: "offered only on the Standard length"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "although Sport trim is only offered on Standard models"
@@ -212,13 +231,13 @@ facts:
 
 ### Who it's for
 
-Peugeot's electric medium van makes most sense for businesses doing town and regional work who want a comfortable, well-kitted cab. Strip off the lion badge and it's the same van as the [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/): the bodywork, battery and motor are shared, and only the styling and badges really change.
+Peugeot's electric medium van makes most sense for businesses doing town and regional work who want a well-kitted cab. Strip off the lion badge and it's the same van as the [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/), [Fiat E-Scudo](/vans/fiat-scudo/) and [Toyota Proace Electric](/vans/toyota-proace/): the bodywork, battery and motor are shared, and only the styling and badges really change.
 
 ### Load area and payload
 
 There are two lengths, Standard and Long, with 5.3 and 6.1 cubic metres of space. The hatch in the bulkhead lets long items slide under the folding outer passenger seat, adding 1,162mm of load length. There are eight tie-down points and a full-height steel bulkhead.
 
-Peugeot quotes exactly 1,000kg for both payload and braked towing. That's respectable for an electric van this size but well short of the diesel versions, and it drops to 915kg in the electric Crew Van.
+Payload figures vary. At the March 2024 launch Peugeot quoted exactly 1,000kg for both payload and braked towing, but one road test puts the maximum a little over a tonne in every version, and the Vauxhall twin has been reported at up to 1,210kg. Whichever is right, the best diesel manages 1,384kg, and the figure drops to 915kg in the electric Crew Van. Check the plated weight of the exact van before you order.
 
 ### Range and charging in the real world
 
@@ -228,11 +247,11 @@ From 5 to 80% on a 100kW charger takes 45 minutes. At the depot, a 7.4kW wallbox
 
 ### On the road
 
-By all accounts the electric E-Expert has a reputation for being quiet and smooth, and its 134bhp is fine away from the lights but can feel short when you want to overtake on the motorway. Reports on the ride differ. One account says the battery's weight keeps it comfortable nearly all the time; another found the ride under-damped, with bumping and thumping from the tyres and suspension the main noise in an otherwise hushed cab. Everyone agrees the strongest regen setting slows you hard enough to switch on the brake lights, and the door mirrors are the weak point for visibility.
+Both road tests we found describe a quiet cab, though one notes wind and road noise at motorway speeds. That test found its 134bhp fine away from the lights but short when you want to overtake on the motorway. Reports on the ride differ. One account says the battery's weight keeps it comfortable nearly all the time; the other found the ride under-damped, with bumping and thumping from the tyres and suspension the main noise in an otherwise hushed cab. The first test also says the strongest regen setting slows you hard enough to switch on the brake lights, and that the door mirrors are the weak point for visibility.
 
 ### Cab and kit
 
-This is where the Peugeot differs most from its twins. There are three trims: Professional, Asphalt and Sport. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers, plus a heated driver's seat. Asphalt costs around £800 more and adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport, offered only on the Standard length, adds a rally-style body kit and graphics, a heated steering wheel, wireless phone charging and a rear-view camera.
+This is where the Peugeot differs most from its twins. There are three trims: Professional, Asphalt and Sport. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers, plus a heated driver's seat. Asphalt costs around £800 more and adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport, offered only on the Standard length, gets a rally-style body kit and graphics, plus dual-zone climate control, a heated steering wheel and wireless phone charging.
 
 The 'OK Peugeot' voice assistant now uses ChatGPT, but the system is complicated enough to leave some drivers baffled for a while. The climate controls stay as physical buttons and dials. You sit lower than in a Ford Transit Custom or Renault Trafic, and the middle seat is narrow.
 
@@ -246,4 +265,4 @@ Among the twins, the Toyota has the better warranty and tends to cost more. Read
 
 ### Price
 
-We couldn't confirm a current UK list price before the grant. At its March 2024 launch, the E-Expert started from £36,210 after the plug-in van grant, against £26,710 excluding VAT for the diesel. A 2025 review put it at roughly £42,000 without saying whether that included VAT or the grant. The E-Expert is on the government's list of large vans eligible for the plug-in van grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). The main warranty is three years or 100,000 miles, and the battery and running gear get eight years and 100,000 miles; the battery cover applies if capacity drops below 70% of new. Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price before the grant. At its March 2024 launch, the E-Expert started from £36,210 after the plug-in van grant, against £26,710 excluding VAT for the diesel. A June 2025 review put it at roughly £42,000 without saying whether that included VAT or the grant. The E-Expert is on the government's list of large vans eligible for the plug-in van grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). The main warranty is three years or 100,000 miles, and the battery and running gear get eight years and 100,000 miles; the battery cover applies if capacity drops below 70% of new. Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).

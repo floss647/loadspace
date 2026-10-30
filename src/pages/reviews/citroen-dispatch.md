@@ -13,6 +13,9 @@ specs:
 verdict: "The ë-Dispatch is a sensible, well-specified electric medium van rather than a standout. Official range of up to 231 miles and 100kW rapid charging cover most local and regional work, and even the entry Enterprise trim gets twin sliding doors, two 10-inch screens and rear parking sensors. The catches are a load area that trails the biggest rivals, payload figures that published sources disagree on and a narrow cab. It is pretty much the same van as its Vauxhall, Peugeot, Fiat and Toyota twins, so let the best quote decide."
 good: ["Twin sliding doors and two 10-inch screens as standard", "Rapid charging at up to 100kW", "Power take-off option to run tools from the battery"]
 bad: ["Load volume behind the biggest rivals", "Narrow cab for three", "No wide-angle door mirrors"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/citroen/dispatch
   - https://www.autoexpress.co.uk/citroen/362636/new-facelifted-citroen-berlingo-dispatch-and-relay-vans-all-available-order-now
