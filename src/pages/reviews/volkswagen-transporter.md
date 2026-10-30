@@ -19,6 +19,9 @@ bad:
   - "Range and payload figures vary between reports"
   - "Most controls are on the touchscreen"
   - "Misses some of the Ford's clever extras"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
   - https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
@@ -219,7 +222,10 @@ facts:
   - claim: "136hp and 218hp"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "for the panel vans at least - with 136hp and 218hp available"
-  - claim: "One week-long test found the 136hp motor's acceleration adequate rather than quick"
+  - claim: "One week-long test found the 136hp motor"
+    source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
+    quote: "The e-Transporter I have to try is the 136hp model"
+  - claim: "acceleration adequate rather than quick"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "acceleration is adequate rather than impressive"
   - claim: "one review found it copes with motorway speeds when unladen"
@@ -272,7 +278,9 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "Wireless phone charging Adaptive cruise control with speed limiter"
   # Which version to buy
-  - claim: "the 136hp motor looks enough for most buyers"
+  - claim: "the 136hp motor"
+    calc: "Parkers gives the panel van motors as 136hp and 218hp (fact above) and says most users will do fine with the lower powered motor, which is the 136hp."
+  - claim: "motor looks enough for most buyers"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "We think the majority of users will do just fine with the lower powered motor."
   - claim: "the Pro's extras are nice rather than necessary"
