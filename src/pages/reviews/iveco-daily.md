@@ -13,6 +13,9 @@ specs:
 verdict: "The eDaily makes sense when an ordinary electric van won't do the job: when you need more than 3.5 tonnes gross, heavy towing or bodywork powered from the battery. For everyday parcel and trade work it's more van than most people need. Iveco quotes only an urban range and hasn't published current UK prices or payloads, so get every figure in writing from the dealer. Match the number of batteries to your routes, and check your drivers' licences before you order anything heavier than 4.25 tonnes."
 good: ["Gross weights up to 7.2 tonnes", "Tows up to 3.5 tonnes", "Battery replaced if capacity falls below 80% within the warranty"]
 bad: ["No current UK prices or payloads published", "Range only quoted as an urban figure", "Heavier versions need a C1 licence"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.iveco.com/uk/eDaily
   - https://www.iveco.com/uk/-/media/IVECOdotcom/docs/brochure/my2024/IVECO_eDaily_2026.pdf?rev=-1
