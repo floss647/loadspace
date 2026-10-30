@@ -19,6 +19,9 @@ sources:
   - https://www.autoexpress.co.uk/renault/kangoo/361718/renault-kangoo-e-tech-long-term-test-surprisingly-sophisticated-small
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
   - https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-dimensions/
+  - https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
+  - https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-dimensions/
+  - https://www.autoexpress.co.uk/nissan/townstar
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
 facts:
   - claim: "same battery and motor"
@@ -33,7 +36,7 @@ facts:
   - claim: "Mercedes gives it its own interior and a different aftersales package"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "Mercedes differentiates itself from these two vehicles with a unique interior and more comprehensive aftersales package"
-  - claim: "and some of its own suspension parts"
+  - claim: "some of its own suspension parts"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
     quote: "as the Citan has more bespoke elements such as the suspension"
   - claim: "the highest starting price of the three"
@@ -92,7 +95,7 @@ facts:
   - claim: "a longer version was promised with 722kg"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-dimensions/
     quote: "The long model promises more, with a 722kg maximum payload"
-  - claim: "A July 2026 guide gave a figure just over 700kg for all three twins"
+  - claim: "gave a figure just over 700kg for all three twins"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "all three are very similarly equipped and capacious with a maximum load volume of 4.2 cubic metres and a payload just over 700kg"
   - claim: "It can tow up to 1,450kg"
@@ -160,13 +163,19 @@ facts:
   - claim: "up to £2,500"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some small vans is £2,500"
-  - claim: "from over £33,000 ex VAT reported in May 2025"
+  - claim: "from over £33,000 ex VAT"
     source: https://www.autoexpress.co.uk/mercedes/citan
     quote: "the eCitan starts from over £33,000 (excluding VAT and before the UK government's plug-in van grant is deducted)"
+  - claim: "put it at over £33,000 on the same basis"
+    source: https://www.autoexpress.co.uk/mercedes/citan
+    quote: "the eCitan starts from over £33,000 (excluding VAT and before the UK government's plug-in van grant is deducted)"
+  - claim: "a May 2025 review"
+    source: https://www.autoexpress.co.uk/mercedes/citan
+    quote: "By: Sam Naylor 23 May 2025"
   - claim: "reported in May 2025"
     source: https://www.autoexpress.co.uk/mercedes/citan
     quote: "By: Sam Naylor 23 May 2025"
-  - claim: "In December 2023 it was quoted from £33,995 ex VAT before the grant"
+  - claim: "it was quoted from £33,995 ex VAT before the grant"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/citan/2023-ecitan-review/
     quote: "So the entry-level £33,995 (not including VAT or the Plug-in Van Grant) price"
   - claim: "In December 2023"
@@ -174,7 +183,7 @@ facts:
     quote: "Mercedes-Benz eCitan van review (2023) 29 December 2023"
 ---
 
-The eCitan is the Mercedes-Benz version of the Renault Kangoo E-Tech. It shares its bodyshell and running gear with the Renault, including a 45kWh battery and a single motor, and the [Nissan Townstar EV](/vans/nissan-townstar/) is the third twin. Mercedes gives it its own interior and a different aftersales package, and some of its own suspension parts. Few UK road tests of the eCitan have been published, so this review leans mostly on published figures.
+The eCitan is the Mercedes-Benz version of the Renault Kangoo E-Tech. It shares its bodyshell and running gear with the Renault, including a 45kWh battery and a single motor, and the [Nissan Townstar EV](/vans/nissan-townstar/) is the third twin. Mercedes gives it its own interior and a different aftersales package, and it has some of its own suspension parts. Few UK road tests of the eCitan have been published, so this review leans mostly on published figures.
 
 ### Who it's for
 
@@ -202,7 +211,7 @@ The van warranty runs three years with unlimited mileage, and the battery for ei
 
 ### Price
 
-We couldn't confirm a current UK list price. In December 2023 it was quoted from £33,995 ex VAT before the grant, and from over £33,000 ex VAT reported in May 2025. A July 2026 guide said it has the highest starting price of the three. The eCitan is on the government's small-van grant list, at up to £2,500 (see our [grants and tax guide](/guides/grants-and-tax/)).
+We couldn't confirm a current UK list price. In December 2023 it was quoted from £33,995 ex VAT before the grant, and a May 2025 review put it at over £33,000 on the same basis. A July 2026 guide said it has the highest starting price of the three. The eCitan is on the government's small-van grant list, at up to £2,500 (see our [grants and tax guide](/guides/grants-and-tax/)).
 
 ### Alternatives
 

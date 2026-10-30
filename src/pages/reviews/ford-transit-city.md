@@ -296,6 +296,11 @@ facts:
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "£22,200 SWB Van"
   - claim: "£22,200 before VAT"
+    calc: "Ford Transit City page shows '£22,200 SWB Van' (fact above) tagged with the disclosure 'Price - CV - Net Retail Price', whose text begins 'This is the Basic Recommended Retail price excluding VAT' (fact below), so £22,200 is before VAT"
+  - claim: "£22,200 before VAT, but"
+    source: https://www.ford.co.uk/vans-and-pickups/transit-city
+    quote: "[disclosure: Price - CV - Net Retail Price] £22,200 SWB Van"
+  - claim: "before VAT, but that includes"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "This is the Basic Recommended Retail price excluding VAT, and"
   - claim: "includes both the grant and a customer saving for VAT-registered businesses"
@@ -328,7 +333,7 @@ There are two panel vans. The L1H1 van has up to 6.4m³ of load space, room for 
 
 Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford quotes 236 miles. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
 
-Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and Ford's launch figures give an average rate of 67kW. That's a lower peak than the E-Transit Custom's 125kW, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
+Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and launch reports gave an average rate of 67kW. That's a lower peak than the E-Transit Custom's 125kW, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 

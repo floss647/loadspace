@@ -148,7 +148,7 @@ facts:
   - claim: "motorway speeds cut it significantly"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "runs at higher motorway speeds will see the range drop significantly"
-  - claim: "A January 2023 road test, from before the facelift, found the official figure realistic in fair weather"
+  - claim: "found the official figure realistic in fair weather"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "We've found this to be pretty accurate, and had no qualms about setting off for a long-distance drive in fair weather."
   - claim: "winter range noticeably lower"
@@ -160,9 +160,6 @@ facts:
   - claim: "A 7kW wallbox takes just under 10 hours to fill it"
     source: https://www.autoexpress.co.uk/mercedes/vito
     quote: "refilling the battery via a 7kW wallbox charger should take just under 10 hours"
-  - claim: "the 90kWh version sold elsewhere charges at up to 110kW"
-    source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
-    quote: "There’s also a higher maximum recharge rate for the 90kWh version over the 60kWh at up to 110kW."
   - claim: "a January 2023 road test"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "04 January 2023"
@@ -202,15 +199,9 @@ facts:
   - claim: "Pro and Select"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "The eVito is currently offered in Pro and Select trim levels in the UK"
-  - claim: "new Mercedes vans came with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer"
-    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
-    quote: "All new Mercedes Vans come with MobiloVan roadside assistance, which is free for up to 30 years (!) as long as the van is serviced by a Mercedes dealer."
   - claim: "gives the Citroën e-Dispatch 231 miles"
     source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
     quote: "Citroën e-Dispatch 1,904 2,204 4,981 231 45 4.1"
-  - claim: "against the eVito's 162"
-    source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
-    quote: "allowing a range of up to 162 miles on the official WLTP cycle"
   - claim: "the 60kWh eVito was reported at £48,530 to £51,915"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "The eVito is currently offered in Pro and Select trim levels in the UK for the 60kWh battery model, priced between £48,530 and £51,915."
@@ -239,7 +230,7 @@ Payload is the catch, and the published figures don't agree. One report gives a 
 
 Range figures differ slightly too. A February 2026 roundup quotes 162 miles on the official WLTP cycle, a July 2026 one says up to 160 miles on the WLTP combined cycle, and an earlier report said 159. That is modest for a medium electric van, and motorway speeds cut it significantly. A January 2023 road test, from before the facelift, found the official figure realistic in fair weather, with winter range noticeably lower.
 
-Rapid charging peaks at 80kW, and a 10 to 80% top-up takes around 35 minutes. A 7kW wallbox takes just under 10 hours to fill it, so plan on overnight charging at home or the depot. For comparison, the 90kWh version sold elsewhere charges at up to 110kW. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
+Rapid charging peaks at 80kW, and a 10 to 80% top-up takes around 35 minutes. A 7kW wallbox takes just under 10 hours to fill it, so plan on overnight charging at home or the depot. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 
@@ -247,11 +238,11 @@ Two published UK reviews describe how the electric van drives: a January 2023 ro
 
 ### Cab and kit
 
-Expect Mercedes quirks: a foot-operated parking brake takes some getting used to, and the older road test flagged the gear selector on the steering column too. That test described the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list. At the start of 2023, new Mercedes vans came with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer; check the terms still apply.
+Expect Mercedes quirks: a foot-operated parking brake takes some getting used to, and the older road test flagged the gear selector on the steering column too. That test described the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list.
 
 ### Alternatives
 
-Many electric rivals go further on a charge: a February 2026 roundup of medium electric vans gives the Citroën e-Dispatch 231 miles, for example, against the eVito's 162. Compare it with the [Ford E-Transit Custom](/reviews/ford-transit-custom/), [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and [Volkswagen ID. Buzz Cargo](/vans/volkswagen-id-buzz-cargo/). For more space, there's the [Mercedes-Benz eSprinter](/vans/mercedes-benz-sprinter/).
+Many electric rivals go further on a charge: a February 2026 roundup of medium electric vans gives the Citroën e-Dispatch 231 miles, for example. Compare it with the [Ford E-Transit Custom](/reviews/ford-transit-custom/), [Vauxhall Vivaro Electric](/reviews/vauxhall-vivaro/), [Kia PV5 Cargo](/reviews/kia-pv5-cargo/) and [Volkswagen ID. Buzz Cargo](/vans/volkswagen-id-buzz-cargo/). For more space, there's the [Mercedes-Benz eSprinter](/vans/mercedes-benz-sprinter/).
 
 ### Price
 
