@@ -222,6 +222,9 @@ facts:
   - claim: "in the large-van group, where the grant is worth up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000"
+  - claim: "around £60,000 before VAT, the reported price of an Isuzu D-Max EV"
+    source: https://www.autoexpress.co.uk/kgm/musso/ev
+    quote: "the Isuzu D-Max BEV, which costs around £60,000 before VAT"
   - claim: "Maxus eTerron 9"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "the Maxus eTerron 9, which starts at nearly £55,000 before VAT"
@@ -231,7 +234,7 @@ The Musso EV borrows a famous pickup name but very little else. It is built on K
 
 ### Who it's for
 
-Private buyers, company car drivers and light-duty businesses who want an electric four-wheel-drive pickup without paying £60,000 for one. If you carry heavy materials or tow big plant, look at the [Isuzu D-Max EV](/vans/isuzu-d-max/) instead.
+Private buyers, company car drivers and light-duty businesses who want an electric four-wheel-drive pickup without paying around £60,000 before VAT, the reported price of an Isuzu D-Max EV. If you carry heavy materials or tow big plant, look at the [Isuzu D-Max EV](/vans/isuzu-d-max/) instead.
 
 ### Load bed, payload and towing
 
