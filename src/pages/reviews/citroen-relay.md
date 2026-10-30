@@ -6,11 +6,11 @@ date: 2026-10-30T08:00:00Z
 summary: "Citroën's big electric van now has the same 110kWh battery and 150kW charging as its Stellantis twins, plus an eight-year cover on the battery and running gear. Get the heavier version if payload matters, and get a written price, as we couldn't confirm a current one."
 specs:
   price: "Not confirmed (no UK price published in the last six months)"
-  range: "Up to 263 miles"
+  range: "Up to 261 miles"
   charging: "150kW"
   payload: "Not confirmed (1,385–1,460kg reported for 4.25-tonne versions, not stated as panel-van figures)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The ë-Relay is no longer the odd one out in Citroën's range: since the update it uses the same electric drive as the Fiat, and it has a long official range and quick charging. By all accounts it is calmer and more refined than the noisy diesel Relay, though still a big, basic workhorse with an awkward driving position for some. The 3.5-tonne version's payload is poor, so most buyers will want a 4.25-tonne van. Compare quotes across all five badges, because the van underneath is the same."
+verdict: "The ë-Relay is no longer the odd one out in Citroën's range: since the update it uses the same electric drive as the Fiat, and it has a long official range and quick charging. The one detailed UK review we found covers the diesel too, and it rates the electric van as calmer and more refined than the noisy diesel Relay, though still a big, basic workhorse with an awkward driving position for some. The 3.5-tonne version's payload is poor, so most buyers will want a 4.25-tonne van. Compare quotes across all five badges, because the van underneath is the same."
 good:
   - "Long official range and 150kW charging"
   - "Battery and running gear covered for eight years or 100,000 miles"
@@ -19,12 +19,26 @@ bad:
   - "Only 710kg payload at 3.5 tonnes"
   - "Driving position can feel awkward"
   - "Hard, basic cabin plastics"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/citroen/relay
   - https://www.autoexpress.co.uk/vauxhall/movano
+  - https://www.autoexpress.co.uk/best/large-panel-vans
   - https://www.gov.uk/plug-in-vehicle-grants/vans
+  - https://www.gov.uk/driving-licence-categories
 facts:
-  - claim: "263 miles"
+  - claim: "Up to 261 miles"
+    source: https://www.autoexpress.co.uk/best/large-panel-vans
+    quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
+  - claim: "up to 261 miles"
+    source: https://www.autoexpress.co.uk/best/large-panel-vans
+    quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
+  - claim: "July 2026"
+    source: https://www.autoexpress.co.uk/best/large-panel-vans
+    quote: "22 Jul 2026"
+  - claim: "review of the Relay quoted up to 263 miles"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "The electric e-Relay has a range of up to 263 miles"
   - claim: "150kW"
@@ -48,7 +62,7 @@ facts:
   - claim: "since the update it uses the same electric drive as the Fiat"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "an update at the end of 2024 saw all three models achieve equal status in terms of electric drive"
-  - claim: "By all accounts it is calmer and more refined than the noisy diesel Relay"
+  - claim: "it rates the electric van as calmer and more refined than the noisy diesel Relay"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "The diesel models are properly old school, with plenty of noise, but good power, too, while the electric version is a bit more refined, but still a big, heavy workhorse that gives few concessions to comfort."
   - claim: "More refined than the diesel Relay"
@@ -93,18 +107,21 @@ facts:
   - claim: "Every van is 2,050mm wide without mirrors"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "Every van measures 2,050mm wide without wing mirrors"
-  - claim: "drop to 710kg"
+  - claim: "carries just 710kg"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "because it has a payload of 710kg"
   - claim: "the 4.25-tonne versions carry 1,385kg to 1,460kg"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "4.25 tonne GVW versions of the e-Relay on a standard post-1997 driver's licence, and these have payloads ranging from 1,385-1,460kg"
-  - claim: "can be driven on a standard car licence"
-    source: https://www.autoexpress.co.uk/citroen/relay
-    quote: "You can drive 4.25 tonne GVW versions of the e-Relay on a standard post-1997 driver's licence"
-  - claim: "another says a commercial licence is needed"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "You'll need a commercial vehicle driving licence to drive the latter"
+  - claim: "a standard category B car licence covers electric vehicles up to 4,250kg"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
+  - claim: "including one gained on or after 1 January 1997"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "Category B - if you passed your test on or after 1 January 1997"
+  - claim: "the limit for petrol and diesel vans is 3,500kg"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "3,500kg for petrol and diesel vehicles"
   - claim: "from zero to 80% in 55 minutes"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "Rapid DC charging at 150kW can take the battery from zero to 80 per cent charge in 55 minutes"
@@ -117,9 +134,15 @@ facts:
   - claim: "The battery's weight under the floor helps settle the ride"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "The weight of the battery located under the cargo floor helps to calm the ride down"
-  - claim: "an empty diesel Relay is known for bouncing over poor roads"
+  - claim: "an empty Relay, especially the diesel, can bounce over poor roads"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "when unladen the van can bounce and pogo over poor surfaces"
+  - claim: "especially the diesel"
+    source: https://www.autoexpress.co.uk/citroen/relay
+    quote: "Very unsettled ride when unladen, especially the diesels"
+  - claim: "it rates the electric van as more refined"
+    source: https://www.autoexpress.co.uk/citroen/relay
+    quote: "For a more refined drive, the electric e-Relay improves things."
   - claim: "wind and road noise are still there"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "there's no avoiding the road and wind noise"
@@ -183,15 +206,17 @@ Until the end of 2024, the electric Relay was converted by an outside company, w
 
 You get four panel van sizes (L3H2, L3H3, L4H2 and L4H3), a Window Van and an L3H1 Chassis Cab. Because the electric van has the same internal dimensions as the diesel, load volume runs from 13 cubic metres in the L3H2 to 17 in the L4H3. Every van is 2,050mm wide without mirrors, which matters on narrow streets.
 
-Payload is the catch. At 3.5 tonnes the electric van's figures drop to 710kg, the worst in the Relay range, while the 4.25-tonne versions carry 1,385kg to 1,460kg. Reports differ on licences: one source says the heavier van can be driven on a standard car licence, another says a commercial licence is needed. Check the rules for your drivers before you order.
+Payload is the catch. At 3.5 tonnes the electric van carries just 710kg, the worst in the Relay range, while the 4.25-tonne versions carry 1,385kg to 1,460kg.
+
+You may read that the heavier van needs a commercial licence. Under the current GOV.UK rules, a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). So the 4.25-tonne ë-Relay can be driven on a car licence.
 
 ### Range and charging
 
-The quoted range is up to 263 miles. Rapid charging at 150kW takes the battery from zero to 80% in 55 minutes, but a 7.4kW wallbox takes a little under 17 hours from flat. The charging socket sits behind a flap by the passenger door, where the diesel's filler is. Our [charging guide](/guides/charging-an-electric-van/) covers depot and home options.
+Published range figures vary slightly: the most recent we found, from July 2026, gives up to 261 miles, while a June 2025 review of the Relay quoted up to 263 miles. Rapid charging at 150kW takes the battery from zero to 80% in 55 minutes, but a 7.4kW wallbox takes a little under 17 hours from flat. The charging socket sits behind a flap by the passenger door, where the diesel's filler is. Our [charging guide](/guides/charging-an-electric-van/) covers depot and home options.
 
 ### On the road
 
-An empty diesel Relay is known for bouncing over poor roads. The battery's weight under the floor helps settle the ride in the electric van, and it has a reputation for being more refined, but wind and road noise are still there. Brake energy recovery is smooth, which helps keep loads in place. Some drivers find the seat feels pushed forward to free up cargo space.
+The road impressions we found come from one review of the whole Relay range, diesel included. In it, an empty Relay, especially the diesel, can bounce over poor roads. The battery's weight under the floor helps settle the ride in the electric van, and it rates the electric van as more refined, but wind and road noise are still there. Brake energy recovery is smooth, which helps keep loads in place. Some drivers find the seat feels pushed forward to free up cargo space.
 
 ### Cab and kit
 
@@ -199,7 +224,7 @@ The single trim includes air conditioning, rear parking sensors and cruise contr
 
 ### Warranty and price
 
-The van warranty is three years or 100,000 miles, paint cover is two years and there's a five-year anti-perforation guarantee. Citroën's battery cover is the stand-out: the battery and running gear get eight years or 100,000 miles. Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer, though.
+The van warranty is three years or 100,000 miles, paint cover is two years and there's a five-year anti-perforation guarantee. The electric van's cover is more generous: the battery and running gear get eight years or 100,000 miles. Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer, though.
 
 We couldn't confirm a current UK list price. In June 2025, prices were reported from around £51,000 to £53,250 before discounts, without saying whether VAT was included. The ë-Relay is on the government's list of large vans eligible for the van grant, worth up to £5,000 (our [grants and tax guide](/guides/grants-and-tax/) explains how it works). Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 

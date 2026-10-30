@@ -6,11 +6,11 @@ date: 2026-10-30T08:00:00Z
 summary: "Vauxhall's big electric van has a 110kWh battery, a long official range and 150kW charging, and it shares nearly everything with four other badges. Payload depends heavily on which weight you pick, and we couldn't confirm a current UK price."
 specs:
   price: "Not confirmed (no UK price published in the last six months)"
-  range: "Up to 263 miles"
+  range: "Up to 261 miles"
   charging: "150kW"
   payload: "Not confirmed (up to 1,460kg reported, not stated as a panel-van figure)"
   batteryWarranty: "Eight years against loss of capacity"
-verdict: "The Movano Electric is a capable big electric van with a long official range, 150kW charging and the same huge load bay as the diesel. Its reputation is for a smoother, more comfortable drive than the diesel Movano, though the old design still lets in plenty of wind and road noise. Vauxhall's warranty is the basic three years, and the same van with a Toyota badge comes with far longer cover. Pick the heavier version if you carry real weight, and get quotes on all five badges before you sign."
+verdict: "The Movano Electric is a capable big electric van with a long official range, 150kW charging and the same huge load bay as the diesel. The one detailed UK review we found covers the diesel too, and it rates the electric version as smoother and more comfortable than the diesel Movano, though the old design still lets in plenty of wind and road noise. Vauxhall's warranty is the basic three years, and the same van with a Toyota badge comes with far longer cover. Pick the heavier version if you carry real weight, and get quotes on all five badges before you sign."
 good:
   - "Long official range from the 110kWh battery"
   - "Rapid charging at up to 150kW"
@@ -19,16 +19,21 @@ bad:
   - "Payload starts at just 710kg in the lightest version"
   - "Wind and road noise in an old design"
   - "Only a three-year van warranty"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/vauxhall/movano
   - https://www.autoexpress.co.uk/best/large-panel-vans
   - https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
+  - https://www.autoexpress.co.uk/citroen/relay
   - https://www.parkers.co.uk/vans-pickups/vauxhall/movano/2024-review/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
+  - https://www.gov.uk/driving-licence-categories
 facts:
-  - claim: "263 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "delivering a range of up to 263 miles depending on which version you choose"
+  - claim: "Up to 261 miles"
+    source: https://www.autoexpress.co.uk/best/large-panel-vans
+    quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
   - claim: "150kW"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The 110kWh battery pack has a usable capacity of 97.8kWh and can charge at up to 150kW"
@@ -41,7 +46,7 @@ facts:
   - claim: "110kWh battery"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The Movano Electric uses a 110kWh battery"
-  - claim: "Its reputation is for a smoother, more comfortable drive than the diesel Movano"
+  - claim: "rates the electric version as smoother and more comfortable than the diesel Movano"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "the electric version always carries its batteries around, loading up the suspension and improving comfort significantly"
   - claim: "Smoother and more comfortable than the diesel Movano"
@@ -92,21 +97,27 @@ facts:
   - claim: "3.5 tonnes and 4.25 tonnes"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "There are different gross vehicle weights, 3.5 tonnes and 4.25 tonnes"
-  - claim: "Licence rules for the 4.25-tonne versions are reported differently"
-    source: https://www.autoexpress.co.uk/citroen/relay
-    quote: "You can drive 4.25 tonne GVW versions of the e-Relay on a standard post-1997 driver's licence"
-  - claim: "one source says a commercial licence is needed for drivers who passed their test after 1997"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "You'll need a commercial vehicle driving licence to drive the latter, if you passed your test since January 1997."
+  - claim: "a standard category B car licence covers electric vehicles up to 4,250kg"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
+  - claim: "including one gained on or after 1 January 1997"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "Category B - if you passed your test on or after 1 January 1997"
+  - claim: "the limit for petrol and diesel vans is 3,500kg"
+    source: https://www.gov.uk/driving-licence-categories
+    quote: "3,500kg for petrol and diesel vehicles"
   - claim: "the heavy-duty versions carry up to 1,460kg"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "other versions of the EV have up to 1,460kg capacity - it depends if the van comes with the heavy-duty suspension"
-  - claim: "263 miles in the lightest models, dropping to around 230 miles in the larger ones"
+  - claim: "263 miles in the lightest models, dropping to around 230 miles in larger ones"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The Movano Electric has up to 263 miles of range on a single charge in the lightest models, dropping to around 230 miles in larger variants."
-  - claim: "buying guide gives 261 miles"
+  - claim: "up to 261 miles"
     source: https://www.autoexpress.co.uk/best/large-panel-vans
     quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
+  - claim: "In July 2025, a detailed review of the Movano"
+    source: https://www.autoexpress.co.uk/vauxhall/movano
+    quote: "By: Sam Naylor 11 Jul 2025"
   - claim: "July 2026"
     source: https://www.autoexpress.co.uk/best/large-panel-vans
     quote: "22 Jul 2026"
@@ -119,7 +130,7 @@ facts:
   - claim: "feels quick when empty"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "thanks to the instant torque of the electric motor it feels pretty fast when the van is unladen"
-  - claim: "The Ford Transit and Renault Master are said to feel more modern"
+  - claim: "the Ford Transit and Renault Master are said to feel more modern"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The Ford Transit or Renault Master are more modern-feeling from behind the wheel, and more comfortable too."
   - claim: "the big twin door mirrors give a good view behind"
@@ -128,9 +139,12 @@ facts:
   - claim: "a digital instrument display"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "except the Movano Electric as this has a larger seven-inch unit instead, along with a digital instrument display"
-  - claim: "Reports differ on the touchscreen size"
-    source: https://www.parkers.co.uk/vans-pickups/vauxhall/movano/2024-review/
-    quote: "10-inch colour touchscreen"
+  - claim: "There's one trim, Prime, with air conditioning, cruise control, electric twin door mirrors, twin rear doors and a single nearside sliding door"
+    source: https://www.autoexpress.co.uk/vauxhall/movano
+    quote: "There's only one Movano trim level and it's called Prime. It comes with air conditioning, cruise control , electric twin door mirrors, twin rear doors and a single nearside sliding door."
+  - claim: "The detailed UK road impressions we found come from one review of the whole Movano range, diesel included"
+    source: https://www.autoexpress.co.uk/vauxhall/movano
+    quote: "There's sure to be a Vauxhall Movano to suit any business due to the big range, but hi-tech powertrains contrast with dated driving manners"
   - claim: "Electric Movanos need a service every year"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "Electric models have to be serviced every year at the same mileage."
@@ -170,21 +184,23 @@ Businesses that need a full-size van with a long official range: parcel and mult
 
 You can have the electric van in L3H2, L3H3, L4H2 and L4H3 sizes, plus a Glazed Van and a Chassis Cab for conversions. The biggest L4H3 holds 17 cubic metres.
 
-Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes, and the lightest electric version carries just 710kg. The heavy-duty versions carry up to 1,460kg. We couldn't confirm that top figure as a panel-van one, so ask for the plated payload of the exact van you're quoted. Licence rules for the 4.25-tonne versions are reported differently, and one source says a commercial licence is needed for drivers who passed their test after 1997, so check before you order.
+Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes, and the lightest electric version carries just 710kg. The heavy-duty versions carry up to 1,460kg. We couldn't confirm that top figure as a panel-van one, so ask for the plated payload of the exact van you're quoted.
+
+You may read that the 4.25-tonne van needs a commercial licence. Under the current GOV.UK rules, a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). So the heavier electric Movano can be driven on a car licence.
 
 ### Range and charging in the real world
 
-The quoted range is up to 263 miles in the lightest models, dropping to around 230 miles in the larger ones, though a July 2026 buying guide gives 261 miles. Load and speed will cut it further.
+Published range figures vary slightly. The most recent we found, from July 2026, gives up to 261 miles. In July 2025, a detailed review of the Movano quoted 263 miles in the lightest models, dropping to around 230 miles in larger ones. Load and speed will cut it further.
 
 Rapid charging at up to 150kW takes the battery from five to 80% in 55 minutes. Home charging is the weak point: a 7.4kW wallbox takes about 17 hours to fill it from empty, so plan on faster AC charging at the depot if the van runs flat daily. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 
-The electric van has a reputation as the pick of the Movano range to drive. The batteries weigh down the suspension, so it rides better than an empty diesel, and it feels quick when empty. The underlying design is old, though, and there's still a lot of wind and road noise. The Ford Transit and Renault Master are said to feel more modern. On the plus side, the big twin door mirrors give a good view behind.
+The detailed UK road impressions we found come from one review of the whole Movano range, diesel included, so here is what it says about the electric van. The batteries weigh down the suspension, so it rides better than an empty diesel, and it feels quick when empty. The underlying design is old, though, and there's still a lot of wind and road noise. Across the range, the Ford Transit and Renault Master are said to feel more modern. On the plus side, the big twin door mirrors give a good view behind.
 
 ### Cab and kit
 
-The electric van gets a digital instrument display. Reports differ on the touchscreen size, so check the spec sheet for the van you're quoted.
+There's one trim, Prime, with air conditioning, cruise control, electric twin door mirrors, twin rear doors and a single nearside sliding door, and the electric van gets a digital instrument display. Check the spec sheet for the screen and options on the van you're quoted.
 
 ### Price and warranty
 
