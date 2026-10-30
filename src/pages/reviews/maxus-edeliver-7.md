@@ -10,9 +10,12 @@ specs:
   charging: "90kW"
   payload: "1,200 kg"
   batteryWarranty: "8 years or 155,000 miles (reported)"
-verdict: "The eDeliver 7 is a solid, sensible medium electric van that gives you a lot for your money: up to 230 miles of official range, payloads over a tonne in every version, a high-roof body and a long list of standard kit. Its weak points are a 90kW rapid charging peak, a high load floor and driver alerts that by all accounts never stop talking. It suits a business that charges at base overnight and wants space and payload more than a famous badge. Pin the dealer down on the exact electric price, because the headline offers we found don't say which version they apply to."
+verdict: "The eDeliver 7 is a solid, sensible medium electric van that gives you a lot of van: up to 230 miles of official range, payloads over a tonne in every version, a high-roof body and a long list of standard kit. Its weak points are a 90kW rapid charging peak, a high load floor and driver alerts that by all accounts beep far too often. It suits a business that charges at base overnight and wants space and payload more than a famous badge. Pin the dealer down on the exact electric price, because the headline price we found doesn't say which version it applies to."
 good: ["Over 1,000kg payload in every version", "Up to 230 miles official range", "High-roof L2H2 body, rare in this class"]
 bad: ["Rapid charging peaks at 90kW", "High load floor", "Lots of driver-assistance beeping"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
@@ -52,9 +55,9 @@ facts:
   - claim: "the L2H1 with the 77kWh battery"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "we got to grips with an L2H1 model with the 77kWh pack"
-  - claim: "226 miles for the bigger battery"
+  - claim: "226 miles for the bigger battery as its launch figure"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-    quote: "up to 226 miles (365 km) for the larger battery"
+    quote: "At Launch: The eDeliver 7 comes with a choice of two battery sizes, giving an official WLTP-rated range of up to 226 miles (365 km) for the larger battery"
   - claim: "one 2025 guide"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "Published: August 17, 2025"
@@ -139,10 +142,10 @@ facts:
   - claim: "brisk away from the lights"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Power boosts it considerably, delivering rapid acceleration"
-  - claim: "a firm ride that gets choppier when the van is empty"
+  - claim: "a firm ride, particularly with an empty load bay"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
-    quote: "The eDeliver 7's ride is on the firm side"
-  - claim: "a firm ride that gets choppier when the van is empty"
+    quote: "The eDeliver 7's ride is on the firm side, thumping over some of the rougher parts of our test route. This was with nothing in the back"
+  - claim: "a firm ride, particularly with an empty load bay"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Run around completely empty, and it gets a lot choppier"
   - claim: "Lots of driver-assistance beeping"
@@ -154,12 +157,15 @@ facts:
   - claim: "a loud warning when you go over the speed limit"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "The eDeliver 7 is very vocal if you go over the legal maximum"
-  - claim: "a sign-reading system that doesn't always get the limit right"
+  - claim: "a loud warning when you go over the speed limit"
+    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
+    quote: "You get an especially loud beep if you exceed the posted speed limit"
+  - claim: "One road test found the sign-reading system doesn't always get the limit right"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Unfortunately the eDeliver 7 does not always identify the limit correctly"
-  - claim: "a driver-facing camera that sounds an alert if it thinks you're tired or distracted"
+  - claim: "another found the driver-facing camera, which watches for tiredness or distraction, sets off a loud alarm"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
-    quote: "It will then sound a rather loud and persistent alarm"
+    quote: "It then determines when you are not paying attention to the road, either through distraction or fatigue. It will then sound a rather loud and persistent alarm"
   - claim: "Regenerative braking is adjusted through the touchscreen"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "it is also where you need to go if you want to adjust the brake regeneration"
@@ -207,7 +213,7 @@ facts:
   - claim: "Servicing is every two years or 18,000 miles"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "Service intervals are set at two years/18,000 miles."
-  - claim: "around 60 locations"
+  - claim: "around 60 locations, including service dealers"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "now boasts 60 locations, including service dealers"
   - claim: "When orders opened in January 2024"
@@ -219,7 +225,7 @@ facts:
   - claim: "In August 2026"
     source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
     quote: "7 August 2026"
-  - claim: "the Deliver 7 line-up, diesel and electric, is now priced from £19,995"
+  - claim: "the Deliver 7 line-up, in Euro 6 and electric forms, is now priced from £19,995"
     source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
     quote: "Available in both Euro-6 and fully electric variants, the Deliver 7 line-up is now priced from £19,995"
   - claim: "the government's list of vans eligible for the large-van rate of the Plug-in Van Grant"
@@ -244,13 +250,13 @@ The catch is the floor. The battery sits under the rear floor, so the load floor
 
 ### Range and charging in the real world
 
-Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 190 miles, for the L2H1 with the 77kWh battery. Published figures vary a little, and one 2025 guide gives 226 miles for the bigger battery. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
+Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 190 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
 
 Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100%. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
 
 ### On the road
 
-By all accounts the eDeliver 7 is brisk away from the lights, with a firm ride that gets choppier when the van is empty. The recurring complaint is noise from the electronics: a loud warning when you go over the speed limit, a sign-reading system that doesn't always get the limit right, and a driver-facing camera that sounds an alert if it thinks you're tired or distracted. Regenerative braking is adjusted through the touchscreen rather than with a button or paddles, which is a nuisance if you switch between town and motorway. One road test also picked up a lot of tyre and suspension noise.
+By all accounts the eDeliver 7 is brisk away from the lights, with a firm ride, particularly with an empty load bay. The recurring complaint is noise from the electronics, above all a loud warning when you go over the speed limit. One road test found the sign-reading system doesn't always get the limit right, and another found the driver-facing camera, which watches for tiredness or distraction, sets off a loud alarm. Regenerative braking is adjusted through the touchscreen rather than with a button or paddles, which is a nuisance if you switch between town and motorway. One road test also picked up a lot of tyre and suspension noise.
 
 ### Cab and kit
 
@@ -258,10 +264,10 @@ The standard kit list is long for a work van: a 12.3-inch touchscreen with Apple
 
 ### Alternatives
 
-The obvious rivals are the [Ford E-Transit Custom](/vans/ford-transit-custom/), [Volkswagen e-Transporter](/vans/volkswagen-transporter/), [Renault Trafic E-Tech](/vans/renault-trafic/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/) and its Stellantis twins, and the smaller [Kia PV5 Cargo](/vans/kia-pv5-cargo/). Most bigger brands have larger dealer networks; Maxus has around 60 locations, so check how far your nearest one is.
+The obvious rivals are the [Ford E-Transit Custom](/vans/ford-transit-custom/), [Volkswagen e-Transporter](/vans/volkswagen-transporter/), [Renault Trafic E-Tech](/vans/renault-trafic/), [Vauxhall Vivaro Electric](/vans/vauxhall-vivaro/) and its Stellantis twins, and the [Kia PV5 Cargo](/vans/kia-pv5-cargo/). Maxus has around 60 locations, including service dealers, so check how far your nearest one is.
 
 ### Price
 
-We couldn't confirm a current UK list price for the electric van. When orders opened in January 2024, the eDeliver 7 was priced from £44,995 excluding VAT. In August 2026 the UK importer announced that the Deliver 7 line-up, diesel and electric, is now priced from £19,995, but the report doesn't say which version that price buys or whether it includes VAT, so get a written quote for the electric van you want. It's on the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)).
+We couldn't confirm a current UK list price for the electric van. When orders opened in January 2024, the eDeliver 7 was priced from £44,995 excluding VAT. In August 2026 the UK importer announced that the Deliver 7 line-up, in Euro 6 and electric forms, is now priced from £19,995, but the report doesn't say which version that price buys or whether it includes VAT, so get a written quote for the electric van you want. It's on the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)).
 
 The warranty is five years or 60,000 miles with five years of roadside assistance, and the battery is reported to be covered for eight years or 155,000 miles. Servicing is every two years or 18,000 miles. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
