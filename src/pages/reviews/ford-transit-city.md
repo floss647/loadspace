@@ -13,6 +13,9 @@ specs:
 verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get Transit Custom-like size, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
 good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with no options to choose"]
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
