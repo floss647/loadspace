@@ -19,6 +19,9 @@ bad:
   - "Only three electric panel van sizes"
   - "Isn't on the government's published list of eligible vans when we checked (October 2026)"
   - "Light steering and a bouncy ride, by some accounts"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/toyota/proace-max/prices-specs/63889/205kw-icon-110kwh-h2-van-auto-revised
   - https://www.autoexpress.co.uk/toyota/proace-max/prices-specs/63890/205kw-icon-110kwh-h3-van-auto-revised

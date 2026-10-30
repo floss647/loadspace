@@ -19,6 +19,9 @@ bad:
   - "Some versions carry only 710kg"
   - "Wind noise at motorway speeds"
   - "Reversing camera costs extra on the base trim"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/fiat/ducato
   - https://www.autoexpress.co.uk/peugeot/boxer
