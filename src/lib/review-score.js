@@ -32,7 +32,7 @@ export const CRITERIA = [
     score: (s) => band(num(s), [[150, 5], [100, 4], [80, 3], [50, 2]]),
   },
   {
-    key: 'payload', label: 'Payload', what: 'Highest payload of any panel van version',
+    key: 'payload', label: 'Payload', what: 'Highest payload of any UK panel van version (any version for pickups)',
     bands: [['1,200kg or more', 5], ['1,000kg to 1,199kg', 4], ['800kg to 999kg', 3], ['600kg to 799kg', 2], ['under 600kg', 1]],
     score: (s) => band(num(s), [[1200, 5], [1000, 4], [800, 3], [600, 2]]),
   },
