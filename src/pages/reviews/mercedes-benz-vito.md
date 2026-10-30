@@ -13,6 +13,9 @@ specs:
 verdict: "The eVito is a well-made electric version of a van many firms already know, with the same load space as the diesel Vito and a reputation for brisk town driving. Its weak points are clear: a modest official range from the 60kWh battery, 80kW rapid charging and a payload below a tonne. The bigger-battery version sold elsewhere isn't coming to the UK, and a new Vito on a fresh electric platform is on the way. Buy one for local work if the badge, the build and the dealer network matter to you, but compare it hard against newer rivals first."
 good: ["Same load space as the diesel Vito", "Brisk away from a standstill", "Sliding side doors on both sides"]
 bad: ["Shorter official range than many rivals", "Payload below a tonne", "No high-roof version"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/mercedes/vito
   - https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
