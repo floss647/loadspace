@@ -399,3 +399,10 @@ main:has(> .review-hero) { padding-top: 0; }
 .mini-meters .meter { margin: 0; }
 .mini-meters .meter i { height: 5px; }
 .review-card .arrow { margin-top: auto; padding-top: .6rem; font-weight: 700; color: var(--link); }
+.review-price { margin: 1rem 0 0; color: #c9d1de; font-size: .95rem; }
+.review-price strong { color: #fff; font-size: 1.15rem; }
+.price-row { display: grid; grid-template-columns: auto 1fr; gap: .1rem .6rem; align-items: baseline; padding: .8rem 0; border-top: 1px solid var(--line); margin-bottom: .6rem; font-size: .92rem; color: var(--ink); }
+.price-row strong { text-align: right; }
+.price-row .muted:not(.small) { text-align: right; }
+.price-row .small { grid-column: 1 / -1; }
+.card-price { font-size: .88rem !important; color: var(--ink) !important; margin: 0 !important; }
