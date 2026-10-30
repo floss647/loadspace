@@ -4,14 +4,15 @@ import VehicleImage from '../../components/VehicleImage.astro';
 import { REVIEWS } from '../../lib/reviews.js';
 ---
 <Base title="Electric van reviews" description="What the UK's van testers say about each electric van, summarised in plain English, plus our own score from the published specs.">
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › Reviews</div>
-    <div class="page-head">
+  <header class="page-head">
+    <div class="wrap">
       <p class="eyebrow">Reviews</p>
       <h1>Electric van reviews</h1>
       <p class="lede">We read the published UK road tests so you don't have to, and sum up who thinks what. Each van also gets a Loadspace data score worked out from its published specs, so you can compare them fairly.</p>
     </div>
-    <div class="grid review-list" style="margin-top:1.5rem">
+  </header>
+  <div class="wrap">
+    <div class="grid review-list">
       {REVIEWS.map((r) => (
         <a class="card has-img" href={r.url}>
           <VehicleImage slug={r.van} name={r.vanName} size="card" />

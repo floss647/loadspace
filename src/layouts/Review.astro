@@ -4,7 +4,7 @@ import VehicleImage from '../components/VehicleImage.astro';
 import { fmtDate } from '../lib/news.js';
 import { SITE } from '../data/site.js';
 import { EV_VANS } from '../data/vans.js';
-import { scoreSpecs } from '../lib/reviews.js';
+import { scoreSpecs } from '../lib/review-score.js';
 import IMAGES from '../data/images.json';
 const { frontmatter: f } = Astro.props;
 const van = EV_VANS.find((v) => v.slug === f.van);
