@@ -23,11 +23,11 @@ function walk(dir) {
 }
 DIRS.forEach((d) => walk(join(ROOT, d)));
 
-// Stock phrases that make writing read as machine-made. Checked in news stories and blog columns.
+// Stock phrases that make writing read as machine-made. Checked in news stories, blog columns and reviews.
 const CLICHES = ['delve', 'in today\'s fast-paced', 'game-changer', 'game changer', "it's worth noting", 'navigate the landscape',
   'a testament to', 'in the ever-evolving', 'buckle up', 'let\'s dive in', 'dive into', 'tapestry', 'unleash', 'elevate your',
   'in conclusion', 'at the end of the day', 'a rich tapestry', 'seamless', 'revolutionise', 'revolutionize', 'landscape of'];
-for (const dir of ['src/pages/news', 'src/pages/blog']) {
+for (const dir of ['src/pages/news', 'src/pages/blog', 'src/pages/reviews']) {
   const full = join(ROOT, dir);
   let names = [];
   try { names = readdirSync(full).filter((f) => f.endsWith('.md')); } catch { continue; }

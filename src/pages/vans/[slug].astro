@@ -5,6 +5,7 @@ import Cta from '../../components/Cta.astro';
 import VehicleImage from '../../components/VehicleImage.astro';
 import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
+import { reviewFor } from '../../lib/reviews.js';
 
 export function getStaticPaths() {
   return EV_VANS.map((van) => ({ params: { slug: van.slug }, props: { van } }));
@@ -20,6 +21,7 @@ const deals = DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
   .map((d) => ({ ...d, tc: trueCost(d) }))
   .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+const review = reviewFor(van.slug);
 const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '');
 ---
 <Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`}>
@@ -36,7 +38,11 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       {note && <p>{note}</p>}
       {!electricOnly && <p class="small muted">Also sold with diesel or petrol engines as the {van.baseName}.</p>}
 
+      {review ? (
+        <a class="card" href={review.url} style="margin:1rem 0"><strong>Read the review roundup: Loadspace data score {review.score.overall?.toFixed(1)}/5.</strong> What the UK's van testers say about the {van.name}, summarised in plain English. →</a>
+      ) : (
       <div class="notice"><strong>Full road test coming.</strong> We're adding loaded-up driving impressions, real-world range in summer and winter, and owner interviews. This page already covers the buying basics.</div>
+      )}
 
       <h2>Will it suit your work?</h2>
       <p>The {van.name} is likely to suit you if you do <strong>under about 100 miles on a normal day</strong>, can <strong>charge off-street overnight</strong>, and work mostly in or around towns. It's a harder sell for long motorway days, heavy towing, or if you'd rely on public rapid chargers.</p>

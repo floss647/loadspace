@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * News fact check. Checks news stories and blog columns. Runs before every build (npm "prebuild"), so a story that fails can't go live.
+ * News fact check. Checks news stories, blog columns and reviews. Runs before every build (npm "prebuild"), so a story that fails can't go live.
  *
  * Every news story must list its facts in the frontmatter:
  *
@@ -37,7 +37,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DIRS = ['src/pages/news', 'src/pages/blog'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
+const DIRS = ['src/pages/news', 'src/pages/blog', 'src/pages/reviews'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
 const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'), 'utf8'));
 const LIVE = process.argv.includes('--live');
 const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
@@ -74,7 +74,8 @@ function parse(file) {
 function storyText(fm, body) {
   // Drop link targets (internal paths) but keep link text; drop markdown syntax that holds no facts.
   const clean = body.replace(/\]\([^)]*\)/g, ']').replace(/<[^>]+>/g, ' ').replace(/\b4x4s?\b/gi, '');
-  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, clean].filter(Boolean).join('\n');
+  const specs = fm.specs && typeof fm.specs === 'object' ? Object.values(fm.specs) : [];
+  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, ...(fm.good || []), ...(fm.bad || []), ...specs, clean].filter(Boolean).join('\n');
 }
 
 function checkOffline(slug, fm, body, isBlog) {
