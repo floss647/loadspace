@@ -5,11 +5,11 @@ van: vauxhall-movano
 date: 2026-10-30T08:00:00Z
 summary: "Vauxhall's big electric van has a 110kWh battery, a long official range and 150kW charging, and it shares nearly everything with four other badges. Payload depends heavily on which weight you pick, and we couldn't confirm a current UK price."
 specs:
-  price: "Not confirmed (no UK price published in the last six months)"
-  range: "Up to 261 miles"
+  price: "Not confirmed (newest Vauxhall price list we have is from May 2025)"
+  range: "Up to 263 miles"
   charging: "150kW"
-  payload: "Not confirmed (up to 1,460kg reported, not stated as a panel-van figure)"
-  batteryWarranty: "Eight years against loss of capacity"
+  payload: "1,460kg (4.25-tonne L3H2, includes driver)"
+  batteryWarranty: "8 years or 100,000 miles (to 70% capacity)"
 verdict: "The Movano Electric is a capable big electric van with a long official range, 150kW charging and the same huge load bay as the diesel. The one detailed UK review we found covers the diesel too, and it rates the electric version as smoother and more comfortable than the diesel Movano, though the old design still lets in plenty of wind and road noise. Vauxhall's warranty is the basic three years, and the same van with a Toyota badge comes with far longer cover. Pick the heavier version if you carry real weight, and get quotes on all five badges before you sign."
 good:
   - "Long official range from the 110kWh battery"
@@ -19,33 +19,46 @@ bad:
   - "Payload starts at just 710kg in the lightest version"
   - "Wind and road noise in an old design"
   - "Only a three-year van warranty"
-factCheck:
-  by: "independent fact-checker"
-  date: 2026-10-30
 sources:
   - https://www.autoexpress.co.uk/vauxhall/movano
-  - https://www.autoexpress.co.uk/best/large-panel-vans
   - https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
   - https://www.autoexpress.co.uk/citroen/relay
   - https://www.parkers.co.uk/vans-pickups/vauxhall/movano/2024-review/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://www.gov.uk/driving-licence-categories
+  - sources/vauxhall-movano-price-spec-guide-2025-05.pdf
 facts:
-  - claim: "Up to 261 miles"
-    source: https://www.autoexpress.co.uk/best/large-panel-vans
-    quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
+  - claim: "Not confirmed (newest Vauxhall price list we have is from May 2025)"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "1 May 2025 | Model Year 2025.5 (13)"
+  - claim: "Up to 263 miles"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "up to 263 miles range"
   - claim: "150kW"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "The 110kWh battery pack has a usable capacity of 97.8kWh and can charge at up to 150kW"
-  - claim: "up to 1,460kg reported"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "other versions of the EV have up to 1,460kg capacity"
-  - claim: "Eight years against loss of capacity"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "there's eight years of additional cover for the battery in the electric model, covering it for loss of capacity"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "DC current - Rapid charger (150kW) CCS 55min (0-80%)"
+  - claim: "1,460kg"
+    calc: "Maximum indicative payload 1460kg for the N2 L3H2 Prime Panel Van at 4250kg gross (guide row, fact below), written with a comma = 1,460kg"
+  - claim: "4,250kg gross"
+    calc: "Gross vehicle weight 4250kg for the N2 L3H2 Prime Panel Van (guide row, fact below), written with a comma = 4,250kg"
+  - claim: "the highest panel van payload is"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5MHYAFT0A013 2790 1460 4250 2100 2400 2400 6400 51,195.00"
+  - claim: "where kerb weight is used, as in its price tables, the driver's weight is"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "When Kerb Weight used, driver weight is"
+  - claim: "included in the payload figure"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "included within the Maximum Indicative"
+  - claim: "8 years or 100,000 miles (to 70% capacity)"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Battery warranty 8 years/100,000 miles/70% capacity"
+  - claim: "covers the battery for 8 years or 100,000 miles, to 70% of its capacity"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Battery warranty 8 years/100,000 miles/70% capacity"
   - claim: "110kWh battery"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "The Movano Electric uses a 110kWh battery"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Lithium-ion 110kWh Gross"
   - claim: "rates the electric version as smoother and more comfortable than the diesel Movano"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "the electric version always carries its batteries around, loading up the suspension and improving comfort significantly"
@@ -61,6 +74,9 @@ facts:
   - claim: "Payload starts at just 710kg in the lightest version"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "Payload capacities start at just 710kg, which is for the smallest Movano Electric."
+  - claim: "the lightest electric version carries just 710kg"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
   - claim: "Only a three-year van warranty"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The warranty runs for three years or 100,000 miles, whichever comes first, in all versions."
@@ -97,6 +113,12 @@ facts:
   - claim: "3.5 tonnes and 4.25 tonnes"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "There are different gross vehicle weights, 3.5 tonnes and 4.25 tonnes"
+  - claim: "limited to 56mph"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Speed Limited to 56mph"
+  - claim: "come with a tachograph"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Tachograph"
   - claim: "a standard category B car licence covers electric vehicles up to 4,250kg"
     source: https://www.gov.uk/driving-licence-categories
     quote: "4,250kg for electric or hydrogen vehicles - zero emission vehicles only"
@@ -106,27 +128,27 @@ facts:
   - claim: "the limit for petrol and diesel vans is 3,500kg"
     source: https://www.gov.uk/driving-licence-categories
     quote: "3,500kg for petrol and diesel vehicles"
-  - claim: "the heavy-duty versions carry up to 1,460kg"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "other versions of the EV have up to 1,460kg capacity - it depends if the van comes with the heavy-duty suspension"
-  - claim: "263 miles in the lightest models, dropping to around 230 miles in larger ones"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "The Movano Electric has up to 263 miles of range on a single charge in the lightest models, dropping to around 230 miles in larger variants."
-  - claim: "up to 261 miles"
-    source: https://www.autoexpress.co.uk/best/large-panel-vans
-    quote: "Electric versions of the Relay, Movano and Boxer are also all available and can travel up to 261 miles on a single charge."
-  - claim: "In July 2025, a detailed review of the Movano"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "By: Sam Naylor 11 Jul 2025"
-  - claim: "July 2026"
-    source: https://www.autoexpress.co.uk/best/large-panel-vans
-    quote: "22 Jul 2026"
-  - claim: "five to 80% in 55 minutes"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "it can charge from five to 80 per cent in 55 minutes at a public rapid charge point"
-  - claim: "a 7.4kW wallbox takes about 17 hours to fill it from empty"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "It's a bit slow to charge at home or work via a 7.4kW single-phase charger, since the battery is so large. It takes about 17 hours to fill the battery from empty to full"
+  - claim: "gives 263 miles for the"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Range in miles (combined) 235 263 254 262 252"
+  - claim: "between 252 and 262 miles for the other"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Range in miles (combined) 235 263 254 262 252"
+  - claim: "and 235 miles for the"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Range in miles (combined) 235 263 254 262 252"
+  - claim: "Vauxhall works its range figures out with the WLTP test method rather than an official WLTP test, because the Movano Electric is approved as a heavy vehicle"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "As all Movano Electric vans are homologated as Heavy and are not subject to WLTP testing, the range and electric consumption figures mentioned are calculated using WLTP"
+  - claim: "takes the battery from zero to 80% in 55 minutes"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "DC current - Rapid charger (150kW) CCS 55min (0-80%)"
+  - claim: "a 7kW wallbox takes 16 hours 40 minutes"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "AC current - Home wallbox or public charger (7kW) Type 2 16h 40m"
+  - claim: "the van's 11kW on-board charger"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Movano Electric comes fitted with a 11kW"
   - claim: "feels quick when empty"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "thanks to the instant torque of the electric motor it feels pretty fast when the van is unladen"
@@ -136,36 +158,65 @@ facts:
   - claim: "the big twin door mirrors give a good view behind"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "Rearward visibility is good from the big twin door mirrors"
-  - claim: "a digital instrument display"
+  - claim: "There's one trim, Prime"
     source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "except the Movano Electric as this has a larger seven-inch unit instead, along with a digital instrument display"
-  - claim: "There's one trim, Prime, with air conditioning, cruise control, electric twin door mirrors, twin rear doors and a single nearside sliding door"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "There's only one Movano trim level and it's called Prime. It comes with air conditioning, cruise control , electric twin door mirrors, twin rear doors and a single nearside sliding door."
+    quote: "There's only one Movano trim level and it's called Prime."
+  - claim: "a 7-inch touchscreen with Apple CarPlay and Android Auto"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "7\" colour touchscreen display"
+  - claim: "Apple CarPlay and Android Auto"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Apple CarPlay/Android Auto"
+  - claim: "a 7-inch digital instrument cluster"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "7\" digital instrument cluster"
+  - claim: "automatic air conditioning"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Automatic air conditioning"
+  - claim: "an electric parking brake"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Electric parking brake"
+  - claim: "twin rear doors"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Twin unglazed rear doors (180° opening)"
+  - claim: "a nearside sliding door"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Nearside sliding side-access door"
+  - claim: "rear parking sensors"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Rear parking sensors"
+  - claim: "a full-height steel bulkhead"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Full-height steel bulkhead"
+  - claim: "Vauxhall lists cruise control as standard on diesel models"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Cruise control with variable speed limiter"
   - claim: "The detailed UK road impressions we found come from one review of the whole Movano range, diesel included"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "There's sure to be a Vauxhall Movano to suit any business due to the big range, but hi-tech powertrains contrast with dated driving manners"
-  - claim: "Electric Movanos need a service every year"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "Electric models have to be serviced every year at the same mileage."
+  - claim: "Electric Movanos need a service every year or 16,000 miles"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Every 1 Year or 16,000 miles whichever comes first"
+  - claim: "The van warranty is three years"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Three-year vehicle warranty consisting of a"
   - claim: "three years or 100,000 miles"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The warranty runs for three years or 100,000 miles, whichever comes first, in all versions."
-  - claim: "covers the battery against loss of capacity for eight years"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "there's eight years of additional cover for the battery in the electric model, covering it for loss of capacity"
-  - claim: "When the updated van was announced in November 2023"
-    source: https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
-    quote: "22 Nov 2023"
-  - claim: "the L3H2 Movano Electric panel van started at £50,385 excluding VAT"
+  - claim: "price and specification guide effective 1 May 2025"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "1 May 2025 | Model Year 2025.5 (13)"
+  - claim: "the cheapest electric panel van, the N1 L3H2 Prime"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "£50,385 excluding VAT and before the van grant"
+    calc: "PRICE (£) EXC. VAT 50,385.00 for the N1 L3H2 Prime Panel Van in the 1 May 2025 guide (fact above), to the nearest pound = £50,385. The guide deducts the grant only in its separate on-the-road after-PIVG column."
+  - claim: "the same figure reported"
     source: https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
     quote: "The Movano Electric in L3H2 panel van form starts at £50,385 (excluding VAT)"
-  - claim: "a figure of about £47,000 was reported"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "Prices begin at about £34,000 (excluding VAT) for the panel van, or £47,000 if you're considering a Movano Electric."
-  - claim: "July 2025"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "By: Sam Naylor 11 Jul 2025"
+  - claim: "when the updated van was announced in November 2023"
+    source: https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
+    quote: "22 Nov 2023"
   - claim: "worth up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
@@ -184,15 +235,15 @@ Businesses that need a full-size van with a long official range: parcel and mult
 
 You can have the electric van in L3H2, L3H3, L4H2 and L4H3 sizes, plus a Glazed Van and a Chassis Cab for conversions. The biggest L4H3 holds 17 cubic metres.
 
-Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes, and the lightest electric version carries just 710kg. The heavy-duty versions carry up to 1,460kg. We couldn't confirm that top figure as a panel-van one, so ask for the plated payload of the exact van you're quoted.
+Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes, and the lightest electric version carries just 710kg. In Vauxhall's May 2025 guide, the highest panel van payload is 1,460kg, for the 4.25-tonne L3H2 Prime (4,250kg gross). Vauxhall says that where kerb weight is used, as in its price tables, the driver's weight is included in the payload figure, so the load you can carry is lower once you're aboard. Ask for the plated payload of the exact van you're quoted.
 
-You may read that the 4.25-tonne van needs a commercial licence. Under the current GOV.UK rules, a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). So the heavier electric Movano can be driven on a car licence.
+The 4.25-tonne versions are limited to 56mph and come with a tachograph. You may read that they need a commercial licence. Under the current GOV.UK rules, a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). So the heavier electric Movano can be driven on a car licence.
 
 ### Range and charging in the real world
 
-Published range figures vary slightly. The most recent we found, from July 2026, gives up to 261 miles. In July 2025, a detailed review of the Movano quoted 263 miles in the lightest models, dropping to around 230 miles in larger ones. Load and speed will cut it further.
+Vauxhall's guide gives 263 miles for the 4.25-tonne L3H2, between 252 and 262 miles for the other 4.25-tonne panel vans, and 235 miles for the 3.5-tonne van. Vauxhall works its range figures out with the WLTP test method rather than an official WLTP test, because the Movano Electric is approved as a heavy vehicle. Load and speed will cut it further.
 
-Rapid charging at up to 150kW takes the battery from five to 80% in 55 minutes. Home charging is the weak point: a 7.4kW wallbox takes about 17 hours to fill it from empty, so plan on faster AC charging at the depot if the van runs flat daily. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
+Rapid charging at up to 150kW takes the battery from zero to 80% in 55 minutes. Home charging is the weak point: a 7kW wallbox takes 16 hours 40 minutes to fill it, so if the van runs flat daily, plan on a depot charger that can use the van's 11kW on-board charger. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 
 ### On the road
 
@@ -200,13 +251,13 @@ The detailed UK road impressions we found come from one review of the whole Mova
 
 ### Cab and kit
 
-There's one trim, Prime, with air conditioning, cruise control, electric twin door mirrors, twin rear doors and a single nearside sliding door, and the electric van gets a digital instrument display. Check the spec sheet for the screen and options on the van you're quoted.
+There's one trim, Prime. The electric van gets a 7-inch touchscreen with Apple CarPlay and Android Auto, a 7-inch digital instrument cluster, automatic air conditioning and an electric parking brake. Panel vans also get twin rear doors, a nearside sliding door, rear parking sensors and a full-height steel bulkhead. Vauxhall lists cruise control as standard on diesel models, not the electric one, so check before you order if you want it.
 
 ### Price and warranty
 
-We couldn't confirm a current UK list price. When the updated van was announced in November 2023, the L3H2 Movano Electric panel van started at £50,385 excluding VAT. In July 2025 a figure of about £47,000 was reported, but treat that as a guide only. Get written quotes on all five badges.
+We couldn't confirm a current UK list price. The newest Vauxhall list we have is its price and specification guide effective 1 May 2025, which is more than six months old. In it, the cheapest electric panel van, the N1 L3H2 Prime, was listed at £50,385 excluding VAT and before the van grant, the same figure reported when the updated van was announced in November 2023. Treat it as a guide only, and get written quotes on all five badges.
 
-The van warranty is three years or 100,000 miles, and Vauxhall covers the battery against loss of capacity for eight years. Electric Movanos need a service every year. The Movano is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). To check whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+The van warranty is three years or 100,000 miles, and Vauxhall covers the battery for 8 years or 100,000 miles, to 70% of its capacity. Electric Movanos need a service every year or 16,000 miles. The Movano is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). To check whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Alternatives
 
