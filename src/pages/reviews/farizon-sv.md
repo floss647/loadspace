@@ -5,18 +5,19 @@ van: farizon-sv
 date: 2026-10-30T08:00:00Z
 summary: "Geely's purpose-built electric van brings a huge payload, a low floor, a pillarless side opening and lots of standard kit. Reports on how it drives and how well the cabin is made are mixed, and the dealer network is still young."
 specs:
-  price: "Not confirmed (latest full UK price list we found is from April 2026)"
+  price: "£44,000"
   range: "247 miles"
   charging: "140kW"
   payload: "1,350 kg"
-  batteryWarranty: "8 years (mileage limit reported differently)"
-verdict: "The SV is a serious, well-funded effort rather than a gamble on a start-up, and on paper it's strong: up to 1,350 kg of payload, five body sizes, a 247-mile official range in its biggest form and a long list of standard kit. Reports on the drive are split, and the warning chimes and lane-keeping assistance have a reputation for being intrusive. Before you sign, find your nearest dealer, get a written quote and the battery warranty terms in writing, and drive one on your own roads."
+  batteryWarranty: "8 years or 120,000 miles"
+verdict: "The SV is a serious, well-funded effort rather than a gamble on a start-up, and on paper it's strong: up to 1,350 kg of payload, five body sizes, a 247-mile official range in its biggest form and a long list of standard kit. Reports on the drive are split, and the warning chimes and lane-keeping assistance have a reputation for being intrusive. Before you sign, find your nearest dealer, get a written quote and drive one on your own roads."
 good: ["Payload up to 1,350 kg", "Low 550mm load floor and pillarless side opening", "Lots of standard kit"]
 bad: ["Reports on the drive and ride are mixed", "Intrusive driver-assistance warnings", "Young, still-growing dealer network"]
-factCheck:
-  by: "independent fact-checker"
-  date: 2026-10-30
 sources:
+  - https://farizonauto.co.uk/our-range/sv-range
+  - https://farizonauto.co.uk/our-range/sv-range/product-detail
+  - https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+  - https://farizonauto.co.uk/ownership/maintenance-and-warranty
   - https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
   - https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-dimensions/
   - https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/
@@ -32,8 +33,8 @@ sources:
 facts:
   # Specs
   - claim: "247 miles"
-    source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
-    quote: "Our test van had the larger 106kWh battery, which, with a range of up to 247 miles provides a competitive distance"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "Choose between a 67 kWh, 83 kWh or 106kWh battery for an all-electric range of up to 247/342 miles (WLTP combined/city)"
   - claim: "247 miles"
     source: https://vanreviewer.co.uk/farizon/sv/review/6715/
     quote: "WLTP Combined (miles) 188 234 - 214 177 214 - 198 204 247"
@@ -44,22 +45,14 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "All three can be fast charged at up to 120kW, with the 83kWh unit able to take it a step further with 140kW DC charging"
   - claim: "1,350 kg"
-    source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-dimensions/
-    quote: "The best model for payload is, unsurprisingly, the smallest L1H1 with the smallest battery. This comes in at 1,350kg"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "the SV offers up to 13 m³ of cargo volume and a payload capacity of up to 1,350 kg, the highest in its class"
   - claim: "Payload up to 1,350 kg"
-    source: https://evfleetworld.co.uk/road-test-farizon-sv-l1h1/
-    quote: "GROSS PAYLOAD? Up to 1,350kg"
-  - claim: "8 years"
-    calc: "Sources agree on an eight-year battery warranty (facts below): eight years = 8 years"
-  - claim: "mileage limit reported differently"
-    source: https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/
-    quote: "with the electric drivetrain and batteries covered for eight years / 160,000 miles"
-  - claim: "mileage limit reported differently"
-    source: https://evfleetworld.co.uk/road-test-farizon-sv-l1h1/
-    quote: "with an eight-year/120,000-mile warranty for the batteries"
-  - claim: "mileage limit reported differently"
-    source: https://vanreviewer.co.uk/farizon/sv/review/6715/
-    quote: "with an 8-year or 120,000-mile warranty for the battery"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "a payload capacity of up to 1,350 kg"
+  - claim: "8 years or 120,000 miles"
+    source: https://farizonauto.co.uk/ownership/maintenance-and-warranty
+    quote: "8 years or 120,000 miles for the high voltage battery"
   - claim: "April 2026"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
     quote: "Farizon debuts Core trim and latest upgrades for SV large van 22 April 2026"
@@ -137,13 +130,16 @@ facts:
   - claim: "Only the L1H1, at 1,980mm tall"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-dimensions/
     quote: "Height 1,980mm 2,180mm 2,180mm 2,500mm 2,500mm"
-  - claim: "1,265 kg with the 83kWh battery"
-    source: https://evfleetworld.co.uk/dragonsea-shifts-to-electric-removals-with-37-farizon-svs/
-    quote: "The Farizon SV L1H1 83 kWh offers 6.95m3 of load space, a maximum payload of 1,265kg"
+  - claim: "Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,265 kg with the 83kWh"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+    quote: "L1 H1 Weights - with two occupants Weights with two occupants 67 kWh 83 kWh Kerb Weight 2,150 kg 2,235 kg Front Axle 1,210 kg 1,225 kg Rear Axle 940 kg 1,010 kg Gross Weight 3,500 kg Gross Weight (front) 1,470 kg Gross Weight (rear) 2,030 kg Payload 1,350 kg 1,265 kg"
+  - claim: "(weights with two occupants)"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+    quote: "Weights with two occupants"
   - claim: "the L3H3 still carries 1,045 kg or 1,035 kg"
-    source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
-    quote: "This gives a gross payload, including driver, of 1,045kg or 1,035kg respectively"
-  - claim: "(83kWh or 106kWh battery, driver included)"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+    quote: "Payload 1,045 kg 1,035 kg Capacity 13.0 m³"
+  - claim: "(83kWh or 106kWh battery)"
     source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
     quote: "Farizon offers a choice of battery, either 83kWh or 106kWh"
   - claim: "Every version can tow 2,000 kg"
@@ -284,18 +280,12 @@ facts:
   - claim: "four years of AA roadside assistance"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
     quote: "the SV now gets four years' worth of AA Roadside Assistance on every SV"
-  - claim: "160,000 miles in one launch report"
-    source: https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/
-    quote: "with the electric drivetrain and batteries covered for eight years / 160,000 miles"
-  - claim: "120,000 miles in other reviews"
-    source: https://evfleetworld.co.uk/road-test-farizon-sv-l1h1/
-    quote: "with an eight-year/120,000-mile warranty for the batteries"
-  - claim: "120,000 miles in other reviews"
-    source: https://vanreviewer.co.uk/farizon/sv/review/6715/
-    quote: "with an 8-year or 120,000-mile warranty for the battery"
   - claim: "four-year, 120,000-mile vehicle warranty"
-    source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
-    quote: "The Farizon SV warranty is a decent one, with four years and 120,000-miles of cover"
+    source: https://farizonauto.co.uk/ownership/maintenance-and-warranty
+    quote: "the Farizon SV benefits from a standard 4-year, 120,000-mile warranty"
+  - claim: "Farizon's UK site says the battery is covered for 8 years or 120,000 miles"
+    source: https://farizonauto.co.uk/ownership/maintenance-and-warranty
+    quote: "Farizon batteries are covered for 8 years, or 120,000 miles"
   # Price
   - claim: "a new entry-level Core trim, an L1H1 only"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
@@ -303,18 +293,14 @@ facts:
   - claim: "drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
     quote: "Core models dispense with the V2L technology, Farizon's payload monitoring system, automatic wipers and a heated windscreen"
-  - claim: "£39,000 for the L1H1 Core"
+  - claim: "at £39,000"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
     quote: "Body configuration 67 kWh 83 kWh 106 kWh L1 H1 Core £39,000"
-  - claim: "£44,000 for the standard L1H1"
-    source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
-    quote: "the standard 2026 Farizon SV range starting from just £44,000"
-  - claim: "£55,000 for the L3H3"
-    source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
-    quote: "L3 H3 - £52,000 £55,000"
   - claim: "£52,000"
-    source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
-    quote: "L3 H3 - £52,000 £55,000"
+    calc: "Farizon's UK site lists the L3 H3 'Starting from £52,000.00' (next fact): £52,000.00 = £52,000"
+  - claim: "The biggest L3H3 starts at"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "L3 H3 L5995 x H2500 mm | 13.0 m 3 load capacity Starting from £52,000.00 * *Excluding VAT, delivery and on-the-road (OTR) costs."
   - claim: "Renault Master E-Tech"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "you can add in the likes of the Parkers Award-winning Renault Master E-Tech , too, given that is a direct rival to the larger Transit"
@@ -324,15 +310,28 @@ facts:
   - claim: "ex VAT and before the grant"
     source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
     quote: "All prices exclude VAT, delivery, Plug-in Van Grant, first registration fee and VED"
-  - claim: "An August 2026 road test"
-    source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
-    quote: "First Drive: Farizon SV L3H3 5 August 2026"
-  - claim: "quoted £55,000 on the road"
-    source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
-    quote: "How much? From £55,000 OTR"
-  - claim: "of the 106kWh L3H3"
-    source: https://evfleetworld.co.uk/first-drive-farizon-sv-l3h3/
-    quote: "Our test van had the larger 106kWh battery"
+  - claim: "the same as the April 2026 list"
+    source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
+    quote: "the standard 2026 Farizon SV range starting from just £44,000"
+  - claim: "Those standard prices are the same as"
+    source: https://evfleetworld.co.uk/farizon-debuts-core-trim-and-latest-upgrades-for-sv-large-van/
+    quote: "L3 H3 - £52,000 £55,000"
+  - claim: "£44,000"
+    calc: "Farizon's UK site lists the L1 H1 'Starting from £44,000.00' excluding VAT (next fact): £44,000.00 = £44,000"
+  - claim: "Farizon's UK website lists the SV L1H1 from"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "L1 H1 L4990 x H1980 mm | 6.95 m 3 load capacity Starting from £44,000.00 * *Excluding VAT, delivery and on-the-road (OTR) costs."
+  - claim: "excluding VAT, delivery and on-the-road costs"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "With prices starting from just £44,000.00 excluding VAT, delivery and OTR costs"
+  - claim: "£45,000"
+    calc: "Farizon's UK site lists the L1 H1 'Starting from £45,000.00' on the road (next fact): £45,000.00 = £45,000"
+  - claim: "on the road, still excluding VAT and before the Plug-in Van Grant"
+    source: https://farizonauto.co.uk/our-range/sv-range
+    quote: "L1 H1 L4990 x H1980 mm | 6.95 m 3 load capacity Starting from £45,000.00 * *On the road price (OTR) includes road fund licence, first registration fee and delivery but excludes VAT and Plug-in Van Grant."
+  - claim: "Core isn't listed on Farizon's UK site now"
+    source: https://farizonauto.co.uk/our-range/sv-range
+    quote: "6 available versions L1 H1 L4990 x H1980 mm SV Sport (L1 H1) L4990 x H1980 mm L1 H2 L4990 x H2180 mm L2 H2 L5490 x H2180 mm L2 H3 L5490 x H2500 mm L3 H3 L5995 x H2500 mm"
 ---
 
 Farizon is the commercial vehicle brand of Geely, and the SV is a purpose-built electric van rather than a converted diesel. It's on sale in the UK now. The brand was launched here by the importer Jameel Motors, and recent announcements come from Farizon Auto UK. The dealer network is still young: dealers named in fleet deals this year include Rygor in Reading and Oxford, Waterton in Bridgend and Pentagon in Derby. Since launch the AA has been Farizon's partner for servicing and repairs, including mobile servicing. It's on the government's approved list for the higher, large-van rate of the Plug-in Van Grant (see our [grants guide](/guides/grants-and-tax/)).
@@ -343,7 +342,7 @@ With five body sizes from 6.95 to 13.0 cubic metres, the smallest is closest to 
 
 ### Load area and payload
 
-The L1H1 with the 67kWh battery carries 1,350 kg, falling to 1,265 kg with the 83kWh battery, and the L3H3 still carries 1,045 kg or 1,035 kg (83kWh or 106kWh battery, driver included). Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
+Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,265 kg with the 83kWh (weights with two occupants), and the L3H3 still carries 1,045 kg or 1,035 kg (83kWh or 106kWh battery). Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
 
 ### Range and charging in the real world
 
@@ -355,11 +354,11 @@ Only a handful of road tests have been published, and they're split. Early drive
 
 ### Cab and kit
 
-The standard SV is well stocked, with heated and ventilated front seats, a heated steering wheel, a 360-degree camera and physical climate controls. Reports on cabin quality differ. For 2026 Farizon added a six-way driver's seat, a steering wheel that now adjusts four ways and wireless Android Auto, which answers some early complaints, plus four years of AA roadside assistance. There's a four-year, 120,000-mile vehicle warranty; the battery is covered for eight years, but the mileage limit has been reported as 160,000 miles in one launch report and 120,000 miles in other reviews, so get the terms in writing.
+The standard SV is well stocked, with heated and ventilated front seats, a heated steering wheel, a 360-degree camera and physical climate controls. Reports on cabin quality differ. For 2026 Farizon added a six-way driver's seat, a steering wheel that now adjusts four ways and wireless Android Auto, which answers some early complaints, plus four years of AA roadside assistance. There's a four-year, 120,000-mile vehicle warranty, and Farizon's UK site says the battery is covered for 8 years or 120,000 miles.
 
 ### Price
 
-In April 2026 Farizon added a new entry-level Core trim, an L1H1 only, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Prices then were £39,000 for the L1H1 Core with the 67kWh battery, £44,000 for the standard L1H1 and £55,000 for the L3H3 with the 106kWh battery, ex VAT and before the grant. The same list had the L3H3 with the 83kWh battery at £52,000. An August 2026 road test of the 106kWh L3H3 quoted £55,000 on the road, without saying whether that includes VAT. We haven't found a full price list from the past six months, so get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
+Farizon's UK website lists the SV L1H1 from £44,000 excluding VAT, delivery and on-the-road costs, or £45,000 on the road, still excluding VAT and before the Plug-in Van Grant. The biggest L3H3 starts at £52,000 on the same ex-VAT basis. Those standard prices are the same as the April 2026 list. That list also added a new entry-level Core trim, an L1H1 only, at £39,000 ex VAT and before the grant, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Core isn't listed on Farizon's UK site now, so ask a dealer whether it's still offered. Get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
 
 ### Alternatives
 

@@ -3,37 +3,108 @@ layout: ../../layouts/Review.astro
 title: "Toyota Proace City Electric review"
 van: toyota-proace-city
 date: 2026-10-30T08:00:00Z
-summary: "The Toyota version of the Stellantis small electric van, worth considering mainly for Toyota's service-activated warranty, which can run to 10 years. We found no published UK road test of the current electric van, and couldn't confirm Toyota's own figures."
+summary: "The Toyota version of the Stellantis small electric van, worth considering mainly for Toyota's service-activated warranty, which can run to 10 years. Toyota's own figures give it a 208-mile official range and a list price from £30,545 excluding VAT, but we found no published UK road test of the current electric van."
 specs:
-  price: "Not confirmed (no current list price found)"
-  range: "Not confirmed (no Toyota figure for the current van found)"
-  charging: "Not confirmed (only figures for the whole family found)"
-  payload: "Not confirmed (only figures for the whole family found)"
-  batteryWarranty: "Not confirmed (Toyota's battery terms not found)"
-verdict: "The Proace City Electric is built by Stellantis and is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions, so its load bay and electric drivetrain are a known, well-regarded quantity. The reason to buy the Toyota is the warranty: keep it serviced by Toyota and the cover can run to 10 years. We couldn't confirm Toyota's own price, range, payload or battery terms for the current van, so get them in writing and compare the whole-life deal with its siblings."
+  price: "£30,545"
+  range: "208 miles"
+  charging: "100kW"
+  payload: "759 kg"
+  batteryWarranty: "Eight years or 100,000 miles"
+verdict: "The Proace City Electric is built by Stellantis and is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions, so its load bay and electric drivetrain are a known, well-regarded quantity. The reason to buy the Toyota is the warranty: keep it serviced by Toyota and the cover can run to 10 years. Toyota's own figures are middling for the class (208 miles, 100kW charging, 759 kg payload), so set the longer cover against the price and compare the whole-life deal with its siblings."
 good: ["Warranty can run to 10 years with Toyota servicing", "Same proven body and drivetrain as its four siblings", "On the government's small-van grant list"]
-bad: ["No UK road test of the current electric van found", "Toyota's own specs and prices hard to pin down", "The long warranty depends on Toyota servicing"]
+bad: ["No UK road test of the current electric van found", "Electric payload of up to 759kg", "The long warranty depends on Toyota servicing"]
 sources:
+  - https://www.toyota.co.uk/new-cars/proace-city
+  - https://www.toyota.co.uk/owners/toyota-warranty
+  - https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
+  - https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
   - https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
   - https://www.parkers.co.uk/car-awards/2024/best-small-van/
   - https://www.parkers.co.uk/vans-pickups/news/2024/awards/
-  - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/fiat/doblo
   - https://www.autoexpress.co.uk/news/362465/toyota-proace-and-proace-city-van-updates-arrive-prices-under-ps24000
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
+  - claim: "£30,545"
+    calc: "Toyota UK price list effective from 1 October 2026 (https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf), Proace City Electric 2027 Model Year, Icon Short without ply lining (model code P5E 59E): Basic Price £30,545.00, VAT £6,109.00, list price £36,654.00. Basic price is before VAT and before the grant, which the list deducts in a separate 'On the Road with OZEV GRANT' column. £30,545.00 = £30,545. It is the lowest basic price of any Proace City Electric version on the list."
+  - claim: "without ply lining"
+    source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
+    quote: "Icon Short Electric 50kWh P5E 59E Auto 0 g/km LCV £360 £ 30,545.00 £ 6,109.00 £ 826.00 £ 36,654.00"
+  - claim: "1 October 2026"
+    source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
+    quote: "Toyota PROACE CITY ELECTRIC LCV PRICE LIST 2027 Model Year Price list effective from - 1st October 2026"
+  - claim: "208 miles"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Electric Battery size 50 kWh Performance 100 kW Range up to 208 miles"
+  - claim: "208-mile official range"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Capable of covering up to 208 miles"
+  - claim: "the maximum official (WLTP) figure"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Electric range figures are the maximum official (WLTP) test values provided for comparison purposes"
+  - claim: "50kWh battery"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Electric Battery size 50 kWh"
+  - claim: "100kW"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "its 100 kW DC fast-charging capability means charges from 0% to 80% in as little as 32 minutes"
+  - claim: "0 to 80% in as little as 32 minutes"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "its 100 kW DC fast-charging capability means charges from 0% to 80% in as little as 32 minutes"
+  - claim: "759 kg"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Payload 759 kg"
+  - claim: "691kg to 759kg"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Max Payload (Electric) 691 - 759kg"
+  - claim: "Electric payload of up to 759kg"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Max Payload (Electric) 691 - 759kg"
+  - claim: "the diesel's 936kg to 990kg"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Max Payload (Diesel) 936 - 990kg"
+  - claim: "towing is rated at 750kg"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Towing Capacity 750 kg"
+  - claim: "Toyota is advertising finance offers on Proace City Electric orders placed between 1 October and 15 December 2026"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "only available on new retail orders of Proace City Electric between 1st October 2026 and 15th December 2026"
   - claim: "Toyota's service-activated warranty, which can run to 10 years"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "the up to 10-year warranty you can get with the Proace City mentioned earlier (provided you service the van annually at a Toyota franchised dealership)"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Up to 10 years / 100,000 mile Toyota Warranty"
+  - claim: "keep it serviced by Toyota and the cover can run to 10 years"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Up to 10 years / 100,000 mile Toyota Warranty"
+  - claim: "Warranty can run to 10 years with Toyota servicing"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "Every time you complete a Toyota service, 12 or 24 months warranty (dependent on vehicle servicing schedule) will be included for your vehicle, up to 100,000 miles, or 10 years"
+  - claim: "three years or 60,000 miles"
+    source: https://www.toyota.co.uk/owners/toyota-warranty
+    quote: "Every new Toyota comes with a 3-year / 60,000-mile Manufacturer's Warranty as standard."
+  - claim: "a further 12 months or 10,000 miles"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "followed by a 12 months / 10,000 miles additional warranty, with every qualifying service"
+  - claim: "until the van is 10 years old or has covered 100,000 miles"
+    source: https://www.toyota.co.uk/owners/toyota-warranty
+    quote: "Eligible Services are available until your vehicle turns 10 years old or reaches 100,000 miles, whichever comes first."
+  - claim: "five years of free roadside assistance"
+    source: https://www.toyota.co.uk/new-cars/proace-city
+    quote: "All new commercial vehicles are eligible for 5 years free roadside assistance."
+  - claim: "Eight years or 100,000 miles"
+    source: https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
+    quote: "In addition, the high-voltage battery on EV models benefits from eight years/100,000 miles warranty protection."
+  - claim: "In September 2024"
+    source: https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
+    quote: "13 September 2024"
+  - claim: "the high-voltage battery on its electric vans is covered for eight years or 100,000 miles"
+    source: https://media.toyota.co.uk/toyota-professional-forges-ahead-with-greater-product-power-and-dedicated-customer-service/
+    quote: "In addition, the high-voltage battery on EV models benefits from eight years/100,000 miles warranty protection."
+  - claim: "Toyota's service-activated Battery Care cover, which it offers on its other electric models, excludes the Proace"
+    source: https://www.toyota.co.uk/owners/toyota-warranty
+    quote: "The Toyota Battery Care Warranty is available on full battery electric vehicles (excluding the Proace) and covers the EV traction Battery only."
   - claim: "is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
     quote: "Technically it is the same vehicle, but Toyota adds on its own industry-leading 10-year warranty"
-  - claim: "keep it serviced by Toyota and the cover can run to 10 years"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "the up to 10-year warranty you can get with the Proace City mentioned earlier (provided you service the van annually at a Toyota franchised dealership)"
-  - claim: "Warranty can run to 10 years with Toyota servicing"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "the up to 10-year warranty you can get with the Proace City mentioned earlier (provided you service the van annually at a Toyota franchised dealership)"
   - claim: "Toyota doesn't belong to Stellantis but has the right to sell the van under its own badge"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
     quote: "but it has the right to rebrand the vehicles as its own"
@@ -58,57 +129,42 @@ facts:
   - claim: "it was diesel only at first"
     source: https://www.autoexpress.co.uk/news/362465/toyota-proace-and-proace-city-van-updates-arrive-prices-under-ps24000
     quote: "For now, power comes from two diesel engines"
-  - claim: "The Proace City Electric is now on the government's small-van grant list"
+  - claim: "The Proace City Electric is on the government's small-van grant list"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Toyota Proace City Electric"
-  - claim: "A July 2026 buying guide"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "27 Jul 2026"
-  - claim: "a maximum payload of 781kg"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Maximum payload: 781kg"
-  - claim: "rapid charging at up to 100kW"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "CCS fast-charging at a rate of up to 100kW"
-  - claim: "a range of 220 miles in one place"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "£27,405 (e-Berlingo) 220 miles"
-  - claim: "213 miles in another"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Maximum WLTP combined battery range: 213 miles"
-  - claim: "the Toyota has the edge over its siblings on maintenance"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "The Toyota has the edge over its Stellantis siblings when it comes to maintenance"
-  - claim: "it is covered by Toyota's 10-year service-activated warranty, far longer than the other badges offer"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "10-year service warranty, which is significantly longer than anything offered with the other versions"
-  - claim: "the cover depends on having the van serviced every year at a Toyota dealer"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "the up to 10-year warranty you can get with the Proace City mentioned earlier (provided you service the van annually at a Toyota franchised dealership)"
-  - claim: "the Fiat version gets three years or 100,000 miles on the van and eight years or 100,000 miles on the battery"
-    source: https://www.autoexpress.co.uk/fiat/doblo
-    quote: "You can rely on the standard three-year or 100,000-mile manufacturer’s warranty if things go wrong and there’s also a separate eight-year/100,000-mile battery warranty for the Fiat E-Doblo."
+  - claim: "On the government's small-van grant list"
+    source: https://www.gov.uk/plug-in-vehicle-grants/vans
+    quote: "Toyota Proace City Electric"
   - claim: "takes up to £2,500 off at the dealer"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some small vans is £2,500."
+  - claim: "the Fiat version gets three years or 100,000 miles on the van and eight years or 100,000 miles on the battery"
+    source: https://www.autoexpress.co.uk/fiat/doblo
+    quote: "You can rely on the standard three-year or 100,000-mile manufacturer’s warranty if things go wrong and there’s also a separate eight-year/100,000-mile battery warranty for the Fiat E-Doblo."
 ---
 
 ### Who it's for
 
-The Proace City Electric is for small businesses that want a small electric van for local work and plan to keep it for years. It's built by Stellantis and is technically the same van as the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Vauxhall Combo Electric](/vans/vauxhall-combo/) and [Fiat E-Doblo](/vans/fiat-doblo/): Toyota doesn't belong to Stellantis but has the right to sell the van under its own badge. Before its 2024 facelift, the Proace City range won Best Small Van in the Parkers Van and Pickup Awards 2024, announced in November 2023, largely on the strength of Toyota's warranty.
+The Proace City Electric is for small businesses that want a small electric van for local work and plan to keep it for years. It's built by Stellantis and is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions: the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Vauxhall Combo Electric](/vans/vauxhall-combo/) and [Fiat E-Doblo](/vans/fiat-doblo/). Toyota doesn't belong to Stellantis but has the right to sell the van under its own badge. Before its 2024 facelift, the Proace City range won Best Small Van in the Parkers Van and Pickup Awards 2024, announced in November 2023, largely on the strength of Toyota's warranty.
 
-### What we could and couldn't confirm
+When the facelifted Proace City van range was announced in March 2024, it was diesel only at first. The electric van is now very much on sale: it's in Toyota's current UK price list, and Toyota is advertising finance offers on Proace City Electric orders placed between 1 October and 15 December 2026.
 
-We couldn't find a published UK road test of the current, facelifted Proace City Electric panel van, so this review is shorter than usual and leans on what is shared with its siblings. When the facelifted Proace City van range was announced in March 2024, it was diesel only at first. The Proace City Electric is now on the government's small-van grant list, which takes up to £2,500 off at the dealer.
+### What we know, and what we don't
 
-A July 2026 buying guide covering all five badges together gives a maximum payload of 781kg, rapid charging at up to 100kW, and a range of 220 miles in one place and 213 miles in another. Those are figures for the family, not Toyota's own, and the range doesn't agree with itself, so we haven't scored them. Ask Toyota for the exact payload, range and charging spec of the van you're quoted. For what the shared van is like to load and drive, see our [Vauxhall Combo Electric review](/reviews/vauxhall-combo/) and [Citroën ë-Berlingo review](/reviews/citroen-berlingo/).
+We couldn't find a published UK road test of the current, facelifted Proace City Electric panel van, and we haven't driven it, so this review sticks to Toyota's own figures and what is shared with its siblings. For what the shared van is like to load and drive, see our [Vauxhall Combo Electric review](/reviews/vauxhall-combo/) and [Citroën ë-Berlingo review](/reviews/citroen-berlingo/).
+
+### Range, charging and payload
+
+Toyota's UK site gives the 50kWh battery a range of up to 208 miles, which it says is the maximum official (WLTP) figure, so some versions will be rated a little lower. Rapid charging runs at up to 100kW, which Toyota says takes the battery from 0 to 80% in as little as 32 minutes. None of that stands out in the class, but it's enough for most local rounds. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
+
+Payload is the weak spot. Toyota quotes 691kg to 759kg for the electric van, against the diesel's 936kg to 990kg, and towing is rated at 750kg. If you regularly carry heavy loads, weigh them before you choose.
 
 ### The warranty, which is the point
 
-The same guide says the Toyota has the edge over its siblings on maintenance, because it is covered by Toyota's 10-year service-activated warranty, far longer than the other badges offer. The catch is that the cover depends on having the van serviced every year at a Toyota dealer, so it suits buyers happy to use the dealer network. We couldn't confirm Toyota's current terms in detail, such as any mileage limit, so get them in writing.
+Toyota gives every new van three years or 60,000 miles of cover. After that, each qualifying service at a Toyota dealer adds a further 12 months or 10,000 miles, until the van is 10 years old or has covered 100,000 miles. The catch is that you have to keep using Toyota dealers. All new Toyota vans also get five years of free roadside assistance.
 
-For comparison, the Fiat version gets three years or 100,000 miles on the van and eight years or 100,000 miles on the battery. We couldn't confirm Toyota's battery warranty for this van, or whether the extended cover includes the battery, so ask before you sign.
+The battery is covered separately. In September 2024, Toyota's UK press office said the high-voltage battery on its electric vans is covered for eight years or 100,000 miles, and we found no newer figure. Toyota's service-activated Battery Care cover, which it offers on its other electric models, excludes the Proace. Ask the dealer to confirm in writing whether that exclusion includes the City. For comparison, the Fiat version gets three years or 100,000 miles on the van and eight years or 100,000 miles on the battery.
 
 ### Price
 
-We couldn't find a current list price, so get a written quote and compare it with the other four badges, putting the cost of Toyota servicing against the longer cover. Our [grants and tax guide](/guides/grants-and-tax/) explains the grant, and our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with running costs.
+Toyota's UK price list, effective from 1 October 2026, starts the Proace City Electric at £30,545 excluding VAT and before the grant, for the short Icon van without ply lining. The Proace City Electric is on the government's small-van grant list, which takes up to £2,500 off at the dealer. Get quotes on the other four badges too, putting the cost of Toyota servicing against the longer cover. Our [grants and tax guide](/guides/grants-and-tax/) explains the grant, and our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with running costs.
