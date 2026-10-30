@@ -9,7 +9,7 @@ specs:
   range: "Not confirmed (no current figure found for this badge)"
   charging: "Not confirmed (100kW reported for the earlier van)"
   payload: "Not confirmed (no current figure found)"
-  batteryWarranty: "Not confirmed (8 years or 100,000 miles reported for the earlier van)"
+  batteryWarranty: "Not confirmed (eight years or 100,000 miles reported for the earlier van)"
 verdict: "The Proace Electric is the twin to pick if long-term peace of mind matters more than the lowest price. Its Toyota Relax warranty starts at three years or 60,000 miles but extends with every Toyota service, up to 10 years or 100,000 miles, and new Toyota vans come with five years of roadside assistance. The trade-off is a price reported to be a little higher than its Stellantis siblings and a commitment to Toyota servicing. We couldn't confirm current figures for the electric van itself, so get a full spec sheet and a written quote before comparing it with the others."
 good: ["Warranty can run to 10 years with Toyota servicing", "Five years of roadside assistance", "Shares a well-proven body and drivetrain"]
 bad: ["Reported to cost more than its twins", "Warranty cover depends on Toyota servicing", "Current electric spec hard to confirm"]
@@ -26,7 +26,10 @@ facts:
   - claim: "100kW reported for the earlier van"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
     quote: "The Proace Electric comes with 100kW charging capability"
-  - claim: "8 years or 100,000 miles reported for the earlier van"
+  - claim: "Before the update, the Proace Electric's battery was covered for eight years or 100,000 miles"
+    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
+    quote: "The Toyota's battery warranty is eight years or 100,000 miles, in common with most competitors."
+  - claim: "eight years or 100,000 miles reported for the earlier van"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
     quote: "The Toyota's battery warranty is eight years or 100,000 miles, in common with most competitors."
   - claim: "keeps renewing with each Toyota service for up to 10 years"
@@ -103,11 +106,8 @@ facts:
     quote: "Icon Premium adds automatic air con and 17-inch alloy wheels. At the top, the new Sport grade"
   - claim: "the electric van before the update was rated at 205 miles from its 75kWh battery"
     source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
-    quote: "the larger battery is said to manage 205 miles"
-  - claim: "from its 75kWh battery"
-    source: https://www.parkers.co.uk/vans-pickups/toyota/proace/2021-electric-review/
-    quote: "ry pack sizes: 50kWh or 75kWh"
-  - claim: "Its updated twins quote between 217 and 231 miles"
+    quote: "Given even the 205-mile 75kWh battery pack still offers 1,000kg of carrying capacity"
+  - claim: "and 231 miles"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "Maximum WLTP combined battery range: 231 miles"
   - claim: "between 217"

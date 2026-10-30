@@ -8,7 +8,7 @@ specs:
   price: "Not confirmed (no current UK price list found)"
   range: "200 miles"
   charging: "100kW"
-  payload: "300 kg"
+  payload: "300 kg (including 75kg driver)"
   batteryWarranty: "Not confirmed (no current maker source found)"
 verdict: "The ë-C3 Van is a likeable, well-equipped little runabout for anyone whose load fits in a large car boot. Its 200-mile official range and 100kW rapid charging are strong for something this small, and it is on the government's approved list for the small-van grant. The 300kg payload, which includes the driver, rules it out for most trades, so treat it as a car with a bulkhead rather than a proper van. If you carry tools and little else, it's worth a look; if you carry materials, buy a bigger small van."
 good: ["200-mile official range", "100kW rapid charging", "Lots of standard kit for the money"]
@@ -134,9 +134,12 @@ facts:
   - claim: "£15,035"
     source: https://www.autoexpress.co.uk/citroen/c3/366273/new-citroen-e-c3-van-will-be-cheap-n-cheerful-option-business-april
     quote: "With the e-C3's VAT removed and the maximum Plug-in Van Grant applied, the e-C3 van could cost from as little as £15,035"
-  - claim: "a cheaper version with a smaller battery was promised"
+  - claim: "a cheaper version with a smaller battery was reported to be coming"
     source: https://evfleetworld.co.uk/citroen-e-c3-van-on-sale-with-200-mile-range-and-sub-20k-price/
     quote: "A cheaper version with a smaller battery is expected to arrive later"
+  - claim: "It launched with one body and one battery"
+    source: https://evfleetworld.co.uk/citroen-e-c3-van-on-sale-with-200-mile-range-and-sub-20k-price/
+    quote: "The ë-C3 Van launch model features the 113hp motor and the 44kWh battery"
   - claim: "Dacia Spring Cargo"
     source: https://evfleetworld.co.uk/road-test-citroen-e-c3-van/
     quote: "The Citroën is probably most comparable with the Dacia Spring Cargo"
@@ -151,7 +154,7 @@ facts:
     quote: "for the top 200-mile range - compared to 140 for its Dacia rival"
 ---
 
-The ë-C3 Van is on sale in the UK as a car-derived van: it's the ë-C3 electric hatchback with the rear seats taken out and a bulkhead put in, based on the Plus version of the ë-C3 hatchback. There is one body and one battery. Few UK road tests of it have been published, so this is a shorter review built mainly from published facts.
+The ë-C3 Van is on sale in the UK as a car-derived van: it's the ë-C3 electric hatchback with the rear seats taken out and a bulkhead put in, based on the Plus version of the ë-C3 hatchback. It launched with one body and one battery. We found only one published UK road test, so this is a shorter review built mainly from published facts.
 
 ### Who it's for
 
@@ -169,7 +172,7 @@ The 44kWh battery and 113hp motor give an official 200 miles, which is strong fo
 
 ### On the road
 
-The one UK road test we could read found it easy and pleasant to drive, and comfortable. The gripes were small: regenerative braking is boosted through the gear selector rather than steering wheel paddles, and the dash shows a charge percentage rather than a miles-remaining readout.
+The one published UK road test we found rated it easy and pleasant to drive, and comfortable. Its gripes were small: regenerative braking is boosted through the gear selector rather than steering wheel paddles, and the dash seemed to show only a charge percentage rather than a miles-remaining readout.
 
 ### Cab and kit
 
@@ -177,8 +180,8 @@ Standard kit is generous for the money: a 10.25-inch touchscreen with wireless A
 
 ### Alternatives
 
-The obvious rival is the Dacia Spring Cargo, which is cheaper at £14,995 before the grant but has a 26.8kWh battery and an official range of 140 miles. If you need more payload, step up to the [Citroën ë-Berlingo](/vans/citroen-berlingo/) or [Ford E-Transit Courier](/vans/ford-transit-courier/).
+The obvious rival is the Dacia Spring Cargo. Reports in 2025 put it at £14,995 before the grant, with a 26.8kWh battery and an official range of 140 miles, so check its current price and spec. If the payload is too small for you, compare purpose-built small vans such as the [Citroën ë-Berlingo](/vans/citroen-berlingo/) or [Ford E-Transit Courier](/vans/ford-transit-courier/).
 
 ### Price
 
-We couldn't confirm a current UK list price. At launch in June 2025 it was reported from £22,437, or £19,937 after the grant, described as an on-the-road price, without saying whether VAT was included. A pre-launch report put it at £15,035 with VAT removed and the grant taken off. Those figures are old and on unclear bases, and a cheaper version with a smaller battery was promised, so get a written quote. It's on the government's approved list for the small-van grant, worth up to £2,500 (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price. At launch in June 2025 it was reported from £22,437, or £19,937 after the grant, described as an on-the-road price, without saying whether VAT was included. A pre-launch report suggested it could cost from £15,035 with VAT removed and the grant taken off. Those figures are old and on unclear bases. A cheaper version with a smaller battery was reported to be coming, but we found no sign that it has arrived, so get a written quote. It's on the government's approved list for the small-van grant, worth up to £2,500 (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).

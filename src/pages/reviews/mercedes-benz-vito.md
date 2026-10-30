@@ -72,7 +72,7 @@ facts:
   - claim: "In June 2026 the replacement was still described as upcoming"
     source: https://www.parkers.co.uk/mercedes-benz/vle/review/
     quote: "Published: 23 June 2026"
-  - claim: "the VLE luxury people carrier"
+  - claim: "VLE luxury people carrier"
     source: https://www.parkers.co.uk/mercedes-benz/vle/review/
     quote: "Mercedes designed a completely new electric vehicle architecture for the VLE"
   - claim: "will share some of the VLE's parts"
@@ -131,7 +131,7 @@ facts:
     quote: "the maximum payload drops slightly to 807kg"
   - claim: "carrying anything near the maximum cuts the range"
     source: https://www.autoexpress.co.uk/mercedes/vito
-    quote: "the van's range will be adversely affected if you get anywhere near this figure"
+    quote: "range will be adversely affected if you get anywhere near this figure"
   - claim: "162 miles on the official WLTP cycle"
     source: https://vanreviewer.co.uk/advice/best-medium-electric-vans/
     quote: "allowing a range of up to 162 miles on the official WLTP cycle"
@@ -189,7 +189,7 @@ facts:
   - claim: "a gear selector on the steering column"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "you select drive and reverse via a steering-column-mounted lever"
-  - claim: "the cab is solidly built but on the cramped side"
+  - claim: "the cab as solidly built but on the cramped side"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "Build quality is solid enough, but it’s not especially practical and the low roof can make it feel a bit cramped inside."
   - claim: "Reports of the current trim names differ"
@@ -201,10 +201,13 @@ facts:
   - claim: "Mercedes vans come with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer"
     source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
     quote: "All new Mercedes Vans come with MobiloVan roadside assistance, which is free for up to 30 years (!) as long as the van is serviced by a Mercedes dealer."
+  - claim: "Most of the eVito's rivals go further on a charge and carry more"
+    source: https://www.parkers.co.uk/vans-pickups/mercedes-benz/vito/2020-evito-review/
+    quote: "Rivals go further for less money"
   - claim: "the 60kWh eVito was reported at £48,530 to £51,915"
     source: https://www.autoexpress.co.uk/mercedes/vito/366385/bigger-battery-sends-mercedes-evito-electric-van-range-way-298-miles
     quote: "The eVito is currently offered in Pro and Select trim levels in the UK for the 60kWh battery model, priced between £48,530 and £51,915."
-  - claim: "worth up to £5,000 on a large van"
+  - claim: "worth up to £5,000 for vans of its size"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
 ---
@@ -237,7 +240,7 @@ The most detailed UK road test of the electric van dates from January 2023, befo
 
 ### Cab and kit
 
-Expect Mercedes quirks: a foot-operated parking brake and a gear selector on the steering column, both of which take some getting used to. Road tests describe the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list. Mercedes vans come with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer.
+Expect Mercedes quirks: a foot-operated parking brake and a gear selector on the steering column, both of which take some getting used to. One road test describes the cab as solidly built but on the cramped side. Reports of the current trim names differ, with some listing Progressive and Premium and one listing Pro and Select, so ask the dealer for the kit list. Mercedes vans come with free MobiloVan roadside assistance for up to 30 years if serviced by a Mercedes dealer.
 
 ### Alternatives
 
@@ -245,4 +248,4 @@ Most of the eVito's rivals go further on a charge and carry more. Compare it wit
 
 ### Price
 
-We couldn't confirm a current UK list price. In March 2025 the 60kWh eVito was reported at £48,530 to £51,915, without saying whether VAT was included, so get a written quote. The eVito qualifies for the plug-in van grant, worth up to £5,000 on a large van; see our [grants and tax guide](/guides/grants-and-tax/). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will show whether it pays for your mileage.
+We couldn't confirm a current UK list price. In March 2025 the 60kWh eVito was reported at £48,530 to £51,915, without saying whether VAT was included, so get a written quote. The eVito qualifies for the plug-in van grant, worth up to £5,000 for vans of its size; see our [grants and tax guide](/guides/grants-and-tax/). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) will show whether it pays for your mileage.
