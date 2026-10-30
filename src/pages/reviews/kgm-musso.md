@@ -13,6 +13,9 @@ specs:
 verdict: "The Musso EV is the electric pickup for buyers who want the shape and the four-wheel drive more than the tonnage. It costs far less than its electric rivals, comes with almost everything as standard and has a long battery warranty. The catch is a payload under a tonne, which puts it on the car side of HMRC's VAT test, and modest towing. For light loads, private use or a company car driver chasing low benefit in kind, it makes a lot of sense; for heavy site work, it doesn't."
 good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy cab", "10-year battery warranty"]
 bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-10-30
 sources:
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
@@ -97,7 +100,7 @@ facts:
   - claim: "300kW as the rating of the charger"
     source: https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
     quote: "a 20 to 80% charge time of 31 minutes on a 300kW DC rapid charge"
-  - claim: "10 to 80 per cent took 46 minutes on a 100kW charger"
+  - claim: "10 to 80 per cent in 46 minutes on a 100kW charger"
     source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
     quote: "How long to charge 10-80%? 46 minutes (100kW DC charger)"
   - claim: "11kW"
@@ -139,7 +142,7 @@ facts:
   - claim: "690 kg payload, a car for VAT"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "The Musso EV’s 690kg payload means it misses out on the one-tonne requirement required for a pickup to be VAT reclaimable"
-  - claim: "690 kg payload, a car for VAT"
+  - claim: "a car for VAT"
     source: https://www.gov.uk/hmrc-internal-manuals/employment-income-manual/eim23151
     quote: "Under the VAT approach double cab pickups are classified based on payload capacity, with anything under one tonne classified as a car, and anything a tonne and over as a van"
   - claim: "the car side of HMRC's VAT test"
@@ -292,11 +295,11 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 The 80.6kWh battery is bigger than its rivals', but reports of the official range differ: 236 miles, 240 miles and 249 miles have all been quoted, so we haven't scored it. One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
 
-Charging figures disagree too. One review gives a peak of 120kW, while others mention 300kW as the rating of the charger used, so we haven't scored it. In one first drive, 10 to 80 per cent took 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
+Charging figures disagree too. One review gives a peak of 120kW, while others mention 300kW as the rating of the charger used, so we haven't scored it. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
-Reports agree on a reputation for a smooth, car-like ride and a quiet cab, with some bounce from the back when it's empty and brisk pace (0-62mph in eight seconds). One test found slow steering, reports agree the driver attention monitor is oversensitive, and another test found the lane-keeping assist tugs at the wheel. Off road, one test found it happier on tarmac: it struggled on a damp grassy slope. There are no off-road modes beyond hill descent control.
+Reports agree on a reputation for a smooth, car-like ride and a quiet cab, though one test found some bounce from the back when it's empty. Pace is brisk (0-62mph in eight seconds). One test found slow steering, reports agree the driver attention monitor is oversensitive, and another test found the lane-keeping assist tugs at the wheel. Off road, one test found it happier on tarmac: it struggled on a damp grassy slope. There are no off-road modes beyond hill descent control.
 
 ### Cab and kit
 
