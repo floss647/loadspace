@@ -25,6 +25,17 @@ Don't repeat a story we've already covered (check src/pages/news/) unless there'
    ```
 4. Run `NODE_USE_ENV_PROXY=1 npm run check-news:live` and `npm run build`. Both must pass.
 
+## Keep the van and truck pages in step (do this whenever a story is about a launch, price change, spec change or withdrawal)
+News stories alone aren't enough: the site's own pages must match. In the same branch and pull request:
+1. **Line-up lists.** `src/data/vans.js` (vans and pickups) and `src/data/trucks.js` (trucks) list every model we cover.
+   - New electric model now on sale in the UK: add it (follow the existing `v(...)`/`t(...)` entries; set `electric: true`, a short `electricNote`, and `twin:` if it's a rebadge). Its van page then shows "Full review coming" automatically.
+   - A diesel model that gains an electric version: set `electric: true` and add an `electricNote`.
+   - Withdrawn from UK sale: don't delete it. Say so in the PR and suggest a redirect to its successor (see the Maxus T90EV redirect in `netlify.toml`); the editor decides.
+   - Only state facts in these entries that are confirmed on a source you opened, and list those sources in the PR body (these files aren't covered by the automatic fact check).
+2. **Reviews.** If a published review (`src/pages/reviews/<slug>.md`) is affected (new price list, new battery, range, payload, warranty, trims), update its `specs:` and body following the review rules in that file's neighbours and `src/lib/review-score.js` (price slot only from the maker's current list or a source under 6 months old; payload including driver where the maker gives both). Remove its `factCheck:` block, update the `facts:` list, and put it through the same independent fact-check as a news story before re-adding the sign-off. Saved maker documents go in `sources/` with an entry in `sources/index.json` (see `sources/README.md`).
+3. **Photos.** A new model needs a licensed photo of the right vehicle (panel van, electric, UK plates preferred). If none exists, leave it without a photo and say so in the PR.
+4. Mention every line-up and review change in the PR body under a heading "Site pages updated", with sources.
+
 ## Hand to the editor
 - Create a branch `news/<yyyy-mm-dd>`, commit (author: Adrian <adrian@allspeechesgreatandsmall.com>), push, and open a pull request titled "News: <headlines>". `gh pr create` won't work (GraphQL is blocked); use the REST API: `gh api repos/floss647/loadspace/pulls -X POST -f title=... -f head=news/<date> -f base=main -F body=@pr.md`.
 - PR body: for each story, the headline, a 2-line summary, the primary sources, and anything the checker flagged and how it was resolved. Say clearly what the editor should look at.
