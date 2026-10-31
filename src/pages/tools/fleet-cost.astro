@@ -1,8 +1,11 @@
 ---
 import Tool from '../../layouts/Tool.astro';
+import { frontmatter as tax } from '../../data/rules/van-tax-2026-27.md';
+const r = tax.rates;
+const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
 ---
 <Tool metaTitle="Fleet electric switch calculator" title="Fleet switch calculator" description="Estimate what switching a fleet of vans to electric saves each year, and how long it takes to pay back." lede="What switching some or all of your vans to electric could save each year, and how long the extra upfront cost takes to pay back. Defaults are rough examples, not quotes: put in your own figures." icon="M4 17V9m5 8V5m5 12v-6m5 6V8" crumb={['/fleets/', 'Fleets']}>
-  <form id="calc" onsubmit="return false" slot="inputs">
+  <form id="calc" onsubmit="return false" slot="inputs" data-rates={JSON.stringify(r)}>
     <fieldset class="tool-group">
       <legend><span class="step">1</span>Your fleet</legend>
       <div class="form">
@@ -10,8 +13,10 @@ import Tool from '../../layouts/Tool.astro';
         <label>Miles per van per year<input type="number" id="miles" value="15000" min="0" step="500" /></label>
         <label>Congestion Charge days per van per year<input type="number" id="cc" value="0" min="0" step="1" /></label>
         <label>Drivers who take vans home<input type="number" id="home" value="0" min="0" step="1" /></label>
-        <label>Van benefit charge per diesel van (£, taxable)<input type="number" id="vb" value="4000" min="0" step="10" /></label>
+        <label>Van benefit charge per diesel van (£, taxable, {r.taxYear}: {gbp(r.vanBenefit.diesel)})<input type="number" id="vb" value={r.vanBenefit.diesel} min="0" step="10" /></label>
+        <label>Drivers with private fuel paid (optional)<input type="number" id="fuel" value="0" min="0" step="1" /></label>
       </div>
+      <p class="tool-hint small muted">Only count drivers who use the van privately beyond commuting: commuting-only use carries no charge if the van is mainly for business travel and the terms of use forbid other private use. If the business pays for a driver's private fuel in a diesel van, a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} ({r.taxYear}) is added. <a href="/guides/grants-and-tax/">How van tax works</a></p>
     </fieldset>
     <fieldset class="tool-group">
       <legend><span class="step">2</span>Diesel vans</legend>
@@ -42,6 +47,7 @@ import Tool from '../../layouts/Tool.astro';
         <div><div class="muted small">Energy cost per mile</div><div class="big" id="ppm">–</div><div class="muted small">electric vs diesel</div></div>
       </div>
       <p class="small muted" id="bik" style="margin-top:1rem"></p>
+      <p class="small muted tool-rates">{r.taxYear} rates. <a href="/guides/grants-and-tax/">How van tax and grants work</a></p>
   </div>
 
 
@@ -51,13 +57,18 @@ import Tool from '../../layouts/Tool.astro';
         <li><strong>Electric energy:</strong> miles ÷ miles per kWh, split between depot/home and public prices.</li>
         <li><strong>Congestion Charge:</strong> £18 a day for diesel, £9 for electric on Auto Pay (from January 2026).</li>
         <li><strong>Extra upfront cost:</strong> the difference in purchase price, or in total lease cost, after any grant. Enter 0 if leasing costs are similar.</li>
-        <li><strong>Van benefit:</strong> drivers' tax saving is shown separately, because it's a saving for staff rather than the business.</li>
+        <li><strong>Road tax:</strong> in {r.taxYear} most diesel and electric vans up to {r.ved.maxKg.toLocaleString('en-GB')}kg pay {gbp(r.ved.van)} a year, so switching makes no difference and it's left out.</li>
+        <li><strong>Drivers' tax:</strong> shown separately, because it's a saving for staff rather than the business. A driver who can use a company diesel van privately beyond commuting pays income tax on a van benefit charge of {gbp(r.vanBenefit.diesel)} a year ({r.taxYear}), plus a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} if the business pays for private fuel. On an electric (zero-emission) van both charges are {gbp(r.vanBenefit.zeroEmission)}. The saving is an estimate, worked out at the {r.incomeTax.basic}% and {r.incomeTax.higher}% income tax rates ({r.incomeTax.additional}% taxpayers save more; Scotland's bands are different).</li>
+        <li><strong>Commuting only:</strong> no charge applies if the van is mainly for business travel, drivers' only private use is getting to and from work, and the terms of use forbid other private use, so don't count those drivers. Insignificant private use, such as a small detour for a newspaper, doesn't count either.</li>
+        <li><strong>Buying the vans:</strong> diesel and electric vans get the same tax relief (the Annual Investment Allowance, or full expensing on new vans for limited companies). The special 100% first-year allowance for zero-emission vans ended in April 2025.</li>
       </ul>
+      <p>Tax rules have conditions this calculator can't check, so check with your accountant.</p>
       <p>Prices here are business figures without VAT. <strong>Not included:</strong> chargers and grid work, insurance, resale values, and downtime. <a href="/guides/fleet-electrification-plan/">Read the fleet plan</a> and <a href="/guides/depot-charging/">depot charging guide</a>.</p>
   <script>
     const $ = (id) => document.getElementById(id);
     const v = (id) => +$(id).value || 0;
     const gbp = (n) => (n < 0 ? '-£' : '£') + Math.abs(Math.round(n)).toLocaleString('en-GB');
+    const R = JSON.parse($('calc').dataset.rates || '{}');
     function calc() {
       const n = Math.max(v('n'), 1), miles = v('miles');
       const dieselFuel = (miles / Math.max(v('mpg'), 1)) * 4.546 * v('dp') / 100;
@@ -72,7 +83,11 @@ import Tool from '../../layouts/Tool.astro';
       $('payback').textContent = upTotal === 0 ? 'Immediate' : perVan <= 0 ? 'Doesn’t pay back' : `${(upTotal / total).toFixed(1)} years`;
       $('ppm').textContent = miles ? `${(evEnergy * 100 / miles).toFixed(1)}p vs ${(dieselFuel * 100 / miles).toFixed(1)}p` : '–';
       const home = Math.min(v('home'), n);
-      $('bik').textContent = home ? `Drivers who take vans home: ${home} × ${gbp(v('vb'))} of taxable van benefit removed, about ${gbp(home * v('vb') * 0.2)}–${gbp(home * v('vb') * 0.4)} a year in tax saved across those drivers (20–40% taxpayers), plus employer National Insurance saved.` : '';
+      const fuelDrivers = Math.min(v('fuel'), home);
+      const taxable = home * v('vb') + fuelDrivers * R.vanFuelBenefit.diesel;
+      const lo = R.incomeTax.basic, hi = R.incomeTax.higher;
+      const fuelText = fuelDrivers ? ` and ${fuelDrivers} × ${gbp(R.vanFuelBenefit.diesel)} of fuel benefit` : '';
+      $('bik').textContent = home ? `Drivers who take vans home: ${home} × ${gbp(v('vb'))} of taxable van benefit${fuelText} removed (${gbp(taxable)} in all), an estimated ${gbp(taxable * lo / 100)}–${gbp(taxable * hi / 100)} a year in income tax saved across those drivers (${lo}–${hi}% taxpayers), plus employer National Insurance saved.` : '';
     }
     document.querySelectorAll('#calc input').forEach((i) => i.addEventListener('input', calc));
     calc();

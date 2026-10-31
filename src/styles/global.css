@@ -500,3 +500,6 @@ main:has(> .tool-hero) { padding-top: 0; }
 .tool-card h2 { margin: 0; font-size: 1.3rem; }
 .tool-card p { margin: 0; color: var(--muted); }
 .tool-card .arrow { margin-top: auto; padding-top: .6rem; font-weight: 700; color: var(--link); }
+.tool-group .tool-hint { margin: .8rem 0 0; line-height: 1.45; }
+.tool-results .tool-sub { margin-top: 1.4rem; padding-top: 1.1rem; border-top: 1px solid rgba(255,255,255,.12); }
+.tool-results .tool-rates { margin: 1rem 0 0; }
