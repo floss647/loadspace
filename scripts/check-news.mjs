@@ -39,7 +39,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DIRS = ['src/pages/news', 'src/pages/blog', 'src/pages/reviews'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
+const DIRS = ['src/pages/news', 'src/pages/blog', 'src/pages/reviews', 'src/data/rules'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
 const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'), 'utf8'));
 const LIVE = process.argv.includes('--live');
 const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
