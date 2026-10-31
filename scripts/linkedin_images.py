@@ -18,7 +18,7 @@ FONTS = ROOT / 'scripts/fonts'
 REL = json.loads((ROOT / 'src/data/reliability.json').read_text())
 
 S = 1200
-NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#14213d', '#0b1a33', '#f2b705', '#ffffff', '#14213d', '#5b6573', '#e3e6eb', '#fcfcfb'
+NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#1c1426', '#130d1a', '#ff4f9a', '#ffffff', '#1c1426', '#5b6573', '#e3e6eb', '#fcfcfb'
 BLUE, GOLD = '#3b6bc6', '#c98a00'  # validated chart pair (dataviz validator: all checks pass, labels required)
 
 
@@ -60,7 +60,7 @@ def frame(title, subtitle=None, dark=False):
     if subtitle:
         y += 6
         for line in wrap(d, subtitle, MED(30), S - 140):
-            text(d, (70, y), line, MED(30), '#c9d1de' if dark else MUTED)
+            text(d, (70, y), line, MED(30), '#e6dced' if dark else MUTED)
             y += 40
     return im, d, y + 30
 
@@ -68,7 +68,7 @@ def frame(title, subtitle=None, dark=False):
 def footer(d, source, dark=False):
     y = S - 70
     for line in reversed(wrap(d, source, MED(22), S - 140)):
-        text(d, (70, y), line, MED(22), '#9aa4b2' if dark else MUTED)
+        text(d, (70, y), line, MED(22), '#b9a9c9' if dark else MUTED)
         y -= 30
 
 
@@ -114,7 +114,7 @@ def post1():
             text(d, (115, y), line, SEMI(34), WHITE)
             y += 46
         y += 22
-    text(d, (70, S - 120), 'We don\'t sell vans or trucks. Rankings are never for sale.', MED(28), '#c9d1de')
+    text(d, (70, S - 120), 'We don\'t sell vans or trucks. Rankings are never for sale.', MED(28), '#e6dced')
     return im
 
 
@@ -194,11 +194,11 @@ def post6():
 def post7():
     im, d, y = frame('"£279 a month" is almost never £279 a month', 'Example: 6 + 35 profile on a 36-month lease, plus a £300 admin fee', dark=True)
     y += 60
-    text(d, (70, y), 'Advertised', SEMI(34), '#c9d1de')
+    text(d, (70, y), 'Advertised', SEMI(34), '#e6dced')
     text(d, (70, y + 50), '£279', BOLD(140), WHITE)
-    text(d, (620, y), 'What you really pay', SEMI(34), '#c9d1de')
+    text(d, (620, y), 'What you really pay', SEMI(34), '#e6dced')
     text(d, (620, y + 50), '£326', BOLD(140), AMBER)
-    text(d, (620, y + 210), 'a month, spread over 36 months', MED(28), '#c9d1de')
+    text(d, (620, y + 210), 'a month, spread over 36 months', MED(28), '#e6dced')
     y += 330
     for line in ['41 payments of £279 for 36 months, plus the fee:', '£11,739 in total, about 17% more than the advert.']:
         text(d, (70, y), line, SEMI(34), WHITE)
