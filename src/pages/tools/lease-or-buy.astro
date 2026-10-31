@@ -1,8 +1,24 @@
 ---
 import Tool from '../../layouts/Tool.astro';
+import { frontmatter as tax } from '../../data/rules/van-tax-2026-27.md';
+const r = tax.rates;
+const ct = r.corporationTax, it = r.incomeTax, c4 = r.class4, g = r.grant;
+const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
+const kg = (n: number) => n.toLocaleString('en-GB') + 'kg';
+// Rate on each extra pound of profit: corporation tax for companies; income tax plus Class 4 NI for the self-employed.
+const companyRates = [
+  { v: ct.small, t: `${ct.small}% (profits up to ${gbp(ct.smallLimit)})` },
+  { v: ct.marginal, t: `${ct.marginal}% (profits between ${gbp(ct.smallLimit)} and ${gbp(ct.upperLimit)})` },
+  { v: ct.main, t: `${ct.main}% (profits over ${gbp(ct.upperLimit)})` },
+];
+const soleRates = [
+  { v: it.basic + c4.main, t: `${it.basic + c4.main}% (basic rate ${it.basic}% + ${c4.main}% Class 4)` },
+  { v: it.higher + c4.upper, t: `${it.higher + c4.upper}% (higher rate ${it.higher}% + ${c4.upper}% Class 4)` },
+  { v: it.additional + c4.upper, t: `${it.additional + c4.upper}% (additional rate ${it.additional}% + ${c4.upper}% Class 4)` },
+];
 ---
 <Tool metaTitle="Lease, buy new or buy used? Van cost calculator" title="Lease, buy new or buy used?" description="Compare the real cost of leasing a new van, buying new and buying used over the years you'll keep it, for VAT-registered and non-VAT-registered businesses." lede="The real cost of each option over the time you'll keep the van, once resale value, finance and VAT are counted. The defaults are a rough medium-van example: replace them with your own quotes." icon="M5 7h14M5 12h14M5 17h9" crumb={['/tools/', 'Tools']}>
-  <form id="calc" onsubmit="return false" slot="inputs">
+  <form id="calc" onsubmit="return false" slot="inputs" data-company={JSON.stringify(companyRates)} data-sole={JSON.stringify(soleRates)}>
     <fieldset class="tool-group">
       <legend><span class="step">1</span>About you</legend>
       <div class="form">
@@ -30,6 +46,7 @@ import Tool from '../../layouts/Tool.astro';
         <label>Deposit if financing (£)<input type="number" id="nd" value="3000" min="0" /></label>
         <label>Servicing per year (£, excl. VAT)<input type="number" id="ns" value="250" min="0" /></label>
       </div>
+      <p class="tool-hint small muted">Electric van? The van grant ({r.taxYear}) takes up to {g.pctCap}% off an eligible new van, to a maximum of {gbp(g.smallMax)} for vans under {kg(g.smallUnderKg)} gross weight or {gbp(g.largeMax)} for {kg(g.smallUnderKg)} to {kg(g.largeUpToKg)}. The dealer takes it off the price, so enter the price after the grant. <a href="/guides/grants-and-tax/">How the grant works</a></p>
     </fieldset>
     <fieldset class="tool-group">
       <legend><span class="step">4</span>Buy used</legend>
@@ -42,6 +59,18 @@ import Tool from '../../layouts/Tool.astro';
         <label>Servicing and repairs per year (£, excl. VAT)<input type="number" id="us" value="900" min="0" /></label>
       </div>
     </fieldset>
+    <fieldset class="tool-group">
+      <legend><span class="step">5</span>Tax relief</legend>
+      <div class="form">
+        <label>Business type
+          <select id="biz"><option value="company" selected>Limited company</option><option value="sole">Sole trader or partnership</option></select>
+        </label>
+        <label>Tax rate on your profits
+          <select id="taxRate">{companyRates.map((o, i) => <option value={o.v} selected={i === 0}>{o.t}</option>)}</select>
+        </label>
+      </div>
+      <p class="tool-hint small muted">{r.taxYear} rates: corporation tax for companies; income tax plus Class 4 National Insurance for sole traders and partners. <a href="/guides/grants-and-tax/">How van tax works</a></p>
+    </fieldset>
   </form>
 
   <div slot="results">
@@ -52,6 +81,16 @@ import Tool from '../../layouts/Tool.astro';
         <div><div class="muted small">Buy used</div><div class="big" id="rU">–</div><div class="muted small" id="mU"></div></div>
       </div>
       <p id="verdict" style="margin:1rem 0 0"></p>
+      <div class="tool-sub">
+        <h2>After tax relief</h2>
+        <div class="grid">
+          <div><div class="muted small">Lease new</div><div class="big" id="aL">–</div></div>
+          <div><div class="muted small">Buy new</div><div class="big" id="aN">–</div></div>
+          <div><div class="muted small">Buy used</div><div class="big" id="aU">–</div></div>
+        </div>
+        <p class="small muted" id="taxNote" style="margin:.8rem 0 0"></p>
+      </div>
+      <p class="small muted tool-rates">{r.taxYear} rates. <a href="/guides/grants-and-tax/">How van tax and grants work</a></p>
   </div>
 
 
@@ -61,8 +100,19 @@ import Tool from '../../layouts/Tool.astro';
         <li><strong>Lease:</strong> upfront payment, monthly payments, fee and servicing. Nothing back at the end.</li>
         <li><strong>Buy:</strong> purchase price, finance interest, servicing and repairs, minus the value when you sell.</li>
         <li><strong>VAT:</strong> if you're not VAT-registered, lease payments, new prices and servicing cost 20% more, because you can't reclaim the VAT.</li>
+        <li><strong>After tax relief</strong> = real cost × (1 − your tax rate on profits). For a limited company that's corporation tax: {ct.small}% on profits up to {gbp(ct.smallLimit)}, {ct.main}% over {gbp(ct.upperLimit)}, and in between an effective {ct.marginal}% on each extra pound because of marginal relief. For a sole trader or partner it's income tax plus Class 4 National Insurance: {it.basic}% + {c4.main}%, {it.higher}% + {c4.upper}% or {it.additional}% + {c4.upper}%.</li>
       </ul>
-      <p><strong>Not included:</strong> tax relief on purchases or lease payments, insurance, downtime when a van breaks, and lease mileage or damage charges. Check tax treatment with your accountant. <a href="/guides/lease-vs-buy/">Read the lease vs buy guide</a>.</p>
+      <h3>How tax relief works on a van</h3>
+      <p>All three options are tax-deductible in the end, so tax relief mainly changes <strong>when</strong> you get the relief, not which option is cheapest.</p>
+      <ul>
+        <li><strong>Leasing:</strong> lease rentals on a van are a business expense, deducted as you pay them.</li>
+        <li><strong>Buying, new or used:</strong> the Annual Investment Allowance lets you deduct the price from your profits in the year you buy, up to {gbp(r.aia / 1e6)} million of spending a year, for diesel and electric vans, new or used. Limited companies can use full expensing instead, but only on new and unused vans. Sole traders and partnerships using cash basis (the default) claim the cost as an allowable expense instead. If you sell the van later, you may need to pay tax on the sale value, so overall the relief is on the price minus what you sell it for.</li>
+        <li><strong>Timing:</strong> buying gives most of the relief in year one, which helps cash flow. Leasing spreads it over the contract.</li>
+        <li><strong>Electric vans</strong> get the same relief as diesel: the special 100% first-year allowance for zero-emission vans ended in April 2025.</li>
+        <li><strong>Double-cab pickups</strong> are mostly treated as cars from April 2025, so these allowances don't apply to them (there are transitional rules for older deals).</li>
+      </ul>
+      <p>If you or your staff use the van privately, the relief and the tax position change. Tax rules have conditions this calculator can't check, so check with your accountant.</p>
+      <p><strong>Not included:</strong> insurance, downtime when a van breaks, and lease mileage or damage charges. <a href="/guides/lease-vs-buy/">Read the lease vs buy guide</a>.</p>
       <p><strong>Electric vans:</strong> resale values have been unpredictable. Leasing passes that risk to the leasing company; buying used electric is cheap but you carry the battery risk.</p>
   <script>
     const $ = (id) => document.getElementById(id);
@@ -92,7 +142,17 @@ import Tool from '../../layouts/Tool.astro';
       const names = { L: 'Leasing new', N: 'Buying new', U: 'Buying used' };
       const sorted = Object.entries(r).sort((a, b) => a[1] - b[1]);
       $('verdict').innerHTML = `<strong>${names[sorted[0][0]]}</strong> is cheapest on these numbers, by ${gbp(sorted[1][1] - sorted[0][1])} over the next option.` + (interest ? ` Finance adds about ${gbp(interest)} of interest to buying new.` : '');
+      const rate = +$('taxRate').value || 0;
+      Object.entries(r).forEach(([k, x]) => { $('a' + k).textContent = gbp(x * (1 - rate / 100)); });
+      const after = Object.entries(r).map(([k, x]) => [k, x * (1 - rate / 100)]).sort((a, b) => a[1] - b[1]);
+      $('taxNote').innerHTML = `At ${rate}% tax on profits. <strong>${names[after[0][0]]}</strong> is still cheapest, by ${gbp(after[1][1] - after[0][1])}: tax relief shrinks the gaps but doesn't change the order.`;
     }
+    const forms = $('calc').dataset;
+    $('biz').addEventListener('input', () => {
+      const opts = JSON.parse(($('biz').value === 'sole' ? forms.sole : forms.company) || '[]');
+      $('taxRate').innerHTML = opts.map((o) => `<option value="${o.v}">${o.t}</option>`).join('');
+      calc();
+    });
     document.querySelectorAll('#calc input, #calc select').forEach((i) => i.addEventListener('input', calc));
     calc();
   </script>
