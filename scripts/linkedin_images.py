@@ -18,7 +18,8 @@ FONTS = ROOT / 'scripts/fonts'
 REL = json.loads((ROOT / 'src/data/reliability.json').read_text())
 
 S = 1200
-NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#1c1426', '#130d1a', '#ff4f9a', '#ffffff', '#1c1426', '#5b6573', '#e3e6eb', '#fcfcfb'
+NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#1c1426', '#130d1a', '#c92a62', '#ffffff', '#1c1426', '#5b6573', '#e3e6eb', '#fcfcfb'
+LIGHT = '#f27aa5'  # raspberry, lightened for text on dark backgrounds
 BLUE, GOLD = '#3b6bc6', '#c98a00'  # validated chart pair (dataviz validator: all checks pass, labels required)
 
 
@@ -52,7 +53,7 @@ def frame(title, subtitle=None, dark=False):
     im = Image.new('RGB', (S, S), NAVY if dark else BG)
     d = ImageDraw.Draw(im)
     d.rectangle([0, 0, S, 14], fill=AMBER)
-    text(d, (70, 70), 'LOADSPACE', BOLD(30), AMBER if dark else NAVY)
+    text(d, (70, 70), 'LOADSPACE', BOLD(30), LIGHT if dark else NAVY)
     y = 130
     for line in wrap(d, title, BOLD(60), S - 140):
         text(d, (70, y), line, BOLD(60), WHITE if dark else INK)
@@ -144,11 +145,11 @@ def post4():
     im = Image.new('RGB', (S, S), AMBER)
     im.paste(photo, (0, 0))
     d = ImageDraw.Draw(im)
-    text(d, (70, 800), 'OVERLOADED', BOLD(76), NAVY)
-    text(d, (70, 900), 'A weekly, slightly unhinged look at vans,', MED(34), NAVY)
-    text(d, (70, 945), 'fleets and the people who run them.', MED(34), NAVY)
-    text(d, (70, 1030), 'Out every Friday at Loadspace.', SEMI(30), NAVY)
-    text(d, (70, S - 60), 'Photo: Aethonatic, Wikimedia Commons, CC0', MED(20), NAVY)
+    text(d, (70, 800), 'OVERLOADED', BOLD(76), WHITE)
+    text(d, (70, 900), 'A weekly, slightly unhinged look at vans,', MED(34), WHITE)
+    text(d, (70, 945), 'fleets and the people who run them.', MED(34), WHITE)
+    text(d, (70, 1030), 'Out every Friday at Loadspace.', SEMI(30), WHITE)
+    text(d, (70, S - 60), 'Photo: Aethonatic, Wikimedia Commons, CC0', MED(20), WHITE)
     return im
 
 
@@ -156,7 +157,7 @@ def post5():
     im, d, y = frame('The Zero Emission Van Grant, in two numbers', 'Taken off the price by the dealer. You don\'t apply.', dark=True)
     y += 40
     for amount, label in [('£2,500', 'up to, off some small electric vans (under 2,500kg)'), ('£5,000', 'up to, off some large electric vans (2,500 to 4,250kg)')]:
-        text(d, (70, y), amount, BOLD(150), AMBER)
+        text(d, (70, y), amount, BOLD(150), LIGHT)
         for line in wrap(d, label, SEMI(36), S - 140):
             y += 0
         y += 170
@@ -197,7 +198,7 @@ def post7():
     text(d, (70, y), 'Advertised', SEMI(34), '#e6dced')
     text(d, (70, y + 50), '£279', BOLD(140), WHITE)
     text(d, (620, y), 'What you really pay', SEMI(34), '#e6dced')
-    text(d, (620, y + 50), '£326', BOLD(140), AMBER)
+    text(d, (620, y + 50), '£326', BOLD(140), LIGHT)
     text(d, (620, y + 210), 'a month, spread over 36 months', MED(28), '#e6dced')
     y += 330
     for line in ['41 payments of £279 for 36 months, plus the fee:', '£11,739 in total, about 17% more than the advert.']:

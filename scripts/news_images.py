@@ -26,7 +26,8 @@ _extra = ROOT / 'src/data/photos.json'  # general photo library (scripts/add_pho
 if _extra.exists():
     PHOTOS.update(json.loads(_extra.read_text()))
 
-NAVY, NAVY2, AMBER, WHITE, MUTED = '#1c1426', '#130d1a', '#ff4f9a', '#ffffff', '#e6dced'
+NAVY, NAVY2, AMBER, WHITE, MUTED = '#1c1426', '#130d1a', '#c92a62', '#ffffff', '#e6dced'
+LIGHT = '#f27aa5'  # raspberry, lightened for text on dark backgrounds
 W, H = 1600, 900
 
 
@@ -68,25 +69,25 @@ def badge(im):
     f = font('InterDisplay-Bold.otf', 40)
     w = d.textlength('OVERLOADED', font=f)
     d.rounded_rectangle([48, 48, 48 + w + 56, 48 + 74], radius=37, fill=AMBER)
-    d.text((76, 60), 'OVERLOADED', font=f, fill=NAVY)
+    d.text((76, 60), 'OVERLOADED', font=f, fill=WHITE)
 
 
 def column_card(fm):
     """Branded image for the Overloaded column: pink, with the column name and headline."""
     im = Image.new('RGB', (W, H), AMBER)
     d = ImageDraw.Draw(im)
-    d.polygon([(W * 0.66, 0), (W, 0), (W, H), (W * 0.5, H)], fill='#f0418b')
+    d.polygon([(W * 0.66, 0), (W, 0), (W, H), (W * 0.5, H)], fill='#b8255a')
     sil = [(1180, 690), (1180, 520), (1420, 520), (1500, 590), (1560, 590), (1560, 690)]
-    d.polygon(sil, fill='#e2367f')
+    d.polygon(sil, fill='#a82152')
     for cx in (1250, 1490):
         d.ellipse([cx - 38, 652, cx + 38, 728], fill=NAVY)
     d.rectangle([0, 0, 18, H], fill=NAVY)
-    d.text((90, 70), 'OVERLOADED', font=font('InterDisplay-Bold.otf', 64), fill=NAVY)
-    d.text((92, 150), 'The weekly van column from Loadspace', font=font('Inter-Medium.otf', 30), fill=NAVY)
+    d.text((90, 70), 'OVERLOADED', font=font('InterDisplay-Bold.otf', 64), fill=WHITE)
+    d.text((92, 150), 'The weekly van column from Loadspace', font=font('Inter-Medium.otf', 30), fill=WHITE)
     hf = font('InterDisplay-Bold.otf', 82)
     y = 270
     for line in fit_lines(d, fm.get('title', ''), hf, 1080, 5):
-        d.text((90, y), line, font=hf, fill=NAVY); y += 98
+        d.text((90, y), line, font=hf, fill=WHITE); y += 98
     return im
 
 
@@ -106,13 +107,13 @@ def branded(fm):
     tf = font('Inter-SemiBold.otf', 30)
     tw = d.textlength(tag, font=tf)
     d.rounded_rectangle([90, 160, 90 + tw + 44, 214], radius=27, fill=AMBER)
-    d.text((112, 167), tag, font=tf, fill=NAVY)
+    d.text((112, 167), tag, font=tf, fill=WHITE)
 
     stat = fm.get('stat')
     if stat:
         size = 230 if len(stat) <= 6 else 170 if len(stat) <= 10 else 130
         sf = font('InterDisplay-Bold.otf', size)
-        d.text((86, 250), stat, font=sf, fill=AMBER)
+        d.text((86, 250), stat, font=sf, fill=LIGHT)
         y = 250 + size + 40
         lf = font('Inter-Medium.otf', 52)
         for line in fit_lines(d, fm.get('statLabel', ''), lf, 1000, 3):
