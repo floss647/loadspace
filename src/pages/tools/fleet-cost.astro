@@ -1,41 +1,50 @@
 ---
-import Base from '../../layouts/Base.astro';
+import Tool from '../../layouts/Tool.astro';
 ---
-<Base title="Fleet electric switch calculator" description="Estimate what switching a fleet of vans to electric saves each year, and how long it takes to pay back.">
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/fleets/">Fleets</a></div>
-    <div class="prose">
-      <h1>Fleet switch calculator</h1>
-      <p class="lede">What switching some or all of your vans to electric could save each year, and how long the extra upfront cost takes to pay back. Defaults are rough examples, not quotes: put in your own figures.</p>
-    </div>
+<Tool metaTitle="Fleet electric switch calculator" title="Fleet switch calculator" description="Estimate what switching a fleet of vans to electric saves each year, and how long it takes to pay back." lede="What switching some or all of your vans to electric could save each year, and how long the extra upfront cost takes to pay back. Defaults are rough examples, not quotes: put in your own figures." icon="M4 17V9m5 8V5m5 12v-6m5 6V8" crumb={['/fleets/', 'Fleets']}>
+  <form id="calc" onsubmit="return false" slot="inputs">
+    <fieldset class="tool-group">
+      <legend><span class="step">1</span>Your fleet</legend>
+      <div class="form">
+        <label>Vans switching to electric<input type="number" id="n" value="10" min="1" step="1" /></label>
+        <label>Miles per van per year<input type="number" id="miles" value="15000" min="0" step="500" /></label>
+        <label>Congestion Charge days per van per year<input type="number" id="cc" value="0" min="0" step="1" /></label>
+        <label>Drivers who take vans home<input type="number" id="home" value="0" min="0" step="1" /></label>
+        <label>Van benefit charge per diesel van (£, taxable)<input type="number" id="vb" value="4000" min="0" step="10" /></label>
+      </div>
+    </fieldset>
+    <fieldset class="tool-group">
+      <legend><span class="step">2</span>Diesel vans</legend>
+      <div class="form">
+        <label>Diesel price (pence per litre, excl. VAT)<input type="number" id="dp" value="118" min="0" step="1" /></label>
+        <label>Diesel economy (mpg)<input type="number" id="mpg" value="35" min="1" step="1" /></label>
+        <label>Servicing per diesel van per year (£)<input type="number" id="sd" value="700" min="0" step="50" /></label>
+      </div>
+    </fieldset>
+    <fieldset class="tool-group">
+      <legend><span class="step">3</span>Electric vans</legend>
+      <div class="form">
+        <label>Electric efficiency (miles per kWh)<input type="number" id="mpk" value="2.5" min="0.5" step="0.1" /></label>
+        <label>Depot or home electricity (pence per kWh)<input type="number" id="ep" value="18" min="0" step="0.5" /></label>
+        <label>Public charging (pence per kWh)<input type="number" id="pp" value="66" min="0" step="1" /></label>
+        <label>Share of charging on public chargers (%)<input type="number" id="ps" value="10" min="0" max="100" step="5" /></label>
+        <label>Servicing per electric van per year (£)<input type="number" id="se" value="450" min="0" step="50" /></label>
+        <label>Extra upfront cost per electric van after grant (£)<input type="number" id="up" value="6000" min="0" step="250" /></label>
+      </div>
+    </fieldset>
+  </form>
 
-    <form class="form" id="calc" onsubmit="return false">
-      <label>Vans switching to electric<input type="number" id="n" value="10" min="1" step="1" /></label>
-      <label>Miles per van per year<input type="number" id="miles" value="15000" min="0" step="500" /></label>
-      <label>Diesel price (pence per litre, excl. VAT)<input type="number" id="dp" value="118" min="0" step="1" /></label>
-      <label>Diesel economy (mpg)<input type="number" id="mpg" value="35" min="1" step="1" /></label>
-      <label>Electric efficiency (miles per kWh)<input type="number" id="mpk" value="2.5" min="0.5" step="0.1" /></label>
-      <label>Depot or home electricity (pence per kWh)<input type="number" id="ep" value="18" min="0" step="0.5" /></label>
-      <label>Public charging (pence per kWh)<input type="number" id="pp" value="66" min="0" step="1" /></label>
-      <label>Share of charging on public chargers (%)<input type="number" id="ps" value="10" min="0" max="100" step="5" /></label>
-      <label>Servicing per diesel van per year (£)<input type="number" id="sd" value="700" min="0" step="50" /></label>
-      <label>Servicing per electric van per year (£)<input type="number" id="se" value="450" min="0" step="50" /></label>
-      <label>Extra upfront cost per electric van after grant (£)<input type="number" id="up" value="6000" min="0" step="250" /></label>
-      <label>Congestion Charge days per van per year<input type="number" id="cc" value="0" min="0" step="1" /></label>
-      <label>Drivers who take vans home<input type="number" id="home" value="0" min="0" step="1" /></label>
-      <label>Van benefit charge per diesel van (£, taxable)<input type="number" id="vb" value="4000" min="0" step="10" /></label>
-    </form>
-
-    <div class="result" aria-live="polite">
+  <div slot="results">
+    <h2>Your fleet saving</h2>
       <div class="grid">
         <div><div class="muted small">Fleet saving per year</div><div class="big" id="save">–</div><div class="muted small" id="perVan"></div></div>
         <div><div class="muted small">Payback on extra upfront cost</div><div class="big" id="payback">–</div><div class="muted small" id="upTotal"></div></div>
         <div><div class="muted small">Energy cost per mile</div><div class="big" id="ppm">–</div><div class="muted small">electric vs diesel</div></div>
       </div>
       <p class="small muted" id="bik" style="margin-top:1rem"></p>
-    </div>
+  </div>
 
-    <div class="prose">
+
       <h2>How it works</h2>
       <ul>
         <li><strong>Diesel fuel:</strong> miles ÷ mpg × 4.546 litres per gallon × price per litre.</li>
@@ -45,9 +54,6 @@ import Base from '../../layouts/Base.astro';
         <li><strong>Van benefit:</strong> drivers' tax saving is shown separately, because it's a saving for staff rather than the business.</li>
       </ul>
       <p>Prices here are business figures without VAT. <strong>Not included:</strong> chargers and grid work, insurance, resale values, and downtime. <a href="/guides/fleet-electrification-plan/">Read the fleet plan</a> and <a href="/guides/depot-charging/">depot charging guide</a>.</p>
-    </div>
-  </div>
-
   <script>
     const $ = (id) => document.getElementById(id);
     const v = (id) => +$(id).value || 0;
@@ -71,4 +77,4 @@ import Base from '../../layouts/Base.astro';
     document.querySelectorAll('#calc input').forEach((i) => i.addEventListener('input', calc));
     calc();
   </script>
-</Base>
+</Tool>

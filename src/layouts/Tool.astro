@@ -1,0 +1,27 @@
+---
+// Shared layout for calculators: dark header, inputs on the left, live results on the right.
+import Base from './Base.astro';
+const { title, metaTitle, description, eyebrow = 'Free tool', lede, crumb = ['/tools/', 'Tools'], icon } = Astro.props;
+const hasResults = Astro.slots.has('results');
+---
+<Base title={metaTitle || title} description={description}>
+  <section class="tool-hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="/">Home</a> › <a href={crumb[0]}>{crumb[1]}</a></div>
+      <div class="tool-hero-row">
+        {icon && <span class="tool-hero-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={icon} /></svg></span>}
+        <div>
+          <p class="eyebrow">{eyebrow}</p>
+          <h1>{title}</h1>
+          {lede && <p class="review-summary">{lede}</p>}
+        </div>
+      </div>
+      <slot name="hero" />
+    </div>
+  </section>
+  <div class={hasResults ? 'wrap tool-shell' : 'wrap tool-shell single'}>
+    <div class="tool-inputs"><slot name="inputs" /></div>
+    {hasResults && <aside class="tool-results" aria-live="polite"><slot name="results" /></aside>}
+  </div>
+  <div class="wrap"><div class="prose tool-notes"><slot /></div></div>
+</Base>

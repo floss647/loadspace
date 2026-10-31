@@ -1,24 +1,19 @@
 ---
-import Base from '../../layouts/Base.astro';
+import Tool from '../../layouts/Tool.astro';
 ---
-<Base title="Free van check by registration: MOT history, mileage and tax" description="Check any UK van by registration: full MOT history, mileage record, repeat advisories, tax status and recalls. Free, from DVLA and DVSA data.">
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
-    <div class="prose">
-      <h1>Free van check</h1>
-      <p class="lede">Enter a registration to see MOT history, the mileage record, faults that keep coming back, tax status and recalls. Straight from DVLA and DVSA.</p>
-    </div>
-
-    <form id="f" class="card" style="display:flex;gap:.7rem;flex-wrap:wrap;align-items:flex-end;max-width:520px">
+<Tool metaTitle="Free van check by registration: MOT history, mileage and tax" title="Free van check" description="Check any UK van by registration: full MOT history, mileage record, repeat advisories, tax status and recalls. Free, from DVLA and DVSA data." lede="Enter a registration to see MOT history, the mileage record, faults that keep coming back, tax status and recalls. Straight from DVLA and DVSA." icon="M10 17a7 7 0 1 1 5-2l4 4">
+  <div slot="hero">
+    <form id="f" class="reg-form">
       <label style="flex:1;min-width:180px">Registration
-        <input id="reg" name="reg" autocomplete="off" placeholder="e.g. AB12 CDE" maxlength="10" style="text-transform:uppercase;font-size:1.3rem;font-weight:700;letter-spacing:.05em" required />
+        <input id="reg" name="reg" autocomplete="off" placeholder="AB12 CDE" maxlength="10" required />
       </label>
       <button class="btn" type="submit">Check van</button>
     </form>
 
-    <div id="out" aria-live="polite" class="prose" style="max-width:820px"></div>
+    
+  </div>
+  <div slot="inputs" id="out" aria-live="polite" class="prose" style="max-width:820px"></div>
 
-    <div class="prose">
       <h2>What to look for</h2>
       <ul>
         <li><strong>Mileage going down</strong> between MOTs can mean the mileage has been tampered with.</li>
@@ -27,9 +22,6 @@ import Base from '../../layouts/Base.astro';
         <li><strong>Outstanding recalls</strong> should be fixed by a dealer, free, before you buy.</li>
       </ul>
       <p class="small muted">Vehicle data from DVLA and DVSA. Contains public sector information licensed under the Open Government Licence v3.0. This check doesn't cover finance owed, write-offs or theft records.</p>
-    </div>
-  </div>
-
   <script>
     const out = document.getElementById('out');
     const el = (tag, attrs = {}, ...kids) => {
@@ -103,4 +95,4 @@ import Base from '../../layouts/Base.astro';
       }
     });
   </script>
-</Base>
+</Tool>
