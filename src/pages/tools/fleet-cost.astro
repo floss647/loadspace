@@ -16,7 +16,7 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
         <label>Van benefit charge per diesel van (£, taxable, {r.taxYear}: {gbp(r.vanBenefit.diesel)})<input type="number" id="vb" value={r.vanBenefit.diesel} min="0" step="10" /></label>
         <label>Drivers with private fuel paid (optional)<input type="number" id="fuel" value="0" min="0" step="1" /></label>
       </div>
-      <p class="tool-hint small muted">Only count drivers who use the van privately beyond commuting: commuting-only use carries no charge. If the business pays for a driver's private fuel in a diesel van, a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} ({r.taxYear}) is added. <a href="/guides/grants-and-tax/">How van tax works</a></p>
+      <p class="tool-hint small muted">Only count drivers who use the van privately beyond commuting: commuting-only use carries no charge if the van is mainly for business travel and the terms of use forbid other private use. If the business pays for a driver's private fuel in a diesel van, a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} ({r.taxYear}) is added. <a href="/guides/grants-and-tax/">How van tax works</a></p>
     </fieldset>
     <fieldset class="tool-group">
       <legend><span class="step">2</span>Diesel vans</legend>
@@ -57,9 +57,9 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
         <li><strong>Electric energy:</strong> miles ÷ miles per kWh, split between depot/home and public prices.</li>
         <li><strong>Congestion Charge:</strong> £18 a day for diesel, £9 for electric on Auto Pay (from January 2026).</li>
         <li><strong>Extra upfront cost:</strong> the difference in purchase price, or in total lease cost, after any grant. Enter 0 if leasing costs are similar.</li>
-        <li><strong>Road tax:</strong> in {r.taxYear} it's {gbp(r.ved.van)} a year for a diesel or an electric van up to {r.ved.maxKg.toLocaleString('en-GB')}kg, so switching makes no difference and it's left out.</li>
-        <li><strong>Drivers' tax:</strong> shown separately, because it's a saving for staff rather than the business. A driver who can use a company diesel van privately pays income tax on a van benefit charge of {gbp(r.vanBenefit.diesel)} a year ({r.taxYear}), plus a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} if the business pays for private fuel. On an electric (zero-emission) van both charges are {gbp(r.vanBenefit.zeroEmission)}. The saving is worked out at the {r.incomeTax.basic}% and {r.incomeTax.higher}% income tax rates ({r.incomeTax.additional}% taxpayers save more; Scotland's bands are different).</li>
-        <li><strong>Commuting only:</strong> no charge applies if drivers only use the van to get to and from work and the terms of use forbid other private use, so don't count those drivers. Insignificant private use, such as a small detour for a newspaper, doesn't count either.</li>
+        <li><strong>Road tax:</strong> in {r.taxYear} most diesel and electric vans up to {r.ved.maxKg.toLocaleString('en-GB')}kg pay {gbp(r.ved.van)} a year, so switching makes no difference and it's left out.</li>
+        <li><strong>Drivers' tax:</strong> shown separately, because it's a saving for staff rather than the business. A driver who can use a company diesel van privately beyond commuting pays income tax on a van benefit charge of {gbp(r.vanBenefit.diesel)} a year ({r.taxYear}), plus a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} if the business pays for private fuel. On an electric (zero-emission) van both charges are {gbp(r.vanBenefit.zeroEmission)}. The saving is an estimate, worked out at the {r.incomeTax.basic}% and {r.incomeTax.higher}% income tax rates ({r.incomeTax.additional}% taxpayers save more; Scotland's bands are different).</li>
+        <li><strong>Commuting only:</strong> no charge applies if the van is mainly for business travel, drivers' only private use is getting to and from work, and the terms of use forbid other private use, so don't count those drivers. Insignificant private use, such as a small detour for a newspaper, doesn't count either.</li>
         <li><strong>Buying the vans:</strong> diesel and electric vans get the same tax relief (the Annual Investment Allowance, or full expensing on new vans for limited companies). The special 100% first-year allowance for zero-emission vans ended in April 2025.</li>
       </ul>
       <p>Tax rules have conditions this calculator can't check, so check with your accountant.</p>
@@ -87,7 +87,7 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
       const taxable = home * v('vb') + fuelDrivers * R.vanFuelBenefit.diesel;
       const lo = R.incomeTax.basic, hi = R.incomeTax.higher;
       const fuelText = fuelDrivers ? ` and ${fuelDrivers} × ${gbp(R.vanFuelBenefit.diesel)} of fuel benefit` : '';
-      $('bik').textContent = home ? `Drivers who take vans home: ${home} × ${gbp(v('vb'))} of taxable van benefit${fuelText} removed (${gbp(taxable)} in all), about ${gbp(taxable * lo / 100)}–${gbp(taxable * hi / 100)} a year in tax saved across those drivers (${lo}–${hi}% taxpayers), plus employer National Insurance saved.` : '';
+      $('bik').textContent = home ? `Drivers who take vans home: ${home} × ${gbp(v('vb'))} of taxable van benefit${fuelText} removed (${gbp(taxable)} in all), an estimated ${gbp(taxable * lo / 100)}–${gbp(taxable * hi / 100)} a year in income tax saved across those drivers (${lo}–${hi}% taxpayers), plus employer National Insurance saved.` : '';
     }
     document.querySelectorAll('#calc input').forEach((i) => i.addEventListener('input', calc));
     calc();

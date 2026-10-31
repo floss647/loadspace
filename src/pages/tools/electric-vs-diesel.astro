@@ -68,7 +68,7 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
       <div class="tool-bar"><span>Diesel</span><span class="track"><span class="fill diesel" id="barDiesel"></span></span></div>
       <div class="tool-bar"><span>Electric</span><span class="track"><span class="fill ev" id="barEv"></span></span></div>
     </div>
-    <p class="small muted" style="margin:.8rem 0 0">Road tax: {gbp(r.ved.van)} for both, included in the yearly costs above.</p>
+    <p class="small muted" style="margin:.8rem 0 0">Road tax: {gbp(r.ved.van)} for both (most vans up to {r.ved.maxKg.toLocaleString('en-GB')}kg), included in the yearly costs above.</p>
 
     <div class="tool-sub">
       <h2>Driver's company van tax</h2>
@@ -86,9 +86,9 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
         <li><strong>Diesel:</strong> miles ÷ mpg × 4.546 litres per gallon × price per litre.</li>
         <li><strong>Electric:</strong> miles ÷ miles per kWh, split between home and public charging prices.</li>
         <li><strong>Congestion Charge:</strong> since January 2026, electric vans registered for Auto Pay pay 50% (£9 a day) against £18 for diesel.</li>
-        <li><strong>Road tax:</strong> in {r.taxYear}, a diesel, petrol or electric van up to {r.ved.maxKg.toLocaleString('en-GB')}kg pays {gbp(r.ved.van)} a year. Electric vans lost their exemption in April 2025, so road tax no longer makes a difference between the two.</li>
-        <li><strong>Driver's company van tax:</strong> if an employee can use a company diesel van privately, they pay income tax on a van benefit charge of {gbp(r.vanBenefit.diesel)} a year, at their own rate. If the business also pays for private fuel, a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} is added. For an electric (zero-emission) van, both charges are {gbp(r.vanBenefit.zeroEmission)}.</li>
-        <li><strong>Commuting only:</strong> there's no charge for either van if the driver only uses it to get to and from work and the terms of use forbid other private use. Insignificant private use, such as a small detour for a newspaper on the way to work, doesn't count.</li>
+        <li><strong>Road tax:</strong> in {r.taxYear}, most diesel, petrol and electric vans up to {r.ved.maxKg.toLocaleString('en-GB')}kg pay {gbp(r.ved.van)} a year (some older Euro 4 and Euro 5 vans pay less). Electric vans lost their exemption in April 2025, so road tax no longer makes a difference between the two.</li>
+        <li><strong>Driver's company van tax:</strong> if an employee can use a company diesel van privately beyond commuting, they pay income tax on a van benefit charge of {gbp(r.vanBenefit.diesel)} a year, at their own rate. If the business also pays for private fuel, a fuel benefit charge of {gbp(r.vanFuelBenefit.diesel)} is added. For an electric (zero-emission) van, both charges are {gbp(r.vanBenefit.zeroEmission)}.</li>
+        <li><strong>Commuting only:</strong> there's no charge for either van if it's mainly for business travel, the driver's only private use is getting to and from work, and the terms of use forbid other private use. Insignificant private use, such as a small detour for a newspaper on the way to work, doesn't count.</li>
       </ul>
       <p>The driver's tax uses the {r.incomeTax.basic}%, {r.incomeTax.higher}% and {r.incomeTax.additional}% rates for England, Wales and Northern Ireland; Scotland's bands are different. The employer also pays National Insurance on the van benefit, which isn't shown here. Tax rules have conditions this calculator can't check, so check with your accountant. <a href="/guides/grants-and-tax/">Read our grants and tax guide</a>.</p>
       <p><strong>Not included:</strong> purchase or lease price, servicing (usually lower for electric), insurance, a home charger, or clean air zone charges for older diesels. Electric efficiency drops in cold weather and with heavy loads, so use a lower figure if that's your work.</p>
@@ -131,7 +131,7 @@ const gbp = (n: number) => '£' + n.toLocaleString('en-GB');
       } else {
         $('bikDiesel').textContent = gbp(0);
         $('bikEv').textContent = gbp(0);
-        const note = home === 'commute' ? 'Commuting only: no charge, as long as the terms of use forbid other private use' : 'No private use, so no charge';
+        const note = home === 'commute' ? 'Commuting only: no charge, as long as the van is mainly for business travel and the terms of use forbid other private use' : 'No private use, so no charge';
         $('bikDieselNote').textContent = note;
         $('bikEvNote').textContent = note;
       }

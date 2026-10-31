@@ -41,12 +41,12 @@ const soleRates = [
       <legend><span class="step">3</span>Buy new</legend>
       <div class="form">
         <label>Price after discount and grant (£, excl. VAT)<input type="number" id="np" value="32000" min="0" /></label>
-        <label>Value when you sell (£)<input type="number" id="nr" value="15500" min="0" /></label>
+        <label>Value when you sell (£, excl. any VAT you charge)<input type="number" id="nr" value="15500" min="0" /></label>
         <label>Finance interest rate (APR %, 0 if paying cash)<input type="number" id="na" value="0" min="0" step="0.1" /></label>
         <label>Deposit if financing (£)<input type="number" id="nd" value="3000" min="0" /></label>
         <label>Servicing per year (£, excl. VAT)<input type="number" id="ns" value="250" min="0" /></label>
       </div>
-      <p class="tool-hint small muted">Electric van? The van grant ({r.taxYear}) takes up to {g.pctCap}% off an eligible new van, to a maximum of {gbp(g.smallMax)} for vans under {kg(g.smallUnderKg)} gross weight or {gbp(g.largeMax)} for {kg(g.smallUnderKg)} to {kg(g.largeUpToKg)}. The dealer takes it off the price, so enter the price after the grant. <a href="/guides/grants-and-tax/">How the grant works</a></p>
+      <p class="tool-hint small muted">Electric van? The van grant takes up to {g.pctCap}% off an eligible new van, to a maximum of {gbp(g.smallMax)} for vans under {kg(g.smallUnderKg)} gross weight or {gbp(g.largeMax)} for {kg(g.smallUnderKg)} to {kg(g.largeUpToKg)}. Only listed models qualify and there are a limited number of grants. The dealer takes it off the price, so enter the price after the grant. <a href="/guides/grants-and-tax/">How the grant works</a></p>
     </fieldset>
     <fieldset class="tool-group">
       <legend><span class="step">4</span>Buy used</legend>
@@ -55,7 +55,7 @@ const soleRates = [
         <label>Is VAT added to that price?
           <select id="uv"><option value="0" selected>No (private sale or dealer margin scheme)</option><option value="1">Yes, plus VAT</option></select>
         </label>
-        <label>Value when you sell (£)<input type="number" id="ur" value="9000" min="0" /></label>
+        <label>Value when you sell (£, excl. any VAT you charge)<input type="number" id="ur" value="9000" min="0" /></label>
         <label>Servicing and repairs per year (£, excl. VAT)<input type="number" id="us" value="900" min="0" /></label>
       </div>
     </fieldset>
@@ -69,7 +69,7 @@ const soleRates = [
           <select id="taxRate">{companyRates.map((o, i) => <option value={o.v} selected={i === 0}>{o.t}</option>)}</select>
         </label>
       </div>
-      <p class="tool-hint small muted">{r.taxYear} rates: corporation tax for companies; income tax plus Class 4 National Insurance for sole traders and partners. <a href="/guides/grants-and-tax/">How van tax works</a></p>
+      <p class="tool-hint small muted">{r.taxYear} rates: corporation tax for companies; income tax plus Class 4 National Insurance for sole traders and partners (Scotland's income tax bands differ). <a href="/guides/grants-and-tax/">How van tax works</a></p>
     </fieldset>
   </form>
 
@@ -82,7 +82,7 @@ const soleRates = [
       </div>
       <p id="verdict" style="margin:1rem 0 0"></p>
       <div class="tool-sub">
-        <h2>After tax relief</h2>
+        <h2>After tax relief (estimate)</h2>
         <div class="grid">
           <div><div class="muted small">Lease new</div><div class="big" id="aL">–</div></div>
           <div><div class="muted small">Buy new</div><div class="big" id="aN">–</div></div>
@@ -99,17 +99,17 @@ const soleRates = [
         <li><strong>Real cost</strong> = everything you pay over the years you keep the van, minus what you get back when you sell it.</li>
         <li><strong>Lease:</strong> upfront payment, monthly payments, fee and servicing. Nothing back at the end.</li>
         <li><strong>Buy:</strong> purchase price, finance interest, servicing and repairs, minus the value when you sell.</li>
-        <li><strong>VAT:</strong> if you're not VAT-registered, lease payments, new prices and servicing cost 20% more, because you can't reclaim the VAT.</li>
-        <li><strong>After tax relief</strong> = real cost × (1 − your tax rate on profits). For a limited company that's corporation tax: {ct.small}% on profits up to {gbp(ct.smallLimit)}, {ct.main}% over {gbp(ct.upperLimit)}, and in between an effective {ct.marginal}% on each extra pound because of marginal relief. For a sole trader or partner it's income tax plus Class 4 National Insurance: {it.basic}% + {c4.main}%, {it.higher}% + {c4.upper}% or {it.additional}% + {c4.upper}%.</li>
+        <li><strong>VAT:</strong> if you're not VAT-registered, lease payments, new prices and servicing cost 20% more, because you can't reclaim the VAT (and so does a used van with VAT added). If you are VAT-registered, enter sale values without any VAT you charge the buyer.</li>
+        <li><strong>After tax relief</strong> is an estimate: real cost × (1 − your tax rate on profits). It assumes all of each option's costs, including any VAT you can't reclaim, are deductible over the years you keep the van, and that your tax rate stays the same. For a limited company the rate is corporation tax: {ct.small}% on profits up to {gbp(ct.smallLimit)}, {ct.main}% over {gbp(ct.upperLimit)}, and in between an effective {ct.marginal}% on each extra pound because of marginal relief (the limits are lower for short accounting periods and companies with associated companies). For a sole trader or partner it's income tax plus Class 4 National Insurance: {it.basic}% + {c4.main}%, {it.higher}% + {c4.upper}% or {it.additional}% + {c4.upper}%. Scotland's income tax bands differ, and the rate is higher on income between £100,000 and £125,140, where the Personal Allowance is reduced.</li>
       </ul>
       <h3>How tax relief works on a van</h3>
-      <p>All three options are tax-deductible in the end, so tax relief mainly changes <strong>when</strong> you get the relief, not which option is cheapest.</p>
+      <p>If all the costs of each option are deductible in the end, as the estimate assumes, tax relief mainly changes <strong>when</strong> you get the relief, not which option is cheapest.</p>
       <ul>
-        <li><strong>Leasing:</strong> lease rentals on a van are a business expense, deducted as you pay them.</li>
-        <li><strong>Buying, new or used:</strong> the Annual Investment Allowance lets you deduct the price from your profits in the year you buy, up to {gbp(r.aia / 1e6)} million of spending a year, for diesel and electric vans, new or used. Limited companies can use full expensing instead, but only on new and unused vans. Sole traders and partnerships using cash basis (the default) claim the cost as an allowable expense instead. If you sell the van later, you may need to pay tax on the sale value, so overall the relief is on the price minus what you sell it for.</li>
+        <li><strong>Leasing:</strong> for sole traders and partners, gov.uk lists vehicle hire charges as an allowable business expense. Limited companies should check how van lease rentals are treated with their accountant.</li>
+        <li><strong>Buying, new or used:</strong> the Annual Investment Allowance lets you deduct the price from your profits in the year you buy, up to {gbp(r.aia / 1e6)} million of spending a year. Diesel and electric vans both qualify. HMRC's guidance lists only a few exclusions from the allowance, such as cars, and being second-hand isn't one of them, so used vans can qualify too. Limited companies can use full expensing instead, but only on new and unused vans. Sole traders and partnerships using cash basis (the standard method for most) claim the cost as an allowable expense instead. When you sell the van, the sale value goes back into your tax calculation and can be added to your profits as a "balancing charge", so overall the relief is roughly on the price minus what you sell it for.</li>
         <li><strong>Timing:</strong> buying gives most of the relief in year one, which helps cash flow. Leasing spreads it over the contract.</li>
         <li><strong>Electric vans</strong> get the same relief as diesel: the special 100% first-year allowance for zero-emission vans ended in April 2025.</li>
-        <li><strong>Double-cab pickups</strong> are mostly treated as cars from April 2025, so these allowances don't apply to them (there are transitional rules for older deals).</li>
+        <li><strong>Double-cab pickups:</strong> HMRC expects most of them to count as cars from April 2025, so the Annual Investment Allowance and full expensing don't apply to them (there are transitional rules for older deals).</li>
       </ul>
       <p>If you or your staff use the van privately, the relief and the tax position change. Tax rules have conditions this calculator can't check, so check with your accountant.</p>
       <p><strong>Not included:</strong> insurance, downtime when a van breaks, and lease mileage or damage charges. <a href="/guides/lease-vs-buy/">Read the lease vs buy guide</a>.</p>
@@ -145,7 +145,7 @@ const soleRates = [
       const rate = +$('taxRate').value || 0;
       Object.entries(r).forEach(([k, x]) => { $('a' + k).textContent = gbp(x * (1 - rate / 100)); });
       const after = Object.entries(r).map(([k, x]) => [k, x * (1 - rate / 100)]).sort((a, b) => a[1] - b[1]);
-      $('taxNote').innerHTML = `At ${rate}% tax on profits. <strong>${names[after[0][0]]}</strong> is still cheapest, by ${gbp(after[1][1] - after[0][1])}: tax relief shrinks the gaps but doesn't change the order.`;
+      $('taxNote').innerHTML = `Estimate at ${rate}% tax on profits, assuming all the costs are deductible. <strong>${names[after[0][0]]}</strong> is still cheapest, by ${gbp(after[1][1] - after[0][1])}: on this estimate, tax relief shrinks the gaps but doesn't change the order. Check with your accountant.`;
     }
     const forms = $('calc').dataset;
     $('biz').addEventListener('input', () => {
