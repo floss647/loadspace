@@ -18,7 +18,7 @@ FONTS = ROOT / 'scripts/fonts'
 REL = json.loads((ROOT / 'src/data/reliability.json').read_text())
 
 S = 1200
-NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#1c1426', '#130d1a', '#ff4f9a', '#ffffff', '#1c1426', '#5b6573', '#e3e6eb', '#fcfcfb'
+NAVY, NAVY2, AMBER, WHITE, INK, MUTED, GRID, BG = '#1c1426', '#130d1a', '#ec6fa3', '#ffffff', '#1c1426', '#5b6573', '#e3e6eb', '#fcfcfb'
 BLUE, GOLD = '#3b6bc6', '#c98a00'  # validated chart pair (dataviz validator: all checks pass, labels required)
 
 

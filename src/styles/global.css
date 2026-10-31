@@ -5,10 +5,10 @@
   --bg: #ffffff;
   --surface: #f7f4f8;
   --line: #e7e1ea;
-  --accent: #ff4f9a;
+  --accent: #ec6fa3;
   --accent-ink: #1c1426;
-  --accent-text: #c2185b;
-  --link: #c2185b;
+  --accent-text: #b8326c;
+  --link: #b8326c;
   --good: #1f7a4d;
   --warn-bg: #fff0f6;
   --warn-line: #f5b8d2;
@@ -31,10 +31,10 @@
     --bg: #140f19;
     --surface: #1f1726;
     --line: #33283d;
-    --accent: #ff4f9a;
+    --accent: #ec6fa3;
     --accent-ink: #1c1426;
-    --accent-text: #ff8fc0;
-    --link: #ff8fc0;
+    --accent-text: #f39cc2;
+    --link: #f39cc2;
     --good: #5fd39a;
     --warn-bg: #2e1724;
     --warn-line: #7a2f52;
@@ -479,7 +479,7 @@ main:has(> .tool-hero) { padding-top: 0; }
 .tool-results .highlight .big { color: var(--accent); }
 .tool-results p, .tool-results strong { color: var(--hero-text); }
 .tool-results .result { background: none; border: 0; padding: 0; margin: 0; }
-.tool-results a { color: #ff8fc0; }
+.tool-results a { color: #f39cc2; }
 .tool-bars { display: grid; gap: .55rem; margin: 1rem 0 .2rem; }
 .tool-bar { display: grid; grid-template-columns: 4.5rem 1fr; align-items: center; gap: .6rem; font-size: .8rem; color: var(--hero-muted); }
 .tool-bar span.track { height: 12px; border-radius: 6px; background: rgba(255,255,255,.08); overflow: hidden; }

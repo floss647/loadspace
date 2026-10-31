@@ -26,7 +26,7 @@ _extra = ROOT / 'src/data/photos.json'  # general photo library (scripts/add_pho
 if _extra.exists():
     PHOTOS.update(json.loads(_extra.read_text()))
 
-NAVY, NAVY2, AMBER, WHITE, MUTED = '#1c1426', '#130d1a', '#ff4f9a', '#ffffff', '#e6dced'
+NAVY, NAVY2, AMBER, WHITE, MUTED = '#1c1426', '#130d1a', '#ec6fa3', '#ffffff', '#e6dced'
 W, H = 1600, 900
 
 
@@ -75,9 +75,9 @@ def column_card(fm):
     """Branded image for the Overloaded column: pink, with the column name and headline."""
     im = Image.new('RGB', (W, H), AMBER)
     d = ImageDraw.Draw(im)
-    d.polygon([(W * 0.66, 0), (W, 0), (W, H), (W * 0.5, H)], fill='#f0418b')
+    d.polygon([(W * 0.66, 0), (W, 0), (W, H), (W * 0.5, H)], fill='#e05a93')
     sil = [(1180, 690), (1180, 520), (1420, 520), (1500, 590), (1560, 590), (1560, 690)]
-    d.polygon(sil, fill='#e2367f')
+    d.polygon(sil, fill='#d24d86')
     for cx in (1250, 1490):
         d.ellipse([cx - 38, 652, cx + 38, 728], fill=NAVY)
     d.rectangle([0, 0, 18, H], fill=NAVY)
