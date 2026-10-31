@@ -1,46 +1,42 @@
 ---
-import Base from '../../layouts/Base.astro';
+import Tool from '../../layouts/Tool.astro';
 ---
-<Base title="Van lease true-cost calculator" description="Work out the real monthly cost of a van lease, including the upfront payment and fees, so you can compare deals fairly.">
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/tools/">Tools</a></div>
-    <div class="prose">
-      <h1>What does that lease really cost?</h1>
-      <p class="lede">Lease prices are quoted to look cheap. Enter a quote and see the real monthly cost once the upfront payment and fees are included.</p>
-    </div>
-
-    <form class="form" id="calc" onsubmit="return false">
-      <label>Monthly payment (£)<input type="number" id="monthly" value="279" min="0" step="1" /></label>
-      <label>Upfront payment (number of months)
-        <select id="upfront">
+<Tool metaTitle="Van lease true-cost calculator" title="What does that lease really cost?" description="Work out the real monthly cost of a van lease, including the upfront payment and fees, so you can compare deals fairly." lede="Lease prices are quoted to look cheap. Enter a quote and see the real monthly cost once the upfront payment and fees are included." icon="M12 4v16M8 8h6a3 3 0 0 1 0 6H9" crumb={['/tools/', 'Tools']}>
+  <form id="calc" onsubmit="return false" slot="inputs">
+    <fieldset class="tool-group">
+      <legend><span class="step">1</span>Your lease quote</legend>
+      <div class="form">
+        <label>Monthly payment (£)<input type="number" id="monthly" value="279" min="0" step="1" /></label>
+        <label>Upfront payment (number of months)
+          <select id="upfront">
           <option>1</option><option>3</option><option selected>6</option><option>9</option><option>12</option>
-        </select>
-      </label>
-      <label>Lease length (months)
-        <select id="term">
+          </select>
+        </label>
+        <label>Lease length (months)
+          <select id="term">
           <option>24</option><option selected>36</option><option>48</option><option>60</option>
-        </select>
-      </label>
-      <label>Admin or arrangement fee (£)<input type="number" id="fee" value="300" min="0" step="10" /></label>
-    </form>
+          </select>
+        </label>
+        <label>Admin or arrangement fee (£)<input type="number" id="fee" value="300" min="0" step="10" /></label>
+      </div>
+    </fieldset>
+  </form>
 
-    <div class="result" aria-live="polite">
+  <div slot="results">
+    <h2>What it really costs</h2>
       <div class="grid">
         <div><div class="muted small">Advertised</div><div class="big" id="adv">–</div><div class="muted small" id="pattern"></div></div>
         <div><div class="muted small">True cost per month</div><div class="big" id="true">–</div><div class="muted small" id="diff"></div></div>
         <div><div class="muted small">Total you pay</div><div class="big" id="total">–</div><div class="muted small" id="upfrontAmt"></div></div>
       </div>
-    </div>
+  </div>
 
-    <div class="prose">
+
       <h2>How it works</h2>
       <p>A lease shown as <strong>"6 + 35"</strong> on a 36-month term means you pay six monthly payments upfront, then 35 more. So you make 41 payments in total over 36 months, plus any fee.</p>
       <p><strong>True cost per month = (upfront payment + remaining payments + fees) ÷ lease length.</strong></p>
       <p>Use it to compare deals on the same van with different upfront payments. Also check the <strong>mileage limit</strong> matches your work, and whether prices include VAT (business deals are usually shown without it).</p>
       <p><a href="/deals/">See deals ranked by true cost →</a></p>
-    </div>
-  </div>
-
   <script>
     const $ = (id) => document.getElementById(id);
     const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
@@ -58,4 +54,4 @@ import Base from '../../layouts/Base.astro';
     document.querySelectorAll('#calc input, #calc select').forEach((i) => i.addEventListener('input', calc));
     calc();
   </script>
-</Base>
+</Tool>
