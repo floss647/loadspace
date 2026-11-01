@@ -406,13 +406,6 @@ main:has(> .review-hero) { padding-top: 0; }
 .mini-meters .meter { margin: 0; }
 .mini-meters .meter i { height: 5px; }
 .review-card .arrow { margin-top: auto; padding-top: .6rem; font-weight: 700; color: var(--link); }
-.review-price { margin: 1rem 0 0; color: var(--hero-text); font-size: .95rem; }
-.review-price strong { color: #fff; font-size: 1.15rem; }
-.price-row { display: grid; grid-template-columns: auto 1fr; gap: .1rem .6rem; align-items: baseline; padding: .8rem 0; border-top: 1px solid var(--line); margin-bottom: .6rem; font-size: .92rem; color: var(--ink); }
-.price-row strong { text-align: right; }
-.price-row .muted:not(.small) { text-align: right; }
-.price-row .small { grid-column: 1 / -1; }
-.card-price { font-size: .88rem !important; color: var(--ink) !important; margin: 0 !important; }
 .card-img-empty { aspect-ratio: 16 / 9; background: var(--surface); color: var(--line); display: grid; place-content: center; justify-items: center; gap: .4rem; }
 .card-img-empty svg { width: 96px; color: #c7ccd4; }
 .card-img-empty span { font-size: .8rem; color: var(--muted); }
@@ -515,8 +508,7 @@ main:has(> .tool-hero) { padding-top: 0; }
 .hero-split, .review-hero, .tool-hero { background: linear-gradient(180deg, var(--surface) 0%, color-mix(in srgb, var(--surface) 82%, var(--line)) 100%); color: var(--text); border-bottom: 1px solid var(--line); }
 .hero-split h1, .review-hero h1, .tool-hero h1 { color: var(--ink); }
 .hero-split .eyebrow, .review-hero .eyebrow, .tool-hero .eyebrow { color: var(--accent-text); }
-.hero-split .hero-copy > p, .review-summary, .review-price { color: var(--text); }
-.review-price strong, .medal-label strong { color: var(--ink); }
+.hero-split .hero-copy > p, .review-summary { color: var(--text); }
 .medal-label { color: var(--muted); }
 .review-hero .crumbs, .review-hero .crumbs a, .tool-hero .crumbs, .tool-hero .crumbs a { color: var(--muted); }
 .hero-facts { color: var(--muted); }
@@ -528,3 +520,12 @@ main:has(> .tool-hero) { padding-top: 0; }
 .hero-photo figcaption, .review-photo figcaption, .review-photo figcaption a { color: var(--muted); }
 .hero-photo img, .review-photo .vimg img { box-shadow: 0 18px 40px rgba(20,33,61,.18); }
 .reg-form label { color: var(--muted); }
+
+/* Van page spec tables */
+.spec-title { margin: 1.4rem 0 .5rem; font-size: 1.02rem; }
+.spec-table th, .spec-table td { padding: .55rem .75rem; text-align: left; white-space: nowrap; }
+.spec-table thead th { font-size: .82rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+.spec-table tbody th { font-weight: 600; color: var(--ink); }
+.spec-table tbody tr + tr { border-top: 1px solid var(--line); }
+.spec-notes { margin: .9rem 0 0; padding-left: 1.1rem; }
+.spec-notes li { margin: .2rem 0; }

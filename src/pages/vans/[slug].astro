@@ -1,4 +1,5 @@
 ---
+import { specsFor } from '../../lib/specs.js';
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
 import Cta from '../../components/Cta.astro';
@@ -22,6 +23,7 @@ const deals = DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
   .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 const review = reviewFor(van.slug);
+const specs = specsFor(van.slug);
 // Key figures from our fact-checked review, where we have one.
 const short = (v) => String(v ?? '').replace(/\s*\(.*$/, '');
 const conf = (v) => v && !/^not confirmed/i.test(String(v));
@@ -29,7 +31,6 @@ const figs = review ? [
   ['Official range', review.specs?.range],
   ['Rapid charging', review.specs?.charging],
   ['Max payload', review.specs?.payload],
-  ['Price from', review.price?.confirmed ? review.price.value : null],
 ].filter(([, v]) => conf(v)).map(([k, v]) => [k, short(v)]) : [];
 const checks = [
   ['Battery health', "Ask for a battery health (State of Health) certificate and check what's left of the battery warranty."],
@@ -79,6 +80,27 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
         <div class="gb bad"><h3>A harder sell if you</h3><ul><li>Do long motorway days</li><li>Tow heavy loads</li><li>Would rely on public rapid chargers</li></ul></div>
       </div>
       <p class="small"><a href="/guides/charging-an-electric-van/">How charging works →</a></p>
+
+      {specs && (
+        <>
+          <h2 id="specs">Specs</h2>
+          {specs.tables.map((t) => (
+            <>
+              <h3 class="spec-title">{t.title}</h3>
+              <div class="table-wrap">
+                <table class="spec-table">
+                  {t.head.some((h) => h) && <thead><tr>{t.head.map((h) => <th scope="col">{h}</th>)}</tr></thead>}
+                  <tbody>{t.rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            </>
+          ))}
+          <ul class="spec-notes small muted">
+            {specs.notes?.map((n) => <li>{n}</li>)}
+            <li>Source: {specs.sourceLabel}. Every figure is checked against the maker's document before we publish it.</li>
+          </ul>
+        </>
+      )}
 
       {evTwins.length > 0 && (
         <>

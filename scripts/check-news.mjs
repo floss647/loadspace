@@ -39,7 +39,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DIRS = ['src/pages/news', 'src/pages/blog', 'src/pages/reviews', 'src/data/rules'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
+const DIRS = ['src/pages/news', 'src/pages/blog', 'src/pages/reviews', 'src/data/rules', 'src/data/specs'].map((d) => join(ROOT, d)).filter((d) => existsSync(d));
 const TRUSTED = JSON.parse(readFileSync(join(ROOT, 'scripts/news-sources.json'), 'utf8'));
 const LIVE = process.argv.includes('--live');
 const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fact-check sign-off requirement
@@ -98,7 +98,9 @@ function storyText(fm, body) {
   // Drop link targets (internal paths) but keep link text; drop markdown syntax that holds no facts.
   const clean = body.replace(/\]\([^)]*\)/g, ']').replace(/<[^>]+>/g, ' ').replace(/\b4x4s?\b/gi, '');
   const specs = fm.specs && typeof fm.specs === 'object' ? Object.values(fm.specs) : [];
-  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, ...(fm.good || []), ...(fm.bad || []), ...specs, clean].filter(Boolean).join('\n');
+  // Spec tables (src/data/specs): every heading and cell counts as text to check.
+  const tables = Array.isArray(fm.tables) ? fm.tables.flatMap((t) => [t.title, ...(t.head || []), ...(t.rows || []).flat()]) : [];
+  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, fm.sourceLabel, ...(fm.good || []), ...(fm.bad || []), ...specs, ...tables, ...(fm.notes || []), clean].filter(Boolean).join('\n');
 }
 
 function checkOffline(slug, fm, body, isBlog) {
@@ -134,8 +136,10 @@ function checkOffline(slug, fm, body, isBlog) {
       if (!f.source || !f.quote) { errs.push(`${label}: needs source and quote (or calc)`); return; }
       if (!hostOk(f.source)) errs.push(`${label}: source isn't on the trusted list: ${f.source}`);
     }
-    const qn = new Set(nums(f.quote));
-    const missing = nums(f.claim).filter((n) => !qn.has(n));
+    // Thousands separators don't change a number: 3,705 in a claim matches 3705 in a spec table.
+    const plain = (n) => n.replace(/,(?=\d{3}\b)/g, '');
+    const qn = new Set(nums(f.quote).map(plain));
+    const missing = nums(f.claim).filter((n) => !qn.has(plain(n)));
     if (missing.length) errs.push(`${label}: number(s) ${missing.join(', ')} not in the quote. Quote the source exactly, or use calc for conversions.`);
   });
 
