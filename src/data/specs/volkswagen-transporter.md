@@ -3,7 +3,7 @@ van: volkswagen-transporter
 title: "Volkswagen e-Transporter specs"
 summary: "Load space, payload, range, towing and charging for each e-Transporter panel van, with standard kit and options, from Volkswagen UK's own brochure and price list."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Volkswagen UK Transporter brochure and price list, 20 July 2026"
+sourceLabel: "Volkswagen UK Transporter brochure, 20 July 2026, including its price list (prices valid from January 2026)"
 tables:
   - title: "Range, payload and weight"
     head: ["Version", "Trims", "Official range", "Payload", "Gross weight", "Top speed"]
@@ -12,8 +12,8 @@ tables:
       - ["SWB, 218PS", "Commerce Pro, Commerce Pro S", "213.1 to 213.8 miles", "1,026 to 1,071kg", "3,225kg", "93mph"]
       - ["SWB, 286PS", "Commerce Pro S", "213.1 miles", "1,026kg", "3,225kg", "93mph"]
       - ["LWB, 136PS", "Commerce Plus, Commerce Pro", "221.8 to 223.1 miles", "1,151 to 1,156kg", "3,350kg", "70mph"]
-      - ["LWB, 218PS", "Commerce Pro, Commerce Pro S", "210.0 to 210.6 miles", "1,105 to 1,151kg", "3,225 to 3,350kg", "93mph"]
-      - ["LWB, 286PS", "Commerce Pro S", "210.0 miles", "1,105kg", "3,225kg", "93mph"]
+      - ["LWB, 218PS", "Commerce Pro", "210.6 miles", "1,151kg", "3,350kg", "93mph"]
+      - ["LWB, 218PS or 286PS", "Commerce Pro S", "210.0 miles", "Not confirmed (see notes)", "Not confirmed (see notes)", "93mph"]
   - title: "Load space"
     head: ["", "SWB", "LWB"]
     rows:
@@ -40,7 +40,8 @@ tables:
 notes:
   - "Some Commerce Pro S vans are Model Year 2025 stock with a 65kWh battery. VW's brochure only gives figures for the 70kWh battery."
   - "VW's kerb weights don't include a driver, so the driver's weight comes out of the payload. Options and accessories also reduce payload."
-  - "VW's figures for the long-wheelbase Commerce Pro S don't add up: its listed payload is more than its gross weight minus its kerb weight. Check the payload with the dealer."
+  - "VW's weights for the long-wheelbase Commerce Pro S don't add up: it lists a 3,225kg gross weight and a 2,245kg kerb weight, which leaves 980kg, but gives the payload as 1,105kg. We've left its payload and gross weight out until VW confirms them, so check both with the dealer."
+  - "VW's weights table calls the entry-level electric van 'Commerce' and gives the long-wheelbase Commerce Pro a T32 code. The price list sells the entry-level electric van as Commerce Plus and codes long-wheelbase vans T34, so we've matched the weights by trim and wheelbase."
   - "Towing is also limited by the gross train weight, so a fully loaded van can't tow the full braked trailer weight."
 versions:
   - name: "SWB, 136PS"
@@ -76,15 +77,24 @@ versions:
       gross: "3,350kg"
       towing: "2,300kg"
       topSpeed: "70mph"
-  - name: "LWB, 218PS or 286PS"
+  - name: "LWB, 218PS, Commerce Pro"
     figures:
-      range: "210.0 to 210.6 miles"
+      range: "210.6 miles"
       battery: "70kWh"
-      payload: "1,105 to 1,151kg"
+      payload: "1,151kg"
       volume: "6.8m³"
       loadLength: "3,002mm"
       loadWidth: "1,392mm"
-      gross: "3,225 to 3,350kg"
+      gross: "3,350kg"
+      towing: "2,300kg"
+      topSpeed: "93mph"
+  - name: "LWB, Commerce Pro S (218PS or 286PS)"
+    figures:
+      range: "210.0 miles"
+      battery: "70kWh"
+      volume: "6.8m³"
+      loadLength: "3,002mm"
+      loadWidth: "1,392mm"
       towing: "2,300kg"
       topSpeed: "93mph"
 shared:
@@ -214,7 +224,7 @@ equipment:
             quote: "Tyre mobility kit in lieu of spare wheel: 12-volt compressor and"
           - text: "LED headlights with LED daytime running lights"
             quote: "LED headlights with separate LED daytime running lights"
-          - text: "Automatic high-beam control"
+          - text: "High-beam control"
             quote: "High-beam control"
           - text: "LED rear lights"
             quote: "LED rear combination lamps"
@@ -553,7 +563,7 @@ options:
         quote: "Metal partition, high, with window. 3CG PV £65.00 £78.00 £65.00 £78.00 £65.00 £78.00 - -"
       - name: "No bulkhead (for vehicles needing complete type approval)"
         price: "£500"
-        note: "Commerce Plus and Commerce Pro"
+        note: "Commerce Plus and Commerce Pro. Only without side airbags and with certain seat packages"
         quote: "(do not include side airbags). 3CA PV £500.00 £600.00 £500.00 £600.00 £500.00 £600.00 - -"
       - name: "3 extra bright LED lights in the load area"
         price: "£40"
@@ -652,6 +662,9 @@ options:
       - name: "Second battery, 80Ah AGM"
         price: "£190"
         quote: "Second battery (80 Ah, AGM). Not available in combination with Second battery (95 Ah, AGM) (8FF). 8FB PV/K £190.00 £228.00 £190.00 £228.00 £190.00 £228.00 £190.00 £228.00"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "20 July 2026"
     archive: sources/vw-transporter-brochure-2026-07.pdf
@@ -683,9 +696,6 @@ facts:
   - claim: "213.1 miles"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "286PS 70 kWh Electric 1-Speed Automatic 286 0 2.6 213.1"
-  - claim: "210.0 to 210.6 miles"
-    archive: sources/vw-transporter-brochure-2026-07.pdf
-    quote: "218PS 70 kWh Electric 1-Speed Automatic 218 0 2.6 210.6 298.3 (480) 8.6 93 PV Electric Commerce Pro S - short wheelbase T32 218PS 70 kWh Electric 1-Speed Automatic 218 0 2.6 213.1 303.2 (488) 8.6 93 286PS 70 kWh Electric 1-Speed Automatic 286 0 2.6 213.1 303.2 (488) 7.4 93 PV Electric Commerce Pro S - long wheelbase T34 218PS 70 kWh Electric 1-Speed Automatic 218 0 2.5 210.0"
   - claim: "210.0 miles"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "286PS 70 kWh Electric 1-Speed Automatic 286 0 2.5 210.0"
@@ -707,27 +717,44 @@ facts:
   - claim: "1,026kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "286PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026"
-  - claim: "1,105 to 1,151kg"
-    archive: sources/vw-transporter-brochure-2026-07.pdf
-    quote: "218PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 PV Electric Commerce Pro S - short wheelbase T32 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026 286PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026 PV Electric Commerce Pro S - long wheelbase T34 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,525 / 2,000 2,300 5,350 2,245 1,105"
-  - claim: "1,105kg"
-    archive: sources/vw-transporter-brochure-2026-07.pdf
-    quote: "286PS 70 kWh Electric 1-Speed Automatic 3,225 1,525 / 2,000 2,300 5,350 2,245 1,105"
   - claim: "3,225kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T32 136PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,149 1,076"
   - claim: "3,350kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
-  - claim: "3,225 to 3,350kg"
-    archive: sources/vw-transporter-brochure-2026-07.pdf
-    quote: "218PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 PV Electric Commerce Pro S - short wheelbase T32 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026"
   - claim: "2,300kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T32 136PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,149 1,076"
   - claim: "5,350kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T32 136PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,149 1,076"
+  - claim: "210.6 miles"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Pro - long wheelbase T34 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.7 221.8 305.1 (491) 12.8 70 218PS 70 kWh Electric 1-Speed Automatic 218 0 2.6 210.6"
+  - claim: "1,151kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "218PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 PV Electric Commerce Pro S - short wheelbase"
+  - claim: "3,225kg gross weight and a 2,245kg kerb weight"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Pro S - long wheelbase T34 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,525 / 2,000 2,300 5,350 2,245 1,105"
+  - claim: "payload as 1,105kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Pro S - long wheelbase T34 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,525 / 2,000 2,300 5,350 2,245 1,105"
+  - claim: "which leaves 980kg"
+    calc: "3,225kg gross weight - 2,245kg kerb weight = 980kg"
+  - claim: "calls the entry-level electric van 'Commerce'"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce - short wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,225"
+  - claim: "gives the long-wheelbase Commerce Pro a T32 code"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Pro - long wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,350"
+  - claim: "sells the entry-level electric van as Commerce Plus and codes long-wheelbase vans T34"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "e-Transporter PV Commerce Plus - long wheelbase T34 Panel Van Commerce Plus LWB 136PS 70 kWh Electric 1-Speed Automatic"
+  - claim: "prices valid from January 2026"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "Pricing valid from 15th January 2026."
   - claim: "kerb weights don't include a driver"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "Kerb weight includes 90% fuel load with no driver or passengers."

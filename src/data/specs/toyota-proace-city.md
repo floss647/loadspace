@@ -3,7 +3,7 @@ van: toyota-proace-city
 title: "Toyota Proace City Electric specs"
 summary: "Load space, payload, range, towing and charging for the Proace City Electric panel van, plus Toyota's paid options and their prices before VAT."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Toyota UK price list, 1 October 2026, and Toyota UK Proace City brochure"
+sourceLabel: "Toyota UK price list, 1 October 2026, and Toyota UK Proace City brochure, October 2024"
 tables:
   - title: "Range, payload and weight"
     head: ["Version", "Battery", "Range", "Payload", "Gross weight"]
@@ -32,10 +32,10 @@ tables:
       - ["Gross train weight", "3,200kg"]
       - ["Top speed", "83mph"]
 notes:
-  - "The range, payload, load space, charging and towing figures come from Toyota's UK Proace City brochure, which is older than the 1 October 2026 price list and carries no printed date, so check them with a dealer."
-  - "Toyota quotes one range figure, up to 208 miles, for both body lengths."
-  - "The brochure's van guide gives payloads of 691kg for the short van and 759kg for the long van, but its specification table lists 800kg. We show the lower van guide figures."
-  - "The short van comes as Icon or Sport, and the long van as Icon only."
+  - "The range, payload, load space, charging and towing figures come from Toyota's UK Proace City brochure dated October 2024, which is older than the 1 October 2026 price list, so check them with a dealer."
+  - "Toyota quotes one range figure, up to 208 miles, for both body lengths. The brochure gives it in miles twice, but its powertrain table prints 208km, which we take to be a misprint."
+  - "The brochure's van guide gives payloads of 691kg for the short van and 759kg for the long van, but its specification table lists 800kg. We show the van guide figures, which fit the gross and kerb weights in the same table."
+  - "The short van comes as Icon or Sport, and the long van as Icon only. In the 2027 model year, the newest on the price list, only Icon is listed."
   - "Option prices are from the 1 October 2026 price list. Standard equipment comes from the older brochure, so check it with a dealer."
 versions:
   - name: "Short, 50kWh"
@@ -297,6 +297,15 @@ facts:
   - claim: "1 October 2026"
     archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
     quote: "Toyota PROACE CITY ELECTRIC LCV PRICE LIST 2026 Model Year Price list effective from - 1st October 2026"
+  - claim: "October 2024"
+    archive: sources/toyota-proace-city-brochure-2024-10.pdf
+    quote: "October 2024 (Model Year 2024)"
+  - claim: "208km"
+    archive: sources/toyota-proace-city-brochure-2024-10.pdf
+    quote: "Pure Electric Range* Up to 208 km"
+  - claim: "In the 2027 model year, the newest on the price list, only Icon is listed"
+    archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
+    quote: "Toyota PROACE CITY ELECTRIC LCV PRICE LIST 2027 Model Year Price list effective from - 1st October 2026"
   - claim: "50kWh"
     archive: sources/toyota-proace-city-brochure-2024-10.pdf
     quote: "Battery Capacity (kWh) 50"

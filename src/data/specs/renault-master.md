@@ -5,25 +5,23 @@ summary: "Load space, payload, range and charging for each Master E-Tech panel v
 date: 2026-11-01T09:00:00Z
 sourceLabel: "Renault UK van price guide, 1 September 2026, and Master brochure, 1 July 2026"
 tables:
-  - title: "Range, payload and weight"
-    head: ["Version", "Gross weight", "Official range", "Payload", "Top speed"]
+  - title: "Range and top speed"
+    head: ["Vehicle class", "Official range", "Top speed"]
     rows:
-      - ["L2H2 van (MM35)", "3,500kg", "255 miles", "Not quoted", "75mph"]
-      - ["L2H2 van (MM40)", "4,000kg", "285 miles", "Up to 1,606kg", "56mph"]
-      - ["L3H2 van (LM35)", "3,500kg", "255 miles", "Not quoted", "75mph"]
-      - ["L3H2 van (LM40)", "4,000kg", "285 miles", "Up to 1,499kg", "56mph"]
-      - ["L3H3 van (LH35)", "3,500kg", "255 miles", "Not quoted", "75mph"]
-      - ["L3H3 van (LH40)", "4,000kg", "285 miles", "Up to 1,488kg", "56mph"]
-  - title: "Load space"
-    head: ["", "L2H2", "L3H2", "L3H3"]
+      - ["N1 versions", "255 miles", "75mph"]
+      - ["N2 versions", "285 miles", "56mph"]
+  - title: "Load space and weight"
+    head: ["", "L2H2 (MM35, MM40)", "L3H2 (LM35, LM40)", "L3H3 (LH35, LH40)"]
     rows:
+      - ["Maximum payload", "1,606kg", "1,499kg", "1,488kg"]
+      - ["Gross weight", "3,500kg or 4,000kg", "3,500kg or 4,000kg", "3,500kg or 4,000kg"]
+      - ["Kerb weight", "2,121 to 2,434kg", "2,191 to 2,501kg", "2,203 to 2,512kg"]
       - ["Load length", "3,225mm", "3,855mm", "3,855mm"]
       - ["Load height", "1,885mm", "1,885mm", "2,138mm"]
       - ["Sliding door width", "1,312mm", "1,312mm", "1,312mm"]
       - ["Load volume", "10.8m³", "13m³", "14.8m³"]
       - ["Overall length", "5,680mm", "6,315mm", "6,315mm"]
       - ["Overall height", "2,502mm", "2,502mm", "2,780mm"]
-      - ["Kerb weight", "2,121 to 2,434kg", "2,191 to 2,501kg", "2,203 to 2,512kg"]
   - title: "Charging and battery"
     head: ["", ""]
     rows:
@@ -33,63 +31,33 @@ tables:
       - ["Home and depot charging (AC)", "22kW (11kW on V2L versions)"]
       - ["Motor", "105kW (140hp), 300Nm"]
 notes:
-  - "Renault quotes range and top speed by vehicle class: N1 for the 3,500kg vans and N2 for the 4,000kg vans. The N2 vans are limited to 56mph."
-  - "Renault gives one maximum payload for each body, and links its best figure (up to 1,600kg) to the 4 tonne L2H2 van. We have not shown a payload for the 3,500kg vans, which carry less."
+  - "Renault gives the official range and top speed by vehicle class, N1 or N2, without saying which versions fall into each class. It quotes the 285-mile range for the 4 tonne L2H2 van."
+  - "Renault gives one maximum payload for each body without saying which gross weight it applies to. Its headline figure of up to 1,600kg is for the 4 tonne L2H2 van."
   - "V2L versions of the MM35, MM40, LM35 and LM40 add a 220V socket in the load area, but have an 11kW on-board AC charger instead of 22kW."
-  - "Renault's rapid charging times are measured on a 150kW public charger."
+  - "The van charges at up to 130kW on a DC rapid charger. Renault's rapid charging times are measured on a 150kW public charger."
   - "Renault's price guide also lists an electric parking brake and one-touch electric front windows as standard on the Master E-Tech."
 versions:
-  - name: "L2H2, 3,500kg"
+  - name: "L2H2 (MM35 and MM40)"
     figures:
-      range: "255 miles"
-      volume: "10.8m³"
-      loadLength: "3,225mm"
-      loadHeight: "1,885mm"
-      gross: "3,500kg"
-      topSpeed: "75mph"
-  - name: "L2H2, 4,000kg"
-    figures:
-      range: "285 miles"
       payload: "Up to 1,606kg"
       volume: "10.8m³"
       loadLength: "3,225mm"
       loadHeight: "1,885mm"
-      gross: "4,000kg"
-      topSpeed: "56mph"
-  - name: "L3H2, 3,500kg"
+      gross: "3,500kg or 4,000kg"
+  - name: "L3H2 (LM35 and LM40)"
     figures:
-      range: "255 miles"
-      volume: "13m³"
-      loadLength: "3,855mm"
-      loadHeight: "1,885mm"
-      gross: "3,500kg"
-      topSpeed: "75mph"
-  - name: "L3H2, 4,000kg"
-    figures:
-      range: "285 miles"
       payload: "Up to 1,499kg"
       volume: "13m³"
       loadLength: "3,855mm"
       loadHeight: "1,885mm"
-      gross: "4,000kg"
-      topSpeed: "56mph"
-  - name: "L3H3, 3,500kg"
+      gross: "3,500kg or 4,000kg"
+  - name: "L3H3 (LH35 and LH40)"
     figures:
-      range: "255 miles"
-      volume: "14.8m³"
-      loadLength: "3,855mm"
-      loadHeight: "2,138mm"
-      gross: "3,500kg"
-      topSpeed: "75mph"
-  - name: "L3H3, 4,000kg"
-    figures:
-      range: "285 miles"
       payload: "Up to 1,488kg"
       volume: "14.8m³"
       loadLength: "3,855mm"
       loadHeight: "2,138mm"
-      gross: "4,000kg"
-      topSpeed: "56mph"
+      gross: "3,500kg or 4,000kg"
 shared:
   battery: "87kWh"
   rapid: "Up to 130kW"
@@ -313,6 +281,9 @@ options:
       - name: "Metallic paint (Agave Blue and Energy Red are priced as metallic)"
         price: "£750"
         quote: "Metallic paint (please note Agave Blue and Energy red are priced as metallic) o o o £750.00"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 September 2026"
     archive: sources/renault-van-price-guide-2026-09.pdf
@@ -320,10 +291,7 @@ facts:
   - claim: "1 July 2026"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "1 July 2026"
-  - claim: "3,500kg"
-    archive: sources/renault-master-van-brochure-2026-06.pdf
-    quote: "gross vehicle weight (kg) 3500 or 4000"
-  - claim: "4,000kg"
+  - claim: "3,500kg or 4,000kg"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "gross vehicle weight (kg) 3500 or 4000"
   - claim: "255 miles"
@@ -350,6 +318,9 @@ facts:
   - claim: "up to 1,600kg"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "up to 1,600kg of payload and"
+  - claim: "285-mile range for the 4 tonne L2H2 van"
+    archive: sources/renault-master-van-brochure-2026-06.pdf
+    quote: "up to 285 miles(1)(2) of range (1) on the L2H2 E-Tech 100% electric version – 87 kWh – 4 tonnes."
   - claim: "4 tonne L2H2 van"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "on the L2H2 E-Tech 100% electric version – 87 kWh – 4 tonnes"

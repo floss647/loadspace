@@ -27,7 +27,7 @@ tables:
       - ["Top speed", "81mph"]
 notes:
   - "Renault quotes a single official (WLTP) range of up to 190 miles for the Kangoo E-Tech, without splitting it by version."
-  - "The brochure's specification table lists a 45kWh battery, but its charging page quotes 44kWh, so check the figure with your dealer."
+  - "These figures are for the 45kWh Kangoo E-Tech in Renault UK's July 2026 brochure. Its specification table gives the battery as 45kWh, while its charging page labels the same charging times as for a 44kWh battery. We show the specification-table figure."
   - "Payloads are Renault's maximum figures. The optional Rough Terrain Pack cuts payload by around 250kg."
   - "Renault also sells an LL21 Kangoo E-Tech crew van, which is not covered here."
 versions:
@@ -143,7 +143,7 @@ options:
         quote: "Nav Pack EASY LINK navigation with 8” touchscreen, DAB radio, Bluetooth, USB ports and compatible with Apple CarPlay™ & Android Auto™ O O O - - O O O - - £500 £100 £600 Connected navigation services - 3 years included: Google search for places of interest, live traffic info and weather 360o parking sensors"
       - name: "Wireless smartphone charger"
         price: "£100"
-        note: "Advance E-Tech panel vans. Must be taken with the console storage armrest and single passenger seat"
+        note: "Advance E-Tech panel vans, or Extra E-Tech with a change of seating. Must be taken with the console storage armrest and single passenger seat"
         quote: "Wireless smartphone charger(1) O O O see restrictions O O - see restrictions £100"
       - name: "Smartphone dock"
         price: "£20"
@@ -253,6 +253,9 @@ options:
         price: "£200"
         note: "Advance E-Tech ML19 only. Standard on Extra E-Tech ML19. Not with Urban Grey paint"
         quote: "Body-Coloured Bumpers(14) O - - • - O - - • - £200"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 September 2026"
     archive: sources/renault-van-price-guide-2026-09.pdf

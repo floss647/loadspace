@@ -32,7 +32,7 @@ tables:
       - ["Gross train weight", "5,500kg"]
 notes:
   - "Ranges are from Nissan's July 2026 price list. Its brochure quotes up to 283 miles for the 4.0-tonne version and says the range figures are pending UK homologation."
-  - "Payload is shown from a fully optioned van to a basic one. Nissan's payload figures include the driver's weight and are pending homologation."
+  - "Payload is shown as Nissan's minimum to maximum figure, which depends on the kerb weight of the van as built. Nissan's payload figures include the driver's weight, and its kerb weights are pending homologation."
   - "The 4.0-tonne versions are homologated as N2 vehicles and the 3.5-tonne versions as N1."
   - "Towing is also limited by the gross train weight of 5,500kg."
 versions:
@@ -195,8 +195,6 @@ equipment:
         items:
           - text: "16-inch steel wheels with full wheel covers"
             quote: "• 16\" steel wheels with full wheel covers"
-          - text: "Spare wheel"
-            quote: "• Spare wheel"
           - text: "LED daytime running lights"
             quote: "• LED Daytime Running Lights"
           - text: "LED low beam headlights"
@@ -245,7 +243,7 @@ options:
     items:
       - name: "Metallic paint (Blue Grey, Silver, Black)"
         price: "£750"
-        note: "All panel vans, Acenta and Tekna. Ex-VAT price as printed in the price list"
+        note: "All panel vans, Acenta and Tekna. The VAT-inclusive price Nissan prints beside it does not match, so confirm the price with the dealer"
         quote: "Metallic Paint Blue Grey, Silver, Black ○ ○ ○ ○ ○ ○ £750 £780"
   - category: "Load area"
     items:
@@ -253,12 +251,9 @@ options:
         price: "£400"
         note: "All panel vans, Acenta and Tekna"
         quote: "Offside Sliding Panel Door ○ ○ - - - - £400 £480"
-  - category: "Windows and mirrors"
-    items:
-      - name: "Glazed pack"
-        price: "£650"
-        note: "All panel vans, Acenta and Tekna. Ex-VAT price as printed in the price list"
-        quote: "Glazed Pack ○ ○ - - - - £650 £900"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 July 2026"
     archive: sources/nissan-lcv-price-list-2026-07.pdf
@@ -331,7 +326,7 @@ facts:
     quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "2,000kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
-    quote: "towing capacity of up to 2000kg"
+    quote: "Max towing capacity - braked 2 000 1 500 2 000 1 500"
   - claim: "1,500kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "Max towing capacity - braked 2 000 1 500 2 000 1 500"

@@ -324,6 +324,9 @@ options:
         price: "£300"
         note: "Tekna only"
         quote: "16\" Alloy Wheels - ○ - ○ - £300 £360"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 July 2026"
     archive: sources/nissan-lcv-price-list-2026-07.pdf

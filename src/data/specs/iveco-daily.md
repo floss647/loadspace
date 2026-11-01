@@ -34,7 +34,7 @@ tables:
 notes:
   - "This is IVECO's EU brochure, not a UK document. UK versions, batteries and figures may differ, so check with a UK IVECO dealer."
   - "IVECO says its figures are based on internal tests and simulations, pending the vehicle homologation, so they may change."
-  - "Ranges are IVECO's WLTP figures in kilometres, for reference vans with a new, fully charged battery."
+  - "Ranges are IVECO's own WLTP-cycle figures in kilometres, not yet officially homologated. They are for reference vans with a new, fully charged battery, driven in Eco mode with no driver assistance systems, air conditioning or heating."
   - "The brochure gives no payloads or load floor dimensions, and doesn't say whether the roof heights are inside or outside measurements."
   - "Rapid (DC) charging is an option, not standard."
   - "The brochure's 148kWh battery is listed for the 72C chassis cab, not the van, so it isn't shown here."
@@ -71,9 +71,12 @@ shared:
   rapid: "Up to 115kW (optional)"
   ac: "11kW as standard, 22kW optional"
   warranty: "8 years or 250,000km"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "March 2026"
-    calc: "The brochure's publication code is \"PUBLICATION L2645501MASTER - 03/26\", i.e. March 2026"
+    calc: "The brochure's publication code is \"PUBLICATION L2645501MASTER - 03/26\", which ends in the month and year 03/26, i.e. March 2026"
   - claim: "EU edition"
     archive: sources/iveco-edaily-brochure-2026-03.pdf
     quote: "This content is intended for the EU markets."
@@ -116,9 +119,18 @@ facts:
   - claim: "140km"
     archive: sources/iveco-edaily-brochure-2026-03.pdf
     quote: "72C WLTP - 140 200 240"
-  - claim: "WLTP figures"
+  - claim: "WLTP-cycle figures"
     archive: sources/iveco-edaily-brochure-2026-03.pdf
-    quote: "The following conditions apply: batteries at beginning of life and fully charged"
+    quote: "together with up to 400 km autonomy in WLTP cycle"
+  - claim: "not yet officially homologated"
+    archive: sources/iveco-edaily-brochure-2026-03.pdf
+    quote: "Officially homologated driving range will be published closer to the vehicle’s sales date"
+  - claim: "driven in Eco mode with no driver assistance systems, air conditioning or heating"
+    archive: sources/iveco-edaily-brochure-2026-03.pdf
+    quote: "vehicles set in Eco Driving Modes and in Standard Regenerative Mode with no ADAS and air conditioning or heating"
+  - claim: "new, fully charged battery"
+    archive: sources/iveco-edaily-brochure-2026-03.pdf
+    quote: "batteries at beginning of life and fully charged"
   - claim: "148kWh battery is listed for the 72C chassis cab"
     archive: sources/iveco-edaily-brochure-2026-03.pdf
     quote: "72C CAB 5,25 m2 WB 5.100 148 kWh battery"

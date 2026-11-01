@@ -3,7 +3,7 @@ van: toyota-proace
 title: "Toyota Proace Electric specs"
 summary: "Load space, payload, range, towing and charging for each Proace Electric panel van, plus Toyota's paid options and their prices before VAT."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Toyota UK Proace Electric price list, April 2026, and Toyota UK Proace brochure"
+sourceLabel: "Toyota UK Proace Electric price list, April 2026, and Toyota UK Proace brochure, April 2025"
 tables:
   - title: "Range, payload and weight"
     head: ["Version", "Battery", "Range", "Payload", "Gross weight"]
@@ -24,19 +24,18 @@ tables:
   - title: "Charging, towing and performance"
     head: ["", "50kWh", "75kWh"]
     rows:
-      - ["Rapid charging (DC)", "100kW", "100kW"]
-      - ["Rapid charge, 0 to 80%", "30 minutes", "45 minutes"]
+      - ["Rapid charge, 0 to 80%, on a 100kW charger", "30 minutes", "45 minutes"]
       - ["Home and depot charging (AC)", "11kW", "11kW"]
       - ["Towing (braked)", "1,000kg", "1,000kg"]
       - ["Towing (unbraked)", "750kg", "750kg"]
       - ["Gross train weight", "4,100kg", "4,021kg (medium), 4,053kg (long)"]
       - ["Top speed", "80mph", "80mph"]
 notes:
-  - "The range, payload, load space, charging and towing figures come from Toyota's UK Proace brochure, which is older than the April 2026 price list and carries no printed date, so check them with a dealer."
+  - "The range, payload, load space, charging and towing figures come from Toyota's UK Proace brochure dated April 2025, which is older than the April 2026 price list, so check them with a dealer."
   - "For the 50kWh van, the brochure's WLTP table gives 133 miles, but another page says up to 143 miles. We show the WLTP table figure."
   - "For the 75kWh vans, Toyota gives one figure of up to 215 miles. Its WLTP table shows 132 to 215 miles across all 75kWh bodies, including the platform cab, without splitting them."
   - "The 50kWh and long 75kWh vans come as Icon only. The medium 75kWh van comes as Icon or Sport, and Toyota doesn't list a separate payload for the Sport."
-  - "Option prices are from the April 2026 price list. Standard equipment comes from the older brochure, so check it with a dealer."
+  - "Option prices are from the April 2026 price list. Standard equipment comes from the equipment table in the older brochure. The brochure's grade pages don't match that table, so check equipment with a dealer."
 versions:
   - name: "Medium, 50kWh"
     figures:
@@ -48,7 +47,6 @@ versions:
       loadHeight: "1,397mm"
       gross: "3,100kg"
       towing: "1,000kg"
-      rapidTime: "30 minutes"
   - name: "Medium, 75kWh"
     figures:
       range: "Up to 215 miles"
@@ -59,7 +57,6 @@ versions:
       loadHeight: "1,397mm"
       gross: "3,021kg"
       towing: "1,000kg"
-      rapidTime: "45 minutes"
   - name: "Long, 75kWh"
     figures:
       range: "Up to 215 miles"
@@ -70,9 +67,7 @@ versions:
       loadHeight: "1,397mm"
       gross: "3,053kg"
       towing: "1,000kg"
-      rapidTime: "45 minutes"
 shared:
-  rapid: "100kW"
   ac: "11kW"
 archive: sources/toyota-proace-electric-price-list-2026-04.pdf
 equipment:
@@ -359,6 +354,9 @@ facts:
   - claim: "6.6m³"
     archive: sources/toyota-proace-brochure-2025-04.pdf
     quote: "5.3/5.8m3* 6.1/6.6m3*"
+  - claim: "April 2025"
+    archive: sources/toyota-proace-brochure-2025-04.pdf
+    quote: "Toyota UK @ToyotaUK April 2025"
   - claim: "100kW"
     archive: sources/toyota-proace-brochure-2025-04.pdf
     quote: "30 mins on 100 kW Rapid Charger 45 mins on 100 kW Rapid Charger"
