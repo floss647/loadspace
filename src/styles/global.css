@@ -520,3 +520,12 @@ main:has(> .tool-hero) { padding-top: 0; }
 .hero-photo figcaption, .review-photo figcaption, .review-photo figcaption a { color: var(--muted); }
 .hero-photo img, .review-photo .vimg img { box-shadow: 0 18px 40px rgba(20,33,61,.18); }
 .reg-form label { color: var(--muted); }
+
+/* Van page spec tables */
+.spec-title { margin: 1.4rem 0 .5rem; font-size: 1.02rem; }
+.spec-table th, .spec-table td { padding: .55rem .75rem; text-align: left; white-space: nowrap; }
+.spec-table thead th { font-size: .82rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+.spec-table tbody th { font-weight: 600; color: var(--ink); }
+.spec-table tbody tr + tr { border-top: 1px solid var(--line); }
+.spec-notes { margin: .9rem 0 0; padding-left: 1.1rem; }
+.spec-notes li { margin: .2rem 0; }
