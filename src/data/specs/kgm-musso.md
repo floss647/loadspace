@@ -92,8 +92,6 @@ facts:
   - claim: "derived from the latest WLTP test cycle"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
     quote: "All figures quoted are derived from the latest WLTP test cycle."
-  - claim: "240-mile range"
-    calc: "240 miles, written as an adjective"
   - claim: "five-seat cabin"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
     quote: "A spacious five-seat cabin keeps everyone comfortable"
