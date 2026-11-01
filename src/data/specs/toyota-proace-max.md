@@ -3,7 +3,7 @@ van: toyota-proace-max
 title: "Toyota Proace Max Electric specs"
 summary: "Load space, range, towing and charging for each Proace Max Electric panel van, plus Toyota's paid options and their prices before VAT."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Toyota UK price list, 1 October 2026, and Toyota UK Proace Max brochure"
+sourceLabel: "Toyota UK price list, 1 October 2026, and Toyota UK Proace Max brochure, April 2025"
 tables:
   - title: "Range and weight"
     head: ["Version", "Battery", "Range", "Gross weight", "Towing (braked)"]
@@ -15,7 +15,7 @@ tables:
     head: ["", "L3", "L4"]
     rows:
       - ["Deck length", "3,705mm", "4,070mm"]
-      - ["Deck width", "1,870mm", "1,870mm"]
+      - ["Deck width", "1,870mm", "Not given"]
       - ["Load volume (all heights)", "13 to 15m³", "15 to 17m³"]
       - ["Exterior length", "5,998mm", "6,363mm"]
   - title: "Charging, towing and performance"
@@ -29,11 +29,11 @@ tables:
       - ["Gross train weight", "5,500kg"]
       - ["Top speed", "55mph"]
 notes:
-  - "The range, load space, charging and towing figures come from Toyota's UK Proace Max brochure, which is older than the 1 October 2026 price list and carries no printed date, so check them with a dealer."
+  - "The range, load space, charging and towing figures come from Toyota's UK Proace Max brochure dated April 2025, which is older than the 1 October 2026 price list, so check them with a dealer."
   - "Toyota quotes one range figure, up to 260 miles, for all versions."
   - "The brochure's specification table gives 55 minutes for a 10 to 80% rapid charge, but another page says about 45 minutes. We show the table figure."
   - "Toyota's brochure lists maximum payloads for each body but doesn't say which figures belong to the electric van, so we've left payload out."
-  - "Toyota gives load volume as a range for each body length, covering both roof heights."
+  - "Toyota gives load volume as a range for each body length, covering both roof heights. The brochure gives the deck width for the L3 van but not the L4."
   - "Every panel van comes in Icon trim. Option prices are from the 1 October 2026 price list. Standard equipment comes from the older brochure, which lists it by body type rather than trim, so check it with a dealer."
 versions:
   - name: "L3H2, 110kWh, 4,250kg"
@@ -61,7 +61,6 @@ versions:
       range: "Up to 260 miles"
       battery: "110kWh"
       loadLength: "4,070mm"
-      loadWidth: "1,870mm"
       gross: "4,250kg"
       towing: "2,400kg"
       topSpeed: "55mph"
@@ -247,6 +246,9 @@ facts:
   - claim: "1 October 2026"
     archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
     quote: "Toyota PROACE MAX EV LCV PRICE LIST 2026 Model Year Price list effective from - 1st October 2026"
+  - claim: "April 2025"
+    archive: sources/toyota-proace-max-brochure-2025-04.pdf
+    quote: "Toyota UK @ToyotaUK April 2025 (Model Year 2025)"
   - claim: "110kWh"
     archive: sources/toyota-proace-max-brochure-2025-04.pdf
     quote: "Battery energy 110 kWh"
