@@ -32,6 +32,36 @@ const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
 const equipment = (specs.equipment || []).filter((t) => t.groups?.length);
 const options = (specs.options || []).filter((c) => c.items?.length);
 const SHOW = 6;
+// "Included as standard" inside each option category: matching items from the checked
+// standard equipment lists. Base trim first, then what higher trims add.
+const GROUP_FOR = {
+  'Safety and driver assistance': ['Safety and driver assistance'],
+  'Seats and cab': ['Cab and comfort'],
+  'Multimedia': ['Multimedia and connectivity'],
+  'Charging': ['Charging and battery'],
+  'Load area': ['Load area'],
+};
+const KEYWORDS = {
+  'Paint': /\bpaint|\bwhite\b|metallic/i,
+  'Wheels and tyres': /(?<!steering )\bwheels?\b(?! (arch|chock))|tyre|hub ?caps?/i,
+  'Lighting': /\blamps?\b|headlamp|headlight|lighting/i,
+  'Lighting and visibility': /\blamps?\b|headlamp|headlight|lighting|mirror|wiper|camera/i,
+  'Windows and mirrors': /mirror|window|glass|glazed|wiper|windscreen/i,
+  'Towing': /\btow/i,
+};
+const standardFor = (category) => {
+  const groups = GROUP_FOR[category];
+  const re = KEYWORDS[category];
+  if (!groups && !re) return [];
+  const trims = equipment.filter((t, i) => i === 0 || /adds/i.test(t.trim));
+  return trims.map((t) => ({
+    trim: equipment.length > 1 ? t.trim : null,
+    items: t.groups
+      .filter((g) => (groups ? groups.includes(g.name) : true))
+      .flatMap((g) => g.items.map((it) => it.text))
+      .filter((txt) => (groups ? true : re.test(txt) && !/shelf|sun visor|instrument/i.test(txt))),
+  })).filter((t) => t.items.length);
+};
 const anchor = (s) => 'spec-' + s;
 ---
 <section class="spec-panel" id="specs">
@@ -103,6 +133,15 @@ const anchor = (s) => 'spec-' + s;
       {options.map((c) => (
         <details class="opt-cat">
           <summary><span>{c.category}</span><span class="opt-count">{c.items.length} {c.items.length === 1 ? 'option' : 'options'}</span></summary>
+          {standardFor(c.category).length > 0 && (
+            <div class="opt-std">
+              <strong>Included as standard</strong>
+              {standardFor(c.category).map((t) => (
+                <p>{t.trim && <span class="opt-std-trim">{t.trim}: </span>}{t.items.join(', ')}</p>
+              ))}
+            </div>
+          )}
+          <p class="opt-paid-label">Paid options</p>
           <ul class="opt-list">
             {c.items.map((it) => (
               <li><span><strong>{it.name}</strong>{it.note && <span class="small muted">{it.note}</span>}</span><span class="opt-price">{it.price}</span></li>

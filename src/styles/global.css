@@ -572,3 +572,8 @@ main:has(> .tool-hero) { padding-top: 0; }
 .opt-list li > span:first-child { display: flex; flex-direction: column; }
 .opt-price { font-weight: 600; white-space: nowrap; color: var(--ink); }
 @media (max-width: 720px) { .feat-list { grid-template-columns: 1fr; } }
+.opt-std { padding: 0 1.1rem .8rem; font-size: .95rem; color: var(--ink); }
+.opt-std > strong { display: block; margin-bottom: .2rem; }
+.opt-std p { margin: .15rem 0; line-height: 1.5; color: var(--text, var(--ink)); }
+.opt-std-trim { font-weight: 600; }
+.opt-paid-label { margin: 0; padding: .2rem 1.1rem .2rem; font-weight: 700; font-size: .95rem; color: var(--ink); }
