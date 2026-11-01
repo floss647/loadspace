@@ -16,7 +16,11 @@ function walk(dir) {
     const p = join(dir, name);
     if (statSync(p).isDirectory()) { walk(p); continue; }
     if (!TEXT.has(extname(p))) continue;
+    // Spec files keep exact quotes from maker PDFs as fact-check evidence. They're never shown on
+    // the site, and some PDFs print an em dash for "not available", so those quote lines are exempt.
+    const isSpec = p.includes('/src/data/specs/');
     readFileSync(p, 'utf8').split('\n').forEach((line, i) => {
+      if (isSpec && /^\s*(- )?quote: /.test(line)) return;
       for (const [s, what] of BANNED) if (line.includes(s)) problems.push(`${p.replace(ROOT + '/', '')}:${i + 1}: ${what}: ${line.trim().slice(0, 100)}`);
     });
   }
