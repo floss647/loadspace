@@ -35,7 +35,7 @@ const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
               <td class="num">{gbp(d.monthly)}</td>
               <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
               <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>
-              <td><a class="btn small" href={`/get-lease-quotes/?van=${d.van.slug}`}>{FEATURES.leaseQuotes ? 'Get quote' : 'Notify me'}</a></td>
+              <td><a class="btn small" href={`/get-lease-quotes/?van=${d.van.slug}`}>{FEATURES.leaseQuotes ? 'Get quote' : 'Join waiting list'}</a></td>
             </tr>
           ))}
         </tbody>

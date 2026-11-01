@@ -1,7 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import Newsletter from '../components/Newsletter.astro';
-import { FEATURES } from '../data/site.js';
+import { FEATURES, SITE } from '../data/site.js';
 import { EV_VANS } from '../data/vans.js';
 const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
 ---
@@ -13,12 +12,64 @@ const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
         <p class="lede">Tell us which van you're after and we'll pass your enquiry to a leasing broker for quotes.</p>
       ) : (
         <>
-          <p class="lede">Lease quotes are coming soon. Sign up and we'll tell you when they open, along with the best electric van deals.</p>
-          <Newsletter source="lease-quotes" />
-          <p style="margin-top:1.5rem">Meanwhile, compare <a href="/deals/">sample deals by true cost</a> or use the <a href="/tools/lease-or-buy/">lease, buy new or buy used calculator</a>.</p>
+          <p class="lede">Lease quotes open soon. Join the waiting list and we'll email you as soon as you can get quotes on the van you want.</p>
+          <p>Tell us a little about what you need, so we can line up the right deals first. Nothing here is a quote or a credit application.</p>
         </>
       )}
     </div>
+    {!FEATURES.leaseQuotes && (
+      <form name="lease-waitlist" method="POST" action="/thanks/?f=waitlist" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
+        <input type="hidden" name="form-name" value="lease-waitlist" />
+        <p class="hp"><label>Leave this empty <input name="company_website" tabindex="-1" autocomplete="off" /></label></p>
+        <div class="row">
+          <label>Which van?
+            <select name="van" id="van">
+              <option value="not-sure">Not sure yet</option>
+              {vans.map((v) => <option value={v.slug}>{v.name}</option>)}
+            </select>
+          </label>
+          <label>How many?<input type="number" name="quantity" min="1" value="1" /></label>
+          <label>Your business
+            <select name="business_type" required>
+              <option value="">Choose…</option>
+              <option>Limited company</option>
+              <option>Sole trader</option>
+              <option>Partnership</option>
+              <option>Charity or public body</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>When do you need it?
+            <select name="timescale">
+              <option>Within 3 months</option>
+              <option>3 to 6 months</option>
+              <option>6 to 12 months</option>
+              <option>Just researching</option>
+            </select>
+          </label>
+          <label>How are you likely to pay?
+            <select name="payment">
+              <option>Lease (contract hire)</option>
+              <option>Hire purchase</option>
+              <option>Buy outright</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <label>Your name (optional)<input name="name" autocomplete="name" /></label>
+          <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+        </div>
+        <label class="check"><input type="checkbox" name="consent" value="yes" required /> Email me when {SITE.name}'s lease quotes open. My details stay with {SITE.name} and won't be passed to anyone else. <a href="/privacy/">Privacy</a></label>
+        <label class="check"><input type="checkbox" name="newsletter" value="yes" /> Also send me the {SITE.name} newsletter (optional).</label>
+        <div><button class="btn" type="submit">Join the waiting list</button></div>
+      </form>
+    )}
+    {!FEATURES.leaseQuotes && (
+      <div class="prose">
+        <p>Meanwhile, compare <a href="/deals/">sample deals by true cost</a> or use the <a href="/tools/lease-or-buy/">lease, buy new or buy used calculator</a>.</p>
+      </div>
+    )}
     {FEATURES.leaseQuotes && (
       <form name="lease-quotes" method="POST" action="/thanks/?f=lease" data-netlify="true" netlify-honeypot="company_website" class="lead-form card">
         <input type="hidden" name="form-name" value="lease-quotes" />
@@ -47,11 +98,9 @@ const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
       </form>
     )}
   </div>
-  {FEATURES.leaseQuotes && (
-    <script>
+  <script>
       const v = new URLSearchParams(location.search).get('van');
       const sel = document.getElementById('van');
       if (v && sel && [...sel.options].some((o) => o.value === v)) sel.value = v;
-    </script>
-  )}
+  </script>
 </Base>
