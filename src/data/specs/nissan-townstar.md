@@ -34,7 +34,7 @@ tables:
       - ["Top speed", "84mph"]
       - ["Battery warranty", "8 years or 100,000 miles (to 70% capacity)"]
 notes:
-  - "Nissan quotes the 178-mile official range for the Van L1 Acenta only. Its July 2026 price list shows the ranges for the other versions as still to be confirmed."
+  - "Nissan quotes the 178-mile official range for the Van L1 Acenta only and gives no combined range for the other versions. Its July 2026 price list shows the range of every version, the L1 Acenta included, as still to be confirmed."
   - "Nissan's payload figures include the driver's weight, so the load you can carry is a little less. Options add weight and reduce payload."
   - "Nissan's brochure lists the electric crew van's braked towing capacity as 0kg, against 1,500kg for the vans, so check with a dealer if you need to tow."
 versions:

@@ -38,7 +38,8 @@ tables:
 notes:
   - "The 58kWh battery is only offered on the Commerce trim."
   - "VW's unladen weights include 75kg for the driver, so the payloads already allow for the driver. Options and accessories reduce payload."
-  - "VW says the battery can charge to 80% in around 30 minutes on a fast DC charger, but doesn't say which battery or charger power that applies to, so treat it as a best case."
+  - "VW says the battery can charge to 80% in around 30 minutes at a fast DC charger, starting from about 5% at about 23°C. VW gives two different charger powers for this (185kW in the text, 170kW in the footnote) and doesn't say how the time differs between the 58kWh and 79kWh batteries, so treat it as a best case."
+  - "Load floor length is 2,208mm with a tailgate and 2,232mm with wing doors. VW's brochure lists both a tailgate feature and a rear wing door as standard on Commerce, so check which rear door your van will have."
 versions:
   - name: "58kWh (Commerce)"
     figures:
@@ -172,8 +173,6 @@ equipment:
             quote: "LED load compartment lighting"
           - text: "Sliding side doors on both sides"
             quote: "Sliding door on the left and right"
-          - text: "Tailgate that can't be opened from inside"
-            quote: "Tailgate latching without unlatching function from inside"
       - name: "Exterior"
         items:
           - text: "18-inch black steel wheels with silver wheel trims"
@@ -224,9 +223,9 @@ equipment:
         items:
           - text: "19-inch 'Tilburg' bi-colour alloy wheels with AirStop tyres (replaces steel wheels)"
             quote: "19-inch ‘Tilburg’ bi-colour alloy wheels"
-          - text: "Tool kit, without the tyre mobility set"
+          - text: "Tool kit only, without the tyre mobility set (replaces the tool kit and tyre mobility set)"
             quote: "Tool kit (not including Tyre Mobility Set)"
-          - text: "Gloss black heated, electrically adjustable and folding door mirrors, with passenger mirror that dips"
+          - text: "Gloss black heated, electrically adjustable and folding door mirrors, with passenger mirror that dips (replaces the standard mirrors)"
             quote: "Gloss black electrically heated, adjustable and folding door mirrors, with front"
           - text: "Body-coloured bumpers (replaces black)"
             quote: "Body-coloured bumpers"
@@ -406,6 +405,9 @@ options:
       - name: "Extra front underbody guard"
         price: "£215"
         quote: "Additional front underbody guard. 0S1 £215.00 £258.00 £215.00 £258.00"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "21 July 2026"
     archive: sources/vw-id-buzz-cargo-price-guide-2026-07.pdf
@@ -542,4 +544,19 @@ facts:
   - claim: "charge to 80% in around 30 minutes"
     archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
     quote: "The battery can be charged to 80% capacity in around 30 minutes using a 185 kW DC fast charging system1."
+  - claim: "185kW in the text"
+    archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
+    quote: "The battery can be charged to 80% capacity in around 30 minutes using a 185 kW DC fast charging system1."
+  - claim: "170kW in the footnote"
+    archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
+    quote: "1 Charging with max. 170 kW DC charging power for the Pro battery variant and at an ambient and"
+  - claim: "starting from about 5% at about 23°C"
+    archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
+    quote: "battery temperature of approx. 23°C and a start SOC of approx. 5%; e.g. at an Ionity Station."
+  - claim: "rear wing door"
+    archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
+    quote: "Rear wing door without window aperture"
+  - claim: "tailgate feature"
+    archive: sources/vw-id-buzz-cargo-brochure-2026-07.pdf
+    quote: "Tailgate latching without unlatching function from inside"
 ---

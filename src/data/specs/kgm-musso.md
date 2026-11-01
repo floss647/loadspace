@@ -29,9 +29,9 @@ tables:
       - ["Battery warranty", "10 years or 1 million km"]
 notes:
   - "The Musso EV is a pick-up with a five-seat cabin, not a panel van."
-  - "KGM doesn't say how its range figures were measured, or whether they are WLTP figures."
+  - "KGM's site says its figures are derived from the latest WLTP test cycle, but the 240-mile range isn't labelled as a WLTP figure where it's given."
   - "KGM says the load bed can carry up to 500kg, within the 690kg payload limit."
-  - "KGM's pages don't give the battery size or charging power in their text, so they aren't shown here."
+  - "We couldn't confirm the battery size or charging power from the text of KGM's pages, so they aren't shown here."
 versions:
   - name: "Musso EV"
     figures:
@@ -82,13 +82,18 @@ facts:
     quote: "a 150kg-rated tailgate"
   - claim: "Rapid charge, 10 to 80%"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
-    quote: "36 Mins&#xA;10 to 80% Approx."
+    quote: "10 to 80% Approx."
   - claim: "About 36 minutes"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
-    quote: "36 Mins&#xA;10 to 80% Approx."
+    quote: "36 Mins"
   - claim: "10 years or 1 million km"
     source: https://www.kgm-motors.co.uk/warranty/
     quote: "Musso EV and Torres EVX both come with a 10-year or 1 million km battery warranty."
+  - claim: "derived from the latest WLTP test cycle"
+    source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
+    quote: "All figures quoted are derived from the latest WLTP test cycle."
+  - claim: "240-mile range"
+    calc: "240 miles, written as an adjective"
   - claim: "five-seat cabin"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
     quote: "A spacious five-seat cabin keeps everyone comfortable"
