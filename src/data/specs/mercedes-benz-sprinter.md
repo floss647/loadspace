@@ -32,6 +32,9 @@ tables:
 notes:
   - "Mercedes says the range figures are preliminary values, measured in-house using the WLTP method and not yet officially certified."
   - "Payload depends on the options fitted, so ask the dealer for the figure for the exact van you order."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "July 2026"
     archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf

@@ -24,14 +24,19 @@ tables:
   - title: "Charging and battery"
     head: ["", ""]
     rows:
-      - ["Battery", "110kWh"]
-      - ["Rapid charging (DC)", "Up to 150kW, 0 to 80% in 55 minutes"]
+      - ["Battery", "110kWh (97.8kWh usable)"]
+      - ["Rapid charging (DC)", "0 to 80% in 55 minutes on a 150kW rapid charger"]
       - ["Home and depot charging (AC)", "11kW"]
       - ["Battery warranty", "8 years or 100,000 miles (to 70% capacity)"]
       - ["Towing (unbraked)", "750kg"]
 notes:
-  - "Vauxhall calculates these ranges using the WLTP method, because vans this heavy are not subject to WLTP testing."
+  - "Vauxhall says the Movano Electric is not subject to WLTP testing, as all versions are homologated as heavy vehicles, so it calculates these ranges using the WLTP method instead."
   - "The 4,250kg versions are legally limited to 56mph."
+  - "Vauxhall lists these as maximum indicative payloads, and its guide is unclear on whether they include the driver, so allow for the driver's weight on top."
+  - "Towing is also limited by the gross train weight of 6,400kg on the 4,250kg versions, so a fully loaded van can tow up to 2,150kg."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 May 2025"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
@@ -111,12 +116,9 @@ facts:
   - claim: "110kWh"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "– 110kWh Battery"
-  - claim: "Up to 150kW"
+  - claim: "0 to 80% in 55 minutes on a 150kW rapid charger"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
-    quote: "Rapid charger (150kW) CCS 55min (0-80%)"
-  - claim: "0 to 80% in 55 minutes"
-    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
-    quote: "Rapid charger (150kW) CCS 55min (0-80%)"
+    quote: "DC current – Rapid charger (150kW) CCS 55min (0-80%)"
   - claim: "11kW"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "Movano Electric comes fitted with a 11kW"
@@ -128,5 +130,16 @@ facts:
     quote: "Unbraked towing weight 750kg"
   - claim: "not subject to WLTP testing"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
-    quote: "are not subject to WLTP testing"
+    quote: "As all Movano Electric vans are homologated as Heavy and are not subject to WLTP testing, the range and electric consumption figures mentioned are calculated using WLTP"
+  - claim: "97.8kWh usable"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "[97.8kWh Net]"
+  - claim: "maximum indicative payloads"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "MAXIMUM INDICATIVE"
+  - claim: "gross train weight of 6,400kg"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5MHYAFT0A013 2790 1460 4250 2100 2400 2400 6400"
+  - claim: "tow up to 2,150kg"
+    calc: "Gross train weight 6,400kg minus gross vehicle weight 4,250kg = 2,150kg, below the 2,400kg braked towing limit"
 ---

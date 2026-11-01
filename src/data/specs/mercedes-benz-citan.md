@@ -30,9 +30,13 @@ notes:
   - "Mercedes says the range figures are preliminary values, measured in-house using the WLTP method and not yet officially certified."
   - "These come from the latest price list we hold. Mercedes may have changed some figures since, so check with the dealer."
   - "Payload depends on the options fitted, so ask the dealer for the figure for the exact van you order."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "January 2025"
-    calc: "Effective date of the saved document, recorded in sources/index.json: \"January 2025\"."
+    archive: sources/mercedes-ecitan-price-list-2025-01.pdf
+    quote: "Prices effective from January 2025."
   - claim: "45kWh"
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "Battery Capacity 45kWh"
