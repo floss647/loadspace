@@ -18,9 +18,9 @@ const ctas = {
   },
   lease: {
     title: van ? `Lease the ${van.name}` : 'Lease an electric van',
-    text: lease ? 'Get quotes from a leasing broker, ranked by true monthly cost.' : 'Lease quotes are coming soon. Get notified when they open, plus the best electric van deals.',
+    text: lease ? 'Get quotes from a leasing broker, ranked by true monthly cost.' : 'Lease quotes open soon. Join the waiting list and we\'ll email you when you can get quotes.',
     href: van ? `/get-lease-quotes/?van=${van.slug}` : '/get-lease-quotes/',
-    button: lease ? 'Get lease quotes' : 'Get notified',
+    button: lease ? 'Get lease quotes' : 'Join the waiting list',
   },
 };
 const c = ctas[kind];
