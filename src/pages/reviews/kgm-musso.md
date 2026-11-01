@@ -15,7 +15,7 @@ good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy 
 bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.kgm-motors.co.uk/new-cars/musso-ev/
   - https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/

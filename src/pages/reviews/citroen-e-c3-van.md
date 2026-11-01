@@ -15,7 +15,7 @@ good: ["200-mile official range", "100kW rapid charging", "Lots of standard kit 
 bad: ["Payload of only 300kg", "Load bay is only 1.2m long"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
   - https://vanreviewer.co.uk/news/new-citroen-e-c3-van-added-to-electric-lcv-range/
@@ -27,8 +27,11 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "its electric range is a claimed 200 miles"
   - claim: "200-mile official range"
-    source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
-    quote: "Offers 200-mile range and 300kg payload"
+    source: https://www.autoexpress.co.uk/citroen/c3/prices-specs/62285/83kw-44kwh-van-plus-auto
+    quote: "WLTP - Pure Electric Range (miles) - Comb 200"
+  - claim: "give an official 200 miles"
+    source: https://www.autoexpress.co.uk/citroen/c3/prices-specs/62285/83kw-44kwh-van-plus-auto
+    quote: "WLTP - Pure Electric Range (miles) - Comb 200"
   - claim: "100kW"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "This comes courtesy of a 44kWh battery that can be hooked up to a 100kW charger to get from 20-80% capacity in just 26 minutes"
@@ -101,7 +104,7 @@ facts:
   - claim: "17-inch steel wheels with trims"
     source: https://vanreviewer.co.uk/news/new-citroen-e-c3-van-added-to-electric-lcv-range/
     quote: "fitted with 17-inch steel wheels with wheel trims"
-  - claim: "which are cheaper to replace if kerbed"
+  - claim: "which are cheaper to refurbish if kerbed"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "Citroen says it has done this to keep refurbishment costs down"
   - claim: "door pockets, a closed glovebox and a high centre console with closed storage"
@@ -116,7 +119,7 @@ facts:
   - claim: "the same seats and Advanced Comfort suspension as the hatchback"
     source: https://vanreviewer.co.uk/news/new-citroen-e-c3-van-added-to-electric-lcv-range/
     quote: "Not much has changed for the E-C3 Van when compared to the passenger car. It gets the same seats and Advanced Comfort suspension with progressive hydraulic cushions"
-  - claim: "found the car a little underpowered, though that matters less for urban deliveries"
+  - claim: "One launch report said its reviewers had found the hatchback a little underpowered, adding that this matters less for urban deliveries"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "Our reviewers reckon this leaves the passenger car feeling a little underpowered, but this is less of a concern for van drivers carrying out urban deliveries"
   - claim: "the government's approved list for the small-van grant"
@@ -155,7 +158,7 @@ facts:
   - claim: "a payload of up to 370kg"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "Dacia Spring Cargo , which can take up to 370kg"
-  - claim: "140 miles"
+  - claim: "a claimed range of 140 miles"
     source: https://www.parkers.co.uk/vans-pickups/news/2025/citroen-e-c3-van/
     quote: "its electric range is a claimed 200 miles, which is significantly more than the Spring Cargo's 140 miles"
 ---
@@ -178,15 +181,15 @@ The 44kWh battery and 113hp motor give an official 200 miles, which is strong fo
 
 ### On the road
 
-The van keeps the same seats and Advanced Comfort suspension as the hatchback, so it should ride much like the car. Reviewers of the hatchback found the car a little underpowered, though that matters less for urban deliveries. If you can, drive one on your usual routes before you buy.
+The van keeps the same seats and Advanced Comfort suspension as the hatchback. One launch report said its reviewers had found the hatchback a little underpowered, adding that this matters less for urban deliveries. If you can, drive one on your usual routes before you buy.
 
 ### Cab and kit
 
-Standard kit is generous for the money: a 10.25-inch touchscreen with wireless Apple CarPlay and Android Auto, a head-up display, LED headlights, cruise control, rear parking sensors and 17-inch steel wheels with trims, which are cheaper to replace if kerbed. Cab storage includes door pockets, a closed glovebox and a high centre console with closed storage.
+Standard kit is generous for the money: a 10.25-inch touchscreen with wireless Apple CarPlay and Android Auto, a head-up display, LED headlights, cruise control, rear parking sensors and 17-inch steel wheels with trims, which are cheaper to refurbish if kerbed. Cab storage includes door pockets, a closed glovebox and a high centre console with closed storage.
 
 ### Alternatives
 
-The obvious rival is the Dacia Spring Cargo. Reports in 2025 put it at £14,995, with a payload of up to 370kg and an official range of 140 miles, so check its current price and spec. If the payload is too small for you, compare purpose-built small vans such as the [Citroën ë-Berlingo](/vans/citroen-berlingo/) or [Ford E-Transit Courier](/vans/ford-transit-courier/).
+The obvious rival is the Dacia Spring Cargo. Reports in 2025 put it at £14,995, with a payload of up to 370kg and a claimed range of 140 miles, so check its current price and spec. If the payload is too small for you, compare purpose-built small vans such as the [Citroën ë-Berlingo](/vans/citroen-berlingo/) or [Ford E-Transit Courier](/vans/ford-transit-courier/).
 
 ### Price
 

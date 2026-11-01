@@ -15,7 +15,7 @@ good: ["Payload up to 1,350 kg", "Low 550mm load floor and pillarless side openi
 bad: ["Reports on the drive and ride are mixed", "Intrusive driver-assistance warnings", "Young, still-growing dealer network"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://farizonauto.co.uk/our-range/sv-range
   - https://farizonauto.co.uk/our-range/sv-range/product-detail
@@ -135,9 +135,29 @@ facts:
   - claim: "the L3H3 still carries 1,045 kg or 1,035 kg"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
     quote: "Payload 1,045 kg 1,035 kg Capacity 13.0 m³"
-  - claim: "(67kWh or 83kWh battery)"
+  - claim: "its specification page labels those two figures 67kWh and 83kWh"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
     quote: "L3 H3 Weights - with two occupants Weights with two occupants 67 kWh 83 kWh"
+  - claim: "lists no 106kWh version at all"
+    calc: "Checked on 1 November 2026: Farizon's specification page (feature-accessory-detail) gives dimensions and weights for every body only as '67 kWh / 83 kWh' or '67 kWh 83 kWh' columns (e.g. 'L3 H3 Dimensions Dimensions 67 kWh / 83 kWh'); the number 106 does not appear on the page"
+  - claim: "while its main SV page offers a 106kWh battery"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "Choose between a 67 kWh, 83 kWh or 106kWh battery"
+  - claim: "which reviews say is only for the L3H3 and the 67kWh isn't offered on it"
+    source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
+    quote: "Farizon's 67kWh battery is available on the L1H1 and L2H2 versions of the SV"
+  - claim: "which reviews say is only for the L3H3 and the 67kWh isn't offered on it"
+    source: https://vanreviewer.co.uk/farizon/sv/review/6715/
+    quote: "The SV battery options start with a 67kWh option, however, it is only available on the L1H1 and L2H2 body sizes of the van"
+  - claim: "which reviews say is only for the L3H3"
+    source: https://vanreviewer.co.uk/farizon/sv/review/6715/
+    quote: "The largest battery in the range is a 106kWh offering. This is a nickel manganese cobalt (NMC) battery, and is only available for the L3H3 van"
+  - claim: "Farizon's pages also give different load volumes for some of the middle sizes"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "L1 H2 L4990 x H2180 mm | 9.39 m 3 load capacity"
+  - claim: "Farizon's pages also give different load volumes for some of the middle sizes"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail
+    quote: "Payload 1,230 kg Capacity 7.92 m³"
   - claim: "Every version can tow 2,000 kg"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-dimensions/
     quote: "All models of Farizon SV has the same 2,000kg maximum braked towing capacity"
@@ -267,13 +287,10 @@ facts:
   - claim: "physical climate controls"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "We're pleased Farizon stuck with physical climate controls"
-  - claim: "Reports on cabin quality are lukewarm at best"
+  - claim: "Reports on cabin quality are lukewarm"
     source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
     quote: "Disappointing cabin quality"
-  - claim: "Reports on cabin quality are lukewarm at best"
-    source: https://www.parkers.co.uk/vans-pickups/farizon/sv/2025-review/
-    quote: "Disappointing cabin quality"
-  - claim: "Reports on cabin quality are lukewarm at best"
+  - claim: "Reports on cabin quality are lukewarm"
     source: https://www.autoexpress.co.uk/farizon/sv/366058/farizon-sv-review
     quote: "some plastics look a bit brittle even if they may prove to be durable in use"
   - claim: "four years of AA roadside assistance"
@@ -309,7 +326,7 @@ facts:
   - claim: "ex VAT and before the grant"
     source: https://vanreviewer.co.uk/news/farizon-adds-core-trim-for-sv-van-with-new-2026-updates/
     quote: "priced from £39,000 + VAT, excluding delivery, ZEVG, first registration fee and VED"
-  - claim: "the same as in the April 2026 list"
+  - claim: "The £44,000 starting price is the same as reported in April 2026"
     source: https://vanreviewer.co.uk/news/farizon-adds-core-trim-for-sv-van-with-new-2026-updates/
     quote: "pricing for the wider 2026 SV range remains unchanged, starting from £44,000 + VAT"
   - claim: "£44,000"
@@ -322,9 +339,9 @@ facts:
     quote: "With prices starting from just £44,000.00 excluding VAT, delivery and OTR costs"
   - claim: "£45,000"
     calc: "Farizon's UK site lists the L1 H1 'Starting from £45,000.00' on the road (next fact): £45,000.00 = £45,000"
-  - claim: "The £1,000 difference"
-    calc: "Farizon's L1 H1 on-the-road price £45,000 (excludes VAT and Plug-in Van Grant) minus its price excluding VAT, delivery and OTR costs £44,000 = £1,000, the delivery and on-the-road costs; so £44,000 is also before the grant"
-  - claim: "is before the grant too"
+  - claim: "so the lower £44,000 figure is before the grant too"
+    calc: "Farizon's L1 H1 on-the-road price of £45,000 excludes VAT and the Plug-in Van Grant (fact below). If the £44,000 price (which also excludes delivery and on-the-road costs) had the grant taken off, the pre-grant price would be above the pre-grant on-the-road price, which can't be; so £44,000 is before the grant. Consistent with the April 2026 report that the range starts 'from £44,000 + VAT' while the Core price excludes the grant (ZEVG)"
+  - claim: "excluding VAT, delivery and on-the-road costs"
     source: https://farizonauto.co.uk/our-range/sv-range
     quote: "Starting from £44,000.00* *Excludes VAT, delivery and on the road (OTR) costs."
   - claim: "which Farizon says excludes VAT and the Plug-in Van Grant"
@@ -343,7 +360,7 @@ With five body sizes from 6.95 to 13.0 cubic metres, the smallest is closest to 
 
 ### Load area and payload
 
-Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,265 kg with the 83kWh (weights with two occupants), and the L3H3 still carries 1,045 kg or 1,035 kg (67kWh or 83kWh battery). Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
+Farizon's UK specification gives the L1H1 1,350 kg with the 67kWh battery and 1,265 kg with the 83kWh (weights with two occupants), and the L3H3 still carries 1,045 kg or 1,035 kg, depending on the battery. Farizon's own pages don't agree on which batteries the L3H3 has: its specification page labels those two figures 67kWh and 83kWh and lists no 106kWh version at all, while its main SV page offers a 106kWh battery, which reviews say is only for the L3H3 and the 67kWh isn't offered on it. Farizon's pages also give different load volumes for some of the middle sizes. Check the payload and volume for the exact van you're quoted. Every version can tow 2,000 kg. The load floor sits at 550mm, and there's no B-pillar on the nearside, so the side door and passenger door open into one wide gap. In a panel van a bulkhead cancels much of the benefit, and the passenger's seatbelt is mounted in the door. A built-in payload monitor (not on the Core trim) shows the van's weight, but treat it as a guide, not a weighbridge.
 
 ### Range and charging in the real world
 
@@ -355,11 +372,11 @@ Only a handful of road tests have been published, and they're split. Early drive
 
 ### Cab and kit
 
-The standard SV is well stocked, with heated and ventilated front seats, a heated steering wheel, a 360-degree camera and physical climate controls. Reports on cabin quality are lukewarm at best. For 2026 Farizon was reported to have added a six-way adjustable driver's seat, reach and rake adjustment for the steering wheel and wireless Android Auto, though Farizon's UK specification page still lists a four-way manually adjusted driver's seat, so check the van you're offered. You also get four years of AA roadside assistance. There's a four-year, 120,000-mile vehicle warranty, and Farizon's UK site says the battery is covered for 8 years or 120,000 miles.
+The standard SV is well stocked, with heated and ventilated front seats, a heated steering wheel, a 360-degree camera and physical climate controls. Reports on cabin quality are lukewarm. For 2026 Farizon was reported to have added a six-way adjustable driver's seat, reach and rake adjustment for the steering wheel and wireless Android Auto, though Farizon's UK specification page still lists a four-way manually adjusted driver's seat, so check the van you're offered. You also get four years of AA roadside assistance. There's a four-year, 120,000-mile vehicle warranty, and Farizon's UK site says the battery is covered for 8 years or 120,000 miles.
 
 ### Price
 
-Farizon's UK website lists the SV L1H1 from £44,000 excluding VAT, delivery and on-the-road costs, or £45,000 on the road, which Farizon says excludes VAT and the Plug-in Van Grant. The £1,000 difference is the delivery and on-the-road costs, so the £44,000 figure is before the grant too. The biggest L3H3 starts at £52,000 on the same ex-VAT basis. The £44,000 starting price is the same as in the April 2026 list. That list also added a new entry-level Core trim, an L1H1 only, at £39,000 ex VAT and before the grant, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Core isn't listed on Farizon's UK site now, so ask a dealer whether it's still offered. Get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
+Farizon's UK website lists the SV L1H1 from £44,000 excluding VAT, delivery and on-the-road costs, and another Farizon page lists it from £45,000 on the road, which Farizon says excludes VAT and the Plug-in Van Grant, so the lower £44,000 figure is before the grant too. The biggest L3H3 starts at £52,000 on the same ex-VAT basis. The £44,000 starting price is the same as reported in April 2026, when Farizon also added a new entry-level Core trim, an L1H1 only, at £39,000 ex VAT and before the grant, which drops the payload monitor, vehicle-to-load power, automatic wipers and heated windscreen. Core isn't listed on Farizon's UK site now, so ask a dealer whether it's still offered. Get a written quote, and compare running costs with our [electric vs diesel tool](/tools/electric-vs-diesel/).
 
 ### Alternatives
 

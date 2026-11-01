@@ -15,7 +15,7 @@ good: ["Over 1,000kg payload in every version", "Up to 230 miles official range"
 bad: ["Rapid charging peaks at 90kW", "High load floor", "Lots of driver-assistance beeping"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
@@ -72,9 +72,9 @@ facts:
   - claim: "20 to 80% in about 43 minutes"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "A 20-80% charge can be done in as little as 43 minutes."
-  - claim: "11kW onboard charger takes around eight hours from 5 to 100%"
-    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
-    quote: "The battery pack takes eight hours to charge from 5% to 100% of its capacity if you are using an 11kW AC charger says Maxus."
+  - claim: "11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh"
+    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
+    quote: "The vehicle comes with a standard 11 kW onboard charger. A full charge from 5-100% can be completed in about 8 hours for the 88 kWh battery using a three-phase supply, and 7 hours for the 77 kWh battery."
   - claim: "1,200 kg"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "with the smallest battery that is the strongest with a maximum payload of 1,200kg"
@@ -242,7 +242,7 @@ The catch is the floor. The battery sits under the rear floor, so the load floor
 
 Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 190 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
 
-Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100%. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
+Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
 
 ### On the road
 

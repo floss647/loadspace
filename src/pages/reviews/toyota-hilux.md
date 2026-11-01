@@ -15,7 +15,7 @@ good: ["Keeps the diesel's 700mm wading depth", "Quiet, comfortable cab by all a
 bad: ["715 kg payload, well under a tonne", "Tows only 1,600kg to 1,700kg, by Toyota's figures", "Payload is below HMRC's one-tonne VAT line"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.toyota.co.uk/new-cars/hilux
   - https://www.toyota.co.uk/owners/toyota-warranty

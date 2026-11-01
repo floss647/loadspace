@@ -15,7 +15,7 @@ good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous st
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
