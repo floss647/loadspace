@@ -31,13 +31,14 @@ tables:
     rows:
       - ["Official range (WLTP combined)", "Up to 247 miles"]
       - ["WLTP city range", "Up to 342 miles"]
-      - ["Rapid charge, 20 to 80%", "36 minutes"]
+      - ["Rapid charge, 20 to 80%", "36 minutes, depending on model"]
       - ["Motor power", "170kW"]
       - ["Battery warranty", "8 years or 120,000 miles"]
       - ["Van warranty", "4 years or 120,000 miles"]
 notes:
-  - "Farizon lists kerb weights and payloads with two occupants on board."
-  - "Farizon gives one best-case range for the whole SV line-up, not a range for each version, and says charging times depend on the model."
+  - "Farizon lists its kerb weights 'with two occupants', and each payload is the 3,500kg gross weight minus that kerb weight, so the payloads appear to already allow for two people in the cab."
+  - "Farizon gives one best-case range for the whole SV line-up, not a range for each battery or version."
+  - "Farizon's SV product page says a 20 to 80% rapid charge takes 36 minutes, subject to model, but its warranty page says 18 minutes. We show the product page figure. Farizon doesn't give the charger power for either."
   - "Farizon's product page also mentions a 106kWh battery, but its specification page lists weights only for the 67kWh and 83kWh batteries."
   - "Farizon's product page gives larger load volumes for the L1 H2 (9.39m³) and L2 H3 (13.0m³) than its specification page, whose figures are shown here."
   - "The SV Sport is an L1 H1 van with 20-inch alloy wheels and a styling kit. Farizon doesn't list its weights separately."
@@ -74,6 +75,9 @@ versions:
       gross: "3,500kg"
 shared:
   warranty: "8 years or 120,000 miles"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "67kWh"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail/feature-accessory-detail/
@@ -207,6 +211,20 @@ facts:
   - claim: "106kWh battery"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail
     quote: "Choose between a 67 kWh, 83 kWh or 106kWh battery"
+  - claim: "depending on model"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "*Subject to model."
+  - claim: "subject to model"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "*Subject to model."
+  - claim: "its warranty page says 18 minutes"
+    source: https://farizonauto.co.uk/why-farizon/farizon-for-you/sv-warranty/
+    quote: "Good to go go go – with 20 to 80% charging in just 18 minutes."
+  - claim: "SV product page says a 20 to 80% rapid charge takes 36 minutes"
+    source: https://farizonauto.co.uk/our-range/sv-range/product-detail
+    quote: "The SV can be rapidly charged from 20% to 80% in just 36 minutes"
+  - claim: "each payload is the 3,500kg gross weight minus that kerb weight"
+    calc: "3,500 - 2,150 = 1,350; 3,500 - 2,235 = 1,265; 3,500 - 2,270 = 1,230; 3,500 - 2,255 = 1,245; 3,500 - 2,340 = 1,160; 3,500 - 2,380 = 1,120; 3,500 - 2,455 = 1,045; 3,500 - 2,465 = 1,035, matching every listed payload"
   - claim: "Rapid charge, 20 to 80%"
     source: https://farizonauto.co.uk/our-range/sv-range/product-detail
     quote: "The SV can be rapidly charged from 20% to 80% in just 36 minutes"
