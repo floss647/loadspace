@@ -161,33 +161,44 @@ facts:
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "283 miles is obtained with the 87kWh battery on the 4.0T N2 version."
   - claim: "844 to 1,197kg"
-    calc: "Interstar brochure, Panel Van EV weights, prints \"Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210\" with a space as the thousands separator. L2H2 3.5T: min 844, max 1 197 = 844 to 1,197kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "1,344 to 1,694kg"
-    calc: "Same brochure row: L2H2 4.0T min 1 344, max 1 694 = 1,344 to 1,694kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "711 to 1,116kg"
-    calc: "Same brochure row: L3H2 3.5T min 711, max 1 116 = 711 to 1,116kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "1,210 to 1,614kg"
-    calc: "Same brochure row: L3H2 4.0T min 1 210, max 1 614 = 1,210 to 1,614kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "2,000kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "towing capacity of up to 2000kg"
   - claim: "1,500kg"
-    calc: "Interstar brochure, Panel Van EV weights, prints \"Max towing capacity - braked 2 000 1 500 2 000 1 500\" with a space as the thousands separator. 4.0T versions: 1 500 = 1,500kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max towing capacity - braked 2 000 1 500 2 000 1 500"
   - claim: "750kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "Max towing capacity - braked 2 000 1 500 2 000 1 500 Max towing capacity - unbraked 750 750 750 750"
   - claim: "5,500kg"
-    calc: "Interstar brochure, Panel Van EV weights, prints \"Gross combination weight 5 500 5 500 5 500 5 500\" with a space as the thousands separator: 5 500 = 5,500kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Gross combination weight 5 500 5 500 5 500 5 500"
   - claim: "3,225mm"
-    calc: "Interstar brochure, panel van dimensions (mm), prints \"Load area length (at floor) 3 225 3 855 3 855\" (L2H2, L3H2, L3H3) with a space as the thousands separator. L2H2: 3 225 = 3,225mm"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Load area length (at floor) 3 225 3 855 3 855"
   - claim: "3,855mm"
-    calc: "Same brochure row: L3H2 3 855 = 3,855mm"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Load area length (at floor) 3 225 3 855 3 855"
   - claim: "1,380mm"
-    calc: "Interstar brochure, panel van dimensions (mm), prints \"Load area width between wheel arches 1 380 1 380 1 380\" with a space as the thousands separator: 1 380 = 1,380mm"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Load area width between wheel arches 1 380 1 380 1 380"
   - claim: "1,789mm"
-    calc: "Interstar brochure, panel van dimensions (mm), prints \"Load area width at widest point 1 789 1 789 1 789\" with a space as the thousands separator: 1 789 = 1,789mm"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Load area width at widest point 1 789 1 789 1 789"
   - claim: "1,885mm"
-    calc: "Interstar brochure, panel van dimensions (mm), prints \"Load area height 1 885 1 885 2 138\" (L2H2, L3H2, L3H3) with a space as the thousands separator: 1 885 = 1,885mm for both H2 vans"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Load area height 1 885 1 885 2 138"
   - claim: "10.8m³"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "Cargo area volume (m3) 10.8 13.0 14.8"
