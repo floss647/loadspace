@@ -248,7 +248,7 @@ equipment:
             quote: "80MPH Speed Limiter (160kW BEV)"
       - name: "Cab and comfort"
         items:
-          - text: "Heated driver seat and heated two-seat passenger bench with tray table (seat pack 46, replaces 11A)"
+          - text: "Heated driver seat and heated two-seat passenger bench with tray table (seat pack 46, replaces the Trend seats)"
             quote: "Limited Comfort Dual Passenger Seat - Seat Pack 46"
           - text: "Barlo Black Onyx fabric upholstery (replaces Black Onyx)"
             quote: "Barlo Black Onyx Fabric"
@@ -284,7 +284,7 @@ equipment:
             quote: "Locking Wheel Lug Nuts D5EAD D3JDF - S S S S"
       - name: "Cab and comfort"
         items:
-          - text: "Heated driver seat and heated two-seat passenger bench with tray table (seat pack 36, replaces 11A)"
+          - text: "Heated driver seat and heated two-seat passenger bench with tray table (seat pack 36, replaces the Trend seats)"
             quote: "Trail Complete Dual Passenger Seat - Seat Pack 36"
           - text: "Windsor Style Black Onyx fabric upholstery (replaces Black Onyx)"
             quote: "Windsor Style Black Onyx Fabric"
@@ -322,7 +322,7 @@ equipment:
             quote: "Side Mounted Airbags"
       - name: "Cab and comfort"
         items:
-          - text: "Heated power 6-way driver seat with power lumbar support (seat pack 52, replaces 46)"
+          - text: "Heated power-adjustable driver seat with power lumbar support (seat pack 52, replaces the Limited seats)"
             quote: "Sport Complete + Dual Passenger Seat - Seat Pack 52"
           - text: "Ripple Style upholstery with Digital Aqua accents"
             quote: "Ripple Style with Digital Aqua Accents"
@@ -342,7 +342,7 @@ equipment:
             quote: "Full Height Polypro Interior Trim Panels"
       - name: "Exterior"
         items:
-          - text: "17-inch Sport matte black alloy wheels (replaces 16-inch)"
+          - text: "17-inch Sport matte black alloy wheels (replace the Limited alloys)"
             quote: "Sport 17\" Directional-Spoke Wheel in Matte Black"
           - text: "Tyre repair kit"
             quote: "Tyre Repair Kit"
@@ -356,7 +356,7 @@ equipment:
     groups:
       - name: "Cab and comfort"
         items:
-          - text: "MS-RT eco leather seats, heated power 6-way driver seat and heated passenger bench (seat pack 34, replaces 52)"
+          - text: "MS-RT eco leather seats with heated power-adjustable driver seat and heated passenger bench (seat pack 34, replaces the Sport seats)"
             quote: "MS-RT Premium non animal Eco Leather Dual Passenger Seat - Seat Pack 34"
           - text: "Heated steering wheel"
             quote: "Heated Steering Wheel"
@@ -368,7 +368,7 @@ equipment:
             quote: "Ambient Interior Lighting"
       - name: "Exterior"
         items:
-          - text: "19-inch MS-RT multi-spoke alloy wheels in Carbonised Grey (replaces 17-inch)"
+          - text: "19-inch MS-RT multi-spoke alloy wheels in Carbonised Grey (replace the Sport alloys)"
             quote: "MS-RT 19\" multi-spoke alloy wheel in Carbonised Grey"
           - text: "235/50 R19 tyres"
             quote: "235/50 R19C 111/109T"
@@ -1041,15 +1041,15 @@ options:
         price: "£25"
         note: "All trims"
         quote: "Rear Power Point Plug J3FAB O O O O O 25 30"
-      - name: "H8 single AGM 12V battery"
+      - name: "H8 single AGM battery"
         price: "£125"
         note: "All trims"
         quote: "H8 Single AGM Battery HTABG O O O O O 125 150"
-      - name: "H7 dual AGM 12V batteries"
+      - name: "H7 dual AGM batteries"
         price: "£200"
         note: "All trims"
         quote: "H7 Dual AGM Battery HTAAC O O O O O 200 240"
-      - name: "H8 dual AGM 12V batteries"
+      - name: "H8 dual AGM batteries"
         price: "£250"
         note: "All trims"
         quote: "H8 Dual AGM Battery HTAAZ O O O O O 250 300"

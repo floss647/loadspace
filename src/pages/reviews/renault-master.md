@@ -44,14 +44,14 @@ facts:
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
   - claim: "285 miles"
     archive: sources/renault-master-van-brochure-2026-06.pdf
-    quote: "range 87 kWh battery: · up to 285 miles(1)(2) of range"
+    quote: "up to 285 miles(1)(2) of range"
   - claim: "285 miles"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "The electric Master E-Tech is fitted with an 87kWh battery (up from 57kWh in the older version), which provides up to 285 miles of range"
   - claim: "285 official miles"
     source: https://www.autoexpress.co.uk/renault/master/367224/electric-van-year-2025-renault-master-e-tech
     quote: "introduces an 87kWh battery that delivers a range of up to 285 miles"
-  - claim: "285 official miles"
+  - claim: "official miles"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "(2) measurement at the socket in the WLTP cycle"
   - claim: "285-mile official range"
@@ -66,7 +66,7 @@ facts:
   - claim: "130kW"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "The battery can be DC rapid-charged at speeds of up to 130kW"
-  - claim: "1,606 kg (4.0-tonne L2H2 van)"
+  - claim: "1,606 kg"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "max payload (kg) 1606 1499 1488"
   - claim: "1,606 kg (4.0-tonne L2H2 van)"
@@ -171,13 +171,13 @@ facts:
   # Range and charging
   - claim: "Renault quotes an official (WLTP) range of up to 285 miles"
     archive: sources/renault-master-van-brochure-2026-06.pdf
-    quote: "range 87 kWh battery: · up to 285 miles(1)(2) of range"
+    quote: "up to 285 miles(1)(2) of range"
   - claim: "Renault quotes an official (WLTP) range"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "(2) measurement at the socket in the WLTP cycle"
   - claim: "based on the 4.0-tonne L2H2 van"
     calc: "Renault's brochure footnote to the 285-mile figure reads '(1) on the L2H2 E-Tech 100% electric version - 87 kWh - 4 tonnes': 4 tonnes = the 4.0-tonne van"
-  - claim: "based on the 4.0-tonne L2H2 van"
+  - claim: "L2H2 van"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "(1) on the L2H2 E-Tech 100% electric version – 87 kWh – 4 tonnes"
   - claim: "the 3.5-tonne vans you're more likely to buy go less far"
@@ -349,13 +349,13 @@ facts:
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
   - claim: "(3.5-tonne L2H2)"
     calc: "Renault's brochure (p21) lists the L2H2 as the 'MM35 and MM40 versions', and the price guide's E-Tech footnote describes the grant for 'large vans weighting between 2.5-3.5 tonnes'; MM35 is the 3,500kg (3.5-tonne) L2H2 and MM40 the 4,000kg (4.0-tonne) one, matching Renault's 255 miles (N1) and 285 miles (N2, 4 tonnes) range split"
-  - claim: "(3.5-tonne L2H2)"
+  - claim: "L2H2) E-Tech Advance"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "L2H2 L3H2 L3H3 MM35 and MM40 LM35 and LM40 LH35 and LH40"
   - claim: "E-Tech Advance, or £47,115 on the road after the £5,000 van grant"
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
-  - claim: "The 4.0-tonne MM40 is £45,500 before VAT"
+  - claim: "MM40 is £45,500 before VAT"
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM40 Panel Van E-Tech Advance MY24 0 Electric 0.0 £45,500 £9,100 £54,600 £5,000 £360 £50,715"
   - claim: "The 4.0-tonne MM40"
