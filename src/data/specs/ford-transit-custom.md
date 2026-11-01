@@ -33,7 +33,7 @@ tables:
   - title: "Load space"
     head: ["", "SWB (L1H1)", "LWB (L2H1)"]
     rows:
-      - ["Load length (at floor)", "2,602mm", "3,002mm"]
+      - ["Maximum load length", "2,602mm", "3,002mm"]
       - ["Load length (through bulkhead)", "3,050mm", "3,450mm"]
       - ["Maximum load width", "1,777mm", "1,777mm"]
       - ["Width between wheel arches", "1,392mm", "1,392mm"]
@@ -62,7 +62,7 @@ tables:
       - ["Maximum braked towing", "2,300kg"]
       - ["Gross train weight", "5,350kg"]
       - ["Vehicle warranty", "3 years or 100,000 miles"]
-notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans and an 80mph limiter to 160kW vans as standard.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "The Trail version comes with all-wheel drive only."]
+notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans as standard. An 80mph limiter is standard on Limited and Sport vans with the 160kW motor, but only an option on the Trail.", "Ford's performance table gives the 160kW motor a top speed of 81mph, but on Limited and Sport vans the standard 80mph limiter applies.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "Ford's price list doesn't print a unit beside its range figures. They are in miles: Ford's UK website quotes up to 230 miles, the top figure in the price list.", "The Trail version comes with all-wheel drive only."]
 versions:
   - name: "SWB (L1H1), RWD, 3,225kg"
     figures:
@@ -192,7 +192,7 @@ equipment:
             quote: "Max Power 125kW"
           - text: "11kW three-phase AC charging"
             quote: "7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered)"
-          - text: "Supplied without a charging cable"
+          - text: "Supplied without a charging cable as standard"
             quote: "Removal of Battery Charge Cord - BEV Only HTSAE S S S S S - -"
           - text: "H7 single AGM 12V battery"
             quote: "H7 Single AGM 12V Battery"
@@ -238,9 +238,9 @@ equipment:
             quote: "Front Window Defroster (Quick Clear)"
           - text: "Automatic wipers"
             quote: "Automatic Windshield Wiper"
-          - text: "Front mud flaps"
+          - text: "Front mud flaps (not on Sport or MS-RT)"
             quote: "Front Splash Guards/Mud Flaps"
-          - text: "Rear mud flaps"
+          - text: "Rear mud flaps (not on MS-RT)"
             quote: "Rear Splash Guards/Mud Flaps"
           - text: "Heated, electrically adjustable black door mirrors"
             quote: "Dual Power Heated Signal Mirrors - Black BSHDJ S"
@@ -274,9 +274,9 @@ equipment:
         items:
           - text: "16-inch Sparkle Silver alloy wheels (replaces steel wheels)"
             quote: "16\" Alloy Wheels in Sparkle Silver D2XCH D3JDF O S"
-          - text: "Body-coloured front and rear bumpers"
+          - text: "Body-coloured front and rear bumpers (replace the partly body-coloured bumpers)"
             quote: "Body Colour Front Bumper 16\" Alloy Wheel Body Colour Rear Bumper"
-          - text: "Heated door mirrors with auto power fold, in body colour"
+          - text: "Heated door mirrors with auto power fold, in body colour (replace the Trend mirrors)"
             quote: "Dual Heated Exterior Mirrors - Auto Power Fold Body Colour Exterior Mirrors"
           - text: "Chrome grille (replaces black grille)"
             quote: "Signature BEV Chrome Grille (BEV Only)"
@@ -314,11 +314,11 @@ equipment:
             quote: "Temporary Spare Wheel (AWD Only)"
           - text: "Coast-to-coast light bar"
             quote: "Coast-to-Coast Light Bar (BEV Only)"
-          - text: "Heated door mirrors with auto power fold"
+          - text: "Heated door mirrors with auto power fold (replace the Trend mirrors)"
             quote: "Dual Heated Exterior Mirrors - Auto Power Fold"
           - text: "Gloss black door mirrors"
             quote: "Gloss Black Exterior Mirrors"
-          - text: "Unpainted rear bumper"
+          - text: "Unpainted rear bumper (replaces the partly body-coloured rear bumper)"
             quote: "Self Colour Rear Bumper"
   - trim: "Sport (adds to Limited)"
     groups:
@@ -332,7 +332,7 @@ equipment:
         items:
           - text: "Heated power-adjustable driver seat with power lumbar support (seat pack 52, replaces the Limited seats)"
             quote: "Sport Complete + Dual Passenger Seat - Seat Pack 52"
-          - text: "Ripple Style upholstery with Digital Aqua accents"
+          - text: "Ripple Style upholstery with Digital Aqua accents (replaces Barlo Black Onyx)"
             quote: "Ripple Style with Digital Aqua Accents"
           - text: "Dual-zone automatic air conditioning (replaces automatic air conditioning)"
             quote: "Dual Zone Automatic Air Condition"
@@ -350,8 +350,8 @@ equipment:
             quote: "Full Height Polypro Interior Trim Panels"
       - name: "Exterior"
         items:
-          - text: "17-inch Sport matte black alloy wheels (replace the Limited alloys)"
-            quote: "Sport 17\" Directional-Spoke Wheel in Matte Black"
+          - text: "17-inch Sport matte black alloy wheels with 215/60 R17 tyres (replace the Limited wheels and tyres)"
+            quote: "Sport 17\" Directional-Spoke Wheel in Matte Black D2YDQ D3KFX - - - S - - - 215/60 R17C 109T"
           - text: "Tyre repair kit"
             quote: "Tyre Repair Kit"
           - text: "Bonnet accent stripes"
@@ -405,7 +405,7 @@ options:
         quote: "Delivery Assist Pack - Automatic Transmission only Keyless Entry/Start, Soft Close Assist 1 Touch Power Front Windows CBGAL Configurable automation of high frequency microtasks: AAEAZ A6AQH O - - - - 500 600 Applies Handbrake B2CAF Turns off Engine Closes Windows Turns on Hazard Lights Locks vehicle on departure"
       - name: "Cab as Office pack with tilting steering wheel"
         price: "£500"
-        note: "Trend, Limited, Trail and Sport; not with the heated steering wheel"
+        note: "Trend, Limited, Trail and Sport; on Trend it also needs a single passenger seat at extra cost; not with the heated steering wheel"
         quote: "Cab as Office - Tilting Steering Wheel: Tilting Sensico Steering Wheel, tipped for work or flat for lunch Enhanced Cab Lighting Additional USB Connections GRAAC Laptop/Tablet stowage between seats AGJAC IEDAB O* O O O - 500 600 AMPS Accessory Docking Not available with heated steering wheel."
       - name: "Cab as Office pack with fixed steering wheel"
         price: "£250"
@@ -563,7 +563,7 @@ options:
         quote: "MS-RT Premium non animal Eco Leather Single Passenger Seat - Seat Pack 25 BYPAC/BY1AL Auto-heated power 6-way adjustable driver seat BYQAD/BY2AL Auto-heated manual 4-way adjustable passenger seats BVFA2 BVNAD/BVPAD - - - - O 100 120"
       - name: "Heated Sensico steering wheel"
         price: "£200"
-        note: "Needs heated seats; standard on MS-RT"
+        note: "Needs heated seats; on Trend it also needs a single passenger seat at extra cost; standard on MS-RT"
         quote: "Heated, Fixed Sensico Steering Wheel Requires heated seat GTBAB O* O O O S 200 240"
       - name: "Dual-zone automatic air conditioning with PTC heater"
         price: "£300"
@@ -787,7 +787,7 @@ options:
         quote: "70MPH Engine Governor *Standard for 100kW BEV. DCFAF O/S* O/S* O O O/-** 65 78 **N/A for 210kW BEV"
       - name: "80mph speed limiter"
         price: "£65"
-        note: "Standard on 160kW vans; not on 100kW vans"
+        note: "Standard on Limited and Sport 160kW vans; optional on Trail and MS-RT; not on 100kW vans"
         quote: "80 MPH Engine Governor DCFAT O O/S* O O/S* O 65 78 *Standard for 160kW BEV. N/A for 100kW BEV"
       - name: "Restricted acceleration, to make the most of range"
         price: "£50"
@@ -819,7 +819,7 @@ options:
         quote: "2.3kW Pro Power on Board Available on PHEV and BEV, Pro Power Onboard delivers 2.3 kW of exportable energy, allowing you to power your tools without the need for a separate generator. HUKAL O O - O O 850 1020"
       - name: "400W inverter (3-pin plug, at the front)"
         price: "£150"
-        note: "All trims"
+        note: "All trims; Ford notes that it adds a single passenger seat"
         quote: "400W inverter (3 pin plug, positioned at front of vehicle) *Adds single passenger Seat (BVFA9). Dual Passenger Seat is available at extra cost HUKAJ O O O O O 150 180"
       - name: "Rear power point"
         price: "£25"
@@ -902,6 +902,9 @@ options:
         note: "Trail only"
         quote: "Roof Rails BLYA3 - - O - - 150 180"
 facts:
+  - claim: "up to 230 miles"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "All-electric driving range of up to 230 miles"
   - claim: "230 miles"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
