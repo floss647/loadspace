@@ -36,6 +36,12 @@ News stories alone aren't enough: the site's own pages must match. In the same b
 3. **Photos.** A new model needs a licensed photo of the right vehicle (panel van, electric, UK plates preferred). If none exists, leave it without a photo and say so in the PR.
 4. Mention every line-up and review change in the PR body under a heading "Site pages updated", with sources.
 
+## Alert the editor about new vans
+Whenever you spot an electric van, pickup or truck on UK sale (or newly announced for the UK) that isn't on the site yet, alert the editor, whether or not you added it in this run:
+1. Check for an existing open issue first: `gh api "repos/floss647/loadspace/issues?labels=new-van&state=open" --jq '.[].title'`. Don't duplicate one.
+2. Open an issue: `gh api repos/floss647/loadspace/issues -X POST -f title="New van to add: <Make Model>" -f body=@issue.md -f "labels[]=new-van"`. The body: what it is (size, battery, range, price if confirmed), whether it's on UK sale now or only announced, the sources you opened, whether we have a licensed photo, and what's needed to add it (e.g. a maker price list). End with: "Reply in the chat with 'add <Make Model>' and it will be added and reviewed."
+3. Start your final message with "New van spotted: <names>." so the phone notification shows it.
+
 ## Hand to the editor
 - Create a branch `news/<yyyy-mm-dd>`, commit (author: Adrian <adrian@allspeechesgreatandsmall.com>), push, and open a pull request titled "News: <headlines>". `gh pr create` won't work (GraphQL is blocked); use the REST API: `gh api repos/floss647/loadspace/pulls -X POST -f title=... -f head=news/<date> -f base=main -F body=@pr.md`.
 - PR body: for each story, the headline, a 2-line summary, the primary sources, and anything the checker flagged and how it was resolved. Say clearly what the editor should look at.

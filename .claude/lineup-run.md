@@ -17,6 +17,12 @@ For every model in `src/data/vans.js` (electric ones: `electric: true`) and `src
 
 Many maker sites block automated visits (Vauxhall, Citroën, Peugeot, Fiat, Mercedes UK, Maxus). Don't try to get round blocks: list what you couldn't check and which document the editor could download to fill the gap.
 
+## Alert the editor about new vans
+Whenever you spot an electric van, pickup or truck on UK sale (or newly announced for the UK) that isn't on the site yet, alert the editor, whether or not you added it in this run:
+1. Check for an existing open issue first: `gh api "repos/floss647/loadspace/issues?labels=new-van&state=open" --jq '.[].title'`. Don't duplicate one.
+2. Open an issue: `gh api repos/floss647/loadspace/issues -X POST -f title="New van to add: <Make Model>" -f body=@issue.md -f "labels[]=new-van"`. The body: what it is (size, battery, range, price if confirmed), whether it's on UK sale now or only announced, the sources you opened, whether we have a licensed photo, and what's needed to add it (e.g. a maker price list). End with: "Reply in the chat with 'add <Make Model>' and it will be added and reviewed."
+3. Start your final message with "New van spotted: <names>." so the phone notification shows it.
+
 ## Checks
 Run `NODE_USE_ENV_PROXY=1 npm run check-news:live` and `npm run build`. Both must pass.
 
