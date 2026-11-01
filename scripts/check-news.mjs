@@ -155,12 +155,19 @@ function checkOffline(slug, fm, body, isBlog) {
     const doc = fm.archive ? archiveProblem(fm.archive) : 'equipment/options need a file-level archive: sources/<file>';
     if (doc) errs.push(doc);
     else {
-      const src = norm(archiveText(fm.archive));
+      let src = null;
+      try { src = norm(archiveText(fm.archive)); } catch (e) {
+        // Netlify's build machines don't have pdftotext. The GitHub check (which merges depend on) does,
+        // so there a missing tool is an error; elsewhere we skip just the quote lookup.
+        if (process.env.GITHUB_ACTIONS || LIVE) errs.push(`couldn't read ${fm.archive} (${e.message})`);
+        else console.warn(`  (skipped quote lookup for ${slug}: pdftotext not available)`);
+      }
+      if (src === null) { /* numbers in each item are still checked against their own quote below */ }
       const plainNum = (n) => n.replace(/,(?=\d{3}\b)/g, '').replace(/\.0+$/, '');
       for (const it of listItems) {
         if (!it.text || !it.quote) { errs.push(`${it.where}: item needs text and a quote (${it.text || 'no text'})`); continue; }
         if (/\u2014/.test(it.text)) errs.push(`${it.where}: em dash in "${it.text}"`);
-        if (!src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${fm.archive}: "${it.quote}"`); continue; }
+        if (src !== null && !src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${fm.archive}: "${it.quote}"`); continue; }
         const qn = new Set(nums(it.quote).map(plainNum));
         const miss = nums(it.text).filter((n) => !qn.has(plainNum(n)));
         if (miss.length) errs.push(`${it.where}: number(s) ${miss.join(', ')} in "${it.text}" not in its quote`);
