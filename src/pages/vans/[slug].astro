@@ -29,7 +29,6 @@ const figs = review ? [
   ['Official range', review.specs?.range],
   ['Rapid charging', review.specs?.charging],
   ['Max payload', review.specs?.payload],
-  ['Price from', review.price?.confirmed ? review.price.value : null],
 ].filter(([, v]) => conf(v)).map(([k, v]) => [k, short(v)]) : [];
 const checks = [
   ['Battery health', "Ask for a battery health (State of Health) certificate and check what's left of the battery warranty."],
