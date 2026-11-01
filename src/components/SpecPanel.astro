@@ -1,0 +1,92 @@
+---
+// Neat spec display for a van page: pick a version, see the key figures as tiles,
+// with the full checked tables tucked behind "View full specs".
+const { specs } = Astro.props;
+const LABELS = {
+  range: 'Official range', battery: 'Battery', payload: 'Payload', volume: 'Load volume',
+  loadLength: 'Load length', loadHeight: 'Load height', loadWidth: 'Width between wheel arches',
+  gross: 'Gross weight', towing: 'Towing (braked)', topSpeed: 'Top speed', rapidTime: 'Rapid charge, 10 to 80%',
+  rapid: 'Rapid charging', ac: 'Home and depot charging', warranty: 'Battery warranty', train: 'Gross train weight',
+};
+// Simple line icons, drawn in currentColor.
+const ICONS = {
+  range: '<path d="M4 18h16M6 18l3-12h6l3 12M12 6v3m0 3v2"/>',
+  battery: '<rect x="3" y="7" width="16" height="10" rx="2"/><path d="M21 11v2M7 10v4m4-4v4"/>',
+  payload: '<path d="M6 9h12l2 11H4L6 9z"/><path d="M9 9a3 3 0 0 1 6 0"/>',
+  volume: '<path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/>',
+  loadLength: '<path d="M3 12h18M6 9l-3 3 3 3M18 9l3 3-3 3"/>',
+  loadHeight: '<path d="M12 3v18M9 6l3-3 3 3M9 18l3 3 3-3"/>',
+  loadWidth: '<path d="M4 6v12M20 6v12M7 12h10M9 10l-2 2 2 2M15 10l2 2-2 2"/>',
+  gross: '<path d="M5 20h14l-2-11H7L5 20z"/><circle cx="12" cy="6" r="2"/>',
+  towing: '<circle cx="8" cy="16" r="3"/><path d="M11 16h6V8M14 11l3-3 3 3"/>',
+  topSpeed: '<path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4-5"/>',
+  rapidTime: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M10 2h4"/>',
+  rapid: '<path d="M13 2L5 14h6l-1 8 8-12h-6l1-8z"/>',
+  ac: '<path d="M3 11l9-7 9 7v9H3v-9z"/><path d="M13 10l-3 4h3l-1 3"/>',
+  warranty: '<path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/>',
+  train: '<rect x="2" y="9" width="11" height="7" rx="1"/><rect x="15" y="10" width="7" height="6" rx="1"/><path d="M13 13h2"/>',
+};
+const tile = (k, v) => ({ k, v, label: LABELS[k] || k, icon: ICONS[k] || ICONS.volume });
+const versions = specs.versions || [];
+const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
+---
+<section class="spec-panel" id="specs">
+  <h2>Specs</h2>
+  {versions.length > 1 && (
+    <div class="spec-tabs" role="tablist" aria-label="Choose a version">
+      {versions.map((v, i) => (
+        <button type="button" role="tab" class="spec-tab" aria-selected={i === 0 ? 'true' : 'false'} data-i={i}>{v.name}</button>
+      ))}
+    </div>
+  )}
+  {versions.map((v, i) => (
+    <ul class="spec-tiles" role="tabpanel" data-i={i} hidden={i !== 0}>
+      {Object.entries(v.figures).map(([k, val]) => tile(k, val)).map((t) => (
+        <li>
+          <span class="spec-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" set:html={t.icon} /></span>
+          <span><span class="spec-label">{t.label}</span><strong>{t.v}</strong></span>
+        </li>
+      ))}
+    </ul>
+  ))}
+  {shared.length > 0 && (
+    <>
+      <h3 class="spec-sub">Charging and battery, all versions</h3>
+      <ul class="spec-tiles">
+        {shared.map((t) => (
+          <li>
+            <span class="spec-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" set:html={t.icon} /></span>
+            <span><span class="spec-label">{t.label}</span><strong>{t.v}</strong></span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+  <details class="spec-full">
+    <summary>View full specs</summary>
+    {specs.tables.map((t) => (
+      <>
+        <h3 class="spec-title">{t.title}</h3>
+        <div class="table-wrap">
+          <table class="spec-table">
+            {t.head.some((h) => h) && <thead><tr>{t.head.map((h) => <th scope="col">{h}</th>)}</tr></thead>}
+            <tbody>{t.rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+          </table>
+        </div>
+      </>
+    ))}
+  </details>
+  <ul class="spec-notes small muted">
+    {specs.notes?.map((n) => <li>{n}</li>)}
+    <li>Source: {specs.sourceLabel}. Every figure is checked against the maker's document before we publish it.</li>
+  </ul>
+</section>
+<script>
+  document.querySelectorAll('.spec-panel').forEach((panel) => {
+    const tabs = panel.querySelectorAll('.spec-tab');
+    tabs.forEach((tab) => tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.setAttribute('aria-selected', String(t === tab)));
+      panel.querySelectorAll('.spec-tiles[data-i]').forEach((p) => { p.hidden = p.dataset.i !== tab.dataset.i; });
+    }));
+  });
+</script>

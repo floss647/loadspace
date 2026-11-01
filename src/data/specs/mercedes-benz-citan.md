@@ -30,6 +30,40 @@ notes:
   - "Mercedes says the range figures are preliminary values, measured in-house using the WLTP method and not yet officially certified."
   - "These come from the latest price list we hold. Mercedes may have changed some figures since, so check with the dealer."
   - "Payload depends on the options fitted, so ask the dealer for the figure for the exact van you order."
+versions:
+  - name: "L1 van"
+    figures:
+      range: "175 to 176 miles"
+      payload: "428 to 448kg"
+      volume: "2.9m³"
+      loadLength: "1,806mm"
+      loadHeight: "1,256mm"
+      loadWidth: "1,260mm"
+      gross: "2,230kg"
+  - name: "L2 van"
+    figures:
+      range: "165 to 168 miles"
+      payload: "593 to 616kg"
+      volume: "3.62m³"
+      loadLength: "2,170mm"
+      loadHeight: "1,256mm"
+      loadWidth: "1,260mm"
+      gross: "2,490kg"
+  - name: "L2 crew van"
+    figures:
+      range: "162 miles"
+      payload: "634kg"
+      volume: "3.25m³"
+      loadLength: "1,390mm"
+      loadHeight: "1,256mm"
+      loadWidth: "1,260mm"
+      gross: "2,580kg"
+shared:
+  battery: "45kWh"
+  rapid: "Up to 75kW"
+  rapidTime: "38 minutes"
+  ac: "Up to 22kW"
+  warranty: "8 years or 100,000 miles"
 factCheck:
   by: "independent fact-checker"
   date: 2026-11-01

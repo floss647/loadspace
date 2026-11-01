@@ -100,7 +100,9 @@ function storyText(fm, body) {
   const specs = fm.specs && typeof fm.specs === 'object' ? Object.values(fm.specs) : [];
   // Spec tables (src/data/specs): every heading and cell counts as text to check.
   const tables = Array.isArray(fm.tables) ? fm.tables.flatMap((t) => [t.title, ...(t.head || []), ...(t.rows || []).flat()]) : [];
-  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, fm.sourceLabel, ...(fm.good || []), ...(fm.bad || []), ...specs, ...tables, ...(fm.notes || []), clean].filter(Boolean).join('\n');
+  const versions = Array.isArray(fm.versions) ? fm.versions.flatMap((v) => [v.name, ...Object.values(v.figures || {})]) : [];
+  const shared = fm.shared && typeof fm.shared === 'object' ? Object.values(fm.shared) : [];
+  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, fm.sourceLabel, ...versions, ...shared, ...(fm.good || []), ...(fm.bad || []), ...specs, ...tables, ...(fm.notes || []), clean].filter(Boolean).join('\n');
 }
 
 function checkOffline(slug, fm, body, isBlog) {

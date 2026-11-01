@@ -1,5 +1,6 @@
 ---
 import { specsFor } from '../../lib/specs.js';
+import SpecPanel from '../../components/SpecPanel.astro';
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
 import Cta from '../../components/Cta.astro';
@@ -81,26 +82,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       </div>
       <p class="small"><a href="/guides/charging-an-electric-van/">How charging works →</a></p>
 
-      {specs && (
-        <>
-          <h2 id="specs">Specs</h2>
-          {specs.tables.map((t) => (
-            <>
-              <h3 class="spec-title">{t.title}</h3>
-              <div class="table-wrap">
-                <table class="spec-table">
-                  {t.head.some((h) => h) && <thead><tr>{t.head.map((h) => <th scope="col">{h}</th>)}</tr></thead>}
-                  <tbody>{t.rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
-                </table>
-              </div>
-            </>
-          ))}
-          <ul class="spec-notes small muted">
-            {specs.notes?.map((n) => <li>{n}</li>)}
-            <li>Source: {specs.sourceLabel}. Every figure is checked against the maker's document before we publish it.</li>
-          </ul>
-        </>
-      )}
+      {specs && <SpecPanel specs={specs} />}
 
       {evTwins.length > 0 && (
         <>
