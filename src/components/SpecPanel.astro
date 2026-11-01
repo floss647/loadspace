@@ -29,9 +29,20 @@ const ICONS = {
 const tile = (k, v) => ({ k, v, label: LABELS[k] || k, icon: ICONS[k] || ICONS.volume });
 const versions = specs.versions || [];
 const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
+const equipment = (specs.equipment || []).filter((t) => t.groups?.length);
+const options = (specs.options || []).filter((c) => c.items?.length);
+const SHOW = 6;
+const anchor = (s) => 'spec-' + s;
 ---
 <section class="spec-panel" id="specs">
   <h2>Specs</h2>
+  <nav class="spec-nav" aria-label="Spec sections">
+    <a href="#spec-overview">Overview</a>
+    {equipment.length > 0 && <a href="#spec-equipment">Standard equipment</a>}
+    {options.length > 0 && <a href="#spec-options">Optional extras</a>}
+    <a href="#spec-full">Full specs</a>
+  </nav>
+  <h3 class="spec-sub" id="spec-overview">Overview{versions.length > 1 ? ': choose a version' : ''}</h3>
   {versions.length > 1 && (
     <div class="spec-tabs" role="tablist" aria-label="Choose a version">
       {versions.map((v, i) => (
@@ -51,7 +62,7 @@ const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
   ))}
   {shared.length > 0 && (
     <>
-      <h3 class="spec-sub">Charging and battery, all versions</h3>
+      <h3 class="spec-sub">Charging and battery{versions.length > 1 ? ', all versions' : ''}</h3>
       <ul class="spec-tiles">
         {shared.map((t) => (
           <li>
@@ -62,7 +73,46 @@ const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
       </ul>
     </>
   )}
-  <details class="spec-full">
+  {equipment.length > 0 && (
+    <div class="spec-block" id="spec-equipment">
+      <h3 class="spec-sub">Standard equipment</h3>
+      {equipment.length > 1 && (
+        <div class="spec-tabs" role="tablist" aria-label="Choose a trim">
+          {equipment.map((t, i) => <button type="button" role="tab" class="spec-tab trim-tab" aria-selected={i === 0 ? 'true' : 'false'} data-t={i}>{t.trim}</button>)}
+        </div>
+      )}
+      {equipment.map((t, i) => (
+        <div class="trim-panel" data-t={i} hidden={i !== 0}>
+          {t.groups.map((g) => (
+            <div class="feat-group">
+              <h4>{g.name}</h4>
+              <ul class="feat-list">
+                {g.items.map((it, n) => <li hidden={n >= SHOW} data-more={n >= SHOW ? '' : undefined}>{it.text}</li>)}
+              </ul>
+              {g.items.length > SHOW && <button type="button" class="link-btn view-all">View all {g.items.length}</button>}
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  )}
+  {options.length > 0 && (
+    <div class="spec-block" id="spec-options">
+      <h3 class="spec-sub">Optional extras</h3>
+      <p class="small muted">List prices from the maker, excluding VAT. On a lease, options are added to the monthly cost.</p>
+      {options.map((c) => (
+        <details class="opt-cat">
+          <summary><span>{c.category}</span><span class="opt-count">{c.items.length} {c.items.length === 1 ? 'option' : 'options'}</span></summary>
+          <ul class="opt-list">
+            {c.items.map((it) => (
+              <li><span><strong>{it.name}</strong>{it.note && <span class="small muted">{it.note}</span>}</span><span class="opt-price">{it.price}</span></li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </div>
+  )}
+  <details class="spec-full" id="spec-full">
     <summary>View full specs</summary>
     {specs.tables.map((t) => (
       <>
@@ -83,10 +133,20 @@ const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
 </section>
 <script>
   document.querySelectorAll('.spec-panel').forEach((panel) => {
-    const tabs = panel.querySelectorAll('.spec-tab');
+    const tabs = panel.querySelectorAll('.spec-tab:not(.trim-tab)');
     tabs.forEach((tab) => tab.addEventListener('click', () => {
       tabs.forEach((t) => t.setAttribute('aria-selected', String(t === tab)));
       panel.querySelectorAll('.spec-tiles[data-i]').forEach((p) => { p.hidden = p.dataset.i !== tab.dataset.i; });
     }));
+    const trims = panel.querySelectorAll('.trim-tab');
+    trims.forEach((tab) => tab.addEventListener('click', () => {
+      trims.forEach((t) => t.setAttribute('aria-selected', String(t === tab)));
+      panel.querySelectorAll('.trim-panel').forEach((p) => { p.hidden = p.dataset.t !== tab.dataset.t; });
+    }));
+    panel.querySelectorAll('.view-all').forEach((btn) => btn.addEventListener('click', () => {
+      btn.previousElementSibling.querySelectorAll('[data-more]').forEach((li) => { li.hidden = false; });
+      btn.remove();
+    }));
+    panel.querySelectorAll('.spec-nav a[href="#spec-full"]').forEach((a) => a.addEventListener('click', () => { panel.querySelector('#spec-full').open = true; }));
   });
 </script>

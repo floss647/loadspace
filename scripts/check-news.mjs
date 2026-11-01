@@ -145,6 +145,29 @@ function checkOffline(slug, fm, body, isBlog) {
     if (missing.length) errs.push(`${label}: number(s) ${missing.join(', ')} not in the quote. Quote the source exactly, or use calc for conversions.`);
   });
 
+  // Equipment and option lists (src/data/specs): each item carries its own quote from the
+  // file's saved maker document, and every number in the item must appear in that quote.
+  const listItems = [
+    ...(fm.equipment || []).flatMap((t) => (t.groups || []).flatMap((g) => (g.items || []).map((it) => ({ where: `${t.trim} / ${g.name}`, text: it.text, quote: it.quote })))),
+    ...(fm.options || []).flatMap((c) => (c.items || []).map((it) => ({ where: `options / ${c.category}`, text: [it.name, it.price, it.note].filter(Boolean).join(' '), quote: it.quote }))),
+  ];
+  if (listItems.length) {
+    const doc = fm.archive ? archiveProblem(fm.archive) : 'equipment/options need a file-level archive: sources/<file>';
+    if (doc) errs.push(doc);
+    else {
+      const src = norm(archiveText(fm.archive));
+      const plainNum = (n) => n.replace(/,(?=\d{3}\b)/g, '').replace(/\.0+$/, '');
+      for (const it of listItems) {
+        if (!it.text || !it.quote) { errs.push(`${it.where}: item needs text and a quote (${it.text || 'no text'})`); continue; }
+        if (/\u2014/.test(it.text)) errs.push(`${it.where}: em dash in "${it.text}"`);
+        if (!src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${fm.archive}: "${it.quote}"`); continue; }
+        const qn = new Set(nums(it.quote).map(plainNum));
+        const miss = nums(it.text).filter((n) => !qn.has(plainNum(n)));
+        if (miss.length) errs.push(`${it.where}: number(s) ${miss.join(', ')} in "${it.text}" not in its quote`);
+      }
+    }
+  }
+
   const uncovered = [...new Set(nums(text))].filter((n) => !covered.has(n));
   if (uncovered.length) errs.push(`numbers in the story with no fact behind them: ${uncovered.join(', ')}`);
   return errs;
