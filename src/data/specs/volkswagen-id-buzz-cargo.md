@@ -176,7 +176,7 @@ equipment:
             quote: "Tailgate latching without unlatching function from inside"
       - name: "Exterior"
         items:
-          - text: "18-inch black steel wheels with silver wheel trims (19-inch 'Tilburg' alloys on 4MOTION)"
+          - text: "18-inch black steel wheels with silver wheel trims"
             quote: "Black steel wheels, 8J x 18 front, 8.5J x 18 rear with silver wheel trim"
           - text: "19-inch 'Tilburg' bi-colour alloy wheels on 4MOTION"
             quote: "19-inch ‘Tilburg’ bi-colour alloy wheels – 4MOTION only"
