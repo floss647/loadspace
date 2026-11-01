@@ -37,6 +37,7 @@ notes:
   - "Renault gives one maximum payload for each body, and links its best figure (up to 1,600kg) to the 4 tonne L2H2 van. We have not shown a payload for the 3,500kg vans, which carry less."
   - "V2L versions of the MM35, MM40, LM35 and LM40 add a 220V socket in the load area, but have an 11kW on-board AC charger instead of 22kW."
   - "Renault's rapid charging times are measured on a 150kW public charger."
+  - "Renault's price guide also lists an electric parking brake and one-touch electric front windows as standard on the Master E-Tech."
 versions:
   - name: "L2H2, 3,500kg"
     figures:
@@ -96,19 +97,60 @@ shared:
 archive: sources/renault-van-price-guide-2026-09.pdf
 equipment:
   - trim: "Advance E-Tech"
+    archive: sources/renault-master-van-brochure-2026-06.pdf
     groups:
       - name: "Safety and driver assistance"
         items:
-          - text: "Electric parking brake"
-            quote: "Electric Parking Brake o • o £150.00"
-          - text: "Spare wheel (MM40, LM40 and LH40)"
-            quote: "(14) Optional on EV 35, Standard on EV 40"
+          - text: "Automatic emergency braking"
+            quote: "• automatic emergency braking"
+          - text: "Pedestrian and cyclist detection for emergency braking (MM40 and LM40)"
+            quote: "** Pedestrian/cyclist on MM40 and LM40 only."
+          - text: "Road sign recognition and speeding alert"
+            quote: "• road sign recognition and speeding alert"
+          - text: "Rear parking sensors"
+            quote: "• rear parking sensors"
+          - text: "Dynamic braking system"
+            quote: "• dynamic braking system"
+          - text: "Anti-lock brakes"
+            quote: "• anti-lock braking system"
       - name: "Cab and comfort"
         items:
-          - text: "One-touch electric front windows, driver and passenger"
-            quote: "One touch electric front window lifter - driver and passenger side o • •"
-          - text: "Tachograph (MM40, LM40 and LH40)"
-            quote: "(4) Optional on EV 35, Standard on EV 40"
+          - text: "Manual air conditioning"
+            quote: "• manual air conditioning"
+          - text: "7-inch colour driver information display"
+            quote: "• 7\" colour TFT driver information display (E-Tech only)"
+          - text: "12V socket in the centre console"
+            quote: "• 12 V socket in central console"
+          - text: "Dark marl fabric upholstery, with a reinforced coated-textile side on the driver's seat"
+            quote: "dark grey marled fabric upholstery and reinforced driver seat side in grained coated textile"
+          - text: "Nine storage areas, 135 litres in total"
+            quote: "With nine storage areas with a total capacity of 135L"
+          - text: "66-litre storage under the front passenger seats"
+            quote: "66-litre storage compartment under front passenger seats"
+      - name: "Multimedia and connectivity"
+        items:
+          - text: "10-inch openR link multimedia system"
+            quote: "• 10” openR link multimedia system"
+      - name: "Charging and battery"
+        items:
+          - text: "87kWh battery"
+            quote: "The 87kWh battery provides a range"
+          - text: "22kW AC and 130kW DC charging"
+            quote: "comes with 22kw AC and 130 DC charging as standard"
+          - text: "11kW AC charging on V2L versions"
+            quote: "11kW AC with DC 130 for V2L specific versions"
+          - text: "Vehicle-to-load (V2L) 220V socket in the load area (V2L versions)"
+            quote: "V2L provides a 220v socket in the cargo area"
+          - text: "Mode 3 charging cable"
+            quote: "delivered with a mode 3-type cable"
+      - name: "Exterior"
+        items:
+          - text: "LED headlights with C-shaped light signature"
+            quote: "• front LED lights with C-shaped signature"
+          - text: "Automatic headlights and wipers"
+            quote: "• automatic headlights and wipers"
+          - text: "16-inch steel wheels with extended Vango protection"
+            quote: "16” steel wheel rim 16” steel wheel rims airna extended vango"
 options:
   - category: "Seats and cab"
     items:

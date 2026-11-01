@@ -58,35 +58,82 @@ shared:
 archive: sources/renault-van-price-guide-2026-09.pdf
 equipment:
   - trim: "Advance E-Tech"
-    groups:
-      - name: "Cab and comfort"
-        items:
-          - text: "Single passenger seat"
-            quote: "Single Passenger Seat"
-      - name: "Load area"
-        items:
-          - text: "Right-side sliding loading door (LL21 versions)"
-            quote: "standard on LL21"
-  - trim: "Extra E-Tech (adds to Advance E-Tech)"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
     groups:
       - name: "Safety and driver assistance"
         items:
-          - text: "Blind spot intervention with haptic feedback"
-            quote: "Blind Spot intervention with haptic feedback"
-          - text: "LED front fog lamps"
-            quote: "LED Front Fog Lamps"
+          - text: "Active emergency braking"
+            quote: "• active emergency braking"
+          - text: "Lane departure warning"
+            quote: "• lane departure warning"
+          - text: "Intelligent speed assist with traffic sign recognition"
+            quote: "• intelligent speed assist – overspeed prevention and traffic sign recognition"
+          - text: "Driver attention and drowsiness warning"
+            quote: "• driver attention and drowsiness warning"
+          - text: "Rear parking sensors"
+            quote: "• rear parking sensors"
+          - text: "Rear view camera"
+            quote: "• rear parking camera"
+          - text: "Automatic high beam assist"
+            quote: "• automatic high beam assist"
+          - text: "Tyre pressure monitoring"
+            quote: "• tyre pressure monitor"
+          - text: "Hill start assist"
+            quote: "hill start assist."
+          - text: "Wide-view mirror in the passenger sun visor"
+            quote: "wide view mirror."
       - name: "Cab and comfort"
         items:
-          - text: "Hands-free key card with keyless start, approach unlock and walk-away locking"
-            quote: "Hands Free key card with keyless start, approach unlock,"
-          - text: "Passenger bench seat with yellow-accent upholstery (replaces single passenger seat)"
-            quote: "Passenger Bench Seat with upholstery with yellow accents"
+          - text: "Automatic single-zone air conditioning"
+            quote: "• automatic monozone air conditioning (E-Tech versions only)"
+          - text: "Single passenger seat"
+            quote: "• Single passenger seat*"
+      - name: "Multimedia and connectivity"
+        items:
+          - text: "EASY LINK system with 8-inch touchscreen, DAB radio, Bluetooth and USB ports"
+            quote: "• EASY LINK display with 8” touchscreen, DAB radio, Bluetooth and USB ports"
+      - name: "Charging and battery"
+        items:
+          - text: "45kWh lithium-ion battery with cooling system"
+            quote: "45 kWh lithium-ion battery with cooling system"
+          - text: "22kW AC and 80kW DC charging"
+            quote: "AC 22kW + DC 80kW"
+          - text: "Mode 3 charging cable"
+            quote: "delivered with a mode 3-type cable"
+          - text: "Three regenerative braking modes"
+            quote: "three regenerative braking modes extend"
+      - name: "Load area"
+        archive: sources/renault-van-price-guide-2026-09.pdf
+        items:
+          - text: "Right-side sliding loading door (LL21 versions)"
+            quote: "standard on LL21"
       - name: "Exterior"
         items:
-          - text: "Gloss black door mirrors"
-            quote: "Glossy black Wing Mirrors"
-          - text: "Body-coloured bumpers (ML19 versions)"
-            quote: "Body-Coloured Bumpers(14) O - - • - O - - • -"
+          - text: "Automatic headlights and rain-sensitive front wipers"
+            quote: "• automatic headlights, rain sensitive front wipers and high beam assist^"
+  - trim: "Extra E-Tech (adds to Advance E-Tech)"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
+    groups:
+      - name: "Safety and driver assistance"
+        items:
+          - text: "Blind spot intervention"
+            quote: "• blind spot intervention"
+          - text: "360-degree parking sensors"
+            quote: "• 360 degree parking sensors"
+      - name: "Cab and comfort"
+        items:
+          - text: "Passenger bench seat with storage and mobile office (replaces single passenger seat)"
+            quote: "• passenger bench seat with storage and mobile office"
+          - text: "Imitation leather steering wheel"
+            quote: "• Imitation leather steering wheel"
+      - name: "Multimedia and connectivity"
+        items:
+          - text: "EASY LINK navigation with 8-inch touchscreen (replaces EASY LINK display)"
+            quote: "• EASY LINK navigation with 8” touchscreen, DAB radio, Bluetooth and USB ports"
+      - name: "Exterior"
+        items:
+          - text: "16-inch alloy wheels (LL21) or 16-inch Zendo alloy wheels (ML19)"
+            quote: "16\" alloy wheels - 16\" Zendo alloy standard on LL21 wheels - standard Extra versions on ML19 Extra"
 options:
   - category: "Multimedia"
     items:
