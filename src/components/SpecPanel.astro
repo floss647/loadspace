@@ -29,7 +29,12 @@ const ICONS = {
 const tile = (k, v) => ({ k, v, label: LABELS[k] || k, icon: ICONS[k] || ICONS.volume });
 const versions = specs.versions || [];
 const shared = Object.entries(specs.shared || {}).map(([k, v]) => tile(k, v));
-const equipment = (specs.equipment || []).filter((t) => t.groups?.length);
+// Groups with the same name on one trim (e.g. sourced from two documents) show as one list.
+const mergeGroups = (groups) => Object.values(groups.reduce((acc, g) => {
+  (acc[g.name] ||= { name: g.name, items: [] }).items.push(...(g.items || []));
+  return acc;
+}, {}));
+const equipment = (specs.equipment || []).filter((t) => t.groups?.length).map((t) => ({ ...t, groups: mergeGroups(t.groups) }));
 const options = (specs.options || []).filter((c) => c.items?.length);
 const SHOW = 6;
 // "Included as standard" inside each option category: matching items from the checked
