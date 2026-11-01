@@ -3,13 +3,13 @@ layout: ../../layouts/Review.astro
 title: "Renault Master E-Tech review"
 van: renault-master
 date: 2026-10-30T08:00:00Z
-summary: "The current Master E-Tech is a big electric van that doesn't make you choose between range and payload: 285 official miles and up to 1,606 kg in the 4.0-tonne van. It's no rocket, and Renault's price guide starts it at £42,500 before VAT."
+summary: "The current Master E-Tech is a big electric van that doesn't make you choose between range and payload: 285 official miles and up to 1,606 kg in the 4.0-tonne van. It's no rocket, and Renault's price guide starts the panel van at £42,500 before VAT."
 specs:
   price: "£42,500"
-  range: "285 miles"
+  range: "285 miles (4.0-tonne L2H2 van)"
   charging: "130kW"
   payload: "1,606 kg (4.0-tonne L2H2 van)"
-  batteryWarranty: "8 years or 100,000 miles"
+  batteryWarranty: "Eight years or 100,000 miles"
 verdict: "This is the large electric van we'd shortlist first. An 87kWh battery is modest by class standards, but slippery aerodynamics give it a long official range while leaving plenty of weight for payload. It has a reputation for being smooth, quiet and comfortable rather than quick, and early vans came with some old-school controls. Pick a 3.5-tonne L2H2 or L3H2 unless you need the heavier payload, and get quotes from Renault and Nissan dealers, because the Nissan version has a longer warranty."
 good:
   - "285-mile official range from an 87kWh battery"
@@ -21,7 +21,7 @@ bad:
   - "Three-year van warranty, where the Nissan twin gets five"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - sources/renault-van-price-guide-2026-09.pdf
   - sources/renault-master-van-brochure-2026-06.pdf
@@ -78,8 +78,11 @@ facts:
   - claim: "up to 1,606 kg"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "max payload (kg) 1606 1499 1488"
-  - claim: "8 years or 100,000 miles"
-    calc: "Renault gives the Master E-Tech a separate eight-year/100,000-mile battery warranty (Auto Express, fact below): eight years = 8 years"
+  - claim: "Eight years or 100,000 miles"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "the Master E-Tech also benefits from a separate eight-year/100,000-mile battery warranty"
+  - claim: "285 miles (4.0-tonne L2H2 van)"
+    calc: "Renault's Master brochure footnote to its 285-mile range reads '(1) on the L2H2 E-Tech 100% electric version - 87 kWh - 4 tonnes': 4 tonnes = 4.0 tonnes"
   - claim: "There's one battery"
     source: https://www.parkers.co.uk/vans-pickups/renault/master/2024-e-tech-review/
     quote: "there is only one motor, only one battery and just the one trim"
@@ -95,7 +98,7 @@ facts:
   - claim: "while leaving plenty of weight for payload"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "By using a relatively small 87kWh battery, Renault has managed to keep the weight of the Master E-Tech low"
-  - claim: "Renault's price guide starts it at £42,500 before VAT"
+  - claim: "Renault's price guide starts the panel van at £42,500 before VAT"
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
   - claim: "before VAT"
@@ -150,7 +153,9 @@ facts:
   - claim: "Renault's brochure gives up to"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "max payload (kg) 1606 1499 1488"
-  - claim: "the L3H2 and L3H3 manage 1,499kg and 1,488kg"
+  - claim: "the 4.0-tonne L3H2 and L3H3"
+    calc: "Renault's Master brochure (p21): gross vehicle weight 3500 or 4000kg; kerb weight L3H2 2191-2501kg, L3H3 2203-2512kg. At 3,500kg the most they could carry is 3,500 - 2,191 = 1,309kg and 3,500 - 2,203 = 1,297kg, less than the 1,499kg and 1,488kg max payloads, so those are 4,000kg (4.0-tonne) figures"
+  - claim: "L3H2 and L3H3 manage 1,499kg and 1,488kg"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "max payload (kg) 1606 1499 1488"
   - claim: "Nissan quotes up to 1,557kg for its electric twin"
@@ -204,6 +209,9 @@ facts:
   - claim: "Renault's brochure says a DC rapid charger can add up to 285 miles of WLTP range in 1 hour 10 minutes"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "For longer journeys, get up to 285 miles(2)(3) of 130 kW maximum WLTP range in 1 h 10 from a DC rapid charging"
+  - claim: "(11kW on V2L versions)"
+    archive: sources/renault-master-van-brochure-2026-06.pdf
+    quote: "11kW AC with DC 130 for V2L specific versions"
   - claim: "AC charging goes up to 22kW"
     source: https://www.autoexpress.co.uk/renault/master
     quote: "AC home charging tops out at 22kW"
@@ -348,13 +356,15 @@ facts:
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
   - claim: "(3.5-tonne L2H2)"
-    calc: "Renault's brochure (p21) lists the L2H2 as the 'MM35 and MM40 versions', and the price guide's E-Tech footnote describes the grant for 'large vans weighting between 2.5-3.5 tonnes'; MM35 is the 3,500kg (3.5-tonne) L2H2 and MM40 the 4,000kg (4.0-tonne) one, matching Renault's 255 miles (N1) and 285 miles (N2, 4 tonnes) range split"
+    calc: "Renault's brochure (p21) lists the L2H2 as the 'MM35 and MM40 versions' with a gross vehicle weight of '3500 or 4000' kg: the 35 and 40 in the names are the two weights, so MM35 = 3,500kg = 3.5 tonnes and MM40 = 4,000kg = 4.0 tonnes"
   - claim: "L2H2) E-Tech Advance"
     archive: sources/renault-master-van-brochure-2026-06.pdf
     quote: "L2H2 L3H2 L3H3 MM35 and MM40 LM35 and LM40 LH35 and LH40"
   - claim: "E-Tech Advance, or £47,115 on the road after the £5,000 van grant"
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM35 Panel Van E-Tech Advance MY24 0 Electric 0.0 £42,500 £8,500 £51,000 £5,000 £360 £47,115"
+  - claim: "The on-the-road price includes VAT"
+    calc: "Price guide, MM35 Panel Van E-Tech Advance: basic £42,500 + VAT £8,500 = total retail £51,000; £51,000 - £5,000 grant + £360 VED + £55 first registration fee + £700 delivery and plates (price guide 'further information') = £47,115, the on-the-road price, so it includes VAT"
   - claim: "MM40 is £45,500 before VAT"
     archive: sources/renault-van-price-guide-2026-09.pdf
     quote: "MM40 Panel Van E-Tech Advance MY24 0 Electric 0.0 £45,500 £9,100 £54,600 £5,000 £360 £50,715"
@@ -392,13 +402,13 @@ Anyone who wants a full-size electric panel van without giving up range or paylo
 
 Three panel van bodies, L2H2, L3H2 and L3H3, give 10.8, 13.0 and 14.8 cubic metres. The load bay is 3,225mm long at the floor, or 3,855mm in the L3, with 1,380mm between the wheelarches, and the side door opening is 1,312mm wide, so a Euro pallet goes in from the side.
 
-Payload is the headline: thanks to the modest battery, you get up to 1,125kg in a 3.5-tonne van, and Renault's brochure gives up to 1,606kg for the 4.0-tonne L2H2 van (the L3H2 and L3H3 manage 1,499kg and 1,488kg). It doesn't say whether those figures allow for a driver, and Nissan quotes up to 1,557kg for its electric twin, so check the plated figure. Renault quotes a towing capacity of up to 2.5 tonnes. If you're looking at the 4.0-tonne van, check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) versions, with a 220V socket in the load area, and vehicle-to-grid (V2G) charging.
+Payload is the headline: thanks to the modest battery, you get up to 1,125kg in a 3.5-tonne van, and Renault's brochure gives up to 1,606kg for the 4.0-tonne L2H2 van (the 4.0-tonne L3H2 and L3H3 manage 1,499kg and 1,488kg). It doesn't say whether those figures allow for a driver, and Nissan quotes up to 1,557kg for its electric twin, so check the plated figure. Renault quotes a towing capacity of up to 2.5 tonnes. If you're looking at the 4.0-tonne van, check the licence rules for your drivers before ordering one. There are vehicle-to-load (V2L) versions, with a 220V socket in the load area, and vehicle-to-grid (V2G) charging.
 
 ### Range and charging in the real world
 
 Renault quotes an official (WLTP) range of up to 285 miles, based on the 4.0-tonne L2H2 van, so the 3.5-tonne vans you're more likely to buy go less far: Renault's brochure gives up to 255 miles for them. One road test with 400kg aboard used 21 per cent of the battery over 52 miles at around 20°C with the air conditioning on. Expect less in winter.
 
-Rapid charging peaks at 130kW, and Renault's brochure says a DC rapid charger can add up to 285 miles of WLTP range in 1 hour 10 minutes. AC charging goes up to 22kW, good for 10 to 100 per cent in around four hours on a charger that can supply it. There's no heat pump. More in our [charging guide](/guides/charging-an-electric-van/).
+Rapid charging peaks at 130kW, and Renault's brochure says a DC rapid charger can add up to 285 miles of WLTP range in 1 hour 10 minutes. AC charging goes up to 22kW (11kW on V2L versions), good for 10 to 100 per cent in around four hours on a charger that can supply it. There's no heat pump. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -420,4 +430,4 @@ The [Nissan Interstar-e](/vans/nissan-interstar/) is the same van with a longer 
 
 ### Price
 
-Renault's UK price guide, valid from 1 September 2026, starts the Master E-Tech panel van at £42,500 before VAT for the MM35 (3.5-tonne L2H2) E-Tech Advance, or £47,115 on the road after the £5,000 van grant. The 4.0-tonne MM40 is £45,500 before VAT, and V2L versions add £500. Nissan's price list, effective from 1 July 2026, starts the same van (as the Interstar-e) at £43,590 before VAT and the grant. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the sums.
+Renault's UK price guide, valid from 1 September 2026, starts the Master E-Tech panel van at £42,500 before VAT for the MM35 (3.5-tonne L2H2) E-Tech Advance, or £47,115 on the road after the £5,000 van grant. The on-the-road price includes VAT. The 4.0-tonne MM40 is £45,500 before VAT, and V2L versions add £500. Nissan's price list, effective from 1 July 2026, starts the same van (as the Interstar-e) at £43,590 before VAT and the grant. Get a written quote. The E-Tech is on the government's list of large vans eligible for the van grant, worth up to £5,000 (see our [grants and tax guide](/guides/grants-and-tax/)). Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the sums.

@@ -15,7 +15,7 @@ good: ["Smooth, comfortable drive, judging by tests of the 45kWh van", "Heat pum
 bad: ["Three-year van warranty, where the Nissan twin gets five", "Short ML van carries only 608kg", "No through-load bulkhead or pillarless side door in the UK"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - sources/renault-van-price-guide-2026-09.pdf
   - sources/renault-kangoo-van-brochure-2026-06.pdf
