@@ -6,10 +6,10 @@ date: 2026-10-30T08:00:00Z
 summary: "The van the Nissan and Mercedes versions are built from: sensibly sized, with a heat pump as standard and a reputation for a smooth, comfortable drive. Renault's UK brochure gives up to 190 miles and 80kW charging from the 45kWh battery. Renault has announced an updated 52kWh van, but the van warranty is shorter than the Nissan twin's."
 specs:
   price: "£26,850"
-  range: "190 miles"
-  charging: "80kW"
-  payload: "764 kg"
-  batteryWarranty: "8 years or 100,000 miles"
+  range: "190 miles (45kWh van)"
+  charging: "80kW (45kWh van)"
+  payload: "764 kg (45kWh van, long LL)"
+  batteryWarranty: "8 years or 100,000 miles (45kWh van)"
 verdict: "The Kangoo E-Tech is a capable, likeable small electric van for local work, with a reputation for a smooth, comfortable drive and a load bay of more than 4 cubic metres in the long version. Renault has announced an updated 52kWh van with faster 100kW charging, but Renault's UK brochure still shows the 45kWh van, and the road reports so far are for the older van too. Renault's three-year van warranty looks thin next to the five years Nissan gives the same van. Buy the long LL version for the extra space and payload, but get a quote on the Townstar EV first."
 good: ["Smooth, comfortable drive, judging by tests of the 45kWh van", "Heat pump as standard", "Long LL van carries 764kg and is on the large-van grant list"]
 bad: ["Three-year van warranty, where the Nissan twin gets five", "Short ML van carries only 608kg", "No through-load bulkhead or pillarless side door in the UK"]
@@ -44,6 +44,12 @@ facts:
   - claim: "8 years or 100,000 miles"
     archive: sources/renault-kangoo-van-brochure-2026-06.pdf
     quote: "has a warranty of 8 years or 100,000"
+  - claim: "45kWh van"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
+    quote: "45 kWh lithium-ion battery with cooling system"
+  - claim: "long LL"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
+    quote: "Kangoo Van Long Wheelbase"
   # Summary, verdict, background
   - claim: "a reputation for a smooth, comfortable drive"
     source: https://www.parkers.co.uk/vans-pickups/renault/kangoo/2022-e-tech-review/
@@ -150,16 +156,22 @@ facts:
   - claim: "DC charging at up to 80kW"
     archive: sources/renault-kangoo-van-brochure-2026-06.pdf
     quote: "AC 22kW + DC 80kW"
-  - claim: "with 80 per cent charge in 40 minutes on a rapid charger"
+  - claim: "with a 20 to 80 per cent charge taking 40 minutes"
     archive: sources/renault-kangoo-van-brochure-2026-06.pdf
-    quote: "Charge 80% of your battery in just 40 minutes on a Rapid Charger"
+    quote: "40 mins for 1hr 21 for charging from charging from charging from charging from 20% to 80%"
+  - claim: "on an 80kW public fast charger"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
+    quote: "domestic standard public fast public charging domestic charging charging point(1) socket(2) point point 7.4 kW 2.3 kW 80 kW 22 kW"
   - claim: "In October 2026 Renault announced an updated Kangoo E-Tech"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "09 October 2026"
   - claim: "a 52kWh battery, up from 45kWh"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "battery capacity is increased from 45 to 52 kWh"
-  - claim: "a 155hp motor"
+  - claim: "a choice of 135hp"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "The first powertrain develops 100 kW (135 hp)"
+  - claim: "or 155hp motors"
     source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
     quote: "The second achieves 115 kW (155 hp)"
   - claim: "100kW DC charging"
@@ -314,6 +326,15 @@ facts:
     quote: "basic price VAT 20% total retail van grant"
   - claim: "The on-the-road prices include VAT"
     calc: "Price guide p3, ML19 E-Tech Advance: basic £26,850 + VAT £5,370 = total retail £32,220; £32,220 - £2,500 grant + £360 VED + £55 first registration fee + £700 delivery and plates (price guide p27 'further information') = £30,835, the on-the-road price, so it includes VAT"
+  - claim: "but it took effect before"
+    archive: sources/renault-van-price-guide-2026-09.pdf
+    quote: "prices valid from 1 September 2026"
+  - claim: "Renault announced the 52kWh van"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "battery capacity is increased from 45 to 52 kWh"
+  - claim: "in October and said its prices would follow"
+    source: https://media.renault.com/renault-kangoo-van-and-renault-kangoo-improvements-in-range-and-performance-with-new-onboard-technologies/?lang=eng
+    quote: "The prices of these updated Kangoo VAN and Kangoo versions will be announced in the coming weeks. 09 October 2026"
 ---
 
 The Kangoo E-Tech is the electric version of Renault's small van, and it's the van the [Nissan Townstar EV](/vans/nissan-townstar/) and [Mercedes-Benz eCitan](/vans/mercedes-benz-citan/) are based on. Renault builds it in France, at Maubeuge, and the three share their underpinnings and the same body. So the real question is which badge gives you the best price, warranty and dealer.
@@ -332,9 +353,9 @@ UK vans miss out on the pillarless side opening sold in left-hand-drive markets,
 
 ### Range and charging
 
-Renault's UK brochure, dated 1 July 2026, lists the Kangoo E-Tech with a 45kWh battery, a 120hp motor, up to 190 miles on the official WLTP test and DC charging at up to 80kW, with 80 per cent charge in 40 minutes on a rapid charger.
+Renault's UK brochure, dated 1 July 2026, lists the Kangoo E-Tech with a 45kWh battery, a 120hp motor, up to 190 miles on the official WLTP test and DC charging at up to 80kW, with a 20 to 80 per cent charge taking 40 minutes on an 80kW public fast charger.
 
-In October 2026 Renault announced an updated Kangoo E-Tech with a 52kWh battery, up from 45kWh, a 155hp motor and 100kW DC charging, with 15 to 80 per cent in 30 minutes. Renault gave a provisional range of up to 354km (about 220 miles), pending homologation, depending on the version, and said prices would follow in the coming weeks. The updated van isn't in Renault's UK brochure yet, so check which van you're quoted. Renault also announced vehicle-to-load (V2L) power, but we couldn't confirm it on UK vans, or whether the Nissan and Mercedes versions get the same upgrade.
+In October 2026 Renault announced an updated Kangoo E-Tech with a 52kWh battery, up from 45kWh, a choice of 135hp or 155hp motors and 100kW DC charging, with 15 to 80 per cent in 30 minutes. Renault gave a provisional range of up to 354km (about 220 miles), pending homologation, depending on the version, and said prices would follow in the coming weeks. The updated van isn't in Renault's UK brochure yet, so check which van you're quoted. Renault also announced vehicle-to-load (V2L) power, but we couldn't confirm it on UK vans, or whether the Nissan and Mercedes versions get the same upgrade.
 
 On the old 45kWh van, a long-term test managed around 130 miles in winter, dipping to about 100 miles in freezing weather, and around 140 miles as spring arrived. Expect more from the new battery, but we haven't seen tested figures. A heat pump is standard, which helps in the cold. More in our [charging guide](/guides/charging-an-electric-van/).
 
@@ -360,4 +381,4 @@ Get quotes on the twins, the [Nissan Townstar EV](/reviews/nissan-townstar/) and
 
 ### Price
 
-Renault's UK price guide, valid from 1 September 2026, starts the Kangoo E-Tech at £26,850 before VAT for the ML19 E-Tech Advance panel van, or £30,835 on the road after a £2,500 van grant. The long LL21 E-Tech Advance panel van is £29,850 before VAT, or £31,935 on the road after a £5,000 grant. The on-the-road prices include VAT. The price guide doesn't say which battery these vans have, so check whether you're being quoted for the old or the updated van, and get a written quote. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Renault's UK price guide, valid from 1 September 2026, starts the Kangoo E-Tech at £26,850 before VAT for the ML19 E-Tech Advance panel van, or £30,835 on the road after a £2,500 van grant. The long LL21 E-Tech Advance panel van is £29,850 before VAT, or £31,935 on the road after a £5,000 grant. The on-the-road prices include VAT. The price guide doesn't say which battery these vans have, but it took effect before Renault announced the 52kWh van in October and said its prices would follow, so these are most likely prices for the 45kWh van. Check which van you're being quoted for, and get a written quote. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
