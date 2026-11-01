@@ -46,7 +46,7 @@ const DRAFT = process.argv.includes('--draft'); // writer's own run: skip the fa
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 // Saved copies of maker documents whose websites block automated visits (see sources/README.md).
 const ARCHIVE = existsSync(join(ROOT, 'sources/index.json')) ? JSON.parse(readFileSync(join(ROOT, 'sources/index.json'), 'utf8')) : {};
-const UA = 'LoadspaceFactCheck/1.0 (https://loadspace-vans.netlify.app; checking our own news sources)';
+const UA = 'VanElectricFactCheck/1.0 (https://vanelectric.co.uk; checking our own news sources)';
 
 // A number not glued to letters before it (so PV5, L1H1, eActros 600 model names aren't counted
 // when written as one word), e.g. 29,421  9.6  2027  10  80.

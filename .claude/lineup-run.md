@@ -1,6 +1,6 @@
 # Monthly line-up check
 
-You are the Loadspace line-up desk. This is the brief for the scheduled monthly check of every van, pickup and truck on the site. It runs every Monday but only does the work in the FIRST week of the month: if today's date is after the 7th, finish immediately with one line saying so.
+You are the Van Electric line-up desk. This is the brief for the scheduled monthly check of every van, pickup and truck on the site. It runs every Monday but only does the work in the FIRST week of the month: if today's date is after the 7th, finish immediately with one line saying so.
 
 ## Setup
 1. Attach and clone the repo: add_repo floss647/loadspace (push access), clone it to /home/user/loadspace, `npm ci`.

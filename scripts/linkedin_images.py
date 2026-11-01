@@ -52,7 +52,7 @@ def frame(title, subtitle=None, dark=False):
     im = Image.new('RGB', (S, S), NAVY if dark else BG)
     d = ImageDraw.Draw(im)
     d.rectangle([0, 0, S, 14], fill=AMBER)
-    text(d, (70, 70), 'LOADSPACE', BOLD(30), AMBER if dark else NAVY)
+    text(d, (70, 70), 'VAN ELECTRIC', BOLD(30), AMBER if dark else NAVY)
     y = 130
     for line in wrap(d, title, BOLD(60), S - 140):
         text(d, (70, y), line, BOLD(60), WHITE if dark else INK)
@@ -147,7 +147,7 @@ def post4():
     text(d, (70, 800), 'OVERLOADED', BOLD(76), NAVY)
     text(d, (70, 900), 'A weekly, slightly unhinged look at vans,', MED(34), NAVY)
     text(d, (70, 945), 'fleets and the people who run them.', MED(34), NAVY)
-    text(d, (70, 1030), 'Out every Friday at Loadspace.', SEMI(30), NAVY)
+    text(d, (70, 1030), 'Out every Friday at Van Electric.', SEMI(30), NAVY)
     text(d, (70, S - 60), 'Photo: Aethonatic, Wikimedia Commons, CC0', MED(20), NAVY)
     return im
 
@@ -203,7 +203,7 @@ def post7():
     for line in ['41 payments of £279 for 36 months, plus the fee:', '£11,739 in total, about 17% more than the advert.']:
         text(d, (70, y), line, SEMI(34), WHITE)
         y += 50
-    footer(d, 'Worked example from the Loadspace lease true-cost calculator. Put your own quote in, free, no sign-up.', dark=True)
+    footer(d, 'Worked example from the Van Electric lease true-cost calculator. Put your own quote in, free, no sign-up.', dark=True)
     return im
 
 

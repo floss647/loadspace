@@ -1,6 +1,6 @@
 # Press pitch: MOT reliability findings
 
-**Links:** written with https://loadspace-vans.netlify.app/. Swap the domain when the custom domain goes live (paths stay the same).
+**Links:** written with https://vanelectric.co.uk/.
 
 **Images:** don't send maker press photos with the pitch (editorial-only terms, see NEWSROOM.md). Offer a screenshot of our table instead.
 
@@ -10,7 +10,7 @@
 
 Hello,
 
-Loadspace, an independent UK advice site on electric vans, has ranked 34 van and pickup models by initial MOT failure rate, using DVSA's anonymised MOT results for 2024. Three findings:
+Van Electric, an independent UK advice site on electric vans, has ranked 34 van and pickup models by initial MOT failure rate, using DVSA's anonymised MOT results for 2024. Three findings:
 
 1. **Pickups top the table at 5–6 years old.** Mitsubishi L200 18.2%, VW Amarok 19.2% (previous generation), Toyota Hilux 21.3%, against 28.1% for all the models we track, combined. Lowest non-pickup: VW Transporter (T6/T6.1), 21.7%.
 2. **Failure rates climb steeply with age:** 24.0% at 3–4 years, 43.3% at 10–14.
@@ -18,12 +18,12 @@ Loadspace, an independent UK advice site on electric vans, has ranked 34 van and
 
 The data: initial tests only, retests excluded. A fail includes vans that passed only after faults were fixed at the test. Classes 4 and 7, compared by age band, at least 300 tests per figure. Limits: almost all diesel; some models include passenger or motorhome versions sold under the same name; each covers every generation sold under that name.
 
-Method and table: https://loadspace-vans.netlify.app/reliability/
+Method and table: https://vanelectric.co.uk/reliability/
 
 I'm happy to send the full table, with test counts and average mileages.
 
 [YOUR NAME]
-Loadspace
+Van Electric
 
 ---
 
@@ -33,7 +33,7 @@ All from `src/data/reliability.json` (DVSA anonymised MOT tests and results, fil
 
 - 34 models: models with a `byAge["5-6"]` entry, the ranked rows on `/reliability/`.
 - Mitsubishi L200 18.2% (16,065 tests), VW Amarok 19.2% (5,186), Toyota Hilux 21.3% (10,687), VW Transporter 21.7% (42,644; includes passenger versions and motorhomes): `models.<slug>.byAge.5-6.failRate`. 5–6 year olds in 2024 were first used about 2017–2019, so these are the previous VW-built Amarok and the T6/T6.1 Transporter, not today's Ford-built versions (generation dating is background knowledge, not from the repo).
-- 28.1%: `allVansByAge.5-6.failRate` (620,587 tests): pooled across all initial tests of the models Loadspace tracks at that age, combined (test-weighted, including models too small to publish separately). Not an average of the model figures, and not every van in the UK.
+- 28.1%: `allVansByAge.5-6.failRate` (620,587 tests): pooled across all initial tests of the models Van Electric tracks at that age, combined (test-weighted, including models too small to publish separately). Not an average of the model figures, and not every van in the UK.
 - 24.0% and 43.3%: `allVansByAge.3-4.failRate` (583,522 tests) and `allVansByAge.10-14.failRate` (794,989 tests), pooled the same way. The mix of models differs between age bands.
 - MAN TGE 20.8% (4,086 tests, 90,629 average miles) and VW Crafter 26.0% (15,396 tests, 80,498 average miles): `models.man-tge.byAge.3-4` and `models.volkswagen-crafter.byAge.3-4`. "Rebadged from": `src/data/vans.js`, `TWINS["vw-man-large"]`.
 

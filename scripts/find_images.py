@@ -14,7 +14,7 @@ Usage: python3 scripts/find_images.py vehicles.json out_dir
 import json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
-UA = 'LoadspaceImageFinder/0.1 (https://loadspace-vans.netlify.app; editorial van guides)'
+UA = 'VanElectricImageFinder/0.1 (https://vanelectric.co.uk; editorial van guides)'
 API = 'https://commons.wikimedia.org/w/api.php'
 OK_LICENCE = re.compile(r'^(CC BY(-SA)? [0-9.]+|CC0|Public domain|PD)', re.I)
 SKIP = re.compile(r'interior|dashboard|cockpit|engine|motor|badge|logo|emblem|wheel|tyre|tire|seat|steering|charging port|plug|battery pack|detail|rear light|headlight|lamp|model|toy|scale|diagram|icon|svg', re.I)

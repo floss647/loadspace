@@ -8,7 +8,7 @@ import io, json, re, sys, time, urllib.error, urllib.request
 from pathlib import Path
 from PIL import Image, ImageDraw
 
-UA = 'LoadspaceImageFinder/0.1 (https://loadspace-vans.netlify.app; editorial van guides)'
+UA = 'VanElectricImageFinder/0.1 (https://vanelectric.co.uk; editorial van guides)'
 TW, TH, LABEL = 240, 135, 230
 PER_SHEET = 6
 

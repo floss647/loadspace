@@ -1,4 +1,4 @@
-// The Loadspace data score: worked out only from a van's published specs.
+// The Van Electric data score: worked out only from a van's published specs.
 // Kept separate from reviews.js so the review layout can use it without a circular import.
 
 // Pull the first number out of a display string like "£38,630" or "1,088 kg".
