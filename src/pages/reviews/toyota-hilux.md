@@ -27,7 +27,6 @@ sources:
   - https://www.autoexpress.co.uk/best/pick-up-trucks
   - https://www.autoexpress.co.uk/kgm/musso/ev
   - https://www.autoexpress.co.uk/isuzu/d-max/ev
-  - https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
   - https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
@@ -63,8 +62,8 @@ facts:
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "10-year/100,000-mile service-activated warranty"
   - claim: "59.2kWh"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "a 59.2kWh water-cooled lithium-ion battery mounted within the frame"
+    source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
+    quote: "Icon Double Cab Electric 59.2 kWh Auto HE1 F1T 196 hp 0 g/km 4% LCV £ 360 £ 47,170.00 £ 9,434.00"
   - claim: "the battery sits inside the chassis rails"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "Locating the drive battery within the chassis rails means that the Hilux BEV doesn"
@@ -77,18 +76,15 @@ facts:
   - claim: "It only comes as a double cab"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "The Hilux BEV is only going to be offered as a double cab"
-  - claim: "Airside work, forestry and highway maintenance"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "It is aimed at airside duties, highway maintenance operations and urban fleets"
-  - claim: "Airside work, forestry and highway maintenance"
+  - claim: "Airside work and forestry"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
-    quote: "such as forestry work or airport ground services"
+    quote: "such as Forestry Commission workers, or airside support at airports"
   - claim: "Keeps the diesel's 700mm wading depth"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "The 700mm wading depth and 29-degree approach angle are matched to the diesel"
+    source: https://www.autoexpress.co.uk/toyota/hilux/bev
+    quote: "has the same 700mm wading depth"
   - claim: "29-degree approach angle"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "The 700mm wading depth and 29-degree approach angle are matched to the diesel"
+    source: https://www.autoexpress.co.uk/toyota/hilux/bev
+    quote: "the BEV matches the diesel Hilux for approach and departure angles (29 and 24 degrees respectively)"
   - claim: "the breakover angle is shallower"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "the breakover angle is four degrees shallower at 20 degrees"
@@ -96,8 +92,8 @@ facts:
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "There are no diff locks or low-range gears to deal with"
   - claim: "a terrain system with rock, sand, mud, dirt and mogul modes"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "The Multi-Terrain Select system provides five modes covering rock, sand, mud, dirt and mogul"
+    source: https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
+    quote: "MTS gives you a choice of rocks, sand, mud, dirt or a new moguls setting."
   - claim: "a reputation for being far quieter and more comfortable on the road than the diesel"
     source: https://www.autoexpress.co.uk/toyota/hilux/bev
     quote: "more comfortable and refined on tarmac than its diesel counterpart"
@@ -105,8 +101,8 @@ facts:
     source: https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
     quote: "easily the most comfortable Hilux model you can get"
   - claim: "Quiet, comfortable cab by all accounts"
-    source: https://evfleetworld.co.uk/first-drive-toyota-hilux-bev/
-    quote: "Wind and tyre noise aside, it is close to silent"
+    source: https://www.autoexpress.co.uk/toyota/hilux/bev
+    quote: "Comfortable ride at all speeds Silent running boosts refinement"
   - claim: "Quiet, comfortable cab by all accounts"
     source: https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
     quote: "The quietest truck on the market, superb ride quality"
@@ -246,7 +242,7 @@ facts:
     quote: "It also enables flat rate benefit-in-kind taxation and a 100 per cent plant and machinery allowance, where applicable."
 ---
 
-The electric Hilux is Toyota's answer to a narrow question: what does a fleet need when it must go off road, can't burn diesel and doesn't travel far? Airside work, forestry and highway maintenance are the jobs it is aimed at, and the spec sheet shows it.
+The electric Hilux is Toyota's answer to a narrow question: what does a fleet need when it must go off road, can't burn diesel and doesn't travel far? Airside work and forestry are the jobs it is aimed at, and the spec sheet shows it.
 
 ### Who it's for
 
