@@ -323,7 +323,7 @@ options:
       - name: "Winter package (wet wipers, heated driver and passenger seats)"
         price: "£385"
         quote: "Winter package F2W ○ ○ £385.00 £462.00"
-      - name: "Winter Package Plus (adds steering wheel heating, auxiliary heater and heat insulation)"
+      - name: "Winter Package Plus (Winter package plus steering wheel heating and heat insulation)"
         price: "£615"
         note: "Needs the leather steering wheel"
         quote: "Winter Package Plus Includes wet wiper system (FM3), seat heating for co-driver (H15) and heated seat for driver (H16), P3Z ○ ○ £615.00 £738.00 Electrically powered hot-air auxiliary heater (HH2), Steering wheel heating (CK8), Heat insulation (H04); in combination with CL3 only."
