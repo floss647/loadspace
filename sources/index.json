@@ -22,5 +22,29 @@
     "received": "2026-10-30",
     "via": "Supplied by the editor, downloaded from the maker's UK website",
     "sha256": "b8530eb7c821a3cd8a08abe46005aabecc849b28df8e8329bb1d0a66053c4a70"
+  },
+  "renault-van-price-guide-2026-09.pdf": {
+    "title": "Renault Van Price eGuide (includes Kangoo E-Tech and Master E-Tech)",
+    "publisher": "renault.co.uk",
+    "effective": "valid from 1 September 2026",
+    "received": "2026-11-01",
+    "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
+    "sha256": "15ca1ca7da5e0c97f34b49ee66aa636238505dd582d37c544cad56f7f51a8ff2"
+  },
+  "renault-kangoo-van-brochure-2026-06.pdf": {
+    "title": "Renault Kangoo Van eBrochure",
+    "publisher": "renault.co.uk",
+    "effective": "June 2026 (file date; no printed effective date)",
+    "received": "2026-11-01",
+    "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
+    "sha256": "cc7b663dc7273217e652c9ba019e77ab61e78c1cae6ef50920729d468b56cfd3"
+  },
+  "renault-master-van-brochure-2026-06.pdf": {
+    "title": "Renault Master Van eBrochure",
+    "publisher": "renault.co.uk",
+    "effective": "June 2026 (file date; no printed effective date)",
+    "received": "2026-11-01",
+    "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
+    "sha256": "e321a0cee549a5163ce99044b9cfdc4d07119c08ad708c9cc0ba148df0800e92"
   }
 }
