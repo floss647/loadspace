@@ -100,7 +100,9 @@ function storyText(fm, body) {
   const specs = fm.specs && typeof fm.specs === 'object' ? Object.values(fm.specs) : [];
   // Spec tables (src/data/specs): every heading and cell counts as text to check.
   const tables = Array.isArray(fm.tables) ? fm.tables.flatMap((t) => [t.title, ...(t.head || []), ...(t.rows || []).flat()]) : [];
-  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, fm.sourceLabel, ...(fm.good || []), ...(fm.bad || []), ...specs, ...tables, ...(fm.notes || []), clean].filter(Boolean).join('\n');
+  const versions = Array.isArray(fm.versions) ? fm.versions.flatMap((v) => [v.name, ...Object.values(v.figures || {})]) : [];
+  const shared = fm.shared && typeof fm.shared === 'object' ? Object.values(fm.shared) : [];
+  return [fm.title, fm.summary, fm.stat, fm.statLabel, fm.photoCaption, fm.verdict, fm.sourceLabel, ...versions, ...shared, ...(fm.good || []), ...(fm.bad || []), ...specs, ...tables, ...(fm.notes || []), clean].filter(Boolean).join('\n');
 }
 
 function checkOffline(slug, fm, body, isBlog) {
@@ -142,6 +144,36 @@ function checkOffline(slug, fm, body, isBlog) {
     const missing = nums(f.claim).filter((n) => !qn.has(plain(n)));
     if (missing.length) errs.push(`${label}: number(s) ${missing.join(', ')} not in the quote. Quote the source exactly, or use calc for conversions.`);
   });
+
+  // Equipment and option lists (src/data/specs): each item carries its own quote from the
+  // file's saved maker document, and every number in the item must appear in that quote.
+  const listItems = [
+    ...(fm.equipment || []).flatMap((t) => (t.groups || []).flatMap((g) => (g.items || []).map((it) => ({ where: `${t.trim} / ${g.name}`, text: it.text, quote: it.quote })))),
+    ...(fm.options || []).flatMap((c) => (c.items || []).map((it) => ({ where: `options / ${c.category}`, text: [it.name, it.price, it.note].filter(Boolean).join(' '), quote: it.quote }))),
+  ];
+  if (listItems.length) {
+    const doc = fm.archive ? archiveProblem(fm.archive) : 'equipment/options need a file-level archive: sources/<file>';
+    if (doc) errs.push(doc);
+    else {
+      let src = null;
+      try { src = norm(archiveText(fm.archive)); } catch (e) {
+        // Netlify's build machines don't have pdftotext. The GitHub check (which merges depend on) does,
+        // so there a missing tool is an error; elsewhere we skip just the quote lookup.
+        if (process.env.GITHUB_ACTIONS || LIVE) errs.push(`couldn't read ${fm.archive} (${e.message})`);
+        else console.warn(`  (skipped quote lookup for ${slug}: pdftotext not available)`);
+      }
+      if (src === null) { /* numbers in each item are still checked against their own quote below */ }
+      const plainNum = (n) => n.replace(/,(?=\d{3}\b)/g, '').replace(/\.0+$/, '');
+      for (const it of listItems) {
+        if (!it.text || !it.quote) { errs.push(`${it.where}: item needs text and a quote (${it.text || 'no text'})`); continue; }
+        if (/\u2014/.test(it.text)) errs.push(`${it.where}: em dash in "${it.text}"`);
+        if (src !== null && !src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${fm.archive}: "${it.quote}"`); continue; }
+        const qn = new Set(nums(it.quote).map(plainNum));
+        const miss = nums(it.text).filter((n) => !qn.has(plainNum(n)));
+        if (miss.length) errs.push(`${it.where}: number(s) ${miss.join(', ')} in "${it.text}" not in its quote`);
+      }
+    }
+  }
 
   const uncovered = [...new Set(nums(text))].filter((n) => !covered.has(n));
   if (uncovered.length) errs.push(`numbers in the story with no fact behind them: ${uncovered.join(', ')}`);
