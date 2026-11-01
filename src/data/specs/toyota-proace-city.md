@@ -36,7 +36,7 @@ notes:
   - "Toyota quotes one range figure, up to 208 miles, for both body lengths."
   - "The brochure's van guide gives payloads of 691kg for the short van and 759kg for the long van, but its specification table lists 800kg. We show the lower van guide figures."
   - "The short van comes as Icon or Sport, and the long van as Icon only."
-  - "Option prices are from the 1 October 2026 price list. Toyota's standard equipment list is only in the older brochure, so it is not shown here."
+  - "Option prices are from the 1 October 2026 price list. Standard equipment comes from the older brochure, so check it with a dealer."
 versions:
   - name: "Short, 50kWh"
     figures:

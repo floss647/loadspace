@@ -234,8 +234,8 @@ equipment:
             quote: "• Navigation with Google Maps, Google Play, Google Assistant (n/a with 4Ton versions)"
       - name: "Load area"
         items:
-          - text: "50:50 split unglazed rear doors opening to 270 degrees (replaces 180 degrees)"
-            quote: "• 50:50 split 270 degree unglazed twin COMFORT AND CONVENIENCE rear doors • Heated windscreen • Additional 2 anchorage fix rings on • 360 parking sensors each D pillar • Rear View Camera • 12 V Power socket in load area"
+          - text: "50:50 split unglazed rear doors opening to 270 degrees (replaces the Acenta rear doors)"
+            quote: "• 50:50 split 270 degree unglazed twin COMFORT AND CONVENIENCE rear doors"
           - text: "2 extra anchorage rings on each rear door pillar"
             quote: "• Additional 2 anchorage fix rings on • 360 parking sensors each D pillar"
           - text: "12V power socket in the load area"
@@ -322,7 +322,7 @@ facts:
     quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
   - claim: "1,344 to 1,694kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
-    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"
+    quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344"
   - claim: "711 to 1,116kg"
     archive: sources/nissan-interstar-brochure-2026-08.pdf
     quote: "Max payload 1 197 1 694 1 116 1 614 Min payload 844 1 344 711 1 210"

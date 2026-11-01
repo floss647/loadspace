@@ -36,7 +36,7 @@ notes:
   - "For the 50kWh van, the brochure's WLTP table gives 133 miles, but another page says up to 143 miles. We show the WLTP table figure."
   - "For the 75kWh vans, Toyota gives one figure of up to 215 miles. Its WLTP table shows 132 to 215 miles across all 75kWh bodies, including the platform cab, without splitting them."
   - "The 50kWh and long 75kWh vans come as Icon only. The medium 75kWh van comes as Icon or Sport, and Toyota doesn't list a separate payload for the Sport."
-  - "Option prices are from the April 2026 price list. Toyota's standard equipment list is only in the older brochure, so it is not shown here."
+  - "Option prices are from the April 2026 price list. Standard equipment comes from the older brochure, so check it with a dealer."
 versions:
   - name: "Medium, 50kWh"
     figures:
@@ -129,7 +129,7 @@ equipment:
             quote: "Colour multi-information display – z z z"
           - text: "Audio switches on steering wheel"
             quote: "Audio switches on steering wheel z z z z"
-          - text: "Front power windows with auto up and down"
+          - text: "Auto up and down power windows"
             quote: "Auto up & down function on power windows z z z z"
           - text: "Noise reduction layer on front windows"
             quote: "Noise reduction layer on front windows z z z z"
