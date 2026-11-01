@@ -52,6 +52,9 @@ const UA = 'LoadspaceFactCheck/1.0 (https://loadspace-vans.netlify.app; checking
 // when written as one word), e.g. 29,421  9.6  2027  10  80.
 const NUM = /(?<![A-Za-z0-9.,])\d+(?:[.,]\d+)*/g;
 const nums = (s) => (String(s).match(NUM) || []).map((n) => n.replace(/[.,]$/, ''));
+// Numbers a quote can back up: as printed, plus thousands written with a space ("1 197" is 1197),
+// which some maker brochures use. This only adds candidates, so it never hides a missing number.
+const quoteNums = (s) => [...nums(s), ...(String(s).match(/(?<![\d.,])\d{1,3}(?: \d{3})+(?![\d.,])/g) || []).map((n) => n.replace(/ /g, ''))];
 
 const norm = (s) => String(s)
   .replace(/&nbsp;| | /g, ' ')
@@ -140,39 +143,45 @@ function checkOffline(slug, fm, body, isBlog) {
     }
     // Thousands separators don't change a number: 3,705 in a claim matches 3705 in a spec table.
     const plain = (n) => n.replace(/,(?=\d{3}\b)/g, '');
-    const qn = new Set(nums(f.quote).map(plain));
+    const qn = new Set(quoteNums(f.quote).map(plain));
     const missing = nums(f.claim).filter((n) => !qn.has(plain(n)));
     if (missing.length) errs.push(`${label}: number(s) ${missing.join(', ')} not in the quote. Quote the source exactly, or use calc for conversions.`);
   });
 
   // Equipment and option lists (src/data/specs): each item carries its own quote from the
   // file's saved maker document, and every number in the item must appear in that quote.
+  // Each trim (equipment) or category (options) may name its own saved document with `archive:`;
+  // otherwise the file-level archive is used.
   const listItems = [
-    ...(fm.equipment || []).flatMap((t) => (t.groups || []).flatMap((g) => (g.items || []).map((it) => ({ where: `${t.trim} / ${g.name}`, text: it.text, quote: it.quote })))),
-    ...(fm.options || []).flatMap((c) => (c.items || []).map((it) => ({ where: `options / ${c.category}`, text: [it.name, it.price, it.note].filter(Boolean).join(' '), quote: it.quote }))),
+    ...(fm.equipment || []).flatMap((t) => (t.groups || []).flatMap((g) => (g.items || []).map((it) => ({ where: `${t.trim} / ${g.name}`, text: it.text, quote: it.quote, archive: g.archive || t.archive || fm.archive })))),
+    ...(fm.options || []).flatMap((c) => (c.items || []).map((it) => ({ where: `options / ${c.category}`, text: [it.name, it.price, it.note].filter(Boolean).join(' '), quote: it.quote, archive: c.archive || fm.archive }))),
   ];
-  if (listItems.length) {
-    const doc = fm.archive ? archiveProblem(fm.archive) : 'equipment/options need a file-level archive: sources/<file>';
-    if (doc) errs.push(doc);
-    else {
+  const docText = new Map();
+  const plainNum = (n) => n.replace(/,(?=\d{3}\b)/g, '').replace(/\.0+$/, '');
+  for (const it of listItems) {
+    if (!it.text || !it.quote) { errs.push(`${it.where}: item needs text and a quote (${it.text || 'no text'})`); continue; }
+    if (/\u2014/.test(it.text)) errs.push(`${it.where}: em dash in "${it.text}"`);
+    if (!it.archive) { errs.push(`${it.where}: no saved document (archive) for this item`); continue; }
+    if (!docText.has(it.archive)) {
+      const problem = archiveProblem(it.archive);
       let src = null;
-      try { src = norm(archiveText(fm.archive)); } catch (e) {
-        // Netlify's build machines don't have pdftotext. The GitHub check (which merges depend on) does,
-        // so there a missing tool is an error; elsewhere we skip just the quote lookup.
-        if (process.env.GITHUB_ACTIONS || LIVE) errs.push(`couldn't read ${fm.archive} (${e.message})`);
-        else console.warn(`  (skipped quote lookup for ${slug}: pdftotext not available)`);
+      if (problem) errs.push(problem);
+      else {
+        try { src = norm(archiveText(it.archive)); } catch (e) {
+          // Netlify's build machines don't have pdftotext. The GitHub check (which merges depend on) does,
+          // so there a missing tool is an error; elsewhere we skip just the quote lookup.
+          if (process.env.GITHUB_ACTIONS || LIVE) errs.push(`couldn't read ${it.archive} (${e.message})`);
+          else console.warn(`  (skipped quote lookup in ${it.archive}: pdftotext not available)`);
+        }
       }
-      if (src === null) { /* numbers in each item are still checked against their own quote below */ }
-      const plainNum = (n) => n.replace(/,(?=\d{3}\b)/g, '').replace(/\.0+$/, '');
-      for (const it of listItems) {
-        if (!it.text || !it.quote) { errs.push(`${it.where}: item needs text and a quote (${it.text || 'no text'})`); continue; }
-        if (/\u2014/.test(it.text)) errs.push(`${it.where}: em dash in "${it.text}"`);
-        if (src !== null && !src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${fm.archive}: "${it.quote}"`); continue; }
-        const qn = new Set(nums(it.quote).map(plainNum));
-        const miss = nums(it.text).filter((n) => !qn.has(plainNum(n)));
-        if (miss.length) errs.push(`${it.where}: number(s) ${miss.join(', ')} in "${it.text}" not in its quote`);
-      }
+      docText.set(it.archive, { problem, src });
     }
+    const { problem, src } = docText.get(it.archive);
+    if (problem) continue;
+    if (src !== null && !src.includes(norm(it.quote))) { errs.push(`${it.where}: quote not found in ${it.archive}: "${it.quote}"`); continue; }
+    const qn = new Set(quoteNums(it.quote).map(plainNum));
+    const miss = nums(it.text).filter((n) => !qn.has(plainNum(n)));
+    if (miss.length) errs.push(`${it.where}: number(s) ${miss.join(', ')} in "${it.text}" not in its quote`);
   }
 
   const uncovered = [...new Set(nums(text))].filter((n) => !covered.has(n));
