@@ -8,7 +8,7 @@ tables:
   - title: "Versions and batteries"
     head: ["Version", "Trims", "Battery", "Motor"]
     rows:
-      - ["L2H2 van", "Leader, Trend", "68kWh", "135kW or 198kW"]
+      - ["L2H2 van", "Base, Trend", "68kWh", "135kW or 198kW"]
       - ["L2H3 van", "Leader, Trend", "68kWh", "135kW or 198kW"]
       - ["L3H2 van", "Leader, Trend", "68kWh or 96kWh", "135kW or 198kW"]
       - ["L3H3 van", "Leader, Trend", "68kWh or 96kWh", "135kW or 198kW"]
@@ -20,14 +20,16 @@ tables:
     rows:
       - ["Battery", "68kWh (Standard Range) or 96kWh (Enhanced Range)"]
       - ["Motor", "135kW (184PS) or 198kW (269PS), rear-wheel drive, single-speed automatic"]
-      - ["Home and depot charging (AC)", "11kW as standard, 22kW optional"]
+      - ["Home and depot charging (AC)", "11kW as standard, 22kW optional on some versions"]
       - ["Charge port", "Front"]
 notes:
   - "Ford's price list doesn't give range, payload, load space, gross weights, rapid charging or battery warranty for the E-Transit, so check these with the dealer."
   - "The E-Transit panel van comes in Leader and Trend trims. The double cab-in-van is Trend only. Limited is diesel only."
   - "Not every battery is offered with every body and weight rating, and the larger 96kWh battery isn't listed for the L2 vans."
   - "Ford lists some equipment by vehicle category (N1 or N2), so check with the dealer which applies to the version you order."
-  - "Ford's price list says the maximum speed of N1 E-Transit vans is 130km/h, and N2 versions are limited to 56mph as standard."
+  - "Ford's price list says N2 versions are limited to 56mph as standard."
+  - "On its L2H2 price page Ford calls the entry trim Base rather than Leader, so check with the dealer that its equipment matches the Leader list."
+  - "Ford lists the double cab-in-van's equipment separately rather than as additions to the Trend van, so confirm its full specification with the dealer."
 versions:
   - name: "L2H2 van"
     figures:
@@ -51,7 +53,7 @@ versions:
     figures:
       battery: "68kWh or 96kWh"
 shared:
-  ac: "11kW as standard, 22kW optional"
+  ac: "11kW as standard, 22kW optional on some versions"
 archive: sources/ford-transit-price-list-2026-08.pdf
 equipment:
   - trim: "Leader"
@@ -149,7 +151,7 @@ equipment:
           - text: "SYNC IV"
             quote: "SYNC IV IEVAQ"
           - text: "12-inch multi-function display (with automatic air conditioning)"
-            quote: "Contains Multi Function Display - 12\" (HJGAX). 2, except BEV"
+            quote: "Automatic Air Conditioner 1, for BEV AC--C 464 S S - £1,000.00 £1,200.00 Contains Multi Function Display - 12\" (HJGAX)."
           - text: "ICE Pack 2 (N1 versions)"
             quote: "ICE Pack 2 (for N1 Series) ICEGS"
           - text: "ICE Pack 3 (N2 versions)"
@@ -212,10 +214,12 @@ equipment:
             quote: "Automatic Windshield Wiper CFFAE"
           - text: "Tinted glass"
             quote: "Tinted Glass Complete B2GAB"
-          - text: "16-inch steel wheels (N1 versions)"
+          - text: "16-inch steel wheels (N1 versions, except 350E)"
             quote: "6.5 x 16\" Steel Road Wheels (for N1 SRW Series; except 350E Series) D2XAD"
           - text: "Wheel hub caps"
             quote: "Wheel Hub Caps (for SRW Vehicles) D5AAG"
+          - text: "16-inch Style L wheels (350E versions)"
+            quote: "6.5 x 16\" Wheel Style L (for 350E Series) D2XCL"
           - text: "Steel spare wheel (350M versions)"
             quote: "Conventional Steel Spare Wheel (for DRW Vehicles; for 350M Series"
   - trim: "Trend (adds to Leader)"
@@ -252,15 +256,15 @@ equipment:
             quote: "Center High-Mounted LED Downlight BEBAB"
           - text: "Rear splash guards"
             quote: "Rear Splash Guards A1KAB"
-          - text: "16-inch Style L wheels (N2 versions)"
+          - text: "16-inch Style L wheels (N2 and 350E versions)"
             quote: "6.5 x 16\" Wheel Style L (for 350E Series; for BEV N2) D2XCL"
           - text: "Full wheel covers"
             quote: "Full Wheel Covers (for SRW Vehicles) D5AAB"
-  - trim: "Double cab-in-van Trend (adds to Trend)"
+  - trim: "Double cab-in-van Trend (adds to or replaces Trend van equipment)"
     groups:
       - name: "Safety and driver assistance"
         items:
-          - text: "Thatcham Category 1 alarm C"
+          - text: "Thatcham Category 1 alarm C (replaces the Trend van alarm)"
             quote: "Thatcham Category 1 Alarm C HNAAQ"
           - text: "Emergency hammer"
             quote: "Emergency Hammer C2LAB"
@@ -278,7 +282,7 @@ equipment:
             quote: "Complete Rubber Inside Floor Cover BBKAE"
       - name: "Load area"
         items:
-          - text: "Moulded double cab-in-van bulkhead"
+          - text: "Moulded double cab-in-van bulkhead (replaces the metal bulkhead)"
             quote: "DCiV Moulded Bulkhead A6AAW"
       - name: "Exterior"
         items:
@@ -455,15 +459,19 @@ options:
         quote: "CATAB 65L Fleet Key O O O O £25.00"
   - category: "Paint"
     items:
-      - name: "Blazer Blue"
+      - name: "Frozen White (solid)"
+        price: "No extra cost"
+        note: "Leader and Trend"
+        quote: "PN3GZ 73W Frozen White O O S O O O O O O O £0.00"
+      - name: "Blazer Blue (solid)"
         price: "£300"
         note: "Leader and Trend"
         quote: "PN3JV 73D Blazer Blue O O - O O O O O O O £300.00"
-      - name: "Race Red"
+      - name: "Race Red (solid)"
         price: "£300"
         note: "Leader and Trend"
         quote: "PN4A7 73R Race Red O O - O O O O O O O £300.00"
-      - name: "Grey Matter"
+      - name: "Grey Matter (solid)"
         price: "£900"
         note: "Leader and Trend"
         quote: "PN4EG 732 Grey Matter O O O O O O O O O O £900.00"
@@ -663,7 +671,7 @@ options:
     items:
       - name: "22kW on-board AC charger"
         price: "£1,250"
-        note: "Leader and Trend. Ford lists it as requiring the 4P battery version"
+        note: "Leader and Trend, but not on every version: Ford marks it \"Requires 4P BEV\" without explaining which versions that covers, so check with the dealer"
         quote: "HVEAC 47X Battery Charger 2 Ver 2 - 22kW Requires 4P BEV O O - O £1,250.00"
       - name: "Charging cable"
         price: "£150"
@@ -685,11 +693,11 @@ options:
     items:
       - name: "Trailer tow attachments"
         price: "£400"
-        note: "Leader. Trend except N2 versions"
+        note: "Leader; Trend van except N2 versions; not on the double cab-in-van"
         quote: "C1DAB 66N Trailer Tow Attachments 2, except BEV O O1 O O2,3 £400.00"
       - name: "Towing electrics"
         price: "£150"
-        note: "Leader. Trend except N2 versions"
+        note: "Leader; Trend van except N2 versions; not on the double cab-in-van"
         quote: "C1DAD 66K Towing Electrics O O1 O O2 £150.00"
   - category: "Other"
     items:
@@ -745,6 +753,9 @@ options:
         price: "£400"
         note: "Leader and Trend"
         quote: "Vehicle Integration System JRSAB 51I O O O O £400.00"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "28 August 2026"
     archive: sources/ford-transit-price-list-2026-08.pdf
@@ -773,9 +784,6 @@ facts:
   - claim: "22kW"
     archive: sources/ford-transit-price-list-2026-08.pdf
     quote: "HVEAC 47X Battery Charger 2 Ver 2 - 22kW Requires 4P BEV O O - O £1,250.00"
-  - claim: "130km/h"
-    archive: sources/ford-transit-price-list-2026-08.pdf
-    quote: "DCFAT is Standard on Van BEV N1 Series just because 130 KPH is the maximum speed on Van BEV N1 Series."
   - claim: "56mph"
     archive: sources/ford-transit-price-list-2026-08.pdf
     quote: "90KPH/56MPH Engine Governor (for N2 Series) DCFAH"
