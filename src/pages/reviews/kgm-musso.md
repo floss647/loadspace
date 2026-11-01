@@ -15,7 +15,7 @@ good: ["Far cheaper than other electric pickups", "Comfortable, quiet and roomy 
 bad: ["690 kg payload, a car for VAT", "Tows 2,300kg braked, not 3.5 tonnes", "Fussy safety alerts and laggy touchscreen"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.kgm-motors.co.uk/new-cars/musso-ev/
   - https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
@@ -26,7 +26,6 @@ sources:
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-dimensions-2026/
   - https://www.autoexpress.co.uk/kgm/musso/ev
   - https://vanfleetworld.co.uk/kgm-musso-ev-awd-electric-pickup-gets-240-mile-range-for-under-43k/
-  - https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://vanreviewer.co.uk/toyota/hilux-bev/review/9053/
   - https://www.gov.uk/hmrc-internal-manuals/vat-input-tax/vit56600
@@ -94,9 +93,6 @@ facts:
   - claim: "KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes"
     source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
     quote: "120kW rapid charging takes the battery from 20-80% in around 36 minutes"
-  - claim: "10 to 80 per cent in 46 minutes on a 100kW charger"
-    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
-    quote: "How long to charge 10-80%? 46 minutes (100kW DC charger)"
   - claim: "11kW"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "three-phase 11kW AC charging would allow for a full charge in 10 hours"
@@ -106,9 +102,6 @@ facts:
   - claim: "vehicle-to-load socket"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "It’s also equipped with vehicle-to-load (V2L) functionality"
-  - claim: "a heat pump"
-    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
-    quote: "A heat pump is standard equipment"
   - claim: "built on KGM's car platform rather than a separate chassis"
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "Rather than using a traditional pickup body-on-frame platform, it’s instead based on the same car platform as models like the KGM Torres"
@@ -179,8 +172,8 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
     quote: "Even at motorway speeds, it’s a quiet place to travel"
   - claim: "a quiet cab"
-    source: https://evfleetworld.co.uk/first-drive-kgm-musso-ev/
-    quote: "noise levels are very low and the ride quality is impressive"
+    source: https://www.autoexpress.co.uk/kgm/musso/ev
+    quote: "It's quiet, comfortable and decent enough to drive"
   - claim: "some bounce from the back when it's empty"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "We tried the Musso EV unladen, which meant the rear end tended to bounce over undulations at times"
@@ -297,7 +290,7 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 The battery is 80.6kWh. KGM quotes up to 235 miles of WLTP combined range and up to 290 miles in city driving, but its own figures vary: another KGM page gives 240 miles without naming the test, and a third gives up to 240 miles (WLTP). One road test returned 2.5 miles per kWh on the motorway and up to 2.9 on local runs, which suggests the official figure is within reach.
 
-KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes, though another KGM page quotes 10 to 80 per cent in around 36 minutes. One first drive lists 10 to 80 per cent in 46 minutes on a 100kW charger. On 11kW AC, a full charge takes about 10 hours. A vehicle-to-load socket can run power tools, and a heat pump is standard. More in our [charging guide](/guides/charging-an-electric-van/).
+KGM gives 120kW rapid charging, taking the battery from 20 to 80 per cent in around 36 minutes, though another KGM page quotes 10 to 80 per cent in around 36 minutes. On 11kW AC, a full charge takes about 10 hours. There's also a vehicle-to-load socket. More in our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 

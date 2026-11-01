@@ -15,13 +15,12 @@ good: ["Over 1,000kg payload in every version", "Up to 230 miles official range"
 bad: ["Rapid charging peaks at 90kW", "High load floor", "Lots of driver-assistance beeping"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
   - https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
   - https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-  - https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
   - https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
@@ -35,14 +34,11 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "Maxus's own slightly smaller eDeliver 3"
   - claim: "230 miles"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "a range of up to 230 miles (WLTP combined)"
-  - claim: "230 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "while this increases to 225 miles and 230 miles as you go for the smaller two models"
   - claim: "Up to 230 miles official range"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "a range of up to 230 miles (WLTP combined)"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
+    quote: "while this increases to 225 miles and 230 miles as you go for the smaller two models"
   - claim: "the shorter L1H1 with the bigger battery is rated at 230 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "while this increases to 225 miles and 230 miles as you go for the smaller two models"
@@ -62,23 +58,23 @@ facts:
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "Published: August 17, 2025"
   - claim: "two batteries, 77kWh and 88kWh"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "It's offered with a choice of two battery sizes - 77kWh and 88kWh"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
+    quote: "There is a 77kWh battery and an 88kWh version."
   - claim: "lithium iron phosphate (LFP) cells"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "uses Lithium Iron Phosphate (LFP) cells"
   - claim: "90kW"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "It can also charge at 90kW via a DC public charger, going from 20-80% in some 43 minutes."
+    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
+    quote: "with a peak DC charging rate of up to 90 kW"
   - claim: "Rapid charging peaks at 90kW"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "with a peak DC charging rate of up to 90 kW"
   - claim: "20 to 80% in about 43 minutes"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "going from 20-80% in some 43 minutes"
-  - claim: "11kW onboard charger takes around eight hours from 5 to 100%"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "fitted with a 11kW onboard charger, giving a 5-100% charge time of around eight hours"
+    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
+    quote: "A 20-80% charge can be done in as little as 43 minutes."
+  - claim: "11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh"
+    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
+    quote: "The vehicle comes with a standard 11 kW onboard charger. A full charge from 5-100% can be completed in about 8 hours for the 88 kWh battery using a three-phase supply, and 7 hours for the 77 kWh battery."
   - claim: "1,200 kg"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "with the smallest battery that is the strongest with a maximum payload of 1,200kg"
@@ -203,8 +199,8 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "the eDeliver 7 comes with five years/60,000-miles warranty"
   - claim: "five years of roadside assistance"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "include five years' roadside assistance cover as standard"
+    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
+    quote: "It also gets five years roadside assistance cover as standard"
   - claim: "eight years or 155,000 miles"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "eight years/155,000 miles"
@@ -216,12 +212,6 @@ facts:
   - claim: "around 60 locations, including service dealers"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "now boasts 60 locations, including service dealers"
-  - claim: "When orders opened in January 2024"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "26 January 2024"
-  - claim: "priced from £44,995 excluding VAT"
-    source: https://evfleetworld.co.uk/maxus-edeliver-7-medium-electric-van-on-sale/
-    quote: "priced from £44,995 (excl. VAT)"
   - claim: "In August 2026"
     source: https://vanfleetworld.co.uk/maxus-disrupts-medium-van-market-with-19995-pricing-for-deliver-7-van/
     quote: "7 August 2026"
@@ -252,7 +242,7 @@ The catch is the floor. The battery sits under the rear floor, so the load floor
 
 Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 190 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
 
-Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100%. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
+Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
 
 ### On the road
 
@@ -268,6 +258,6 @@ The obvious rivals are the [Ford E-Transit Custom](/vans/ford-transit-custom/), 
 
 ### Price
 
-We couldn't confirm a current UK list price for the electric van. When orders opened in January 2024, the eDeliver 7 was priced from £44,995 excluding VAT. In August 2026 the UK importer announced that the Deliver 7 line-up, in Euro 6 and electric forms, is now priced from £19,995, but the report doesn't say which version that price buys or whether it includes VAT, so get a written quote for the electric van you want. It's on the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)).
+We couldn't confirm a current UK list price for the electric van. In August 2026 the UK importer announced that the Deliver 7 line-up, in Euro 6 and electric forms, is now priced from £19,995, but the report doesn't say which version that price buys or whether it includes VAT, so get a written quote for the electric van you want. It's on the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)).
 
 The warranty is five years or 60,000 miles with five years of roadside assistance, and the battery is reported to be covered for eight years or 155,000 miles. Servicing is every two years or 18,000 miles. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).

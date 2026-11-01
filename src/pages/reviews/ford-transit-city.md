@@ -10,12 +10,12 @@ specs:
   charging: "87kW"
   payload: "1,275 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get Transit Custom-like size, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
+verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get up to 8.5m³ of load space, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
 good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with no options to choose"]
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-01
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
@@ -26,7 +26,6 @@ sources:
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
   - https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
-  - https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
 facts:
   # Specs
   - claim: "£29,000"
@@ -74,9 +73,9 @@ facts:
   - claim: "rapid charging that peaks at 87kW"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "E-Motor 11kW 87kW 56kWh 110kW / 150PS 260Nm"
-  - claim: "Transit Custom-like size"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "The electric-only Transit City is comparable in size to the Transit Custom"
+  - claim: "up to 8.5m³ of load space"
+    source: https://www.ford.co.uk/vans-and-pickups/transit-city
+    quote: "Up to 8.5m³"
   - claim: "a payload of up to 1,275 kg"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "backed by a robust 1,275kg"
@@ -108,8 +107,8 @@ facts:
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "The maximum DC charging rate is only 87kW and averages at 67kW"
   - claim: "no choice of trim"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "To this end, Ford will offer a single specification, helping to reduce cost and complexity."
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "the Transit City's single trim level keeps things straightforward"
   # Who it's for
   - claim: "built with Ford's long-standing Chinese joint-venture partner, JMC"
     source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
@@ -120,9 +119,9 @@ facts:
   - claim: "it's on sale in the UK now"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "The all-new Ford Transit City has gone on sale in the UK"
-  - claim: "90% of van operators in this class drive less than 68 miles a day"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "According to Ford, 90% of van operators in the segment drive less than 68 miles (110km) per day."
+  - claim: "the average daily distance covered by existing electric van users is less than 70 miles"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "the average daily distance covered by existing electric van users is less than 70 miles"
   # Load area and payload
   - claim: "the L1H1 van has up to 6.4m³ of load space"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
@@ -131,8 +130,8 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "300S 56kWh 110kW / 150PS 1-speed automatic FWD 1,915 3,000 1,085 1,990 1,330 1,780"
   - claim: "room for three Euro pallets"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "L1H1 models are capable of carrying three Euro-pallets"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "For the L1H1 van, there's a payload of 1,085kg and floor space for three Euro pallets"
   - claim: "it stands 1,991mm tall"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Overall height 1,991 2,285"
@@ -206,8 +205,8 @@ facts:
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "meaning the van can go from 0-62mph in 13.7 seconds and top out at 75mph"
   - claim: "a one-pedal driving mode"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "Ford has optimised the one-pedal mode designed for the Transit City"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "The powertrain offers one-pedal driving for ease of use"
   # Cab and kit
   - claim: "a 12.3-inch touchscreen"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
@@ -326,7 +325,7 @@ facts:
 
 ### Who it's for
 
-The Transit City is Ford's answer to a simple question: what's the cheapest way to put a Transit Custom-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on a dedicated electric platform, and it's on sale in the UK now. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says 90% of van operators in this class drive less than 68 miles a day. If that sounds like your fleet, the modest range matters less than the low price.
+The Transit City is Ford's answer to a simple question: what's the cheapest way to put a medium-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on a dedicated electric platform, and it's on sale in the UK now. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says the average daily distance covered by existing electric van users is less than 70 miles. If that sounds like your fleet, the modest range matters less than the low price.
 
 ### Load area and payload
 
