@@ -901,6 +901,9 @@ options:
         price: "£150"
         note: "Trail only"
         quote: "Roof Rails BLYA3 - - O - - 150 180"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "up to 230 miles"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom

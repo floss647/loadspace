@@ -60,6 +60,9 @@ shared:
   rapid: "Up to 50kW, 20 to 80% in 1 hour"
   ac: "Up to 11kW, 0 to 100% in 10 hours"
   warranty: "8 years or 100,000 miles"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "263km"
     source: https://www.isuzu.co.uk/vehicles/isuzu-d-max-edl40/

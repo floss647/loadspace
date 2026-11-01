@@ -272,6 +272,9 @@ options:
         price: "£15.83"
         note: "Icon and Sport"
         quote: "Safety Hammer - Life Hammer Plus \uF0A1 \uF0A1 \uF0A1 £15.83"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "April 2026"
     archive: sources/toyota-proace-electric-price-list-2026-04.pdf

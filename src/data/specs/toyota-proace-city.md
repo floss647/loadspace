@@ -293,6 +293,9 @@ options:
         price: "£15.83"
         note: "Icon and Sport"
         quote: "Safety Hammer - Life Hammer Plus m m £ 15.83"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 October 2026"
     archive: sources/toyota-uk-price-list-all-models-2026-10.pdf

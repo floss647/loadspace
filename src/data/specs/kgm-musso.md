@@ -43,6 +43,9 @@ versions:
       rapidTime: "About 36 minutes"
 shared:
   warranty: "10 years or 1 million km"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "690kg"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/

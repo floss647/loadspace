@@ -242,6 +242,9 @@ options:
         price: "£249.17"
         note: "Icon, newest model year"
         quote: "Nextbase Front-facing Dash Camera (Centre m m m £ 249.17"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 October 2026"
     archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
