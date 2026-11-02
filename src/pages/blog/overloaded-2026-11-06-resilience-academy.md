@@ -58,7 +58,7 @@ facts:
   - claim: "UK vehicle production rose by 36.3% to 74,031 units in September"
     source: https://www.smmt.co.uk/vehicle-production-rises-but-regulatory-and-competitive-pressures-threaten-recovery/
     quote: "UK vehicle production rose by 36.3% to 74,031 units in September"
-  - claim: "the strongest since August 2022"
+  - claim: "the strongest growth since August 2022"
     source: https://www.smmt.co.uk/vehicle-production-rises-but-regulatory-and-competitive-pressures-threaten-recovery/
     quote: "The growth - the strongest since August 2022 - reflects the impact of an unprecedented cyber incident last year, which saw production stoppages at Britain’s biggest automotive employer."
   - claim: "the growth reflects the impact of an unprecedented cyber incident last year, which stopped production at Britain's biggest automotive employer"
@@ -97,9 +97,9 @@ facts:
     joke: "Running gag from the first column: a mint can't hold up a van. The columnist's glovebox is a comic device, not a claim about the world."
   - claim: "the smell in a hire van, or what's under the passenger seat"
     joke: "Vague, silly aside about hire vans; makes no claim about any real van or firm."
-  - claim: "a sort of Hogwarts for tarmac, where young motorways are taught to smile when closed"
+  - claim: "a leafy campus where young roundabouts learn to cope with being dug up, and the M25 is the head girl who has never once been on time"
     joke: "Obvious fantasy comparison; nobody could think the Academy teaches roads or runs on magic."
-  - claim: "Entry requirements: having once been stuck behind a tractor. Graduation ceremony: a nap in a lay-by."
+  - claim: "Entry requirements: three years of A-level Roadworks and a distinction in Waiting. Graduates receive a hi-vis mortarboard."
     joke: "Invented prospectus for a joke version of the Academy, not the real entry requirements or ceremony."
   - claim: "a diversion sign pointing at a field"
     joke: "Invented, deliberately daft scenario."
@@ -109,20 +109,22 @@ facts:
     joke: "Comic exaggeration, not a statement about how transport is run."
   - claim: "Mine started making a noise years ago."
     joke: "Self-mocking aside about the columnist's own joints; not a claim about anyone real."
+  - claim: "I've had a hip replaced faster"
+    joke: "Invented self-mocking aside; the columnist is fictional and no real operation or hospital is meant."
   - claim: "learn Portuguese, or grow a marrow the size of a Transit Connect"
     joke: "Absurd things to do with fifteen months; no marrow is that big."
   - claim: "the cones will qualify for a pension"
     joke: "Traffic cones are not employees; absurd personification."
-  - claim: "a record-breaking recovery from falling down the stairs"
-    joke: "Comic analogy for the recovery from the cyber incident; nobody fell down stairs."
+  - claim: "a heroic recovery from being flattened by a cyber attack, like boasting about how much better you feel than when you had flu"
+    joke: "Comic analogy for the recovery in output; nobody is saying the company was ill, and the joke's target is the statistic, not the victim of the attack."
   - claim: "My performance has improved by 400% since the day I locked the keys in the van."
     joke: "Invented self-mocking figure from an imaginary appraisal of the columnist; no reader would take it as fact."
-  - claim: "If someone has moved the walls of the van factory, say so."
+  - claim: "If someone has moved the walls of the CV factory, say so."
     joke: "Pun on the phrase 'structural changes'; no suggestion any factory walls moved."
-  - claim: "I've never heard a pallet argue the point."
+  - claim: "A pallet has never had a view on the matter, which makes it the only thing in logistics that hasn't complained."
     joke: "Pallets cannot speak; absurd aside."
-  - claim: "the behaviour of a man who has bought two identical white vans and insists they have never met"
-    joke: "Invented comic image about the arrangement; describes no real person's behaviour."
+  - claim: "buying two identical white vans and giving them different names"
+    joke: "Invented comic image about running two brands; it describes no real person and implies no denial of ownership."
   - claim: "Go on, park them in the same yard. They'll talk."
     joke: "Vans do not talk; absurd aside."
   - claim: "the Polo mint has now been in the glovebox longer than the contraflow"
@@ -137,30 +139,30 @@ Welcome back to Overloaded. A quick update from the glovebox: the Polo mint in m
 
 On Monday the Department for Transport published its transport resilience strategy, setting out the government's approach for the next 5 to 10 years. It makes 22 practical commitments, including a new training initiative called the Transport Resilience Academy, and a sector-wide transport resilience network.
 
-An academy. For resilience. I assume it's a sort of Hogwarts for tarmac, where young motorways are taught to smile when closed. Entry requirements: having once been stuck behind a tractor. Graduation ceremony: a nap in a lay-by.
+An academy. For resilience. I picture a leafy campus where young roundabouts learn to cope with being dug up, and the M25 is the head girl who has never once been on time. Entry requirements: three years of A-level Roadworks and a distinction in Waiting. Graduates receive a hi-vis mortarboard.
 
-Here's a free lesson for the prospectus. A van driver first thing in the morning, flask on the dashboard, delivery slot in forty minutes, a diversion sign pointing at a field. That man holds a doctorate in resilience, done part-time, in lay-bys. The department itself says transport remains "a people-dependent system", which is the most honest sentence ever to escape from a strategy document. The people are the system. The rest is cones.
+Here's a free lesson for the prospectus. A van driver first thing in the morning, flask on the dashboard, a delivery slot that has already gone, a diversion sign pointing at a field. That man holds a doctorate in resilience, done part-time, in lay-bys. The department itself says transport remains "a people-dependent system", which is the most honest sentence ever to escape from a strategy document. The people are the system. The rest is cones.
 
 ## Fifteen months of the M6
 
-Speaking of cones, here comes the live exam. According to trans.info, National Highways is replacing the bridge joints on the M6 Thelwall Viaduct between J20 and J21. The viaduct carries the motorway over the Manchester Ship Canal and the River Mersey. The £27 million project started in September 2026 and is due to finish in winter 2027/28. Trans.info's headline calls it 15 months of roadworks, and says the impact will be felt through two winters.
+Time for the practical. According to trans.info, National Highways is replacing the bridge joints on the M6 Thelwall Viaduct between J20 and J21. The viaduct carries the motorway over the Manchester Ship Canal and the River Mersey, in case one body of water wasn't enough to ruin your Tuesday. The £27 million project started in September 2026 and is due to finish in winter 2027/28. Trans.info's headline calls it 15 months of roadworks, and says the impact will be felt through two winters.
 
-A 24/7 northbound contraflow with a 40mph limit has been in place since 19 October, and between 10pm and 5am the northbound side is cut to a single lane, which is exactly when a night-shift driver would like to be on it.
+A 24/7 northbound contraflow with a 40mph limit has been in place since 19 October, and between 10pm and 5am the northbound side is cut to a single lane, which is exactly when night-shift drivers are on it. Lovely.
 
-I'm delighted the joints are getting done. Everyone's joints get done eventually. Mine started making a noise years ago. But fifteen months! In that time I could learn Portuguese, or grow a marrow the size of a Transit Connect. By the end, the cones will qualify for a pension.
+I'm delighted the joints are getting done. Everyone's joints get done eventually. Mine started making a noise years ago. But fifteen months! Two winters! For one set of joints! I've had a hip replaced faster, and I'd have taken the contraflow to the hospital at 40mph and arrived early. In that time I could learn Portuguese, or grow a marrow the size of a Transit Connect. By the end, the cones will qualify for a pension.
 
 ## Production up 36.3%, after the fall
 
-SMMT says UK vehicle production rose by 36.3% to 74,031 units in September, the strongest since August 2022. Cheering stuff, until you read why. The society says the growth reflects the impact of an unprecedented cyber incident last year, which stopped production at Britain's biggest automotive employer. So it's a record-breaking recovery from falling down the stairs.
+SMMT says UK vehicle production rose by 36.3% to 74,031 units in September, the strongest growth since August 2022. Splendid news, until you find out the trick. The society says the growth reflects the impact of an unprecedented cyber incident last year, which stopped production at Britain's biggest automotive employer. So it's a heroic recovery from being flattened by a cyber attack, like boasting about how much better you feel than when you had flu.
 
 I'm going to try this at my next appraisal. "My performance has improved by 400% since the day I locked the keys in the van." Promote me.
 
-The sober bit: SMMT adds that overall output is still down 3.0% this year. Commercial vehicle production dipped 0.9% in September and is down 46.7% so far this year, following structural changes within the sector. I'd love to know which structures. If someone has moved the walls of the van factory, say so.
+The sober bit: SMMT adds that overall output is still down 3.0% this year. Commercial vehicle production dipped 0.9% in September and is down 46.7% so far this year, following structural changes within the sector. I'd love to know which structures. If someone has moved the walls of the CV factory, say so.
 
-## Two pallet networks, one owner, no relation
+## Two pallet networks, one owner
 
-Finally, trans.info reports that northstarr has bought United Pallet Network. UPN and Pallet-Track will together handle more than 6.3 million pallets a year, and will carry on as separate networks. northstarr's group chief executive, Stuart Godman, said that "size and scale matters". Fair enough. I've never heard a pallet argue the point.
+Finally, trans.info reports that northstarr has bought United Pallet Network. UPN and Pallet-Track will together handle more than 6.3 million pallets a year, and will carry on as separate networks. northstarr's group chief executive, Stuart Godman, said that "size and scale matters". Fair enough. A pallet has never had a view on the matter, which makes it the only thing in logistics that hasn't complained.
 
-But owning two networks and insisting they have nothing to do with each other is the behaviour of a man who has bought two identical white vans and insists they have never met. Go on, park them in the same yard. They'll talk.
+Running two networks as separate brands is like buying two identical white vans and giving them different names. Go on, park them in the same yard. They'll talk.
 
 That's the column. The Polo mint has now been in the glovebox longer than the contraflow, and I have applied to the Resilience Academy and attached a photo of my glovebox. See you next Friday.
