@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "Britain announces a Transport Resilience Academy, and the M6 gets a fifteen-month haircut"
+title: "A Transport Resilience Academy is on the way, and the M6 gets a fifteen-month haircut"
 date: 2026-11-06T08:00:00Z
 photo: thelwall-viaduct-m6
 photoCaption: "The Thelwall Viaduct, which carries the M6 over the Manchester Ship Canal and the River Mersey, with a sign gantry. Not a photo of the current works."
@@ -79,6 +79,9 @@ facts:
     source: https://www.smmt.co.uk/two-critical-months-for-uk-automotive/
     quote: "Output remains down -3.0% this year"
   # UPN and Pallet-Track (trans.info, 29 October 2026, trade press reporting northstarr)
+  - claim: "Two pallet networks, one owner"
+    source: https://trans.info/en/northstarr-acquires-upn-largest-uk-pallet-network-511597
+    quote: "Wolverhampton-based logistics group northstarr, which owns the Pallet-Track network, has acquired United Pallet Network (UPN)."
   - claim: "northstarr has bought United Pallet Network"
     source: https://trans.info/en/northstarr-acquires-upn-largest-uk-pallet-network-511597
     quote: "northstarr Group has acquired United Pallet Network (UK) Ltd."
@@ -147,9 +150,9 @@ Here's a free lesson for the prospectus. A van driver first thing in the morning
 
 ## Fifteen months of the M6
 
-Time for the practical. According to trans.info, National Highways is replacing the bridge joints on the M6 Thelwall Viaduct between J20 and J21. The viaduct carries the motorway over the Manchester Ship Canal and the River Mersey, in case one body of water wasn't enough to ruin your Tuesday. The £27 million project started in September 2026 and is due to finish in winter 2027/28. Trans.info's headline calls it 15 months of roadworks, and says the impact will be felt through two winters.
+Time for the practical. According to trans.info, National Highways is replacing the bridge joints on the M6 Thelwall Viaduct between J20 and J21. The viaduct carries the motorway over the Manchester Ship Canal and the River Mersey, in case one body of water wasn't enough to ruin your morning. The £27 million project started in September 2026 and is due to finish in winter 2027/28. Trans.info's headline calls it 15 months of roadworks, and says the impact will be felt through two winters.
 
-A 24/7 northbound contraflow with a 40mph limit has been in place since 19 October, and between 10pm and 5am the northbound side is cut to a single lane, which is exactly when the night-shift drivers are on it, as if they hadn't suffered enough.
+A 24/7 northbound contraflow with a 40mph limit has been in place since 19 October, and between 10pm and 5am the northbound side is cut to a single lane, which is when the night-shift drivers are on it, as if they hadn't suffered enough.
 
 I'm delighted the joints are getting done. Everyone's joints get done eventually. Mine started making a noise years ago. But fifteen months! Two winters! For one set of joints! I've had a hip replaced faster, and I'd have taken the contraflow to the hospital at 40mph and arrived early. In that time I could learn Portuguese, or grow a marrow the size of a Transit Connect. By the end, the cones will qualify for a pension.
 
