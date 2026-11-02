@@ -2,6 +2,8 @@
 layout: ../../layouts/BlogPost.astro
 title: "The Resilience Academy opens, and the M6 gets a fifteen-month haircut"
 date: 2026-11-06T08:00:00Z
+photo: thelwall-viaduct-m6
+photoCaption: "The Thelwall Viaduct, which carries the M6 over the Manchester Ship Canal and the River Mersey, with a sign gantry. Not a photo of the current works."
 summary: "A government academy for resilience, a motorway viaduct getting new joints, a production figure that grew by falling over first, and a pallet company that bought its rival and left it alone. This week's Overloaded."
 sources:
   - https://www.gov.uk/government/speeches/building-transport-resilience
