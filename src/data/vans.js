@@ -167,6 +167,10 @@ export const VANS = [
     electricNote: 'Electric only. The best-selling electric van in August 2026.',
   }),
   v('Maxus', 'eDeliver 7', 'medium', { electric: true, electricNote: 'Electric only.' }),
+  v('Farizon', 'V7E', 'medium', {
+    electric: true,
+    electricNote: 'Electric only. Farizon offers a 50kWh or 67kWh battery, with an official range (WLTP combined) of up to 149 or 204 miles.',
+  }),
 
   // Large
   v('Ford', 'Transit', 'large', {
