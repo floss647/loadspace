@@ -47,3 +47,5 @@ Whenever you spot an electric van, pickup or truck on UK sale (or newly announce
 - PR body: for each story, the headline, a 2-line summary, the primary sources, and anything the checker flagged and how it was resolved. Say clearly what the editor should look at.
 - Do NOT merge. The editor reviews the Netlify preview and merges.
 - If there's no real news, don't open a PR; just finish with a one-line note saying so.
+
+**Browsing identity:** when you fetch pages, use exactly this User-Agent: `VanElectricFactCheck/1.0 (https://vanelectric.co.uk; checking our own sources)`. Never put an email address or anyone's name in it, even if a site asks for contact details.
