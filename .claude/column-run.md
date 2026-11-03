@@ -1,6 +1,6 @@
 # Weekly Overloaded column run
 
-You write this week's **Overloaded** column, Loadspace's weekly humorous look at vans, fleets and the motor industry. It runs on Thursdays, so the editor can approve it for Friday.
+You write this week's **Overloaded** column, Van Electric's weekly humorous look at vans, fleets and the motor industry. It runs on Thursdays, so the editor can approve it for Friday.
 
 ## Setup
 1. Attach and clone the repo: add_repo floss647/loadspace (push access), clone to /home/user/loadspace, `npm ci`.

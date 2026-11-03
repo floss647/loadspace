@@ -14,7 +14,7 @@ import io, json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 from PIL import Image
 
-UA = 'LoadspaceImageFinder/0.1 (https://loadspace-vans.netlify.app; editorial van guides)'
+UA = 'VanElectricImageFinder/0.1 (https://vanelectric.co.uk; editorial van guides)'
 OK = re.compile(r'^(CC BY(-SA)? [0-9.]+|CC0|Public domain|PD)', re.I)
 ROOT = Path(__file__).resolve().parent.parent
 

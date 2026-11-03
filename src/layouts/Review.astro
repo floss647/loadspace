@@ -30,7 +30,7 @@ const ld = {
     <div class="wrap review-hero-grid">
       <div class="review-hero-copy">
         <div class="crumbs"><a href="/">Home</a> › <a href="/reviews/">Reviews</a>{van && <> › {SIZES[van.size]?.label}</>}</div>
-        <p class="eyebrow">Loadspace review · {fmtDate(f.date)}</p>
+        <p class="eyebrow">Van Electric review · {fmtDate(f.date)}</p>
         <h1>{f.title}</h1>
         <p class="review-summary">{f.summary}</p>
         {overall == null && (
@@ -39,7 +39,7 @@ const ld = {
         {overall != null && (
           <div class="review-medal">
             <span class="medal-score">{overall.toFixed(1)}<small>/5</small></span>
-            <span class="medal-label"><strong>Loadspace data score</strong>Scored on {scoredCount} of {rows.length} published figures</span>
+            <span class="medal-label"><strong>Van Electric data score</strong>Scored on {scoredCount} of {rows.length} published figures</span>
           </div>
         )}
       </div>

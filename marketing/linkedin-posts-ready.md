@@ -4,13 +4,13 @@ Copy the text under each heading into LinkedIn and attach the image named. Fill 
 
 ---
 
-## Post 1 (Tuesday 3 November): why Loadspace exists
+## Post 1 (Tuesday 3 November): why Van Electric exists
 
 Image: post-1.png
 
 Advice on electric vans should come from someone who isn't trying to sell you one.
 
-That's why I built Loadspace.
+That's why I built Van Electric.
 
 [ADD YOUR OWN LINE: why you started it, in your own words]
 
@@ -28,7 +28,7 @@ We don't sell vans or trucks, and rankings are never for sale.
 
 [ADD YOUR OWN LINE: who you'd like to hear from]
 
-https://loadspace-vans.netlify.app/
+https://vanelectric.co.uk/
 
 #ElectricVans #FleetManagement
 
@@ -52,7 +52,7 @@ No decision yet. The government says it aims to respond by the end of 2026.
 If you're buying: SMMT says substantial discounts helped drive September's record. If the target is cut, the pressure behind those discounts could ease.
 
 The full story, and what each option means:
-https://loadspace-vans.netlify.app/news/zev-mandate-van-consultation-closes/
+https://vanelectric.co.uk/news/zev-mandate-van-consultation-closes/
 
 #ElectricVans #ZEVMandate #Fleet
 
@@ -80,7 +80,7 @@ These are vans from around 2018, so for some models that means an earlier genera
 Two caveats. Mileage matters: 5–6 year old L200s averaged 65,223 miles, against 83,815 across all the models we track, combined. And the data is almost all diesel, because few electric vans are old enough yet. It shows how each model's body, brakes, suspension and steering hold up, not its battery.
 
 Full table:
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement
 
@@ -101,7 +101,7 @@ There's a serious bit too. Every real fact in it goes through the same checks as
 
 If you spend your working day in a van, or managing people who do, it's written for your tea break.
 
-https://loadspace-vans.netlify.app/blog/
+https://vanelectric.co.uk/blog/
 
 #Vans #Fleet
 
@@ -128,7 +128,7 @@ The catches: new vans only, at first registration. The exact model and trim must
 Some electric trucks over 26 tonnes can get up to £81,000, or 40% of the cost if that's lower (less for large firms in Northern Ireland).
 
 Plain-English guide:
-https://loadspace-vans.netlify.app/news/zero-emission-van-grant-explained/
+https://vanelectric.co.uk/news/zero-emission-van-grant-explained/
 
 #ElectricVans #SmallBusiness #Fleet
 
@@ -158,7 +158,7 @@ Its twin, the Fiat Ducato, barely moves: 23.2% to 25.3%. That's a clue, not a mi
 
 So compare like with like: same age, and look at the mileage.
 
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement
 
@@ -180,7 +180,7 @@ Take the example our free calculator starts with: £279 a month, 6 + 35, and a �
 It's the fairest way to compare two quotes for the same van with different upfront payments. Then check the mileage limit fits your work, and whether the price includes VAT (business deals are usually shown without it).
 
 Put your own quote in. It's free and there's no sign-up:
-https://loadspace-vans.netlify.app/tools/lease-true-cost/
+https://vanelectric.co.uk/tools/lease-true-cost/
 
 #Vans #SmallBusiness #Leasing
 
@@ -208,6 +208,6 @@ The data can't tell us why. It may come down to who buys each badge and how they
 
 What it does show: with twins, don't assume the badge you don't buy has the same record. Look up the one you're buying, at the age you're buying it.
 
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement

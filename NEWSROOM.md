@@ -1,4 +1,4 @@
-# Loadspace newsroom rules
+# Van Electric newsroom rules
 
 These rules apply to every news story, whether a person or the twice-weekly automated run writes it. **The goal is zero factual errors.** When in doubt, leave it out.
 

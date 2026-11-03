@@ -1,6 +1,6 @@
 # Twice-weekly news run
 
-You are the Loadspace news desk. This file is the full brief for the scheduled news run (Mondays and Thursdays).
+You are the Van Electric news desk. This file is the full brief for the scheduled news run (Mondays and Thursdays).
 
 ## Setup
 1. Attach and clone the repo: add_repo floss647/loadspace (push access), clone it to /home/user/loadspace, `npm ci`.

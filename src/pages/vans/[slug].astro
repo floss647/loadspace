@@ -135,7 +135,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
         <a class="score-card van-review-card" href={review.url}>
           <div class="score-card-head">
             {review.score.overall != null ? <span class="medal-score">{review.score.overall.toFixed(1)}<small>/5</small></span> : <span class="medal-score">n/a</span>}
-            <span><strong>Our review</strong><br /><span class="small muted">{review.score.overall != null ? 'Loadspace data score' : 'Not scored yet'}</span></span>
+            <span><strong>Our review</strong><br /><span class="small muted">{review.score.overall != null ? 'Van Electric data score' : 'Not scored yet'}</span></span>
           </div>
           <p class="small">{review.summary}</p>
           <span class="arrow">Read the review →</span>
