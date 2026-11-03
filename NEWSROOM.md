@@ -9,7 +9,7 @@ A story only goes live after passing all four:
 1. **Sourced facts.** Every number, date, price, name and claim in the story comes from a source page on the trusted list (`scripts/news-sources.json`). The writer records each one in the story's `facts:` list with the **exact words copied from the source**.
 2. **Automatic check.** `npm run check-news:live` opens every source page and confirms each quote is really there. The site build (`npm run build`) refuses to build if any number in a story isn't backed by a fact, so an unchecked story can't go live.
 3. **Independent fact-check.** A separate checker, who didn't write the story, re-reads every source and compares it with the story line by line. They also check the things a script can't: meaning, context, dates, "up to" vs "from", ex-VAT vs inc-VAT, and whether a newer source changes the picture. Only then does the story get its `factCheck:` sign-off.
-4. **Editor approval.** New stories arrive as a pull request with a preview link. Nothing goes live until the editor reads it and merges.
+4. **Publishing.** New stories arrive as a pull request with a preview link. The editor has chosen automatic publishing: a news or column run merges its own pull request only when every GitHub check passes, and anything that fails a check waits for the editor. Line-up checks still wait for the editor.
 
 ## Writing rules
 
