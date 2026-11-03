@@ -34,3 +34,5 @@ Then run `NODE_USE_ENV_PROXY=1 npm run check-news:live` and `npm run build`. Bot
 - Open a pull request with the REST API (GraphQL is blocked): `gh api repos/floss647/loadspace/pulls -X POST -f title="Overloaded: <headline>" -f head=<branch> -f base=main -F body=@pr.md`.
 - In the PR body give the headline, the stories covered, the sources, what the checker flagged and how it was fixed, and the jokes marked as `joke:`.
 - Do NOT merge. The editor reads the Netlify preview and merges.
+
+**Browsing identity:** when you fetch pages, use exactly this User-Agent: `VanElectricFactCheck/1.0 (https://vanelectric.co.uk; checking our own sources)`. Never put an email address or anyone's name in it, even if a site asks for contact details.
