@@ -6,6 +6,9 @@ tag: Charging
 summary: "The government plans to pay for grid upgrades at 15 to 25 motorway service areas in England, so they can host more chargers for cars, vans and trucks. The competition watchdog's subsidy advisers have now said where the government's case needs more work."
 stat: "£190m"
 statLabel: "indicative budget for grid upgrades at about 15 to 25 motorway service areas in England."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-05
 sources:
   - https://www.gov.uk/cma-cases/referral-of-the-proposed-strategic-charging-infrastructure-scheme-by-the-office-for-zero-emission-vehicles
   - https://www.gov.uk/government/organisations/subsidy-advice-unit
