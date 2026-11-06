@@ -21,7 +21,7 @@ bad:
   - "Misses some of the Ford's clever extras"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-06
 sources:
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
   - https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
@@ -56,6 +56,9 @@ facts:
   - claim: "no driver"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "Kerb weight includes 90% fuel load with no driver or passengers."
+  - claim: "no driver"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "Payload is Gross vehicle weight minus Kerb weight."
   - claim: "8 years or 100,000 miles"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "8 years or 100,000 miles (whichever comes first) from first"
@@ -146,13 +149,15 @@ facts:
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "Issue: 20 July 2026"
   - claim: "gives electric panel van payloads of 1,026kg to 1,156kg"
+    calc: "VW's July 2026 brochure, page 26, electric panel van weights (checked on the rendered page): payloads of 1,076kg (SWB Commerce), 1,156kg (LWB Commerce), 1,071kg (SWB Commerce Pro, 136PS and 218PS), 1,151kg (LWB Commerce Pro, 136PS and 218PS) and 1,026kg (SWB Commerce Pro S, 218PS and 286PS). Lowest 1,026kg, highest 1,156kg. Each is gross vehicle weight minus kerb weight, e.g. 3,350 - 2,194 = 1,156 and 3,225 - 2,199 = 1,026. The LWB Commerce Pro S row (3,225kg gross, 2,245kg kerb, 1,105kg payload) doesn't add up (3,225 - 2,245 = 980), so it isn't used; our spec file leaves it out too and gives the same 1,026kg to 1,156kg spread."
+  - claim: "gives electric panel van payloads of 1,026kg to 1,156kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "PV Electric Commerce - long wheelbase T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156 PV Electric Commerce Pro - short wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,154 1,071 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,154 1,071 PV Electric Commerce Pro - long wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 218PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 PV Electric Commerce Pro S - short wheelbase T32 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026"
   - claim: "with the best of 1,156kg"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
-  - claim: "for the long-wheelbase 136hp van"
-    calc: "The 1,156kg row in VW's brochure weights table is the T34 (long wheelbase) 136PS 70 kWh van (fact above); 136PS is the motor this review, like other published reviews, calls 136hp (fact below)."
+  - claim: "for the entry-level long-wheelbase 136hp van"
+    calc: "The 1,156kg row in VW's brochure weights table (page 26) is 'PV Electric Commerce - long wheelbase', T34 136PS 70 kWh (fact above). The brochure's weights table calls the entry-level electric trim 'Commerce'; VW's price guide sells the entry-level electric panel van as Commerce Plus, including the 'T34 Panel Van Commerce Plus LWB 136PS 70 kWh Electric 1-Speed Automatic' at £43,115.00 basic ex VAT (page 6), so this version is on sale. The long-wheelbase 136PS Commerce Pro is 1,151kg. 136PS is the motor this review, like other published reviews, calls 136hp (fact below)."
   - claim: "worked out as gross weight minus kerb weight with no driver aboard"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "Payload is Gross vehicle weight minus Kerb weight."
@@ -369,7 +374,7 @@ The e-Transporter is Volkswagen's electric medium van, developed jointly with Fo
 
 There are two lengths, both with a roof comfortably under 2 metres, and the battery costs nothing in load space compared with the diesel: Volkswagen quotes 5.8 cubic metres in the short van and 6.8 in the long one. The long van takes three Euro pallets, and an 8ft by 4ft board fits between the wheel arches.
 
-Volkswagen's July 2026 brochure gives electric panel van payloads of 1,026kg to 1,156kg, depending on specification, with the best of 1,156kg for the long-wheelbase 136hp van. Those figures are worked out as gross weight minus kerb weight with no driver aboard, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
+Volkswagen's July 2026 brochure gives electric panel van payloads of 1,026kg to 1,156kg, depending on specification, with the best of 1,156kg for the entry-level long-wheelbase 136hp van. Those figures are worked out as gross weight minus kerb weight with no driver aboard, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
 
 ### Range and charging in the real world
 
