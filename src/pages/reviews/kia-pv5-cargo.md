@@ -21,6 +21,7 @@ sources:
   - https://www.kia.com/uk/pbv/specification-pv5-cargo/
   - https://www.kia.com/uk/pbv/government-grants/
   - https://www.kia.com/uk/about/7-year-warranty/
+  - https://www.kia.com/uk/about/news/the-kia-pv5-range/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
   - https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
@@ -28,6 +29,7 @@ sources:
   - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369881/small-van-year-2026-kia-pv5-cargo
+  - https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
   - claim: "258 miles"
@@ -126,15 +128,21 @@ facts:
   - claim: "1,923mm tall"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "Measuring 4,695mm long, 1,923mm tall and 1,895mm wide"
-  - claim: "the only body you can buy is the L2H1"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Kia only offers the PV5 Cargo in one bodystyle configuration at the moment"
-  - claim: "the only body you can buy is the L2H1"
+  - claim: "The L2H1 came first"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "The L2/H1 variant (the only one currently on sale)"
-  - claim: "a shorter L1H1 and a taller L2H2 have been promised"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The L2H1 is the first to market, with a shorter L1H1 and a taller L2H2 both following in 2026"
+  - claim: "Kia has since added a shorter L1H1"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "Kia has expanded the line-up for its all-electric PV5 Cargo electric van with MY27 updates and the introduction of the Cargo L1/H1 version"
+  - claim: "Kia has since added a shorter L1H1"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "Measuring 200mm shorter than the L2"
+  - claim: "revealed a taller L2H2 high-roof model"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "The recently revealed PV5 Cargo L2/H2 high roof model will be available later this year"
+  - claim: "revealed a taller L2H2 high-roof model"
+    source: https://www.kia.com/uk/about/news/the-kia-pv5-range/
+    quote: "The PV5's configurations include the Cargo high-roof panel van"
   - claim: "a reputation for being easy to drive"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "Both feel like a big car for the most part, and that's a good thing, because there's plenty of acceleration on offer, as well as surprisingly adept handling and reasonably refined suspension"
@@ -147,9 +155,6 @@ facts:
   - claim: "a comfortable ride"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "the PV5 remains comfortable without any overly harsh bangs or jolts"
-  - claim: "a comfortable ride"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The ride and handling are excellent in the PV5"
   - claim: "though it can get bouncy over rough roads when the back is empty"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "There’s some inevitable bounciness over the most uneven surfaces (which is at its worst when the van is unladen)"
@@ -230,7 +235,7 @@ facts:
     quote: "The EV Battery warranty guarantees at least 70% of the original capacity for 8 years/100,000 miles"
   - claim: "their overall Van of the Year 2026"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The Kia PV5 electric van is the Parkers Van of the Year 2026"
+    quote: "we've made it our Van of the Year not once, but twice. It first won the 2026 prize"
   - claim: "Electric Van of the Year and Small Van of the Year titles for 2026"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
     quote: "The Kia PV5 Cargo is the 2026 Auto Express Electric Van of the Year"
@@ -291,7 +296,7 @@ The PV5 Cargo is Kia's first van, and it arrived with a strong hand: UK motoring
 
 ### Who it's for
 
-It sits between the small and medium van classes and suits trades and couriers whose loads are bulky rather than heavy. At 1,923mm tall, check it against any car park barrier you use. Right now the only body you can buy is the L2H1; a shorter L1H1 and a taller L2H2 have been promised.
+It sits between the small and medium van classes and suits trades and couriers whose loads are bulky rather than heavy. At 1,923mm tall, check it against any car park barrier you use. The L2H1 came first; Kia has since added a shorter L1H1 and revealed a taller L2H2 high-roof model.
 
 ### Load area and payload
 

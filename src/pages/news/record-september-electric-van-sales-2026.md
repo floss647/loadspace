@@ -14,7 +14,6 @@ sources:
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
   - https://www.smmt.co.uk/electric-van-share-reaches-record-high-during-low-volume-august/
   - https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
-  - https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
   - https://www.smmt.co.uk/van-market-posts-half-year-gain-but-ev-transition-still-lags/
   - https://www.gov.uk/zero-emission-vehicle-grants/vans
 facts:
@@ -159,23 +158,20 @@ facts:
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "Given higher upfront vehicle costs and depot upgrades remain major barriers to uptake, sustained support through the Plug-in Van Grant and Depot Charging Scheme is essential."
   - claim: "11.5%"
-    source: https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
-    quote: "LCV BEV market (to 3.5T) to grow 30.8%, increasing market share to 11.5%"
-  - claim: "up to 3.5 tonnes"
-    source: https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
-    quote: "LCV BEV market (to 3.5T) to grow 30.8%, increasing market share to 11.5%"
-  - claim: "July"
-    source: https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
-    quote: "SMMT outlook for 2026 to 2027 - as at July 2026"
+    source: https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
+    quote: "BEVs are anticipated to account for 11.5% of registrations in 2026, rising to 15.9% in 2027"
+  - claim: "outlook published on"
+    source: https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
+    quote: "The latest market outlook published today has been revised upwards"
+  - claim: "5 August"
+    source: https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
+    quote: "5 Aug 2026"
   - claim: "15.9% in 2027"
     source: https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
     quote: "BEVs are anticipated to account for 11.5% of registrations in 2026, rising to 15.9% in 2027"
   - claim: "around two years behind"
     source: https://www.smmt.co.uk/electric-vans-at-record-level-but-targets-remain-distant/
     quote: "meaning uptake lags around two years behind mandate ambition"
-  - claim: "5 November"
-    source: https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook/
-    quote: "The outlook is scheduled to be next revised in October and the results will be posted by 5 November."
   - claim: "£2,500"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The maximum discount available for some small vans is £2,500."
@@ -229,7 +225,7 @@ So far this year, 27,359 electric vans have been registered, up 23.7%. After Aug
 
 There's plenty of choice: SMMT says more than 40 electric van models are on sale, and Mike Hawes says makers are offering substantial discounts. But SMMT says higher purchase costs and depot upgrades remain major barriers, and Mike Hawes also blames grid delays and a lack of charging suited to vans.
 
-SMMT doesn't expect the gap to close soon. Its July outlook forecasts electric vans up to 3.5 tonnes taking 11.5% of the market this year, rising to 15.9% in 2027. SMMT says that leaves take-up around two years behind the mandate. A revised outlook is due by 5 November.
+SMMT doesn't expect the gap to close soon. Its outlook published on 5 August forecast electric vans taking 11.5% of the market this year, rising to 15.9% in 2027. SMMT says that leaves take-up around two years behind the mandate.
 
 SMMT wants the government's review of the mandate to set a more realistic path. Read more: [van target review closes](/news/zev-mandate-van-consultation-closes/).
 
