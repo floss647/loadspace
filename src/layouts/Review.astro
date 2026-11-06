@@ -91,7 +91,8 @@ const ld = {
         <a class="small" href="/reviews/how-we-score/">How we score →</a>
       </div>
       <div class="aside-links">
-        {van && <a class="btn" href={`/vans/${van.slug}/`}>{name} buyer's guide</a>}
+        {van && <a class="btn" href={`/get-lease-quotes/?van=${van.slug}`}>Make a lease enquiry</a>}
+        {van && <a class="btn secondary" href={`/vans/${van.slug}/`}>{name} buyer's guide</a>}
         <a class="btn secondary" href="/tools/electric-vs-diesel/">Electric vs diesel costs</a>
         <a class="btn secondary" href="/reviews/">All reviews</a>
       </div>

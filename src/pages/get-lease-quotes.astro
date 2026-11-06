@@ -4,15 +4,15 @@ import { FEATURES, SITE } from '../data/site.js';
 import { EV_VANS } from '../data/vans.js';
 const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
 ---
-<Base title="Electric van lease quotes" noindex description="Get electric van lease quotes for your business.">
+<Base title="Make a lease enquiry" noindex description="Make an electric van lease enquiry for your business.">
   <div class="wrap">
     <div class="prose">
-      <h1>Electric van lease quotes</h1>
+      <h1>{FEATURES.leaseQuotes ? 'Electric van lease quotes' : 'Make a lease enquiry'}</h1>
       {FEATURES.leaseQuotes ? (
         <p class="lede">Tell us which van you're after and we'll pass your enquiry to a leasing broker for quotes.</p>
       ) : (
         <>
-          <p class="lede">Lease quotes open soon. Join the waiting list and we'll email you as soon as you can get quotes on the van you want.</p>
+          <p class="lede">Tell us which van you're after and what you need. Lease quotes open soon, and we'll email you as soon as we can quote.</p>
           <p>Tell us a little about what you need, so we can line up the right deals first. Nothing here is a quote or a credit application.</p>
         </>
       )}
@@ -60,9 +60,9 @@ const vans = [...EV_VANS].sort((a, b) => a.name.localeCompare(b.name));
           <label>Your name (optional)<input name="name" autocomplete="name" /></label>
           <label>Email<input type="email" name="email" required autocomplete="email" /></label>
         </div>
-        <label class="check"><input type="checkbox" name="consent" value="yes" required /> Email me when {SITE.name}'s lease quotes open. My details stay with {SITE.name} and won't be passed to anyone else. <a href="/privacy/">Privacy</a></label>
+        <label class="check"><input type="checkbox" name="consent" value="yes" required /> Email me about my enquiry when {SITE.name}'s lease quotes open. My details stay with {SITE.name} and won't be passed to anyone else. <a href="/privacy/">Privacy</a></label>
         <label class="check"><input type="checkbox" name="newsletter" value="yes" /> Also send me the {SITE.name} newsletter (optional).</label>
-        <div><button class="btn" type="submit">Join the waiting list</button></div>
+        <div><button class="btn" type="submit">Send lease enquiry</button></div>
       </form>
     )}
     {!FEATURES.leaseQuotes && (
