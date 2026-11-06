@@ -5,60 +5,49 @@ van: kia-pv5-cargo
 date: 2026-10-30T08:00:00Z
 summary: "Kia's first van gets the important things right: a big official range, quick charging, a seven-year warranty and a very low load floor. The catches are a modest payload, climate controls buried in the touchscreen and a side door that won't take a pallet."
 specs:
-  price: "Not confirmed (Kia doesn't say if its price includes the grant)"
+  price: "From £27,355 + VAT (L1H1), before the £5,000 grant"
   range: "258 miles"
   charging: "150kW"
-  payload: "742 kg (Standard Range; Kia doesn't say if a driver is included)"
+  payload: "670 to 800kg, depending on version"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The PV5 Cargo is a very good first van from Kia and one of the easiest electric vans to recommend for bulky, light loads. The Long Range battery's 258-mile official range, 150kW rapid charging and a seven-year, 100,000-mile warranty make a strong package. Kia lists payload at 742 kg for the Standard Range L2H1 and 635 kg for the Long Range, so if you carry heavy kit every day, look at a bigger medium van instead. Pick the Long Range battery and the Essential trim, and get a written quote, because Kia's published starting price doesn't say whether the van grant is already taken off."
-good: ["Very low 419mm rear load lip", "258-mile official range (Long Range)", "Seven-year, 100,000-mile warranty"]
+verdict: "The PV5 Cargo is a very good first van from Kia and one of the easiest electric vans to recommend for bulky, light loads. The Long Range battery's 258-mile official range, 150kW rapid charging and a seven-year, 100,000-mile warranty make a strong package. Kia lists payload at 795kg for the 3-door Standard Range L2H1 and 695kg for the Long Range, so if you carry heavy kit every day, look at a bigger medium van instead. Pick the Long Range battery and the Essential trim."
+good: ["Very low 419mm rear load lip", "258-mile official range (L2H1 Long Range)", "Seven-year, 100,000-mile warranty"]
 bad: ["Modest payload for its size", "Climate controls only on the touchscreen", "Side door too narrow for a Euro pallet"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-06
 sources:
   - https://www.kia.com/uk/pbv/lineup/pv5-cargo/
-  - https://www.kia.com/uk/pbv/specification-pv5-cargo/
+  - https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+  - https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
   - https://www.kia.com/uk/pbv/government-grants/
   - https://www.kia.com/uk/about/7-year-warranty/
+  - https://www.kia.com/uk/about/news/the-kia-pv5-range/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
   - https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
-  - https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
   - https://www.autoexpress.co.uk/kia/pv5-cargo
-  - https://www.autoexpress.co.uk/best/electric-vans
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369881/small-van-year-2026-kia-pv5-cargo
+  - https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
-  - claim: "258 miles"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Range (mi) - Combined 184 258"
-  - claim: "258 miles (WLTP combined)"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Range (mi) - Combined 184 258"
   - claim: "According to Kia, the Long Range 71.2kWh battery"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "FWD Long Range (71.2kWh)"
-  - claim: "258-mile official range"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Range (mi) - Combined 184 258"
   - claim: "51.5kWh"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "FWD Standard Range (51.5 kWh)"
-  - claim: "184 miles"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Range (mi) - Combined 184 258"
   - claim: "150kW"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "DC Charge Time (10-80%) - 150kW"
   - claim: "a 10 to 80 per cent top-up takes under half an hour"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "DC Charge Time (10-80%) - 150kW"
   - claim: "a 10 to 80 per cent top-up takes under half an hour"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "a 10 to 80 per cent top-up should take less than half an hour"
   - claim: "On an 11kW AC charger, Kia quotes 6hrs 30 mins from 10 to 100 per cent for the Long Range battery"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "AC Charge Time 230V 11kW (10-100%) 4hrs 45 mins 6hrs 30 mins"
   - claim: "3.1 miles per kWh"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
@@ -75,24 +64,6 @@ facts:
   - claim: "equivalent to around 159 miles from a full battery"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "which equates to around 159 miles of real-world range"
-  - claim: "742 kg"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Payload (kg) Standard Range: 742kg Long Range: 635kg"
-  - claim: "742 kg for the Standard Range L2H1 and 635 kg for the Long Range"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Payload (kg) Standard Range: 742kg Long Range: 635kg"
-  - claim: "742kg with the Standard Range battery and 635kg with the Long Range"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Payload (kg) Standard Range: 742kg Long Range: 635kg"
-  - claim: "lower than early reports suggested"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "able to carry up to 690kg in long-range form - or 790kg in the standard-range edition"
-  - claim: "A second sliding side door (£355 ex VAT)"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "For an extra £355 (excluding VAT), the PV5 can be fitted with dual sliding doors"
-  - claim: "was reported to reduce payload further"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "These models cope with a maximum of 665kg when fitted with the larger battery, increasing to 745kg with the smaller pack"
   - claim: "4.4 cubic metres"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "has a cargo volume of 4.4 cubic metres"
@@ -123,18 +94,18 @@ facts:
   - claim: "Side door too narrow for a Euro pallet"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "Side door can't take a Euro pallet"
-  - claim: "1,923mm tall"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "Measuring 4,695mm long, 1,923mm tall and 1,895mm wide"
-  - claim: "the only body you can buy is the L2H1"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Kia only offers the PV5 Cargo in one bodystyle configuration at the moment"
-  - claim: "the only body you can buy is the L2H1"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "The L2/H1 variant (the only one currently on sale)"
-  - claim: "a shorter L1H1 and a taller L2H2 have been promised"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The L2H1 is the first to market, with a shorter L1H1 and a taller L2H2 both following in 2026"
+  - claim: "Kia has since added a shorter L1H1"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "Kia has expanded the line-up for its all-electric PV5 Cargo electric van with MY27 updates and the introduction of the Cargo L1/H1 version"
+  - claim: "Kia has since added a shorter L1H1"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "Measuring 200mm shorter than the L2"
+  - claim: "revealed a taller L2H2 high-roof model"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "The recently revealed PV5 Cargo L2/H2 high roof model will be available later this year"
+  - claim: "revealed a taller L2H2 high-roof model"
+    source: https://www.kia.com/uk/about/news/the-kia-pv5-range/
+    quote: "The PV5's configurations include the Cargo high-roof panel van"
   - claim: "a reputation for being easy to drive"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "Both feel like a big car for the most part, and that's a good thing, because there's plenty of acceleration on offer, as well as surprisingly adept handling and reasonably refined suspension"
@@ -147,9 +118,6 @@ facts:
   - claim: "a comfortable ride"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "the PV5 remains comfortable without any overly harsh bangs or jolts"
-  - claim: "a comfortable ride"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The ride and handling are excellent in the PV5"
   - claim: "though it can get bouncy over rough roads when the back is empty"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "There’s some inevitable bounciness over the most uneven surfaces (which is at its worst when the van is unladen)"
@@ -204,15 +172,6 @@ facts:
   - claim: "Plus adds vehicle-to-load (V2L) power"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "The most notable advantages of the range-topper are its Vehicle-to-Load (V2L) capability"
-  - claim: "£650 ex VAT"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo
-    quote: "is a £650 option (exc. VAT) that’s reserved for the Plus"
-  - claim: "reported at £640"
-    source: https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
-    quote: "Plus models can be upgraded with a heat pump for greater efficiency at cost of £640 (+VAT)"
-  - claim: "option on the Plus only"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "the Plus trim can also come fitted with a heat pump"
   - claim: "seven-year, 100,000-mile warranty"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "seven-year/100,000-mile warranty also applies"
@@ -228,82 +187,146 @@ facts:
   - claim: "guaranteeing at least 70% of the original capacity"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/
     quote: "The EV Battery warranty guarantees at least 70% of the original capacity for 8 years/100,000 miles"
-  - claim: "their overall Van of the Year 2026"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
-    quote: "The Kia PV5 electric van is the Parkers Van of the Year 2026"
-  - claim: "Electric Van of the Year and Small Van of the Year titles for 2026"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
-    quote: "The Kia PV5 Cargo is the 2026 Auto Express Electric Van of the Year"
-  - claim: "Electric Van of the Year and Small Van of the Year titles for 2026"
-    source: https://www.autoexpress.co.uk/kia/pv5-cargo/369881/small-van-year-2026-kia-pv5-cargo
-    quote: "The Kia PV5 Cargo is the 2026 Auto Express Small Van of the Year"
   - claim: "Maxus eDeliver 7"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo
     quote: "and Maxus eDeliver 7"
   - claim: "sits between the small and medium van classes"
     source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
     quote: "the PV5 sits between two categories in terms of its dimensions"
-  - claim: "the government's approved list for the higher, large-van rate of the Plug-in Van Grant"
+  - claim: "Kia also calls all its technical figures expected targets that are still subject to change"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "All technical data and range are expected targets, pending further development and homologation. All figures are subject to change."
+  - claim: "Both batteries rapid charge at up to 150kW"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "DC Charge Time (10-80%) - 150kW"
+  - claim: "258 miles"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
+  - claim: "258 miles (WLTP combined)"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
+  - claim: "258-mile official range"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
+  - claim: "184 miles"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
+  - claim: "Kia gives slightly lower figures for the shorter L1H1"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
+  - claim: "model year 2027"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "EXTERIOR DIMENSIONS - MODEL YEAR 2027"
+  - claim: "1,899mm tall"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Height (mm) 1,899 1,899"
+  - claim: "1,899mm tall"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "A new slimline, short-roof antenna lowers the vehicle’s overall height to 1,899mm"
+  - claim: "The L2H1 came first"
+    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
+    quote: "The L2H1 was the first to market, with a shorter L1H1 and a taller L2H2 both following in 2026"
+  - claim: "Kia has since added a shorter L1H1"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Essential 51.5kWh L1/H1 3Dr 2-Seat FWD 0 177 TBC £27,355"
+  - claim: "the shorter L1H1 has 4.0 cubic metres"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Cargo Volume (m 3 ) 4.0 4.4"
+  - claim: "The L2H1 has 4.4 cubic metres"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Cargo Volume (m 3 ) 4.0 4.4"
+  - claim: "Both have a loading lip of 419mm at the rear and 399mm at the side"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Rear Step Height (mm) 419 419 Cargo Volume (m 3 ) 4.0 4.4 Opening Width (Rear) (mm) 1,343 / 920 1,343 / 920 Opening Width (Side) (mm) 775 775 Boarding height (Side) (mm) 399 399"
+  - claim: "670 to 800kg, depending on version"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Payload (kg)* 3Dr Standard Range: 800kg 3Dr Long Range: 700kg 4Dr Standard Range: 755kg 4Dr Long Range: 675kg 3Dr Standard Range: 795kg 3Dr Long Range: 695kg 4Dr Standard Range: 750kg 4Dr Long Range: 670kg"
+  - claim: "795kg for the L2H1 with the Standard Range battery and 695kg with the Long Range"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "3Dr Standard Range: 795kg 3Dr Long Range: 695kg 4Dr Standard Range: 750kg 4Dr Long Range: 670kg"
+  - claim: "795kg for the 3-door Standard Range L2H1 and 695kg for the Long Range"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "3Dr Standard Range: 795kg 3Dr Long Range: 695kg 4Dr Standard Range: 750kg 4Dr Long Range: 670kg"
+  - claim: "cuts those to 750kg and 670kg"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "3Dr Standard Range: 795kg 3Dr Long Range: 695kg 4Dr Standard Range: 750kg 4Dr Long Range: 670kg"
+  - claim: "A second sliding side door costs £355 ex VAT"
+    source: https://vanfleetworld.co.uk/kia-pv5-cargo-gains-my27-updates-and-new-l1-h1-model/
+    quote: "offering an additional sliding door for additional cargo area access, at a cost of £355 (excl. VAT)"
+  - claim: "The shorter L1H1 is rated at up to 800kg"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Payload (kg)* 3Dr Standard Range: 800kg 3Dr Long Range: 700kg"
+  - claim: "Kia doesn't say whether its payloads include a driver"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Kerb Weight (kg exc Driver)"
+  - claim: "Kia's price list puts at £640 plus VAT"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Heat Pump is chargeable at £640 (plus VAT) - Plus Grade Only"
+  - claim: "a heat pump is an option on the Plus only"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Heat Pump is chargeable at £640 (plus VAT) - Plus Grade Only"
+  - claim: "named it its overall Van of the Year for 2026 and again for 2027"
+    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-review/
+    quote: "It first won the 2026 prize before retaining its title in the 2027 Parkers New Car Awards"
+  - claim: "Electric Van of the Year and Small Van of the Year for 2026"
+    source: https://www.autoexpress.co.uk/kia/pv5-cargo/369878/electric-van-year-2026-kia-pv5-cargo
+    quote: "The Kia PV5 Cargo is the 2026 Auto Express Electric Van of the Year"
+  - claim: "Electric Van of the Year and Small Van of the Year for 2026"
+    source: https://www.autoexpress.co.uk/kia/pv5-cargo/369881/small-van-year-2026-kia-pv5-cargo
+    quote: "The Kia PV5 Cargo is the 2026 Auto Express Small Van of the Year"
+  - claim: "£27,355 plus VAT for the L1H1 Essential with the Standard Range battery"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Essential 51.5kWh L1/H1 3Dr 2-Seat FWD 0 177 TBC £27,355"
+  - claim: "The L2H1 starts at £28,355"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Essential 51.5kWh L2/H1 3Dr 2-Seat FWD 0 184 32D £28,355"
+  - claim: "the Long Range L2H1 Essential is £30,855"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Essential 71.2kWh L2/H1 3Dr 2-Seat FWD 0 258 33D £30,855"
+  - claim: "before the £5,000 Zero Emission Van Grant"
+    source: https://www.kia.com/uk/pbv/government-grants/
+    quote: "qualifies for the £5,000 UK Zero Emission Van Grant"
+  - claim: "(L1H1), before the £5,000 grant"
+    calc: "Kia's price list gives Essential 51.5kWh L1/H1 3-door Basic £27,355, VAT £5,471, VED £360, FRF £55, Delivery £775, OTR £34,016 and OTR inc ZEVG £29,016. £27,355 + £5,471 + £360 + £55 + £775 = £34,016, and £34,016 - £5,000 = £29,016, so the basic price is before the £5,000 grant"
+  - claim: "all before VAT and before the"
+    calc: "Kia's price list shows Basic, then VAT (20%), then OTR £ and OTR inc ZEVG: Essential 51.5kWh L1/H1 3-door Basic £27,355, VAT £5,471, Retail £32,826, VED £360, FRF £55, Delivery £775, OTR £34,016, OTR inc ZEVG £29,016. £27,355 + £5,471 + £360 + £55 + £775 = £34,016; £34,016 - £5,000 = £29,016"
+  - claim: "which Kia takes off its on-the-road prices"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "OTR £ OTR inc ZEVG"
+  - claim: "on the government's approved list for the higher, large-van rate of the grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Kia PV5 Cargo"
-  - claim: "the higher, large-van rate of the Plug-in Van Grant"
+  - claim: "on the government's approved list for the higher, large-van rate of the grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000"
-  - claim: "the higher, large-van rate of the Plug-in Van Grant"
-    source: https://www.parkers.co.uk/vans-pickups/kia/pv5/2025-dimensions/
-    quote: "That the PV5 qualifies for the higher-level plug-in van grant"
-  - claim: "£27,645 (Standard Range) and £30,145 (Long Range), ex VAT and before the grant"
-    source: https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
-    quote: "Prices for the standard range L2/H1 Cargo start at £27,645, with the long-range equivalent costing from £30,145. That's before VAT and the Plug-in Van Grant"
-  - claim: "Kia's June 2025 launch prices were reported"
-    source: https://www.parkers.co.uk/vans-pickups/news/2024/kia-pv5-production-model/
-    quote: "Published: 18 June 2025"
-  - claim: "reported £27,355 ex VAT after the grant"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "Prices from: £27,355 (exc. VAT, after PiVG)"
-  - claim: "a July 2026 guide"
-    source: https://www.autoexpress.co.uk/best/electric-vans
-    quote: "By: Antony Ingram 27 Jul 2026"
-  - claim: "Kia's UK website lists the PV5 Cargo from £27,355 plus VAT"
-    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/
-    quote: "From £27,355 (+VAT)"
-  - claim: "Kia says the Cargo qualifies for the £5,000 grant"
+  - claim: "From £27,355 + VAT (L1H1)"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Essential 51.5kWh L1/H1 3Dr 2-Seat FWD 0 177 TBC £27,355"
+  - claim: "before the £5,000 grant"
     source: https://www.kia.com/uk/pbv/government-grants/
-    quote: "The Kia PV5 Cargo qualifies for the £5,000 UK Zero Emission Van Grant"
-  - claim: "Kia's published starting price doesn't say whether the van grant is already taken off"
-    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/
-    quote: "From £27,355 (+VAT)"
-  - claim: "Kia's model page mentions up to 800 kg"
-    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/
-    quote: "up to 800 kg payload"
-  - claim: "Kia also calls all its technical figures expected targets that are still subject to change"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "All technical data and range are expected targets, pending further development and homologation. All figures are subject to change."
-  - claim: "Kia lists payload at 742 kg"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "Payload (kg) Standard Range: 742kg Long Range: 635kg"
-  - claim: "Both batteries rapid charge at up to 150kW"
-    source: https://www.kia.com/uk/pbv/specification-pv5-cargo/
-    quote: "DC Charge Time (10-80%) - 150kW"
+    quote: "qualifies for the £5,000 UK Zero Emission Van Grant"
+  - claim: "L2H1 Long Range"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
+    quote: "Range (mi) - Combined 179 251 184 258"
 ---
 
-The PV5 Cargo is Kia's first van, and it arrived with a strong hand: UK motoring titles named it their overall Van of the Year 2026, plus Electric Van of the Year and Small Van of the Year titles for 2026.
+The PV5 Cargo is Kia's first van, and it has a strong record: one UK motoring title named it its overall Van of the Year for 2026 and again for 2027, and another named it Electric Van of the Year and Small Van of the Year for 2026.
 
 ### Who it's for
 
-It sits between the small and medium van classes and suits trades and couriers whose loads are bulky rather than heavy. At 1,923mm tall, check it against any car park barrier you use. Right now the only body you can buy is the L2H1; a shorter L1H1 and a taller L2H2 have been promised.
+It sits between the small and medium van classes and suits trades and couriers whose loads are bulky rather than heavy. Kia lists the current model year 2027 van at 1,899mm tall, so check it against any car park barrier you use. The L2H1 came first; Kia has since added a shorter L1H1 and revealed a taller L2H2 high-roof model.
 
 ### Load area and payload
 
-The load area is the big draw: 4.4 cubic metres, 0.5 cubic metres more than the ID. Buzz Cargo, room for two Euro pallets, and a loading lip of 419mm at the rear and 399mm at the side.
+The load area is the big draw. The L2H1 has 4.4 cubic metres, 0.5 cubic metres more than the ID. Buzz Cargo, and room for two Euro pallets; the shorter L1H1 has 4.0 cubic metres. Both have a loading lip of 419mm at the rear and 399mm at the side.
 
 The catch is that the floor sits below the top of the rear suspension, which adds a second pair of intrusions in the back corners on top of the wheelarches. A Euro pallet will go through the back doors sideways, but only just, and the side door is too narrow for one. If you need a level bay, Kia offers a separate flat floor.
 
-Payload is the weak spot. Kia's UK specification lists 742kg with the Standard Range battery and 635kg with the Long Range, lower than early reports suggested. Kia's model page mentions up to 800 kg without saying which version, and Kia doesn't say whether its figures include a driver. Kia also calls all its technical figures expected targets that are still subject to change. A second sliding side door (£355 ex VAT) was reported to reduce payload further.
+Payload is the weak spot. Kia's UK specification lists 795kg for the L2H1 with the Standard Range battery and 695kg with the Long Range. A second sliding side door costs £355 ex VAT and cuts those to 750kg and 670kg. The shorter L1H1 is rated at up to 800kg. Kia doesn't say whether its payloads include a driver, and Kia also calls all its technical figures expected targets that are still subject to change.
 
 ### Range and charging in the real world
 
-According to Kia, the Long Range 71.2kWh battery is rated at 258 miles (WLTP combined) and the Standard Range 51.5kWh at 184 miles. A road test of the Standard Range van recorded 3.1 miles per kWh in mixed town and country driving at about 11°C, equivalent to around 159 miles from a full battery. We couldn't find a measured real-world figure for the Long Range battery.
+According to Kia, the Long Range 71.2kWh battery is rated at 258 miles (WLTP combined) in the L2H1 and the Standard Range 51.5kWh at 184 miles; Kia gives slightly lower figures for the shorter L1H1. A road test of the Standard Range van recorded 3.1 miles per kWh in mixed town and country driving at about 11°C, equivalent to around 159 miles from a full battery. We couldn't find a measured real-world figure for the Long Range battery.
 
 Both batteries rapid charge at up to 150kW, and a 10 to 80 per cent top-up takes under half an hour. On an 11kW AC charger, Kia quotes 6hrs 30 mins from 10 to 100 per cent for the Long Range battery. More in our [charging guide](/guides/charging-an-electric-van/).
 
@@ -315,11 +338,11 @@ One early test van had niggles: regenerative braking was stuck at its lowest lev
 
 ### Cab and kit
 
-The cab is hard-wearing rather than plush. There's a flat cab floor and a big drawer under the centre console, but other storage is limited. Our main gripe is the climate controls: they're only on the touchscreen, and the driver attention monitor is quick to complain when you look at the screen to change them.
+The cab is hard-wearing rather than plush. There's a flat cab floor and a big drawer under the centre console, but other storage is limited. The biggest complaint is the climate controls: they're only on the touchscreen, and the driver attention monitor is quick to complain when you look at the screen to change them.
 
 ### Which version to buy
 
-There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and a heat pump is an option on the Plus only, reported at £640 to £650 ex VAT. Pick the Long Range battery unless you only do town work or need every kilo of payload; Essential is enough for most businesses. Every PV5 gets Kia's seven-year, 100,000-mile warranty, and Kia's UK site says the battery is covered for 8 years or 100,000 miles on electric models registered from 2024, guaranteeing at least 70% of the original capacity.
+There are two trims, Essential and Plus. Plus adds vehicle-to-load (V2L) power, and a heat pump is an option on the Plus only, which Kia's price list puts at £640 plus VAT. Pick the Long Range battery unless you only do town work or need every kilo of payload; Essential is enough for most businesses. Every PV5 gets Kia's seven-year, 100,000-mile warranty, and Kia's UK site says the battery is covered for 8 years or 100,000 miles on electric models registered from 2024, guaranteeing at least 70% of the original capacity.
 
 ### Alternatives
 
@@ -327,4 +350,4 @@ Compare it with the [Ford E-Transit Custom](/vans/ford-transit-custom/), [VW ID.
 
 ### Price
 
-Kia's UK website lists the PV5 Cargo from £27,355 plus VAT but doesn't say whether that is before or after the van grant, so we can't confirm a list price before the grant. Kia says the Cargo qualifies for the £5,000 grant, and it's on the government's approved list for the higher, large-van rate of the Plug-in Van Grant (see our [grants and tax guide](/guides/grants-and-tax/)). A July 2026 guide reported £27,355 ex VAT after the grant, and Kia's June 2025 launch prices were reported as £27,645 (Standard Range) and £30,145 (Long Range), ex VAT and before the grant. To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Kia's UK price list starts at £27,355 plus VAT for the L1H1 Essential with the Standard Range battery. The L2H1 starts at £28,355, and the Long Range L2H1 Essential is £30,855, all before VAT and before the £5,000 Zero Emission Van Grant, which Kia takes off its on-the-road prices. The PV5 Cargo is on the government's approved list for the higher, large-van rate of the grant (see our [grants and tax guide](/guides/grants-and-tax/)). To compare running costs with diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
