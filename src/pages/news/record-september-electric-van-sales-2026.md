@@ -9,7 +9,7 @@ statLabel: "of new vans registered in September were electric. The 2026 target i
 photo: vauxhall-vivaro
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-29
+  date: 2026-11-06
 sources:
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
   - https://www.smmt.co.uk/electric-van-share-reaches-record-high-during-low-volume-august/
