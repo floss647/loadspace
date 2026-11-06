@@ -26,6 +26,20 @@ import { SITE } from '../data/site.js';
     <h2>Where it's stored</h2>
     <p>Form submissions are stored by our website host, Netlify. We keep enquiry details only as long as needed to handle your request, and no longer than two years.</p>
 
+    <h2 id="cookies">Cookies</h2>
+    {SITE.gaMeasurementId ? (
+      <>
+        <p>We only set cookies if you say yes. With your consent we use Google Analytics to see which pages people read and how they find us, so we can make the site more useful. We don't use cookies for advertising, and we don't sell data.</p>
+        <ul>
+          <li><strong>_ga</strong> and <strong>_ga_&lt;ID&gt;</strong> (Google Analytics): tell visits apart and count pages viewed. They last up to two years. Google processes this data for us; see Google's privacy policy for how.</li>
+        </ul>
+        <p>Your choice is saved in your browser so we don't ask again. You can change it at any time with <a href="#cookies" data-cookie-settings-link>Cookie settings</a>, also linked at the bottom of every page. If you reject analytics after accepting, we delete the Google Analytics cookies we set.</p>
+        <p>Links to other websites, including makers' sites and any lease or charger partners, may set their own cookies once you visit them. Their own cookie policies apply.</p>
+      </>
+    ) : (
+      <p>This site doesn't set any cookies. Links to other websites may set their own cookies once you visit them.</p>
+    )}
+
     <h2>Your rights</h2>
     <p>You can ask to see, correct or delete the information we hold about you, or object to how we use it. You can also complain to the Information Commissioner's Office (ico.org.uk).</p>
   </div>

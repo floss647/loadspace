@@ -577,3 +577,10 @@ main:has(> .tool-hero) { padding-top: 0; }
 .opt-std p { margin: .15rem 0; line-height: 1.5; color: var(--text, var(--ink)); }
 .opt-std-trim { font-weight: 600; }
 .opt-paid-label { margin: 0; padding: .2rem 1.1rem .2rem; font-weight: 700; font-size: .95rem; color: var(--ink); }
+
+/* Cookie consent banner: Accept and Reject are equally easy */
+.cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; max-width: 760px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: center; padding: 1rem 1.2rem; background: var(--bg, #fff); color: var(--ink); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.cookie-banner[hidden] { display: none; }
+.cookie-banner p { margin: 0; flex: 1 1 320px; font-size: .92rem; line-height: 1.5; }
+.cookie-actions { display: flex; gap: .6rem; }
+.cookie-actions .btn { min-width: 6.5rem; }
