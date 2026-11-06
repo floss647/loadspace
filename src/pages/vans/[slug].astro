@@ -57,8 +57,9 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
           </ul>
         )}
         <div class="btn-row">
-          {review && <a class="btn" href={review.url}>Read our review{review.score.overall != null ? ` · ${review.score.overall.toFixed(1)}/5` : ''}</a>}
-          <a class={review ? 'btn ghost-light' : 'btn'} href="/tools/electric-vs-diesel/">Will it save me money?</a>
+          <a class="btn" href={`/get-lease-quotes/?van=${van.slug}`}>Make a lease enquiry</a>
+          {review && <a class="btn ghost-light" href={review.url}>Read our review{review.score.overall != null ? ` · ${review.score.overall.toFixed(1)}/5` : ''}</a>}
+          <a class="btn ghost-light" href="/tools/electric-vs-diesel/">Will it save me money?</a>
         </div>
       </div>
       <div class="review-photo"><VehicleImage slug={van.slug} name={van.name} /></div>
@@ -131,6 +132,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
     </article>
 
     <aside class="review-aside">
+      <Cta kind="lease" van={van} />
       {review && (
         <a class="score-card van-review-card" href={review.url}>
           <div class="score-card-head">
