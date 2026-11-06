@@ -3,12 +3,12 @@ layout: ../../layouts/Review.astro
 title: "Volkswagen e-Transporter review"
 van: volkswagen-transporter
 date: 2026-10-30T08:00:00Z
-summary: "Volkswagen's electric Transporter shares its platform with the Ford E-Transit Custom and has a reputation for driving well. Volkswagen now sells it with a 70kWh battery, quotes up to 225 miles of official range and prices it from £42,260 ex VAT before the grant. Its own case rests on a five-year warranty."
+summary: "Volkswagen's electric Transporter shares its platform with the Ford E-Transit Custom and has a reputation for driving well. Volkswagen now sells it with a 70kWh battery, quotes up to 225.6 miles of official range and prices it from £42,260 ex VAT before the grant. Its own case rests on a five-year warranty."
 specs:
   price: "£42,260"
-  range: "225 miles"
+  range: "225.6 miles"
   charging: "125kW"
-  payload: "1,081 kg (including driver)"
+  payload: "1,156 kg (no driver)"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "One published review rates this one of the two best electric medium vans, alongside its Ford twin. It's said to drive well, the cab is cleverly laid out and the best versions carry more than a tonne. The VW's five-year warranty is the main reason to pick it over the Ford, while the Ford has a few clever extras the VW lacks. Get quotes for both, and ask which battery the van you're offered has."
 good:
@@ -41,21 +41,21 @@ facts:
   - claim: "ex VAT before the grant"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
     quote: "Basic RRP Total RRP Total RRP inc. OTR* Total RRP inc. OTR* inc. VAT with Model description exc. VAT VAT inc. VAT exc. VAT inc. VAT PiVG** deducted"
-  - claim: "225 miles"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "Max range (official WLTP) for e-Transporter is 210 to 225 miles, depending on trim."
+  - claim: "225.6 miles"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Plus - short wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.8 225.6"
   - claim: "a 70kWh battery"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "With the 70kWh battery, official WLTP figures suggest a range of up to 225 miles"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "T32 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.8 225.6"
   - claim: "125kW"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
+    archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "DC current - Rapid charger (up to 125kW)"
-  - claim: "1,081 kg"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "payload in the e-Transporter Panel van is slightly lower than comparable diesel models, at roughly 911 kg to 1,081 kg"
-  - claim: "including driver"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "Payload = gross vehicle weight minus unladen weight (including driver)"
+  - claim: "1,156 kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
+  - claim: "no driver"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "Kerb weight includes 90% fuel load with no driver or passengers."
   - claim: "8 years or 100,000 miles"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "8 years or 100,000 miles (whichever comes first) from first"
@@ -85,8 +85,8 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "The Volkswagen eTransporter has a cabin that is one of the more cleverly designed in the van sector at the moment"
   - claim: "the best versions carry more than a tonne"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "at roughly 911 kg to 1,081 kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
   - claim: "The VW's five-year warranty is the main reason to pick it over the Ford"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
     quote: "Warranty: earlier of 5 years or 124,000 miles."
@@ -142,14 +142,14 @@ facts:
   - claim: "an 8ft by 4ft board fits between the wheel arches"
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-dimensions/
     quote: "with the longer model able to take three Euro pallets and the space between the wheelarches wide enough to take the commonly used 8ft by 4ft board"
-  - claim: "Volkswagen's website puts electric panel van payloads at roughly 911kg to 1,081kg including a driver"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "payload in the e-Transporter Panel van is slightly lower than comparable diesel models, at roughly 911 kg to 1,081 kg"
-  - claim: "including a driver"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "Payload = gross vehicle weight minus unladen weight (including driver)"
-  - claim: "Its brochure gives a best of 1,156kg"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
+  - claim: "Volkswagen's July 2026 brochure"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "Issue: 20 July 2026"
+  - claim: "gives electric panel van payloads of 1,026kg to 1,156kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce - long wheelbase T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156 PV Electric Commerce Pro - short wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,154 1,071 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,154 1,071 PV Electric Commerce Pro - long wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 218PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,199 1,151 PV Electric Commerce Pro S - short wheelbase T32 218PS 70 kWh Electric 1-Speed Automatic 3,225 1,400 / 2,000 2,300 5,350 2,199 1,026"
+  - claim: "with the best of 1,156kg"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "T34 136PS 70 kWh Electric 1-Speed Automatic 3,350 1,525 / 2,000 2,300 5,350 2,194 1,156"
   - claim: "for the long-wheelbase 136hp van"
     calc: "The 1,156kg row in VW's brochure weights table is the T34 (long wheelbase) 136PS 70 kWh van (fact above); 136PS is the motor this review, like other published reviews, calls 136hp (fact below)."
@@ -164,20 +164,20 @@ facts:
     quote: "Every version of the Volkswagen e-Transporter has the same towing capacity, being able to tow a 2,300kg trailer."
   # Range and charging
   - claim: "a 70kWh battery for every trim"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "T34 Panel Van Commerce Plus LWB 136PS 70 kWh Electric 1-Speed Automatic"
   - claim: "a 70kWh battery for every trim"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "e-Transporter PV BEV Commerce Pro S - short wheelbase (Model Year 2026 onwards) T32 Panel Van Commerce Pro S SWB 218PS 70 kWh Electric 1-Speed Automatic"
   - claim: "a few older 65kWh Commerce Pro S vans are listed as stock"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "e-Transporter PV BEV Commerce Pro S - short wheelbase (Model Year 2025 stock only) T32 Panel Van Commerce Pro S SWB 218PS 65 kWh Electric 1-Speed Automatic"
-  - claim: "up to 225 miles on the official WLTP test for the short-wheelbase 136hp Commerce Plus"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "225 miles applies to e-Transporter Commerce Plus 70kWh 136PS SWB"
-  - claim: "210 miles for the long-wheelbase 218hp Commerce Pro"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "210 miles applies to the e-Transporter Commerce Pro 70kWh 218PS LWB"
+  - claim: "VW's brochure gives up to 225.6 miles on the official WLTP test for the short-wheelbase 136hp Commerce Plus"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Plus - short wheelbase T32 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.8 225.6"
+  - claim: "210.6 miles for the long-wheelbase 218hp Commerce Pro"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "PV Electric Commerce Pro - long wheelbase T34 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.7 221.8 305.1 (491) 12.8 70 218PS 70 kWh Electric 1-Speed Automatic 218 0 2.6 210.6"
   - claim: "Launch vans had a smaller battery and were reported at up to 201 miles"
     source: https://vanfleetworld.co.uk/road-test-volkswagen-etransporter-l1h1/
     quote: "RANGE? Up to 201 miles (WLTP combined)"
@@ -190,20 +190,22 @@ facts:
   - claim: "gave up to 237 miles"
     source: https://www.parkers.co.uk/vans-pickups/news/2026/volkswagen-e-transporter-updates/
     quote: "driving range goes up to 237 miles on the WLTP cycle"
-  - claim: "VW's UK site quotes 225"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "Electric range combined (WLTP) Up to 225 miles"
+  - claim: "VW's own brochure gives 225.6"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "T32 136PS 70 kWh Electric 1-Speed Automatic 136 0 2.8 225.6"
   - claim: "the dash showed 160 miles to empty at 99% charge"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "with 99% showing on the dash, it was reading 160 miles to empty when the van arrived a week ago"
   - claim: "that looked about right over a week of light loads"
     source: https://vanfleetworld.co.uk/sutties-seven-days-with-a-volkswagen-e-transporter/
     quote: "That seems borne out after using it on a variety of roads, albeit only every lightly loaded"
-  - claim: "a 10 to 80% rapid charge in about 30 minutes at up to 125kW"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "With a 125kW DC rapid charger, found at public charging stations, a 10-80% top-up usually takes about 30 minutes"
+  - claim: "a 10 to 80% rapid charge"
+    calc: "VW's July 2026 brochure, page 17, charging data table (checked on the rendered page): the row 'DC current - Rapid charger (up to 125kW)' gives a charge time of '29 minutes 10-80%'. The text layout splits that cell, so the 10-80% part can't be quoted in one piece."
+  - claim: "rapid charge in 29 minutes at up to 125kW"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "DC current - Rapid charger (up to 125kW) CCS 29 minutes"
   - claim: "10.5 hours for a full charge on a 7.4kW wallbox"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
+    archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "AC current - Home wallbox or public charger (up to 7.4kW) Type 2 10.5 hours"
   # On the road
   - claim: "One review found it easy to handle in town, with light steering"
@@ -292,40 +294,39 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/volkswagen/transporter/2025-e-transporter-review/
     quote: "most of the Commerce Pro bits are nice to have but ones you can live and work without"
   - claim: "It's also the cheapest version and has VW's longest official range"
-    source: https://www.volkswagen-vans.co.uk/en/electric-and-hybrid/electric-models/e-transporter-family.html
-    quote: "225 miles applies to e-Transporter Commerce Plus 70kWh 136PS SWB"
+    calc: "VW's price guide (issue 20 July 2026, page 6): the short-wheelbase Commerce Plus 136PS 70 kWh panel van is £42,260.00 basic ex VAT, the lowest e-Transporter panel van price (the others run from £43,115.00 to £55,625.00). VW's July 2026 brochure (page 21) gives it 225.6 miles (WLTP), the highest of the electric panel van rows (the others run from 210.0 to 224.9 miles)."
   # Price, grant and warranty
   - claim: "issued 20 July 2026"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "Issue: 20 July 2026"
   - claim: "electric van prices valid from 15 January 2026"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "Pricing valid from 15th January 2026."
   - claim: "for the short-wheelbase Commerce Plus with the 136hp motor"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "T32 Panel Van Commerce Plus SWB 136PS 70 kWh Electric 1-Speed Automatic £42,260.00 £8,452.00 £50,712.00"
   - claim: "starts the e-Transporter panel van at £42,260 ex VAT before the grant"
     calc: "Basic RRP exc. VAT £42,260.00 for the T32 Commerce Plus SWB 136PS 70 kWh, the lowest e-Transporter panel van price in VW's list (fact above), written as £42,260. The grant-deducted price is a separate column."
   - claim: "£10,550 more than the cheapest diesel Transporter panel van"
     calc: "£42,260 (cheapest e-Transporter panel van, fact above) minus £31,710 (cheapest diesel panel van, fact below) = £10,550. Both basic RRP ex VAT from VW's price list."
   - claim: "the cheapest diesel Transporter panel van"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "T28 Panel Van Commerce SWB 110PS 2.0 TDI 6-Speed Manual £31,710.00"
   - claim: "£31,710"
     calc: "VW price list basic RRP exc. VAT £31,710.00 for the T28 Panel Van Commerce SWB 110PS (fact above), the lowest panel van price in the list, written as £31,710."
   - claim: "Commerce Pro starts"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "T32 Panel Van Commerce Pro SWB 136PS 70 kWh Electric 1-Speed Automatic £44,475.00"
   - claim: "£44,475"
     calc: "VW price list basic RRP exc. VAT £44,475.00 for the cheapest e-Transporter Commerce Pro panel van (fact above), written as £44,475."
   - claim: "VW says the panel van qualifies for the government's van grant, a discount of 35% of the price, up to £5,000"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "The e-Transporter Panel Van is eligible for the PiVG, meaning customers purchasing an e-Transporter Panel Van will receive 35% off the purchase price, up to a maximum of £5,000"
   - claim: "GOV.UK lists the e-Transporter panel van"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Volkswagen E-Transporter Panel Van"
   - claim: "Commerce Pro S was still awaiting approval"
-    source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/price-guides/transporter/transporters-pl.pdf
+    archive: sources/vw-transporter-price-guide-2026-01.pdf
     quote: "The e-Transporter Commerce Pro S is currently pending eligibility approval for this scheme."
   - claim: "five years or 124,000 miles"
     source: https://www.volkswagen-vans.co.uk/idhub/content/dam/onehub_nfz/importers/gb/downloads/brochures/transporter-panel-van/transporter-brochure.pdf
@@ -368,13 +369,13 @@ The e-Transporter is Volkswagen's electric medium van, developed jointly with Fo
 
 There are two lengths, both with a roof comfortably under 2 metres, and the battery costs nothing in load space compared with the diesel: Volkswagen quotes 5.8 cubic metres in the short van and 6.8 in the long one. The long van takes three Euro pallets, and an 8ft by 4ft board fits between the wheel arches.
 
-Volkswagen's website puts electric panel van payloads at roughly 911kg to 1,081kg including a driver, depending on specification. Its brochure gives a best of 1,156kg for the long-wheelbase 136hp van, but that's worked out as gross weight minus kerb weight with no driver aboard, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
+Volkswagen's July 2026 brochure gives electric panel van payloads of 1,026kg to 1,156kg, depending on specification, with the best of 1,156kg for the long-wheelbase 136hp van. Those figures are worked out as gross weight minus kerb weight with no driver aboard, so check the plated figure for your exact van. Every version can tow a 2,300kg trailer.
 
 ### Range and charging in the real world
 
-Volkswagen's current UK price list offers a 70kWh battery for every trim, though a few older 65kWh Commerce Pro S vans are listed as stock. VW quotes up to 225 miles on the official WLTP test for the short-wheelbase 136hp Commerce Plus, and 210 miles for the long-wheelbase 218hp Commerce Pro. Launch vans had a smaller battery and were reported at up to 201 miles. Reports of the bigger battery in January 2026 gave up to 237 miles, but VW's UK site quotes 225.
+Volkswagen's UK price list offers a 70kWh battery for every trim, though a few older 65kWh Commerce Pro S vans are listed as stock. VW's brochure gives up to 225.6 miles on the official WLTP test for the short-wheelbase 136hp Commerce Plus, and 210.6 miles for the long-wheelbase 218hp Commerce Pro. Launch vans had a smaller battery and were reported at up to 201 miles. Reports of the bigger battery in January 2026 gave up to 237 miles, but VW's own brochure gives 225.6.
 
-In one week-long test of a launch van, the dash showed 160 miles to empty at 99% charge, and that looked about right over a week of light loads. VW quotes a 10 to 80% rapid charge in about 30 minutes at up to 125kW, and its brochure gives 10.5 hours for a full charge on a 7.4kW wallbox. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
+In one week-long test of a launch van, the dash showed 160 miles to empty at 99% charge, and that looked about right over a week of light loads. VW's brochure gives a 10 to 80% rapid charge in 29 minutes at up to 125kW, and 10.5 hours for a full charge on a 7.4kW wallbox. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
 ### On the road
 

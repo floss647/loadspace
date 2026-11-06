@@ -3,9 +3,9 @@ layout: ../../layouts/Review.astro
 title: "Toyota Proace Electric review"
 van: toyota-proace
 date: 2026-10-30T08:00:00Z
-summary: "Toyota's version of the Stellantis electric medium van is sold on its warranty, which keeps renewing with each Toyota service for up to 10 years. Toyota quotes up to 217 miles, but the electric van is missing from Toyota's current UK price list, so we couldn't confirm what it costs."
+summary: "Toyota's version of the Stellantis electric medium van is sold on its warranty, which keeps renewing with each Toyota service for up to 10 years. Toyota quotes up to 217 miles. Its April 2026 price list started the van at £37,128.33 before VAT, but the electric van is missing from Toyota's current UK price list, so check the price before you buy."
 specs:
-  price: "Not confirmed (not in Toyota's 1 October 2026 price list)"
+  price: "£37,128.33 (April 2026 price list)"
   range: "217 miles"
   charging: "Not confirmed (Toyota gives charge times but no kW rating)"
   payload: "Not confirmed (Toyota quotes the same 1,000–1,300kg for electric and diesel)"
@@ -30,10 +30,14 @@ sources:
   - https://www.autoexpress.co.uk/peugeot/expert
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
-  - claim: "Not confirmed (not in Toyota's 1 October 2026 price list)"
-    calc: "Toyota UK price list effective from 1 October 2026 (https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf), checked 30 October 2026: its 'Toyota PROACE LCV PRICE LIST' pages list only diesel 1.5 D and 2.2 D versions. The only electric Proace models in the list are the Proace Verso EV people carrier and the Proace City Electric."
+  - claim: "£37,128.33"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Icon Medium Electric 50 kWh 136 DIN hp Auto 0 £360 £37,128.33"
+  - claim: "April 2026 price list"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Offers available on Eligible Vehicles purchased between 1st April 2026"
   - claim: "missing from Toyota's current UK price list"
-    calc: "As above: the Proace LCV pages of Toyota's price list effective from 1 October 2026 list only diesel versions."
+    calc: "Toyota UK price list effective from 1 October 2026 (https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf), checked 30 October 2026: its 'Toyota PROACE LCV PRICE LIST' pages list only diesel 1.5 D and 2.2 D versions. The only electric Proace models in the list are the Proace Verso EV people carrier and the Proace City Electric."
   - claim: "Missing from Toyota's current price list"
     calc: "As above: the Proace LCV pages of Toyota's price list effective from 1 October 2026 list only diesel versions."
   - claim: "the price list Toyota issued from 1 October 2026"
@@ -54,12 +58,23 @@ facts:
   - claim: "the maximum official (WLTP) figure"
     source: https://www.toyota.co.uk/new-cars/proace
     quote: "Electric range figures are the maximum official (WLTP) test values provided for comparison purposes"
-  - claim: "gives 133 miles"
-    source: https://www.toyota.co.uk/new-cars/proace
-    quote: "Additional charges may apply on selected paint colours. Prices correct at time of being published. Fuel economy mpg (l/100km): n/a CO₂ emissions: 0 g/km. Combined electric range 133 miles."
-  - claim: "£37,128.33 plus VAT"
-    source: https://www.toyota.co.uk/new-cars/proace
-    quote: "Model shown is MY26 Proace Icon Medium with Ply Lining Electric (50Kw) 136 DIN hp 7kw OBC £37,128.33 VAT."
+  - claim: "its April 2025 brochure"
+    archive: sources/toyota-proace-brochure-2025-04.pdf
+    quote: "Toyota UK @ToyotaUK April 2025"
+  - claim: "WLTP table gives 133 miles for the 50kWh van"
+    archive: sources/toyota-proace-brochure-2025-04.pdf
+    quote: "ENVIRONMENTAL PERFORMANCE 100 kW Electric Motor & 50 kWh Battery Automatic 100 kW Electric Motor & 75 kWh Battery Automatic CO₂ Combined WLTP (g/km) 0 0 Power Consumption WLTP (kWh/100 miles) 39.6 38.9*/39.3§/40.2◊/54.1** Electric Consumption (Wh/mile) 246 242*/244§/250◊/336** Pure Electric Range - Combined WLTP (miles) 133"
+  - claim: "starts the van at £37,128.33 before VAT for the 50kWh Icon Medium"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Icon Medium Electric 50 kWh 136 DIN hp Auto 0 £360 £37,128.33 £7,425.67 £44,554.00"
+  - claim: "the cheapest 75kWh panel van, the Icon Medium, is £41,836.67"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Icon Medium Electric 75 kWh 136 DIN hp Auto 0 £360 £41,836.67"
+  - claim: "the Sport Medium is £44,003.33"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Sport Medium Electric 75 kWh 136 DIN hp Auto 0 £360 £44,003.33"
+  - claim: "Those prices are before the grant"
+    calc: "Toyota Proace Electric price list (April 2026), PDF page 1 (printed page 3), Icon Medium 50 kWh row: Basic £37,128.33, VAT £7,425.67, List Price £44,554.00, On the Road £45,795.00, On the Road with OZEV GRANT £40,795.00. £45,795.00 - £40,795.00 = £5,000, so the grant comes off only in the 'with OZEV GRANT' column and the Basic price is before the grant."
   - claim: "0 to 80% in about 32 minutes"
     source: https://www.toyota.co.uk/new-cars/proace
     quote: "0-80% Charging time DC 32 minutes"
@@ -204,10 +219,10 @@ In September 2024, Toyota's UK press office said the high-voltage battery on its
 
 In February 2024 Toyota launched the facelifted diesel Proace, with a 10-inch touchscreen even on the entry Active trim. Toyota's current site shows the electric van in Icon and Sport trims, with 50kWh and 75kWh batteries.
 
-Toyota quotes up to 217 miles with the 75kWh battery, which it says is the maximum official (WLTP) figure; its own contract-hire offer gives 133 miles for the 50kWh Icon, and a finance example quotes 207 miles for the 75kWh Sport, so the battery choice matters. On charging, Toyota quotes 0 to 80% in about 32 minutes on DC in one place and 20 to 80% in as little as 30 minutes in another, but doesn't give a kW rating. The earlier van had 100kW rapid charging, so ask what the current one takes. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
+Toyota quotes up to 217 miles with the 75kWh battery, which it says is the maximum official (WLTP) figure; its April 2025 brochure's WLTP table gives 133 miles for the 50kWh van, and a finance example quotes 207 miles for the 75kWh Sport, so the battery choice matters. On charging, Toyota quotes 0 to 80% in about 32 minutes on DC in one place and 20 to 80% in as little as 30 minutes in another, but doesn't give a kW rating. The earlier van had 100kW rapid charging, so ask what the current one takes. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
 
 Toyota gives the electric van a payload of 1,000kg to 1,300kg, depending on version, which is exactly the same as it gives for the diesel, so we haven't scored it. Towing is rated at 1,000kg. Ask for the plated payload of the exact van you're quoted.
 
 ### Price and alternatives
 
-We couldn't confirm a list price. The only figure Toyota publishes is in that contract-hire offer, which shows the 50kWh Icon with ply lining at £37,128.33 plus VAT, but it doesn't say whether that is the cheapest version or whether the grant has been taken off. Two 2025 reviews say the Toyota tends to be pricier because of its warranty, so get quotes on all five badges and set the extra cost against the longer cover. It is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; see our [grants guide](/guides/grants-and-tax/). Outside the family, compare the [Ford E-Transit Custom](/vans/ford-transit-custom/) and [Kia PV5 Cargo](/vans/kia-pv5-cargo/), and use our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the running costs.
+Toyota's own Proace Electric price list from April 2026 starts the van at £37,128.33 before VAT for the 50kWh Icon Medium; the cheapest 75kWh panel van, the Icon Medium, is £41,836.67, and the Sport Medium is £44,003.33. Those prices are before the grant. They are older than Toyota's October list, which leaves the electric van out, so ask for a current written price. Two 2025 reviews say the Toyota tends to be pricier because of its warranty, so get quotes on all five badges and set the extra cost against the longer cover. It is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; see our [grants guide](/guides/grants-and-tax/). Outside the family, compare the [Ford E-Transit Custom](/vans/ford-transit-custom/) and [Kia PV5 Cargo](/vans/kia-pv5-cargo/), and use our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the running costs.
