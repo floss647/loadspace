@@ -1,20 +1,53 @@
 name: News and column fact check
 
-# Runs on every pull request that touches news stories: opens each source page and
-# confirms every quoted fact is really there. A failing check means don't merge.
+# Runs on every pull request that touches checked content. Two levels:
+# - every page gets the offline check (quotes present, every number backed, sign-off, no em dashes);
+# - pages this pull request adds or changes also get the LIVE check, which opens each source and
+#   confirms every quoted fact is really there. A failing check means don't merge.
+# Older pages are re-checked against their live sources by the weekly source sweep in the newsroom,
+# so a maker editing an old web page can't block new stories from publishing.
 on:
   pull_request:
-    paths: ['src/pages/news/**', 'src/pages/blog/**', 'src/pages/reviews/**', 'src/data/rules/**', 'sources/**', 'scripts/check-news.mjs', 'scripts/check-style.mjs', 'scripts/news-sources.json']
+    paths: ['src/pages/news/**', 'src/pages/blog/**', 'src/pages/reviews/**', 'src/data/rules/**', 'src/data/specs/**', 'sources/**', 'scripts/check-news.mjs', 'scripts/check-style.mjs', 'scripts/news-sources.json']
   workflow_dispatch:
+    inputs:
+      full:
+        description: 'Live-check every page, not just changed ones'
+        type: boolean
+        default: true
 
 jobs:
   check:
     runs-on: ubuntu-24.04   # pinned so pdftotext matches local checks (poppler 24.02)
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
-      - run: sudo apt-get install -y poppler-utils   # pdftotext, for GOV.UK PDFs
+      - run: sudo apt-get install -y poppler-utils   # pdftotext, for saved PDFs
       - run: npm ci
-      - run: npm run check-news:live
+      - name: Offline check, every page
+        run: node scripts/check-news.mjs
+      - name: Live check, changed pages
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          FULL: ${{ github.event_name == 'workflow_dispatch' && inputs.full }}
+        run: |
+          set -euo pipefail
+          DIRS="src/pages/news src/pages/blog src/pages/reviews src/data/rules src/data/specs"
+          if [ "$FULL" = "true" ]; then echo "Full live check requested."; npm run check-news:live; exit 0; fi
+          changed=$(git diff --name-only --diff-filter=AMR "$BASE"...HEAD)
+          # A change to the checker itself or the trusted list re-checks everything.
+          if echo "$changed" | grep -qE '^scripts/(check-news\.mjs|news-sources\.json)$'; then
+            echo "Checker or trusted list changed: live-checking every page."; npm run check-news:live; exit 0
+          fi
+          pages=$(echo "$changed" | grep -E "^($(echo $DIRS | tr ' ' '|'))/[^/]+\.md$" || true)
+          # Pages citing a saved document that changed in this pull request.
+          for f in $(echo "$changed" | grep -E '^sources/[^/]+\.pdf$' || true); do
+            pages="$pages"$'\n'"$(grep -rl --include='*.md' "$f" $DIRS || true)"
+          done
+          pages=$(echo "$pages" | grep -v '^$' | sort -u || true)
+          if [ -z "$pages" ]; then echo "No checked pages changed: nothing to live-check."; exit 0; fi
+          echo "Live-checking:"; echo "$pages"
+          node scripts/check-news.mjs --live $pages
       - run: npm run build
