@@ -206,5 +206,13 @@
     "received": "2026-11-07",
     "via": "Supplied by the editor, downloaded from Citroën's UK website",
     "sha256": "826cbf47097b541adc9c8d065bf109cf4cce0ddadba785f0b1efaacbca6c7bc1"
+  },
+  "citroen-e-relay-van-price-spec-guide-2026-10.pdf": {
+    "title": "Citroën ë-Relay & Relay Prices & Specifications (MY26)",
+    "publisher": "citroen.co.uk",
+    "effective": "1 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Citroën's UK website",
+    "sha256": "6dae6a4b6b637ccb7b6bead99d0c8640f743a96a26f2a249734e0498d8a42936"
   }
 }
