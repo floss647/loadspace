@@ -8,7 +8,7 @@ tables:
   - title: "Range, payload and weight"
     head: ["Version", "Gross weight", "Range", "Payload", "Towing (braked)", "Top speed"]
     rows:
-      - ["L3H2 van", "3,500kg", "235 miles", "710kg", "2,400kg", "81mph"]
+      - ["L3H2 van", "3,500kg", "235 miles", "Not confirmed (see notes)", "2,400kg", "81mph"]
       - ["L3H2 van", "4,250kg", "263 miles", "1,460kg", "2,400kg", "56mph"]
       - ["L3H3 van", "4,250kg", "254 miles", "1,435kg", "2,400kg", "56mph"]
       - ["L4H2 van", "4,250kg", "262 miles", "1,415kg", "2,400kg", "56mph"]
@@ -32,13 +32,13 @@ tables:
 notes:
   - "Vauxhall says the Movano Electric is not subject to WLTP testing, as all versions are homologated as heavy vehicles, so it calculates these ranges using the WLTP method instead."
   - "The 4,250kg versions are legally limited to 56mph."
-  - "Vauxhall lists these as maximum indicative payloads, and its guide is unclear on whether they include the driver, so allow for the driver's weight on top."
+  - "Vauxhall lists these as maximum indicative payloads. On the 4,250kg versions each one is the gross weight minus Vauxhall's kerb weight, which it defines as the minimum mass minus the driver's weight, and it says the driver's weight is included within the payload, so the driver's weight counts against it. The 3,500kg van's figures don't add up the same way. Vauxhall lists its payload as 710kg, but its 2,865kg kerb weight plus 710kg payload makes 3,575kg, over the 3,500kg gross weight, and Vauxhall's own weights suggest a payload of 635kg. We've shown that van's payload as not confirmed, so check its plated payload with the dealer. The payloads also don't allow for any options you order."
   - "Towing is also limited by the gross train weight of 6,400kg on the 4,250kg versions, so a fully loaded van can tow up to 2,150kg."
 versions:
   - name: "L3H2, 3,500kg"
     figures:
       range: "235 miles"
-      payload: "710kg"
+      payload: "Not confirmed (see notes)"
       volume: "13m³"
       loadLength: "3,705mm"
       loadHeight: "1,932mm"
@@ -339,7 +339,7 @@ options:
         quote: "DAB radio antenna integrated in right AT22 £130"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-07
 facts:
   - claim: "1 May 2025"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
@@ -440,6 +440,30 @@ facts:
   - claim: "maximum indicative payloads"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "MAXIMUM INDICATIVE"
+  - claim: "On the 4,250kg versions each one is the gross weight minus Vauxhall's kerb weight"
+    calc: "Vauxhall's N2 electric rows: 4,250kg gross minus kerb weight gives the listed payload for every panel van (4,250 - 2,790 = 1,460; 4,250 - 2,815 = 1,435; 4,250 - 2,835 = 1,415; 4,250 - 2,865 = 1,385)"
+  - claim: "which it defines as the minimum mass minus the driver's weight"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "The Minimum Mass minus the driver’s weight."
+  - claim: "it says the driver's weight is included within the payload"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "When Kerb Weight used, driver weight is"
+  - claim: "so the driver's weight counts against it"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "included within the Maximum Indicative"
+  - claim: "its 2,865kg kerb weight plus 710kg payload"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "Vauxhall lists its payload as 710kg"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "suggest a payload of 635kg"
+    calc: "Vauxhall's N1 L3H2 row: gross weight 3,500kg minus kerb weight 2,865kg = 635kg"
+  - claim: "makes 3,575kg"
+    calc: "Vauxhall's N1 L3H2 row: kerb weight 2,865kg plus maximum indicative payload 710kg = 3,575kg, more than its 3,500kg gross weight"
+  - claim: "don't allow for any options you order"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "Payload does not consider any additional"
   - claim: "gross train weight of 6,400kg"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "2GXE5MHYAFT0A013 2790 1460 4250 2100 2400 2400 6400"

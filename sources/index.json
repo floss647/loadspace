@@ -190,5 +190,45 @@
     "received": "2026-11-01",
     "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
     "sha256": "0f7df280598c38507b71915ab54d0ab9137b011e8a467f0d6190a27699c165fb"
+  },
+  "citroen-e-berlingo-van-price-spec-guide-2026-08.pdf": {
+    "title": "Citroën ë-Berlingo & Berlingo Van Prices & Specifications (MY27)",
+    "publisher": "citroen.co.uk",
+    "effective": "26 August 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Citroën's UK website",
+    "sha256": "bde1b02ba27ad4965b25063f1e827e1dd3f9b783055adad3913b301416a204d7"
+  },
+  "citroen-e-dispatch-van-price-spec-guide-2026-10.pdf": {
+    "title": "Citroën ë-Dispatch & Dispatch Prices & Specifications (MY27)",
+    "publisher": "citroen.co.uk",
+    "effective": "8 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Citroën's UK website",
+    "sha256": "826cbf47097b541adc9c8d065bf109cf4cce0ddadba785f0b1efaacbca6c7bc1"
+  },
+  "citroen-e-relay-van-price-spec-guide-2026-10.pdf": {
+    "title": "Citroën ë-Relay & Relay Prices & Specifications (MY26)",
+    "publisher": "citroen.co.uk",
+    "effective": "1 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Citroën's UK website",
+    "sha256": "6dae6a4b6b637ccb7b6bead99d0c8640f743a96a26f2a249734e0498d8a42936"
+  },
+  "peugeot-partner-price-spec-guide-2026-08.pdf": {
+    "title": "Peugeot Partner (including e-Partner) Prices, Equipment & Technical Specifications (2027 model year)",
+    "publisher": "peugeot.co.uk",
+    "effective": "26 August 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Peugeot's UK website",
+    "sha256": "ea18c0ccbc8c504e22cc8150eff1033baed53d20bf2d93717f5520bd29b793e4"
+  },
+  "peugeot-boxer-price-spec-guide-2026-10.pdf": {
+    "title": "Peugeot Boxer (including e-Boxer) Prices, Equipment & Technical Specifications (2026 model year)",
+    "publisher": "peugeot.co.uk",
+    "effective": "1 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Peugeot's UK website",
+    "sha256": "57d66d3ef99fcc745a9771184551efddb0322108f5e01cb667c36c7aad474ed9"
   }
 }
