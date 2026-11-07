@@ -8,14 +8,14 @@ specs:
   price: "£41,460"
   range: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
   charging: "100kW"
-  payload: "1,210kg (M panel van, no driver)"
+  payload: "1,210kg (M panel van, driver's weight counts against it)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Expert is a capable, well-equipped electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras, sat-nav and through-load bulkhead, and Sport is there if you want to be noticed. Payload is a healthy 1,210kg in the M panel van, but the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
+verdict: "The E-Expert is a capable, well-equipped electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras, sat-nav and through-load bulkhead, and Sport is there if you want to be noticed. Payload is up to 1,210kg in the M panel van, but the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
 good: ["Asphalt trim adds cameras, sat-nav and a load-through bulkhead", "11kW on-board charger on every trim", "Rapid charging at up to 100kW"]
 bad: ["Cargo volume trails rivals", "Infotainment is complicated", "Cab feels cramped for three"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/peugeot/expert
   - https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
@@ -31,13 +31,13 @@ facts:
   - claim: "100kW"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "Rapid (DC) Charging (100 kW) – CCS Socket 45m (5 to 80%)"
-  - claim: "1,210kg (M panel van, no driver)"
+  - claim: "1,210kg (M panel van, driver's weight counts against it)"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
-  - claim: "no driver"
+  - claim: "driver's weight counts against it"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
-    quote: "Payload does not include driver"
-  - claim: "Payload is a healthy 1,210kg in the M panel van"
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
+  - claim: "Payload is up to 1,210kg in the M panel van"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
   - claim: "Eight years or 100,000 miles"
@@ -196,12 +196,12 @@ facts:
   - claim: "each offered as an M or XL panel van or crew van"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "E-EXPERT Crew Van XL ELECTRIC 136hp Automatic Sport"
-  - claim: "Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers"
+  - claim: "Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, rear parking sensors, lane keep assist and auto lights and wipers"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "All versions now come with 10-inch driver and touchscreen displays, sliding doors on each side, a full steel bulkhead and air-conditioning. Auto lights and wipers, parking sensors, heated mirrors, auto high beam, lane keep assist and wireless phone connectivity are standard as well."
   - claim: "Asphalt costs £2,675 more"
     calc: "Peugeot price list, basic prices excluding VAT: M panel van Asphalt £44,135 minus M panel van Professional £41,460 (facts below) = £2,675"
-  - claim: "adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels"
+  - claim: "adds TomTom sat-nav, the through-load bulkhead (panel vans only), 17-inch wheels"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "Asphalt adds 17-inch wheels, a more upmarket exterior look, a load-through hatch for the bulkhead and a TomTom sat-nav system."
   - claim: "an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view"
@@ -228,7 +228,7 @@ facts:
   - claim: "though it loses the digital rear-view mirror"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "*Does not include the Digital Rear View Mirror"
-  - claim: "On Professional and Asphalt, a heated driver's seat comes in a £500 Winter Pack"
+  - claim: "a heated driver's seat comes in a Winter Pack with a heated steering wheel and extra airbags: £500 on panel vans and £300 on crew vans"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "driver and passenger thorax in the seats + curtain for the head [NF26], Heated Steering NA03 £500 £500 £300 £300"
   - claim: "The 'OK Peugeot' voice assistant now uses ChatGPT"
@@ -356,13 +356,13 @@ Both road tests we found describe a quiet cab, though one notes wind and road no
 
 ### Cab and kit
 
-There are three trims: Professional, Asphalt and a limited-edition Sport, each offered as an M or XL panel van or crew van. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers. Asphalt costs £2,675 more and adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport gets a rally-style body kit and graphics, 18-inch alloy wheels, eco-leather seats, dual-zone climate control, a heated driver's seat, a heated steering wheel and wireless phone charging, though it loses the digital rear-view mirror. On Professional and Asphalt, a heated driver's seat comes in a £500 Winter Pack, with a heated steering wheel and extra airbags.
+There are three trims: Professional, Asphalt and a limited-edition Sport, each offered as an M or XL panel van or crew van. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, rear parking sensors, lane keep assist and auto lights and wipers. Asphalt costs £2,675 more and adds TomTom sat-nav, the through-load bulkhead (panel vans only), 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport gets a rally-style body kit and graphics, 18-inch alloy wheels, eco-leather seats, dual-zone climate control, a heated driver's seat, a heated steering wheel and wireless phone charging, though it loses the digital rear-view mirror. On Professional and Asphalt, a heated driver's seat comes in a Winter Pack with a heated steering wheel and extra airbags: £500 on panel vans and £300 on crew vans, which already have the airbags.
 
 The 'OK Peugeot' voice assistant now uses ChatGPT, but the system is complicated enough to leave some drivers baffled for a while. The climate controls stay as physical buttons and dials. You sit lower than in a Ford Transit Custom or Renault Trafic, and the middle seat is narrow.
 
 ### Which version to buy
 
-Asphalt makes sense if you want the cameras and the load-through bulkhead. Adding sat-nav (£650), the Moduwork load-through bulkhead (£350), an alarm (£225) and Dynamic Surround View (£750) to a Professional comes to £1,975, against the £2,675 price gap, but Asphalt also brings LED headlights, front fog lights, 17-inch wheels and painted bumpers. Adaptive cruise control with Stop and Go is a £600 option on Professional. These option prices are, like the list prices, all excluding VAT. Servicing is every two years or 25,000 miles, with a first check at one year or 12,500 miles.
+Asphalt makes sense if you want the cameras and the load-through bulkhead. Adding sat-nav (£650), the Moduwork load-through bulkhead (£350), an alarm (£225) and Dynamic Surround View (£750) to a Professional panel van comes to £1,975, against the £2,675 price gap, but Asphalt also brings LED headlights, front fog lights, 17-inch wheels and painted bumpers. Adaptive cruise control with Stop and Go is a £600 option on Professional. These option prices are, like the list prices, all excluding VAT. Servicing is every two years or 25,000 miles, with a first check at one year or 12,500 miles.
 
 ### Alternatives
 

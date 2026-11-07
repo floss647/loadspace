@@ -55,7 +55,7 @@ notes:
   - "Asphalt and Sport panel vans have the Moduwork folding passenger seat with a load-through bulkhead. The load space table shows the extra length and volume with it open."
   - "Peugeot rates the E-Expert to tow 1,000kg braked, but the only towbar on its options list is marked diesel only."
   - "The crew van has a second row of three seats behind a plastic bulkhead with a window."
-  - "Sport is a limited edition, so check availability with a dealer. It comes only in Ice White, Cumulus Grey or Titanium Grey, and Peugeot's paint prices cover Professional and Asphalt only."
+  - "Sport is a limited edition, so check availability with a dealer. It comes only in Ice White, Cumulus Grey or Titanium Grey. Peugeot's colour price table covers Professional and Asphalt only, so it doesn't say whether the metallic greys cost extra on a Sport."
 versions:
   - name: "M panel van"
     figures:
@@ -359,7 +359,7 @@ options:
         quote: "Ice White (F) Titanium Grey (M) Cumulus Grey (M) Nera Black (M) (P0PR) (M01J) (M0F4) (M09V) Standard Option £650 Option £650 Option £650"
       - name: "Special fleet colours"
         price: "£750"
-        note: "Ask a dealer or key account manager"
+        note: "Professional and Asphalt only, as Sport comes in three colours; ask a dealer or key account manager"
         quote: "Special Fleet Colours (£750 exc VAT) are available"
   - category: "Wheels and tyres"
     items:
@@ -443,10 +443,9 @@ options:
         price: "£350"
         note: "Professional panel van"
         quote: "e-PTO (Electrical Power Take Off) on 400V battery : High power connector on junction box 4204 £350"
-      - name: "Converter Pack: upgraded battery and alternator, towbar wiring and a conversion interface box"
-        price: "£400"
-        note: "Professional; for vans being converted"
-        quote: "towbar pre-conditioning (rear electric harness + fast connectors (behind rear bumper) + BQ01 £400"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "8 October 2026"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
@@ -592,15 +591,17 @@ facts:
   - claim: "13.6 seconds"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "Acceleration (0-62 mph) 13.6sec"
-  - claim: "Peugeot lists these as maximum indicative payloads, worked out from a kerb weight without a driver"
+  - claim: "Peugeot lists these as maximum indicative payloads"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "driver weight is included within the Maximum Indicative Payload weight."
   - claim: "kerb weight without a driver"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "The Minimum Mass minus the driver’s weight."
+  - claim: "worked out from a kerb weight without a driver"
+    calc: "Peugeot's weights table, M panel van: gross weight 3,230kg minus kerb weight (marked 'no driver') 2,020kg = 1,210kg, the maximum payload Peugeot lists"
   - claim: "so the driver's weight comes out of the payload"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
-    quote: "Payload does not include driver"
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
   - claim: "the M panel van carries 1,135kg"
     calc: "Peugeot's weights table, M panel van: gross weight 3,230kg minus mass in running order including driver 2,095kg = 1,135kg"
   - claim: "the XL 1,063kg"
@@ -617,4 +618,7 @@ facts:
   - claim: "It comes only in Ice White, Cumulus Grey or Titanium Grey"
     archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
     quote: "Available in Ice White (Solid), Cumulus Grey (Metallic)"
+  - claim: "Peugeot's colour price table covers Professional and Asphalt only"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "DESCRIPTION PROFESSIONAL ASPHALT"
 ---
