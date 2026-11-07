@@ -5,48 +5,56 @@ van: peugeot-expert
 date: 2026-10-30T08:00:00Z
 summary: "Peugeot's electric medium van pairs a 75kWh battery and 100kW charging with a three-trim line-up that runs from sensible to showy. It's well equipped and has a quiet cab, but the load area is modest, the cab is narrow and the infotainment takes some learning."
 specs:
-  price: "Not confirmed (no current pre-grant list price found)"
-  range: "230 miles"
+  price: "£41,460"
+  range: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
   charging: "100kW"
-  payload: "Not confirmed (published figures differ)"
+  payload: "1,210kg (M panel van, driver's weight counts against it)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Expert is a capable, well-equipped electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras and through-load bulkhead for not much more, and Sport is there if you want to be noticed. Published payload figures vary, the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
-good: ["Asphalt trim adds plenty for a small premium", "Heated driver's seat standard", "Rapid charging at up to 100kW"]
+verdict: "The E-Expert is a capable, well-equipped electric medium van with an official range of up to 230 miles and 100kW rapid charging. Peugeot's version stands out for its trims: Professional is well stocked, Asphalt adds the cameras, sat-nav and through-load bulkhead, and Sport is there if you want to be noticed. Payload is up to 1,210kg in the M panel van, but the cargo bay trails the biggest rivals and the cab is tight for three. Under the badge it's the same van as the Citroën, Vauxhall, Fiat and Toyota, so shop around."
+good: ["Asphalt trim adds cameras, sat-nav and a load-through bulkhead", "11kW on-board charger on every trim", "Rapid charging at up to 100kW"]
 bad: ["Cargo volume trails rivals", "Infotainment is complicated", "Cab feels cramped for three"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/peugeot/expert
   - https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
   - https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-  - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
-  - claim: "230 miles"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The electric e-Expert has a range of up to 230 miles according to official figures"
+  - claim: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Professional 3230 1210 5.3 0 194 - 230"
   - claim: "an official range of up to 230 miles"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "This means a range of up to 230 miles is possible in mixed driving, according to official figures."
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Professional 3230 1210 5.3 0 194 - 230"
   - claim: "100kW"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The maximum charging rate here is 100kW, which can bring the battery from five to 80 per cent capacity in 45 minutes."
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Rapid (DC) Charging (100 kW) – CCS Socket 45m (5 to 80%)"
+  - claim: "1,210kg (M panel van, driver's weight counts against it)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
+  - claim: "driver's weight counts against it"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
+  - claim: "Payload is up to 1,210kg in the M panel van"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
   - claim: "Eight years or 100,000 miles"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The Expert has a three-year warranty with a maximum 100,000-mile limit, while the battery and running gear of the e-Expert is covered for eight years and the same mileage."
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years/100,000 miles/70% capacity"
   - claim: "75kWh battery"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "But it uses a bigger 75kWh battery that provides a range of up to 217 miles"
-  - claim: "Published payload figures vary"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "Maximum gross payload is a smidgeon over a tonne in all cases"
-  - claim: "Asphalt trim adds plenty for a small premium"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Gross/Net Capacity 75/69kWh"
+  - claim: "Asphalt trim adds cameras, sat-nav and a load-through bulkhead"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Full Moduwork with load-through hatch with fold-flat"
+  - claim: "Asphalt adds the cameras, sat-nav and through-load bulkhead"
     source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "Asphalt trim adds a through-loading bulkhead, sat-nav, larger wheels and a different exterior look for not a lot more money"
-  - claim: "Heated driver's seat standard"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "a heated driver's seat now comes as standard"
+    quote: "Asphalt adds 17-inch wheels, a more upmarket exterior look, a load-through hatch for the bulkhead and a TomTom sat-nav system."
+  - claim: "11kW on-board charger on every trim"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "11KW On Board Charger with Mode 3 charging cable – 6 metres (for use with wallbox)"
   - claim: "Cargo volume trails rivals"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "trails behind key rivals such as the Ford Transit Custom"
@@ -62,45 +70,78 @@ facts:
   - claim: "the bodywork, battery and motor are shared"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "That's the same as for the electric version of the Citroen Dispatch , since it uses the same motor and battery set-up."
-  - claim: "There are two lengths, Standard and Long, with 5.3 and 6.1 cubic metres of space"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The Peugeot Expert's cargo volume of 5.3 cubic metres for the base model (the longer model has 6.1m3)"
-  - claim: "The hatch in the bulkhead lets long items slide under the folding outer passenger seat, adding 1,162mm of load length"
+  - claim: "There are two lengths, M and XL, with 5.3 and 6.1 cubic metres of space"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Load volume (without load-through bulkhead) 5.3 6.1"
+  - claim: "a hatch in the bulkhead lets long items slide under the folding outer passenger seat"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "A hatch in the bulkhead allows extra-long items to be slid forwards under the seat closest to the passenger door - the seat folds up - and into the footwell, giving you an ever-so-handy additional 1,162mm to play with."
-  - claim: "There are eight tie-down points and a full-height steel bulkhead"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "Eight cargo tie-down points are provided, while a full-height steel bulkhead protects the cab's occupants"
-  - claim: "Peugeot quoted exactly 1,000kg for both payload and braked towing"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "a maximum payload and towing capacity of exactly 1,000kg"
-  - claim: "one road test puts the maximum a little over a tonne in every version"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "Maximum gross payload is a smidgeon over a tonne in all cases"
-  - claim: "the Vauxhall twin has been reported at up to 1,210kg"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
-  - claim: "the best diesel manages 1,384kg"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The best payload available is in the BlueHDi 145 manual, which has a maximum payload of 1,384kg"
-  - claim: "drops to 915kg in the electric Crew Van"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "while the electric Crew van has a maximum of 915kg"
+  - claim: "to 3,674mm"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Load length at floor (with load-through bulkhead open) 3674 4026"
+  - claim: "stretching the floor length of an M from 2,512mm"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Load length at floor (without load-through bulkhead) 2512 2862"
+  - claim: "There are six load tie-down hooks in the M and eight in the XL"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Load tie-down hooks in cargo area (6 in M versions, 8 in XL versions)"
+  - claim: "Professional panel vans have a full-height steel bulkhead"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Full-height steel bulkhead"
+  - claim: "October 2026"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Effective from 8th October 2026"
+  - claim: "up to 1,210kg for the M panel van"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
+  - claim: "1,138kg for the XL"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van XL ELECTRIC 136hp Automatic 3190 2127 2052 1138 1530 1800 4100 1000 750 60 3"
+  - claim: "worked out from a kerb weight without a driver"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "The Minimum Mass minus the driver’s weight."
+  - claim: "so the driver's weight comes out of them"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
+  - claim: "1,075kg (M)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Crew Van M ELECTRIC 136hp Automatic 3200 2200 2125 1075 1500 1800 4100 1000 750 60 6"
+  - claim: "1,011kg (XL)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Crew Van XL ELECTRIC 136hp Automatic 3160 2224 2149 1011 1500 1800 4100 1000 750 60 6"
+  - claim: "the best diesel panel van manages 1,326kg"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van M DIESEL 150hp Manual 3100 1849 1774 1326"
+  - claim: "Peugeot says its payloads don't allow for options"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Payload does not consider any additional options that a"
+  - claim: "rated to tow 1,000kg"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Panel Van M ELECTRIC 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
+  - claim: "the only tow bar on Peugeot's options list is for the diesel"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Removable Towbar with ball and hook, 13 pin connector and Trailer Sway Mitigation AQ10 £700 £700 £700 £700 (DIESEL only)"
   - claim: "The 50kWh battery went at the 2024 facelift"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The 50kWh battery in the electric e-Expert has been removed after the 2024 facelift and now a 75kWh pack is the only option."
-  - claim: "was 217 miles"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "But it uses a bigger 75kWh battery that provides a range of up to 217 miles"
-  - claim: "March 2024"
+  - claim: "the 75kWh pack"
+    source: https://www.autoexpress.co.uk/peugeot/expert
+    quote: "The 50kWh battery in the electric e-Expert has been removed after the 2024 facelift and now a 75kWh pack is the only option."
+  - claim: "of which 69kWh is usable"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Gross/Net Capacity 75/69kWh"
+  - claim: "an official range of 194 to 230 miles"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Professional 3230 1210 5.3 0 194 - 230"
+  - claim: "its technical page quotes 219 miles"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "WLTP Range (Combined) 219mi"
+  - claim: "At its March 2024 launch"
     source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
     quote: "12 Mar 2024"
-  - claim: "review gives 230"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The electric e-Expert has a range of up to 230 miles according to official figures"
-  - claim: "June 2025"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "5 Jun 2025"
+  - claim: "the figure was 217 miles"
+    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
+    quote: "But it uses a bigger 75kWh battery that provides a range of up to 217 miles"
   - claim: "One road test of a Long van in Asphalt trim reported getting very close to 230 miles in cold weather with some weight aboard"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "The claimed combined WLTP range between recharges is up to 230 miles and we found we were getting very close to that figure, despite cold weather and with some weight in the back."
@@ -111,17 +152,20 @@ facts:
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "If you do a lot of longer trips on the motorway you'll see the expected range drop significantly"
   - claim: "From 5 to 80% on a 100kW charger takes 45 minutes"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "you can grab a 5-80 per cent charge in 45 minutes at a compatible 100kW fast charge point"
-  - claim: "a 7.4kW wallbox does a full charge in 11 hours 20 minutes"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "you'll want to install a 7.4kW wallbox to cut that down to a much more realistic 11 hours and 20 minutes"
-  - claim: "a three-pin plug takes 37 hours"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "Charging from a three-pin plug takes 37 hours"
-  - claim: "The 11kW on-board charger, with a 22kW cable, is a £400 option"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "an 11kW onboard charger with a 22kW cable (£400)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Rapid (DC) Charging (100 kW) – CCS Socket 45m (5 to 80%)"
+  - claim: "An 11kW on-board charger is standard on every trim"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "11KW On Board Charger with Mode 3 charging cable – 6 metres (for use with wallbox)"
+  - claim: "a three-phase 11kW wallbox does a full charge in 7 hours 30 minutes"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Three Phase Wallbox (11kW) – Type 2 Socket 7h 30m (100%)"
+  - claim: "a 7.4kW wallbox takes 11 hours 20 minutes"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Single Phase Wallbox (7.4kW) – Type 2 Socket 11h 20m (100%)"
+  - claim: "a domestic plug takes 36 hours 45 minutes"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Domestic electrical plug – Type 2 Socket 36h 45m (100%)"
   - claim: "Both road tests we found describe a quiet cab"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The electric e-Expert is quiet and smooth to drive"
@@ -146,33 +190,47 @@ facts:
   - claim: "the door mirrors are the weak point for visibility"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "only the door mirrors could be improved when it comes to visibility"
-  - claim: "Professional, Asphalt and Sport"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "All Expert models come in Professional or Asphalt trims, with a modest price difference of around £800 between them. There's also a Sport trim available on the electric version or the top-spec diesel."
-  - claim: "Asphalt costs around £800 more"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "with a modest price difference of around £800 between them"
-  - claim: "Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers"
+  - claim: "There are three trims: Professional, Asphalt and a limited-edition Sport"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "EXPERT SPORT is produced as a Limited Edition"
+  - claim: "each offered as an M or XL panel van or crew van"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Crew Van XL ELECTRIC 136hp Automatic Sport"
+  - claim: "Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, rear parking sensors, lane keep assist and auto lights and wipers"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "All versions now come with 10-inch driver and touchscreen displays, sliding doors on each side, a full steel bulkhead and air-conditioning. Auto lights and wipers, parking sensors, heated mirrors, auto high beam, lane keep assist and wireless phone connectivity are standard as well."
+  - claim: "Asphalt costs £2,675 more"
+    calc: "Peugeot price list, basic prices excluding VAT: M panel van Asphalt £44,135 minus M panel van Professional £41,460 (facts below) = £2,675"
+  - claim: "adds TomTom sat-nav, the through-load bulkhead (panel vans only), 17-inch wheels"
+    source: https://www.autoexpress.co.uk/peugeot/expert
+    quote: "Asphalt adds 17-inch wheels, a more upmarket exterior look, a load-through hatch for the bulkhead and a TomTom sat-nav system."
   - claim: "an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "They include TomTom satellite navigation for the i-Connect infotainment system, an ultrasonic alarm, a digital rear- view mirror, front as well as rear parking sensors, along with sensors that cover the van's blind spot and a highly-effective reversing camera with a bird's-eye view"
-  - claim: "adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "Asphalt adds 17-inch wheels, a more upmarket exterior look, a load-through hatch for the bulkhead and a TomTom sat-nav system."
-  - claim: "Sport, offered only on the Standard length, gets a rally-style body kit and graphics"
+  - claim: "Sport gets a rally-style body kit and graphics"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "Sport is a special model with Peugeot graphics on the outside, fancy wheels and a bodykit that makes it look like a rally support vehicle."
+  - claim: "18-inch alloy wheels"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "18\" Y-Spoke alloy wheels"
+  - claim: "eco-leather seats"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Hand-crafted and fitted eco-leather seats with embossed logo, bold stitching, and perforated material for ventilation."
+  - claim: "dual-zone climate control"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Dual-zone electronic climate control"
+  - claim: "a heated driver's seat"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Heated driver’s seat"
   - claim: "a heated steering wheel and wireless phone charging"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "a heated steering wheel, wireless phone charging"
-  - claim: "dual-zone climate control"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "Dual-zone climate control"
-  - claim: "offered only on the Standard length"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "although Sport trim is only offered on Standard models"
+  - claim: "though it loses the digital rear-view mirror"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "*Does not include the Digital Rear View Mirror"
+  - claim: "a heated driver's seat comes in a Winter Pack with a heated steering wheel and extra airbags: £500 on panel vans and £300 on crew vans"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "driver and passenger thorax in the seats + curtain for the head [NF26], Heated Steering NA03 £500 £500 £300 £300"
   - claim: "The 'OK Peugeot' voice assistant now uses ChatGPT"
     source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
     quote: "now further enhanced by the 'OK PEUGEOT' natural voice assistant, now integrated with ChatGPT"
@@ -185,33 +243,83 @@ facts:
   - claim: "you sit lower than in a Ford Transit Custom or Renault Trafic"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "You do sit lower in the Expert than in some mid-sized van rivals, such as the Ford Transit Custom and Renault Trafic ."
-  - claim: "The electric Crew Van comes only in Asphalt trim"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The Crew van is only available in Asphalt trim with the electric powertrain."
-  - claim: "sat-nav (£650), the load-through bulkhead (£350) and an alarm (£225)"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "You can add options to the entry-level Professional trim including sat-nav (£650), a load-through bulkhead (£350) or an alarm (£225)."
-  - claim: "the Driver Assist Pack, which brings adaptive cruise control with Stop and Go, is £950"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "Driver Assist Pack (£950)"
-  - claim: "adaptive cruise control with Stop and Go"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "which adapts your speed to the speed of the vehicle in front and will bring you to a halt if necessary"
-  - claim: "Servicing is every two years or 30,000 miles"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The Expert has intervals of two years or 30,000 miles, whichever comes first."
+  - claim: "sat-nav (£650)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "- Mirror Screen (WiFi) ZJA9 £650 £650"
+  - claim: "the Moduwork load-through bulkhead (£350)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "in central seat back and storage under central seat. Height adjustable driver’s seat with WAAT £350"
+  - claim: "an alarm (£225)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Perimetric and volumetric, Thatcham category 1 approved alarm AB08 £225"
+  - claim: "Dynamic Surround View (£750)"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Spot in a dedicated screen, Visiopark Rear Park assist (by camera 180°) with touchscreen WYAZ £750"
+  - claim: "comes to £1,975"
+    calc: "Peugeot options for Professional: sat-nav £650 + Moduwork £350 + alarm £225 + Dynamic Surround View £750 = £1,975"
+  - claim: "against the £2,675 price gap"
+    calc: "Peugeot price list, basic prices excluding VAT: M panel van Asphalt £44,135 minus M panel van Professional £41,460 = £2,675"
+  - claim: "LED headlights, front fog lights, 17-inch wheels and painted bumpers"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "17\" steel wheels with full wheel cover"
+  - claim: "Adaptive cruise control with Stop and Go is a £600 option on Professional"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "If MT: decelerates to 18mph £600"
+  - claim: "with Stop and Go"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "If AT/ZEV: the Stop & Go to 0mph"
+  - claim: "all excluding VAT"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "All Manufacturer’s Recommended Basic Prices are exclusive of V.A.T."
+  - claim: "Servicing is every two years or 25,000 miles"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Every 25,000 miles or 2 years (whichever comes"
+  - claim: "a first check at one year or 12,500 miles"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "sooner). Initial inspection at 12,500 miles or 1 year"
   - claim: "the Toyota has the better warranty and tends to cost more"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The Toyota comes with a better warranty than the others, though, so it tends to be pricier."
-  - claim: "the E-Expert started from £36,210 after the plug-in van grant"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "with E-EXPERT starting from £36,210 (Basic price after PiVG)"
-  - claim: "£26,710 excluding VAT for the diesel"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "Prices start from £36,210 (after PiVG), compared to £26,710 (excluding VAT) for the diesel-powered Peugeot Expert"
-  - claim: "roughly £42,000"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "the electric e-Expert is quite a bit higher at roughly £42,000"
+  - claim: "Peugeot's price list from 8 October 2026"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Effective from 8th October 2026"
+  - claim: "£41,460"
+    calc: "Peugeot price list, E-Expert Panel Van M Professional, Basic Price (£) exc VAT £41,460.00 (next fact) = £41,460"
+  - claim: "for the M panel van in Professional trim"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Professional 3230 1210 5.3 0 194 - 230 2PK0F2NETFTXA0M0 £41,460.00 £5,000.00 £43,003.33 £38,003.33"
+  - claim: "before the £5,000 plug-in van grant"
+    calc: "Peugeot price list, Plug-In-Van Grant (£) column for the M Professional panel van: £5,000.00 (see the fact for the M panel van in Professional trim) = £5,000"
+  - claim: "£42,260"
+    calc: "Peugeot price list, E-Expert Panel Van XL Professional basic price excluding VAT: £42,260.00 (quote in the following fact) = £42,260"
+  - claim: "The XL Professional is"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "3190 1138 6.1 0 194 - 230 2PK0F3NETFTXA0M0 £42,260.00"
+  - claim: "£44,135"
+    calc: "Peugeot price list, E-Expert Panel Van M Asphalt basic price excluding VAT: £44,135.00 (quote in the following fact) = £44,135"
+  - claim: "the Asphalt panel vans"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Asphalt 3230 1210 5.3 0 194 - 230 2PK0F2NETFTX9QM0 £44,135.00"
+  - claim: "£44,935"
+    calc: "Peugeot price list, E-Expert Panel Van XL Asphalt basic price excluding VAT: £44,935.00 (quote in the following fact) = £44,935"
+  - claim: "Asphalt panel vans"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van XL ELECTRIC 136hp Automatic Asphalt 3190 1138 6.1 0 194 - 230 2PK0F3NETFTX9QM0 £44,935.00"
+  - claim: "£52,095"
+    calc: "Peugeot price list, E-Expert Panel Van M Sport basic price excluding VAT: £52,095.00 (quote in the following fact) = £52,095"
+  - claim: "the Sport panel vans"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van M ELECTRIC 136hp Automatic Sport 3230 1210 5.3 0 194 - 230 2PK0F2NETFTX9RM0 £52,095.00"
+  - claim: "£52,895"
+    calc: "Peugeot price list, E-Expert Panel Van XL Sport basic price excluding VAT: £52,895.00 (quote in the following fact) = £52,895"
+  - claim: "Sport panel vans"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Panel Van XL ELECTRIC 136hp Automatic Sport 3190 1138 6.1 0 194 - 230 2PK0F3NETFTX9RM0 £52,895.00"
+  - claim: "£44,160"
+    calc: "Peugeot price list, E-Expert Crew Van M Professional basic price excluding VAT: £44,160.00 (quote in the following fact) = £44,160"
+  - claim: "Crew vans start at"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "E-EXPERT Crew Van M ELECTRIC 136hp Automatic Professional 3200 1075 3.2 0 194 - 230 2PK0F7NETFTXA0M0 £44,160.00"
   - claim: "The E-Expert is on the government's list of large vans eligible for the plug-in van grant, worth up to £5,000"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "The maximum discount available for some large vans is £5,000."
@@ -221,12 +329,9 @@ facts:
   - claim: "The main warranty is three years or 100,000 miles"
     source: https://www.autoexpress.co.uk/peugeot/expert
     quote: "The Expert has a three-year warranty with a maximum 100,000-mile limit"
-  - claim: "the battery and running gear get eight years and 100,000 miles"
-    source: https://www.autoexpress.co.uk/peugeot/expert
-    quote: "The Expert has a three-year warranty with a maximum 100,000-mile limit, while the battery and running gear of the e-Expert is covered for eight years and the same mileage."
-  - claim: "the battery cover applies if capacity drops below 70% of new"
-    source: https://vanreviewer.co.uk/peugeot/e-expert/review/3992/
-    quote: "The battery is covered by an eight- year/100,000-mile warranty which kicks in once it falls below 70% of its charging capacity when new."
+  - claim: "the battery is covered for eight years or 100,000 miles, to 70% of its capacity"
+    archive: sources/peugeot-expert-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years/100,000 miles/70% capacity"
 ---
 
 ### Who it's for
@@ -235,15 +340,15 @@ Peugeot's electric medium van makes most sense for businesses doing town and reg
 
 ### Load area and payload
 
-There are two lengths, Standard and Long, with 5.3 and 6.1 cubic metres of space. The hatch in the bulkhead lets long items slide under the folding outer passenger seat, adding 1,162mm of load length. There are eight tie-down points and a full-height steel bulkhead.
+There are two lengths, M and XL, with 5.3 and 6.1 cubic metres of space. On Asphalt and Sport panel vans, a hatch in the bulkhead lets long items slide under the folding outer passenger seat, stretching the floor length of an M from 2,512mm to 3,674mm. There are six load tie-down hooks in the M and eight in the XL, and Professional panel vans have a full-height steel bulkhead.
 
-Payload figures vary. At the March 2024 launch Peugeot quoted exactly 1,000kg for both payload and braked towing, but one road test puts the maximum a little over a tonne in every version, and the Vauxhall twin has been reported at up to 1,210kg. Whichever is right, the best diesel manages 1,384kg, and the figure drops to 915kg in the electric Crew Van. Check the plated weight of the exact van before you order.
+Peugeot's October 2026 price list settles the payload question. It gives up to 1,210kg for the M panel van and 1,138kg for the XL. These are worked out from a kerb weight without a driver, so the driver's weight comes out of them. The electric crew vans carry 1,075kg (M) and 1,011kg (XL), while the best diesel panel van manages 1,326kg. Peugeot says its payloads don't allow for options, so check the plated weight of the exact van you're ordering. The electric van is rated to tow 1,000kg, but the only tow bar on Peugeot's options list is for the diesel.
 
 ### Range and charging in the real world
 
-The 50kWh battery went at the 2024 facelift, so every E-Expert has the 75kWh pack. The quoted range has moved about: Peugeot's launch figure in March 2024 was 217 miles, while a June 2025 review gives 230. One road test of a Long van in Asphalt trim reported getting very close to 230 miles in cold weather with some weight aboard, but motorway driving cuts range noticeably.
+The 50kWh battery went at the 2024 facelift, so every E-Expert has the 75kWh pack, of which 69kWh is usable. Peugeot's current price list gives an official range of 194 to 230 miles, depending on the options fitted, though its technical page quotes 219 miles. At its March 2024 launch the figure was 217 miles. One road test of a Long van in Asphalt trim reported getting very close to 230 miles in cold weather with some weight aboard, but motorway driving cuts range noticeably.
 
-From 5 to 80% on a 100kW charger takes 45 minutes. At the depot, a 7.4kW wallbox does a full charge in 11 hours 20 minutes, while a three-pin plug takes 37 hours, so don't rely on one. The 11kW on-board charger, with a 22kW cable, is a £400 option. See our [charging guide](/guides/charging-an-electric-van/) for wallbox advice.
+From 5 to 80% on a 100kW charger takes 45 minutes. An 11kW on-board charger is standard on every trim, and a three-phase 11kW wallbox does a full charge in 7 hours 30 minutes, while a 7.4kW wallbox takes 11 hours 20 minutes. A domestic plug takes 36 hours 45 minutes, so don't rely on one. See our [charging guide](/guides/charging-an-electric-van/) for wallbox advice.
 
 ### On the road
 
@@ -251,13 +356,13 @@ Both road tests we found describe a quiet cab, though one notes wind and road no
 
 ### Cab and kit
 
-This is where the Peugeot differs most from its twins. There are three trims: Professional, Asphalt and Sport. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, parking sensors, lane keep assist and auto lights and wipers, plus a heated driver's seat. Asphalt costs around £800 more and adds the through-load bulkhead, TomTom sat-nav, 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport, offered only on the Standard length, gets a rally-style body kit and graphics, plus dual-zone climate control, a heated steering wheel and wireless phone charging.
+There are three trims: Professional, Asphalt and a limited-edition Sport, each offered as an M or XL panel van or crew van. Professional gets two 10-inch screens, wireless phone connection, sliding doors on both sides, a full steel bulkhead, air conditioning, rear parking sensors, lane keep assist and auto lights and wipers. Asphalt costs £2,675 more and adds TomTom sat-nav, the through-load bulkhead (panel vans only), 17-inch wheels, an alarm, a digital rear-view mirror, front sensors, blind-spot sensors and a reversing camera with a bird's-eye view. Sport gets a rally-style body kit and graphics, 18-inch alloy wheels, eco-leather seats, dual-zone climate control, a heated driver's seat, a heated steering wheel and wireless phone charging, though it loses the digital rear-view mirror. On Professional and Asphalt, a heated driver's seat comes in a Winter Pack with a heated steering wheel and extra airbags: £500 on panel vans and £300 on crew vans, which already have the airbags.
 
 The 'OK Peugeot' voice assistant now uses ChatGPT, but the system is complicated enough to leave some drivers baffled for a while. The climate controls stay as physical buttons and dials. You sit lower than in a Ford Transit Custom or Renault Trafic, and the middle seat is narrow.
 
 ### Which version to buy
 
-Asphalt is the sweet spot: the extra kit is worth far more than the price gap. The electric Crew Van comes only in Asphalt trim. If you stick with Professional, the options list includes sat-nav (£650), the load-through bulkhead (£350) and an alarm (£225), and the Driver Assist Pack, which brings adaptive cruise control with Stop and Go, is £950. Servicing is every two years or 30,000 miles.
+Asphalt makes sense if you want the cameras and the load-through bulkhead. Adding sat-nav (£650), the Moduwork load-through bulkhead (£350), an alarm (£225) and Dynamic Surround View (£750) to a Professional panel van comes to £1,975, against the £2,675 price gap, but Asphalt also brings LED headlights, front fog lights, 17-inch wheels and painted bumpers. Adaptive cruise control with Stop and Go is a £600 option on Professional. These option prices are, like the list prices, all excluding VAT. Servicing is every two years or 25,000 miles, with a first check at one year or 12,500 miles.
 
 ### Alternatives
 
@@ -265,4 +370,4 @@ Among the twins, the Toyota has the better warranty and tends to cost more. Read
 
 ### Price
 
-We couldn't confirm a current UK list price before the grant. At its March 2024 launch, the E-Expert started from £36,210 after the plug-in van grant, against £26,710 excluding VAT for the diesel. A June 2025 review put it at roughly £42,000 without saying whether that included VAT or the grant. The E-Expert is on the government's list of large vans eligible for the plug-in van grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). The main warranty is three years or 100,000 miles, and the battery and running gear get eight years and 100,000 miles; the battery cover applies if capacity drops below 70% of new. Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Peugeot's price list from 8 October 2026 starts the E-Expert at £41,460 excluding VAT, for the M panel van in Professional trim, before the £5,000 plug-in van grant. The XL Professional is £42,260, the Asphalt panel vans £44,135 and £44,935, and the Sport panel vans £52,095 and £52,895, all excluding VAT and before the grant. Crew vans start at £44,160. The E-Expert is on the government's list of large vans eligible for the plug-in van grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)). The main warranty is three years or 100,000 miles, and the battery is covered for eight years or 100,000 miles, to 70% of its capacity. Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
