@@ -249,14 +249,6 @@ options:
         price: "£700"
         note: "Adds adaptive cruise control, lane centring traffic jam assist, high beam recognition and rain and dusk sensors. Needs the Interior Upgrade Pack too"
         quote: "Level 2 Autonomous Driving: Techno Pack: - High Beam Recognition - 10\" Touchscreen radio with TomTom® Navigation, Bluetooth, - Rain & Dusk Sensor £1050 £1150 Diesel £1150 Diesel £1150 Diesel Android Auto™ / Apple CarPlay™ ZJB5 £1150 Diesel - Adaptive Cruise Control I401 G,K,M,R,S Diesel Auto - - - - £900 Electric £900 Electric £900 Electric l - Double USB charging port (type A + type C) - Speed Limiter £700 Electric"
-      - name: "Easy Driving Pack"
-        price: "£500"
-        note: "Adds adaptive cruise control, intelligent high beam assist and rain and dusk sensors"
-        quote: "Easy Driving Pack: - Electric parking brake J6LRE,H,K £500 Diesel - £500 Diesel £500 Diesel £500 Diesel - Adaptive Cruise Control (30km/h) - 230V Cabin socket - Speed Limiter RG35E £500"
-      - name: "Worksite Pack"
-        price: "£450"
-        note: "Adds Traction Plus with hill descent control, a spare wheel and all-season tyres"
-        quote: "Worksite Pack: - Traction Plus - Traction + Hill Descent Control J6LMU,V £450"
       - name: "Cargo Pack (L3)"
         price: "£400"
         note: "Adds a load area socket, rear doors opening to 270 degrees, a door-activated LED load light and half-height wall protection"
@@ -278,20 +270,6 @@ options:
       - name: "16-inch alloy wheels"
         price: "£500"
         quote: "16\" Alloy Wheels [Heavy and/or Automatic versions] ZIBB £500"
-      - name: "16-inch full wheel covers"
-        price: "£40"
-        note: "Not with all-season tyres"
-        quote: "Full wheel hub caps [not avilable with MI32] ZIAV (16\")F,J,K £40"
-      - name: "All-season mud and snow tyres"
-        price: "£350"
-        quote: "All-Season Mud & Snow Tyres MI32 ‡ U,V £350"
-      - name: "Spare wheel"
-        price: "£180"
-        quote: "Spare wheel RS03‡ £180"
-      - name: "Double leaf rear suspension"
-        price: "£110"
-        note: "Standard on 4.25-tonne versions"
-        quote: "Double leaf rear suspension Full LED Headlights LA05 £500 £500 £500 £500 £500 SE08 £110 £110 £110 - - [standard on 4.25T versions"
   - category: "Load area"
     items:
       - name: "Rear doors opening to 270 degrees"
@@ -366,7 +344,7 @@ options:
         quote: "Wheel Arches Mouldings - Van [only available on Heavy versions] XX03R £200"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-07
 facts:
   - claim: "1 October 2026"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf

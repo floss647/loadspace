@@ -8,7 +8,7 @@ tables:
   - title: "Range, payload and weight"
     head: ["Version", "Gross weight", "Range", "Payload", "Towing (braked)", "Top speed"]
     rows:
-      - ["L3H2 van", "3,500kg", "235 miles", "710kg", "2,400kg", "81mph"]
+      - ["L3H2 van", "3,500kg", "235 miles", "Not confirmed (see notes)", "2,400kg", "81mph"]
       - ["L3H2 van", "4,250kg", "263 miles", "1,460kg", "2,400kg", "56mph"]
       - ["L3H3 van", "4,250kg", "254 miles", "1,435kg", "2,400kg", "56mph"]
       - ["L4H2 van", "4,250kg", "262 miles", "1,415kg", "2,400kg", "56mph"]
@@ -32,13 +32,13 @@ tables:
 notes:
   - "Vauxhall says the Movano Electric is not subject to WLTP testing, as all versions are homologated as heavy vehicles, so it calculates these ranges using the WLTP method instead."
   - "The 4,250kg versions are legally limited to 56mph."
-  - "Vauxhall lists these as maximum indicative payloads. On the 4,250kg versions each one is the gross weight minus Vauxhall's kerb weight, which it defines as the minimum mass minus the driver's weight, and it says the driver's weight is included within the payload, so the driver's weight counts against it. The 3,500kg van's figures don't add up the same way (its 2,865kg kerb weight plus 710kg payload makes 3,575kg), so check that van's plated payload. The payloads also don't allow for any options you order."
+  - "Vauxhall lists these as maximum indicative payloads. On the 4,250kg versions each one is the gross weight minus Vauxhall's kerb weight, which it defines as the minimum mass minus the driver's weight, and it says the driver's weight is included within the payload, so the driver's weight counts against it. The 3,500kg van's figures don't add up the same way. Vauxhall lists its payload as 710kg, but its 2,865kg kerb weight plus 710kg payload makes 3,575kg, over the 3,500kg gross weight, and Vauxhall's own weights suggest a payload of 635kg. We've shown that van's payload as not confirmed, so check its plated payload with the dealer. The payloads also don't allow for any options you order."
   - "Towing is also limited by the gross train weight of 6,400kg on the 4,250kg versions, so a fully loaded van can tow up to 2,150kg."
 versions:
   - name: "L3H2, 3,500kg"
     figures:
       range: "235 miles"
-      payload: "710kg"
+      payload: "Not confirmed (see notes)"
       volume: "13m³"
       loadLength: "3,705mm"
       loadHeight: "1,932mm"
@@ -454,6 +454,11 @@ facts:
   - claim: "its 2,865kg kerb weight plus 710kg payload"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "Vauxhall lists its payload as 710kg"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "suggest a payload of 635kg"
+    calc: "Vauxhall's N1 L3H2 row: gross weight 3,500kg minus kerb weight 2,865kg = 635kg"
   - claim: "makes 3,575kg"
     calc: "Vauxhall's N1 L3H2 row: kerb weight 2,865kg plus maximum indicative payload 710kg = 3,575kg, more than its 3,500kg gross weight"
   - claim: "don't allow for any options you order"

@@ -16,7 +16,7 @@ good:
   - "Rapid charging at up to 150kW"
   - "Smoother and more comfortable than the diesel, in one road test"
 bad:
-  - "Payload starts at just 710kg in the lightest version"
+  - "Low payload at 3.5 tonnes: Vauxhall lists 710kg, but its own weights suggest less"
   - "Wind and road noise in an old design"
   - "Only a three-year van warranty"
 factCheck:
@@ -77,12 +77,16 @@ facts:
   - claim: "Wind and road noise in an old design"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The old architecture is feeling its age and there's a lot of noise in the cabin from the tyres and wind around the mirrors."
-  - claim: "Payload starts at just 710kg in the lightest version"
-    source: https://www.autoexpress.co.uk/vauxhall/movano
-    quote: "Payload capacities start at just 710kg, which is for the smallest Movano Electric."
-  - claim: "the lightest electric version carries just 710kg"
+  - claim: "Vauxhall lists 710kg, but its own weights suggest less"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "Vauxhall lists a payload of 710kg"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "2GXE5LHYAFT0A013 2865 710 3500 2100 2400 2400 5900 50,385.00"
+  - claim: "its 2,865kg kerb weight plus 710kg comes to 3,575kg"
+    calc: "Vauxhall's N1 L3H2 row (fact above): kerb weight 2,865kg plus maximum indicative payload 710kg = 3,575kg, more than its 3,500kg gross weight"
+  - claim: "nearer 635kg (3,500kg minus 2,865kg)"
+    calc: "Vauxhall's N1 L3H2 row (fact above): gross weight 3,500kg minus kerb weight 2,865kg = 635kg"
   - claim: "Only a three-year van warranty"
     source: https://www.autoexpress.co.uk/vauxhall/movano
     quote: "The warranty runs for three years or 100,000 miles, whichever comes first, in all versions."
@@ -241,7 +245,7 @@ Businesses that need a full-size van with a long range: parcel and multi-drop fl
 
 You can have the electric van in L3H2, L3H3, L4H2 and L4H3 sizes, plus a Glazed Van and a Chassis Cab for conversions. The biggest L4H3 holds 17 cubic metres.
 
-Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes, and the lightest electric version carries just 710kg. In Vauxhall's May 2025 guide, the highest panel van payload is 1,460kg, for the 4.25-tonne L3H2 Prime (4,250kg gross). Vauxhall says that where kerb weight is used, as in its price tables, the driver's weight is included in the payload figure, so the load you can carry is lower once you're aboard. Ask for the plated payload of the exact van you're quoted.
+Payload is where you need to be careful. The van comes at 3.5 tonnes and 4.25 tonnes. For the 3.5-tonne L3H2, Vauxhall lists a payload of 710kg, but its own figures don't add up: its 2,865kg kerb weight plus 710kg comes to 3,575kg, over the 3,500kg gross weight, which points to nearer 635kg (3,500kg minus 2,865kg). Check that van's plated payload with the dealer. In Vauxhall's May 2025 guide, the highest panel van payload is 1,460kg, for the 4.25-tonne L3H2 Prime (4,250kg gross). Vauxhall says that where kerb weight is used, as in its price tables, the driver's weight is included in the payload figure, so the load you can carry is lower once you're aboard. Ask for the plated payload of the exact van you're quoted.
 
 The 4.25-tonne versions are limited to 56mph and come with a tachograph. You may read that they need a commercial licence. Under the current GOV.UK rules, a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). So the heavier electric Movano can be driven on a car licence.
 
