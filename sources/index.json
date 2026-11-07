@@ -222,5 +222,13 @@
     "received": "2026-11-07",
     "via": "Supplied by the editor, downloaded from Peugeot's UK website",
     "sha256": "ea18c0ccbc8c504e22cc8150eff1033baed53d20bf2d93717f5520bd29b793e4"
+  },
+  "peugeot-boxer-price-spec-guide-2026-10.pdf": {
+    "title": "Peugeot Boxer (including e-Boxer) Prices, Equipment & Technical Specifications (2026 model year)",
+    "publisher": "peugeot.co.uk",
+    "effective": "1 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Peugeot's UK website",
+    "sha256": "57d66d3ef99fcc745a9771184551efddb0322108f5e01cb667c36c7aad474ed9"
   }
 }
