@@ -58,8 +58,8 @@ tables:
 notes:
   - "Peugeot says the e-Boxer is homologated as a heavy vehicle and is not subject to WLTP testing, so it calculates these ranges using the WLTP method instead."
   - "The 4,250kg versions are N2 vans: they are legally limited to 56mph and must have a tachograph."
-  - "Peugeot's payloads do not include the driver, so the driver's weight comes out of them. They also don't allow for any options you add."
-  - "Peugeot does not offer a factory tow hook on the electric van. Towing is also limited by the gross train weight of 5,500kg, so a fully loaded 4,250kg van can tow up to 1,250kg and a fully loaded 3,500kg van up to 2,000kg."
+  - "Peugeot's payloads are maximum indicative figures worked out from the kerb weight with no driver, and it says the driver's weight is included within the payload, so the driver counts against these figures. Working from Peugeot's mass in running order, which includes the driver, leaves 655kg for the 3,500kg van. The payloads also don't allow for any options you order."
+  - "The braked towing figure is Peugeot's rating for the van, but its factory tow hook option is not available on electric versions, so a tow bar has to be fitted after delivery. Towing is also limited by the gross train weight of 5,500kg, so a fully loaded 4,250kg van can tow up to 1,250kg and a fully loaded 3,500kg van up to 2,000kg."
   - "The electric van comes only in Professional trim."
 versions:
   - name: "L3H2, 3,500kg"
@@ -273,20 +273,12 @@ options:
         quote: "Interior Upgrade Pack: - Crepe Black trim with backrest graphics, and double stitching (silver) Fabric - Compartment under Driver's Seat BUFX £350"
       - name: "Techno Pack"
         price: "£900"
-        note: "Adds a 10-inch touchscreen with TomTom navigation, USB-A and USB-C charging ports and automatic climate control"
+        note: "Adds a 10-inch touchscreen with TomTom navigation and USB-A and USB-C charging ports. The pack's automatic climate control is already standard on the electric van"
         quote: "Techno Pack: - 10\"\" Touchscreen radio with TomTom® Navigation, Bluetooth, Android Auto™ / Apple CarPlay™ £1150 Diesel £1150 Diesel £1150 Diesel - Double USB charging port (type A + type C) ZJB5 - £1150 Diesel £900 Electric"
       - name: "Level 2 Autonomous Driving pack"
         price: "£700"
         note: "Adds adaptive cruise control, lane centring traffic jam assist, a speed limiter, high beam recognition and rain and dusk sensors. Needs the Interior Upgrade Pack"
         quote: "Level 2 Autonomous Driving: - High Beam Recognition £1050 Diesel - Rain & Dusk Sensor Automatic - Adaptive Cruise Control I401G,K,M,R,S - - - - - Speed Limiter £700 Electric"
-      - name: "Easy Driving Pack"
-        price: "£500"
-        note: "Adds adaptive cruise control, a speed limiter, intelligent high beam assist and rain and dusk sensors"
-        quote: "Easy Driving Pack: - Adaptive Cruise Control (30km/h) - Speed Limiter RG35E £500"
-      - name: "Worksite Pack"
-        price: "£450"
-        note: "Adds Traction Plus with hill descent control, a spare wheel and all-season tyres"
-        quote: "Worksite Pack: - Traction Plus - Traction + Hill Descent Control J6LMU,V £450"
       - name: "Cargo Pack (L3)"
         price: "£400"
         note: "L3 vans. Adds a 12-volt load area socket, rear doors opening to 270 degrees, a door-activated LED load light and half-height wall protection"
@@ -324,13 +316,6 @@ options:
       - name: "All-season mud and snow tyres"
         price: "£350"
         quote: "All-Season Mud & Snow Tyres MI32** U,V £350"
-      - name: "Spare wheel"
-        price: "£180"
-        quote: "Spare wheel (not available on B2B) RS03** £180"
-      - name: "Double leaf rear suspension"
-        price: "£110"
-        note: "Standard on 4.25-tonne versions"
-        quote: "Double leaf rear suspension [standard on 4.25T versions, not available on L2H1 Panel Van] SE08 £110"
   - category: "Load area"
     items:
       - name: "Rear doors opening to 270 degrees"
@@ -372,9 +357,6 @@ options:
       - name: "Digital rear-view mirror, including rear view camera with dynamic guidelines"
         price: "£600"
         quote: "Digital central rearview mirror including rearview camera with dynamic gridlines (QK13) N201 £600"
-      - name: "360-degree parking sensors, cornering fog lights, rear view camera and 7-inch touchscreen"
-        price: "£700"
-        quote: "360° parking sensors + fog lights with cornering function + rearview camera with dynamic UB24 £700 - £700 - - gridlines + 7\" colour touchscreen"
   - category: "Lighting"
     items:
       - name: "Full LED headlights"
@@ -398,12 +380,15 @@ options:
         quote: "Body Colour Front Bumper with Black Skid Plate and front fog lights UXACE,T £400 £400 - - - [not available on 4.25T versions or with Special Paint Colours]"
       - name: "Wheel arch mouldings"
         price: "£200"
-        note: "Heavy versions only"
+        note: "Peugeot lists these for Heavy versions only, so check which electric versions can have them"
         quote: "Wheel Arches Mouldings - Van [only available on Heavy versions] XX03R £200"
       - name: "Smart tachograph and overhead storage space"
         price: "£700"
-        note: "Listed as a conversion option"
+        note: "Listed as a conversion option. The heavier N2 versions already have a tachograph as standard"
         quote: "Smart tachograph and overhead storage space HC09K £700"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "1 October 2026"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
@@ -592,16 +577,27 @@ facts:
   - claim: "legally limited to 56mph and must have a tachograph"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "N2 vehicles are legally required to be speed limited at 56mph, and have a tachograph"
-  - claim: "Peugeot's payloads do not include the driver"
+  - claim: "maximum indicative figures worked out from the kerb weight with no driver"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "Payload do not include driver"
-  - claim: "the driver's weight comes out of them"
+    quote: "The Minimum Mass minus the driver's weight."
+  - claim: "maximum indicative figures"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "Maximum Indicative Payload weight."
+  - claim: "the driver's weight is included within the payload"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "When Kerb Weight used, driver weight"
-  - claim: "They also don't allow for any options you add"
+  - claim: "so the driver counts against these figures"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "is included within the Maximum Indicative Payload weight."
+  - claim: "leaves 655kg for the 3,500kg van"
+    calc: "Peugeot's weights table, L3H2 3.5T van: gross weight 3,500kg minus mass in running order including driver 2,845kg = 655kg"
+  - claim: "Peugeot's mass in running order, which includes the driver"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "Panel Van L3H2 3.5T Heavy Electric 270hp Automatic 3500 2845 2770 730"
+  - claim: "don't allow for any options you order"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Payload does not consider any additional options that a customer may order."
-  - claim: "Peugeot does not offer a factory tow hook on the electric van"
+  - claim: "its factory tow hook option is not available on electric versions"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Fixed towing hook [not available on electric versions or platform cabs]"
   - claim: "gross train weight of 5,500kg"

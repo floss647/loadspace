@@ -10,7 +10,7 @@ specs:
   charging: "150kW"
   payload: "1,480kg (4,250kg gross, driver's weight counts against it)"
   batteryWarranty: "Eight years or 100,000 miles (to 70% capacity)"
-verdict: "The E-Boxer makes sense if you want a big electric van with plenty of kit and don't want to wade through options lists. It has a long range, rapid charging that suits a lunch-break top-up, and the one detailed UK review we found, which covers the diesel too, rates it the best Boxer to drive by far. Watch the payload on the 3.5-tonne version, and note that Peugeot doesn't offer a tow bar on it. Since four other badges sell the same van, the best deal should decide it."
+verdict: "The E-Boxer makes sense if you want a big electric van with plenty of kit and don't want to wade through options lists. It has a long range, rapid charging that suits a lunch-break top-up, and the one detailed UK review we found, which covers the diesel too, rates it the best Boxer to drive by far. Watch the payload on the 3.5-tonne version, and note that Peugeot doesn't offer a factory tow bar on it. Since four other badges sell the same van, the best deal should decide it."
 good:
   - "Generous standard kit on the single Professional trim"
   - "Up to 263 miles of range and 150kW charging"
@@ -21,7 +21,7 @@ bad:
   - "Wind noise at higher speeds"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/peugeot/boxer
   - https://www.autoexpress.co.uk/vauxhall/movano
@@ -48,7 +48,7 @@ facts:
   - claim: "you can't get a factory tow bar"
     source: https://www.autoexpress.co.uk/peugeot/boxer
     quote: "Tow hooks are available for £500 on the diesel model, but not on the e-Boxer, so you'll need to go elsewhere to get one fitted on the electric version."
-  - claim: "Peugeot doesn't offer a tow bar on it"
+  - claim: "Peugeot doesn't offer a factory tow bar on it"
     source: https://www.autoexpress.co.uk/peugeot/boxer
     quote: "Tow hooks are available for £500 on the diesel model, but not on the e-Boxer"
   - claim: "No factory tow bar option"
@@ -161,10 +161,13 @@ facts:
   - claim: "driver's weight counts against it"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "When Kerb Weight used, driver weight"
-  - claim: "Peugeot's payloads don't include the driver"
+  - claim: "Peugeot says these figures are worked out without a driver"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "Payload do not include driver"
-  - claim: "they don't allow for options you add"
+    quote: "The Minimum Mass minus the driver's weight."
+  - claim: "so the driver's weight counts against them"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "is included within the Maximum Indicative Payload weight."
+  - claim: "as does any optional kit"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Payload does not consider any additional options that a customer may order."
   - claim: "730kg for the 3,500kg L3H2"
@@ -222,7 +225,7 @@ facts:
   - claim: "rear parking sensors"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Rear parking sensors"
-  - claim: "electrically adjustable heated door mirrors"
+  - claim: "door mirrors with an electrically adjustable, heated upper glass"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Twin lens door mirrors with electrically adjustable and heated upper mirror"
   - claim: "a 7-inch digital instrument display"
@@ -231,15 +234,15 @@ facts:
   - claim: "a 7-inch touchscreen with Apple CarPlay and Android Auto"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Multimedia featuring 7” Colour touchscreen with DAB radio, Bluetooth® handsfree, USB socket, bi-tuner, Apple CarPlay™ and Android"
-  - claim: "Cruise control isn't standard on the electric van"
-    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "Cruise control with speed limiter • Lane keep assist (not available on Electric or 4.25T versions)"
-  - claim: "the Easy Driving Pack adds adaptive cruise control for £500"
-    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "Easy Driving Pack: - Adaptive Cruise Control (30km/h) - Speed Limiter RG35E £500"
-  - claim: "the Level 2 Autonomous Driving pack adds it with lane centring for £700"
+  - claim: "Adaptive cruise control with lane centring comes in the £700 Level 2 Autonomous Driving pack"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Level 2 Autonomous Driving: - High Beam Recognition £1050 Diesel - Rain & Dusk Sensor Automatic - Adaptive Cruise Control I401G,K,M,R,S - - - - - Speed Limiter £700 Electric - Lane Centering Traffic Jam Assist"
+  - claim: "Autonomous Driving pack, which also needs the"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "[includes electric parking brake. Must also have BUFX ordered]"
+  - claim: "£350 Interior Upgrade Pack"
+    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
+    quote: "Interior Upgrade Pack: - Crepe Black trim with backrest graphics, and double stitching (silver) Fabric - Compartment under Driver's Seat BUFX £350"
   - claim: "A 10-inch screen with navigation comes in the £900 Techno Pack"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Techno Pack: - 10\"\" Touchscreen radio with TomTom® Navigation, Bluetooth, Android Auto™ / Apple CarPlay™ £1150 Diesel £1150 Diesel £1150 Diesel - Double USB charging port (type A + type C) ZJB5 - £1150 Diesel £900 Electric"
@@ -252,7 +255,7 @@ facts:
   - claim: "150kW"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Rapid Charging (150kW) DC - CCS Socket 55min [5 to 80%]"
-  - claim: "Peugeot doesn't offer a tow bar on the electric van"
+  - claim: "Peugeot's factory tow hook option isn't available on the electric van"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Fixed towing hook [not available on electric versions or platform cabs]"
   - claim: "It can tow up to 2,400kg"
@@ -268,7 +271,7 @@ Fleets and trades who want a big electric van and a simple choice. There's one t
 
 ### Load area and payload
 
-Payload is the figure to check. Peugeot's guide lists 730kg for the 3,500kg L3H2 and 1,385kg to 1,480kg for the 4,250kg versions. Peugeot's payloads don't include the driver, so the driver's weight comes out of them, and they don't allow for options you add. Ask for the plated weight of the exact van you're ordering. If you're looking at a heavier version, note that under the current GOV.UK rules a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). The 4,250kg vans are N2 vehicles, so they are limited to 56mph and need a tachograph. It can tow up to 2,400kg, but Peugeot doesn't offer a tow bar on the electric van, so you'll need an aftermarket fitting. The gross train weight is 5,500kg, so a fully loaded 4,250kg van can pull only 1,250kg.
+Payload is the figure to check. Peugeot's guide lists 730kg for the 3,500kg L3H2 and 1,385kg to 1,480kg for the 4,250kg versions. Peugeot says these figures are worked out without a driver, so the driver's weight counts against them, as does any optional kit. Ask for the plated weight of the exact van you're ordering. If you're looking at a heavier version, note that under the current GOV.UK rules a standard category B car licence covers electric vehicles up to 4,250kg, including one gained on or after 1 January 1997 (the limit for petrol and diesel vans is 3,500kg). The 4,250kg vans are N2 vehicles, so they are limited to 56mph and need a tachograph. It can tow up to 2,400kg, but Peugeot's factory tow hook option isn't available on the electric van, so a tow bar has to be fitted after delivery. The gross train weight is 5,500kg, so a fully loaded 4,250kg van can pull only 1,250kg.
 
 ### Range and charging
 
@@ -280,7 +283,7 @@ This is where the E-Boxer earns its place, according to the one detailed review 
 
 ### Cab and kit
 
-Standard kit includes automatic air conditioning, rear parking sensors, electrically adjustable heated door mirrors, a 7-inch digital instrument display and a 7-inch touchscreen with Apple CarPlay and Android Auto. Cruise control isn't standard on the electric van: the Easy Driving Pack adds adaptive cruise control for £500, or the Level 2 Autonomous Driving pack adds it with lane centring for £700. A 10-inch screen with navigation comes in the £900 Techno Pack. All prices here exclude VAT.
+Standard kit includes automatic air conditioning, rear parking sensors, door mirrors with an electrically adjustable, heated upper glass, a 7-inch digital instrument display and a 7-inch touchscreen with Apple CarPlay and Android Auto. Adaptive cruise control with lane centring comes in the £700 Level 2 Autonomous Driving pack, which also needs the £350 Interior Upgrade Pack. A 10-inch screen with navigation comes in the £900 Techno Pack. All prices here exclude VAT.
 
 ### Warranty and price
 

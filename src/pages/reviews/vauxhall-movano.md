@@ -8,7 +8,7 @@ specs:
   price: "Not confirmed (newest Vauxhall price list we have is from May 2025)"
   range: "Up to 263 miles (Vauxhall figure, calculated using the WLTP method)"
   charging: "150kW"
-  payload: "1,460kg (4.25-tonne L3H2, includes driver)"
+  payload: "1,460kg (4.25-tonne L3H2, driver's weight counts against it)"
   batteryWarranty: "8 years or 100,000 miles (to 70% capacity)"
 verdict: "The Movano Electric is a capable big electric van with a long range on Vauxhall's figures, 150kW charging and the same huge load bay as the diesel. The only detailed UK road test of the electric version we found also covers the diesel, and it rates the electric version as smoother and more comfortable than the diesel Movano, though the old design still lets in plenty of wind and road noise. Vauxhall's warranty is the basic three years, and the same van with a Toyota badge comes with far longer cover. Pick the heavier version if you carry real weight, and get quotes on all five badges before you sign."
 good:
@@ -21,7 +21,7 @@ bad:
   - "Only a three-year van warranty"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/vauxhall/movano
   - https://www.autoexpress.co.uk/vauxhall/movano/361581/new-vauxhall-movano-gets-refresh-keep-pace-big-van-rivals
@@ -47,6 +47,9 @@ facts:
   - claim: "the highest panel van payload is"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "2GXE5MHYAFT0A013 2790 1460 4250 2100 2400 2400 6400 51,195.00"
+  - claim: "driver's weight counts against it"
+    archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
+    quote: "When Kerb Weight used, driver weight is"
   - claim: "where kerb weight is used, as in its price tables, the driver's weight is"
     archive: sources/vauxhall-movano-price-spec-guide-2025-05.pdf
     quote: "When Kerb Weight used, driver weight is"
