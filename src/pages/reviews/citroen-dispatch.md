@@ -114,9 +114,6 @@ facts:
   - claim: "wireless phone connection"
     source: https://www.autoexpress.co.uk/citroen/dispatch
     quote: "wireless phone connectivity and one-touch electric windows"
-  - claim: "Driver adds the EXTENSO folding passenger seat and load-through bulkhead, a Thatcham category 1 alarm, LED headlights, front parking sensors, a 180-degree reversing camera, a digital rear-view mirror, blind-spot detection and sat-nav"
-    source: https://www.autoexpress.co.uk/citroen/dispatch
-    quote: "Driver trim adds the Moduwork through-loading bulkhead, a Thatcham category 1 alarm, LED headlights, front parking sensors in addition to the rears, a 180-degree reversing camera system, a digital rear view mirror with side view, as well as blind spot detection. Sat-nav is added"
   - claim: "a £350 power take-off"
     source: https://www.autoexpress.co.uk/citroen/dispatch
     quote: "The e-Dispatch can be upgraded with a power take off (PTO) so you can use the drive battery to power tools or other devices. It's a £350 option."
@@ -230,12 +227,14 @@ facts:
   - claim: "a first check at one year or 12,500 miles"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Initial inspection at 12,500 miles or 1 year (whichever comes sooner)"
+  - claim: "before the £5,000 plug-in van grant"
+    calc: "Citroën price list, Plug-In-Van Grant (£) column for the M Enterprise panel van: £5,000.00 (see the fact for the M panel van in Enterprise trim) = £5,000"
   - claim: "Citroën's price list from 8 October 2026"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Effective from 8 October 2026 - MY27 (M0)"
   - claim: "£41,460"
     calc: "Citroën price list, ë-Dispatch Panel Van M Enterprise, Basic Price (£) exc VAT £41,460.00 (next fact) = £41,460"
-  - claim: "for the M panel van in Enterprise trim, before the £5,000 plug-in van grant"
+  - claim: "for the M panel van in Enterprise trim"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "ë-Dispatch Panel Van M Electric 136hp Automatic Enterprise 3230 1210 5.3 0 194 - 230 2CK0F2NETFTXA0M0 £41,460.00 £5,000.00 £42,949.17 £37,949.17"
   - claim: "£42,260"
@@ -250,7 +249,7 @@ facts:
     quote: "ë-Dispatch Panel Van M Electric 136hp Automatic Driver 3230 1210 5.3 0 194 - 230 2CK0F2NETFTX9QM0 £44,135.00"
   - claim: "£44,935"
     calc: "Citroën price list, ë-Dispatch Panel Van XL Driver basic price excluding VAT: £44,935.00 (quote in the following fact) = £44,935"
-  - claim: "and £44,935"
+  - claim: "Driver panel vans"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "ë-Dispatch Panel Van XL Electric 136hp Automatic Driver 3190 1138 6.1 0 194 - 230 2CK0F3NETFTX9QM0 £44,935.00"
   - claim: "£52,095"
@@ -260,7 +259,7 @@ facts:
     quote: "ë-Dispatch Panel Van M Electric 136hp Automatic VTR 3230 1210 5.3 0 194 - 230 2CK0F2NETFTX9RM0 £52,095.00"
   - claim: "£52,895"
     calc: "Citroën price list, ë-Dispatch Panel Van XL VTR basic price excluding VAT: £52,895.00 (quote in the following fact) = £52,895"
-  - claim: "and £52,895, all excluding VAT and before the grant"
+  - claim: "VTR panel vans"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "ë-Dispatch Panel Van XL Electric 136hp Automatic VTR 3190 1138 6.1 0 194 - 230 2CK0F3NETFTX9RM0 £52,895.00"
 ---
