@@ -3,7 +3,7 @@ layout: ../../layouts/Review.astro
 title: "Citroën ë-Relay review"
 van: citroen-relay
 date: 2026-10-30T08:00:00Z
-summary: "Citroën's big electric van now has the same 110kWh battery and 150kW charging as its Stellantis twins, plus an eight-year cover on the battery and running gear. Get the heavier version if payload matters, and compare quotes across the twins, because the van underneath is the same."
+summary: "Citroën's big electric van now has the same 110kWh battery and 150kW charging as its Stellantis twins, plus an eight-year cover on the battery and running gear. Get the heavier version if payload matters, and compare quotes across the twins before you buy."
 specs:
   price: "£49,735"
   range: "Up to 263 miles"
@@ -38,7 +38,7 @@ facts:
   - claim: "start at £46,224.17 before VAT"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "ë-Relay Panel Van L3H2 3.5T Heavy Electric 270hp Automatic Enterprise 3500 730 13.0 0 235 2CXE5LHYAFTXA014 £49,735.00 £5,000.00 £51,224.17 £46,224.17"
-  - claim: "L4H3 4.25T"
+  - claim: "for the L4H3"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "ë-Relay Panel Van L4H3 4.25T Electric 270hp Automatic Enterprise 4250 1385 17.0 0 252 2CXE7PHYAFTXA014 £52,165.00 £5,000.00 £53,294.17 £48,294.17"
   - claim: "before VAT"
@@ -301,7 +301,7 @@ The electric panel van comes in one trim, Enterprise, with automatic air conditi
 
 The van warranty is three years or 100,000 miles, paint cover is two years and there's a five-year anti-perforation guarantee. The electric van's cover is more generous: the battery and running gear get eight years or 100,000 miles, and Citroën's guide says the battery is covered down to 70% of its charging capacity. Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer, though.
 
-Citroën's October 2026 guide lists the ë-Relay panel van from £49,735 before VAT for the 3.5-tonne L3H2, up to £52,165 for the L4H3 4.25T. Its on-the-road prices, which include delivery and number plates and take off the £5,000 van grant, start at £46,224.17 before VAT. The ë-Relay is on the government's list of large vans eligible for the van grant, worth up to £5,000 (our [grants and tax guide](/guides/grants-and-tax/) explains how it works). Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Citroën's October 2026 guide lists the ë-Relay panel van from £49,735 before VAT for the 3.5-tonne L3H2, up to £52,165 for the L4H3. Its on-the-road prices, which include delivery and number plates and take off the £5,000 van grant, start at £46,224.17 before VAT. The ë-Relay is on the government's list of large vans eligible for the van grant, worth up to £5,000 (our [grants and tax guide](/guides/grants-and-tax/) explains how it works). Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Alternatives
 
