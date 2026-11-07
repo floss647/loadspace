@@ -6,45 +6,59 @@ date: 2026-10-30T08:00:00Z
 summary: "A sound, well-proven electric medium van with a roomy load area and quick charging, but its payload trails the best diesels, the cab isn't the most comfortable for three and the design is starting to feel its age."
 specs:
   price: "Not confirmed (announced at £42,055 ex VAT in 2023)"
-  range: "219 miles"
+  range: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   charging: "100kW"
-  payload: "1,210 kg"
+  payload: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   batteryWarranty: "Eight years against loss of capacity"
-verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. Its 219-mile official range and 100kW rapid charging cover most local and regional work, and it has a reputation for a quiet, brisk drive. The trade-offs are a payload below the best diesel versions, a low seat, a cab that isn't the most comfortable for three and a design that is starting to feel its age. It is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins, so get quotes on all five before you sign."
+verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. It suits local and regional work, with 100kW rapid charging, and it has a reputation for a quiet, brisk drive. The trade-offs are a payload below the best diesel versions, a low seat, a cab that isn't the most comfortable for three and a design that is starting to feel its age. It is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins, so get quotes on all five before you sign."
 good: ["Quiet, brisk electric drive", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
 bad: ["Payload below the best diesel versions", "Low seat, and not the comfiest cab for three", "Smaller rear door openings than before"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
   - https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
 facts:
+  - claim: "most home wallboxes are 7.4kW units"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "seeing as most home wallbox chargers are 7.4kW units"
+  - claim: "100kW"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC charging speed 100kW WLTP Range (combined) 219 miles"
+  - claim: "Eight years against loss of capacity"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "Eight years / 100,000 miles / business can choose the drivetrain it prefers. Battery warranty 70% capacity"
+  - claim: "the battery is covered for eight years against loss of capacity"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "Eight years / 100,000 miles / business can choose the drivetrain it prefers. Battery warranty 70% capacity"
+  - claim: "November 2024"
+    calc: "Date of Vauxhall's van range press kit (sources/vauxhall-van-range-press-kit-2024-11.pdf): sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."
+  - claim: "the electric van carries less than the best diesel versions"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "The EV version has a restricted payload"
+  - claim: "the 75kWh battery"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "The new Vivaro Electric is available with a 75kWh"
+  - claim: "A 100kW rapid charger takes the battery from 5 to 80% within 45 minutes"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC current – rapid charger (100kW) CCS 45 minutes (5-80%)"
+  - claim: "On AC it can take up to 11kW if the van has the 11kW on-board charger"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "*Requires 11kW on-board charger"
+  - claim: "a full charge from one of those takes 11 hours 20 minutes"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "AC current – home wallbox or public charger (7.4W) Type 2 11 hours, 20 minutes"
   - claim: "£42,055 ex VAT"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "reduce the price of the Vivaro Electric by £2,580, meaning it now starts at £42,055 (not including VAT)"
   - claim: "in 2023"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "Published: 17 November 2023"
-  - claim: "219 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "provided the 219-mile WLTP combined electric range suits your needs"
-  - claim: "100kW"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "100kW DC rapid charging allows a 5-80 per cent top-up of the 75kWh battery within 45 minutes"
-  - claim: "1,210 kg"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
-  - claim: "Eight years against loss of capacity"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "battery is covered for eight years against loss of capacity"
   - claim: "the design is starting to feel its age"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "this van is starting to feel a bit dated compared to younger rivals"
-  - claim: "Its 219-mile official range"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "provided the 219-mile WLTP combined electric range suits your needs"
   - claim: "it has a reputation for a quiet, brisk drive"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "For the quietest and briskest experience, the Vivaro Electric delivers instant EV acceleration without the clatter of a diesel engine."
@@ -93,24 +107,12 @@ facts:
   - claim: "The XL's extra length is all behind the rear axle, so both share the same wheelbase"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "with the latter's additional length located behind the rear axle. This means both variants have the same wheelbase."
-  - claim: "The electric van carries up to 1,210kg"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
-  - claim: "1,326kg for the lower-powered 2.0-litre diesel"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "while the lesser-powered 2.0-litre bumps this to 1,326kg"
   - claim: "the back door openings are 100mm shorter and the rear opening 109mm narrower"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "the back door openings are 100mm shorter, while the overall width of the rear opening is down by 109mm"
-  - claim: "is 219 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "provided the 219-mile WLTP combined electric range suits your needs"
   - claim: "November 2023"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "Published: 17 November 2023"
-  - claim: "217 miles, 12 more than the outgoing van"
-    source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
-    quote: "the 75kWh battery now offering an official range of 217 miles, which is a boost of 12 miles over the outgoing version"
   - claim: "some electric rivals go further"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "Some electric rivals offer greater range"
@@ -120,12 +122,6 @@ facts:
   - claim: "winter range is much lower than summer range"
     source: https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
     quote: "driving range in winter is much lower than in summer"
-  - claim: "A 100kW rapid charger takes the battery from 5 to 80% within 45 minutes"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "100kW DC rapid charging allows a 5-80 per cent top-up of the 75kWh battery within 45 minutes"
-  - claim: "On AC it can take up to 11kW, but most home wallboxes are 7.4kW units, and a full charge from one of those takes around 10 hours"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "11kW AC charging is available, but seeing as most home wallbox chargers are 7.4kW units, a full charge from one of these will take around 10 hours"
   - claim: "the quietest and briskest Vivaros, with instant acceleration and none of a diesel's clatter"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "For the quietest and briskest experience, the Vivaro Electric delivers instant EV acceleration without the clatter of a diesel engine."
@@ -183,9 +179,6 @@ facts:
   - claim: "The plastics are hard-wearing"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "with hard-wearing plastics that feel robust and solid"
-  - claim: "for the 75kWh battery"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "100kW DC rapid charging allows a 5-80 per cent top-up of the 75kWh battery within 45 minutes"
   - claim: "Servicing is every two years or 25,000 miles"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "Business Centre every two years or 25,000 miles, whichever comes first"
@@ -216,9 +209,6 @@ facts:
   - claim: "The standard warranty is three years or 100,000 miles"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "It's a standard three-year or 100,000-mile warranty"
-  - claim: "the battery is covered for eight years against loss of capacity"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "battery is covered for eight years against loss of capacity"
 ---
 
 ### Who it's for
@@ -229,15 +219,15 @@ The Vivaro Electric suits a tradesperson or fleet doing local and regional work 
 
 The load area is the big draw here. The standard van holds 5.3 cubic metres and the XL 6.1, rising to 5.8 and 6.6 if you use the through-load hatch in the bulkhead for planks, ladders and pipes. The XL's extra length is all behind the rear axle, so both share the same wheelbase.
 
-Payload is the weak spot. The electric van carries up to 1,210kg, against 1,326kg for the lower-powered 2.0-litre diesel. If you carry heavy kit every day, check the figure for the exact version you're ordering. Rear access is tighter than on the old Vivaro, too: the back door openings are 100mm shorter and the rear opening 109mm narrower.
+Payload is the weak spot: the electric van carries less than the best diesel versions. We haven't found a current payload figure from Vauxhall. Its November 2024 press kit is the latest we have, and the current guide for its Citroën twin gives a different figure, so if you carry heavy kit every day, check the plated payload of the exact version you're ordering. Rear access is tighter than on the old Vivaro, too: the back door openings are 100mm shorter and the rear opening 109mm narrower.
 
 ### Range and charging in the real world
 
-The official WLTP combined range for the 75kWh battery is 219 miles. When the facelift was announced in November 2023, the quoted figure was 217 miles, 12 more than the outgoing van, so published numbers differ slightly. Either way, some electric rivals go further.
+We haven't found a current official range from Vauxhall for the 75kWh battery, and the current guide for its Citroën twin quotes more than one figure, so ask for the official range of the exact van you're quoted. Either way, some electric rivals go further.
 
 Don't plan your week around the official figure. Heavy loads and higher speeds both eat into it, and as with any electric van, winter range is much lower than summer range. Leave a healthy margin on regular routes.
 
-Charging is a strength. A 100kW rapid charger takes the battery from 5 to 80% within 45 minutes. On AC it can take up to 11kW, but most home wallboxes are 7.4kW units, and a full charge from one of those takes around 10 hours. Our [charging guide](/guides/charging-an-electric-van/) covers the options.
+Charging is a strength. A 100kW rapid charger takes the battery from 5 to 80% within 45 minutes. On AC it can take up to 11kW if the van has the 11kW on-board charger, but most home wallboxes are 7.4kW units, and a full charge from one of those takes 11 hours 20 minutes. Our [charging guide](/guides/charging-an-electric-van/) covers the options.
 
 ### On the road
 
