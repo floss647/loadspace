@@ -198,5 +198,13 @@
     "received": "2026-11-07",
     "via": "Supplied by the editor, downloaded from Citroën's UK website",
     "sha256": "bde1b02ba27ad4965b25063f1e827e1dd3f9b783055adad3913b301416a204d7"
+  },
+  "citroen-e-dispatch-van-price-spec-guide-2026-10.pdf": {
+    "title": "Citroën ë-Dispatch & Dispatch Prices & Specifications (MY27)",
+    "publisher": "citroen.co.uk",
+    "effective": "8 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Citroën's UK website",
+    "sha256": "826cbf47097b541adc9c8d065bf109cf4cce0ddadba785f0b1efaacbca6c7bc1"
   }
 }
