@@ -8,14 +8,14 @@ specs:
   price: "Not confirmed (announced at £42,055 ex VAT in 2023)"
   range: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   charging: "100kW"
-  payload: "1,210 kg"
+  payload: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   batteryWarranty: "Eight years against loss of capacity"
 verdict: "The Vivaro Electric is a sound, well-proven medium electric van rather than a class leader. It suits local and regional work, with 100kW rapid charging, and it has a reputation for a quiet, brisk drive. The trade-offs are a payload below the best diesel versions, a low seat, a cab that isn't the most comfortable for three and a design that is starting to feel its age. It is pretty much the same van as its Citroën, Peugeot, Fiat and Toyota twins, so get quotes on all five before you sign."
 good: ["Quiet, brisk electric drive", "Rapid charging at up to 100kW", "Roomy load area with a through-load option"]
 bad: ["Payload below the best diesel versions", "Low seat, and not the comfiest cab for three", "Smaller rear door openings than before"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
@@ -35,15 +35,12 @@ facts:
     quote: "Eight years / 100,000 miles / business can choose the drivetrain it prefers. Battery warranty 70% capacity"
   - claim: "November 2024"
     calc: "Date of Vauxhall's van range press kit (sources/vauxhall-van-range-press-kit-2024-11.pdf): sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."
-  - claim: "gave a lower payload for the electric panel van"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "Maximum payload for the Panel Van versions is"
+  - claim: "the electric van carries less than the best diesel versions"
+    source: https://www.autoexpress.co.uk/vauxhall/vivaro
+    quote: "The EV version has a restricted payload"
   - claim: "the 75kWh battery"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "The new Vivaro Electric is available with a 75kWh"
-  - claim: "an official range of 219 miles (WLTP combined)"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "DC charging speed 100kW WLTP Range (combined) 219 miles"
   - claim: "A 100kW rapid charger takes the battery from 5 to 80% within 45 minutes"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "DC current – rapid charger (100kW) CCS 45 minutes (5-80%)"
@@ -59,9 +56,6 @@ facts:
   - claim: "in 2023"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "Published: 17 November 2023"
-  - claim: "1,210 kg"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
   - claim: "the design is starting to feel its age"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "this van is starting to feel a bit dated compared to younger rivals"
@@ -113,12 +107,6 @@ facts:
   - claim: "The XL's extra length is all behind the rear axle, so both share the same wheelbase"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "with the latter's additional length located behind the rear axle. This means both variants have the same wheelbase."
-  - claim: "The electric van carries up to 1,210kg"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "The Vivaro Electric, meanwhile, can only handle up to 1,210kg."
-  - claim: "1,326kg for the lower-powered 2.0-litre diesel"
-    source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "while the lesser-powered 2.0-litre bumps this to 1,326kg"
   - claim: "the back door openings are 100mm shorter and the rear opening 109mm narrower"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "the back door openings are 100mm shorter, while the overall width of the rear opening is down by 109mm"
@@ -231,11 +219,11 @@ The Vivaro Electric suits a tradesperson or fleet doing local and regional work 
 
 The load area is the big draw here. The standard van holds 5.3 cubic metres and the XL 6.1, rising to 5.8 and 6.6 if you use the through-load hatch in the bulkhead for planks, ladders and pipes. The XL's extra length is all behind the rear axle, so both share the same wheelbase.
 
-Payload is the weak spot. The electric van carries up to 1,210kg, against 1,326kg for the lower-powered 2.0-litre diesel. Vauxhall's November 2024 press kit gave a lower payload for the electric panel van, so if you carry heavy kit every day, check the plated figure for the exact version you're ordering. Rear access is tighter than on the old Vivaro, too: the back door openings are 100mm shorter and the rear opening 109mm narrower.
+Payload is the weak spot: the electric van carries less than the best diesel versions. We haven't found a current payload figure from Vauxhall. Its November 2024 press kit is the latest we have, and the current guide for its Citroën twin gives a different figure, so if you carry heavy kit every day, check the plated payload of the exact version you're ordering. Rear access is tighter than on the old Vivaro, too: the back door openings are 100mm shorter and the rear opening 109mm narrower.
 
 ### Range and charging in the real world
 
-Vauxhall's November 2024 press kit gave the 75kWh battery an official range of 219 miles (WLTP combined). The van has had model-year updates since, and official figures for the same van now vary with the options fitted, so ask for the current figure for the exact van you're quoted. Either way, some electric rivals go further.
+We haven't found a current official range from Vauxhall for the 75kWh battery, and the current guide for its Citroën twin quotes more than one figure, so ask for the official range of the exact van you're quoted. Either way, some electric rivals go further.
 
 Don't plan your week around the official figure. Heavy loads and higher speeds both eat into it, and as with any electric van, winter range is much lower than summer range. Leave a healthy margin on regular routes.
 

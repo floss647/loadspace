@@ -10,12 +10,12 @@ specs:
   charging: "100kW"
   payload: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The Combo Electric is a sensible small electric van for town and suburban work, with 100kW rapid charging and a reputation for being quiet and smooth. Vauxhall's published range and payload figures are out of date, so check them for the exact van you're quoted. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
+verdict: "The Combo Electric is a sensible small electric van for town and suburban work, with 100kW rapid charging and a reputation for being quiet and smooth. We haven't found current official range and payload figures from Vauxhall, so check them for the exact van you're quoted. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
 good: ["Quiet and smooth, especially in town", "Rapid charging at up to 100kW", "Electric power takes nothing from the load bay"]
 bad: ["Cramped for three adults", "Adaptive cruise control and 11kW charging cost extra", "Only a three-year warranty on the van itself"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/vauxhall/combo
   - https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
@@ -36,21 +36,9 @@ facts:
     quote: "DC charging speed 100kW"
   - claim: "November 2024"
     calc: "Date of Vauxhall's van range press kit (sources/vauxhall-van-range-press-kit-2024-11.pdf): sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."
-  - claim: "gave electric payloads of 642kg"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "XL Prime Crew Van 1,813 642 2,455 1,200 1,400 750 3,205"
-  - claim: "to 781kg"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "Prime Panel Van 1,674 781 2,455 1,200 1,400 750 3,205"
-  - claim: "the lowest for the Crew Van"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "meanwhile, offers 642kg."
   - claim: "tow a 750kg braked trailer"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "New Combo Electric also offers an impressive towing capacity (braked) of 750kg on all versions."
-  - claim: "an official range of 213 miles (WLTP combined)"
-    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
-    quote: "WLTP Range (combined) 213 miles"
   - claim: "around half an hour to 80 per cent"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "DC current – rapid charger (100kW) CCS 30 minutes (0-80%)"
@@ -96,9 +84,6 @@ facts:
   - claim: "a folding outer seat and a protective cargo bag"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "You also get a cargo bag so that longer items that you load through don"
-  - claim: "a city figure of up to 304 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "Vauxhall also quotes a WLTP city range figure of up to 304 miles"
   - claim: "it is at its best in town"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "the Combo Electric is at its best in urban driving with frequent regenerative braking and less high-speed running"
@@ -172,11 +157,11 @@ The Combo Electric is for multi-drop couriers, service engineers and local trade
 
 Electric power takes nothing from the load bay. The standard van holds 3.3 cubic metres and the XL 3.9, and there's room for two Euro pallets in the back. The optional FlexCargo pack adds a bulkhead hatch for items up to 3,090mm long, or 3,440mm in the XL, plus a folding outer seat and a protective cargo bag.
 
-Vauxhall's November 2024 press kit gave electric payloads of 642kg to 781kg, the lowest for the Crew Van. The van has had model-year updates since, and its Citroën and Peugeot twins now list a lower maximum for the panel van, so check the plated payload of the exact van you're quoted. The diesel carries more, and the electric van can only tow a 750kg braked trailer. If you're regularly near the limit, the diesel is still the better tool.
+We haven't found a current payload figure from Vauxhall. Its November 2024 press kit is the latest we have, and the current guides for its Citroën and Peugeot twins give a lower maximum, so check the plated payload of the exact van you're quoted. The diesel carries more, and the electric van can only tow a 750kg braked trailer. If you're regularly near the limit, the diesel is still the better tool.
 
 ### Range and charging in the real world
 
-Vauxhall's November 2024 press kit gave an official range of 213 miles (WLTP combined). The van has had model-year updates since, and official figures for the same van now vary with specification, so ask for the current figure for the exact van you're quoted. Vauxhall also gives a city figure of up to 304 miles, which tells you it is at its best in town. Motorway runs hurt its efficiency.
+We haven't found a current official range from Vauxhall, and the current guides for its Citroën and Peugeot twins each quote more than one figure, so ask for the official range of the exact van you're quoted. It is at its best in town. Motorway runs hurt its efficiency.
 
 At a public rapid charger it takes up to 100kW, which means around half an hour to 80 per cent. A home wallbox refills it from empty overnight, and 11kW charging, which cuts that to around five hours, is an option on every trim. Our [charging guide](/guides/charging-an-electric-van/) has more on depot charging.
 

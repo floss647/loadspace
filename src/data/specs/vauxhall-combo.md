@@ -1,9 +1,9 @@
 ---
 van: vauxhall-combo
 title: "Vauxhall Combo Electric specs"
-summary: "Load space, payload, towing and charging for the Combo Electric panel vans, from Vauxhall's own press kit. A partial list for now: no range, equipment or prices yet."
+summary: "Load space, payload, towing and charging for the Combo Electric panel vans, from Vauxhall's November 2024 press kit. A partial list for now: no range, equipment or prices yet."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Vauxhall UK van range press kit, November 2024"
+sourceLabel: "Vauxhall UK van range press kit, November 2024 (not Vauxhall's current price and specification guide)"
 tables:
   - title: "Payload and weight"
     head: ["Version", "Payload", "Gross weight", "Gross train weight", "Towing (braked)"]
@@ -44,9 +44,9 @@ tables:
       - ["0 to 62mph", "11.7 seconds"]
       - ["Service interval", "Every two years or 25,000 miles"]
 notes:
-  - "These figures come from Vauxhall's November 2024 press kit. The van has had model-year updates since, so check figures with the dealer. We'll replace this with Vauxhall's current price and specification guide when we have it."
-  - "We only show press kit figures that match the current guides for the Citroën ë-Berlingo and Peugeot E-Partner, which are the same van. Vauxhall's 2024 range figure, its payloads for Prime trim, its wallbox charging times and its loading heights differ from its twins' current figures, so we've left them out. Check them with the dealer."
-  - "Payloads are Vauxhall's maximum indicative figures. They don't allow for options you add, so ask the dealer for the figure for your exact van."
+  - "These figures come from Vauxhall's November 2024 press kit, not its current price and specification guide, so check them with the dealer before you order. We'll replace them with Vauxhall's current guide when we have it."
+  - "We only show press kit figures that match the current guides for the Citroën ë-Berlingo and Peugeot E-Partner, which are the same van. We've left out Vauxhall's payloads for Prime trim, its wallbox charging times and its loading heights, which differ from its twins' current figures, and the range, because each twin's current guide quotes more than one range figure. Check them with the dealer."
+  - "Payloads are Vauxhall's maximum indicative figures, so ask the dealer for the plated payload of your exact van."
 versions:
   - name: "Panel van"
     figures:
@@ -75,6 +75,9 @@ shared:
   rapid: "0 to 80% in 30 minutes on a 100kW rapid charger"
   ac: "7.4kW (11kW optional)"
   warranty: "Eight years or 100,000 miles (to 70% capacity)"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "November 2024"
     calc: "Date of the press kit: sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."

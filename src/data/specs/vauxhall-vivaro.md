@@ -1,9 +1,9 @@
 ---
 van: vauxhall-vivaro
 title: "Vauxhall Vivaro Electric specs"
-summary: "Load space, towing and charging for the Vivaro Electric panel vans, from Vauxhall's own press kit. A partial list for now: no range, payload, equipment or prices yet."
+summary: "Load space, towing and charging for the Vivaro Electric panel vans, from Vauxhall's November 2024 press kit. A partial list for now: no range, payload, equipment or prices yet."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Vauxhall UK van range press kit, November 2024"
+sourceLabel: "Vauxhall UK van range press kit, November 2024 (not Vauxhall's current price and specification guide)"
 tables:
   - title: "Load space"
     head: ["", "Panel van", "XL panel van"]
@@ -30,7 +30,7 @@ tables:
       - ["Battery", "75kWh"]
       - ["Rapid charging (DC)", "5 to 80% in 45 minutes on a 100kW rapid charger"]
       - ["Full charge on a 7.4kW wallbox or public charger", "11 hours 20 minutes"]
-      - ["Full charge on an 11kW public charger", "7 hours 30 minutes"]
+      - ["Full charge on an 11kW public charger (needs the 11kW on-board charger)", "7 hours 30 minutes"]
       - ["Battery warranty", "Eight years or 100,000 miles (to 70% capacity)"]
   - title: "Motor, towing and servicing"
     head: ["", ""]
@@ -41,8 +41,8 @@ tables:
       - ["Towing (braked)", "1,000kg"]
       - ["Service interval", "Every two years or 25,000 miles"]
 notes:
-  - "These figures come from Vauxhall's November 2024 press kit. The van has had model-year updates since, so check figures with the dealer. We'll replace this with Vauxhall's current price and specification guide when we have it."
-  - "We only show press kit figures that match the current guide for the Citroën ë-Dispatch, which is the same van. Vauxhall's 2024 range, payloads, gross weights, acceleration, maximum load width, loading heights, standard van length and XL through-load length differ from its twin's current figures, so we've left them out. Check them with the dealer."
+  - "These figures come from Vauxhall's November 2024 press kit, not its current price and specification guide, so check them with the dealer before you order. We'll replace them with Vauxhall's current guide when we have it."
+  - "We only show press kit figures that match the current guide for the Citroën ë-Dispatch, which is the same van. We've left out Vauxhall's payloads, gross weights, acceleration, maximum load width, loading heights, standard van length and XL through-load length, which differ from its twin's current figures, and the range, because the twin's current guide quotes more than one range figure. Check them with the dealer."
   - "Vauxhall's 2024 kit lists a 7.4kW on-board charger as standard, with the 11kW charger an option. Its twin's current guide differs, so ask the dealer which charger your van has."
 versions:
   - name: "Panel van"
@@ -67,6 +67,9 @@ shared:
   battery: "75kWh"
   rapid: "5 to 80% in 45 minutes on a 100kW rapid charger"
   warranty: "Eight years or 100,000 miles (to 70% capacity)"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "November 2024"
     calc: "Date of the press kit: sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."
@@ -139,6 +142,9 @@ facts:
   - claim: "11 hours 20 minutes"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "AC current – home wallbox or public charger (7.4W) Type 2 11 hours, 20 minutes"
+  - claim: "needs the 11kW on-board charger"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "*Requires 11kW on-board charger"
   - claim: "Full charge on an 11kW public charger"
     archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
     quote: "AC current – public charger (11kW)* Type 2 7 hours, 30 minutes"
