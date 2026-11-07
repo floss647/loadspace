@@ -294,7 +294,7 @@ options:
       - name: "Cargo Pack (L4)"
         price: "£320"
         note: "L4 vans. Adds a 12-volt load area socket, rear doors opening to 270 degrees and a door-activated LED load light"
-        quote: "Cargo Pack (L4): - 12v Socket in cargo bay J6K8 £320"
+        quote: "Cargo Pack (L4): - 12v Socket in cargo bay J6K8 £320 £320 - - - - 270 Rear opening rear doors"
   - category: "Paint"
     items:
       - name: "Expedition Grey (solid)"
@@ -374,7 +374,7 @@ options:
         quote: "Digital central rearview mirror including rearview camera with dynamic gridlines (QK13) N201 £600"
       - name: "360-degree parking sensors, cornering fog lights, rear view camera and 7-inch touchscreen"
         price: "£700"
-        quote: "360° parking sensors + fog lights with cornering function + rearview camera with dynamic UB24 £700"
+        quote: "360° parking sensors + fog lights with cornering function + rearview camera with dynamic UB24 £700 - £700 - - gridlines + 7\" colour touchscreen"
   - category: "Lighting"
     items:
       - name: "Full LED headlights"
@@ -394,7 +394,7 @@ options:
     items:
       - name: "Body-colour front bumper with black skid plate and front fog lights"
         price: "£400"
-        note: "3.5-tonne version only. Not with special paint colours"
+        note: "Not on 4.25-tonne versions or with special paint colours"
         quote: "Body Colour Front Bumper with Black Skid Plate and front fog lights UXACE,T £400 £400 - - - [not available on 4.25T versions or with Special Paint Colours]"
       - name: "Wheel arch mouldings"
         price: "£200"
@@ -460,20 +460,28 @@ facts:
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Max speed (mph) 81 56 56 56 56 56"
   - claim: "£49,735"
+    calc: "Basic Price exc VAT £49,735.00 in the guide's E-Boxer prices table (row quoted in the List prices fact below), written as £49,735"
+  - claim: "List prices"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "E-Boxer Panel Van L3H2 3.5T Heavy Electric 270hp Automatic 3500 730 13.0 0 235 2PXE5LHYAFTXA014 £49,735.00"
   - claim: "£50,545"
+    calc: "Basic Price exc VAT £50,545.00 in the guide's E-Boxer prices table (row quoted in the List prices fact below), written as £50,545"
+  - claim: "List prices"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "E-Boxer Panel Van L3H2 4.25T Electric 270hp Automatic 4250 1480 13.0 0 263 2PXE5MHYAFTXA014 £50,545.00"
   - claim: "£51,355"
+    calc: "Basic Price exc VAT £51,355.00 in the guide's E-Boxer prices table (row quoted in the List prices fact below), written as £51,355"
+  - claim: "List prices"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "E-Boxer Panel Van L3H3 4.25T Electric 270hp Automatic 4250 1455 15.0 0 254 2PXE5PHYAFTXA014 £51,355.00"
   - claim: "£52,165"
+    calc: "Basic Price exc VAT £52,165.00 in the guide's E-Boxer prices table (row quoted in the List prices fact below), written as £52,165"
+  - claim: "List prices"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "E-Boxer Panel Van L4H3 4.25T Electric 270hp Automatic 4250 1385 17.0 0 252 2PXE7PHYAFTXA014 £52,165.00"
   - claim: "Price (ex VAT, before grant)"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "BASIC PRICE (£) EXC VAT PLUG-IN-VAN GRANT (£)"
+    quote: "All Manufacturer’s Recommended Basic Prices are exclusive of V.A.T."
   - claim: "3,705mm"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Load length at floor 3120 3705 4070"
@@ -562,8 +570,7 @@ facts:
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Three Phase Wallbox (22kW) AC - Type 2 Socket 6h 05min [100%]"
   - claim: "6 hours 5 minutes"
-    archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
-    quote: "Three Phase Wallbox (22kW) AC - Type 2 Socket 6h 05min [100%]"
+    calc: "Three Phase Wallbox (22kW) full charge time 6h 05min (quoted in the fact above), written as 6 hours 5 minutes"
   - claim: "Full charge on a 7.4kW wallbox"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "Single Phase Wallbox (7.4kW) AC - Type 2 Socket 16h 40min [100%]"
@@ -579,7 +586,7 @@ facts:
   - claim: "not subject to WLTP testing"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "As all e-Boxer are homologated as Heavy and are not subject to WLTP testing, the range and electric consumption figures mentioned are calculated using WLTP Test Procedure methodology"
-  - claim: "The 4,250kg versions are N2 vans"
+  - claim: "are N2 vans"
     archive: sources/peugeot-boxer-price-spec-guide-2026-10.pdf
     quote: "N2 = 4.25T GVW designated vehicles"
   - claim: "legally limited to 56mph and must have a tachograph"

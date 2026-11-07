@@ -6,16 +6,16 @@ date: 2026-10-30T08:00:00Z
 summary: "Citroën's version of the Stellantis small electric van has better-bolstered seats than its Peugeot, Vauxhall and Fiat twins, a strong payload for an EV and 100kW charging. Underneath it's the same van, so the deal matters more than the badge."
 specs:
   price: "From £28,955 + VAT (M Enterprise Plus), before the £2,500 grant"
-  range: "180 to 219 miles (WLTP, same for M and XL)"
+  range: "180 to 219 miles (WLTP)"
   charging: "100kW"
-  payload: "759 kg (no driver)"
+  payload: "Up to 759kg (the driver counts towards it)"
   batteryWarranty: "Eight years or 100,000 miles"
 verdict: "The ë-Berlingo is a well-sorted small electric van and our pick over the Peugeot, Vauxhall and Fiat versions for anyone who spends all day in the seat, thanks to its denser, better-bolstered seats. Payload is strong for an electric van, there's up to 4.4 cubic metres in the back and it charges at up to 100kW. It shares its body, battery and motor with the Peugeot, Vauxhall, Fiat and Toyota versions, and Citroën can't match the Toyota's potential 10-year warranty. Treat it as a shortlist of five and buy the best deal from the nearest decent dealer."
 good: ["Seats with denser foam and thicker bolsters than the Peugeot, Vauxhall and Fiat", "759kg payload, strong for a small electric van", "Rapid charging at up to 100kW"]
 bad: ["Three-seat cab is very cramped", "Big blind spots down both sides", "Only a three-year warranty on the van itself"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/citroen/berlingo-van
   - https://www.autoexpress.co.uk/best/electric-vans
@@ -63,6 +63,9 @@ facts:
   - claim: "better-bolstered seats than its Peugeot, Vauxhall and Fiat twins"
     source: https://www.autoexpress.co.uk/citroen/berlingo-van
     quote: "slightly different seat design when compared with its Fiat Doblo , Peugeot Partner , and Vauxhall Combo siblings, with denser foam and thicker side bolsters"
+  - claim: "the through-load hatch in the bulkhead, standard on the panel vans"
+    archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
+    quote: "EXTENSO® modular folding passenger bench seat with pivoting writing table, storage under central seat, load through hatch in bulkhead and load protection cover ● ●"
   - claim: "items up to 3.1 metres long, or 3.4 metres in the XL"
     source: https://www.autoexpress.co.uk/citroen/berlingo-van
     quote: "This allows lengthy items up to 3.1 metres long (or 3.4m in the XL) to be loaded"
@@ -128,12 +131,15 @@ facts:
   - claim: "£2,500 grant"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "any discounts applied up to a maximum of £2,500"
-  - claim: "180 to 219 miles (WLTP, same for M and XL)"
+  - claim: "180 to 219 miles (WLTP)"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
-    quote: "Panel Van M Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Panel Van XL Electric 136hp Automatic 352 289 219 180"
-  - claim: "759 kg (no driver)"
+    quote: "Panel Van M Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Panel Van XL Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Crew Van Crew Van XL Electric 136hp Automatic 352 289 219 180"
+  - claim: "Up to 759kg"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "No Driver Electric Panel Van M Electric 136hp Automatic 2450 1766 1691 759"
+  - claim: "the driver counts towards it"
+    archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
+    quote: "When Kerb Weight used, driver weight is included within the"
   - claim: "759kg payload"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "No Driver Electric Panel Van M Electric 136hp Automatic 2450 1766 1691 759"
@@ -146,16 +152,16 @@ facts:
   - claim: "Payload tops out at 759kg in the M panel van and 691kg in the XL"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Panel Van M Electric 136hp Automatic 2450 1766 1691 759 1200 1400 3200 750 750 50 3 Panel Van XL Electric 136hp Automatic 2450 1834 1759 691"
-  - claim: "Citroën's figures don't include the driver"
+  - claim: "the driver's weight counts towards those figures"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
-    quote: "does not include driver but does take into consideration specification/trim level"
+    quote: "When Kerb Weight used, driver weight is included within the"
   - claim: "Citroën's own August 2026 price guide"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Effective from 26 August 2026"
-  - claim: "gives the official WLTP range as 180 to 219 miles, the same for the M and XL"
+  - claim: "gives the official WLTP range as 180 to 219 miles for every version"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
-    quote: "Panel Van M Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Panel Van XL Electric 136hp Automatic 352 289 219 180"
-  - claim: "Its technical table also lists a single combined figure of 213 miles"
+    quote: "Panel Van M Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Panel Van XL Electric 136hp Automatic 352 289 219 180 490 391 304 243 174 217 Crew Van Crew Van XL Electric 136hp Automatic 352 289 219 180"
+  - claim: "Its technical page also gives a single combined figure of 213 miles"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "WLTP Range (Combined) 213mi"
   - claim: "takes the battery from zero to 80 per cent in about half an hour"
@@ -210,13 +216,13 @@ So the useful question isn't whether it's good (the platform is proven) but why 
 
 ### Load area and payload
 
-The M van holds 3.3 cubic metres and the longer XL 3.9, and the optional through-load hatch takes items up to 3.1 metres long, or 3.4 metres in the XL. There's 1,229mm between the wheelarches, and room for two Euro pallets in the back.
+The M van holds 3.3 cubic metres and the longer XL 3.9, and the through-load hatch in the bulkhead, standard on the panel vans, takes items up to 3.1 metres long, or 3.4 metres in the XL. There's 1,229mm between the wheelarches, and room for two Euro pallets in the back.
 
-Payload tops out at 759kg in the M panel van and 691kg in the XL, and Citroën's figures don't include the driver. That's strong for a small electric van. If you carry heavy loads every day, check the figure for the exact length and trim you're ordering.
+Payload tops out at 759kg in the M panel van and 691kg in the XL, and the driver's weight counts towards those figures. That's strong for a small electric van. If you carry heavy loads every day, check the figure for the exact length and trim you're ordering.
 
 ### Range and charging in the real world
 
-Citroën's own August 2026 price guide gives the official WLTP range as 180 to 219 miles, the same for the M and XL, depending on specification. Its technical table also lists a single combined figure of 213 miles. Either way, faster driving really blunts the range, so a van that lives on the motorway will fall well short.
+Citroën's own August 2026 price guide gives the official WLTP range as 180 to 219 miles for every version, M, XL and crew van alike, depending on specification. Its technical page also gives a single combined figure of 213 miles without saying which specification it applies to, so we quote the 180 to 219 miles range. Either way, faster driving really blunts the range, so a van that lives on the motorway will fall well short.
 
 A 100kW rapid charger takes the battery from zero to 80 per cent in about half an hour. A 7.4kW wallbox fills it in 6 hours 43 minutes, and the optional 11kW three-phase charger, at £350, cuts that to 4 hours 50 minutes. Citroën only recommends it if you'll mostly charge from three-phase power. On the Driver there's also a £750 Winter Pack with a heat pump, worth a look if you work through the cold months. Our [charging guide](/guides/charging-an-electric-van/) covers home and depot set-ups.
 

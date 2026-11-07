@@ -6,7 +6,7 @@ date: 2026-10-30T08:00:00Z
 summary: "Citroën's take on the Stellantis medium electric van is well equipped from the base trim, charges quickly and came across as quiet and refined in the one published road test we found. The load area and payload are only average for the class, and the cab is tight for three."
 specs:
   price: "£41,460"
-  range: "230 miles"
+  range: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
   charging: "100kW"
   payload: "1,210kg (M panel van, no driver)"
   batteryWarranty: "Eight years or 100,000 miles"
@@ -15,7 +15,7 @@ good: ["Twin sliding doors and two 10-inch screens as standard", "Rapid charging
 bad: ["Load volume behind the biggest rivals", "Narrow cab for three", "No wide-angle door mirrors"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/citroen/dispatch
   - https://vanreviewer.co.uk/citroen/e-dispatch/review/4029/
@@ -138,10 +138,13 @@ facts:
   - claim: "The van warranty is three years or 100,000 miles"
     source: https://www.autoexpress.co.uk/citroen/dispatch
     quote: "the Dispatch has a three-year warranty with a maximum 100,000-mile limit"
-  - claim: "the battery and running gear are covered for eight years and 100,000 miles"
-    source: https://www.autoexpress.co.uk/citroen/dispatch
-    quote: "the drive battery and running gear of the e-Dispatch is covered for eight years and 100,000 miles"
-  - claim: "230 miles"
+  - claim: "the battery is covered for eight years or 100,000 miles, to 70% of its capacity"
+    archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years/100,000 miles/70% capacity"
+  - claim: "though it loses the digital rear-view mirror"
+    archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
+    quote: "However, it does not include the Digital Rear View Mirror."
+  - claim: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Panel Van M Electric 136hp Automatic 370 313 230 194"
   - claim: "Official range of up to 230 miles"
@@ -276,7 +279,7 @@ Citroën's October 2026 price list settles the payload question. It gives up to 
 
 ### Range and charging in the real world
 
-The 50kWh battery was dropped in 2024, so every ë-Dispatch now has a 75kWh pack, of which 69kWh is usable. Citroën's current price list gives an official range of 194 to 230 miles, though its technical page quotes 219 miles. Speed matters: at a steady 70mph you can expect to lose around two miles of range for every seven or eight you drive.
+The 50kWh battery was dropped in 2024, so every ë-Dispatch now has a 75kWh pack, of which 69kWh is usable. Citroën's current price list gives an official range of 194 to 230 miles, depending on the options fitted, though its technical page quotes 219 miles. Speed matters: at a steady 70mph you can expect to lose around two miles of range for every seven or eight you drive.
 
 A 100kW rapid charger takes it from 5 to 80% in 45 minutes, and a 7.4kW wallbox fills it in 11 hours 20 minutes. An 11kW on-board charger is now standard on every trim, and on a three-phase 11kW wallbox a full charge takes 7 hours 30 minutes. Our [charging guide](/guides/charging-an-electric-van/) explains the choices.
 
@@ -286,7 +289,7 @@ Driving impressions here come from one published road test. It found the electri
 
 ### Cab and kit
 
-There are three trims: Enterprise, Driver and a limited-edition VTR. Driver costs £2,675 more than Enterprise. Enterprise has twin sliding doors, a full steel bulkhead, air conditioning, rear parking sensors, auto lights and wipers, a 10-inch driver's display and a 10-inch touchscreen with wireless phone connection. Driver adds the EXTENSO folding passenger seat and load-through bulkhead, a Thatcham category 1 alarm, LED headlights, front parking sensors, a 180-degree reversing camera, a digital rear-view mirror, blind-spot detection and sat-nav. VTR adds eco-leather seats, 18-inch alloy wheels, dual-zone climate control, keyless entry, wireless phone charging and a heated steering wheel and driver's seat. One option that suits trades is a £350 power take-off, which lets you run tools from the drive battery; Citroën lists it for the Enterprise panel van.
+There are three trims: Enterprise, Driver and a limited-edition VTR. Driver costs £2,675 more than Enterprise. Enterprise has twin sliding doors, a full steel bulkhead, air conditioning, rear parking sensors, auto lights and wipers, a 10-inch driver's display and a 10-inch touchscreen with wireless phone connection. Driver adds the EXTENSO folding passenger seat and load-through bulkhead, a Thatcham category 1 alarm, LED headlights, front parking sensors, a 180-degree reversing camera, a digital rear-view mirror, blind-spot detection and sat-nav. VTR adds eco-leather seats, 18-inch alloy wheels, dual-zone climate control, keyless entry, wireless phone charging and a heated steering wheel and driver's seat, though it loses the digital rear-view mirror. One option that suits trades is a £350 power take-off, which lets you run tools from the drive battery; Citroën lists it for the Enterprise panel van.
 
 The heating and ventilation keep their own physical controls. But you sit lower than in most rivals, and the cab is narrow if you regularly carry two passengers.
 
@@ -300,4 +303,4 @@ Get quotes on the twins: the Toyota costs slightly more but adds 12 months of wa
 
 ### Price
 
-Citroën's price list from 8 October 2026 starts the ë-Dispatch at £41,460 excluding VAT, for the M panel van in Enterprise trim, before the £5,000 plug-in van grant. The XL Enterprise is £42,260, the Driver panel vans £44,135 and £44,935, and the VTR panel vans £52,095 and £52,895, all excluding VAT and before the grant. The ë-Dispatch is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; our [grants guide](/guides/grants-and-tax/) has the detail. The van warranty is three years or 100,000 miles, and the battery and running gear are covered for eight years and 100,000 miles. Try our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the sums.
+Citroën's price list from 8 October 2026 starts the ë-Dispatch at £41,460 excluding VAT, for the M panel van in Enterprise trim, before the £5,000 plug-in van grant. The XL Enterprise is £42,260, the Driver panel vans £44,135 and £44,935, and the VTR panel vans £52,095 and £52,895, all excluding VAT and before the grant. The ë-Dispatch is on the government's list of large vans eligible for the plug-in van grant, which is worth up to £5,000; our [grants guide](/guides/grants-and-tax/) has the detail. The van warranty is three years or 100,000 miles, and the battery is covered for eight years or 100,000 miles, to 70% of its capacity. Try our [electric vs diesel calculator](/tools/electric-vs-diesel/) to check the sums.

@@ -43,7 +43,7 @@ tables:
 notes:
   - "Citroën says the ë-Relay is not subject to WLTP testing, as all versions are homologated as heavy vehicles, so it calculates these ranges using the WLTP method instead."
   - "The 4,250kg versions are legally limited to 56mph and must have a tachograph."
-  - "Citroën's payloads are maximum indicative figures worked out from the kerb weight with no driver, and it says the driver's weight is included within the payload, so the driver counts against these figures. They also don't allow for any options you order."
+  - "Citroën's payloads are maximum indicative figures worked out from the kerb weight with no driver, and it says the driver's weight is included within the payload, so the driver counts against these figures. Working from Citroën's mass in running order, which includes the driver, leaves 655kg for the 3,500kg van. The payloads also don't allow for any options you order."
   - "Towing is also limited by the gross train weight of 5,500kg, so a fully loaded 4,250kg van can tow up to 1,250kg and a fully loaded 3,500kg van up to 2,000kg."
   - "The ë-Relay panel van comes in one trim, Enterprise. The on-the-road prices include delivery and number plates and take off the £5,000 plug-in van grant."
 versions:
@@ -152,7 +152,7 @@ equipment:
         items:
           - text: "Automatic air conditioning"
             quote: "Automatic air-conditioning"
-          - text: "Cruise control with speed limiter (not on 4.25-tonne versions)"
+          - text: "Cruise control with speed limiter (Citroën's trim summary excludes 4.25-tonne versions, though its equipment table does not)"
             quote: "Cruise control with speed limiter (excl. 4.25T)"
           - text: "Electric parking brake"
             quote: "Electric parking brake"
@@ -239,7 +239,7 @@ options:
     items:
       - name: "Techno Pack"
         price: "£900"
-        note: "Adds a larger touchscreen with TomTom navigation, double USB charging ports and automatic climate control"
+        note: "Adds a 10-inch touchscreen with TomTom navigation. The pack's double USB ports and automatic air conditioning are already standard on the electric van"
         quote: "Techno Pack: - High Beam Recognition - 10\" Touchscreen radio with TomTom® Navigation, Bluetooth, - Rain & Dusk Sensor £1050 £1150 Diesel £1150 Diesel £1150 Diesel Android Auto™ / Apple CarPlay™ ZJB5 £1150 Diesel - Adaptive Cruise Control I401 G,K,M,R,S Diesel Auto - - - - £900 Electric"
       - name: "Interior Upgrade Pack"
         price: "£350"
@@ -362,8 +362,11 @@ options:
         quote: "Body Colour Front Bumper with Black Skid Plate and front fog UXACE,T £400 £400 - - - lights [not available on 4.25T versions"
       - name: "Wheel arch mouldings"
         price: "£200"
-        note: "Citroën lists these for Heavy versions only"
+        note: "Citroën lists these for Heavy versions only, and says every ë-Relay is homologated as Heavy"
         quote: "Wheel Arches Mouldings - Van [only available on Heavy versions] XX03R £200"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "1 October 2026"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
@@ -524,6 +527,8 @@ facts:
   - claim: "the driver's weight is included within the payload"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "When Kerb Weight used, driver weight is Roof loads should be evenly distributed. Max roof load on L2 is 100kg, L3 150kg Specific differences: N2 vehicles are legally required to be speed limited at included within the Maximum Indicative Payload weight."
+  - claim: "leaves 655kg for the 3,500kg van"
+    calc: "Citroën's weights table, L3H2 3.5T van: gross weight 3,500kg minus mass in running order including driver 2,845kg = 655kg"
   - claim: "don't allow for any options you order"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Payload does Category N1: Vehicles designed and constructed for the carriage of goods and these weights are exceeded. not consider any additional options that a customer may order."

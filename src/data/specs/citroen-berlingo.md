@@ -52,9 +52,10 @@ tables:
       - ["0 to 62mph", "11.7 seconds"]
       - ["Towing (unbraked)", "750kg"]
 notes:
-  - "Citroën gives the official (WLTP) range as a spread for every version, depending on specification. Its technical table also lists a single combined figure of 213 miles."
-  - "Payloads are Citroën's maximum indicative figures. They don't include the driver and don't allow for options you add, so ask the dealer for the figure for your exact van."
-  - "The crew van comes only as an XL, in Enterprise trim, with five seats. Its load figures are with the rear seats in place."
+  - "Citroën gives the official (WLTP) range as 180 to 219 miles for every version, depending on specification. Its technical page also gives a single combined figure of 213 miles without saying which specification it applies to, so we use the 180 to 219 miles range."
+  - "Payloads are Citroën's maximum indicative figures. The driver's weight counts towards them, and they don't allow for options you add, so ask the dealer for the figure for your exact van."
+  - "The crew van comes only as an XL, in Enterprise trim, with five seats. Unless a row says the seats are folded, its load figures are with the rear seats in place."
+  - "Citroën's colour page doesn't say whether its paint prices include VAT. Its options page says all its recommended basic prices exclude VAT, and it marks its special fleet colour price as excluding VAT."
   - "Citroën doesn't recommend the optional 11kW charger unless you will mainly charge from three-phase power."
   - "The van warranty is three years: two years with unlimited mileage from Citroën, then a year from the retailer, limited to 100,000 miles."
 versions:
@@ -253,8 +254,6 @@ equipment:
             quote: "Two-position moveable ladder frame bulkhead ●"
           - text: "Plastic floor protection in the load area"
             quote: "Plastic floor protection in load area ●"
-          - text: "Twin sliding side doors"
-            quote: "Twin sliding side doors (Standard on XL and Crew only)"
 options:
   - category: "Packs"
     items:
@@ -301,7 +300,7 @@ options:
     items:
       - name: "16-inch Starlit alloy wheels"
         price: "£300"
-        note: "Enterprise Plus and Driver panel vans"
+        note: "Enterprise Plus and Driver panel vans in Citroën's options table, though its wheels page lists it for Driver only, so check with the dealer"
         quote: "16” Alloy Wheel \"Starlit\" DZSC £300 £300"
       - name: "Full-size steel spare wheel"
         price: "£140"
@@ -341,6 +340,9 @@ options:
         price: "£225"
         note: "Enterprise Plus and crew van (standard on Driver)"
         quote: "Perimetric and volumetric, Thatcham category 1 approved alarm with tilt sensor AB13 £225 ● £225"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "26 August 2026"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
@@ -504,7 +506,10 @@ facts:
   - claim: "Automatic, single fixed ratio"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Gearbox Automatic electric drive with fixed gear ratio"
-  - claim: "They don't include the driver and don't allow for options you add"
+  - claim: "The driver's weight counts towards them"
+    archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
+    quote: "When Kerb Weight used, driver weight is included within the"
+  - claim: "they don't allow for options you add"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Payload does not consider any additional options"
   - claim: "maximum indicative figures"
@@ -516,12 +521,18 @@ facts:
   - claim: "with five seats"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Crew Van XL Electric 136hp Automatic 2455 1888 1813 642 1200 1400 3205 750 750 50 5"
-  - claim: "Its load figures are with the rear seats in place"
+  - claim: "Unless a row says the seats are folded, its load figures are with the rear seats in place"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "Crew Van dimensions are based upon figures with the 2nd row seats"
   - claim: "Citroën doesn't recommend the optional 11kW charger unless you will mainly charge from three-phase power"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "11 kW three-phase onboard charger option is not recommended unless you intend to charge your ë-Berlingo Van primarily from a source"
+  - claim: "it marks its special fleet colour price as excluding VAT"
+    archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
+    quote: "Special Fleet Colours (£600 exc VAT) are available"
+  - claim: "Its options page says all its recommended basic prices exclude VAT"
+    archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
+    quote: "Options All Manufacturer's Recommended Basic Prices are exclusive of VAT."
   - claim: "limited to 100,000 miles"
     archive: sources/citroen-e-berlingo-van-price-spec-guide-2026-08.pdf
     quote: "provided warranty is limited to 100,000 miles"

@@ -50,9 +50,9 @@ tables:
       - ["Top speed", "81mph"]
       - ["0 to 62mph", "13.6 seconds"]
 notes:
-  - "Citroën's WLTP table gives 194 to 230 miles for every electric version, depending on options fitted, but its technical page and introduction quote up to 219 miles. We show the table figures."
+  - "Citroën's WLTP table gives 194 to 230 miles for every electric version, depending on the options fitted, but its technical page and introduction quote up to 219 miles. We show the table figures."
   - "Citroën lists these as maximum indicative payloads, worked out from a kerb weight without a driver, so the driver's weight comes out of the payload. It says its mass in running order, which includes the driver, gives a more realistic figure: on that basis the M panel van carries 1,135kg and the XL 1,063kg."
-  - "Driver and VTR vans have the EXTENSO folding passenger seat with a load-through bulkhead, which adds 1,162mm of load length and 0.5m³ of volume."
+  - "Driver and VTR panel vans have the EXTENSO folding passenger seat with a load-through bulkhead, which adds 1,162mm of load length and 0.5m³ of volume."
   - "Citroën rates the ë-Dispatch to tow 1,000kg braked, but the only towbar on its options list is marked diesel only."
   - "The crew van has a second row of three seats behind a plastic bulkhead with a window."
   - "VTR is a limited edition, so check availability with a dealer. Its price includes metallic paint."
@@ -108,7 +108,7 @@ shared:
   train: "4,100kg"
 archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
 equipment:
-  - trim: "Enterprise"
+  - trim: "Enterprise panel van"
     groups:
       - name: "Safety and driver assistance"
         items:
@@ -230,7 +230,7 @@ equipment:
             quote: "16 inch steel wheels with black centre caps"
           - text: "Black bumpers, rubbing strips, door handles and mirrors"
             quote: "Black front and rear bumpers, side rubbing strips, exterior door handles and door mirrors"
-  - trim: "Driver (adds to Enterprise)"
+  - trim: "Driver panel van (adds to Enterprise)"
     groups:
       - name: "Safety and driver assistance"
         items:
@@ -272,7 +272,7 @@ equipment:
             quote: "Painted decor strips (side mouldings)"
           - text: "Painted sliding door rail cover"
             quote: "Painted Sliding Door Rail Cover"
-  - trim: "VTR (adds to Driver)"
+  - trim: "VTR panel van (adds to Driver)"
     groups:
       - name: "Safety and driver assistance"
         items:
@@ -304,26 +304,50 @@ equipment:
         items:
           - text: "18-inch diamond-cut alloy wheels (replaces steel wheels)"
             quote: "Exclusive Diamond-Cut Dynamic 18” alloy wheels"
-          - text: "Body kit with front lip spoiler, side skirts, rear spoiler and unique rear bumper"
+          - text: "Body kit with front lip spoiler, side skirts, rear spoiler and unique rear bumper (Citroën does not list the Driver's painted sliding door rail cover or XL rear bumper corners on VTR)"
             quote: "Unique body kit featuring Front Lip Spoiler, Side skirts with integrated front mud guards,"
           - text: "VTR badging and livery"
             quote: "Unique VTR Badging and Livery"
+  - trim: "Crew van (differs from the panel van of the same trim)"
+    groups:
+      - name: "Safety and driver assistance"
+        items:
+          - text: "Front side and curtain airbags on every trim"
+            quote: "Driver and front passengers’ curtain and side-impact"
+      - name: "Cab and comfort"
+        items:
+          - text: "Two-seat front passenger bench with storage tray on every trim, so Driver and VTR crew vans do not get the EXTENSO seat"
+            quote: "Dual front passenger bench seat with under-seat storage tray"
+          - text: "Three individual second-row seats with two armrests and storage underneath"
+            quote: "Three individually contoured seats in row 2 with two armrests and under-seat storage"
+          - text: "Fixed tinted second-row side windows (darker tint on VTR)"
+            quote: "Fixed Side Windows in row 2 tinted to 70% opacity"
+      - name: "Load area"
+        items:
+          - text: "Plastic bulkhead with fixed window behind the second row, insulated for sound and temperature (replaces full steel bulkhead)"
+            quote: "Full toughened plastic bulkhead with polycarbonate window fixed behind row 2 seats,"
+          - text: "Load tie-down hooks (4 in the M, 6 in the XL)"
+            quote: "Load tie-down hooks in cargo area (4 in M versions, 6 in XL versions)"
 options:
   - category: "Packs"
     items:
       - name: "Winter Pack: heated driver's seat, front side and curtain airbags, heated leather steering wheel"
         price: "£500"
-        note: "Enterprise and Driver panel vans; standard on VTR"
-        quote: "driver and passenger thorax in the seats + curtain for the head [NF26], Heated Leather NA03 £500 £500"
+        note: "Enterprise and Driver panel vans (£300 on crew vans, which already have the airbags); standard on VTR"
+        quote: "driver and passenger thorax in the seats + curtain for the head [NF26], Heated Leather NA03 £500 £500 ● £300 £300"
   - category: "Paint"
     items:
       - name: "Titanium Grey metallic paint"
         price: "£650"
-        note: "Included in the VTR's price"
+        note: "Enterprise and Driver"
         quote: "Titanium Grey (M) (P0PR) (M01J) Standard Option £650"
-      - name: "Cumulus Grey or Perla Nera Black metallic paint"
+      - name: "Cumulus Grey metallic paint"
         price: "£650"
-        note: "Included in the VTR's price"
+        note: "Enterprise and Driver"
+        quote: "Cumulus Grey (M) Perla Nera Black (M) Interior ambience (M0F4) (M09V) Option £650 Option £650"
+      - name: "Perla Nera Black metallic paint"
+        price: "£650"
+        note: "Enterprise and Driver; included in the VTR's price"
         quote: "Cumulus Grey (M) Perla Nera Black (M) Interior ambience (M0F4) (M09V) Option £650 Option £650"
       - name: "Passion Red special paint"
         price: "£750"
@@ -411,6 +435,9 @@ options:
         price: "£350"
         note: "Enterprise panel van"
         quote: "e-PTO (Electrical Power Take Off) on 400V battery: High power connector on junction Safety and security 4204 £350"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-01
 facts:
   - claim: "8 October 2026"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf

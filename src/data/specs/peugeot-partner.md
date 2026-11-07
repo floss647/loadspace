@@ -52,9 +52,10 @@ tables:
       - ["0 to 62mph", "11.7 seconds"]
       - ["Towing (unbraked)", "750kg"]
 notes:
-  - "Peugeot gives the official (WLTP) range as a spread for every version, depending on specification. Its technical table also lists a single combined figure of 213 miles."
-  - "Payloads are Peugeot's maximum indicative figures. They don't include the driver and don't allow for options you add, so ask the dealer for the figure for your exact van."
-  - "The panel van comes in Professional Plus and Asphalt trims. The crew van comes only as an XL, in Professional trim, with five seats, and its load figures are with the rear seats in place."
+  - "Peugeot gives the official (WLTP) range as 180 to 219 miles for every version, depending on specification. Its technical page also gives a single combined figure of 213 miles without saying which specification it applies to, so we use the 180 to 219 miles range."
+  - "Payloads are Peugeot's maximum indicative figures. The driver's weight counts towards them, and they don't allow for options you add, so ask the dealer for the figure for your exact van."
+  - "The panel van comes in Professional Plus and Asphalt trims. The crew van comes only as an XL, in Professional trim, with five seats. Unless a row says the seats are folded, its load figures are with the rear seats in place."
+  - "Peugeot's options pages don't say whether option prices include VAT. Its price list says all its recommended basic prices exclude VAT, and its paint prices are marked as excluding VAT."
   - "Peugeot doesn't recommend the optional 11kW charger unless you will mainly charge from three-phase power."
 versions:
   - name: "M panel van"
@@ -276,8 +277,6 @@ equipment:
             quote: "Two-position moveable ladder frame bulkhead"
           - text: "Plastic floor protection in the load area"
             quote: "Plastic floor protection in load area"
-          - text: "Twin sliding side doors"
-            quote: "Twin sliding side doors (Standard on XL and Crew only)"
 options:
   - category: "Packs"
     items:
@@ -365,6 +364,9 @@ options:
         price: "£225"
         note: "Professional Plus and crew van (standard on Asphalt)"
         quote: "Perimetric and volumetric, Thatcham category 1 approved alarm with tilt sensor AB13 £225 £225"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-07
 facts:
   - claim: "26 August 2026"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
@@ -528,9 +530,18 @@ facts:
   - claim: "Automatic, single fixed ratio"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Automatic electric drive Gearbox with fixed gear ratio"
-  - claim: "They don't include the driver and don't allow for options you add"
+  - claim: "The driver's weight counts towards them"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
+  - claim: "they don't allow for options you add"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Payload does not consider any additional options that a"
+  - claim: "Its price list says all its recommended basic prices exclude VAT"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "Basic Prices are exclusive of V.A.T., Delivery to Retailer and Number Plates"
+  - claim: "its paint prices are marked as excluding VAT"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "£500.00 EXC. VAT"
   - claim: "maximum indicative figures"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "NO DRIVER NO DRIVER DRIVER Panel Van M ELECTRIC 136hp Automatic 2450 1766 1691 759"
@@ -543,7 +554,7 @@ facts:
   - claim: "with five seats"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Crew Van XL ELECTRIC 136hp Automatic 2455 1888 1813 642 1200 1400 3205 750 750 50 5"
-  - claim: "its load figures are with the rear seats in place"
+  - claim: "Unless a row says the seats are folded, its load figures are with the rear seats in place"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Load volume (without rear seats or passenger seat folded) 1.8"
   - claim: "Peugeot doesn't recommend the optional 11kW charger unless you will mainly charge from three-phase power"

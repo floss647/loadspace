@@ -6,16 +6,16 @@ date: 2026-10-30T08:00:00Z
 summary: "Peugeot's version of the Stellantis small electric van stands apart for one thing, its small-wheel i-Cockpit, so sit in one before you sign. Underneath it's the same sound, quiet urban van as its siblings."
 specs:
   price: "From £28,955 + VAT (M Professional Plus), before the £2,500 grant"
-  range: "213 miles"
+  range: "180 to 219 miles (WLTP)"
   charging: "100kW"
-  payload: "759 kg (no driver)"
+  payload: "Up to 759kg (the driver counts towards it)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The E-Partner is a capable small electric van for local work, with a 213-mile official range, 100kW rapid charging and up to 4.4 cubic metres of load space, the same maximum as the diesel. What sets it apart from its Citroën, Vauxhall, Fiat and Toyota twins is the i-Cockpit, a small, low steering wheel with the dials set above it, which some drivers like and others can't get comfortable with. Prices and kit closely track the Citroën, so the choice usually comes down to the driving position, the deal and the dealer. Try one first."
-good: ["Smoother and quieter than the diesel at speed", "Rapid charging at up to 100kW", "Large load area with a through-load option"]
+verdict: "The E-Partner is a capable small electric van for local work, with an official range of 180 to 219 miles, 100kW rapid charging and up to 4.4 cubic metres of load space, the same maximum as the diesel. What sets it apart from its Citroën, Vauxhall, Fiat and Toyota twins is the i-Cockpit, a small, low steering wheel with the dials set above it, which some drivers like and others can't get comfortable with. Prices and kit closely track the Citroën, so the choice usually comes down to the driving position, the deal and the dealer. Try one first."
+good: ["Smoother and quieter than the diesel at speed", "Rapid charging at up to 100kW", "Large load area with a through-load bulkhead"]
 bad: ["The i-Cockpit layout won't suit every driver", "Blind spots on both sides", "Tight for three in the cab"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/peugeot/partner
   - https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
@@ -32,15 +32,21 @@ facts:
   - claim: "£2,500 grant"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "any discounts applied up to a maximum of £2,500"
+  - claim: "180 to 219 miles (WLTP)"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "Panel Van M ELECTRIC 352 289 219 180"
   - claim: "213 miles"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "WLTP Range (Combined) 213mi"
   - claim: "100kW"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Rapid (DC) Charging (100 kW) – CCS Socket 30m (0 to 80%)"
-  - claim: "759 kg (no driver)"
+  - claim: "Up to 759kg"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "NO DRIVER NO DRIVER DRIVER Panel Van M ELECTRIC 136hp Automatic 2450 1766 1691 759"
+  - claim: "the driver counts towards it"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
   - claim: "Eight years or 100,000 miles"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Battery Warranty 8 years/100,000 miles/70% capacity"
@@ -53,9 +59,9 @@ facts:
   - claim: "where its sister vans use a larger wheel with the dials behind it"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "its sister models have a more conventional setup and bigger steering wheel"
-  - claim: "a 213-mile official range"
-    source: https://www.autoexpress.co.uk/peugeot/partner
-    quote: "saw its range figure increase to 213 miles"
+  - claim: "an official range of 180 to 219 miles"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "Panel Van M ELECTRIC 352 289 219 180"
   - claim: "100kW rapid charging"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "peak charging speeds of 100kW at a DC rapid charger"
@@ -92,9 +98,6 @@ facts:
   - claim: "a 750kg trailer"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "For those with frequent motorway miles or the need to tow more than 750kg, a diesel version will make more sense."
-  - claim: "the quoted figure was 205 miles"
-    source: https://www.autoexpress.co.uk/news/362568/refreshed-peugeot-e-boxer-e-expert-and-e-partner-electric-vans-launched-all-once
-    quote: "can now cover up to 205 miles from a single charge"
   - claim: "the wheel can end up lower than you'd like if you want to read the dials"
     source: https://www.autoexpress.co.uk/peugeot/partner
     quote: "you may find the small wheel is positioned lower than you like if you want to read the dials"
@@ -158,24 +161,24 @@ facts:
   - claim: "gives the payload as up to 759kg in the M and 691kg in the XL"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Panel Van M ELECTRIC 136hp Automatic 2450 1766 1691 759 1200 1400 3200 750 750 50 3 Panel Van XL ELECTRIC 136hp Automatic 2450 1834 1759 691"
-  - claim: "not counting the driver"
+  - claim: "the driver's weight counts towards those figures"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
-    quote: "Payload do not include driver"
-  - claim: "gives an official combined figure of 213 miles"
-    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
-    quote: "WLTP Range (Combined) 213mi"
-  - claim: "a range of 180 to 219 miles in its WLTP table, the same for the M and XL"
+    quote: "driver weight is included within the Maximum Indicative Payload weight."
+  - claim: "gives the official WLTP range as 180 to 219 miles for every version"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Panel Van M ELECTRIC 352 289 219 180 490 391 304 243 174 217 BATTERY 136hp Automatic Chemistry Li-Ion – LFP Panel Van XL ELECTRIC 136hp 352 289 219 180"
+  - claim: "Its technical page also gives a single combined figure of 213 miles"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "WLTP Range (Combined) 213mi"
   - claim: "6 hours 43 minutes to full on a 7.4kW wallbox"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Single Phase Wallbox (7.4kW) – Type 2 Socket 6h 43m (100%)"
   - claim: "4 hours 50 minutes on an 11kW three-phase wallbox"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Three Phase Wallbox (11kW) – Type 2 Socket 4h 50m (100%)"
-  - claim: "the £350 on-board charger upgrade"
+  - claim: "the optional 11kW on-board charger"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
-    quote: "£350 £350 £350 11 kW bi-directional three-phase onboard charger"
+    quote: "11 kW bi-directional three-phase onboard charger"
   - claim: "which Peugeot only recommends if you'll mainly charge from three-phase power"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "11kW three-phase onboard charger option is not recommended unless you intend to charge your Partner Van primarily from a source connected to three-phase power"
@@ -194,7 +197,7 @@ facts:
   - claim: "a digital rear-view mirror with side view, blind spot detection and a 180-degree rear camera"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Digital rear view mirror and lateral side view – Fully integrated Satellite Navigation system – Blind spot detection – 10\" HD colour touchscreen – Front and rear parking distance sensors – AM/FM/DAB digital radio – Flankguard detection of fixed obstacles – Wifi Mirroring – Visiopark 180° rear parking camera"
-  - claim: "Alloy wheels are an option, at £300"
+  - claim: "Both panel van trims come on steel wheels, with alloys as an option"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "16\" Alloy Wheel \"Taranaki\" DZSB £300 £300"
   - claim: "£31,255"
@@ -220,13 +223,13 @@ This is the bit that makes the Peugeot different, so it comes first. The i-Cockp
 
 ### Load area and payload
 
-The E-Partner offers up to 4.4 cubic metres, the same maximum as the diesel Partner. The M van holds 3.3 cubic metres and the XL 3.9, or 3.8 and 4.4 with the passenger seat folded. Peugeot's own August 2026 price guide gives the payload as up to 759kg in the M and 691kg in the XL, not counting the driver. The electric van tows a 750kg trailer at most, so heavy towing is still diesel territory.
+The E-Partner offers up to 4.4 cubic metres, the same maximum as the diesel Partner. The M van holds 3.3 cubic metres and the XL 3.9, or 3.8 and 4.4 with the passenger seat folded. Peugeot's own August 2026 price guide gives the payload as up to 759kg in the M and 691kg in the XL, and the driver's weight counts towards those figures. The electric van tows a 750kg trailer at most, so heavy towing is still diesel territory.
 
 ### Range and charging in the real world
 
-At the facelift launch the quoted figure was 205 miles. Peugeot's guide now gives an official combined figure of 213 miles, and a range of 180 to 219 miles in its WLTP table, the same for the M and XL. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
+Peugeot's own August 2026 price guide gives the official WLTP range as 180 to 219 miles for every version, M, XL and crew van alike, depending on specification. Its technical page also gives a single combined figure of 213 miles without saying which specification it applies to, so we quote the 180 to 219 miles range. It suits a van doing well under 200 miles a day around its patch: lots of slow driving and regenerative braking helps, while sustained high speeds pull it down faster.
 
-Rapid charging runs at up to 100kW, enough to go from zero to 80 per cent in half an hour. At the depot, Peugeot quotes 6 hours 43 minutes to full on a 7.4kW wallbox, or 4 hours 50 minutes on an 11kW three-phase wallbox with the £350 on-board charger upgrade, which Peugeot only recommends if you'll mainly charge from three-phase power. See our [charging guide](/guides/charging-an-electric-van/).
+Rapid charging runs at up to 100kW, enough to go from zero to 80 per cent in half an hour. At the depot, Peugeot quotes 6 hours 43 minutes to full on a 7.4kW wallbox, or 4 hours 50 minutes on an 11kW three-phase wallbox with the optional 11kW on-board charger, which Peugeot only recommends if you'll mainly charge from three-phase power. See our [charging guide](/guides/charging-an-electric-van/).
 
 ### On the road
 
@@ -234,7 +237,7 @@ The one published road test of the facelifted E-Partner we've seen found it smoo
 
 ### Cab and kit
 
-The panel van comes in Professional Plus and Asphalt trims, and the crew van in Professional trim. Professional Plus brings a 10-inch touchscreen with smartphone mirroring and a 10-inch digital instrument display, plus a three-seat cab with a through-load bulkhead. Asphalt adds sat-nav, a body-coloured rear bumper, fog lights and an alarm, plus a digital rear-view mirror with side view, blind spot detection and a 180-degree rear camera. Alloy wheels are an option, at £300. The facelift also arrived with ChatGPT built into its voice assistant, a novelty most trades will ignore. Three adults is a squeeze.
+The panel van comes in Professional Plus and Asphalt trims, and the crew van in Professional trim. Professional Plus brings a 10-inch touchscreen with smartphone mirroring and a 10-inch digital instrument display, plus a three-seat cab with a through-load bulkhead. Asphalt adds sat-nav, a body-coloured rear bumper, fog lights and an alarm, plus a digital rear-view mirror with side view, blind spot detection and a 180-degree rear camera. Both panel van trims come on steel wheels, with alloys as an option. The facelift also arrived with ChatGPT built into its voice assistant, a novelty most trades will ignore. Three adults is a squeeze.
 
 ### Which version to buy
 

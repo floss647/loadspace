@@ -3,7 +3,7 @@ layout: ../../layouts/Review.astro
 title: "Citroën ë-Relay review"
 van: citroen-relay
 date: 2026-10-30T08:00:00Z
-summary: "Citroën's big electric van now has the same 110kWh battery and 150kW charging as its Stellantis twins, plus an eight-year cover on the battery and running gear. Get the heavier version if payload matters, and compare quotes across the twins before you buy."
+summary: "Citroën's big electric van now has the same 110kWh battery and 150kW charging as its Stellantis twins, plus eight years of cover on the battery. Get the heavier version if payload matters, and compare quotes across the twins before you buy."
 specs:
   price: "£49,735"
   range: "Up to 263 miles"
@@ -13,7 +13,7 @@ specs:
 verdict: "The ë-Relay is no longer the odd one out in Citroën's range: since the update it uses the same electric drive as the Fiat, and it has a long official range and quick charging. The one detailed UK review we found covers the diesel too, and it rates the electric van as calmer and more refined than the noisy diesel Relay, though still a big, basic workhorse with an awkward driving position for some. The 3.5-tonne version's payload is poor, so most buyers will want a 4.25-tonne van. Compare quotes across all five badges, because the van underneath is the same."
 good:
   - "Long official range and 150kW charging"
-  - "Battery and running gear covered for eight years or 100,000 miles"
+  - "Battery covered for eight years or 100,000 miles"
   - "More refined than the diesel Relay"
 bad:
   - "Only 730kg payload at 3.5 tonnes"
@@ -21,7 +21,7 @@ bad:
   - "Hard, basic cabin plastics"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/citroen/relay
   - https://www.autoexpress.co.uk/vauxhall/movano
@@ -44,7 +44,7 @@ facts:
   - claim: "before VAT"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "All Manufacturer’s Recommended Basic Prices are exclusive of VAT."
-  - claim: "include delivery and number plates and take off the £5,000 van grant"
+  - claim: "include delivery, number plates, the registration fee and first-year road tax and take off the £5,000 van grant"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "and including any discounts applied up to a maximum of £5,000."
   - claim: "October 2026"
@@ -134,10 +134,16 @@ facts:
   - claim: "cruise control isn't fitted to the 4.25-tonne vans"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Cruise control with speed limiter (excl. 4.25T)"
+  - claim: "Citroën lists it only as a diesel option"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "AO03 £450 Diesel £450 Diesel"
+  - claim: "the law requires at that weight"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "Specific differences, all N2 vehicles are legally required to be speed limited at 56mph, and have a tachograph"
   - claim: "blind spot and moving off warnings"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Moving off information system (MOIS) & Blind spot information systems l l works (BSIS) 4.25T"
-  - claim: "a tachograph and a 56mph limiter"
+  - claim: "the tachograph and 56mph limiter"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Smart Tachograph & 56mph Speed Limiter l l l l 4.25T"
   - claim: "Side airbags cost £540 before VAT"
@@ -161,12 +167,12 @@ facts:
   - claim: "110kWh battery"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "this features a 110kWh battery mounted under the cargo floor"
-  - claim: "an eight-year cover on the battery and running gear"
-    source: https://www.autoexpress.co.uk/citroen/relay
-    quote: "drive battery and running gear are covered for eight years and 100,000 miles"
-  - claim: "Battery and running gear covered for eight years or 100,000 miles"
-    source: https://www.autoexpress.co.uk/citroen/relay
-    quote: "drive battery and running gear are covered for eight years and 100,000 miles"
+  - claim: "eight years of cover on the battery"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years / 100,000 miles / 70% capacity"
+  - claim: "Battery covered for eight years or 100,000 miles"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years / 100,000 miles / 70% capacity"
   - claim: "since the update it uses the same electric drive as the Fiat"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "an update at the end of 2024 saw all three models achieve equal status in terms of electric drive"
@@ -257,9 +263,9 @@ facts:
   - claim: "a five-year anti-perforation guarantee"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "there's a five-year anti-perforation guarantee"
-  - claim: "the battery and running gear get eight years or 100,000 miles"
-    source: https://www.autoexpress.co.uk/citroen/relay
-    quote: "drive battery and running gear are covered for eight years and 100,000 miles"
+  - claim: "the battery gets eight years or 100,000 miles"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "Battery Warranty 8 years / 100,000 miles / 70% capacity"
   - claim: "Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer"
     source: https://www.autoexpress.co.uk/citroen/relay
     quote: "being covered by a warranty that lasts up to 10 years if you get it serviced annually at a Toyota franchise"
@@ -295,13 +301,13 @@ The road impressions we found come from one review of the whole Relay range, die
 
 ### Cab and kit
 
-The electric panel van comes in one trim, Enterprise, with automatic air conditioning, rear parking sensors, an electric parking brake, a seven-inch touchscreen with Apple CarPlay and Android Auto, and Citroën's connected services. Citroën's trim page says cruise control isn't fitted to the 4.25-tonne vans, which get blind spot and moving off warnings, a tachograph and a 56mph limiter instead. There's storage under the passenger seat for the charging cable. Side airbags cost £540 before VAT and need the £350 Interior Upgrade Pack.
+The electric panel van comes in one trim, Enterprise, with automatic air conditioning, rear parking sensors, an electric parking brake, a seven-inch touchscreen with Apple CarPlay and Android Auto, and Citroën's connected services. Citroën's trim summary says cruise control isn't fitted to the 4.25-tonne vans, though its equipment table doesn't make that exception, so check with the dealer. The 4.25-tonne vans do get blind spot and moving off warnings as standard, along with the tachograph and 56mph limiter the law requires at that weight. On the lighter electric van, blind spot warning isn't available: Citroën lists it only as a diesel option. There's storage under the passenger seat for the charging cable. Side airbags cost £540 before VAT and need the £350 Interior Upgrade Pack.
 
 ### Warranty and price
 
-The van warranty is three years or 100,000 miles, paint cover is two years and there's a five-year anti-perforation guarantee. The electric van's cover is more generous: the battery and running gear get eight years or 100,000 miles, and Citroën's guide says the battery is covered down to 70% of its charging capacity. Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer, though.
+The van warranty is three years or 100,000 miles, paint cover is two years and there's a five-year anti-perforation guarantee. The electric van's cover is more generous: the battery gets eight years or 100,000 miles, and Citroën's guide says it is covered down to 70% of its charging capacity. Toyota's warranty can run to 10 years if the van is serviced every year at a Toyota dealer, though.
 
-Citroën's October 2026 guide lists the ë-Relay panel van from £49,735 before VAT for the 3.5-tonne L3H2, up to £52,165 for the L4H3. Its on-the-road prices, which include delivery and number plates and take off the £5,000 van grant, start at £46,224.17 before VAT. The ë-Relay is on the government's list of large vans eligible for the van grant, worth up to £5,000 (our [grants and tax guide](/guides/grants-and-tax/) explains how it works). Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Citroën's October 2026 guide lists the ë-Relay panel van from £49,735 before VAT for the 3.5-tonne L3H2, up to £52,165 for the L4H3. Its on-the-road prices, which include delivery, number plates, the registration fee and first-year road tax and take off the £5,000 van grant, start at £46,224.17 before VAT. The ë-Relay is on the government's list of large vans eligible for the van grant, worth up to £5,000 (our [grants and tax guide](/guides/grants-and-tax/) explains how it works). Run your numbers through our [electric vs diesel calculator](/tools/electric-vs-diesel/).
 
 ### Alternatives
 
