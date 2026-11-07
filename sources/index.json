@@ -231,6 +231,14 @@
     "via": "Supplied by the editor, downloaded from Peugeot's UK website",
     "sha256": "57d66d3ef99fcc745a9771184551efddb0322108f5e01cb667c36c7aad474ed9"
   },
+  "peugeot-expert-price-spec-guide-2026-10.pdf": {
+    "title": "Peugeot Expert (including e-Expert) Prices, Equipment & Technical Specifications (2027 model year)",
+    "publisher": "peugeot.co.uk",
+    "effective": "8 October 2026",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor, downloaded from Peugeot's UK website",
+    "sha256": "c4eeb7ef142b0f3d8bbddb1aae4fda5a2328bf764c7d7fbbf863ca8f9699b286"
+  },
   "vauxhall-van-range-press-kit-2024-11.pdf": {
     "title": "Vauxhall Van Range Press Kit (Combo, Vivaro, Movano, including electric)",
     "publisher": "vauxhall.co.uk",

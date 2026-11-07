@@ -8,7 +8,7 @@ specs:
   price: "£41,460"
   range: "Up to 230 miles (194 to 230 miles WLTP, depending on options)"
   charging: "100kW"
-  payload: "1,210kg (M panel van, no driver)"
+  payload: "1,210kg (M panel van, driver's weight counts against it)"
   batteryWarranty: "Eight years or 100,000 miles"
 verdict: "The ë-Dispatch is a sensible, well-specified electric medium van rather than a standout. Official range of up to 230 miles and 100kW rapid charging cover most local and regional work, and even the entry Enterprise trim gets twin sliding doors, two 10-inch screens and rear parking sensors. The catches are a load area that trails the biggest rivals and a narrow cab. It is pretty much the same van as its Vauxhall, Peugeot, Fiat and Toyota twins, so let the best quote decide."
 good: ["Twin sliding doors and two 10-inch screens as standard", "Rapid charging at up to 100kW", "Power take-off option to run tools from the battery"]
@@ -150,12 +150,11 @@ facts:
   - claim: "Official range of up to 230 miles"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Panel Van M Electric 136hp Automatic 370 313 230 194"
-  - claim: "1,210kg (M panel van, no driver)"
+  - claim: "1,210kg (M panel van, driver's weight counts against it)"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Panel Van M Electric 136hp Automatic 3230 2095 2020 1210 1530 1800 4100 1000 750 60 3"
-  - claim: "no driver"
-    archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
-    quote: "(1) Without driver"
+  - claim: "driver's weight counts against it"
+    calc: "Citroën's weights table gives the kerb weight '(1) Without driver' (2,020kg for the M panel van) and payload as gross weight minus that kerb weight (3,230kg - 2,020kg = 1,210kg), so a driver's weight comes out of the payload."
   - claim: "October 2026"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Effective from 8 October 2026 - MY27 (M0)"
