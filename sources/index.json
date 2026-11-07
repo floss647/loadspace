@@ -230,5 +230,13 @@
     "received": "2026-11-07",
     "via": "Supplied by the editor, downloaded from Peugeot's UK website",
     "sha256": "57d66d3ef99fcc745a9771184551efddb0322108f5e01cb667c36c7aad474ed9"
+  },
+  "vauxhall-van-range-press-kit-2024-11.pdf": {
+    "title": "Vauxhall Van Range Press Kit (Combo, Vivaro, Movano, including electric)",
+    "publisher": "vauxhall.co.uk",
+    "effective": "November 2024 (press kit; prices in it are out of date)",
+    "received": "2026-11-07",
+    "via": "Supplied by the editor (Vauxhall UK press kit)",
+    "sha256": "b18ea6142af14ebb1cc0aac1530646ea96d34f6cb0a46c9fb92f9ae940924466"
   }
 }
