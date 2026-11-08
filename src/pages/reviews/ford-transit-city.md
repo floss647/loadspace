@@ -15,7 +15,7 @@ good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous st
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-08
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
@@ -165,9 +165,11 @@ facts:
   - claim: "the high-roof van is rated at"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "LWB High Roof 139.2 43.45 211.2 28 33 mins 87"
-  - claim: "Ford quotes 236 miles"
-    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "158 Miles WLTP Combined range reflects a combined WLTP driving cycle whilst 236 Miles WLTP City Range reflects the WLTP city driving cycle"
+  - claim: "about 237 miles for the L1H1 and 211 miles for the high-roof van"
+    calc: "Ford UK price list, WLTP City Range (m) column: SWB Low Roof (L1H1) 236.7 and LWB High Roof 211.2 (the SWB row quoted below, the LWB row quoted above), rounded to the nearest mile = about 237 miles and 211 miles"
+  - claim: "Ford's price list gives about"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "SWB Low Roof 157.8 38.3 236.7 24.95 33 mins 87 8 hours 5.5 hours"
   - claim: "tested at 23°C with no heating or other electrical load"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "conducted in controlled conditions with an ambient temperature of 23 degrees Celsius and no climate or electrical load"
@@ -335,7 +337,7 @@ There are two panel vans. The L1H1 van has up to 6.4m³ of load space, room for 
 
 ### Range and charging in the real world
 
-Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford quotes 236 miles. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
+Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford's price list gives about 237 miles for the L1H1 and 211 miles for the high-roof van. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
 
 Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and launch reports gave an average rate of 67kW. That's a lower peak than the E-Transit Custom's 125kW, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 

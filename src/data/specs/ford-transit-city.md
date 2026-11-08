@@ -49,10 +49,10 @@ tables:
       - ["Width without mirrors", "1,885mm", "1,885mm"]
 notes:
   - "The Transit City comes in one trim, Trend. Ford also lists a chassis cab for conversions, which isn't covered here."
-  - "The ranges are official WLTP figures. Ford says the tests are run at 23°C with no heating or other electrical load, and that actual range varies with temperature, driving style, route and battery age."
+  - "The ranges are official WLTP figures. Ford says the tests are run at 23°C with no climate control or other electrical load, and that actual range varies with temperature, driving style, route and battery age."
   - "Ford's payloads are gross figures that don't include the driver, so allow for the driver's weight on top."
-  - "Ford's powertrain table gives a usable battery of 56kWh, while its equipment list names the traction battery as 55.59kWh."
-  - "Ford's price list doesn't give a top speed or towing limits. The battery warranty is from Ford's UK electric vehicle benefits page, not the price list."
+  - "Ford's powertrain table gives a usable battery of 56kWh, while its equipment list names the traction battery as 55.59kWh. Ford doesn't explain the difference."
+  - "Ford's price list doesn't give a top speed or towing limits. The battery warranty isn't in the price list: it's from Ford's UK electric vehicle benefits page, which says it applies to all Ford EVs, to a minimum of 70% battery capacity."
 versions:
   - name: "SWB low-roof van"
     figures:
@@ -241,10 +241,13 @@ options:
         price: "£650"
         note: "Both vans"
         quote: "Panther Black Metallic PNJAB O 650 780"
-      - name: "Broom Yellow (special-order colour)"
+      - name: "Broom Yellow (Ford SVO special colour)"
         price: "£1,000"
         note: "Both vans"
         quote: "Broom Yellow SVO PSTBL O 1,000 1,200"
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-08
 facts:
   - claim: "29 April 2026"
     archive: sources/ford-transit-city-price-list-2026-04.pdf
@@ -286,6 +289,11 @@ facts:
   - claim: "kWh per 100 miles"
     archive: sources/ford-transit-city-price-list-2026-04.pdf
     quote: "(kWh/100m)"
+  - claim: "kWh per 100 miles"
+    calc: "Ford's table headings give range as 'Range (m)' and energy use as '(kWh/100m)'. The SWB combined range of 157.8 (m) is the 158 miles on Ford's Transit City page (fact below), so m is miles and kWh/100m means kWh per 100 miles"
+  - claim: "158 miles"
+    source: https://www.ford.co.uk/vans-and-pickups/transit-city
+    quote: "Up to 158-mile"
   - claim: "158 miles"
     calc: "Ford UK price list, WLTP Combined Range (m), SWB Low Roof: 157.8 (fact above), rounded to the nearest mile = 158 miles"
   - claim: "139 miles"
@@ -317,6 +325,9 @@ facts:
   - claim: "100,000 miles"
     source: https://www.ford.co.uk/hybrid-electric/benefits
     quote: "all Ford EVs come with an eight-year, 100,000 mile EV battery warranty"
+  - claim: "to a minimum of 70% battery capacity"
+    source: https://www.ford.co.uk/hybrid-electric/benefits
+    quote: "100,000 mile EV battery warranty (minimum 70% capacity"
   - claim: "23°C"
     archive: sources/ford-transit-city-price-list-2026-04.pdf
     quote: "conducted in controlled conditions with an ambient temperature of 23 degrees Celsius and no climate or electrical load"
