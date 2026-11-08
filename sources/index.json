@@ -63,6 +63,14 @@
     "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
     "sha256": "a056fe95810d6fd5dead7a20962afaf87b92e2ac0a99d252e013137e08a634f0"
   },
+  "ford-transit-city-price-list-2026-04.pdf": {
+    "title": "Ford Transit City price list (van and chassis cab)",
+    "publisher": "ford.co.uk",
+    "effective": "29 April 2026",
+    "received": "2026-11-08",
+    "via": "Downloaded from Ford's UK website by our fact-checker (honest user agent)",
+    "sha256": "847840f2c47535cbfa10629ebeb3fa34a87bd4f162ed67d8bd5fea893e97509e"
+  },
   "ford-transit-price-list-2026-08.pdf": {
     "title": "Ford Transit 27MY UK price list (includes E-Transit)",
     "publisher": "ford.co.uk",
