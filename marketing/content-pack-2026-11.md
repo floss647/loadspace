@@ -8,10 +8,12 @@ Ten LinkedIn posts, twelve YouTube Shorts scripts and one trade press pitch. Eve
 - **Order:** any order works, but keep the two tax posts (5 and 6) apart, and don't post a LinkedIn post and the Short on the same subject in the same week.
 - **Links:** every link uses https://loadspace-vans.netlify.app/. When vanelectric.co.uk goes live, swap the domain (the paths stay the same). The repo's `src/data/site.js` still sets the site name to "Loadspace", so check the live site shows "Van Electric" before you start posting.
 - **Paste the post text only.** Leave out the "Sources" line under each post and script.
-- **Re-check before posting.** If a spec page, review or the tax rules page has been updated since 8 November 2026, check the figures in the post against it. The Budget 2026 changes in posts 5 and 6 are not law yet (subject to Finance Bill 2026-27), and grant rules can change.
+- **Re-check before posting.** Sources can update, so re-check every figure in a post or script against the site's spec pages, reviews, news and tax rules page before you post it, especially anything updated since 8 November 2026. The Budget 2026 changes in post 5, post 6 and Short 7 are not in force yet (the first-year allowance rise is subject to Finance Bill 2026-27), and grant rules can change.
+- **Comparison pages:** the /compare/ pages linked in posts 9 and 10 and Shorts 3 and 12 aren't on the live site yet (they're on the `compare-pages` branch). Don't post those four until the pages are live and you've checked each link opens.
 - **Images:** don't use maker press photos (editorial use only, see NEWSROOM.md). Use screenshots of our own spec tables and comparison pages, or plain text cards.
 - **Shorts:** film the presenter to camera, or use on-screen text over screenshots of our own pages. No van needed. Never say or suggest we drove a van.
 - **These posts don't repeat the earlier ones** in `linkedin-posts.md` (MOT data, the ZEV mandate, the grant explainer, the lease calculator's £279 example).
+- Fact-checked against the site on 8 November 2026.
 
 ---
 
@@ -51,7 +53,7 @@ https://loadspace-vans.netlify.app/vans/
 
 The makers' own rapid charging figures, as published:
 
-• Ford E-Transit Custom: 10 to 80% in 29 minutes, up to 125kW
+• Ford E-Transit Custom: 10 to 80% in 29 minutes, up to 125kW (Ford's price list; its website says about 39 minutes)
 • Volkswagen e-Transporter: 10 to 80% in 29 minutes, up to 125kW
 • Citroën ë-Berlingo: 0 to 80% in 30 minutes, up to 100kW
 • Ford Transit City: 10 to 80% in 33 minutes, up to 87kW
@@ -68,7 +70,7 @@ https://loadspace-vans.netlify.app/vans/
 
 #ElectricVans #EVCharging #Fleet
 
-> Sources: `src/data/specs/ford-transit-custom.md`, `volkswagen-transporter.md`, `citroen-berlingo.md`, `ford-transit-city.md`, `nissan-townstar.md`, `renault-kangoo.md`, `citroen-dispatch.md`, `citroen-relay.md` (each file's "Charging and battery" or "Range and charging" table). All in `src/data/specs/`.
+> Sources: `src/data/specs/ford-transit-custom.md`, `volkswagen-transporter.md`, `citroen-berlingo.md`, `ford-transit-city.md`, `nissan-townstar.md`, `renault-kangoo.md`, `citroen-dispatch.md`, `citroen-relay.md` (each file's "Charging and battery" or "Range and charging" table). All in `src/data/specs/`. Ford's "about 39 minutes" website figure: `src/pages/reviews/ford-transit-custom.md` (range and charging section).
 
 ---
 
@@ -94,7 +96,7 @@ https://loadspace-vans.netlify.app/vans/
 
 #ElectricVans #FleetManagement
 
-> Sources: `src/data/specs/citroen-dispatch.md`, `peugeot-expert.md`, `volkswagen-transporter.md`, `nissan-townstar.md`, `nissan-interstar.md`, `renault-kangoo.md`, `mercedes-benz-sprinter.md`, `farizon-sv.md`, `farizon-v7e.md`, `kgm-musso.md` (battery warranty rows and `shared.warranty`); ë-Berlingo van warranty from the notes in `src/data/specs/citroen-berlingo.md`. "Most common": of the 24 spec files that give a battery warranty, 18 give 8 years (or eight years) or 100,000 miles, with or without a capacity level.
+> Sources: `src/data/specs/citroen-dispatch.md`, `peugeot-expert.md`, `volkswagen-transporter.md`, `nissan-townstar.md`, `nissan-interstar.md`, `renault-kangoo.md`, `mercedes-benz-sprinter.md`, `farizon-sv.md`, `farizon-v7e.md`, `kgm-musso.md` (battery warranty rows and `shared.warranty`); ë-Berlingo van warranty from the notes in `src/data/specs/citroen-berlingo.md`. "Most common": of the 22 spec files that give a battery warranty, 18 give 8 years (or eight years) or 100,000 miles, with or without a capacity level.
 
 ---
 
@@ -129,9 +131,9 @@ For 2026/27, an employee who can use a company diesel or petrol van privately pa
 
 For a zero-emission van, both are nil.
 
-There's no charge at all if the van is mainly for business travel, is used privately only for commuting, and the terms of use forbid other private use. HMRC calls this the restricted private use condition. A small detour for a newspaper on the way to work doesn't break it.
+There's no charge if the van is mainly for business travel, is used privately only for commuting, and the terms of use forbid other private use. HMRC calls this the restricted private use condition. A small detour for a newspaper on the way to work doesn't break it.
 
-Coming next: in the 2027 to 2028 tax year, the van benefit charge is due to rise to £4,310 and the van fuel benefit charge to £825.
+Coming next, from Budget 2026 but not yet in force: in the 2027 to 2028 tax year, the van benefit charge is due to rise to £4,310 and the van fuel benefit charge to £825.
 
 Check your own position with your accountant. Our calculator includes the driver's tax:
 
@@ -154,7 +156,7 @@ What's available for 2026/27:
 • 40% first-year allowance: for companies, sole traders and partnerships, on new and unused vans bought on or after 1 January 2026.
 • Cash basis: sole traders and partnerships using it claim the van's cost as an allowable expense instead.
 
-From 1 January 2027, the first-year allowance on new vans is due to rise from 40% to 50%, subject to Finance Bill 2026-27 becoming law.
+From 1 January 2027, the first-year allowance on new vans is due to rise from 40% to 50%, subject to Finance Bill 2026-27 becoming law. This Budget 2026 change isn't in force yet.
 
 Double-cab pickups are different: from April 2025, HMRC expects most to count as cars.
 
@@ -174,14 +176,14 @@ Why can the longer version of a small electric van get £5,000 off, when the sho
 
 The Zero Emission Van Grant takes up to 35% off the price of an eligible new electric van, to a maximum of £2,500 for a small van (under 2,500kg gross vehicle weight) or £5,000 for a large van (2,500kg to 4,250kg).
 
-The Renault Kangoo E-Tech and its twin, the Nissan Townstar EV, sit either side of that line:
+The Renault Kangoo E-Tech and its twin, the Nissan Townstar EV, sit either side of that line (Renault's figures are for the 45kWh Kangoo):
 
 • Renault Kangoo E-Tech ML19: 2,230kg gross. Renault's price guide shows a £2,500 grant.
 • Renault Kangoo E-Tech LL21: 2,510kg gross. £5,000 grant.
 • Nissan Townstar EV Van L1: 2,240kg gross. Nissan shows £2,500.
 • Nissan Townstar EV Van L2: 2,510kg gross. Nissan shows £5,000.
 
-You don't apply: the dealer takes it off the price. Only listed models qualify, and there are a limited number of grants, so check the exact model and trim before you order.
+You don't apply: the dealer takes it off the price. Only listed models qualify, and there are a limited number of grants, so check the exact model and trim before you order. Renault has announced an updated 52kWh Kangoo, so check the figures for the van you're quoted.
 
 https://loadspace-vans.netlify.app/guides/grants-and-tax/
 
@@ -221,7 +223,7 @@ https://loadspace-vans.netlify.app/tools/lease-true-cost/
 
 Ford E-Transit Custom or Volkswagen e-Transporter? The two were developed together and share their underpinnings. Here's how they compare on each maker's own UK figures:
 
-Rapid charge, 10 to 80%: 29 minutes on both, at up to 125kW
+Rapid charge, 10 to 80%: 29 minutes in both price lists, at up to 125kW (Ford's website says about 39 minutes for the Ford)
 Load volume: 5.8m³ (short wheelbase) or 6.8m³ (long) on both
 Highest official range: Ford 230 miles (SWB Trend, 100kW RWD); VW 225.6 miles (SWB, 136PS)
 Payload, long wheelbase, 136PS motor: Ford 1,124 to 1,126kg (100kW, RWD); VW 1,151 to 1,156kg. Neither includes the driver.
@@ -237,17 +239,17 @@ https://loadspace-vans.netlify.app/compare/ford-transit-custom-vs-volkswagen-tra
 
 #ElectricVans #FleetManagement
 
-> Sources: `src/data/specs/ford-transit-custom.md` (charging table, load space, range and payload table rows "SWB Trend, 100kW RWD", "LWB Trend, 100kW RWD" and "LWB Limited, 100kW RWD", note on driver, warranty table) and `src/data/specs/volkswagen-transporter.md` (charging table, load space, versions "SWB, 136PS" and "LWB, 136PS", note on driver, battery warranty). Prices, price-list dates, VW van warranty and "developed jointly"/"shares its underpinnings": `src/pages/reviews/ford-transit-custom.md` (price section, battery warranty) and `src/pages/reviews/volkswagen-transporter.md` (summary, price and warranty sections). Ford 100kW = 136PS: Ford spec "Motors and performance" table.
+> Sources: `src/data/specs/ford-transit-custom.md` (charging table, load space, range and payload table rows "SWB Trend, 100kW RWD", "LWB Trend, 100kW RWD" and "LWB Limited, 100kW RWD", note on driver, warranty table) and `src/data/specs/volkswagen-transporter.md` (charging table, load space, versions "SWB, 136PS" and "LWB, 136PS", note on driver, battery warranty). Prices, price-list dates, VW van warranty and "developed jointly"/"shares its underpinnings": `src/pages/reviews/ford-transit-custom.md` (price section, battery warranty) and `src/pages/reviews/volkswagen-transporter.md` (summary, price and warranty sections). Ford 100kW = 136PS: Ford spec "Motors and performance" table. Ford's "about 39 minutes" website charge time: `src/pages/reviews/ford-transit-custom.md` (range and charging section).
 
 ---
 
 ### Post 10: Kia PV5 Cargo v Volkswagen ID. Buzz Cargo
 
-Kia PV5 Cargo or Volkswagen ID. Buzz Cargo? Two compact electric vans, compared on each maker's own UK figures. Kia says all its figures are targets, pending homologation.
+Kia PV5 Cargo or Volkswagen ID. Buzz Cargo? Two electric vans, compared on each maker's own UK figures. Kia says all its figures are targets, pending homologation.
 
 Cheapest list price, before VAT and the grant: Kia £27,355 (L1H1, Standard Range); VW £29,995 (58kWh Commerce)
 Load volume: Kia 4.0m³ or 4.4m³; VW 3.9m³
-Payload: Kia 670 to 800kg; VW 592 to 690kg, with a 75kg driver allowed for
+Payload: Kia 670 to 800kg; VW 592 to 690kg (VW's figures allow for a 75kg driver)
 Official range: Kia 177 to 258 miles; VW 218 to 277 miles
 Braked towing: Kia 750kg or 1,500kg; VW 1,000 to 1,800kg
 Van warranty: Kia seven years or 100,000 miles; VW three years or 100,000 miles
@@ -272,7 +274,7 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 ### Short 1: is the driver in the payload?
 
 - **Hook.** Say: "Two vans can have the same payload figure and still carry different loads. Here's why." Show: presenter to camera, text "PAYLOAD: WHO'S IN THE CAB?"
-- **Beat 1.** Say: "Citroën's ë-Dispatch is rated at 1,210 kilos. Citroën says the driver's weight comes out of that." Show: screenshot of the ë-Dispatch spec table, payload row highlighted.
+- **Beat 1.** Say: "Citroën's ë-Dispatch M panel van is rated at 1,210 kilos. Citroën says the driver's weight comes out of that." Show: screenshot of the ë-Dispatch spec table, payload row highlighted.
 - **Beat 2.** Say: "Volkswagen's ID. Buzz Cargo is rated at up to 690 kilos, and VW's weights already include 75 kilos for the driver." Show: ID. Buzz Cargo spec table.
 - **Beat 3.** Say: "Farizon lists its SV van's kerb weights with two occupants, so its payloads appear to allow for two people already." Show: on-screen text "Farizon SV: kerb weight 'with two occupants'".
 - **Beat 4.** Say: "And options add weight, so they cut payload too." Show: text "OPTIONS = LESS PAYLOAD".
@@ -286,7 +288,7 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 
 - **Hook.** Say: "Thirty minutes to charge. But from what?" Show: text "30 MINUTES... FROM WHAT?"
 - **Beat 1.** Say: "Citroën says the ë-Berlingo goes from 0 to 80% in 30 minutes." Show: text "ë-Berlingo: 0 to 80%, 30 min".
-- **Beat 2.** Say: "Ford quotes 10 to 80% for the E-Transit Custom: 29 minutes." Show: text "E-Transit Custom: 10 to 80%, 29 min".
+- **Beat 2.** Say: "Ford's price list quotes 10 to 80% for the E-Transit Custom: 29 minutes." Show: text "E-Transit Custom: 10 to 80%, 29 min (price list)".
 - **Beat 3.** Say: "Nissan's Townstar starts at 15%. Renault's Kangoo starts at 20%. And they're twins." Show: text "Townstar: 15 to 80%, 37 min" and "Kangoo: 20 to 80%, 40 min".
 - **Beat 4.** Say: "Batteries differ in size too, so a longer time doesn't always mean a slower charger. Before you compare, check the start, the finish and the charger power." Show: three ticks on screen: START, FINISH, kW.
 - **Close.** Say: "We list each maker's figure exactly as they publish it. Find them on Van Electric." Show: screenshot of a spec table charging row, then the URL.
@@ -311,7 +313,7 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 ### Short 4: Kangoo or Townstar?
 
 - **Hook.** Say: "Same small electric van, two badges, two different warranties." Show: text "RENAULT KANGOO = NISSAN TOWNSTAR".
-- **Beat 1.** Say: "Nissan's Townstar EV is the same van as Renault's Kangoo E-Tech underneath, with the same 45 kilowatt-hour battery." Show: text "Same van, 45kWh".
+- **Beat 1.** Say: "Nissan's Townstar EV is the same van as Renault's Kangoo E-Tech underneath, and both are listed with a 45 kilowatt-hour battery. Renault has announced a bigger-battery Kangoo, so check which one you're quoted." Show: text "Same van, 45kWh (check your quote)".
 - **Beat 2.** Say: "Renault's van warranty is three years. Nissan's is five years or 100,000 miles." Show: text "Renault 3 years / Nissan 5 years".
 - **Beat 3.** Say: "The battery's covered for 8 years or 100,000 miles on both." Show: text "Battery: 8 years / 100,000 miles, both".
 - **Beat 4.** Say: "And on both, the long van weighs 2,510 kilos fully loaded, just over the line for the large-van grant. Renault and Nissan both show £5,000 off the long van, against £2,500 off the short one." Show: text "Long van: 2,510kg, £5,000 grant / short van: £2,500".
@@ -340,7 +342,7 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 - **Beat 1.** Say: "For 2026/27, the van benefit charge for a diesel or petrol van is £4,170, taxed at the driver's own rate." Show: text "Diesel van benefit: £4,170".
 - **Beat 2.** Say: "If the business pays for private fuel, add a fuel benefit charge of £798." Show: text "+ £798 fuel benefit".
 - **Beat 3.** Say: "For a zero-emission van, both are nil." Show: text "Electric: £0".
-- **Beat 4.** Say: "And there's no charge at all if the van is mainly for business travel, is used privately only for commuting, and the terms of use forbid other private use." Show: text "Business use + commuting only = no charge".
+- **Beat 4.** Say: "And there's no charge if the van is mainly for business travel, is used privately only for commuting, and the terms of use forbid other private use." Show: text "Business use + commuting only = no charge".
 - **Close.** Say: "Check your own position with your accountant, and try our free electric versus diesel calculator on Van Electric." Show: URL loadspace-vans.netlify.app/tools/electric-vs-diesel/
 
 > Sources: `src/data/rules/van-tax-2026-27.md` ("Company vans: the driver's tax"; `rates.vanBenefit`, `rates.vanFuelBenefit`). If you shorten beat 4, keep all three conditions.
@@ -373,9 +375,9 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 
 ---
 
-### Short 9: four ways a range figure can be provisional
+### Short 9: four range figures to read carefully
 
-- **Hook.** Say: "Not every official range figure is final. Here are four to watch." Show: text "RANGE: READ THE SMALL PRINT".
+- **Hook.** Say: "Not every range figure is a final, tested WLTP figure. Here are four to watch." Show: text "RANGE: READ THE SMALL PRINT".
 - **Beat 1.** Say: "Kia says all its PV5 Cargo figures are targets, pending homologation." Show: text "Kia PV5: targets".
 - **Beat 2.** Say: "Mercedes says the eSprinter's ranges are preliminary, measured in-house and not yet certified." Show: text "eSprinter: preliminary".
 - **Beat 3.** Say: "Citroën says the ë-Relay isn't subject to WLTP testing, so it works out the range using the WLTP method instead." Show: text "ë-Relay: calculated, not tested".
@@ -415,13 +417,13 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 ### Short 12: Transit Custom or e-Transporter?
 
 - **Hook.** Say: "Ford and Volkswagen developed these two medium vans together. So what's different?" Show: text "E-TRANSIT CUSTOM v e-TRANSPORTER".
-- **Beat 1.** Say: "The same rapid charge: 10 to 80% in 29 minutes, at up to 125 kilowatts." Show: text "29 min, both".
+- **Beat 1.** Say: "On their price lists, the same rapid charge: 10 to 80% in 29 minutes, at up to 125 kilowatts. Ford's website says about 39 minutes for the Ford, so allow for that." Show: text "29 min on paper, both (Ford website: about 39)".
 - **Beat 2.** Say: "The same load volume: 5.8 cubic metres short, 6.8 long." Show: text "5.8 / 6.8m³, both".
 - **Beat 3.** Say: "Highest official range: Ford 230 miles, VW 225.6. Long van with the entry motor: Ford carries up to 1,126 kilos, VW up to 1,156, and neither figure includes the driver." Show: text "230 v 225.6 miles" then "1,126kg v 1,156kg (no driver)".
 - **Beat 4.** Say: "The big difference is the warranty: Ford, 3 years or 100,000 miles on the van. VW, five years or 124,000 miles." Show: text "3 years v 5 years".
 - **Close.** Say: "See them side by side on Van Electric." Show: URL loadspace-vans.netlify.app/compare/ford-transit-custom-vs-volkswagen-transporter/
 
-> Sources: `src/data/specs/ford-transit-custom.md` (charging table; load volume; "SWB Trend, 100kW RWD" 230 miles; vehicle warranty) and `src/data/specs/volkswagen-transporter.md` (charging table; load volume; "SWB, 136PS" 224.9 to 225.6 miles). LWB payloads: Ford table rows "LWB Trend, 100kW RWD" (1,124kg) and "LWB Limited, 100kW RWD" (1,126kg), Ford note on driver; VW version "LWB, 136PS" (1,151 to 1,156kg), VW note on driver. VW van warranty and joint development: `src/pages/reviews/volkswagen-transporter.md`.
+> Sources: `src/data/specs/ford-transit-custom.md` (charging table; load volume; "SWB Trend, 100kW RWD" 230 miles; vehicle warranty) and `src/data/specs/volkswagen-transporter.md` (charging table; load volume; "SWB, 136PS" 224.9 to 225.6 miles). Ford's "about 39 minutes" website figure: `src/pages/reviews/ford-transit-custom.md` (range and charging section). LWB payloads: Ford table rows "LWB Trend, 100kW RWD" (1,124kg) and "LWB Limited, 100kW RWD" (1,126kg), Ford note on driver; VW version "LWB, 136PS" (1,151 to 1,156kg), VW note on driver. VW van warranty and joint development: `src/pages/reviews/volkswagen-transporter.md`.
 
 ---
 
@@ -433,7 +435,7 @@ Each script runs about 35 to 45 seconds at a steady pace. "Say" is the spoken li
 
 Hello,
 
-Van Electric is an independent UK site that keeps fact-checked spec tables for electric vans, taken from each maker's own UK documents. Comparing them side by side turned up two stories your readers may find useful:
+Van Electric is an independent UK site that keeps fact-checked spec tables for electric vans, taken from each maker's own documents. Comparing them side by side turned up two stories your readers may find useful:
 
 1. **The 3.5-tonne payload squeeze.** The Citroën ë-Relay L3H2 carries 730kg at 3,500kg gross and 1,480kg at 4,250kg, but the heavier version is limited to 56mph and needs a tachograph. And makers measure payload differently: some take the driver out of the figure, VW's ID. Buzz Cargo figures already allow 75kg for the driver, Farizon lists kerb weights "with two occupants" and Ford's E-Transit Courier price list doesn't say.
 
@@ -448,7 +450,7 @@ https://loadspace-vans.netlify.app/vans/
 [YOUR NAME]
 Van Electric
 
-> Word count: about 230 words including the subject line. Sources: `src/data/specs/citroen-relay.md`, `volkswagen-id-buzz-cargo.md`, `farizon-sv.md`, `ford-transit-courier.md` (payload notes); `src/pages/reviews/nissan-interstar.md`, `nissan-townstar.md`, `renault-master.md`, `renault-kangoo.md`, `volkswagen-transporter.md`, `src/data/specs/ford-transit-custom.md` (warranties); charging rows as in LinkedIn post 2. Don't send maker press photos with the pitch. Find each title's news desk contact on its website (see the list in `press-pitch.md`).
+> Word count: about 220 words including the subject line. Sources: `src/data/specs/citroen-relay.md`, `volkswagen-id-buzz-cargo.md`, `farizon-sv.md`, `ford-transit-courier.md` (payload notes); `src/pages/reviews/nissan-interstar.md`, `nissan-townstar.md`, `renault-master.md`, `renault-kangoo.md`, `volkswagen-transporter.md`, `src/data/specs/ford-transit-custom.md` (warranties); charging rows as in LinkedIn post 2. Don't send maker press photos with the pitch. Find each title's news desk contact on its website (see the list in `press-pitch.md`).
 
 ### One-page data summary
 
@@ -461,7 +463,7 @@ Van Electric
 | Renault Kangoo E-Tech, LL21 panel van | Up to 190 miles (c) | 764kg (c) | 40 minutes, 20 to 80%, up to 80kW |
 | Nissan Townstar EV, Van L1 | Up to 178 miles (d) | 502kg (d) | 37 minutes, 15 to 80%, up to 80kW |
 | Ford Transit City, SWB low-roof van | 158 miles (e) | 1,085kg (e) | 33 minutes, 10 to 80%, up to 87kW |
-| Ford E-Transit Custom, SWB Trend, 100kW RWD | 230 miles | 1,046kg (f) | 29 minutes, 10 to 80%, up to 125kW |
+| Ford E-Transit Custom, SWB Trend, 100kW RWD | 230 miles | 1,046kg (f) | 29 minutes, 10 to 80%, up to 125kW (l) |
 | Volkswagen e-Transporter, SWB, 136PS | 224.9 to 225.6 miles | 1,071 to 1,076kg (f) | 29 minutes, 10 to 80%, up to 125kW |
 | Citroën ë-Dispatch, M panel van | 194 to 230 miles (g) | 1,210kg (g) | 45 minutes, 5 to 80%, 100kW |
 | Peugeot E-Expert, M panel van | 194 to 230 miles (g) | 1,210kg (g) | 45 minutes, 5 to 80%, 100kW |
@@ -487,14 +489,15 @@ Source: makers' own UK price/spec guides, checked by Van Electric (Kia and Fariz
 - (i) Farizon gives one best-case range for the whole SV line-up. Payloads appear to allow for two people in the cab (kerb weights "with two occupants"). Farizon's warranty page gives 18 minutes for the rapid charge, its product page 36; it doesn't give the charger power.
 - (j) Mercedes says the ranges are preliminary values, measured in-house using the WLTP method and not yet certified. Payload depends on the options fitted.
 - (k) Citroën says all ë-Relay versions are homologated as heavy vehicles and aren't subject to WLTP testing, so it calculates the range using the WLTP method instead. The driver's weight counts against the payload; on mass in running order the 3,500kg van carries 655kg. The 4,250kg version is legally limited to 56mph and must have a tachograph.
+- (l) Ford's price list figure. Ford's website gives about 39 minutes for the same 10 to 80% charge.
 
 Rapid charge times start and finish at different charge levels, as each maker states them, so they are not directly comparable.
 
-> Sources for every row: `src/data/specs/citroen-berlingo.md`, `peugeot-partner.md`, `renault-kangoo.md`, `nissan-townstar.md`, `ford-transit-city.md`, `ford-transit-custom.md` (table row "SWB Trend, 100kW RWD"), `volkswagen-transporter.md`, `citroen-dispatch.md`, `peugeot-expert.md`, `kia-pv5-cargo.md`, `farizon-sv.md`, `mercedes-benz-sprinter.md`, `citroen-relay.md`. Range and payload from each file's `versions` or main table; rapid times from its charging table or `shared.rapidTime`; footnotes from its `notes`.
+> Sources for every row: `src/data/specs/citroen-berlingo.md`, `peugeot-partner.md`, `renault-kangoo.md`, `nissan-townstar.md`, `ford-transit-city.md`, `ford-transit-custom.md` (table row "SWB Trend, 100kW RWD"), `volkswagen-transporter.md`, `citroen-dispatch.md`, `peugeot-expert.md`, `kia-pv5-cargo.md`, `farizon-sv.md`, `mercedes-benz-sprinter.md`, `citroen-relay.md`. Range and payload from each file's `versions` or main table; rapid times from its charging table or `shared.rapidTime`; footnotes from its `notes`. Note (l): `src/pages/reviews/ford-transit-custom.md` (range and charging section).
 
 ### Two angles to offer
 
-1. **"The 3.5-tonne payload squeeze."** Heavier electric vans can carry far more, with strings attached. ë-Relay L3H2: 730kg at 3,500kg gross, 1,480kg at 4,250kg (56mph limit and tachograph). eSprinter L2 81kWh: 644 to 651kg at 3,500kg, 1,278kg at 4,150kg. Add the hidden variable: whether the driver is in the payload figure (see notes b, d, e, f, g, i and k). Only use the rows and notes in the table above.
+1. **"The 3.5-tonne payload squeeze."** Heavier-rated versions of the same electric van can carry far more, and the ë-Relay's come with strings attached. ë-Relay L3H2: 730kg at 3,500kg gross, 1,480kg at 4,250kg (56mph limit and tachograph). eSprinter L2 81kWh: 644 to 651kg at 3,500kg, 1,278kg at 4,150kg. Add the hidden variable: whether the driver is in the payload figure (see notes b, d, e, f, g, i and k). Only use the rows and notes in the table above.
    > Sources: `src/data/specs/citroen-relay.md`, `src/data/specs/mercedes-benz-sprinter.md`, plus the payload notes listed in the table.
 2. **"Badge twins: same van, different deal."** Kangoo and Townstar, Master and Interstar-e, E-Transit Custom and e-Transporter: same underpinnings, different van warranties (three years against five). Prices: Renault Master E-Tech 3.5-tonne L2H2 from £42,500 before VAT (Renault price guide, 1 September 2026); Nissan Interstar-e 3.5-tonne L2H2 from £43,590 before VAT and the grant (Nissan price list, 1 July 2026). The ë-Dispatch and E-Expert both start at £41,460 excluding VAT, before the grant (both price lists dated 8 October 2026), so the difference there is trims, kit and dealer.
    > Sources: `src/pages/reviews/renault-kangoo.md`, `nissan-townstar.md`, `renault-master.md`, `nissan-interstar.md`, `volkswagen-transporter.md`, `ford-transit-custom.md`, `citroen-dispatch.md`, `peugeot-expert.md` (warranty and price sections); twins as in LinkedIn post 4.
