@@ -8,6 +8,7 @@ import VehicleImage from '../../components/VehicleImage.astro';
 import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 import { reviewFor } from '../../lib/reviews.js';
+import { pairsFor } from '../../lib/compare.js';
 
 export function getStaticPaths() {
   return EV_VANS.map((van) => ({ params: { slug: van.slug }, props: { van } }));
@@ -25,6 +26,7 @@ const deals = DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
 const review = reviewFor(van.slug);
 const specs = specsFor(van.slug);
+const comparisons = pairsFor(van.slug).map((p) => ({ url: p.url, other: p.a === van.slug ? p.vanB : p.vanA }));
 // Key figures from our fact-checked review, where we have one.
 const short = (v) => String(v ?? '').replace(/\s*\(.*$/, '');
 const conf = (v) => v && !/^not confirmed/i.test(String(v));
@@ -84,6 +86,15 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       <p class="small"><a href="/guides/charging-an-electric-van/">How charging works →</a></p>
 
       {specs && <SpecPanel specs={specs} />}
+
+      {comparisons.length > 0 && (
+        <div class="compare-with">
+          <h3>Compare with</h3>
+          <div class="twin-chips">
+            {comparisons.map((c) => <a href={c.url}>{van.name} vs {c.other.name} →</a>)}
+          </div>
+        </div>
+      )}
 
       {evTwins.length > 0 && (
         <>
