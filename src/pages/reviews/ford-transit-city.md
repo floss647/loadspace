@@ -11,7 +11,7 @@ specs:
   payload: "1,275 kg"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get up to 8.5m³ of load space, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
-good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with no options to choose"]
+good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with paint the only option"]
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
 factCheck:
   by: "independent fact-checker"
@@ -244,6 +244,8 @@ facts:
   - claim: "half-height load area lining and a PVC floor cover"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Load Space Floor Cover - PVC BBFAC"
+  - claim: "with paint the only option"
+    calc: "Ford UK Transit City price list, effective 29 April 2026: the only items marked O (option) are on the Colour & Trim pages (Frozen White at no cost, Ingot Silver, Blue Panther and Panther Black metallic at £650 and Broom Yellow SVO at £1,000, all before VAT). Every other item is listed as standard content for Trend"
   - claim: "Metallic paint is £650 before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Ingot Silver Metallic PN4AG O 650 780"
