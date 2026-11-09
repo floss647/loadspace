@@ -1,6 +1,7 @@
 ---
 import { specsFor } from '../../lib/specs.js';
 import SpecPanel from '../../components/SpecPanel.astro';
+import NewsletterBox from '../../components/NewsletterBox.astro';
 import Base from '../../layouts/Base.astro';
 import Reliability from '../../components/Reliability.astro';
 import Cta from '../../components/Cta.astro';
@@ -129,6 +130,7 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
       )}
       <Cta kind="lease" van={van} />
       <p class="small muted">Business contract hire, excluding VAT. "True cost" spreads the upfront payment and fees across the whole term. <a href="/tools/lease-true-cost/">How we work it out</a>.</p>
+      <NewsletterBox source="van-page" />
     </article>
 
     <aside class="review-aside">

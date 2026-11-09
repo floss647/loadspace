@@ -3,6 +3,7 @@
 import Base from './Base.astro';
 const { title, metaTitle, description, eyebrow = 'Free tool', lede, crumb = ['/tools/', 'Tools'], icon } = Astro.props;
 const hasResults = Astro.slots.has('results');
+import NewsletterBox from '../components/NewsletterBox.astro';
 ---
 <Base title={metaTitle || title} description={description}>
   <section class="tool-hero">
@@ -24,4 +25,5 @@ const hasResults = Astro.slots.has('results');
     {hasResults && <aside class="tool-results" aria-live="polite"><slot name="results" /></aside>}
   </div>
   <div class="wrap"><div class="prose tool-notes"><slot /></div></div>
+  <div class="wrap"><NewsletterBox source="tool" /></div>
 </Base>
