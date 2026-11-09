@@ -45,6 +45,8 @@ https://loadspace-vans.netlify.app/vans/
 
 > Sources: `src/data/specs/citroen-dispatch.md` (M panel van payload, note on driver), `src/data/specs/volkswagen-transporter.md` (LWB 136PS payload, note on driver), `src/data/specs/ford-transit-city.md` (LWB high-roof payload, note on driver), `src/data/specs/volkswagen-id-buzz-cargo.md` (79kWh payload, note on 75kg driver), `src/data/specs/kia-pv5-cargo.md` (notes on targets and the 75kg gap), `src/data/specs/farizon-sv.md` (note on two occupants). "Plated payload": wording from `src/data/specs/vauxhall-movano.md` notes.
 
+Image: marketing/images/pack-post-1.png
+
 ---
 
 ### Post 2: rapid charge times start from different places
@@ -72,6 +74,8 @@ https://loadspace-vans.netlify.app/vans/
 
 > Sources: `src/data/specs/ford-transit-custom.md`, `volkswagen-transporter.md`, `citroen-berlingo.md`, `ford-transit-city.md`, `nissan-townstar.md`, `renault-kangoo.md`, `citroen-dispatch.md`, `citroen-relay.md` (each file's "Charging and battery" or "Range and charging" table). All in `src/data/specs/`. Ford's "about 39 minutes" website figure: `src/pages/reviews/ford-transit-custom.md` (range and charging section).
 
+Image: marketing/images/pack-post-2.png
+
 ---
 
 ### Post 3: battery warranties, and the small print
@@ -98,6 +102,8 @@ https://loadspace-vans.netlify.app/vans/
 
 > Sources: `src/data/specs/citroen-dispatch.md`, `peugeot-expert.md`, `volkswagen-transporter.md`, `nissan-townstar.md`, `nissan-interstar.md`, `renault-kangoo.md`, `mercedes-benz-sprinter.md`, `farizon-sv.md`, `farizon-v7e.md`, `kgm-musso.md` (battery warranty rows and `shared.warranty`); ë-Berlingo van warranty from the notes in `src/data/specs/citroen-berlingo.md`. "Most common": of the 22 spec files that give a battery warranty, 18 give 8 years (or eight years) or 100,000 miles, with or without a capacity level.
 
+Image: marketing/images/pack-post-3.png
+
 ---
 
 ### Post 4: which electric vans are twins
@@ -121,6 +127,8 @@ https://loadspace-vans.netlify.app/guides/rebadged-vans/
 
 > Sources: twin groups from review text in `src/pages/reviews/peugeot-partner.md` and `toyota-proace-city.md` (small), `citroen-dispatch.md` (medium), `peugeot-boxer.md` (large), `renault-kangoo.md` and `mercedes-benz-citan.md` (Kangoo family), `nissan-interstar.md` and `renault-master.md` (Master), `volkswagen-transporter.md` and `ford-transit-custom.md` (Custom and e-Transporter). Warranties: `src/pages/reviews/nissan-townstar.md`, `renault-kangoo.md`, `nissan-interstar.md`, `renault-master.md`.
 
+Image: marketing/images/pack-post-4.png
+
 ---
 
 ### Post 5: company van tax, electric v diesel
@@ -142,6 +150,8 @@ https://loadspace-vans.netlify.app/tools/electric-vs-diesel/
 #CompanyVans #ElectricVans #SmallBusiness
 
 > Sources: `src/data/rules/van-tax-2026-27.md` ("Company vans: the driver's tax" and "Budget 2026" sections; `rates.vanBenefit`, `rates.vanFuelBenefit`, `rates.incomeTax`).
+
+Image: marketing/images/pack-post-5.png
 
 ---
 
@@ -168,6 +178,8 @@ https://loadspace-vans.netlify.app/tools/lease-or-buy/
 
 > Sources: `src/data/rules/van-tax-2026-27.md` ("Buying or leasing a van", "Double-cab pickups" and "Budget 2026" sections; `rates.aia`).
 
+Image: marketing/images/pack-post-6.png
+
 ---
 
 ### Post 7: why a longer van can get a bigger grant
@@ -190,6 +202,8 @@ https://loadspace-vans.netlify.app/guides/grants-and-tax/
 #ElectricVans #SmallBusiness
 
 > Sources: grant rules from `src/data/rules/van-tax-2026-27.md` ("The van grant"; `rates.grant`). Gross weights from `src/data/specs/renault-kangoo.md` and `src/data/specs/nissan-townstar.md`. Grant amounts per version from the price sections of `src/pages/reviews/renault-kangoo.md` and `src/pages/reviews/nissan-townstar.md`.
+
+Image: marketing/images/pack-post-7.png
 
 ---
 
@@ -217,6 +231,8 @@ https://loadspace-vans.netlify.app/tools/lease-true-cost/
 
 > Sources: grant and leasing from `src/pages/news/zero-emission-van-grant-explained.md` ("Buying or leasing both count"; "Leased vehicles count against you, the end customer, not the leasing company"). PV5 payload range from `src/data/specs/kia-pv5-cargo.md` (versions: 670 to 800kg across all four; note on targets). Tax line from `src/data/rules/van-tax-2026-27.md` ("Buying or leasing a van").
 
+Image: marketing/images/pack-post-8.png
+
 ---
 
 ### Post 9: Ford E-Transit Custom v Volkswagen e-Transporter
@@ -241,6 +257,8 @@ https://loadspace-vans.netlify.app/compare/ford-transit-custom-vs-volkswagen-tra
 
 > Sources: `src/data/specs/ford-transit-custom.md` (charging table, load space, range and payload table rows "SWB Trend, 100kW RWD", "LWB Trend, 100kW RWD" and "LWB Limited, 100kW RWD", note on driver, warranty table) and `src/data/specs/volkswagen-transporter.md` (charging table, load space, versions "SWB, 136PS" and "LWB, 136PS", note on driver, battery warranty). Prices, price-list dates, VW van warranty and "developed jointly"/"shares its underpinnings": `src/pages/reviews/ford-transit-custom.md` (price section, battery warranty) and `src/pages/reviews/volkswagen-transporter.md` (summary, price and warranty sections). Ford 100kW = 136PS: Ford spec "Motors and performance" table. Ford's "about 39 minutes" website charge time: `src/pages/reviews/ford-transit-custom.md` (range and charging section).
 
+Image: marketing/images/pack-post-9.png
+
 ---
 
 ### Post 10: Kia PV5 Cargo v Volkswagen ID. Buzz Cargo
@@ -264,6 +282,8 @@ https://loadspace-vans.netlify.app/compare/kia-pv5-cargo-vs-volkswagen-id-buzz-c
 #ElectricVans #SmallBusiness
 
 > Sources: `src/data/specs/kia-pv5-cargo.md` (all four versions; notes on targets, the L1/H1 range disagreement and 3-door/4-door payloads) and `src/data/specs/volkswagen-id-buzz-cargo.md` (all three versions; note on the 75kg driver). Prices and van warranties: `src/pages/reviews/kia-pv5-cargo.md` (price section, "seven-year, 100,000-mile warranty", battery warranty) and `src/pages/reviews/volkswagen-id-buzz-cargo.md` (price section, "three-year, 100,000-mile warranty", battery warranty).
+
+Image: marketing/images/pack-post-10.png
 
 ---
 
