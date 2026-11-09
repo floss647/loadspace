@@ -36,7 +36,7 @@ MED = lambda s: font('Inter-Medium.otf', s)
 
 
 def text(d, xy, s, f, fill, anchor='la'):
-    assert '—' not in s, f'em dash in image text: {s}'
+    assert '\u2014' not in s, f'em dash in image text: {s}'
     x0, y0, x1, y1 = d.textbbox(xy, s, font=f, anchor=anchor)
     assert x0 >= 40 and x1 <= S - 40 and y0 >= 0 and y1 <= S, f'text off the card: {s!r} {(x0, y0, x1, y1)}'
     d.text(xy, s, font=f, fill=fill, anchor=anchor)
