@@ -3,9 +3,9 @@ layout: ../../layouts/NewsPost.astro
 title: "Best October yet for electric vans, but still around half the target"
 date: 2026-11-09T09:00:00Z
 tag: Sales
-summary: "3,369 electric vans were registered in October, up 58% and the best October on record, according to SMMT. That's 12.9% of the market, against a 24% target for 2026."
+summary: "3,369 electric vans were registered in October, up 58% and the best October on record, according to SMMT. That's 12.9% of the market. So far this year the share is 11.0%, less than half the 24% target for 2026."
 stat: "12.9%"
-statLabel: "of new vans registered in October were electric. The 2026 target is 24%."
+statLabel: "of the new van market in October was electric. So far this year it's 11.0%, against a 24% target."
 photo: ford-transit
 photoCaption: "An electric Ford E-Transit large van, on German plates. UK vans are right-hand drive."
 sources:
@@ -35,6 +35,8 @@ facts:
   # Electric vans
   - claim: "up 58%"
     calc: "SMMT: BEV registrations 'up 58.0% to 3,369' (fact below); 58.0% written as 58% in the summary"
+  - claim: "less than half the 24% target"
+    calc: "24% (2026 target, fact below) / 2 = 12%; the year-to-date share of 11.0% (fact below) is below that. SMMT: 'Year-to-date BEV share still less than half ZEV Mandate target for 2026'"
   - claim: "target for 2026"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "Year-to-date BEV share still less than half ZEV Mandate target for 2026"
@@ -184,7 +186,7 @@ facts:
   - claim: "a long-term commitment to purchase incentives"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "A long-term commitment to purchase incentives is also fundamental to bolster operator confidence"
-  - claim: "much faster rollout of public charging suited to vans"
+  - claim: "rapid growth in public charging suited to vans"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "rollout of LCV-suitable public charging needs to grow rapidly"
   - claim: "shorter waits for depot grid connections"
@@ -241,9 +243,9 @@ So far this year, 30,728 electric vans have been registered, up 26.7%.
 
 There's no shortage of choice: SMMT says more than 40 electric van models are on sale, and that makers have been forced into heavy discounts to avoid even bigger costs under the mandate.
 
-SMMT doesn't expect the gap to close. Its latest outlook has electric vans up to 3.5 tonnes taking 10.4% of the market this year, 13.6 percentage points short of the target. It forecasts 14.9% in 2027 and 18.8% in 2028, against targets of 34% and 46%, with the gap only widening.
+SMMT doesn't expect the gap to close. SMMT's latest industry outlook has electric vans up to 3.5 tonnes taking 10.4% of the market this year, 13.6 percentage points short of the target. It forecasts 14.9% in 2027 and 18.8% in 2028, against targets of 34% and 46%, with the gap only widening.
 
-SMMT says the government's review of the mandate must bring significant change. It also wants a long-term commitment to purchase incentives, much faster rollout of public charging suited to vans, and shorter waits for depot grid connections. Read more: [van target review closes](/news/zev-mandate-van-consultation-closes/).
+SMMT says the government's review of the mandate must bring significant change. It also wants a long-term commitment to purchase incentives, rapid growth in public charging suited to vans, and shorter waits for depot grid connections. Read more: [van target review closes](/news/zev-mandate-van-consultation-closes/).
 
 ## What it means for you
 
