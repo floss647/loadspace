@@ -8,6 +8,9 @@ stat: "12.9%"
 statLabel: "of the new van market in October was electric. So far this year it's 11.0%, against a 24% target."
 photo: ford-transit
 photoCaption: "An electric Ford E-Transit large van, on German plates. UK vans are right-hand drive."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-09
 sources:
   - https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
