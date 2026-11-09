@@ -239,7 +239,7 @@ Image: marketing/images/pack-post-8.png
 
 Ford E-Transit Custom or Volkswagen e-Transporter? The two were developed together and share their underpinnings. Here's how they compare on each maker's own UK figures:
 
-Rapid charge, 10 to 80%: 29 minutes in both price lists, at up to 125kW (Ford's website says about 39 minutes for the Ford)
+Rapid charge, 10 to 80%, at up to 125kW: Ford about 39 minutes (Ford's website; its price list says 29); VW 29 minutes
 Load volume: 5.8m³ (short wheelbase) or 6.8m³ (long) on both
 Highest official range: Ford 230 miles (SWB Trend, 100kW RWD); VW 225.6 miles (SWB, 136PS)
 Payload, long wheelbase, 136PS motor: Ford 1,124 to 1,126kg (100kW, RWD); VW 1,151 to 1,156kg. Neither includes the driver.

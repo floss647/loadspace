@@ -347,7 +347,7 @@ def compare(title, subtitle, names, rows, notes, slug):
 
 
 def post9():
-    rows = [('Rapid charge, 10 to 80%', '', '29 minutes in both price lists, at up to 125kW', "Ford's website says about 39 minutes for the Ford"),
+    rows = [('Rapid charge, 10 to 80%', 'At up to 125kW', 'About 39 minutes', "Ford's website. Its price list says 29.", '29 minutes', "VW's price list"),
             ('Load volume', '', '5.8m³ (short wheelbase) or 6.8m³ (long) on both', ''),
             ('Highest official range', '', '230 miles', 'SWB Trend, 100kW RWD', '225.6 miles', 'SWB, 136PS'),
             ('Payload', 'Long wheelbase, 136PS motor. Neither includes the driver.', '1,124 to 1,126kg', '100kW, RWD', '1,151 to 1,156kg', ''),
@@ -356,7 +356,7 @@ def post9():
             ('Battery warranty', '', '8 years or 100,000 miles on both', '')]
     return compare('E-Transit Custom v e-Transporter', "Developed together, sharing their underpinnings. Each maker's own UK figures.",
                    ['Ford E-Transit Custom', 'VW e-Transporter'], rows,
-                   ["Ford's 29 minutes is its price list figure; its website says about 39 minutes.",
+                   ["Ford gives two charge times: about 39 minutes on its website and 29 in its price list. We show the slower one.",
                     "Price lists aren't from the same date (Ford's from 1 June 2026, VW's electric van prices valid from 15 January 2026), so get current quotes for both."],
                    'ford-transit-custom-vs-volkswagen-transporter')
 
