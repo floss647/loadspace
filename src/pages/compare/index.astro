@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SIZES } from '../../data/vans.js';
+import { PAIRS } from '../../lib/compare.js';
+
+const groups = Object.entries(SIZES)
+  .map(([key, s]) => ({ key, label: s.label, pairs: PAIRS.filter((p) => p.size === key) }))
+  .filter((g) => g.pairs.length);
+---
+<Base title="Compare electric vans head to head" description="Electric van comparisons side by side: official range, battery, payload, load space, charging, battery warranty and towing for rival and twin vans.">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › Compare electric vans</div>
+    <h1>Compare electric vans head to head</h1>
+    <p class="lede">Rival and twin electric vans side by side, using the official figures from each van's spec section.</p>
+
+    {groups.map((g) => (
+      <section id={g.key}>
+        <h2>{g.label}</h2>
+        <div class="grid">
+          {g.pairs.map((p) => (
+            <a class="card" href={p.url}>
+              <h3>{p.vanA.name} vs {p.vanB.name}</h3>
+              <p>{p.reason}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <p class="small" style="margin-top:2rem"><a href="/vans/">Every electric van on sale in the UK →</a></p>
+  </div>
+</Base>
