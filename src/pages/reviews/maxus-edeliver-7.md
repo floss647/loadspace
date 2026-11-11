@@ -7,16 +7,17 @@ summary: "A well-equipped medium electric van with a strong official range, a pa
 specs:
   price: "Not confirmed (no current UK price for the electric van found)"
   range: "230 miles"
-  charging: "90kW"
+  charging: "Not confirmed (Maxus gives 43 minutes from 20 to 80% on a 90kW charger, but no peak rate)"
   payload: "1,200 kg"
   batteryWarranty: "8 years or 155,000 miles (reported)"
-verdict: "The eDeliver 7 is a solid, sensible medium electric van that gives you a lot of van: up to 230 miles of official range, payloads over a tonne in every version, a high-roof body and a long list of standard kit. Its weak points are a 90kW rapid charging peak, a high load floor and driver alerts that by all accounts beep far too often. It suits a business that charges at base overnight and wants space and payload more than a famous badge. Pin the dealer down on the exact electric price, because the headline price we found doesn't say which version it applies to."
+verdict: "The eDeliver 7 is a solid, sensible medium electric van that gives you a lot of van: up to 230 miles of official range, payloads over a tonne in every version, a high-roof body and a long list of standard kit. Its weak points are slowish rapid charging, a high load floor and driver alerts that by all accounts beep far too often. It suits a business that charges at base overnight and wants space and payload more than a famous badge. Pin the dealer down on the exact electric price, because the headline price we found doesn't say which version it applies to."
 good: ["Over 1,000kg payload in every version", "Up to 230 miles official range", "High-roof L2H2 body, rare in this class"]
-bad: ["Rapid charging peaks at 90kW", "High load floor", "Lots of driver-assistance beeping"]
+bad: ["Slowish rapid charging: 43 minutes from 20 to 80%", "High load floor", "Lots of driver-assistance beeping"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-11
 sources:
+  - sources/maxus-edeliver-7-spec-guide-2026-08.pdf
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
   - https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
   - https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
@@ -42,15 +43,14 @@ facts:
   - claim: "the shorter L1H1 with the bigger battery is rated at 230 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "while this increases to 225 miles and 230 miles as you go for the smaller two models"
-  - claim: "The lowest figure is 190 miles"
-    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
-    quote: "even that provides an official WLTP combined range of 190 miles"
-  - claim: "The lowest figure is 190 miles"
-    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
-    quote: "Projected range is 190 miles on the combined cycle"
+  - claim: "193 miles"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Max. Torque (N.m) 330 Autonomy WLTP Combined (miles) 193"
+  - claim: "The lowest figure is 193 miles, for the L2H1 with the 77kWh battery"
+    calc: "Maxus UK's spec guide gives WLTP combined ranges of 198 miles for the L1H1 77kWh (p2), 230 for the L1H1 88kWh (p5), 193 for the L2H1 77kWh (p8), 225 for the L2H1 88kWh (p11) and 204 for the L2H2 88kWh (p14). The lowest is 193 miles, for the L2H1 with the 77kWh battery"
   - claim: "the L2H1 with the 77kWh battery"
-    source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
-    quote: "we got to grips with an L2H1 model with the 77kWh pack"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "TECHNICAL SPECIFICATIONS eDELIVER 7 L2 H1 FWD 77kWh"
   - claim: "226 miles for the bigger battery as its launch figure"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "At Launch: The eDeliver 7 comes with a choice of two battery sizes, giving an official WLTP-rated range of up to 226 miles (365 km) for the larger battery"
@@ -63,18 +63,27 @@ facts:
   - claim: "lithium iron phosphate (LFP) cells"
     source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
     quote: "uses Lithium Iron Phosphate (LFP) cells"
-  - claim: "90kW"
-    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-    quote: "with a peak DC charging rate of up to 90 kW"
-  - claim: "Rapid charging peaks at 90kW"
-    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-    quote: "with a peak DC charging rate of up to 90 kW"
-  - claim: "20 to 80% in about 43 minutes"
-    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-    quote: "A 20-80% charge can be done in as little as 43 minutes."
-  - claim: "11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh"
-    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
-    quote: "The vehicle comes with a standard 11 kW onboard charger. A full charge from 5-100% can be completed in about 8 hours for the 88 kWh battery using a three-phase supply, and 7 hours for the 77 kWh battery."
+  - claim: "Maxus gives 43 minutes from 20 to 80% on a 90kW charger, but no peak rate"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A)"
+  - claim: "43 minutes from 20 to 80%"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (DC 20-80%) min Max. Power (kW) 150 43min"
+  - claim: "on a 90kW, 150A DC charger"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A)"
+  - claim: "9.3 hours from 5 to 100% with the 88kWh battery on an 11kW charger"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Battery Capacity (kWh) 88 5.2 5-100%) hrs Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A) Max. Torque (N.m) 330 Autonomy WLTP Combined (miles) 230 Energy Consumption WLTP 26.90 Autonomy WLTP Urban (miles) 337 Combined (kWh/62miles) Charging Time (AC charger 9.3 11kW, 5-100%) hrs"
+  - claim: "8.5 hours with the 77kWh"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Battery Capacity (kWh) 77 4.5 5-100%) hrs Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A) Max. Torque (N.m) 330 Autonomy WLTP Combined (miles) 198 Energy Consumption WLTP 27.50 Autonomy WLTP Urban (miles) 302 Combined (kWh/62miles) Charging Time (AC charger 8.5 11kW, 5-100%) hrs"
+  - claim: "On a 22kW charger the times are 5.2"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 88 5.2 5-100%) hrs"
+  - claim: "4.5 hours"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 77 4.5 5-100%) hrs"
   - claim: "1,200 kg"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "with the smallest battery that is the strongest with a maximum payload of 1,200kg"
@@ -117,9 +126,14 @@ facts:
   - claim: "The low-roof vans are 1,990mm tall and the high roof 2,390mm"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "Height 1,990mm 1,990mm 2,390mm"
-  - claim: "Every version can tow a 1,500kg braked trailer"
-    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
-    quote: "every version is able to tow a 750kg unbraked trailer or a 1,500kg braked one"
+  - claim: "2,000kg braked trailer"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Maximum trailer capacity Braked (kg) 2000"
+  - claim: "750kg unbraked"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Maximum trailer capacity Unbraked (kg) 750"
+  - claim: "Every version can tow a 2,000kg braked trailer (750kg unbraked)"
+    calc: "Maxus UK's spec guide gives a maximum braked trailer of 2000kg and a maximum unbraked trailer of 750kg on the technical page of all five versions (pp2, 5, 8, 11 and 14). 2000kg = 2,000kg"
   - claim: "the battery sits under the rear floor, so the load floor is high"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
     quote: "The battery is located under the rear floor, which means that the entry point to the loading bay is high up"
@@ -129,9 +143,14 @@ facts:
   - claim: "High load floor"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "It is a bit of a step up into the load area"
-  - claim: "a powered side step is an option"
-    source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
-    quote: "There is an optional powered step on the side door"
+  - claim: "A powered kerbside step is standard"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Dual sliding door O Power Side Step (Kerbside only) S"
+  - claim: "where it's an option"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Dual sliding door O Power Side Step (Kerbside only) O"
+  - claim: "A powered kerbside step is standard, except on the L2H1 with the 77kWh battery, where it's an option"
+    calc: "Maxus UK's spec guide lists 'Power Side Step (Kerbside only)' as S (standard) for the L1H1 77kWh (p4), L1H1 88kWh (p7), L2H1 88kWh (p13) and L2H2 88kWh (p16), and as O (optional) for the L2H1 77kWh (p10)"
   - claim: "brisk away from the lights"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "Its pickup speed from stationary is particularly swift"
@@ -195,6 +214,8 @@ facts:
   - claim: "Reports differ on whether the heating has its own physical controls"
     source: https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/
     quote: "the heating and ventilation system is controlled by a separate set of user-friendly knurled knobs"
+  - claim: "Maxus UK's spec guide doesn't give warranty terms"
+    calc: "The saved Maxus UK spec guide (sources/maxus-edeliver-7-spec-guide-2026-08.pdf, 16 pages) has no warranty section, and its text doesn't contain the word 'warranty'"
   - claim: "five years or 60,000 miles"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-review/
     quote: "the eDeliver 7 comes with five years/60,000-miles warranty"
@@ -234,15 +255,15 @@ It suits trades and fleets that want a medium van with plenty of payload and spa
 
 ### Load area and payload
 
-Payload is a real strength. Every version carries over a tonne: the L1H1 with the 77kWh battery carries 1,200kg, and the L2H2, which only comes with the 88kWh battery, carries 1,025kg. Load volume runs from 5.9 to 8.7 cubic metres. The high roof is unusual in this class and worth a look if you stand up in the back. The low-roof vans are 1,990mm tall and the high roof 2,390mm, so check your car park barriers. Every version can tow a 1,500kg braked trailer.
+Payload is a real strength. Every version carries over a tonne: the L1H1 with the 77kWh battery carries 1,200kg, and the L2H2, which only comes with the 88kWh battery, carries 1,025kg. Load volume runs from 5.9 to 8.7 cubic metres. The high roof is unusual in this class and worth a look if you stand up in the back. The low-roof vans are 1,990mm tall and the high roof 2,390mm, so check your car park barriers. Every version can tow a 2,000kg braked trailer (750kg unbraked).
 
-The catch is the floor. The battery sits under the rear floor, so the load floor is high, which adds up over a day of loading. A powered side step is an option.
+The catch is the floor. The battery sits under the rear floor, so the load floor is high, which adds up over a day of loading. A powered kerbside step is standard, except on the L2H1 with the 77kWh battery, where it's an option.
 
 ### Range and charging in the real world
 
-Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 190 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
+Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 193 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
 
-Rapid charging is the weak spot: the peak is 90kW, which takes the battery from 20 to 80% in about 43 minutes. At base, the 11kW onboard charger takes around eight hours from 5 to 100% with the 88kWh battery on a three-phase supply, or about seven hours with the 77kWh. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
+Rapid charging is the weak spot: Maxus quotes 43 minutes from 20 to 80% on a 90kW, 150A DC charger, and doesn't give a peak charging power. At base, Maxus quotes 9.3 hours from 5 to 100% with the 88kWh battery on an 11kW charger, or 8.5 hours with the 77kWh. On a 22kW charger the times are 5.2 and 4.5 hours. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
 
 ### On the road
 
@@ -260,4 +281,4 @@ The obvious rivals are the [Ford E-Transit Custom](/vans/ford-transit-custom/), 
 
 We couldn't confirm a current UK list price for the electric van. In August 2026 the UK importer announced that the Deliver 7 line-up, in Euro 6 and electric forms, is now priced from £19,995, but the report doesn't say which version that price buys or whether it includes VAT, so get a written quote for the electric van you want. It's on the government's list of vans eligible for the large-van rate of the Plug-in Van Grant, worth up to £5,000 (see our [grants guide](/guides/grants-and-tax/)).
 
-The warranty is five years or 60,000 miles with five years of roadside assistance, and the battery is reported to be covered for eight years or 155,000 miles. Servicing is every two years or 18,000 miles. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Maxus UK's spec guide doesn't give warranty terms. Reports say the warranty is five years or 60,000 miles with five years of roadside assistance, and the battery is covered for eight years or 155,000 miles. Servicing is every two years or 18,000 miles. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
