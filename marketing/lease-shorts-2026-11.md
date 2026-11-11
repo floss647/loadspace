@@ -8,7 +8,7 @@ Ten YouTube Shorts scripts explaining van leasing. Each script runs about 45 to 
 - Every Close sends viewers to the lease enquiry page (loadspace-vans.netlify.app/get-lease-quotes/; swap the domain when vanelectric.co.uk is live). Lease quotes aren't open yet and we don't pass details on, so never promise quotes, prices or deals. Leave out the "Sources" line when you post.
 - Don't post until the Van Electric rename is live: until then the enquiry page and its consent text still say Loadspace.
 - Screenshots of the calculators must not show £ figures: crop to the labels or blank the numbers, so no lease prices appear on screen.
-- If lease quotes open, remove "your details stay with us" and "quotes aren't open yet" from the Closes, as the consent text changes.
+- If lease quotes open, remove "your details stay with us", "quotes aren't open yet" and "We don't give quotes yet" from the Closes, and update the bullet above, as the consent text changes.
 - Every figure was checked against the site on 11 November 2026. Re-check before posting, as grant and tax rules can change.
 
 ---
@@ -91,7 +91,7 @@ Ten YouTube Shorts scripts explaining van leasing. Each script runs about 45 to 
 - **Beat 4.** Say: "It doesn't include servicing, insurance or a home charger, and its starting figures are rough examples, not quotes." Show: text "Not included: servicing, insurance, charger".
 - **Close.** Say: "Try it with your own quote. When you're ready to lease, make a lease enquiry on Van Electric. Lease quotes aren't open yet." Show: text "General guidance, not a finance offer", then URLs loadspace-vans.netlify.app/tools/lease-true-cost/, loadspace-vans.netlify.app/tools/electric-vs-diesel/ and loadspace-vans.netlify.app/get-lease-quotes/
 
-> Sources: `src/pages/tools/lease-true-cost.astro` (inputs: monthly payment, upfront payment in months, lease length, admin or arrangement fee; result "True cost per month"). `src/pages/tools/electric-vs-diesel.astro` (inputs: miles per year, diesel price in pence per litre, miles per gallon, miles per kWh, home or depot electricity price, public rapid charging price, share of charging on public chargers; results "Your yearly running cost", "Road tax ... included in the yearly costs above"; "Not included: purchase or lease price, servicing (usually lower for electric), insurance, a home charger"; lede: "The defaults are rough examples for a medium van, not quotes"). "Road tax: £360 for both ... included in the yearly costs above". "Divide by 12 and add it" is our own method for combining the two tools; neither tool does it. "Take that out if your lease already covers it" is general wording, not on the site.
+> Sources: `src/pages/tools/lease-true-cost.astro` (inputs: monthly payment, upfront payment in months, lease length, admin or arrangement fee; result "True cost per month"). `src/pages/tools/electric-vs-diesel.astro` (inputs: miles per year, diesel price in pence per litre, miles per gallon, miles per kWh, home or depot electricity price, public rapid charging price, share of charging on public chargers; results "Your yearly running cost", "Road tax ... included in the yearly costs above"; "Not included: purchase or lease price, servicing (usually lower for electric), insurance, a home charger"; lede: "The defaults are rough examples for a medium van, not quotes"). "Divide by 12 and add it" is our own method for combining the two tools; neither tool does it. "Take that out if your lease already covers it" is general wording, not on the site.
 
 ---
 
@@ -112,7 +112,7 @@ Ten YouTube Shorts scripts explaining van leasing. Each script runs about 45 to 
 
 - **Hook.** Say: "Five things to ask before you sign an electric van lease." Show: presenter to camera, text "5 QUESTIONS BEFORE YOU SIGN".
 - **Beat 1.** Say: "One: is VAT in or out? Business deals are usually shown without it." Show: text "1. VAT".
-- **Beat 2.** Say: "Two: how does the quote reflect the van grant? If the van's on the approved list, it applies to leased vans too, counting against your business's yearly grant limit, not the leasing company's." Show: text "2. Grant".
+- **Beat 2.** Say: "Two: how does the quote reflect the van grant? If the van's new and on the approved list, the grant can apply to leased vans too, counting against your business's yearly grant limit, not the leasing company's." Show: text "2. Grant".
 - **Beat 3.** Say: "Three: what's the total? Add any upfront payment and fees to the remaining monthly payments, then divide by the months you'll have the van." Show: text "3. Total cost".
 - **Beat 4.** Say: "Four: which exact van? Battery, body length and options change range and payload. Kia's PV5 Cargo carries 670 to 800 kilos depending on version, and those are Kia's targets until the van is homologated." Show: text "4. Exact van".
 - **Beat 5.** Say: "Five: what's the mileage limit? Going over costs a set amount per mile." Show: text "5. Mileage limit".
