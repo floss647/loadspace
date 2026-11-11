@@ -78,9 +78,12 @@ facts:
   - claim: "8.5 hours with the 77kWh"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Battery Capacity (kWh) 77 4.5 5-100%) hrs Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A) Max. Torque (N.m) 330 Autonomy WLTP Combined (miles) 198 Energy Consumption WLTP 27.50 Autonomy WLTP Urban (miles) 302 Combined (kWh/62miles) Charging Time (AC charger 8.5 11kW, 5-100%) hrs"
-  - claim: "On a 22kW charger the times are 5.2"
+  - claim: "Maxus also quotes 5.2"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 88 5.2 5-100%) hrs"
+  - claim: "one report says it's 11kW"
+    source: https://vanreviewer.co.uk/battery-charging-range/what-is-the-maxus-edeliver-7-battery-range/
+    quote: "The vehicle comes with a standard 11 kW onboard charger"
   - claim: "4.5 hours"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 77 4.5 5-100%) hrs"
@@ -132,7 +135,15 @@ facts:
   - claim: "750kg unbraked"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Maximum trailer capacity Unbraked (kg) 750"
-  - claim: "Every version can tow a 2,000kg braked trailer (750kg unbraked)"
+  - claim: "its 5,000kg gross train weight"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "GTW (kg) 5000*"
+  - claim: "check the VIN plate"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "*(refer to VIN plate)"
+  - claim: "a fully loaded van can tow only about 1,500kg"
+    calc: "Gross train weight 5,000kg minus the 3,500kg gross vehicle weight of every version leaves 1,500kg for a trailer when the van is fully loaded"
+  - claim: "Maxus rates every version to tow a 2,000kg braked trailer (750kg unbraked)"
     calc: "Maxus UK's spec guide gives a maximum braked trailer of 2000kg and a maximum unbraked trailer of 750kg on the technical page of all five versions (pp2, 5, 8, 11 and 14). 2000kg = 2,000kg"
   - claim: "the battery sits under the rear floor, so the load floor is high"
     source: https://www.parkers.co.uk/vans-pickups/maxus/edeliver-7/2024-edeliver-7-dimensions/
@@ -255,7 +266,7 @@ It suits trades and fleets that want a medium van with plenty of payload and spa
 
 ### Load area and payload
 
-Payload is a real strength. Every version carries over a tonne: the L1H1 with the 77kWh battery carries 1,200kg, and the L2H2, which only comes with the 88kWh battery, carries 1,025kg. Load volume runs from 5.9 to 8.7 cubic metres. The high roof is unusual in this class and worth a look if you stand up in the back. The low-roof vans are 1,990mm tall and the high roof 2,390mm, so check your car park barriers. Every version can tow a 2,000kg braked trailer (750kg unbraked).
+Payload is a real strength. Every version carries over a tonne: the L1H1 with the 77kWh battery carries 1,200kg, and the L2H2, which only comes with the 88kWh battery, carries 1,025kg. Load volume runs from 5.9 to 8.7 cubic metres. The high roof is unusual in this class and worth a look if you stand up in the back. The low-roof vans are 1,990mm tall and the high roof 2,390mm, so check your car park barriers. Maxus rates every version to tow a 2,000kg braked trailer (750kg unbraked), but its 5,000kg gross train weight means a fully loaded van can tow only about 1,500kg, so check the VIN plate.
 
 The catch is the floor. The battery sits under the rear floor, so the load floor is high, which adds up over a day of loading. A powered kerbside step is standard, except on the L2H1 with the 77kWh battery, where it's an option.
 
@@ -263,7 +274,7 @@ The catch is the floor. The battery sits under the rear floor, so the load floor
 
 Official WLTP combined range depends on body and battery: the shorter L1H1 with the bigger battery is rated at 230 miles. The lowest figure is 193 miles, for the L2H1 with the 77kWh battery. Published figures vary a little: one 2025 guide lists 226 miles for the bigger battery as its launch figure. Either way, it's a strong official range for a medium van, but loads, speed and cold weather will cut it.
 
-Rapid charging is the weak spot: Maxus quotes 43 minutes from 20 to 80% on a 90kW, 150A DC charger, and doesn't give a peak charging power. At base, Maxus quotes 9.3 hours from 5 to 100% with the 88kWh battery on an 11kW charger, or 8.5 hours with the 77kWh. On a 22kW charger the times are 5.2 and 4.5 hours. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
+Rapid charging is the weak spot: Maxus quotes 43 minutes from 20 to 80% on a 90kW, 150A DC charger, and doesn't give a peak charging power. At base, Maxus quotes 9.3 hours from 5 to 100% with the 88kWh battery on an 11kW charger, or 8.5 hours with the 77kWh. Maxus also quotes 5.2 and 4.5 hours on a 22kW charger, but doesn't say how fast the van's onboard charger is, and one report says it's 11kW, so check before paying for a faster wallbox. See our [charging guide](/guides/charging-an-electric-van/) for setting up depot or home charging.
 
 ### On the road
 

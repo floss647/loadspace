@@ -3,7 +3,7 @@ layout: ../../layouts/Review.astro
 title: "Maxus eTerron 9 review"
 van: maxus-eterron-9
 date: 2026-10-30T08:00:00Z
-summary: "A big, powerful electric pickup with the longest official range of the bunch and full 3.5-tonne towing. Its 620 kg payload puts it on the car side of HMRC's VAT test, so it suits lifestyle and towing buyers more than tradespeople."
+summary: "A big, powerful electric pickup with the longest range of the electric pickups we cover (267 miles, converted from Maxus's 430km WLTC figure) and full 3.5-tonne towing. Its 620 kg payload puts it on the car side of HMRC's VAT test, so it suits lifestyle and towing buyers more than tradespeople."
 specs:
   price: "Not confirmed (only rounded prices reported)"
   range: "267 miles (from Maxus's 430km WLTC combined figure)"
@@ -17,6 +17,7 @@ factCheck:
   by: "independent fact-checker"
   date: 2026-11-11
 sources:
+  - sources/maxus-eterron-9-spec-guide-2026-08.pdf
   - https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
@@ -232,7 +233,7 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 ### Range and charging
 
-The 102kWh battery gives a 267-mile range (430km on Maxus's WLTC combined figure), the longest of the electric pickups we cover. We've scored it as the official figure, as it's the one Maxus publishes. Rapid charging takes it from 20 to 80 per cent in 42 minutes at up to 115kW (Maxus's figure, at 25°C). There are 2.2kW sockets in the front boot and bed, plus an external 6.6kW outlet. See our [charging guide](/guides/charging-an-electric-van/).
+The 102kWh battery gives a 267-mile range (430km on Maxus's WLTC combined figure), the longest of the electric pickups we cover. We've scored it as the official figure, as it's the one in Maxus UK's spec guide. Rapid charging takes it from 20 to 80 per cent in 42 minutes at up to 115kW (Maxus's figure, at 25°C). There are 2.2kW sockets in the front boot and bed, plus an external 6.6kW outlet. See our [charging guide](/guides/charging-an-electric-van/).
 
 Off road, six preset terrain modes work with the air suspension, but we haven't seen enough testing to say how it copes.
 
