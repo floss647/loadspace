@@ -48,7 +48,7 @@ versions:
       loadHeight: "1,200mm"
       gross: "2,450kg"
       topSpeed: "83mph"
-      rapidTime: "30 minutes"
+      rapidTime: "30 minutes, 10 to 80%"
   - name: "Long, 50kWh"
     figures:
       range: "Up to 208 miles"
@@ -59,11 +59,11 @@ versions:
       loadHeight: "1,200mm"
       gross: "2,450kg"
       topSpeed: "83mph"
-      rapidTime: "30 minutes"
+      rapidTime: "30 minutes, 10 to 80%"
 shared:
   battery: "50kWh"
   rapid: "100kW"
-  rapidTime: "10 to 80% in 30 minutes"
+  rapidTime: "30 minutes, 10 to 80%"
   ac: "7kW, 7 hours 30 minutes"
   train: "3,200kg"
 archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
@@ -370,6 +370,9 @@ facts:
     archive: sources/toyota-proace-city-brochure-2024-10.pdf
     quote: "10-80% Charging Time (mins) DC Charger 30"
   - claim: "30 minutes"
+    archive: sources/toyota-proace-city-brochure-2024-10.pdf
+    quote: "10-80% Charging Time (mins) DC Charger 30"
+  - claim: "30 minutes, 10 to 80%"
     archive: sources/toyota-proace-city-brochure-2024-10.pdf
     quote: "10-80% Charging Time (mins) DC Charger 30"
   - claim: "7kW, 7 hours 30 minutes"

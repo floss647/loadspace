@@ -20,7 +20,6 @@ sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar.html
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar/dimensions.html
-  - https://www.nissan.co.uk/vehicles/new-vehicles/townstar/prices-specifications.html
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar/electric-van.html
   - https://www.autoexpress.co.uk/nissan/townstar
   - https://www.parkers.co.uk/vans-pickups/nissan/townstar/2023-townstar-ev-review/
@@ -66,9 +65,6 @@ facts:
     source: https://www.autoexpress.co.uk/renault/kangoo/van
     quote: "The Kangoo comes with a three-year/100,000-mile warranty"
   - claim: "price list shows the range as still to be confirmed"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar/prices-specifications.html
-    quote: "Range (WLTP) - Combined cycle, miles TBC"
-  - claim: "price list shows the range as still to be confirmed"
     source: https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
     quote: "Acenta £32,105 £55 £360 £32,520 £2,500 £30,020 TBC TBC"
   - claim: "713 kg (including driver)"
@@ -84,14 +80,14 @@ facts:
     source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar/dimensions.html
     quote: "Maximum payload including driver (kg) 726 - 740* 502 Gross Vehicle Weight"
   - claim: "80kW"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar/prices-specifications.html
-    quote: "Rapid Charging Port up to, kW 80 DC Rapid Charging 80kW (from 15% - 80%), min 37 min"
+    archive: sources/nissan-townstar-brochure-2026-04.pdf
+    quote: "DC Rapid Charging capability (CCS) kW 80"
   - claim: "enough for 15 to 80 per cent in 37 minutes"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar/prices-specifications.html
-    quote: "DC Rapid Charging 80kW (from 15% - 80%), min 37 min"
+    archive: sources/nissan-townstar-brochure-2026-04.pdf
+    quote: "15-80% (80kW DC) mins 37"
   - claim: "a 22kW AC wallbox does the same in about 1.5 hours"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar/prices-specifications.html
-    quote: "AC Fast Charging 22kW (from 15-80%), hr 1.5 hr"
+    archive: sources/nissan-townstar-brochure-2026-04.pdf
+    quote: "15-80% (22kW AC) hours 1.5"
   - claim: "8 years or 100,000 miles"
     source: https://www.nissan.co.uk/vehicles/new-vehicles/townstar.html
     quote: "8 years/100,000 miles (whichever comes first) Electric Vehicle Traction Battery Warranty"

@@ -270,5 +270,13 @@
     "received": "2026-11-11",
     "via": "Supplied by the editor",
     "sha256": "7ff633699b5fe208b7a66db7d27ed07ec82d2e47eecd8a756380b48c58890000"
+  },
+  "fiat-e-doblo-price-spec-guide-2025-07.pdf": {
+    "title": "Fiat Professional E-Doblo & Doblo MY26A Prices and Specifications",
+    "publisher": "fiatprofessional.com",
+    "effective": "1 July 2025",
+    "received": "2026-11-11",
+    "via": "Supplied by the editor, downloaded from Fiat Professional's UK website",
+    "sha256": "af19941bb83f64915ddfd7efad9e726df65c2f34882170898e5b0185561a6a1d"
   }
 }
