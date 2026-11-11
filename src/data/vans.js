@@ -222,7 +222,7 @@ export const VANS = [
   }),
   v('Maxus', 'eTerron 9', 'pickup', {
     electric: true,
-    electricNote: 'Electric only. Range up to about 267 miles (430km on Maxus's WLTC figure).',
+    electricNote: 'Electric only. Range up to about 267 miles (430km on the WLTC figure in Maxus UK\'s spec guide).',
   }),
   v('BYD', 'Shark', 'pickup', {
     electricNote: 'The Shark is a plug-in hybrid. A fully electric version has not been confirmed for the UK.',

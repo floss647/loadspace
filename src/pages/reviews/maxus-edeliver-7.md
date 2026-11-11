@@ -78,6 +78,9 @@ facts:
   - claim: "8.5 hours with the 77kWh"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Battery Capacity (kWh) 77 4.5 5-100%) hrs Charging Time (DC 20-80%) min Max. Power (kW) 150 43min (DC 90KW,150A) Max. Torque (N.m) 330 Autonomy WLTP Combined (miles) 198 Energy Consumption WLTP 27.50 Autonomy WLTP Urban (miles) 302 Combined (kWh/62miles) Charging Time (AC charger 8.5 11kW, 5-100%) hrs"
+  - claim: "on a 22kW charger"
+    archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
+    quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 88 5.2 5-100%) hrs"
   - claim: "Maxus also quotes 5.2"
     archive: sources/maxus-edeliver-7-spec-guide-2026-08.pdf
     quote: "Charging Time (AC charger 22kW, Battery Capacity (kWh) 88 5.2 5-100%) hrs"
