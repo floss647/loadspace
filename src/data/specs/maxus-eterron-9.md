@@ -1,9 +1,9 @@
 ---
 van: maxus-eterron-9
 title: "Maxus eTerron 9 specs"
-summary: "Payload, towing, range, charging, dimensions and standard equipment for the eTerron 9 electric pickup in Luxury and Premium trims, from Harris Maxus UK's own specification guide."
+summary: "Payload, towing, range, charging, dimensions and standard equipment for the eTerron 9 electric pickup in Luxury and Premium trims, from Maxus UK's own specification guide."
 date: 2026-11-11T09:00:00Z
-sourceLabel: "Harris Maxus UK eTerron 9 features and technical specifications guide (undated)"
+sourceLabel: "Maxus UK eTerron 9 features and technical specifications guide (undated)"
 tables:
   - title: "Payload, weights and towing"
     head: ["", "Luxury and Premium"]
@@ -57,15 +57,15 @@ tables:
       - ["Suspension", "Air, independent, front and rear"]
       - ["Brakes", "Discs front and rear"]
 notes:
-  - "The eTerron 9 is a pickup, not a panel van, with four-wheel drive. Harris Maxus's guide gives the same technical figures for both trims, Luxury and Premium. It has no prices."
-  - "Maxus gives the range and energy use on the WLTC test cycle, not WLTP, and gives the range in kilometres. The miles figure is our conversion, rounded. The guide marks both figures with an asterisk, but the only single-asterisk footnote on its technical pages is about connecting cables, so nothing explains it."
+  - "The eTerron 9 is a pickup, not a panel van, with four-wheel drive. Maxus UK's guide gives the same technical figures for both trims, Luxury and Premium. It has no prices."
+  - "Maxus gives the range and energy use as WLTC combined figures, with the range in kilometres, and doesn't call them UK WLTP figures. The miles figure is our conversion, rounded. The guide marks both figures with an asterisk, but the only single-asterisk footnote on its technical pages is about connecting cables, so nothing explains it."
   - "The guide's top speed row is headed mph, but it prints the figure as \"118miles\". We show it as 118mph."
   - "The 620kg payload is the 3,500kg gross vehicle weight minus the 2,880kg kerb weight. The guide doesn't say whether the kerb weight includes a driver, so ask the dealer what you can carry with people on board."
   - "Maxus quotes both charging times at 25°C."
-  - "The eTerron 9 has a second row of seats, and Maxus gives its payload as 620kg, under one tonne. From April 2025, HMRC expects most double-cab pickups to count as cars for capital allowances and company vehicle tax (see our van tax rules)."
+  - "The eTerron 9 has a second row of seats. From April 2025, HMRC expects most double-cab pickups to count as cars for capital allowances and company vehicle tax (see our van tax rules)."
   - "The guide marks voice control and navigation with an asterisk: they're part of the Maxus connected service, which it says can be ordered, and the base version offers only remote control. So we haven't listed them as standard."
   - "The guide marks a tow bar and two black styling packs with an open circle instead of a filled dot, without a key, so we haven't listed them as standard."
-  - "A footnote in the guide says you need to buy and install connecting cables through after-sales to make \"the interface & controller\" work. It doesn't mark which item that means; the only interface and controller in the lists is the rear trailer tow interface."
+  - "A footnote in the guide says you need to buy and install connecting cables through after-sales to make \"the interface & controller\" work. It doesn't mark which item that means; the only item that names both an interface and a controller is the rear trailer tow interface with controller."
 versions:
   - name: "Luxury"
     figures:
@@ -275,6 +275,8 @@ equipment:
             quote: "Front Driver memory +rear view mirror memory •"
           - text: "Panoramic sunroof"
             quote: "Panoramic Sunroof •"
+          - text: "LED passenger lamp (printed \"Passenger Aear Lamp (LED)\")"
+            quote: "Passenger Aear Lamp (LED) •"
       - name: "Multimedia and connectivity"
         items:
           - text: "Eight speakers, instead of six"
@@ -283,6 +285,8 @@ equipment:
         items:
           - text: "Roof rails"
             quote: "Roof Rails •"
+          - text: "Spoke kit (as Maxus names it)"
+            quote: "Spoke Kit •"
 factCheck:
   by: "independent fact-checker"
   date: 2026-11-11
