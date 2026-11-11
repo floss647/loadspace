@@ -40,7 +40,7 @@ versions:
       towing: "2,300kg"
       loadLength: "1,345mm"
       volume: "1,039 litres"
-      rapidTime: "About 36 minutes"
+      rapidTime: "About 36 minutes, 10 to 80%"
 shared:
   warranty: "10 years or 1 million km"
 factCheck:
@@ -89,6 +89,8 @@ facts:
   - claim: "About 36 minutes"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
     quote: "36 Mins"
+  - claim: "About 36 minutes, 10 to 80%"
+    calc: "KGM UK's Musso EV page gives the rapid charge time as 36 Mins and its window as 10 to 80% Approx. (both quoted in the facts above), so about 36 minutes, 10 to 80%"
   - claim: "10 years or 1 million km"
     source: https://www.kgm-motors.co.uk/warranty/
     quote: "Musso EV and Torres EVX both come with a 10-year or 1 million km battery warranty."

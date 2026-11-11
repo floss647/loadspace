@@ -105,7 +105,7 @@ versions:
 shared:
   battery: "110kWh (97.8kWh usable)"
   rapid: "5 to 80% in 55 minutes on a 150kW rapid charger"
-  rapidTime: "55 minutes"
+  rapidTime: "55 minutes, 5 to 80%"
   ac: "22kW"
   warranty: "8 years or 100,000 miles (to 70% capacity)"
 archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
@@ -470,6 +470,9 @@ facts:
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Rapid Charging (150kW) DC - CCS Socket 55min [5 to 80%]"
   - claim: "55 minutes"
+    archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
+    quote: "Rapid Charging (150kW) DC - CCS Socket 55min [5 to 80%]"
+  - claim: "55 minutes, 5 to 80%"
     archive: sources/citroen-e-relay-van-price-spec-guide-2026-10.pdf
     quote: "Rapid Charging (150kW) DC - CCS Socket 55min [5 to 80%]"
   - claim: "22kW"

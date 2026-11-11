@@ -39,7 +39,7 @@ versions:
       gross: "2,230kg"
       towing: "1,500kg"
       topSpeed: "81mph"
-      rapidTime: "40 minutes"
+      rapidTime: "40 minutes, 20 to 80%"
   - name: "LL21 panel van (long wheelbase)"
     figures:
       range: "Up to 190 miles"
@@ -48,11 +48,11 @@ versions:
       gross: "2,510kg"
       towing: "1,500kg"
       topSpeed: "81mph"
-      rapidTime: "40 minutes"
+      rapidTime: "40 minutes, 20 to 80%"
 shared:
   battery: "45kWh"
   rapid: "Up to 80kW"
-  rapidTime: "40 minutes"
+  rapidTime: "40 minutes, 20 to 80%"
   ac: "Up to 22kW"
   warranty: "8 years or 100,000 miles"
 archive: sources/renault-van-price-guide-2026-09.pdf
@@ -310,6 +310,9 @@ facts:
     archive: sources/renault-kangoo-van-brochure-2026-06.pdf
     quote: "40 mins for 1hr 21 for charging from charging from charging from charging from 20% to 80%"
   - claim: "40 minutes"
+    archive: sources/renault-kangoo-van-brochure-2026-06.pdf
+    quote: "40 mins for 1hr 21 for charging from charging from charging from charging from 20% to 80%"
+  - claim: "40 minutes, 20 to 80%"
     archive: sources/renault-kangoo-van-brochure-2026-06.pdf
     quote: "40 mins for 1hr 21 for charging from charging from charging from charging from 20% to 80%"
   - claim: "8 years or 100,000 miles"

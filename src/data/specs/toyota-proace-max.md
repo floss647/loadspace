@@ -45,7 +45,7 @@ versions:
       gross: "4,250kg"
       towing: "2,400kg"
       topSpeed: "55mph"
-      rapidTime: "55 minutes"
+      rapidTime: "55 minutes, 10 to 80%"
   - name: "L3H3, 110kWh, 4,250kg"
     figures:
       range: "Up to 260 miles"
@@ -55,7 +55,7 @@ versions:
       gross: "4,250kg"
       towing: "2,400kg"
       topSpeed: "55mph"
-      rapidTime: "55 minutes"
+      rapidTime: "55 minutes, 10 to 80%"
   - name: "L4H3, 110kWh, 4,250kg"
     figures:
       range: "Up to 260 miles"
@@ -64,10 +64,10 @@ versions:
       gross: "4,250kg"
       towing: "2,400kg"
       topSpeed: "55mph"
-      rapidTime: "55 minutes"
+      rapidTime: "55 minutes, 10 to 80%"
 shared:
   battery: "110kWh (97.8kWh usable)"
-  rapidTime: "10 to 80% in 55 minutes"
+  rapidTime: "55 minutes, 10 to 80%"
   ac: "11kW on-board charger"
   train: "5,500kg"
 archive: sources/toyota-uk-price-list-all-models-2026-10.pdf
@@ -304,6 +304,9 @@ facts:
     archive: sources/toyota-proace-max-brochure-2025-04.pdf
     quote: "10-80% Charging Time (mins) DC Charger 55"
   - claim: "55 minutes"
+    archive: sources/toyota-proace-max-brochure-2025-04.pdf
+    quote: "10-80% Charging Time (mins) DC Charger 55"
+  - claim: "55 minutes, 10 to 80%"
     archive: sources/toyota-proace-max-brochure-2025-04.pdf
     quote: "10-80% Charging Time (mins) DC Charger 55"
   - claim: "about 45 minutes"

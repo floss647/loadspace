@@ -64,7 +64,7 @@ versions:
       loadHeight: "1,456mm"
       loadWidth: "1,300mm"
       gross: "3,000kg"
-      rapidTime: "33 minutes"
+      rapidTime: "33 minutes, 10 to 80%"
   - name: "LWB high-roof van"
     figures:
       range: "139 miles"
@@ -75,11 +75,11 @@ versions:
       loadHeight: "1,746mm"
       loadWidth: "1,300mm"
       gross: "3,270kg"
-      rapidTime: "33 minutes"
+      rapidTime: "33 minutes, 10 to 80%"
 shared:
   battery: "56kWh"
   rapid: "87kW"
-  rapidTime: "33 minutes (10 to 80%)"
+  rapidTime: "33 minutes, 10 to 80%"
   ac: "11kW"
   warranty: "8 years or 100,000 miles"
 archive: sources/ford-transit-city-price-list-2026-04.pdf
@@ -304,8 +304,8 @@ facts:
   - claim: "Rapid charge, 10 to 80%"
     archive: sources/ford-transit-city-price-list-2026-04.pdf
     quote: "10-80%"
-  - claim: "33 minutes (10 to 80%)"
-    calc: "Ford UK price list: DC Fast Charging Time 10-80% column reads 33 mins for both vans (facts above), so 33 minutes (10 to 80%)"
+  - claim: "33 minutes, 10 to 80%"
+    calc: "Ford UK price list: DC Fast Charging Time 10-80% column reads 33 mins for both vans (facts above), so 33 minutes, 10 to 80%"
   - claim: "8 hours"
     archive: sources/ford-transit-city-price-list-2026-04.pdf
     quote: "SWB Low Roof 157.8 38.3 236.7 24.95 33 mins 87 8 hours 5.5 hours"

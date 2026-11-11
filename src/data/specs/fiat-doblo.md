@@ -17,13 +17,13 @@ tables:
     head: ["", "L1 panel van", "L2 panel van", "L2 crew van"]
     rows:
       - ["Load length at floor", "1,817mm", "2,167mm", "1,450mm"]
-      - ["Load length with the load-through bulkhead open (crew van: seats folded)", "3,090mm", "3,440mm", "3,050mm"]
+      - ["Load length with the load-through bulkhead open (crew van: rear seats and passenger seat folded)", "3,090mm", "3,440mm", "3,050mm"]
       - ["Load length at mid-height", "1,525mm", "1,875mm", "Not listed"]
       - ["Width between wheel arches", "1,229mm", "1,229mm", "1,229mm"]
       - ["Maximum load width", "1,630mm with one sliding side door, 1,527mm with two", "1,527mm", "1,527mm"]
       - ["Maximum load height", "1,200mm", "1,270mm", "1,243mm"]
       - ["Load volume", "3.3m³", "3.9m³", "1.8m³"]
-      - ["Load volume with the load-through bulkhead open (crew van: seats folded)", "3.8m³", "4.4m³", "4.0m³"]
+      - ["Load volume with the load-through bulkhead open (crew van: rear seats and passenger seat folded)", "3.8m³", "4.4m³", "4.0m³"]
       - ["Rear sill height", "547 to 588mm", "560 to 569mm", "560 to 569mm"]
       - ["Side sliding door width", "641 to 675mm", "641 to 675mm", "641 to 675mm"]
       - ["Side sliding door height", "1,072mm", "1,072mm", "1,072mm"]
@@ -70,9 +70,9 @@ tables:
       - ["First inspection", "At 12,500 miles or 1 year, whichever comes sooner"]
 notes:
   - "Fiat's electric range table gives the official (WLTP) range as 179.6 to 220 miles for both the panel van and the crew van, which we round to 180 to 220 miles. Its price table gives 179.6 to 222 miles, and its technical page gives a single figure of 213 miles without saying which specification it applies to, so we use the range table."
-  - "Payloads are Fiat's maximum indicative figures. Fiat says they don't include the driver, so the driver's weight counts against them, and they don't allow for options you add, so ask the dealer for the figure for your exact van."
+  - "Payloads are the maximum figures from Fiat's weights table. Fiat says they don't include the driver, so the driver's weight counts against them, and they don't allow for options you add, so ask the dealer for the figure for your exact van. Weights are subject to manufacturing tolerances."
   - "Fiat's weights table gives the Plus panel van 781kg of payload as an L1 and 709kg as an L2, and the Primo 759kg and 691kg. Its price table gives 759kg and 691kg for both trims, and 2,450kg for the gross weight of the L1 Plus, so check the plated figures for your van with the dealer."
-  - "The panel van comes in Plus and Primo trims, as an L1 or an L2. The crew van comes only as an L2, with five seats. Unless a row says the seats are folded, its load figures are with the rear seats in place."
+  - "Fiat's UK price list offers the panel van in Plus and Primo trims, as an L1 or an L2. The crew van comes only as an L2, with five seats. Unless a row says the seats are folded, its load figures are with the rear seats in place."
   - "Fiat's equipment table doesn't list the 10-inch digital instrument cluster for the crew van."
   - "The 11kW three-phase wallbox time needs Fiat's optional 11kW on-board charger."
   - "We don't show prices or option prices for the E-Doblo. The latest Fiat UK price list we hold took effect on 1 July 2025, and we only show prices from a list less than six months old. Ask the dealer for current prices."
@@ -334,12 +334,27 @@ facts:
   - claim: "Fiat's weights table gives the Plus panel van 781kg of payload as an L1 and 709kg as an L2, and the Primo 759kg and 691kg"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "E-Doblo Van 136PS 52kwh L1 2,455 1,749 1,674 781 1,200 1,400 3,205 750 750 50 3 Auto Plus MY25 L2 2,450 1,816 1,741 709 1,200 1,400 3,200 750 750 50 3 E-Doblo Van 136PS 52kwh L1 2,450 1,766 1,691 759 1,200 1,400 3,200 750 750 50 3 Auto Primo MY25 L2 2,450 1,834 1,759 691"
-  - claim: "Its price table gives 759kg and 691kg for both trims, and 2,450kg for the gross weight of the L1 Plus"
+  - claim: "Its price table gives 759kg"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
-    quote: "L1 511.122.4PLU 759 3.3 2,450 179.6-222 £28,955 £30,350 £27,850 E-Doblo Van 136PS 52kwh Auto Plus MY25 L2 511.322.4PLU 691 3.9 2,450 179.6-222 £29,905 £31,300 £28,800 L1 511.122.4PRI 759 3.3 2,450 179.6-222 £30,055 £31,450 £28,950 E-Doblo Van 136PS 52kwh Auto Primo MY25 L2 511.322.4PRI 691"
-  - claim: "maximum indicative figures"
+    quote: "L1 511.122.4PLU 759 3.3 2,450 179.6-222"
+  - claim: "Its price table gives 759kg"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
-    quote: "Maximum Indicative Electric Range (Miles) OTR RRP before PIVG OTR RRP after PIVG WLTP Combined Load Space (m3) Gross Vehicle Payload (kg)"
+    quote: "L1 511.122.4PRI 759 3.3 2,450 179.6-222"
+  - claim: "691kg for both trims"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Auto Plus MY25 L2 511.322.4PLU 691 3.9 2,450 179.6-222"
+  - claim: "691kg for both trims"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Auto Primo MY25 L2 511.322.4PRI 691 3.9 2,450 179.6-222"
+  - claim: "2,450kg for the gross weight of the L1 Plus"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "L1 511.122.4PLU 759 3.3 2,450 179.6-222"
+  - claim: "the maximum figures from Fiat's weights table"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Maximum Payload"
+  - claim: "Weights are subject to manufacturing tolerances"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Weights are also subject to manufacturing tolerances (EU Legislation allows 5% tolerance)"
   - claim: "Fiat says they don't include the driver"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Payload do not include driver"
@@ -348,9 +363,12 @@ facts:
   - claim: "they don't allow for options you add"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Payload does not consider any additional options that a customer may order"
-  - claim: "The panel van comes in Plus and Primo trims"
+  - claim: "Fiat's UK price list offers the panel van in Plus and Primo trims"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
-    quote: "PANEL VANS L1 511.122.4PLU 759 3.3 2,450 179.6-222 £28,955 £30,350 £27,850 E-Doblo Van 136PS 52kwh Auto Plus MY25 L2 511.322.4PLU 691 3.9 2,450 179.6-222 £29,905 £31,300 £28,800 L1 511.122.4PRI 759 3.3 2,450 179.6-222 £30,055 £31,450 £28,950 E-Doblo Van 136PS 52kwh Auto Primo MY25"
+    quote: "E-Doblo Van 136PS 52kwh Auto Plus MY25 L2 511.322.4PLU 691 3.9 2,450 179.6-222"
+  - claim: "Fiat's UK price list offers the panel van in Plus and Primo trims"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "E-Doblo Van 136PS 52kwh Auto Primo MY25 L2 511.322.4PRI 691 3.9 2,450 179.6-222"
   - claim: "The crew van comes only as an L2, with five seats"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "E-Doblo Crew Van 52kwh L2 2,455 1,888 1,813 642 1,200 1,400 3,205 750 750 50 5"
@@ -420,6 +438,9 @@ facts:
   - claim: "4.4m³"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Load volume m3 (with load-through bulkhead open) 3.8 4.4"
+  - claim: "(crew van: rear seats and passenger seat folded)"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Load volume (m3) (rear seats & passenger seat folded and load-through bulkhead open) 4.0"
   - claim: "4.0m³"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Load volume (m3) (rear seats & passenger seat folded and load-through bulkhead open) 4.0"

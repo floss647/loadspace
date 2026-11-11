@@ -43,7 +43,7 @@ versions:
       loadWidth: "1,350mm"
       gross: "3,500kg"
       battery: "81kWh"
-      rapidTime: "34 minutes"
+      rapidTime: "34 minutes, 10 to 80%"
   - name: "L3, 81kWh, 3,500kg"
     figures:
       range: "161 to 162 miles"
@@ -54,7 +54,7 @@ versions:
       loadWidth: "1,350mm"
       gross: "3,500kg"
       battery: "81kWh"
-      rapidTime: "34 minutes"
+      rapidTime: "34 minutes, 10 to 80%"
   - name: "L2, 81kWh, 4,150kg"
     figures:
       range: "183 to 185 miles"
@@ -65,7 +65,7 @@ versions:
       loadWidth: "1,350mm"
       gross: "4,150kg"
       battery: "81kWh"
-      rapidTime: "34 minutes"
+      rapidTime: "34 minutes, 10 to 80%"
   - name: "L3, 81kWh, 4,250kg"
     figures:
       range: "177 to 178 miles"
@@ -76,7 +76,7 @@ versions:
       loadWidth: "1,350mm"
       gross: "4,250kg"
       battery: "81kWh"
-      rapidTime: "34 minutes"
+      rapidTime: "34 minutes, 10 to 80%"
   - name: "L3, 113kWh, 4,250kg"
     figures:
       range: "268 to 272 miles"
@@ -87,7 +87,7 @@ versions:
       loadWidth: "1,350mm"
       gross: "4,250kg"
       battery: "113kWh"
-      rapidTime: "42 minutes"
+      rapidTime: "42 minutes, 10 to 80%"
 shared:
   rapid: "Up to 115kW"
   ac: "11kW as standard, 22kW optional"
@@ -761,7 +761,13 @@ facts:
   - claim: "34 minutes"
     archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
     quote: "DC (115kW) 10-80% – 34 min"
+  - claim: "34 minutes, 10 to 80%"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "DC (115kW) 10-80% – 34 min"
   - claim: "42 minutes"
+    archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
+    quote: "DC (115kW) 10-80% – 42 min"
+  - claim: "42 minutes, 10 to 80%"
     archive: sources/mercedes-esprinter-van-price-list-2026-07.pdf
     quote: "DC (115kW) 10-80% – 42 min"
   - claim: "11kW as standard"
