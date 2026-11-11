@@ -113,6 +113,7 @@ versions:
 shared:
   battery: "52kWh"
   rapid: "Up to 100kW"
+  rapidTime: "30 minutes, 0 to 80%"
   ac: "7kW (11kW optional)"
   warranty: "8 years or 100,000 miles"
 archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
@@ -493,6 +494,9 @@ facts:
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Rapid (DC) Charging (100 kW) - CCS Socket 30m (0 to 80%)"
   - claim: "Rapid charge, 0 to 80%"
+    archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
+    quote: "Rapid (DC) Charging (100 kW) - CCS Socket 30m (0 to 80%)"
+  - claim: "30 minutes, 0 to 80%"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Rapid (DC) Charging (100 kW) - CCS Socket 30m (0 to 80%)"
   - claim: "30 minutes"

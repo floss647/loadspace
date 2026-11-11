@@ -159,7 +159,7 @@ facts:
   - claim: "Fiat's own July 2025 price and specification guide"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Pricing effective from 1 July 2025"
-  - claim: "gives the official WLTP range as 179.6 to 220 miles for the panel van and the crew van alike"
+  - claim: "gives the WLTP combined range as 179.6 to 220 miles for the panel van and the crew van alike"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "PANEL VAN E-Doblo Van 136PS 52kwh 354 289 220 179.6 489.8 390.7 304.3 242.8 174 217 Auto MY25 CREW VAN E-Doblo Crew Van 136PS 354 289 220 179.6"
   - claim: "222 miles in its price table"
@@ -186,10 +186,10 @@ facts:
   - claim: "Fiat's UK price list offers the E-Doblo panel van in Plus and Primo trims"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "E-Doblo Van 136PS 52kwh Auto Primo MY25 L2 511.322.4PRI 691 3.9 2,450 179.6-222"
-  - claim: "a footnote says the Doblo Multijet3 100PS, a diesel, remains available for fleets only"
+  - claim: "a footnote saying the Doblo Multijet3 100PS diesel remains available for fleets only"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "*Doblo Multijet3 100PS remains available for fleets only"
-  - claim: "a diesel"
+  - claim: "Doblo Multijet3 100PS diesel"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Diesel Doblo Van Multijet3 1.5 100PS"
   - claim: "Plus comes with air conditioning"
@@ -222,19 +222,19 @@ facts:
   - claim: "Alarm standard only on the top trim"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Perimetric alarm LSA"
-  - claim: "Fiat's paid-for FlexCare plans"
+  - claim: "Fiat's FlexCare plans"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Fiat Professional FlexCare"
-  - claim: "Fiat's paid-for FlexCare plans"
+  - claim: "service care plans"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Simply take out a Fiat Professional"
-  - claim: "Fiat's paid-for FlexCare plans"
+  - claim: "A trade review reports a five-year warranty, roadside and servicing package for those prepared to pay more"
     source: https://www.autoexpress.co.uk/fiat/doblo
     quote: "A five-year warranty package with five years of roadside assistance and servicing is available if you’re prepared to pay more."
   - claim: "an extended warranty with roadside assistance"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "Extended Warranty + Roadside Assistance"
-  - claim: "and service plans"
+  - claim: "and service care plans"
     archive: sources/fiat-e-doblo-price-spec-guide-2025-07.pdf
     quote: "service care plan"
   - claim: "over the contract term you choose"
@@ -254,7 +254,7 @@ Payload runs from 642kg for the electric L2 Crew Van up to 781kg for the L1 (759
 
 ### Range and charging in the real world
 
-Fiat's own July 2025 price and specification guide gives the official WLTP range as 179.6 to 220 miles for the panel van and the crew van alike. The same guide also gives 222 miles in its price table and 213 miles on its technical page, so get the WLTP figure for your exact van in writing. Whatever it is, fast driving eats into it noticeably, and town work is where it does best.
+Fiat's own July 2025 price and specification guide gives the WLTP combined range as 179.6 to 220 miles for the panel van and the crew van alike. The same guide also gives 222 miles in its price table and 213 miles on its technical page, so get the WLTP figure for your exact van in writing. Whatever it is, fast driving eats into it noticeably, and town work is where it does best.
 
 Every version can rapid charge at up to 100kW, which takes it from zero to 80 per cent in half an hour. At the depot, an overnight wallbox top-up is how it's meant to be run; our [charging guide](/guides/charging-an-electric-van/) covers the options.
 
@@ -264,11 +264,11 @@ Both published road tests describe it as smooth and quiet. One found it more rel
 
 ### Cab and kit
 
-Fiat's UK price list offers the E-Doblo panel van in Plus and Primo trims. The guide also has a base Doblo trim, but a footnote says the Doblo Multijet3 100PS, a diesel, remains available for fleets only. Plus comes with air conditioning, Bluetooth, rear parking sensors, a 10-inch touchscreen, digital instruments and a load-through bulkhead; Primo adds sat-nav and painted exterior trim. Security is thinner than it should be: a perimeter alarm is standard on Primo, a paid option on Plus, and not available on the crew van. The twin passenger seat is narrow for a third adult.
+Fiat's UK price list offers the E-Doblo panel van in Plus and Primo trims. The guide's equipment tables also show a base Doblo panel van, with a footnote saying the Doblo Multijet3 100PS diesel remains available for fleets only. Plus comes with air conditioning, Bluetooth, rear parking sensors, a 10-inch touchscreen, digital instruments and a load-through bulkhead; Primo adds sat-nav and painted exterior trim. Security is thinner than it should be: a perimeter alarm is standard on Primo, a paid option on Plus, and not available on the crew van. The twin passenger seat is narrow for a third adult.
 
 ### Which version to buy
 
-Plus already has the touchscreen and through-load bulkhead, which is enough unless your drivers want built-in sat-nav rather than navigating on their phones. The standard warranty is three years or 100,000 miles, and the battery is guaranteed to keep 70% of its capacity for eight years or 100,000 miles. On top, Fiat's paid-for FlexCare plans offer an extended warranty with roadside assistance, and service plans, over the contract term you choose. Servicing is every two years or 25,000 miles, with a first inspection after a year or 12,500 miles.
+Plus already has the touchscreen and through-load bulkhead, which is enough unless your drivers want built-in sat-nav rather than navigating on their phones, though the alarm is a paid option on Plus. The standard warranty is three years or 100,000 miles, and the battery is guaranteed to keep 70% of its capacity for eight years or 100,000 miles. On top, Fiat's FlexCare plans offer an extended warranty with roadside assistance over the contract term you choose, and service care plans. A trade review reports a five-year warranty, roadside and servicing package for those prepared to pay more. Servicing is every two years or 25,000 miles, with a first inspection after a year or 12,500 miles.
 
 ### Alternatives
 
