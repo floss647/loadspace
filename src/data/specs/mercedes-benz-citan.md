@@ -61,7 +61,7 @@ versions:
 shared:
   battery: "45kWh"
   rapid: "Up to 75kW"
-  rapidTime: "38 minutes"
+  rapidTime: "38 minutes, 10 to 80%"
   ac: "Up to 22kW"
   warranty: "8 years or 100,000 miles"
 archive: sources/mercedes-ecitan-price-list-2025-01.pdf
@@ -607,6 +607,9 @@ facts:
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "DC 10-80% – 38 min @75kW"
   - claim: "38 minutes"
+    archive: sources/mercedes-ecitan-price-list-2025-01.pdf
+    quote: "DC 10-80% – 38 min @75kW"
+  - claim: "38 minutes, 10 to 80%"
     archive: sources/mercedes-ecitan-price-list-2025-01.pdf
     quote: "DC 10-80% – 38 min @75kW"
   - claim: "8 years or 100,000 miles"
