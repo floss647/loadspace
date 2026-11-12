@@ -200,9 +200,9 @@ facts:
   - claim: "cut by £2,580 to £42,055 excluding VAT"
     source: https://www.parkers.co.uk/vans-pickups/news/2023/vauxhall-vivaro-facelift/
     quote: "reduce the price of the Vivaro Electric by £2,580, meaning it now starts at £42,055 (not including VAT)"
-  - claim: "A spread of £37,075 to £58,081"
+  - claim: "A spread of £37,075 to £57,841"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
-    quote: "RRP £37,075 - £58,081"
+    quote: "RRP £37,075 - £57,841"
   - claim: "was reported in May 2026"
     source: https://www.autoexpress.co.uk/vauxhall/vivaro
     quote: "20 May 2026: Latest driving impressions and pricing."
@@ -249,4 +249,4 @@ The [Citroën ë-Dispatch](/vans/citroen-dispatch/), [Peugeot E-Expert](/vans/pe
 
 ### Price
 
-We couldn't confirm a current UK list price for the Vivaro Electric, so get a written quote. When the facelift was announced in November 2023, the electric van was cut by £2,580 to £42,055 excluding VAT. A spread of £37,075 to £58,081 was reported in May 2026, but it covers diesel and electric versions together and doesn't say whether VAT is included. The standard warranty is three years or 100,000 miles, and the battery is covered for eight years against loss of capacity. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+We couldn't confirm a current UK list price for the Vivaro Electric, so get a written quote. When the facelift was announced in November 2023, the electric van was cut by £2,580 to £42,055 excluding VAT. A spread of £37,075 to £57,841 was reported in May 2026, but it covers diesel and electric versions together and doesn't say whether VAT is included. The standard warranty is three years or 100,000 miles, and the battery is covered for eight years against loss of capacity. To see whether electric pays for your mileage, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).

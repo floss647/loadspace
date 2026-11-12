@@ -107,7 +107,7 @@ const anchor = (s) => 'spec-' + s;
   ))}
   {shared.length > 0 && (
     <>
-      <h3 class="spec-sub">Charging and battery{versions.length > 1 ? ', all versions' : ''}</h3>
+      <h3 class="spec-sub">{versions.length > 1 ? 'All versions' : 'More figures'}</h3>
       <ul class="spec-tiles">
         {shared.map((t) => (
           <li>
