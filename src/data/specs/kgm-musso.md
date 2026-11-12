@@ -29,7 +29,7 @@ tables:
       - ["Battery warranty", "10 years or 1 million km"]
 notes:
   - "The Musso EV is a pick-up with a five-seat cabin, not a panel van."
-  - "KGM's site says its figures are derived from the latest WLTP test cycle, but the 240-mile range isn't labelled as a WLTP figure where it's given."
+  - "KGM's site says its figures are derived from the latest WLTP test cycle, but its range figures differ: the page that gives the 240-mile range doesn't name the test, another KGM page gives up to 235 miles of WLTP combined range, and a third gives up to 240 miles (WLTP)."
   - "KGM says the load bed can carry up to 500kg, within the 690kg payload limit."
   - "We couldn't confirm the battery size or charging power from the text of KGM's pages, so they aren't shown here."
 versions:
@@ -40,13 +40,19 @@ versions:
       towing: "2,300kg"
       loadLength: "1,345mm"
       volume: "1,039 litres"
-      rapidTime: "About 36 minutes"
+      rapidTime: "About 36 minutes, 10 to 80%"
 shared:
   warranty: "10 years or 1 million km"
 factCheck:
   by: "independent fact-checker"
   date: 2026-11-01
 facts:
+  - claim: "another KGM page gives up to 235 miles of WLTP combined range"
+    source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
+    quote: "Up to 235 miles of WLTP combined range, and up to 290 miles of range in city driving"
+  - claim: "a third gives up to 240 miles (WLTP)"
+    source: https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
+    quote: "80.6 kWh battery delivering up to 240 miles (WLTP) range"
   - claim: "690kg"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/capability/
     quote: "Musso EV delivers up to 690kg payload"
@@ -89,6 +95,8 @@ facts:
   - claim: "About 36 minutes"
     source: https://www.kgm-motors.co.uk/new-cars/musso-ev/
     quote: "36 Mins"
+  - claim: "About 36 minutes, 10 to 80%"
+    calc: "KGM UK's Musso EV page gives the rapid charge time as 36 Mins and its window as 10 to 80% Approx. (both quoted in the facts above), so about 36 minutes, 10 to 80%"
   - claim: "10 years or 1 million km"
     source: https://www.kgm-motors.co.uk/warranty/
     quote: "Musso EV and Torres EVX both come with a 10-year or 1 million km battery warranty."

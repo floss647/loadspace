@@ -254,5 +254,29 @@
     "received": "2026-11-07",
     "via": "Supplied by the editor (Vauxhall UK press kit)",
     "sha256": "b18ea6142af14ebb1cc0aac1530646ea96d34f6cb0a46c9fb92f9ae940924466"
+  },
+  "maxus-edeliver-7-spec-guide-2026-08.pdf": {
+    "title": "Maxus eDeliver 7 technical specifications and features (L1 H1, L2 H1 and L2 H2; 77kWh and 88kWh), from Maxus UK",
+    "publisher": "saicmaxus.co.uk",
+    "effective": "Undated (no printed date; file modified 19 August 2026)",
+    "received": "2026-11-11",
+    "via": "Supplied by the editor, downloaded from Maxus UK's press site",
+    "sha256": "241667171205b876cfe13b3258f0c434dd28494e43b73eb469b1932964d25030"
+  },
+  "maxus-eterron-9-spec-guide-2026-08.pdf": {
+    "title": "Maxus eTerron 9 features and technical specifications (Luxury and Premium), from Maxus UK",
+    "publisher": "saicmaxus.co.uk",
+    "effective": "Undated (no printed date; file modified 19 August 2026)",
+    "received": "2026-11-11",
+    "via": "Supplied by the editor, downloaded from Maxus UK's press site",
+    "sha256": "7ff633699b5fe208b7a66db7d27ed07ec82d2e47eecd8a756380b48c58890000"
+  },
+  "fiat-e-doblo-price-spec-guide-2025-07.pdf": {
+    "title": "Fiat Professional E-Doblo & Doblo MY26A Prices and Specifications",
+    "publisher": "fiatprofessional.com",
+    "effective": "1 July 2025",
+    "received": "2026-11-11",
+    "via": "Supplied by the editor, downloaded from Fiat Professional's UK website",
+    "sha256": "af19941bb83f64915ddfd7efad9e726df65c2f34882170898e5b0185561a6a1d"
   }
 }

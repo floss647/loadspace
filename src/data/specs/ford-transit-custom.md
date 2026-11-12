@@ -107,7 +107,7 @@ versions:
 shared:
   battery: "71kWh (usable)"
   rapid: "Up to 125kW"
-  rapidTime: "29 minutes (10 to 80%)"
+  rapidTime: "29 minutes, 10 to 80%"
   ac: "11kW (three-phase)"
   train: "5,350kg"
 archive: sources/ford-transit-custom-price-list-2026-06.pdf
@@ -1190,6 +1190,9 @@ facts:
   - claim: "29 minutes"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
+  - claim: "29 minutes, 10 to 80%"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
   - claim: "4 hours 40 minutes"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"

@@ -5,7 +5,7 @@ const { specs } = Astro.props;
 const LABELS = {
   range: 'Official range', battery: 'Battery', payload: 'Payload', volume: 'Load volume',
   loadLength: 'Load length', loadHeight: 'Load height', loadWidth: 'Width between wheel arches',
-  gross: 'Gross weight', towing: 'Towing (braked)', topSpeed: 'Top speed', rapidTime: 'Rapid charge, 10 to 80%',
+  gross: 'Gross weight', towing: 'Towing (braked)', topSpeed: 'Top speed', rapidTime: 'Rapid charge time',
   rapid: 'Rapid charging', ac: 'Home and depot charging', warranty: 'Battery warranty', train: 'Gross train weight',
 };
 // Simple line icons, drawn in currentColor.
@@ -37,6 +37,10 @@ const mergeGroups = (groups) => Object.values(groups.reduce((acc, g) => {
 const equipment = (specs.equipment || []).filter((t) => t.groups?.length).map((t) => ({ ...t, groups: mergeGroups(t.groups) }));
 const options = (specs.options || []).filter((c) => c.items?.length);
 const SHOW = 6;
+// Notes warning that figures come from an older or provisional source are shown as a notice at the top.
+const WARNING = /press kit|provisional|expected targets|not (its|the maker's) current/i;
+const warnings = (specs.notes || []).filter((n) => WARNING.test(n));
+const otherNotes = (specs.notes || []).filter((n) => !WARNING.test(n));
 // "Included as standard" inside each option category: matching items from the checked
 // standard equipment lists. Base trim first, then what higher trims add.
 const GROUP_FOR = {
@@ -71,6 +75,12 @@ const anchor = (s) => 'spec-' + s;
 ---
 <section class="spec-panel" id="specs">
   <h2>Specs</h2>
+  {warnings.length > 0 && (
+    <div class="spec-warning" role="note">
+      <strong>Check these figures</strong>
+      {warnings.map((w) => <p>{w}</p>)}
+    </div>
+  )}
   <nav class="spec-nav" aria-label="Spec sections">
     <a href="#spec-overview">Overview</a>
     {equipment.length > 0 && <a href="#spec-equipment">Standard equipment</a>}
@@ -97,7 +107,7 @@ const anchor = (s) => 'spec-' + s;
   ))}
   {shared.length > 0 && (
     <>
-      <h3 class="spec-sub">Charging and battery{versions.length > 1 ? ', all versions' : ''}</h3>
+      <h3 class="spec-sub">{versions.length > 1 ? 'All versions' : 'More figures'}</h3>
       <ul class="spec-tiles">
         {shared.map((t) => (
           <li>
@@ -171,7 +181,7 @@ const anchor = (s) => 'spec-' + s;
     ))}
   </details>
   <ul class="spec-notes small muted">
-    {specs.notes?.map((n) => <li>{n}</li>)}
+    {otherNotes.map((n) => <li>{n}</li>)}
     <li>Source: {specs.sourceLabel}. Every figure is checked against the maker's document before we publish it.</li>
   </ul>
 </section>

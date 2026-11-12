@@ -1,0 +1,11 @@
+---
+// In-page newsletter sign-up box, shown on reviews, van pages and tools.
+import Newsletter from './Newsletter.astro';
+import { SITE } from '../data/site.js';
+const { source = 'inline' } = Astro.props;
+---
+<div class="newsletter-box">
+  <h3>Get the {SITE.name} briefing</h3>
+  <p>New reviews, electric van news and grant or tax changes, by email. Free, weekly at most.</p>
+  <Newsletter compact source={source} />
+</div>

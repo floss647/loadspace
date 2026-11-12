@@ -102,7 +102,7 @@ versions:
 shared:
   battery: "75kWh (69kWh usable)"
   rapid: "100kW"
-  rapidTime: "45 minutes (5 to 80%)"
+  rapidTime: "45 minutes, 5 to 80%"
   ac: "11kW"
   warranty: "8 years or 100,000 miles (to 70% capacity)"
   train: "4,100kg"
@@ -541,7 +541,7 @@ facts:
   - claim: "Rapid charge, 5 to 80%"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Rapid (DC) Charging (100 kW) - CCS Socket 45m (5 to 80%)"
-  - claim: "45 minutes (5 to 80%)"
+  - claim: "45 minutes, 5 to 80%"
     archive: sources/citroen-e-dispatch-van-price-spec-guide-2026-10.pdf
     quote: "Rapid (DC) Charging (100 kW) - CCS Socket 45m (5 to 80%)"
   - claim: "11kW three-phase wallbox, to 100%"

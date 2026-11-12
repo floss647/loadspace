@@ -92,7 +92,7 @@ versions:
 shared:
   battery: "52kWh (50.7kWh usable)"
   rapid: "Up to 100kW"
-  rapidTime: "30 minutes"
+  rapidTime: "30 minutes, 0 to 80%"
   ac: "7.4kW (11kW optional)"
   warranty: "8 years or 100,000 miles"
 archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
@@ -480,6 +480,9 @@ facts:
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Rapid (DC) Charging (100 kW) – CCS Socket 30m (0 to 80%)"
   - claim: "30 minutes"
+    archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
+    quote: "Rapid (DC) Charging (100 kW) – CCS Socket 30m (0 to 80%)"
+  - claim: "30 minutes, 0 to 80%"
     archive: sources/peugeot-partner-price-spec-guide-2026-08.pdf
     quote: "Rapid (DC) Charging (100 kW) – CCS Socket 30m (0 to 80%)"
   - claim: "7.4kW, or 11kW as an option"

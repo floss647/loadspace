@@ -100,7 +100,7 @@ versions:
 shared:
   battery: "70kWh"
   rapid: "Up to 125kW"
-  rapidTime: "29 minutes"
+  rapidTime: "29 minutes, 10 to 80%"
   ac: "Up to 11kW, 0 to 100% in 7.1 hours"
   warranty: "8 years or 100,000 miles (at least 70% capacity)"
   train: "5,350kg"
@@ -816,6 +816,9 @@ facts:
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "DC current – Rapid charger (up to 125kW) CCS 29 minutes"
   - claim: "10 to 80%"
+    archive: sources/vw-transporter-brochure-2026-07.pdf
+    quote: "29 minutes e-Transporter, service is required every 24 months—making it a 10-80%"
+  - claim: "29 minutes, 10 to 80%"
     archive: sources/vw-transporter-brochure-2026-07.pdf
     quote: "29 minutes e-Transporter, service is required every 24 months—making it a 10-80%"
   - claim: "Up to 11kW, 0 to 100% in 7.1 hours"

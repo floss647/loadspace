@@ -1,0 +1,123 @@
+---
+// Head-to-head comparison of two electric vans. Every figure comes from the vans' signed-off
+// spec files, shown exactly as written there. No winner, no new claims: the text is template only.
+import Base from '../../layouts/Base.astro';
+import { SIZES, TWINS } from '../../data/vans.js';
+import { PAIRS, ROWS, figure, sideFor } from '../../lib/compare.js';
+
+export function getStaticPaths() {
+  return PAIRS.map((pair) => ({ params: { pair: pair.slug }, props: { pair } }));
+}
+
+const { pair } = Astro.props;
+const sides = [sideFor(pair.vanA), sideFor(pair.vanB)];
+const [A, B] = sides.map((s) => s.van);
+const sizeOf = (v) => SIZES[v.size].label.toLowerCase().replace(/s$/, '');
+const sizeText = A.size === B.size
+  ? `The ${A.name} and the ${B.name} are both ${SIZES[A.size].label.toLowerCase()}.`
+  : `The ${A.name} is a ${sizeOf(A)} and the ${B.name} is a ${sizeOf(B)}.`;
+const twin = A.twin && A.twin === B.twin ? TWINS[A.twin] : null;
+const rows = ROWS.map(([key, label]) => ({ key, label, cells: sides.map((s) => figure(s.specs, key)) }))
+  .filter((r) => r.cells.some((c) => c.length));
+const scored = sides.every((s) => s.review?.score?.overall != null);
+const title = `${A.name} vs ${B.name}: electric van comparison`;
+const crumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: 'Compare electric vans', item: new URL('/compare/', Astro.site).href },
+    { '@type': 'ListItem', position: 3, name: `${A.name} vs ${B.name}`, item: new URL(pair.url, Astro.site).href },
+  ],
+};
+---
+<Base title={title} description={`${A.name} vs ${B.name}: official range, battery, payload, load space, charging, battery warranty and towing side by side.`} jsonLd={crumbs}>
+  <div class="wrap compare">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/compare/">Compare electric vans</a> › {A.name} vs {B.name}</div>
+    <h1>{A.name} vs {B.name}</h1>
+    <p class="lede">{sizeText}{twin && ` ${twin.note}`} Here's how their official figures compare. Where versions differ, we list each one.</p>
+
+    {sides.filter((s) => s.warnings.length).map((s) => (
+      <div class="notice">
+        <strong>{s.van.name}: check these figures.</strong>
+        {s.warnings.map((w) => <p class="compare-warn">{w}</p>)}
+      </div>
+    ))}
+
+    <div class="table-wrap compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr><th scope="col"><span class="visually-hidden">Figure</span></th>{sides.map((s) => <th scope="col"><a href={`/vans/${s.van.slug}/`}>{s.van.name}</a></th>)}</tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <th scope="row">{r.label}</th>
+              {r.cells.map((c) => (
+                <td>
+                  {c.length === 0 ? <span class="muted">Not published</span>
+                    : c.length === 1 && c[0].versions.length === 0 ? <strong>{c[0].value}</strong>
+                    : (
+                      <ul class="compare-vals">
+                        {c.map((g) => <li><strong>{g.value}</strong> <span class="muted small">{g.versions.join('; ')}</span></li>)}
+                      </ul>
+                    )}
+                </td>
+              ))}
+            </tr>
+          ))}
+          {scored && (
+            <tr>
+              <th scope="row">Loadspace data score</th>
+              {sides.map((s) => <td><a href={s.review.url}><strong>{s.review.score.overall.toFixed(1)}/5</strong></a></td>)}
+            </tr>
+          )}
+          <tr>
+            <th scope="row">Source</th>
+            {sides.map((s) => <td class="small">{s.specs.sourceLabel}</td>)}
+          </tr>
+          <tr>
+            <th scope="row">More</th>
+            {sides.map((s) => (
+              <td class="small">
+                <a href={`/vans/${s.van.slug}/#specs`}>Full {s.van.name} specs</a>
+                {s.review && <><br /><a href={s.review.url}>Our {s.van.name} review</a></>}
+              </td>
+            ))}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">Figures are copied from each van's spec section, which we check against the maker's own documents. Ask the dealer for the figures for the exact version you order.</p>
+
+    {sides.some((s) => s.notes.length) && (
+      <section class="compare-caveats">
+        <h2>Caveats</h2>
+        {sides.filter((s) => s.notes.length).map((s) => (
+          <>
+            <h3>{s.van.name}</h3>
+            <ul class="small">
+              {s.notes.map((n) => <li>{n}</li>)}
+            </ul>
+          </>
+        ))}
+      </section>
+    )}
+
+    <p class="small"><a href="/compare/">All electric van comparisons →</a></p>
+  </div>
+</Base>
+
+<style>
+  .compare-table { min-width: 560px; }
+  .compare-table thead th:first-child, .compare-table tbody th { width: 24%; }
+  .compare-table tbody th { white-space: normal; font-weight: 700; }
+  .compare-table thead th { white-space: normal; }
+  .compare-vals { list-style: none; margin: 0; padding: 0; }
+  .compare-vals li + li { margin-top: .35rem; }
+  .compare-vals .muted { display: block; }
+  .compare-warn { margin: .4rem 0 0; }
+  .compare-caveats h3 { margin-bottom: .3rem; }
+  .compare-caveats li + li { margin-top: .3rem; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>

@@ -3,20 +3,21 @@ layout: ../../layouts/Review.astro
 title: "Maxus eTerron 9 review"
 van: maxus-eterron-9
 date: 2026-10-30T08:00:00Z
-summary: "A big, powerful electric pickup with the longest official range of the bunch and full 3.5-tonne towing. Its 620 kg payload puts it on the car side of HMRC's VAT test, so it suits lifestyle and towing buyers more than tradespeople."
+summary: "A big, powerful electric pickup with the longest range of the electric pickups we cover (267 miles, converted from Maxus's 430km WLTC figure) and full 3.5-tonne towing. Its 620 kg payload puts it on the car side of HMRC's VAT test, so it suits lifestyle and towing buyers more than tradespeople."
 specs:
   price: "Not confirmed (only rounded prices reported)"
-  range: "267 miles"
+  range: "267 miles (from Maxus's 430km WLTC combined figure)"
   charging: "115kW"
   payload: "620 kg"
-  batteryWarranty: "Not confirmed (one report only: 8 years or 150,000 miles)"
-verdict: "The eTerron 9 is the electric pickup for towing and distance: 3,500kg braked, four-wheel drive and a 267-mile official range from a 102kWh battery. It is not a load-lugger, though. With 620 kg of payload it falls well short of a tonne, so it counts as a car under HMRC's VAT payload test, and the promised high-payload Utility version still isn't confirmed. Few UK road tests have been published, so treat it as a promising spec sheet and drive one before you buy."
-good: ["267-mile official range", "Tows 3,500kg braked", "Folding cab wall extends the bed to 2.4m"]
+  batteryWarranty: "8 years or 125,000 miles"
+verdict: "The eTerron 9 is the electric pickup for towing and distance: 3,500kg braked, four-wheel drive and a 267-mile range (430km on Maxus's WLTC combined figure) from a 102kWh battery. It is not a load-lugger, though. With 620 kg of payload it falls well short of a tonne, so it counts as a car under HMRC's VAT payload test, and the promised high-payload Utility version still isn't confirmed. Few UK road tests have been published, so treat it as a promising spec sheet and drive one before you buy."
+good: ["267-mile range (430km on Maxus's WLTC combined figure)", "Tows 3,500kg braked", "Folding cab wall extends the bed to 2.4m"]
 bad: ["620 kg payload, under a tonne", "Counts as a car for VAT", "Few UK road tests so far"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-11
 sources:
+  - sources/maxus-eterron-9-spec-guide-2026-08.pdf
   - https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
   - https://www.parkers.co.uk/vans-pickups/kgm/musso/ev-2026-review/
   - https://www.parkers.co.uk/vans-pickups/isuzu/d-max/bev-2026-review/
@@ -35,21 +36,25 @@ facts:
   - claim: "Maxus eTerron 9"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Maxus E Terron 9 Luxury Maxus E Terron 9 Premium"
+  - claim: "430km"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "Range WLTC combined (km)* 430"
+  - claim: "Maxus's 430km WLTC combined figure"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "Range WLTC combined (km)* 430"
+  - claim: "430km on Maxus's WLTC combined figure"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "Range WLTC combined (km)* 430"
   - claim: "267 miles"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "the Maxus eTerron 9’s WLTP combined range of 267 miles"
-  - claim: "267-mile official range"
-    source: https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
-    quote: "Thanks to a 102kWh battery the eTerron 9 has a longer range of up to 267 miles"
+    calc: "430km ÷ 1.609344km per mile = 267.2 miles, rounded to 267 miles"
+  - claim: "267-mile range"
+    calc: "430km ÷ 1.609344km per mile = 267.2 miles, rounded to 267 miles"
   - claim: "102kWh"
     source: https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
     quote: "Thanks to a 102kWh battery the eTerron 9 has a longer range of up to 267 miles"
   - claim: "the longest of the electric pickups we cover"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "This falls a tiny bit short of the Maxus eTerron 9’s WLTP combined range of 267 miles, but it’s well ahead of the Isuzu D-Max EV ’s 163 miles, or 143 miles from the Toyota Hilux BEV"
-  - claim: "one report gives 261 miles"
-    source: https://vanreviewer.co.uk/maxus/eterron-9/review/5831/
-    quote: "capable of up to 261 miles according to the WLTP combined test cycle"
   - claim: "carries over a tonne"
     source: https://www.autoexpress.co.uk/isuzu/d-max/ev
     quote: "this is a full one-tonne pick-up, with a payload weight of 1,015kg for the Double Cab, or 1,060kg for the Extended Cab"
@@ -71,9 +76,12 @@ facts:
   - claim: "115kW"
     source: https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
     quote: "The Maxus eTerron 9 can be charged at up to 115kW to replenish the battery from 20% to 80% in just over 40 minutes"
-  - claim: "20 to 80 per cent in about 40 minutes"
-    source: https://vanfleetworld.co.uk/maxus-eterron-9-all-wheel-drive-pickup-premieres-in-uk/
-    quote: "giving a 20% to 80% recharge in around 40 minutes"
+  - claim: "20 to 80 per cent in 42 minutes at up to 115kW"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "DC Charging time (20%~80%) 42mins/115kw"
+  - claim: "(Maxus's figure, at 25°C)"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "DC Charging time (20%~80%) 42mins/115kw (h)/ Charging power (kW), 25ºC"
   - claim: "620 kg"
     source: https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
     quote: "Maxus eTerron 9 Double Cab: 620kg maximum payload"
@@ -92,15 +100,22 @@ facts:
   - claim: "Tows 3,500kg braked"
     source: https://www.autoexpress.co.uk/kgm/musso/ev
     quote: "With a braked trailer capacity of 2,300kg, the Musso EV falls short of the 3,500kg rating both the eTerron 9 and D-Max BEV manage"
-  - claim: "8 years or 150,000 miles"
-    source: https://www.autoexpress.co.uk/kgm/musso/ev
-    quote: "the 8-year or 150,000-mile package provided for the Maxus eTerron 9"
+  - claim: "8 years or 125,000 miles"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "8 YEARS/125,000miles (Battery)"
+  - claim: "Maxus covers the whole vehicle for 5 years or 100,000 miles"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "5 YEARS/100,000miles (Whole vehicle)"
   - claim: "Luxury and Premium"
     source: https://www.parkers.co.uk/vans-pickups/best/pickup-trucks-for-payload/
     quote: "Available in Luxury and Premium specifications, both come with four-wheel drive as standard"
-  - claim: "442hp"
-    source: https://vanfleetworld.co.uk/maxus-eterron-9-all-wheel-drive-pickup-premieres-in-uk/
-    quote: "generating total output of 442hp along with all-wheel drive"
+  - claim: "two motors, 125kW front and 200kW rear"
+    archive: sources/maxus-eterron-9-spec-guide-2026-08.pdf
+    quote: "Max Power: front/rear (kW) 125/200"
+  - claim: "325kW added together"
+    calc: "125kW front + 200kW rear = 325kW (Maxus gives no combined output)"
+  - claim: "about 442 metric horsepower"
+    calc: "325kW ÷ 0.73549875kW per metric horsepower = 441.9, rounded to 442"
   - claim: "standard air suspension"
     source: https://vanfleetworld.co.uk/maxus-eterron-9-all-wheel-drive-pickup-premieres-in-uk/
     quote: "the height of the standard air suspension"
@@ -198,7 +213,7 @@ facts:
     quote: "The maximum discount available for some large vans is £5,000"
 ---
 
-The eTerron 9 is Maxus's second electric pickup, and Maxus announced it as the successor to its rear-drive T90 pickup. It's a very different machine: four-wheel drive, 442hp, standard air suspension and the biggest battery in the class. Few UK road tests have been published, so this review leans on the published figures.
+The eTerron 9 is Maxus's second electric pickup, and Maxus announced it as the successor to its rear-drive T90 pickup. It's a very different machine: four-wheel drive with two motors, 125kW front and 200kW rear (325kW added together, about 442 metric horsepower), standard air suspension and the biggest battery in the class. Few UK road tests have been published, so this review leans on the published figures.
 
 ### Who it's for
 
@@ -218,7 +233,7 @@ For benefit in kind, HMRC says that from 6 April 2025 most double cab pickups ar
 
 ### Range and charging
 
-The 102kWh battery gives a 267-mile official range in most reports (one report gives 261 miles), the longest of the electric pickups we cover. Rapid charging peaks at 115kW, enough for 20 to 80 per cent in about 40 minutes. There are 2.2kW sockets in the front boot and bed, plus an external 6.6kW outlet. See our [charging guide](/guides/charging-an-electric-van/).
+The 102kWh battery gives a 267-mile range (430km on Maxus's WLTC combined figure), the longest of the electric pickups we cover. We've scored it as the official figure, as it's the one in Maxus UK's spec guide. Rapid charging takes it from 20 to 80 per cent in 42 minutes at up to 115kW (Maxus's figure, at 25°C). There are 2.2kW sockets in the front boot and bed, plus an external 6.6kW outlet. See our [charging guide](/guides/charging-an-electric-van/).
 
 Off road, six preset terrain modes work with the air suspension, but we haven't seen enough testing to say how it copes.
 
@@ -228,4 +243,4 @@ The [Isuzu D-Max EV](/vans/isuzu-d-max/) also tows 3.5 tonnes and carries over a
 
 ### Price
 
-Reported prices are rounded: £55,000 excluding VAT in May 2026, and nearly £55,000 before VAT in March, so we haven't scored price. Only the Luxury and Premium versions are on the government's grant list, which is worth up to £5,000 on some large vans. The battery warranty has been reported as 8 years or 150,000 miles, but we couldn't confirm it with Maxus, so check it with the dealer and get a written quote.
+Reported prices are rounded: £55,000 excluding VAT in May 2026, and nearly £55,000 before VAT in March, so we haven't scored price. Only the Luxury and Premium versions are on the government's grant list, which is worth up to £5,000 on some large vans. Maxus covers the whole vehicle for 5 years or 100,000 miles and the battery for 8 years or 125,000 miles. Get a written quote from the dealer.

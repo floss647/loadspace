@@ -71,7 +71,7 @@ versions:
 shared:
   battery: "45kWh"
   rapid: "Up to 80kW"
-  rapidTime: "37 minutes"
+  rapidTime: "37 minutes, 15 to 80%"
   ac: "22kW"
   warranty: "8 years or 100,000 miles (to 70% capacity)"
 archive: sources/nissan-lcv-price-list-2026-07.pdf
@@ -347,6 +347,9 @@ facts:
     archive: sources/nissan-townstar-brochure-2026-04.pdf
     quote: "15-80% (80kW DC) mins 37"
   - claim: "37 minutes"
+    archive: sources/nissan-townstar-brochure-2026-04.pdf
+    quote: "15-80% (80kW DC) mins 37"
+  - claim: "37 minutes, 15 to 80%"
     archive: sources/nissan-townstar-brochure-2026-04.pdf
     quote: "15-80% (80kW DC) mins 37"
   - claim: "AC charge at 22kW, 15 to 80%"
