@@ -7,7 +7,7 @@ summary: "Kia UK has priced a PV5 chassis cab for tippers and other conversions,
 stat: "£30,605"
 statLabel: "reported starting price of the Kia PV5 Chassis, before VAT, as a base for converters."
 photo: kia-pv5-cargo
-photoCaption: "Kia's high-roof PV5 concept at a German trade show, before production began. UK vans look different and are right-hand drive."
+photoCaption: "Kia's high-roof PV5 show van at a German trade show, before production began. UK vans look different and are right-hand drive."
 sources:
   - https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
@@ -37,6 +37,9 @@ facts:
   - claim: "only in Plus trim"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
     quote: "Plus is the only available trim grade on these models."
+  - claim: "Both reports say Kia has approved TGS Automotive"
+    source: https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
+    quote: "conversions from Kia-approved TGS Automotive"
   - claim: "TGS Automotive"
     source: https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
     quote: "One approved PBV partner will be TGS Automotive which has already engineered fully approved factory-backed conversions of a Dropside and tipper."
@@ -126,7 +129,7 @@ Kia's own UK price list online didn't include either version when we checked, so
 ## The chassis cab
 
 - **Price:** from **£30,605 before VAT**, as a bare chassis for a converter to build on, according to both Van Reviewer and Auto Express. Auto Express reports it's available only in Plus trim.
-- **Ready-made bodies:** Kia has approved TGS Automotive to build dropside and tipper versions. Both reports put the **tipper** at **£37,600 before VAT**, and Van Reviewer gives its payload as 561kg. Reports differ on the **dropside** price: Van Reviewer says £36,600 before VAT, Auto Express £36,000. Check with the dealer.
+- **Ready-made bodies:** Both reports say Kia has approved TGS Automotive to build dropside and tipper versions. Both reports put the **tipper** at **£37,600 before VAT**, and Van Reviewer gives its payload as 561kg. Reports differ on the **dropside** price: Van Reviewer says £36,600 before VAT, Auto Express £36,000. Check with the dealer.
 - **Grant:** Van Reviewer reports that completed conversions are expected to qualify for the full £5,000 van grant. GOV.UK's list of eligible large vans currently names the Kia PV5 Cargo, but not the chassis cab, so ask the dealer to confirm before you order.
 
 ## The high-roof van
@@ -136,7 +139,7 @@ Kia's own UK price list online didn't include either version when we checked, so
 - **Space:** 1,815mm of internal height, up from 1,520mm in the standard-roof vans, according to Auto Express, and up to 5.2 cubic metres of load space, according to Van Reviewer.
 - **Payload:** **630kg**, according to both reports, so check it against your heaviest load.
 - **Towing:** a braked trailer of up to 1,500kg, Van Reviewer reports.
-- **Trims:** Essential, Plus and Plus Walk Through. Van Reviewer says the Walk Through version has a folding seat and a sliding bulkhead door, for courier multi-drop deliveries.
+- **Trims:** Essential, Plus and Plus Walk Through, Auto Express reports. Van Reviewer says the Walk Through version has a folding seat and a sliding bulkhead door, for courier multi-drop deliveries.
 
 For comparison, Kia's current UK price list starts the standard-roof, long-battery L2/H1 van at **£30,855** before VAT, with a range of 258 miles that Kia's price list gives as preliminary data.
 
