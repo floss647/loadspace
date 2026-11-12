@@ -8,6 +8,9 @@ stat: "£30,605"
 statLabel: "reported starting price of the Kia PV5 Chassis, before VAT, as a base for converters."
 photo: kia-pv5-cargo
 photoCaption: "Kia's high-roof PV5 show van at a German trade show, before production began. UK vans look different and are right-hand drive."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-12
 sources:
   - https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
