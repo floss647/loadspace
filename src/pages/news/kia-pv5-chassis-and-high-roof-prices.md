@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/NewsPost.astro
-title: "Kia PV5 adds a chassis cab and a high-roof van, from £30,605 before VAT"
+title: "Kia PV5 adds a chassis cab and a high-roof van: chassis reported from £30,605 before VAT"
 date: 2026-11-12T09:00:00Z
 tag: New model
 summary: "Kia UK has priced a PV5 chassis cab for tippers and other conversions, and a taller PV5 Cargo L2/H2 panel van, according to trade press. Kia's own UK price list online didn't include either when we checked."
 stat: "£30,605"
 statLabel: "reported starting price of the Kia PV5 Chassis, before VAT, as a base for converters."
 photo: kia-pv5-cargo
-photoCaption: "A high-roof PV5 shown at a German trade show before production began. UK vans differ in detail and are right-hand drive."
+photoCaption: "Kia's high-roof PV5 concept at a German trade show, before production began. UK vans look different and are right-hand drive."
 sources:
   - https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
   - https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
@@ -18,6 +18,9 @@ facts:
   - claim: "10 November"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
     quote: "By: Matt Robinson 10 Nov 2026"
+  - claim: "trade press reports on 10 November"
+    source: https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
+    quote: "Kia PV5 Chassis will start from £30k November 10, 2026"
   - claim: "Kia UK has revealed prices"
     source: https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
     quote: "Kia UK has revealed full pricing and specifications for its MY27 PV5 Chassis line-up, alongside the launch of the new high-roof PV5 Cargo L2/H2 van."
@@ -95,6 +98,9 @@ facts:
   - claim: "630kg"
     source: https://www.autoexpress.co.uk/kia/pv5-cargo/369420/bigger-kia-pv5-van-goes-sale-alongside-new-chassis-cab
     quote: "The payload is 630kg."
+  - claim: "for courier multi-drop deliveries"
+    source: https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
+    quote: "Plus Walk Through system which has a folding dive seat and sliding bulkhead door for courier multi-drop deliveries"
   - claim: "a folding seat and a sliding bulkhead door"
     source: https://vanreviewer.co.uk/news/kia-pv5-chassis-will-start-at-30k/
     quote: "Plus Walk Through system which has a folding dive seat and sliding bulkhead door for courier multi-drop deliveries"
@@ -105,6 +111,9 @@ facts:
   - claim: "£30,855"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
     quote: "Essential 71.2kWh L2/H1 3Dr 2-Seat FWD 0 258 33D £30,855"
+  - claim: "preliminary data"
+    source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
+    quote: "Preliminary data shown may be subject to change."
   - claim: "258 miles"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/pricing/
     quote: "Essential 71.2kWh L2/H1 3Dr 2-Seat FWD 0 258 33D £30,855"
@@ -125,11 +134,11 @@ Kia's own UK price list online didn't include either version when we checked, so
 - **Price:** from **£32,355 before VAT**, according to both reports. Auto Express says it qualifies for the van grant.
 - **Battery and range:** only the 71.2kWh long-range battery, with an official (WLTP) range of up to **239 miles**, Auto Express reports.
 - **Space:** 1,815mm of internal height, up from 1,520mm in the standard-roof vans, according to Auto Express, and up to 5.2 cubic metres of load space, according to Van Reviewer.
-- **Payload:** **630kg**, according to both reports. That's the trade-off for the taller body, so check it against your heaviest load.
+- **Payload:** **630kg**, according to both reports, so check it against your heaviest load.
 - **Towing:** a braked trailer of up to 1,500kg, Van Reviewer reports.
-- **Trims:** Essential, Plus and Plus Walk Through. Van Reviewer says the Walk Through version has a folding seat and a sliding bulkhead door, so couriers can step from the cab into the load area.
+- **Trims:** Essential, Plus and Plus Walk Through. Van Reviewer says the Walk Through version has a folding seat and a sliding bulkhead door, for courier multi-drop deliveries.
 
-For comparison, Kia's current UK price list starts the standard-roof, long-battery L2/H1 van at **£30,855** before VAT, with an official range of 258 miles.
+For comparison, Kia's current UK price list starts the standard-roof, long-battery L2/H1 van at **£30,855** before VAT, with a range of 258 miles that Kia's price list gives as preliminary data.
 
 ## What it means for you
 
