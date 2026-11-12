@@ -29,7 +29,7 @@ tables:
       - ["Battery warranty", "10 years or 1 million km"]
 notes:
   - "The Musso EV is a pick-up with a five-seat cabin, not a panel van."
-  - "KGM's site says its figures are derived from the latest WLTP test cycle, but the 240-mile range isn't labelled as a WLTP figure where it's given. Other KGM pages give up to 235 miles of WLTP combined range, and up to 240 miles (WLTP), so check the figure for your exact pickup."
+  - "KGM's site says its figures are derived from the latest WLTP test cycle, but its range figures differ: the page that gives the 240-mile range doesn't name the test, another KGM page gives up to 235 miles of WLTP combined range, and a third gives up to 240 miles (WLTP)."
   - "KGM says the load bed can carry up to 500kg, within the 690kg payload limit."
   - "We couldn't confirm the battery size or charging power from the text of KGM's pages, so they aren't shown here."
 versions:
@@ -47,10 +47,10 @@ factCheck:
   by: "independent fact-checker"
   date: 2026-11-01
 facts:
-  - claim: "Other KGM pages give up to 235 miles of WLTP combined range"
+  - claim: "another KGM page gives up to 235 miles of WLTP combined range"
     source: https://www.kgm-motors.co.uk/new-cars/electric-pickup-trucks/
     quote: "Up to 235 miles of WLTP combined range, and up to 290 miles of range in city driving"
-  - claim: "and up to 240 miles (WLTP)"
+  - claim: "a third gives up to 240 miles (WLTP)"
     source: https://www.kgm-motors.co.uk/new-cars/commercial-vehicles/
     quote: "80.6 kWh battery delivering up to 240 miles (WLTP) range"
   - claim: "690kg"
