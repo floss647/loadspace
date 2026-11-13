@@ -1,47 +1,205 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { REVIEWS } from '../../lib/reviews.js';
+import { REVIEWS, CRITERIA } from '../../lib/reviews.js';
+import { EV_VANS, SIZES, TWINS } from '../../data/vans.js';
+import { ICONS, credit } from '../../data/guides.js';
 import IMAGES from '../../data/images.json';
+
 const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
+const hero = IMAGES['volkswagen-id-buzz-cargo'];
+const vanOf = (r) => EV_VANS.find((v) => v.slug === r.van);
+const sizeOf = (r) => vanOf(r)?.size || '';
+const total = CRITERIA.length;
+const scoreText = (r) => (r.score.overall != null ? `Scored on ${r.score.scoredCount} of ${total} published figures` : 'Needs at least 3 confirmed figures');
+
+// Size classes come straight from the van data, in the same order as the home page tiles.
+const sizes = Object.entries(SIZES).filter(([key]) => REVIEWS.some((r) => sizeOf(r) === key));
+
+// Highest data score in each size class. Ties are all shown.
+const highs = sizes.map(([key, s]) => {
+  const scored = REVIEWS.filter((r) => sizeOf(r) === key && r.score.overall != null);
+  const top = Math.max(...scored.map((r) => r.score.overall));
+  return { key, label: s.label, top, reviews: scored.filter((r) => r.score.overall === top) };
+}).filter((h) => h.reviews.length);
+
+// Reviewed vans that are the same van under different badges.
+const twins = Object.entries(TWINS)
+  .map(([key, t]) => ({ ...t, key, reviews: REVIEWS.filter((r) => vanOf(r)?.twin === key) }))
+  .filter((t) => t.reviews.length > 1);
+
+// One credit per card photo, written the same way as elsewhere on the site.
+const photoCredits = REVIEWS.filter((r) => IMAGES[r.van]).map((r) => {
+  const img = IMAGES[r.van];
+  return { name: r.vanName, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
+});
 ---
 <Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs.">
-  <section class="review-hero">
-    <div class="wrap">
-      <div class="crumbs"><a href="/">Home</a> › Reviews</div>
-      <p class="eyebrow">Loadspace reviews</p>
-      <h1>Electric van reviews</h1>
-      <p class="review-summary">Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Loadspace data score from its published specs, so you can compare them fairly.</p>
+  <section class="hero hero-split reviews-hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent electric van reviews</p>
+        <h1>Electric van reviews</h1>
+        <p>Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Loadspace data score from its published specs, so you can compare them fairly.</p>
+        <div class="btn-row">
+          <a class="btn" href="#all-reviews">Browse the reviews</a>
+          <a class="btn secondary" href="/reviews/how-we-score/">How we review and score</a>
+        </div>
+      </div>
+      {hero && (
+        <figure class="hero-photo">
+          <img src={hero.file} alt="A Volkswagen ID. Buzz Cargo electric van" width="1200" height="852" />
+          <figcaption>{credit(hero)}</figcaption>
+        </figure>
+      )}
     </div>
   </section>
-  <div class="wrap">
-    <div class="review-cards">
-      {REVIEWS.map((r) => (
-        <a class="review-card" href={r.url}>
-          <div class="review-card-img">
-            {card(r.van) ? <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" /> : (
-              <div class="card-img-empty" aria-hidden="true">
-                <svg viewBox="0 0 64 32"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor"/></svg>
-                <span>Photo coming soon</span>
-              </div>
-            )}
-            {r.score.overall != null && <span class="medal-score">{r.score.overall.toFixed(1)}<small>/5</small></span>}
-          </div>
-          <div class="review-card-text">
-            <h2>{r.vanName}</h2>
-            <p>{r.summary}</p>
-            <div class="mini-meters">
-              {r.score.rows.map((row) => (
-                <span title={`${row.label}: ${row.points != null ? row.points + '/5' : 'not confirmed'}`}>
-                  <em>{row.label}</em>
-                  <span class="meter">{[1, 2, 3, 4, 5].map((n) => <i class={n <= (row.points ?? 0) ? 'on' : ''} />)}</span>
+
+  <section class="section" aria-labelledby="all-reviews">
+    <div class="wrap">
+      <div class="section-head ri-head">
+        <div><p class="eyebrow">Every review</p><h2 id="all-reviews">Electric vans we've reviewed</h2></div>
+        <a class="more" href="/reviews/how-we-score/">How the data score works →</a>
+      </div>
+
+      <div class="ri-toolbar" data-ri-toolbar hidden>
+        <fieldset class="ri-chips">
+          <legend class="ri-sr">Filter by size</legend>
+          <label><input type="radio" name="ri-size" value="all" checked /><span>All sizes</span></label>
+          {sizes.map(([key, s]) => (
+            <label><input type="radio" name="ri-size" value={key} /><span>{s.label}</span></label>
+          ))}
+        </fieldset>
+        <label class="ri-sort">
+          <span>Sort by</span>
+          <select data-ri-sort>
+            <option value="name">A to Z</option>
+            <option value="score">Highest data score first</option>
+          </select>
+        </label>
+      </div>
+      <p class="ri-sr" aria-live="polite" data-ri-status></p>
+
+      <ul class="ri-grid" data-ri-list>
+        {REVIEWS.map((r) => (
+          <li data-size={sizeOf(r)} data-name={r.vanName} data-score={r.score.overall ?? ''}>
+            <a class="ri-card" href={r.url}>
+              <span class="ri-thumb">
+                {card(r.van) ? <img src={card(r.van)} alt="" loading="lazy" width="800" height="450" /> : (
+                  <span class="ri-thumb-empty" aria-hidden="true">
+                    <svg viewBox="0 0 64 32"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor" /></svg>
+                  </span>
+                )}
+              </span>
+              <span class="ri-body">
+                {SIZES[sizeOf(r)] && <span class="ri-size">{SIZES[sizeOf(r)].label}</span>}
+                <h3>{r.vanName}</h3>
+                <span class="ri-summary">{r.summary}</span>
+              </span>
+              <span class="ri-foot">
+                <span class={r.score.overall != null ? 'ri-score' : 'ri-score none'}>
+                  {r.score.overall != null ? <>{r.score.overall.toFixed(1)}<small>/5</small></> : 'n/a'}
                 </span>
-              ))}
-            </div>
-            <span class="arrow">Read the review →</span>
-          </div>
-        </a>
-      ))}
+                <span class="ri-score-label"><strong>Data score</strong>{scoreText(r)}</span>
+                <span class="ri-arrow"><span class="ri-arrow-text">Read the review</span> <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="ri-empty" data-ri-empty hidden>No reviews in this size yet.</p>
     </div>
-    <p class="small muted" style="margin-top:2rem">We haven't road-tested these vans ourselves yet. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
-  </div>
+  </section>
+
+  {highs.length > 0 && (
+    <section class="section tint" aria-labelledby="highest">
+      <div class="wrap">
+        <div class="section-head ri-head">
+          <div><p class="eyebrow">From the published specs</p><h2 id="highest">Highest data score by size</h2></div>
+          <a class="more" href="/reviews/how-we-score/">How we score →</a>
+        </div>
+        <div class="ri-highs">
+          {highs.map((h) => (
+            <div class="ri-high">
+              <p class="eyebrow">{h.label}</p>
+              <p class="ri-high-score"><span class="medal-score">{h.top.toFixed(1)}<small>/5</small></span><span>Data score</span></p>
+              <ul>
+                {h.reviews.map((r) => (
+                  <li><a href={r.url}><strong>{r.vanName}</strong><span>{scoreText(r)}</span></a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <p class="small muted ri-high-note">The data score is worked out only from {CRITERIA.map((c) => c.label.toLowerCase()).join(', ').replace(/, ([^,]*)$/, ' and $1')}. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
+      </div>
+    </section>
+  )}
+
+  {twins.length > 0 && (
+    <section class="section navy-band" aria-labelledby="twins">
+      <div class="wrap">
+        <div class="section-head ri-head">
+          <div><p class="eyebrow">Twins</p><h2 id="twins">Same van, different badge</h2></div>
+          <a class="more" href="/guides/rebadged-vans/">Rebadged vans explained →</a>
+        </div>
+        <div class="ri-twins">
+          {twins.map((t) => (
+            <div class="ri-twin">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS.twins} /></svg>
+              <h3>{t.name}</h3>
+              <p>{t.note}</p>
+              <ul>
+                {t.reviews.map((r) => <li><a href={r.url}>{r.vanName}</a></li>)}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section ri-foot-section">
+    <div class="wrap">
+      <p class="small muted">We haven't road-tested these vans ourselves yet. <a href="/reviews/how-we-score/">How we review and score</a>.</p>
+      {photoCredits.length > 0 && (
+        <details class="ri-credits">
+          <summary>Photo credits</summary>
+          <ul>
+            {photoCredits.map((c) => <li><strong>{c.name}:</strong> {c.text.replace(/^Photo: /, '')}</li>)}
+          </ul>
+        </details>
+      )}
+    </div>
+  </section>
+
+  <script>
+    const list = document.querySelector('[data-ri-list]');
+    const bar = document.querySelector('[data-ri-toolbar]');
+    if (list && bar) {
+      const items = [...list.children];
+      const sort = bar.querySelector('[data-ri-sort]');
+      const status = document.querySelector('[data-ri-status]');
+      const empty = document.querySelector('[data-ri-empty]');
+      const labels = {};
+      bar.querySelectorAll('input[name="ri-size"]').forEach((i) => { labels[i.value] = i.nextElementSibling.textContent; });
+      const byName = (a, b) => a.dataset.name.localeCompare(b.dataset.name);
+      const score = (el) => (el.dataset.score === '' ? -1 : Number(el.dataset.score));
+      const apply = () => {
+        const size = bar.querySelector('input[name="ri-size"]:checked')?.value || 'all';
+        const order = sort.value;
+        const sorted = [...items].sort((a, b) => (order === 'score' ? score(b) - score(a) || byName(a, b) : byName(a, b)));
+        let shown = 0;
+        sorted.forEach((el) => {
+          const show = size === 'all' || el.dataset.size === size;
+          el.hidden = !show;
+          if (show) shown++;
+          list.appendChild(el);
+        });
+        empty.hidden = shown > 0;
+        status.textContent = `Showing ${labels[size].toLowerCase()}, ${order === 'score' ? 'highest data score first' : 'A to Z'}.`;
+      };
+      bar.addEventListener('change', apply);
+      bar.hidden = false;
+    }
+  </script>
 </Base>
