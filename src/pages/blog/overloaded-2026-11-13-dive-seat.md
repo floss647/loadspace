@@ -4,6 +4,9 @@ title: "Our doubts, measured to two decimal places, and a van with a dive seat"
 date: 2026-11-13T06:00:00Z
 photo: dpd-van-magor
 photoCaption: "A DPD van in The Square, Magor, Monmouthshire. Not one of the new electric E-Transits."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-13
 summary: "A survey that measures our worries to the hundredth of a per cent, a Kia van with something called a dive seat, DPD gearing up for its biggest peak yet, and used vans selling for more than the label says. This week's Overloaded."
 sources:
   - https://greenfleet.net/news/09112026/business-drivers-remain-hesitant-about-electric-vehicles
