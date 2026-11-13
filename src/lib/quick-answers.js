@@ -28,16 +28,19 @@ export const CAVEATS = {
   'ford-transit-courier': { range: 'The range is the official WLTP figure', payload: "so allow for the driver's weight on top" },
   'ford-transit-custom': { range: 'the city figures are higher and the motorway figures lower', payload: "don't include the driver, so allow for the driver's weight" },
   'isuzu-d-max': { range: "We've converted it to miles and rounded it", payload: 'Isuzu gives the payload only as over 1,000kg' },
-  'iveco-daily': { range: ["Ranges are IVECO's own WLTP-cycle figures in kilometres", "This is IVECO's EU brochure, not a UK document"], charging: 'Rapid (DC) charging is an option' },
+  'iveco-daily': {
+    range: { text: "These are IVECO's own WLTP-cycle figures from its EU brochure, not yet officially homologated, for new vans driven in Eco mode with no air conditioning or heating, and UK figures may differ." },
+    charging: 'Rapid (DC) charging is an option',
+  },
   'kgm-musso': { range: 'but its range figures differ', payload: 'KGM says the load bed can carry up to 500kg' },
   'kia-pv5-cargo': {
     range: 'expected targets, pending further development',
-    payload: { text: 'Kia says all its technical figures are targets until the van is homologated.' },
+    payload: { text: "Kia says all its technical figures are targets until the van is homologated, and it doesn't say whether its payloads allow for a driver." },
     charging: { text: 'Kia says all its technical figures are targets until the van is homologated.' },
   },
   'maxus-edeliver-7': { payload: 'or say whether the payload allows for a driver', charging: "Maxus doesn't give a peak charging power" },
   'maxus-eterron-9': { range: ['as WLTC combined figures', 'The miles figure is our conversion, rounded'], payload: { text: "Maxus UK's guide doesn't say whether the kerb weight includes a driver, so ask the dealer what you can carry with people on board." } },
-  'mercedes-benz-citan': { range: 'preliminary values', payload: 'Payload depends on the options fitted' },
+  'mercedes-benz-citan': { range: 'preliminary values', payload: ['Payload depends on the options fitted', { text: "Our review's figure, 616kg for the L2 BASE van, includes the driver." }] },
   'mercedes-benz-sprinter': { range: 'preliminary values', payload: 'Payload depends on the options fitted' },
   'nissan-interstar': { range: ["Ranges are from Nissan's July 2026 price list", 'pending UK homologation'], payload: "Nissan's payload figures include the driver's weight" },
   'nissan-townstar': { range: ['for the Van L1 Acenta only', 'as still to be confirmed'], payload: 'so the load you can carry is a little less' },
@@ -52,12 +55,12 @@ export const CAVEATS = {
   'vauxhall-combo': { payload: 'so check them with the dealer before you order', charging: 'so check them with the dealer before you order' },
   'vauxhall-movano': { range: 'so it calculates these ranges using the WLTP method instead', payload: { text: "Vauxhall says the driver's weight is included within the payload, so the driver's weight counts against it." } },
   'vauxhall-vivaro': { charging: 'so check them with the dealer before you order' },
-  'volkswagen-id-buzz-cargo': { payload: 'so the payloads already allow for the driver', charging: 'treat it as a best case' },
+  'volkswagen-id-buzz-cargo': { payload: 'so the payloads already allow for the driver', charging: { text: 'VW says the battery can charge to 80% in around 30 minutes from about 5%, but gives two different charger powers (185kW and 170kW), so treat it as a best case.' } },
   'volkswagen-transporter': { payload: "so the driver's weight comes out of the payload" },
 };
 // Where the spec panel shows a figure that our review couldn't confirm, the answer says so,
-// quoting the review. These vans' notes already explain the difference, so they skip that line.
-const SKIP_REVIEW_NOTE = { 'iveco-daily': ['range'] };
+// quoting the review. A van listed here would skip that line (none do at the moment).
+const SKIP_REVIEW_NOTE = {};
 
 // Split a note into sentences at a full stop followed by a capital, so "4.0-tonne" stays whole.
 const sentencesOf = (text) => String(text).split(/(?<=[.!?])\s+(?=[A-Z])/).map((s) => s.trim()).filter(Boolean);
@@ -65,8 +68,8 @@ const sentencesOf = (text) => String(text).split(/(?<=[.!?])\s+(?=[A-Z])/).map((
 function caveatFor(slug, topic, specs) {
   const entry = CAVEATS[slug]?.[topic];
   if (!entry) return '';
-  if (entry.text) return entry.text;
   return [].concat(entry).map((phrase) => {
+    if (phrase.text) return phrase.text;
     const hits = (specs?.notes || []).flatMap(sentencesOf).filter((s) => s.includes(phrase));
     if (hits.length !== 1) throw new Error(`quick-answers: caveat "${phrase}" for ${slug} (${topic}) matches ${hits.length} note sentences, expected 1`);
     return hits[0];
@@ -83,7 +86,9 @@ const reviewNote = (slug, topic, what, value) =>
 function byVersion(specs, key) {
   const versions = specs?.versions || [];
   const rows = versions.map((v) => ({ version: v.name, value: v.figures?.[key] })).filter((r) => r.value != null && r.value !== '');
-  return { all: versions.length, confirmed: rows.filter((r) => !unconfirmed(r.value)), unconfirmed: rows.filter((r) => unconfirmed(r.value)) };
+  const blank = versions.filter((v) => v.figures?.[key] == null || v.figures?.[key] === '').map((v) => ({ version: v.name, value: null }));
+  const confirmed = rows.filter((r) => !unconfirmed(r.value));
+  return { all: versions.length, confirmed, unconfirmed: [...rows.filter((r) => unconfirmed(r.value)), ...(confirmed.length ? blank : [])] };
 }
 
 // Numbers as written in a figure, e.g. "1,052 to 1,126kg" gives ["1,052", "1,126"].
@@ -91,7 +96,7 @@ const numbersIn = (s) => String(s).match(/\d[\d,]*(?:\.\d+)?/g) || [];
 const toNum = (s) => Number(String(s).replace(/,/g, ''));
 const unitOf = (s) => (String(s).match(/\d\s*(miles|km|kg)\b/) || [])[1];
 const withUnit = (n, u) => (u === 'miles' ? `${n} miles` : `${n}${u}`);
-const lower = (s) => s.replace(/^(Up to|Over|Under)\b/, (w) => w.toLowerCase());
+const lower = (s) => s.replace(/^(Up to|Over|Under|About)\b/, (w) => w.toLowerCase());
 // "Panel van" reads as "the panel van" mid-sentence; codes like "L1 H1" keep their capitals.
 const versionName = (s) => (/^[A-Z][a-z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
 
@@ -137,9 +142,11 @@ function figureAnswer({ slug, specs, review, topic, what, re, specLabel, reviewL
   const reviewValue = review?.specs?.[topic];
   const caveat = caveatFor(slug, topic, specs);
   let main;
-  const label = fromSpec ? columnLabel(specs, re, specLabel) : null;
-  if (fromSpec) main = `${label}: ${fromSpec}`;
-  else if (reviewValue != null && !unconfirmed(reviewValue)) main = `${reviewLabel}: ${reviewValue}`;
+  const NOT_OFFICIAL = /preliminary|target|pending|not subject to WLTP|WLTC|not yet officially/i;
+  let label = fromSpec ? columnLabel(specs, re, specLabel) : null;
+  if (label && NOT_OFFICIAL.test(caveat)) label = cap(label.replace(/^Official\s+/i, ''));
+  if (fromSpec) main = `${label}: ${lower(fromSpec)}`;
+  else if (reviewValue != null && !unconfirmed(reviewValue)) main = `${reviewLabel}: ${lower(String(reviewValue))}`;
   else if (reviewValue != null) main = `Not confirmed yet${reasonOf(reviewValue) ? ` (${reasonOf(reviewValue)})` : ''}`;
   else if (caveat) return { text: caveat, figure: null }; // the spec notes explain the missing figure
   else return null;
@@ -165,10 +172,10 @@ export function quickAnswers(van, specs, review) {
   const rapid = shared.rapid;
   const reviewCharging = review?.specs?.charging;
   let charge = null;
-  if (rapid && /minutes/i.test(rapid)) charge = `Rapid charging: ${rapid}`;
-  else if (rapid && rapidTime) charge = `Rapid charging: ${rapid}, with a rapid charge time of ${rapidTime}`;
-  else if (rapid) charge = `Rapid charging: ${rapid}`;
-  else if (rapidTime) charge = `Rapid charge time: ${rapidTime}`;
+  if (rapid && /minutes/i.test(rapid)) charge = `Rapid charging: ${lower(rapid)}`;
+  else if (rapid && rapidTime) charge = `Rapid charging: ${lower(rapid)}, with a rapid charge time of ${lower(rapidTime)}`;
+  else if (rapid) charge = `Rapid charging: ${lower(rapid)}`;
+  else if (rapidTime) charge = `Rapid charge time: ${lower(rapidTime)}`;
   const chargeNote = caveatFor(slug, 'charging', specs);
   if (charge) {
     qa.push({ key: 'charging', q: `How fast does the ${van.name} charge?`, a: [sentence(charge), chargeNote, reviewNote(slug, 'charging', 'rapid charging rate', reviewCharging)].filter(Boolean).join(' ') });

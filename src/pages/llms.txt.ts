@@ -2,7 +2,7 @@
 // (https://llmstxt.org). Built from the site's own data at build time, so new reviews, vans,
 // guides, comparisons and news stories appear here without editing this file.
 import { SITE } from '../data/site.js';
-import { EV_VANS, SIZES } from '../data/vans.js';
+import { EV_VANS, SIZES, twinsOf } from '../data/vans.js';
 import { ALL_GUIDES } from '../data/guides.js';
 import { TOOLS } from '../data/tools.js';
 import { REVIEWS, CRITERIA } from '../lib/reviews.js';
@@ -42,7 +42,10 @@ export function GET({ site }: { site: URL }) {
     '## Van specs and buying guides',
     '',
     link(site, 'Every electric van on sale in the UK', '/vans/'),
-    ...vans.map((v) => link(site, v.name, `/vans/${v.slug}/`, `${SIZES[v.size].label.replace(/s$/, '').toLowerCase()}${hasSpecs.has(v.slug) ? ': checked maker specs, quick answers, rebadged twins and buying used' : ': buying basics, rebadged twins and buying used'}`)),
+    ...vans.map((v) => {
+      const parts = [hasSpecs.has(v.slug) ? 'checked maker specs' : 'buying basics', (hasSpecs.has(v.slug) || REVIEWS.some((r) => r.van === v.slug)) && 'quick answers', twinsOf(v).some((t) => t.electric) && 'rebadged twins', 'buying used'].filter(Boolean);
+      return link(site, v.name, `/vans/${v.slug}/`, `${SIZES[v.size].label.replace(/s$/, '').toLowerCase()}: ${parts.slice(0, -1).join(', ')} and ${parts[parts.length - 1]}`);
+    }),
     '',
     '## Guides',
     '',
