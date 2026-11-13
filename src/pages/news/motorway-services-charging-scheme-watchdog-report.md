@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NewsPost.astro
-title: "£190m plan for more charging at motorway services: watchdog's advisers ask for more work"
+title: "Motorway charging plan needs a stronger case, say watchdog's advisers"
 date: 2026-11-05T09:00:00Z
 tag: Charging
 summary: "The government plans to pay for grid upgrades at 15 to 25 motorway service areas in England, so they can host more chargers for cars, vans and trucks. The competition watchdog's subsidy advisers have now said where the government's case needs more work."
