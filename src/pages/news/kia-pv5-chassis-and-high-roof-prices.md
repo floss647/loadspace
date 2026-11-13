@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NewsPost.astro
-title: "Kia PV5 chassis cab and high-roof van go on sale: chassis reported from £30,605 before VAT"
+title: "Kia PV5 chassis cab and high-roof van go on sale"
 date: 2026-11-12T09:00:00Z
 tag: New model
 summary: "Kia UK has priced a PV5 chassis cab for tippers and other conversions, and a taller PV5 Cargo L2/H2 panel van, according to trade press. Kia's own UK price list online didn't include either when we checked."
