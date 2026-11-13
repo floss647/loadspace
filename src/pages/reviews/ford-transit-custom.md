@@ -21,7 +21,7 @@ bad:
   - "Decent range, but not class-leading"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-13
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit-custom
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
@@ -304,8 +304,20 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The flat cabin floor is a particularly welcome and innovative one."
   - claim: "Every version gets a 13-inch touchscreen"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "13\" touchscreen Standard on all series."
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "13\" Touchscreen"
+  - claim: "Every version"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "Limited VAN - Standard Equipment above Trend"
+  - claim: "Every version"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "Trail VAN - Standard Equipment above Trend"
+  - claim: "Every version"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "Sport VAN - Standard Equipment above Limited"
+  - claim: "Every version"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "MS-RT VAN - Standard Equipment above Sport"
   - claim: "Apple CarPlay and Android Auto"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Apple CarPlay and Android Auto are included as standard"
