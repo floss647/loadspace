@@ -194,7 +194,7 @@ export function quickAnswers(van, specs, review) {
   // The van grant, only where our review's checked price names the grant it's sold before.
   const price = review?.specs?.price;
   if (price && !unconfirmed(price) && /before the £[\d,]+ grant/.test(price)) {
-    qa.push({ key: 'grant', q: `Does the ${van.name} get the plug-in van grant?`, a: `Yes. Our review gives its price as ${price.charAt(0).toLowerCase()}${price.slice(1)}.` });
+    qa.push({ key: 'grant', q: `Does the ${van.name} get the van grant?`, a: `Yes. Our review gives its price as ${price.charAt(0).toLowerCase()}${price.slice(1)}.` });
   }
 
   // Rebadged twins, from the same data as the page's "Same van, other badges" section.
