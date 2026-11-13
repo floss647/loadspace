@@ -80,7 +80,7 @@ facts:
     source: https://greenfleet.net/news/11112026/dpd-add-381-more-electric-vans-fleet
     quote: "The order follows the delivery of 341 new Mercedes-Benz eSprinter vans in September"
   - claim: "722"
-    calc: "381 E-Transits + 341 eSprinters = 722 electric vans (both figures from Greenfleet's report)"
+    calc: "381 E-Transits (all on the road by mid-November) + 341 eSprinters (delivered in September) = 722 electric vans, both figures from Greenfleet's report"
   - claim: "Olly Craughan"
     source: https://greenfleet.net/news/11112026/dpd-add-381-more-electric-vans-fleet
     quote: "Olly Craughan, DPD's Head of Sustainability and Social Purpose"
@@ -116,17 +116,19 @@ facts:
   # Running gag
   - claim: "the Polo mint is still in the glovebox"
     joke: "Running gag from earlier columns: the columnist's glovebox Polo is a comic device, not a claim about the world."
-  - claim: "best tenant in Britain"
-    joke: "A mint can't be a tenant; plainly absurd."
+  - claim: "the only tenant in Britain whose rent hasn't gone up"
+    joke: "A mint can't be a tenant or pay rent; plainly absurd. Aimed at rents, not at tenants."
   - claim: "0.59 of a person"
     joke: "Mock-literal reading of a two-decimal-place percentage; nobody could think a survey respondent is part of a person."
   - claim: "Everest"
     joke: "Comic comparison between parcel peak season and a mountain; not a claim about conditions in delivery depots."
-  - claim: "an extra"
+  - claim: "the lift has been broken since 2019"
+    joke: "Invented, unnamed fourth-floor flat with a broken lift; a sympathetic gag about what drivers face, not a claim about any real building."
+  - claim: "optional extras"
     joke: "Call-back to the glovebox Polo; it obviously adds no value to a van."
 ---
 
-Welcome back to Overloaded. Glovebox report: the Polo mint is still in the glovebox. I've started to think of it as a tenant. It pays no rent, but it has never once complained about the heating, which makes it the best tenant in Britain.
+Welcome back to Overloaded. Glovebox report: the Polo mint is still in the glovebox. I've started to think of it as a tenant. It's the only tenant in Britain whose rent hasn't gone up.
 
 ## Doubt, to two decimal places
 
@@ -136,7 +138,7 @@ Two decimal places! I love a survey that takes itself this seriously. Somewhere 
 
 Charging worries barely moved either, from 29.46% to 29.13%. But my favourite figure is this: the share naming a lack of understanding of EV ownership as a barrier rose from 14.9% in the second quarter to 18.9% in the third. So the more electric vans there are on the road, the more baffled we get. That's not a barrier. That's my relationship with the self-service checkout.
 
-Europcar's Tom Middleditch called the findings "sobering", and said businesses need to "give employees first-hand experience of using electric cars and vans for work". Fair enough. You don't learn to love a van from a spreadsheet. You learn it at seven in the morning with a flask in your hand.
+Europcar's Tom Middleditch called the findings "sobering", and said businesses need to "give employees first-hand experience of using electric cars and vans for work". He has a point. You don't learn to love a van from a spreadsheet, any more than you learn to swim from a leaflet.
 
 ## The dive seat
 
@@ -144,18 +146,18 @@ Kia has launched a high-roof version of its PV5 electric van, and Van Reviewer r
 
 A dive seat. I have no idea what one is, and I've chosen not to find out, because the picture in my head is too good: a courier on a springboard at the back of the van, tucking into a pike with a half twist, landing in the load bay clutching a parcel while the judges hold up their cards. A 9.5 for the parcel. A 3 for the entry, because there was a splash of coffee.
 
-Auto Express reports 1,815mm of internal height, so a six-foot courier can stand up in it, provided they're willing to bow slightly. Every drop will feel like meeting royalty.
+Auto Express reports 1,815mm of internal height, so a six-foot courier can stand up in it, provided they're willing to bow slightly. Every drop becomes a small, polite curtsey to the parcel.
 
 ## Base camp at DPD
 
-Greenfleet reports DPD is adding 381 more electric vans, all Ford E-Transits, all on the road by mid-November. That follows 341 Mercedes-Benz eSprinters in September, so that's 722 new electric vans since the late summer. DPD says that in 2025 it delivered more than 85 million parcels on electric vehicles.
+Greenfleet reports DPD is adding 381 more electric vans, all Ford E-Transits, all on the road by mid-November. That follows 341 Mercedes-Benz eSprinters in September, so that's 722 new electric vans between September and mid-November. Greenfleet adds that in 2025 DPD delivered more than 85 million parcels on electric vehicles.
 
-DPD's Olly Craughan said: "This is set to be our biggest peak yet". Peak is the right word. It's basically Everest: thin air, frozen fingers, a long queue at the top, and somebody always leaves a card saying they tried to deliver while you were in. Good luck to every driver going up it.
+DPD's Olly Craughan said: "This is set to be our biggest peak yet". Peak is the right word. It's basically Everest: thin air, frozen fingers, a long queue at the top, and the summit turns out to be a fourth-floor flat where the lift has been broken since 2019. Good luck to every driver going up it.
 
 ## The price is more than right
 
 Finally, according to Van Reviewer, BCA says the average used van it sold rose by £462 to £8,820 in September, its highest monthly figure since March 2024. The average sale reached 104.5% of the guide price. BCA's Stuart Pearson said values "kicked on again in September to record the highest average value in 30 months".
 
-104.5% of guide. That's a car boot sale where the jigsaw marked 50p goes for just over 52p, and everyone calls it market confidence. If you're selling a van this winter, polish it, hoover it, and mention the glovebox. A mint that's been there this long is practically an extra.
+104.5% of guide. That's a car boot sale where the jigsaw marked 50p goes for just over 52p, and everyone calls it market confidence. If you're selling a van this winter, polish it, hoover it, and mention the glovebox. List it under optional extras: factory-fitted, one careful owner.
 
-That's the column. The Polo has now outlasted a 0.44 percentage point fall in cost worries, and it isn't moving either. See you next Friday.
+That's the column. At the rate cost worries are falling, the Polo will still be in the glovebox when the vans start flying. I give it a 9.5 for staying power and a 3 for hygiene. See you next Friday.
