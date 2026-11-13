@@ -25,7 +25,7 @@ export function GET({ site }: { site: URL }) {
     '',
     '## About',
     '',
-    `${SITE.name} gives independent UK advice on electric vans and trucks for small businesses and fleets. Spec figures are checked against the maker's own documents before we publish them, and every figure in our reviews and news stories is checked against its source. Where a maker hasn't confirmed a figure, we say so rather than estimate it. Our reviews are based on published figures, price lists and UK road tests: we haven't road-tested the vans ourselves yet.`,
+    `${SITE.name} gives independent UK advice on electric vans and trucks for small businesses and fleets. Spec figures are checked against the maker's own documents before we publish them, and every figure in our reviews and news stories is checked against its source. If we can't confirm a figure from a current source, the page says so. Our reviews are based on published figures, price lists and UK road tests: we haven't road-tested the vans ourselves yet.`,
     '',
     link(site, 'About us and how we make money', '/about/'),
     link(site, 'Report a mistake', '/corrections/', 'tell us about an error and we will check it and correct it openly'),
