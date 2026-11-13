@@ -1,15 +1,76 @@
 ---
 import Base from './Base.astro';
-const { frontmatter } = Astro.props;
+import { GUIDE_SECTIONS, ALL_GUIDES, ICONS } from '../data/guides.js';
+// Markdown pages pass their frontmatter and the list of headings in the page.
+const { frontmatter, headings = [] } = Astro.props;
+const path = Astro.url.pathname.replace(/\/?$/, '/');
+const here = ALL_GUIDES.find((g) => g.href === path);
+const section = here && GUIDE_SECTIONS.find((s) => s.title === here.section);
+const toc = headings.filter((h) => h.depth === 2);
+// More guides: others from the same section first, then the rest, four in all.
+const more = [
+  ...(section ? section.guides : []),
+  ...ALL_GUIDES,
+].filter((g, i, all) => g.href !== path && all.findIndex((x) => x.href === g.href) === i).slice(0, 4);
 ---
 <Base title={frontmatter.title} description={frontmatter.description}>
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a></div>
-    <article class="prose">
-      <h1>{frontmatter.title}</h1>
-      {frontmatter.lede && <p class="lede">{frontmatter.lede}</p>}
-      {frontmatter.updated && <p class="muted small">Last checked: {frontmatter.updated}</p>}
+  <section class="tool-hero guide-hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a></div>
+      <div class="tool-hero-row">
+        {here && <span class="tool-hero-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={ICONS[here.icon]} /></svg></span>}
+        <div>
+          <p class="eyebrow">{section ? `Guide · ${section.title}` : 'Guide'}</p>
+          <h1>{frontmatter.title}</h1>
+          {frontmatter.lede && <p class="review-summary">{frontmatter.lede}</p>}
+          {frontmatter.updated && <p class="guide-checked">Last checked: {frontmatter.updated}</p>}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap guide-grid">
+    <article class="prose guide-body">
       <slot />
     </article>
+    <aside class="guide-aside">
+      {toc.length > 1 && (
+        <details class="guide-toc" open>
+          <summary>In this guide</summary>
+          <ol>
+            {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+          </ol>
+        </details>
+      )}
+      <div class="guide-help">
+        <p class="eyebrow">Need help?</p>
+        <p>Get quotes for home or depot charging from vetted installers, or tell us about your vans and trucks.</p>
+        <div class="guide-help-links">
+          <a class="btn" href="/get-charger-quotes/">Get charger quotes</a>
+          <a class="btn ghost" href="/fleets/enquiry/">Send a fleet enquiry</a>
+        </div>
+      </div>
+    </aside>
   </div>
+
+  {more.length > 0 && (
+    <section class="section tint guide-more">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">Keep reading</p><h2>More guides</h2></div>
+          <a class="more" href="/guides/">All guides →</a>
+        </div>
+        <div class="guide-list">
+          {more.map((g) => <a href={g.href}><strong>{g.title}</strong><span>{g.blurb}</span></a>)}
+        </div>
+      </div>
+    </section>
+  )}
+  <script is:inline>
+    // On phones the contents list starts closed so the guide comes first.
+    (function () {
+      var t = document.querySelector('.guide-toc');
+      if (t && window.matchMedia('(max-width: 960px)').matches) t.removeAttribute('open');
+    })();
+  </script>
 </Base>
