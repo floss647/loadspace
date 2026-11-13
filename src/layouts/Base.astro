@@ -3,7 +3,10 @@ import '../styles/global.css';
 import { SITE } from '../data/site.js';
 import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import logoSvg from '../../public/brand/logo.svg?raw';
 
+// Header wordmark, inlined so "van" takes the text colour (navy, or white in dark mode).
+const logo = logoSvg.replace(/ width="\d+" height="\d+"/, ' class="brand-logo"');
 const { title, description = SITE.description, image, type = 'website', jsonLd, noindex = false } = Astro.props;
 const shareImage = image || SITE.shareImage;
 // Structured data for search engines: who publishes the site, plus anything page-specific.
@@ -12,7 +15,7 @@ const org = {
   '@type': 'Organization',
   name: SITE.name,
   url: new URL('/', Astro.site).href,
-  logo: new URL('/favicon.svg', Astro.site).href,
+  logo: new URL('/brand/logo-on-white.png', Astro.site).href,
 };
 const website = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: new URL('/', Astro.site).href, inLanguage: 'en-GB' };
 const ld = [org, ...(Astro.url.pathname === '/' ? [website] : []), ...(jsonLd ? [].concat(jsonLd) : [])];
@@ -40,6 +43,9 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
     {noindex && <meta name="robots" content="noindex" />}
     <meta property="og:site_name" content={SITE.name} />
@@ -60,7 +66,7 @@ const current = nav.map(([h]) => h).filter((h) => path.startsWith(h)).sort((a, b
   <body>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/"><img src="/favicon.svg" alt="" />{SITE.name}</a>
+        <a class="brand" href="/" set:html={logo} />
         <button class="menu-btn" type="button" aria-expanded="false" aria-controls="main-nav">
           <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
           <span class="menu-label">Menu</span>
