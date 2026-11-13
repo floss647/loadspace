@@ -167,6 +167,10 @@ export const VANS = [
     electricNote: 'Electric only. The best-selling electric van in August 2026.',
   }),
   v('Maxus', 'eDeliver 7', 'medium', { electric: true, electricNote: 'Electric only.' }),
+  v('Farizon', 'V7E', 'medium', {
+    electric: true,
+    electricNote: 'Electric only. Farizon offers a 50kWh or 67kWh battery, with an official range (WLTP combined) of up to 149 or 204 miles.',
+  }),
 
   // Large
   v('Ford', 'Transit', 'large', {
@@ -218,7 +222,7 @@ export const VANS = [
   }),
   v('Maxus', 'eTerron 9', 'pickup', {
     electric: true,
-    electricNote: 'Electric only. Official range up to 267 miles, from about £53,000 excluding VAT.',
+    electricNote: 'Electric only. Range up to about 267 miles (430km on the WLTC figure in Maxus UK\'s spec guide).',
   }),
   v('BYD', 'Shark', 'pickup', {
     electricNote: 'The Shark is a plug-in hybrid. A fully electric version has not been confirmed for the UK.',

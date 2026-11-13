@@ -31,3 +31,5 @@ Run `NODE_USE_ENV_PROXY=1 npm run check-news:live` and `npm run build`. Both mus
 - PR body sections: **Changed** (each change with its source), **Flagged for the editor** (withdrawals, conflicts, anything unconfirmed), **Couldn't check** (blocked sites, and the document that would fill each gap).
 - Do NOT merge. If nothing changed and nothing needs flagging, don't open a PR; finish with one line saying so.
 - Never spoof user agents or get round bot blocking. Never create accounts.
+
+**Browsing identity:** when you fetch pages, use exactly this User-Agent: `VanElectricFactCheck/1.0 (https://vanelectric.co.uk; checking our own sources)`. Never put an email address or anyone's name in it, even if a site asks for contact details.

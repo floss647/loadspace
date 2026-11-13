@@ -10,12 +10,12 @@ specs:
   charging: "87kW"
   payload: "1,275 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get Transit Custom-like size, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
-good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with no options to choose"]
+verdict: "The Transit City makes sense for town and city work where daily mileage is predictable and the van goes back to base every night. You get up to 8.5m³ of load space, a payload of up to 1,275 kg and a list price of £29,000 before VAT and before the government van grant, far less than an E-Transit Custom. The catches are an official range of up to 158 miles, 87kW rapid charging and no choice of trim. Few UK road tests have been published yet, so we can't say how it drives."
+good: ["Low list price for a medium van", "Up to 1,275 kg payload", "Generous standard kit, with paint the only option"]
 bad: ["Official range of up to 158 miles", "Rapid charging peaks at 87kW", "Few UK road tests published yet"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-08
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
@@ -26,7 +26,6 @@ sources:
   - https://www.gov.uk/plug-in-vehicle-grants/vans
   - https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
   - https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
-  - https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
 facts:
   # Specs
   - claim: "£29,000"
@@ -74,9 +73,9 @@ facts:
   - claim: "rapid charging that peaks at 87kW"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "E-Motor 11kW 87kW 56kWh 110kW / 150PS 260Nm"
-  - claim: "Transit Custom-like size"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "The electric-only Transit City is comparable in size to the Transit Custom"
+  - claim: "up to 8.5m³ of load space"
+    source: https://www.ford.co.uk/vans-and-pickups/transit-city
+    quote: "Up to 8.5m³"
   - claim: "a payload of up to 1,275 kg"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "backed by a robust 1,275kg"
@@ -108,8 +107,8 @@ facts:
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "The maximum DC charging rate is only 87kW and averages at 67kW"
   - claim: "no choice of trim"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "To this end, Ford will offer a single specification, helping to reduce cost and complexity."
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "the Transit City's single trim level keeps things straightforward"
   # Who it's for
   - claim: "built with Ford's long-standing Chinese joint-venture partner, JMC"
     source: https://vanfleetworld.co.uk/ford-expands-electric-van-line-up-with-affordable-transit-city/
@@ -120,9 +119,9 @@ facts:
   - claim: "it's on sale in the UK now"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "The all-new Ford Transit City has gone on sale in the UK"
-  - claim: "90% of van operators in this class drive less than 68 miles a day"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "According to Ford, 90% of van operators in the segment drive less than 68 miles (110km) per day."
+  - claim: "the average daily distance covered by existing electric van users is less than 70 miles"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "the average daily distance covered by existing electric van users is less than 70 miles"
   # Load area and payload
   - claim: "the L1H1 van has up to 6.4m³ of load space"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
@@ -131,8 +130,8 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "300S 56kWh 110kW / 150PS 1-speed automatic FWD 1,915 3,000 1,085 1,990 1,330 1,780"
   - claim: "room for three Euro pallets"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "L1H1 models are capable of carrying three Euro-pallets"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "For the L1H1 van, there's a payload of 1,085kg and floor space for three Euro pallets"
   - claim: "it stands 1,991mm tall"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Overall height 1,991 2,285"
@@ -166,9 +165,11 @@ facts:
   - claim: "the high-roof van is rated at"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "LWB High Roof 139.2 43.45 211.2 28 33 mins 87"
-  - claim: "Ford quotes 236 miles"
-    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "158 Miles WLTP Combined range reflects a combined WLTP driving cycle whilst 236 Miles WLTP City Range reflects the WLTP city driving cycle"
+  - claim: "about 237 miles for the L1H1 and 211 miles for the high-roof van"
+    calc: "Ford UK price list, WLTP City Range (m) column: SWB Low Roof (L1H1) 236.7 and LWB High Roof 211.2 (the SWB row quoted below, the LWB row quoted above), rounded to the nearest mile = about 237 miles and 211 miles"
+  - claim: "Ford's price list gives about"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
+    quote: "SWB Low Roof 157.8 38.3 236.7 24.95 33 mins 87 8 hours 5.5 hours"
   - claim: "tested at 23°C with no heating or other electrical load"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "conducted in controlled conditions with an ambient temperature of 23 degrees Celsius and no climate or electrical load"
@@ -206,8 +207,8 @@ facts:
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
     quote: "meaning the van can go from 0-62mph in 13.7 seconds and top out at 75mph"
   - claim: "a one-pedal driving mode"
-    source: https://evfleetworld.co.uk/fords-all-electric-transit-city-primed-for-the-last-mile/
-    quote: "Ford has optimised the one-pedal mode designed for the Transit City"
+    source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-coming-deliver-your-parcels
+    quote: "The powertrain offers one-pedal driving for ease of use"
   # Cab and kit
   - claim: "a 12.3-inch touchscreen"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
@@ -245,6 +246,8 @@ facts:
   - claim: "half-height load area lining and a PVC floor cover"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Load Space Floor Cover - PVC BBFAC"
+  - claim: "with paint the only option"
+    calc: "Ford UK Transit City price list, effective 29 April 2026: the only items marked O (option) are on the Colour & Trim pages (Frozen White at no cost, Ingot Silver, Blue Panther and Panther Black metallic at £650 and Broom Yellow SVO at £1,000, all before VAT). Every other item is listed as standard content for Trend"
   - claim: "Metallic paint is £650 before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_City.pdf
     quote: "Ingot Silver Metallic PN4AG O 650 780"
@@ -326,7 +329,7 @@ facts:
 
 ### Who it's for
 
-The Transit City is Ford's answer to a simple question: what's the cheapest way to put a Transit Custom-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on a dedicated electric platform, and it's on sale in the UK now. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says 90% of van operators in this class drive less than 68 miles a day. If that sounds like your fleet, the modest range matters less than the low price.
+The Transit City is Ford's answer to a simple question: what's the cheapest way to put a medium-sized electric van on a city delivery round? It's built with Ford's long-standing Chinese joint-venture partner, JMC, on a dedicated electric platform, and it's on sale in the UK now. It's aimed squarely at multi-drop couriers, local service fleets and anyone working inside a clean air zone. Ford says the average daily distance covered by existing electric van users is less than 70 miles. If that sounds like your fleet, the modest range matters less than the low price.
 
 ### Load area and payload
 
@@ -334,7 +337,7 @@ There are two panel vans. The L1H1 van has up to 6.4m³ of load space, room for 
 
 ### Range and charging in the real world
 
-Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford quotes 236 miles. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
+Every version has a 56kWh LFP battery. The official WLTP range is up to 158 miles for the L1H1, and the high-roof van is rated at 139 miles. On the slower WLTP city cycle, which suits this van's job, Ford's price list gives about 237 miles for the L1H1 and 211 miles for the high-roof van. Those figures were tested at 23°C with no heating or other electrical load, so expect less on a winter morning. Ford's standard equipment list shows a PTC heater and a battery heater, with no heat pump listed.
 
 Rapid charging tops out at 87kW, with a 10 to 80% charge taking 33 minutes, and launch reports gave an average rate of 67kW. That's a lower peak than the E-Transit Custom's 125kW, but this is a van designed to be charged at base. Back at the depot, 10 to 100% takes 5.5 hours on an 11kW three-phase charger or 8 hours on a 7.4kW single-phase one. Our [charging guide](/guides/charging-an-electric-van/) explains the options.
 

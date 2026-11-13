@@ -122,7 +122,7 @@ def branded(fm):
         y = 280
         for line in fit_lines(d, fm.get('title', ''), hf, 1080, 4):
             d.text((90, y), line, font=hf, fill=WHITE); y += 100
-    d.text((92, H - 92), 'loadspace · independent electric van advice', font=font('Inter-Medium.otf', 28), fill=MUTED)
+    d.text((92, H - 92), 'vanelectric.co.uk · independent electric van advice', font=font('Inter-Medium.otf', 28), fill=MUTED)
     return im
 
 

@@ -1,33 +1,99 @@
 ---
 import Base from '../../layouts/Base.astro';
-const sections = [
-  ['Going electric', [
-    ['/guides/should-i-go-electric/', 'Should I go electric?', 'Who it suits, who it doesn’t, and the numbers that decide it.'],
-    ['/guides/charging-an-electric-van/', 'Charging an electric van', 'Home, depot and public charging, and what affects range.'],
-    ['/guides/grants-and-tax/', 'Grants and tax', 'Van and truck grants, VAT, van benefit tax and London charges.'],
-    ['/guides/used-electric-van-buying-guide/', 'Buying a used electric van', 'Battery health, range, charging and warranty checks.'],
-  ]],
-  ['Fleets and trucks', [
-    ['/guides/fleet-electrification-plan/', 'Electrifying a fleet', 'A step-by-step plan from data to rollout.'],
-    ['/guides/depot-charging/', 'Depot charging', 'Power, grid connections, chargers and smart charging.'],
-    ['/guides/are-electric-trucks-ready/', 'Are electric trucks ready?', 'Where they work today and where they don’t yet.'],
-  ]],
-  ['Buying any van', [
-    ['/guides/lease-vs-buy/', 'Lease, finance or buy?', 'The four ways to get a van and who each suits.'],
-    ['/guides/rebadged-vans/', 'Same van, different badge', 'Which vans are twins, and how to use that to pay less.'],
-    ['/guides/van-sizes-explained/', 'Van sizes and licences', 'L1H1, payload, gross weight and your licence.'],
-  ]],
-];
+import IMAGES from '../../data/images.json';
+import { GUIDE_SECTIONS, ICONS, credit } from '../../data/guides.js';
+
+const [electric, fleets, buying] = GUIDE_SECTIONS;
+const featured = electric.guides[0];
+const rest = electric.guides.slice(1);
+const photo = IMAGES['peugeot-expert'];
 ---
 <Base title="Electric van and truck guides" description="Plain-English guides to going electric with vans and trucks, for small businesses and fleets.">
-  <div class="wrap">
-    <h1>Guides</h1>
-    <p class="lede">Plain-English answers to the questions van and truck buyers actually ask.</p>
-    {sections.map(([title, items]) => (
-      <section>
-        <h2>{title}</h2>
-        <div class="grid">{items.map(([href, t, d]) => <a class="card" href={href}><h3>{t}</h3><p>{d}</p></a>)}</div>
-      </section>
-    ))}
-  </div>
+  <section class="hero hero-split guides-hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent electric van advice</p>
+        <h1>Guides</h1>
+        <p>Plain-English answers to the questions van and truck buyers actually ask.</p>
+      </div>
+      <nav class="jump-links" aria-label="Guide sections">
+        {GUIDE_SECTIONS.map((s) => (
+          <a href={`#${s.id}`}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS[s.guides[0].icon]} /></svg>
+            <span><small>{s.eyebrow}</small>{s.title}</span>
+          </a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby={electric.id}>
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">{electric.eyebrow}</p><h2 id={electric.id}>{electric.title}</h2></div>
+      </div>
+
+      <a class="feature-guide" href={featured.href}>
+        {photo && (
+          <figure>
+            <img src={photo.file} alt="A Peugeot e-Expert electric van" width="1200" height="675" />
+            <figcaption>{credit(photo)}</figcaption>
+          </figure>
+        )}
+        <div class="feature-guide-text">
+          <p class="column-badge">Start here</p>
+          <h3>{featured.title}</h3>
+          <p>{featured.blurb}</p>
+          <span class="btn dark">Read the guide →</span>
+        </div>
+      </a>
+
+      <div class="tool-grid three-up">
+        {rest.map((g) => (
+          <a class="tool" href={g.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS[g.icon]} /></svg>
+            <span><strong>{g.title}</strong>{g.blurb}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section navy-band" aria-labelledby={fleets.id}>
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">{fleets.eyebrow}</p><h2 id={fleets.id}>{fleets.title}</h2></div>
+        <a class="more" href="/fleets/">Fleet hub →</a>
+      </div>
+      <ol class="audience">
+        {fleets.guides.map((g, i) => (
+          <li>
+            <a class="audience-card" href={g.href}>
+              <span class="num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{g.title}</h3>
+              <p>{g.blurb}</p>
+              <span class="arrow" aria-hidden="true">Read the guide →</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby={buying.id}>
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">{buying.eyebrow}</p><h2 id={buying.id}>{buying.title}</h2></div>
+        <a class="more" href="/tools/">Free tools →</a>
+      </div>
+      <div class="guide-list icon-list">
+        {buying.guides.map((g) => (
+          <a href={g.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS[g.icon]} /></svg>
+            <strong>{g.title}</strong><span>{g.blurb}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 </Base>

@@ -1,0 +1,66 @@
+---
+// Cookie consent for Google Analytics. Nothing from Google loads until the visitor clicks Accept.
+// The choice is remembered in this browser (localStorage), which is allowed without consent because
+// it only stores the visitor's own choice. "Cookie settings" in the footer reopens the banner.
+import { SITE } from '../data/site.js';
+const id = SITE.gaMeasurementId;
+---
+{id && (
+  <>
+    <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie choice" hidden>
+      <p><strong>Can we use analytics cookies?</strong> We'd like to use Google Analytics to see which pages people read, so we can make the site better. We don't use cookies for ads. <a href="/privacy/#cookies">More about cookies</a></p>
+      <div class="cookie-actions">
+        <button type="button" class="btn" data-consent="granted">Accept</button>
+        <button type="button" class="btn" data-consent="denied">Reject</button>
+      </div>
+    </div>
+    <script is:inline define:vars={{ id }}>
+      (function () {
+        var KEY = 've-analytics-consent';
+        var banner = document.getElementById('cookie-banner');
+        function getChoice() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+        function setChoice(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+        function loadGA() {
+          if (window.__gaLoaded) return; window.__gaLoaded = true;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () { window.dataLayer.push(arguments); };
+          window.gtag('js', new Date());
+          window.gtag('config', id);
+          var s = document.createElement('script');
+          s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+          document.head.appendChild(s);
+        }
+        function clearGA() {
+          var host = location.hostname, parts = host.split('.');
+          var domains = ['', host, '.' + host];
+          for (var i = 1; i < parts.length - 1; i++) domains.push('.' + parts.slice(i).join('.'));
+          document.cookie.split(';').forEach(function (c) {
+            var name = c.split('=')[0].trim();
+            if (name === '_ga' || name.indexOf('_ga_') === 0 || name === '_gid') {
+              domains.forEach(function (d) {
+                document.cookie = name + '=; Max-Age=0; path=/' + (d ? '; domain=' + d : '');
+              });
+            }
+          });
+        }
+        function show() { banner.hidden = false; }
+        banner.addEventListener('click', function (e) {
+          var v = e.target && e.target.getAttribute('data-consent');
+          if (!v) return;
+          var was = getChoice();
+          setChoice(v);
+          banner.hidden = true;
+          if (v === 'granted') loadGA();
+          else { clearGA(); if (was === 'granted') location.reload(); }
+        });
+        document.querySelectorAll('[data-cookie-settings], [data-cookie-settings-link]').forEach(function (b) {
+          b.hidden = false;
+          b.addEventListener('click', function (e) { e.preventDefault(); show(); });
+        });
+        var choice = getChoice();
+        if (choice === 'granted') loadGA();
+        else if (choice !== 'denied') show();
+      })();
+    </script>
+  </>
+)}

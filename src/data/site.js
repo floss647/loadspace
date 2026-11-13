@@ -9,6 +9,9 @@ export const SITE = {
   // Paste the verification codes from Google Search Console and Bing Webmaster Tools here
   // (just the content="..." value of their HTML meta tag), then publish.
   googleVerification: '',
+  // Google Analytics 4 measurement ID (looks like G-XXXXXXXXXX; it's public, not a secret).
+  // While empty, no analytics loads and no cookie banner shows.
+  gaMeasurementId: '',
   bingVerification: '',
 };
 

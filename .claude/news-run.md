@@ -45,5 +45,7 @@ Whenever you spot an electric van, pickup or truck on UK sale (or newly announce
 ## Hand to the editor
 - Create a branch `news/<yyyy-mm-dd>`, commit (author: Adrian <adrian@allspeechesgreatandsmall.com>), push, and open a pull request titled "News: <headlines>". `gh pr create` won't work (GraphQL is blocked); use the REST API: `gh api repos/floss647/loadspace/pulls -X POST -f title=... -f head=news/<date> -f base=main -F body=@pr.md`.
 - PR body: for each story, the headline, a 2-line summary, the primary sources, and anything the checker flagged and how it was resolved. Say clearly what the editor should look at.
-- Do NOT merge. The editor reviews the Netlify preview and merges.
+- Publishing is automatic (the editor's choice): wait for the pull request's GitHub checks to finish. If every check passes and GitHub says it's mergeable, merge it with `gh api -X PUT repos/floss647/loadspace/pulls/<number>/merge -f merge_method=merge`, and say in your final message that it's live. If any check fails or it isn't mergeable, don't merge: leave the pull request open and say exactly what failed.
 - If there's no real news, don't open a PR; just finish with a one-line note saying so.
+
+**Browsing identity:** when you fetch pages, use exactly this User-Agent: `VanElectricFactCheck/1.0 (https://vanelectric.co.uk; checking our own sources)`. Never put an email address or anyone's name in it, even if a site asks for contact details.

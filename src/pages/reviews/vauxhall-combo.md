@@ -3,49 +3,48 @@ layout: ../../layouts/Review.astro
 title: "Vauxhall Combo Electric review"
 van: vauxhall-combo
 date: 2026-10-30T08:00:00Z
-summary: "A quiet, easy small electric van with a 220-mile official range and a payload of up to 781kg. It's the same van as its four Stellantis-built siblings, so buy on price and dealer."
+summary: "A quiet, easy small electric van with 100kW rapid charging, though you should check its current range and payload with the dealer. It's the same van as its four Stellantis-built siblings, so buy on price and dealer."
 specs:
   price: "Not confirmed (no current list price found)"
-  range: "220 miles"
+  range: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   charging: "100kW"
-  payload: "781 kg"
+  payload: "Not confirmed (no current Vauxhall figure; ask the dealer)"
   batteryWarranty: "Eight years or 100,000 miles"
-verdict: "The Combo Electric is a sensible small electric van for town and suburban work: a 220-mile official range, 100kW rapid charging, a payload of up to 781kg and a reputation for being quiet and smooth. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
-good: ["Quiet and smooth, especially in town", "Payload of up to 781kg for an electric small van", "Range quoted at 220 miles for every body style"]
+verdict: "The Combo Electric is a sensible small electric van for town and suburban work, with 100kW rapid charging and a reputation for being quiet and smooth. We haven't found current official range and payload figures from Vauxhall, so check them for the exact van you're quoted. It is mechanically the same van as the Citroën, Peugeot, Fiat and Toyota versions, with Vauxhall's own steering wheel, stalks and screen graphics. Our gripes are the ones the whole family shares: a cramped middle seat, some useful kit left on the options list and only a three-year warranty on the van. Get quotes on all five, because the cheapest deal or the nearest good dealer should decide it."
+good: ["Quiet and smooth, especially in town", "Rapid charging at up to 100kW", "Electric power takes nothing from the load bay"]
 bad: ["Cramped for three adults", "Adaptive cruise control and 11kW charging cost extra", "Only a three-year warranty on the van itself"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-07
 sources:
   - https://www.autoexpress.co.uk/vauxhall/combo
   - https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
   - https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-dimensions/
   - https://www.gov.uk/plug-in-vehicle-grants/vans
 facts:
-  - claim: "220 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "a significant boost in claimed range of up to 220 miles. This figure is the same for all bodystyles"
   - claim: "100kW"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "The Combo Electric can hit peak charging speeds of 100kW at a compatible DC public charger"
-  - claim: "781 kg"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "The Combo Electric gets slightly lower figures, carrying 642-781kg and towing a 750kg braked trailer."
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC charging speed 100kW"
   - claim: "Eight years or 100,000 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "Pick the Combo Electric and it also has a separate eight-year/100,000-mile warranty for its valuable battery pack."
-  - claim: "a 220-mile official range"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "claimed range of up to 220 miles"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "whichever comes first. Eight years / 100,000 miles / Battery warranty 70% capacity"
   - claim: "100kW rapid charging"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "peak charging speeds of 100kW"
-  - claim: "a payload of up to 781kg"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "carrying 642-781kg"
-  - claim: "Payload of up to 781kg"
-    source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-dimensions/
-    quote: "The figures range from 691kg for the XL Pro model up to 781kg for the shorter model."
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC charging speed 100kW"
+  - claim: "Rapid charging at up to 100kW"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC charging speed 100kW"
+  - claim: "November 2024"
+    calc: "Date of Vauxhall's van range press kit (sources/vauxhall-van-range-press-kit-2024-11.pdf): sources/index.json records it as effective November 2024, and the PDF's own creation date is 6 November 2024. The kit's text does not print a date."
+  - claim: "tow a 750kg braked trailer"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "New Combo Electric also offers an impressive towing capacity (braked) of 750kg on all versions."
+  - claim: "around half an hour to 80 per cent"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "DC current – rapid charger (100kW) CCS 30 minutes (0-80%)"
+  - claim: "A home wallbox refills it from empty overnight"
+    archive: sources/vauxhall-van-range-press-kit-2024-11.pdf
+    quote: "AC current – home wallbox or public charger (7kW) Type 2 7 hours, 30 minutes"
   - claim: "Motorway runs hurt its efficiency"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "Motorway runs can harm the EV’s efficiency"
@@ -58,9 +57,6 @@ facts:
   - claim: "Vauxhall's own steering wheel, stalks and screen graphics"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "You get a steering wheel, gearlever and indicator stalks that are the same as those found in cars such as the Astra"
-  - claim: "Range quoted at 220 miles for every body style"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "claimed range of up to 220 miles. This figure is the same for all bodystyles"
   - claim: "Cramped for three adults"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "this seat layout can be a bit cramped for three adults"
@@ -85,42 +81,12 @@ facts:
   - claim: "items up to 3,090mm long, or 3,440mm in the XL"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "allows you to load items that are 3,090mm long (3,440mm in the XL)"
-  - claim: "carries between 642kg and 781kg"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "carrying 642-781kg"
-  - claim: "the lowest figure is for the Crew Van"
-    source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-dimensions/
-    quote: "The Crew Van manages a decent 642kg payload but bear in mind that you have to include any passengers in this allowance."
-  - claim: "against 669kg to 984kg for the diesels"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "Cargo payloads for diesel-powered Combos generally span from 669kg and 984kg"
   - claim: "a folding outer seat and a protective cargo bag"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "You also get a cargo bag so that longer items that you load through don"
-  - claim: "tow a 750kg braked trailer"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "towing a 750kg braked trailer"
-  - claim: "The 220-mile figure"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "claimed range of up to 220 miles"
-  - claim: "of the facelifted van quoted 205 miles"
-    source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
-    quote: "The official WLTP range is 205 miles"
-  - claim: "a 2024 review"
-    source: https://www.parkers.co.uk/vans-pickups/vauxhall/combo/2021-combo-e-review/
-    quote: "15 April 2024"
-  - claim: "a city figure of up to 304 miles"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "Vauxhall also quotes a WLTP city range figure of up to 304 miles"
   - claim: "it is at its best in town"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "the Combo Electric is at its best in urban driving with frequent regenerative braking and less high-speed running"
-  - claim: "around half an hour to 80 per cent"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "for a top up to 80 per cent in around half an hour"
-  - claim: "A 7.4kW wallbox refills it from empty in seven and a half hours"
-    source: https://www.autoexpress.co.uk/vauxhall/combo
-    quote: "A typical 7.4kW home wallbox charger can fully recharge the Combo from empty in seven and a half hours."
   - claim: "11kW charging, which cuts that to around five hours, is an option on every trim"
     source: https://www.autoexpress.co.uk/vauxhall/combo
     quote: "Using a three-phase 11kW charger cuts this down to around five hours, but this capability is an optional extra for all trim levels."
@@ -185,19 +151,19 @@ facts:
 
 ### Who it's for
 
-The Combo Electric is for multi-drop couriers, service engineers and local trades whose days are mostly stop-start and whose vans come home to a charger. Vauxhall's version of the Stellantis small van, it shares its body and running gear with the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Fiat E-Doblo](/vans/fiat-doblo/) and [Toyota Proace City Electric](/vans/toyota-proace-city/). We've based this review on the facelifted van, with figures from a review updated in August 2026.
+The Combo Electric is for multi-drop couriers, service engineers and local trades whose days are mostly stop-start and whose vans come home to a charger. Vauxhall's version of the Stellantis small van, it shares its body and running gear with the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Fiat E-Doblo](/vans/fiat-doblo/) and [Toyota Proace City Electric](/vans/toyota-proace-city/). We've based this review on the facelifted van, with figures from Vauxhall's November 2024 press kit and a review updated in August 2026.
 
 ### Load area and payload
 
 Electric power takes nothing from the load bay. The standard van holds 3.3 cubic metres and the XL 3.9, and there's room for two Euro pallets in the back. The optional FlexCargo pack adds a bulkhead hatch for items up to 3,090mm long, or 3,440mm in the XL, plus a folding outer seat and a protective cargo bag.
 
-The electric van carries between 642kg and 781kg depending on the version, and the lowest figure is for the Crew Van, against 669kg to 984kg for the diesels. It can also only tow a 750kg braked trailer. If you're regularly near the limit, the diesel is still the better tool.
+We haven't found a current payload figure from Vauxhall. Its November 2024 press kit is the latest we have, and the current guides for its Citroën and Peugeot twins give a lower maximum, so check the plated payload of the exact van you're quoted. The diesel carries more, and the electric van can only tow a 750kg braked trailer. If you're regularly near the limit, the diesel is still the better tool.
 
 ### Range and charging in the real world
 
-The 220-mile figure applies to every body style. Earlier numbers vary, though: a 2024 review of the facelifted van quoted 205 miles, so make sure your quote gives the current figure. Vauxhall also gives a city figure of up to 304 miles, which tells you it is at its best in town. Motorway runs hurt its efficiency.
+We haven't found a current official range from Vauxhall, and the current guides for its Citroën and Peugeot twins each quote more than one figure, so ask for the official range of the exact van you're quoted. It is at its best in town. Motorway runs hurt its efficiency.
 
-At a public rapid charger it takes up to 100kW, which means around half an hour to 80 per cent. A 7.4kW wallbox refills it from empty in seven and a half hours, and 11kW charging, which cuts that to around five hours, is an option on every trim. Our [charging guide](/guides/charging-an-electric-van/) has more on depot charging.
+At a public rapid charger it takes up to 100kW, which means around half an hour to 80 per cent. A home wallbox refills it from empty overnight, and 11kW charging, which cuts that to around five hours, is an option on every trim. Our [charging guide](/guides/charging-an-electric-van/) has more on depot charging.
 
 ### On the road
 

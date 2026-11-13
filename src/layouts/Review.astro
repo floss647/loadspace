@@ -6,6 +6,7 @@ import { SITE } from '../data/site.js';
 import { EV_VANS, SIZES } from '../data/vans.js';
 import { scoreSpecs } from '../lib/review-score.js';
 import IMAGES from '../data/images.json';
+import NewsletterBox from '../components/NewsletterBox.astro';
 const { frontmatter: f } = Astro.props;
 const van = EV_VANS.find((v) => v.slug === f.van);
 const name = van?.name || f.van;
@@ -69,6 +70,7 @@ const ld = {
         </div>
       )}
       <p class="small muted">Spotted a mistake? <a href="/corrections/">Tell us</a> and we'll correct it openly.</p>
+      <NewsletterBox source="review" />
     </article>
 
     <aside class="review-aside">
@@ -91,7 +93,8 @@ const ld = {
         <a class="small" href="/reviews/how-we-score/">How we score →</a>
       </div>
       <div class="aside-links">
-        {van && <a class="btn" href={`/vans/${van.slug}/`}>{name} buyer's guide</a>}
+        {van && <a class="btn" href={`/get-lease-quotes/?van=${van.slug}`}>Make a lease enquiry</a>}
+        {van && <a class="btn secondary" href={`/vans/${van.slug}/`}>{name} buyer's guide</a>}
         <a class="btn secondary" href="/tools/electric-vs-diesel/">Electric vs diesel costs</a>
         <a class="btn secondary" href="/reviews/">All reviews</a>
       </div>

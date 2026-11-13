@@ -1,4 +1,13 @@
 {
+ "dpd-van-magor": {
+  "file": "/images/photos/dpd-van-magor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DPD_van_in_The_Square,_Magor,_Monmouthshire_-_geograph.org.uk_-_6734981.jpg",
+  "title": "File:DPD van in The Square, Magor, Monmouthshire - geograph.org.uk - 6734981.jpg",
+  "author": "Jaggery",
+  "licence": "CC BY-SA 2.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "note": "A DPD delivery van parked in The Square, Magor, Monmouthshire"
+ },
  "royal-mail-electric-van": {
   "file": "/images/photos/royal-mail-electric-van.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Royal_Mail_electric_van_-_25_November_2025.jpg",
@@ -7,5 +16,14 @@
   "licence": "CC0",
   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "note": "Royal Mail electric van on a UK street"
+ },
+ "thelwall-viaduct-m6": {
+  "file": "/images/photos/thelwall-viaduct-m6.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Thelwall_Viaduct_-_geograph.org.uk_-_2689930.jpg",
+  "title": "File:The Thelwall Viaduct - geograph.org.uk - 2689930.jpg",
+  "author": "Anthony Parkes",
+  "licence": "CC BY-SA 2.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "note": "The Thelwall Viaduct on the M6, with a sign gantry"
  }
 }
