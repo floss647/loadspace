@@ -1,10 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import IMAGES from '../../data/images.json';
-import PHOTOS from '../../data/photos.json';
 import { ICONS, credit } from '../../data/guides.js';
 
-const hero = PHOTOS['royal-mail-electric-van'];
+const hero = IMAGES['ford-transit-custom'];
 const vcard = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
 
 const plan = [
@@ -46,7 +45,7 @@ const tileCredits = Object.entries(
       </div>
       {hero && (
         <figure class="hero-photo">
-          <img src={hero.file} alt="A Royal Mail electric van parked on a UK street" width="1280" height="854" />
+          <img src={hero.file} alt="A Ford E-Transit Custom electric van" width="1200" height="866" />
           <figcaption>{credit(hero)}</figcaption>
         </figure>
       )}
