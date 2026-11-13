@@ -10,7 +10,7 @@ photo: ford-transit
 photoCaption: "An electric Ford E-Transit large van, on German plates. UK vans are right-hand drive."
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-09
+  date: 2026-11-13
 sources:
   - https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
   - https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
@@ -80,7 +80,7 @@ facts:
     quote: "All LCV BEVS 30,728 24,250 26.7% 11.0% 9.1%"
   - claim: "3.5 to 4.25 tonnes"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
-    quote: "BEVs weighing >3.5-4.25t contribute towards each manufacturer's target"
+    quote: "3.5-4.25t contribute towards each manufacturer's target, in addition to those weighing ≤3.5t"
   - claim: "from 182 to 588"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "(Bev Only) 588 182 223.1%"
