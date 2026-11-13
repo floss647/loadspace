@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NewsPost.astro
-title: "Government could cut 2030 electric van target: consultation closes"
+title: "Government could cut the 2030 electric van target"
 date: 2026-10-29T11:30:00Z
 tag: Policy
 summary: "The government's review of the zero-emission vehicle mandate for new cars and vans closed on 23 October. For vans, options include cutting the 2030 target from 70% to 60%, 50% or 40%. No decision has been announced, but the government aims to respond by the end of 2026."
