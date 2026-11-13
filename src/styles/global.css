@@ -794,3 +794,13 @@ main:has(> .guide-more) { padding-bottom: 0; }
   .ri-card, .ri-high { background: var(--surface); }
   .ri-toolbar { background: var(--bg); }
 }
+
+/* Quick answers (van pages): short answers to common questions, from the checked figures. */
+.quick-answers { margin-top: 2.2rem; }
+.quick-answers h2 { margin-top: 0; }
+.qa-list { margin: 1rem 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.qa-item { border-left: 4px solid var(--accent); border-radius: 0 14px 14px 0; padding: .95rem 1.15rem 1rem; background: var(--surface); }
+.qa-item dt { margin: 0 0 .35rem; font-family: var(--display); font-weight: 800; font-size: 1rem; line-height: 1.3; color: var(--ink); }
+.qa-item dd { margin: 0; font-size: .94rem; line-height: 1.5; color: var(--text); }
+.qa-source { margin: .8rem 0 0; }
+@media (max-width: 640px) { .qa-list { grid-template-columns: 1fr; } }

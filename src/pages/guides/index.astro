@@ -1,14 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro';
 import IMAGES from '../../data/images.json';
-import { GUIDE_SECTIONS, ICONS, credit } from '../../data/guides.js';
+import { GUIDE_SECTIONS, ALL_GUIDES, ICONS, credit } from '../../data/guides.js';
+import { itemList } from '../../lib/seo.js';
 
 const [electric, fleets, buying] = GUIDE_SECTIONS;
 const featured = electric.guides[0];
 const rest = electric.guides.slice(1);
 const photo = IMAGES['peugeot-expert'];
+const ld = itemList(Astro.site, 'Electric van and truck guides', ALL_GUIDES.map((g) => [g.title, g.href]));
 ---
-<Base title="Electric van and truck guides" description="Plain-English guides to going electric with vans and trucks, for small businesses and fleets.">
+<Base title="Electric van and truck guides" description="Plain-English guides to going electric with vans and trucks, for small businesses and fleets." jsonLd={ld}>
   <section class="hero hero-split guides-hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">

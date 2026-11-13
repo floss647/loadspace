@@ -10,6 +10,9 @@ import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
 import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
 import { reviewFor } from '../../lib/reviews.js';
 import { pairsFor } from '../../lib/compare.js';
+import { quickAnswers, faqLd } from '../../lib/quick-answers.js';
+import { vehicleImage } from '../../lib/seo.js';
+import IMAGES from '../../data/images.json';
 
 export function getStaticPaths() {
   return EV_VANS.map((van) => ({ params: { slug: van.slug }, props: { van } }));
@@ -44,9 +47,27 @@ const checks = [
   ['The load area', 'Damaged floors, bulkheads and side panels show how hard it worked.'],
   ['Payload', 'Batteries are heavy, and racking or fit-outs reduce payload further. Check the plated weight against what you carry.'],
 ];
+// Quick answers and structured data, built only from the checked spec file, our review and the twins list.
+const qa = quickAnswers(van, specs, review);
+const sizeLabel = size.label.replace(/s$/, '');
+const vehicleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Vehicle',
+  name: van.name,
+  brand: { '@type': 'Brand', name: van.make },
+  model: van.name.replace(`${van.make} `, ''),
+  bodyType: sizeLabel,
+  fuelType: 'Electric',
+  url: new URL(`/vans/${van.slug}/`, Astro.site).href,
+  image: vehicleImage(IMAGES[van.slug], Astro.site),
+  // Range and payload only where the spec file gives the figures, worded as in Quick answers.
+  additionalProperty: qa.filter((x) => x.figure).map((x) => ({ '@type': 'PropertyValue', name: x.figure.name, value: x.figure.value, ...(x.figure.note ? { description: x.figure.note } : {}) })),
+};
+if (!vehicleLd.additionalProperty.length) delete vehicleLd.additionalProperty;
+const ld = [vehicleLd, qa.length ? faqLd(qa) : null];
 const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '');
 ---
-<Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`}>
+<Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`} jsonLd={ld} crumbs={[['Home', '/'], ['Electric vans', '/vans/']]} crumbName={van.name}>
   <section class="review-hero van-hero">
     <div class="wrap review-hero-grid">
       <div class="review-hero-copy">
@@ -78,6 +99,25 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
         </div>
       )}
       {!review && <div class="notice"><strong>Full review coming.</strong> This page already covers the buying basics.</div>}
+
+      {qa.length > 0 && (
+        <section class="quick-answers" aria-labelledby="quick-answers">
+          <h2 id="quick-answers">Quick answers</h2>
+          <dl class="qa-list">
+            {qa.map((x) => (
+              <div class="qa-item">
+                <dt>{x.q}</dt>
+                <dd>{x.a}</dd>
+              </div>
+            ))}
+          </dl>
+          {(specs || review) && <p class="qa-source small muted">
+            Answers use the figures in {[specs && 'our checked spec section', review && 'our fact-checked review'].filter(Boolean).join(' and ')}.
+            {specs && <> <a href="#specs">See every version →</a></>}
+            {!specs && review && <> <a href={review.url}>Read the review →</a></>}
+          </p>}
+        </section>
+      )}
 
       <h2>Will it suit your work?</h2>
       <div class="suit-grid">

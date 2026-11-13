@@ -16,7 +16,7 @@ const licence = {
   heavy: 'Category C for rigids, or C+E for tractor units with trailers, plus a Driver CPC.',
 }[truck.cls];
 ---
-<Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`}>
+<Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`} crumbs={[['Home', '/'], ['Trucks', '/trucks/']]} crumbName={truck.name}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/trucks/">Trucks</a> › <a href={`/trucks/#${truck.cls}`}>{c.short}</a></div>
     <article class="prose">

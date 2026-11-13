@@ -1,15 +1,31 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { VANS, TWINS, SIZES } from '../../data/vans.js';
+import { orgRef, publisherRef, isoMonth } from '../../lib/seo.js';
+const title = 'Same van, different badge: rebadged vans explained';
+const description = 'Which UK vans are the same van sold under different names, and how to use that to pay less.';
+const checked = 'October 2026';
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Same electric van, different badge',
+  description,
+  dateModified: isoMonth(checked),
+  inLanguage: 'en-GB',
+  mainEntityOfPage: new URL('/guides/rebadged-vans/', Astro.site).href,
+  articleSection: 'Buying any van',
+  author: orgRef(Astro.site),
+  publisher: publisherRef(Astro.site),
+};
 const groups = Object.entries(TWINS).map(([key, t]) => ({ ...t, vans: VANS.filter((v) => v.twin === key && v.electric) })).filter((g) => g.vans.length > 1);
 ---
-<Base title="Same van, different badge: rebadged vans explained" description="Which UK vans are the same van sold under different names, and how to use that to pay less.">
+<Base title={title} description={description} jsonLd={ld} crumbs={[['Home', '/'], ['Guides', '/guides/']]} crumbName="Same electric van, different badge">
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a></div>
     <article class="prose">
       <h1>Same electric van, different badge</h1>
       <p class="lede">Many electric vans are built in the same factory and sold under several brands. If two are the same underneath, compare the deal, not the van.</p>
-      <p class="muted small">Last checked: October 2026</p>
+      <p class="muted small">Last checked: {checked}</p>
 
       <h2>Why it matters</h2>
       <p>If two vans are the same underneath, stop comparing the van and compare the deal:</p>
