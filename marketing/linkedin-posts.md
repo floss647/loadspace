@@ -1,4 +1,4 @@
-# Loadspace LinkedIn posts: first month
+# Van Electric LinkedIn posts: first month
 
 Eight posts for the founder's personal profile, two a week for four weeks.
 
@@ -6,7 +6,7 @@ Eight posts for the founder's personal profile, two a week for four weeks.
 
 **Scheduling:** once Typefully is connected, ask Claude to schedule these in Typefully with their images. Each one needs your approval before it goes out.
 
-**Links:** every link below uses https://loadspace-vans.netlify.app/. When the custom domain goes live, swap the domain before posting (the paths stay the same).
+**Links:** every link below uses https://vanelectric.co.uk/.
 
 **Before posting each one:**
 - Re-check any news figure against the live story. The ZEV mandate decision is due by the end of 2026, SMMT publishes new van figures early each month, and grant rules can change.
@@ -14,19 +14,19 @@ Eight posts for the founder's personal profile, two a week for four weeks.
 - Images: don't attach maker press photos. Their terms allow editorial use only, not promotion (see NEWSROOM.md). A screenshot of our own reliability table or calculator is fine.
 - Put the link in the post as written. If you'd rather put it in the first comment, change "Link below" lines accordingly.
 
-**How to read the reliability figures** (applies to posts 3, 6 and 8): every figure is an *initial MOT failure rate*: the share of MOT tests (retests left out) where the vehicle failed, or only passed after faults were fixed during the test (PRS). Source: DVSA anonymised MOT tests and results, file "MOT testing data results (2024)", processed by `scripts/mot_reliability.py` into `src/data/reliability.json`. Classes 4 and 7 only. Age = whole years from first use to the test date. Figures are only published from at least 300 tests (`minTests: 300`). "All vans" (`allVansByAge`) is pooled: every initial test of every van and pickup model Loadspace tracks, combined (so weighted by number of tests, and including models too small to publish separately). It is not an average of the model figures, and not every van in the UK. Different models appear in different age bands, so the bands are not a like-for-like set. The data is almost all diesel, and some models include passenger versions or motorhome conversions sold under the same name. Each model's figure covers every generation sold under that name.
+**How to read the reliability figures** (applies to posts 3, 6 and 8): every figure is an *initial MOT failure rate*: the share of MOT tests (retests left out) where the vehicle failed, or only passed after faults were fixed during the test (PRS). Source: DVSA anonymised MOT tests and results, file "MOT testing data results (2024)", processed by `scripts/mot_reliability.py` into `src/data/reliability.json`. Classes 4 and 7 only. Age = whole years from first use to the test date. Figures are only published from at least 300 tests (`minTests: 300`). "All vans" (`allVansByAge`) is pooled: every initial test of every van and pickup model Van Electric tracks, combined (so weighted by number of tests, and including models too small to publish separately). It is not an average of the model figures, and not every van in the UK. Different models appear in different age bands, so the bands are not a like-for-like set. The data is almost all diesel, and some models include passenger versions or motorhome conversions sold under the same name. Each model's figure covers every generation sold under that name.
 
 ---
 
 ## Week 1
 
-### Post 1 (Tuesday 3 November): why Loadspace exists
+### Post 1 (Tuesday 3 November): why Van Electric exists
 
 **Image:** `marketing/images/post-1.png`
 
 Advice on electric vans should come from someone who isn't trying to sell you one.
 
-That's why I built Loadspace.
+That's why I built Van Electric.
 
 [ADD YOUR OWN LINE: why you started it, in your own words]
 
@@ -44,7 +44,7 @@ We don't sell vans or trucks, and rankings are never for sale.
 
 [ADD YOUR OWN LINE: who you'd like to hear from]
 
-https://loadspace-vans.netlify.app/
+https://vanelectric.co.uk/
 
 #ElectricVans #FleetManagement
 
@@ -73,7 +73,7 @@ No decision yet. The government says it aims to respond by the end of 2026.
 If you're buying: SMMT says substantial discounts helped drive September's record. If the target is cut, the pressure behind those discounts could ease.
 
 The full story, and what each option means:
-https://loadspace-vans.netlify.app/news/zev-mandate-van-consultation-closes/
+https://vanelectric.co.uk/news/zev-mandate-van-consultation-closes/
 
 #ElectricVans #ZEVMandate #Fleet
 
@@ -112,7 +112,7 @@ These are vans from around 2018, so for some models that means an earlier genera
 Two caveats. Mileage matters: 5–6 year old L200s averaged 65,223 miles, against 83,815 across all the models we track, combined. And the data is almost all diesel, because few electric vans are old enough yet. It shows how each model's body, brakes, suspension and steering hold up, not its battery.
 
 Full table:
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement
 
@@ -123,7 +123,7 @@ https://loadspace-vans.netlify.app/reliability/
 > - "Toyota Hilux: 21.3%": `models.toyota-hilux.byAge.5-6.failRate` = 21.3 (10,687 tests).
 > - "Volkswagen Transporter: 21.7%": `models.volkswagen-transporter.byAge.5-6.failRate` = 21.7 (42,644 tests). `includesPassengerVersions: true`, `includesMotorhomes: true`. Lowest of the non-pickup models. "T6/T6.1 generation": first used about 2017–2019, before the latest Ford-built Transporter (`TWINS["ford-vw-medium"]`). Generation names are background knowledge, not from the repo.
 > - "vans from around 2018": age 5–6 at a 2024 test means first use roughly 2017–2019 (age = whole years from first use to test date, `scripts/mot_reliability.py`).
-> - "28.1%": `allVansByAge.5-6.failRate` = 28.1 (620,587 tests). Pooled across all initial tests of the models Loadspace tracks at 5–6 years, combined, not an average of the model figures.
+> - "28.1%": `allVansByAge.5-6.failRate` = 28.1 (620,587 tests). Pooled across all initial tests of the models Van Electric tracks at 5–6 years, combined, not an average of the model figures.
 > - "KGM Musso (38.4%, a small sample)": `models.kgm-musso.byAge.5-6.failRate` = 38.4 (876 tests).
 > - "Renault Kangoo (37.1%)": `models.renault-kangoo.byAge.5-6.failRate` = 37.1 (5,011 tests). Includes passenger versions.
 > - "Vauxhall Movano (37.0%)": `models.vauxhall-movano.byAge.5-6.failRate` = 37.0 (7,740 tests).
@@ -145,7 +145,7 @@ There's a serious bit too. Every real fact in it goes through the same checks as
 
 If you spend your working day in a van, or managing people who do, it's written for your tea break.
 
-https://loadspace-vans.netlify.app/blog/
+https://vanelectric.co.uk/blog/
 
 #Vans #Fleet
 
@@ -176,7 +176,7 @@ The catches: new vans only, at first registration. The exact model and trim must
 Some electric trucks over 26 tonnes can get up to £81,000, or 40% of the cost if that's lower (less for large firms in Northern Ireland).
 
 Plain-English guide:
-https://loadspace-vans.netlify.app/news/zero-emission-van-grant-explained/
+https://vanelectric.co.uk/news/zero-emission-van-grant-explained/
 
 #ElectricVans #SmallBusiness #Fleet
 
@@ -218,12 +218,12 @@ Its twin, the Fiat Ducato, barely moves: 23.2% to 25.3%. That's a clue, not a mi
 
 So compare like with like: same age, and look at the mileage.
 
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement
 
 > **Facts used** (all `src/data/reliability.json`; initial MOT failure rate, retests excluded, fail = failed or passed after faults fixed at the test; DVSA "MOT testing data results (2024)"; age = years since first use; at least 300 tests per figure)
-> - "24.0%", "28.1%", "34.8%", "43.3%": `allVansByAge["3-4"|"5-6"|"7-9"|"10-14"].failRate` = 24.0, 28.1, 34.8, 43.3 (583,522; 620,587; 859,970; 794,989 tests). Pooled across all initial tests of the models Loadspace tracks, combined (test-weighted, including models too small to publish separately, and passenger and motorhome versions sold under those names). Not an average of the model figures, and the mix of models differs between bands.
+> - "24.0%", "28.1%", "34.8%", "43.3%": `allVansByAge["3-4"|"5-6"|"7-9"|"10-14"].failRate` = 24.0, 28.1, 34.8, 43.3 (583,522; 620,587; 859,970; 794,989 tests). Pooled across all initial tests of the models Van Electric tracks, combined (test-weighted, including models too small to publish separately, and passenger and motorhome versions sold under those names). Not an average of the model figures, and the mix of models differs between bands.
 > - "62,544 to 130,747": `allVansByAge.3-4.avgMiles` = 62544, `allVansByAge.10-14.avgMiles` = 130747 (pooled, as above).
 > - "Fiat Ducato 23.2% to 25.3%": `models.fiat-ducato.byAge.3-4.failRate` = 23.2 (8,226 tests), `byAge.10-14.failRate` = 25.3 (18,426 tests).
 > - "66,883 miles": `models.fiat-ducato.byAge.10-14.avgMiles` = 66883.
@@ -248,7 +248,7 @@ Take the example our free calculator starts with: £279 a month, 6 + 35, and a �
 It's the fairest way to compare two quotes for the same van with different upfront payments. Then check the mileage limit fits your work, and whether the price includes VAT (business deals are usually shown without it).
 
 Put your own quote in. It's free and there's no sign-up:
-https://loadspace-vans.netlify.app/tools/lease-true-cost/
+https://vanelectric.co.uk/tools/lease-true-cost/
 
 #Vans #SmallBusiness #Leasing
 
@@ -282,7 +282,7 @@ The data can't tell us why. It may come down to who buys each badge and how they
 
 What it does show: with twins, don't assume the badge you don't buy has the same record. Look up the one you're buying, at the age you're buying it.
 
-https://loadspace-vans.netlify.app/reliability/
+https://vanelectric.co.uk/reliability/
 
 #Vans #MOT #FleetManagement
 

@@ -2,6 +2,7 @@
 // Head-to-head comparison of two electric vans. Every figure comes from the vans' signed-off
 // spec files, shown exactly as written there. No winner, no new claims: the text is template only.
 import Base from '../../layouts/Base.astro';
+import { SITE } from '../../data/site.js';
 import { SIZES, TWINS } from '../../data/vans.js';
 import { PAIRS, ROWS, figure, sideFor } from '../../lib/compare.js';
 
@@ -68,7 +69,7 @@ const crumbs = {
           ))}
           {scored && (
             <tr>
-              <th scope="row">Loadspace data score</th>
+              <th scope="row">{SITE.name} data score</th>
               {sides.map((s) => <td><a href={s.review.url}><strong>{s.review.score.overall.toFixed(1)}/5</strong></a></td>)}
             </tr>
           )}

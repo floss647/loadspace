@@ -82,7 +82,7 @@ def column_card(fm):
         d.ellipse([cx - 38, 652, cx + 38, 728], fill=NAVY)
     d.rectangle([0, 0, 18, H], fill=NAVY)
     d.text((90, 70), 'OVERLOADED', font=font('InterDisplay-Bold.otf', 64), fill=NAVY)
-    d.text((92, 150), 'The weekly van column from Loadspace', font=font('Inter-Medium.otf', 30), fill=NAVY)
+    d.text((92, 150), 'The weekly van column from Van Electric', font=font('Inter-Medium.otf', 30), fill=NAVY)
     hf = font('InterDisplay-Bold.otf', 82)
     y = 270
     for line in fit_lines(d, fm.get('title', ''), hf, 1080, 5):
@@ -101,7 +101,7 @@ def branded(fm):
         d.ellipse([cx - 38, 652, cx + 38, 728], fill=NAVY2)
     # Accent bar, brand and tag.
     d.rectangle([0, 0, 18, H], fill=AMBER)
-    d.text((90, 78), 'Loadspace', font=font('InterDisplay-Bold.otf', 46), fill=WHITE)
+    d.text((90, 78), 'Van Electric', font=font('InterDisplay-Bold.otf', 46), fill=WHITE)
     tag = (fm.get('tag') or 'News').upper()
     tf = font('Inter-SemiBold.otf', 30)
     tw = d.textlength(tag, font=tf)
@@ -122,7 +122,7 @@ def branded(fm):
         y = 280
         for line in fit_lines(d, fm.get('title', ''), hf, 1080, 4):
             d.text((90, y), line, font=hf, fill=WHITE); y += 100
-    d.text((92, H - 92), 'loadspace · independent electric van advice', font=font('Inter-Medium.otf', 28), fill=MUTED)
+    d.text((92, H - 92), 'vanelectric.co.uk · independent electric van advice', font=font('Inter-Medium.otf', 28), fill=MUTED)
     return im
 
 

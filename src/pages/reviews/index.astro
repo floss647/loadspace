@@ -33,13 +33,13 @@ const photoCredits = REVIEWS.filter((r) => IMAGES[r.van]).map((r) => {
   return { name: r.vanName, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
 });
 ---
-<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs.">
+<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Van Electric data score from the published specs.">
   <section class="hero hero-split reviews-hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
         <p class="eyebrow">Independent electric van reviews</p>
         <h1>Electric van reviews</h1>
-        <p>Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Loadspace data score from its published specs, so you can compare them fairly.</p>
+        <p>Our verdict on each electric van: who it suits, which version to buy and what to watch out for. Every van also gets a Van Electric data score from its published specs, so you can compare them fairly.</p>
         <div class="btn-row">
           <a class="btn" href="#all-reviews">Browse the reviews</a>
           <a class="btn secondary" href="/reviews/how-we-score/">How we review and score</a>

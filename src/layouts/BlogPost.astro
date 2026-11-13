@@ -20,7 +20,7 @@ const ld = {
   mainEntityOfPage: pageUrl,
   image: img?.image ? [new URL(img.image, Astro.site).href] : undefined,
   author: { '@type': 'Organization', name: SITE.name, url: new URL('/', Astro.site).href },
-  publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href } },
+  publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/brand/logo-on-white.png', Astro.site).href } },
 };
 ---
 <Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image} type="article" jsonLd={ld}>

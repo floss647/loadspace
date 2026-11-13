@@ -8,7 +8,7 @@ import io, json, sys, time, urllib.error, urllib.request
 from pathlib import Path
 from PIL import Image
 
-UA = 'LoadspaceImageFinder/0.1 (https://loadspace-vans.netlify.app; editorial van guides)'
+UA = 'VanElectricImageFinder/0.1 (https://vanelectric.co.uk; editorial van guides)'
 OUT = Path('public/images/vehicles')
 
 

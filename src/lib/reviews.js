@@ -1,4 +1,4 @@
-// Loadspace reviews: a summary of what published road tests say, plus our own score
+// Van Electric reviews: a summary of what published road tests say, plus our own score
 // worked out only from the van's published specs. Markdown files in src/pages/reviews.
 import { EV_VANS } from '../data/vans.js';
 import { scoreSpecs, priceOf } from './review-score.js';

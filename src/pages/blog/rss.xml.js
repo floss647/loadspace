@@ -4,7 +4,7 @@ import { COLUMNS, COLUMN } from '../../lib/blog.js';
 
 export function GET(context) {
   return rss({
-    title: `${COLUMN.name}, the weekly van column from Loadspace`,
+    title: `${COLUMN.name}, the weekly van column from Van Electric`,
     description: COLUMN.strap,
     site: context.site,
     items: COLUMNS.map((p) => ({ title: p.title, description: p.summary, pubDate: new Date(p.date), link: p.url })),
