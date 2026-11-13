@@ -134,9 +134,9 @@ Welcome back to Overloaded. Glovebox report: the Polo mint is still in the glove
 
 Europcar has published its latest Electric Vehicle Barometer, and according to Greenfleet, business drivers' attitudes to electric vehicles have changed little in 2026. In the third quarter, 40.59% of respondents named purchase, maintenance and finance costs as a barrier to switching, down from 41.03% in the first.
 
-Two decimal places! I love a survey that takes itself this seriously. Somewhere out there is 0.59 of a person who is worried about finance, while the rest of him has nipped out for a sausage roll. Cost worries have dropped by 0.44 percentage points in six months. At that rate, Britain will be completely relaxed about the price of electric vans in about 46 years, just in time for the vans to start flying.
+Two decimal places! I love a survey that takes itself this seriously. Somewhere out there is 0.59 of a person who is worried about finance, while the rest of him has nipped out for a sausage roll. Cost worries have dropped by 0.44 percentage points in six months. At that rate, business drivers will be completely relaxed about the price of electric vehicles in about 46 years, just in time for the vans to start flying.
 
-Charging worries barely moved either, from 29.46% to 29.13%. But my favourite figure is this: the share naming a lack of understanding of EV ownership as a barrier rose from 14.9% in the second quarter to 18.9% in the third. So the more electric vans there are on the road, the more baffled we get. That's not a barrier. That's my relationship with the self-service checkout.
+Charging worries barely moved either, from 29.46% to 29.13%. But my favourite figure is this: the share naming a lack of understanding of EV ownership as a barrier rose from 14.9% in the second quarter to 18.9% in the third. So the more electric vehicles there are on the road, the more baffled business drivers get. That's not a barrier. That's my relationship with the self-service checkout.
 
 Europcar's Tom Middleditch called the findings "sobering", and said businesses need to "give employees first-hand experience of using electric cars and vans for work". He has a point. You don't learn to love a van from a spreadsheet, any more than you learn to swim from a leaflet.
 
