@@ -50,5 +50,5 @@ Rules depend on your business and change over time. **Check with your accountant
 ## Next steps
 
 - [Work out the true monthly cost of a lease](/tools/lease-true-cost/)
-- [See van lease deals ranked by true cost](/deals/)
+- [Electric van leasing: how to compare deals](/deals/)
 - [Thinking electric? Compare running costs](/tools/electric-vs-diesel/)

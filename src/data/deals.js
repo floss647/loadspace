@@ -1,7 +1,12 @@
 // SAMPLE DATA ONLY. Made-up prices to show how the deals page works.
 // Replace with broker feeds before launch. Never show these to the public as real offers.
 // Prices are business contract hire, monthly, excluding VAT.
+import { FEATURES } from './site.js';
+
 export const DEALS_ARE_SAMPLE = true;
+// Price tables only render when the feature is switched on AND the data is real.
+// Sample prices are never shown to the public.
+export const SHOW_DEALS = FEATURES.liveDeals && !DEALS_ARE_SAMPLE;
 
 export const DEALS = [
   { van: 'vauxhall-vivaro', version: 'Electric 75kWh L2 Prime', broker: 'Broker C', monthly: 259, upfrontMonths: 6, term: 36, miles: 10000, fee: 0, fuel: 'Electric' },
