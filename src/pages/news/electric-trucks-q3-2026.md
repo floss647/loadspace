@@ -51,10 +51,10 @@ facts:
     quote: "Rigid vehicle demand also increased in Q3, albeit by a more modest 4.1% to 5,398 units."
   - claim: "Rigids over 16 tonnes were up 4.6%"
     source: https://www.smmt.co.uk/hgv-market-grows-for-first-time-in-two-years/
-    quote: "RIGIDS 16T 3,547 3,390 4.6%"
+    quote: "RIGIDS >16T 3,547 3,390 4.6%"
   - claim: "from 6 to 16 tonnes up 3.1%"
     source: https://www.smmt.co.uk/hgv-market-grows-for-first-time-in-two-years/
-    quote: "RIGIDS =6 - 16T 1,851 1,795 3.1%"
+    quote: "RIGIDS >=6 - 16T 1,851 1,795 3.1%"
   - claim: "fell 50.7%"
     source: https://www.smmt.co.uk/hgv-market-grows-for-first-time-in-two-years/
     quote: "registrations of zero-emission HGVs halved in the quarter (-50.7%)"
