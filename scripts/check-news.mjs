@@ -62,6 +62,33 @@ const norm = (s) => String(s)
   .replace(/[‐-―−]/g, '-')
   .replace(/\s+/g, ' ').trim().toLowerCase();
 
+// HTML character references in a fetched page (&gt; &#34; &#x22; &pound; ...), decoded in a single pass so
+// "&amp;gt;" becomes the text "&gt;", not ">". SMMT stores ">" as &gt; and Ford stores '"' as &#34;, and these
+// used to become spaces, so quotes containing them could never match. Names not in this table, and numbers
+// that aren't valid characters, still become a space as before.
+const ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  lsquo: '‘', rsquo: '’', sbquo: '‚', ldquo: '“', rdquo: '”', bdquo: '„',
+  prime: '′', Prime: '″', laquo: '«', raquo: '»',
+  ndash: '–', mdash: '—', minus: '−', hyphen: '‐', dash: '‐', hellip: '…',
+  middot: '·', bull: '•', ensp: ' ', emsp: ' ', thinsp: ' ',
+  pound: '£', euro: '€', cent: '¢', dollar: '$', percnt: '%', num: '#', commat: '@',
+  copy: '©', reg: '®', trade: '™', deg: '°', plusmn: '±', times: '×', divide: '÷',
+  frac12: '½', frac14: '¼', frac34: '¾', sup2: '²', sup3: '³', micro: 'µ',
+  le: '≤', ge: '≥', sect: '§', dagger: '†', Dagger: '‡',
+  colon: ':', semi: ';', comma: ',', period: '.', excl: '!', quest: '?', lpar: '(', rpar: ')', sol: '/', ast: '*', plus: '+', equals: '=',
+  aacute: 'á', agrave: 'à', acirc: 'â', auml: 'ä', ccedil: 'ç', eacute: 'é', egrave: 'è',
+  ecirc: 'ê', euml: 'ë', iacute: 'í', iuml: 'ï', ntilde: 'ñ', oacute: 'ó', ouml: 'ö',
+  uacute: 'ú', uuml: 'ü', szlig: 'ß', Eacute: 'É', Auml: 'Ä', Ouml: 'Ö', Uuml: 'Ü',
+};
+const CHAR_REF = /&(?:#(\d+)|#[xX]([0-9a-fA-F]+)|([A-Za-z][A-Za-z0-9]*));/g;
+function decodeRef(ref, dec, hex, name) {
+  if (name !== undefined) return Object.hasOwn(ENTITIES, name) ? ENTITIES[name] : ' ';
+  const cp = dec !== undefined ? Number(dec) : parseInt(hex, 16);
+  if (!cp || cp > 0x10ffff || (cp >= 0xd800 && cp <= 0xdfff)) return ' ';
+  return String.fromCodePoint(cp);
+}
+
 function hostOk(url) {
   let host;
   try { host = new URL(url).hostname.replace(/^www\./, ''); } catch { return null; }
@@ -205,9 +232,7 @@ async function pageText(url) {
     return buf.toString('utf8')
       .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ')
       .replace(/<[^>]+>/g, ' ')
-      .replace(/&amp;/g, '&').replace(/&pound;/g, '£').replace(/&euro;/g, '€').replace(/&#163;/g, '£')
-      .replace(/&#8364;/g, '€').replace(/&#8211;|&ndash;/g, '-').replace(/&#8217;|&rsquo;|&#039;|&#39;/g, "'")
-      .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;|&quot;/g, '"').replace(/&#\d+;|&[a-z]+;/g, ' ');
+      .replace(CHAR_REF, decodeRef);
   })();
   pageCache.set(url, p);
   return p;

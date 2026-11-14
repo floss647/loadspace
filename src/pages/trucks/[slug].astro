@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
+import IMAGES from '../../data/images.json';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
-import Cta from '../../components/Cta.astro';
+import { ICONS, credit } from '../../data/guides.js';
 import VehicleImage from '../../components/VehicleImage.astro';
 
 export function getStaticPaths() {
@@ -10,44 +11,125 @@ export function getStaticPaths() {
 const { truck } = Astro.props;
 const c = TRUCK_CLASSES[truck.cls];
 const others = TRUCKS.filter((t) => t.cls === truck.cls && t.slug !== truck.slug);
+const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
 const licence = {
   light: 'Category C1 (vehicles 3.5 to 7.5 tonnes). Drivers who passed their car test before 1 January 1997 usually already have C1. Professional drivers also need a Driver CPC.',
   medium: 'Category C (rigid trucks over 7.5 tonnes), plus a Driver CPC for professional driving.',
   heavy: 'Category C for rigids, or C+E for tractor units with trailers, plus a Driver CPC.',
 }[truck.cls];
+// Section icons, drawn in the same 24x24 stroke style as the guide icons.
+const icon = {
+  work: ICONS.road,
+  licence: 'M3 6h18v12H3zM7 10h4M7 14h6M15 10h2',
+  grants: ICONS.money,
+  charging: ICONS.bolt,
+};
+const otherCredits = others.filter((o) => IMAGES[o.slug]).map((o) => {
+  const img = IMAGES[o.slug];
+  return { name: o.name, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
+});
 ---
 <Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`} crumbs={[['Home', '/'], ['Trucks', '/trucks/']]} crumbName={truck.name}>
-  <div class="wrap">
-    <div class="crumbs"><a href="/">Home</a> › <a href="/trucks/">Trucks</a> › <a href={`/trucks/#${truck.cls}`}>{c.short}</a></div>
-    <article class="prose">
-      <h1>{truck.name}</h1>
-      <p><span class="tag ev">Electric</span> <span class="tag">{c.short}</span></p>
-      <VehicleImage slug={truck.slug} name={truck.name} />
-      <p class="lede">{truck.note}</p>
+  <section class="tool-hero truck-hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="/">Home</a> › <a href="/trucks/">Trucks</a> › <a href={`/trucks/#${truck.cls}`}>{c.short}</a></div>
+      <div class="truck-hero-grid">
+        <div>
+          <p class="eyebrow">Electric truck · {c.short}</p>
+          <h1>{truck.name}</h1>
+          {truck.note && <p class="review-summary">{truck.note}</p>}
+          <p class="truck-hero-class"><a href={`/trucks/#${truck.cls}`}>{c.label}</a></p>
+        </div>
+        <div class="review-photo truck-photo"><VehicleImage slug={truck.slug} name={truck.name} /></div>
+      </div>
+    </div>
+  </section>
 
-      <div class="notice"><strong>Full guide coming.</strong> We're adding operator interviews, real-world range by duty and charging experience. Check exact specs, range and availability with the dealer.</div>
+  <div class="wrap guide-grid truck-grid-layout">
+    <article class="truck-sections">
+      <section class="truck-section" aria-labelledby="work">
+        <span class="truck-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={icon.work} /></svg></span>
+        <div>
+          <h2 id="work">What work it suits</h2>
+          <p>{c.blurb}</p>
+          <p>Electric trucks work best on <strong>predictable routes that return to base</strong>, where they can charge overnight or between shifts. Before ordering, check your longest regular day, the payload you need after the battery weight, and whether your depot can supply enough power.</p>
+        </div>
+      </section>
 
-      <h2>What work it suits</h2>
-      <p>{c.blurb}</p>
-      <p>Electric trucks work best on <strong>predictable routes that return to base</strong>, where they can charge overnight or between shifts. Before ordering, check your longest regular day, the payload you need after the battery weight, and whether your depot can supply enough power.</p>
+      <section class="truck-section" aria-labelledby="licence">
+        <span class="truck-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={icon.licence} /></svg></span>
+        <div>
+          <h2 id="licence">Licence</h2>
+          <p>{licence}</p>
+        </div>
+      </section>
 
-      <h2>Licence</h2>
-      <p>{licence}</p>
+      <section class="truck-section" aria-labelledby="grants">
+        <span class="truck-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={icon.grants} /></svg></span>
+        <div>
+          <h2 id="grants">Grants</h2>
+          <p>New zero-emission trucks on the government's approved list qualify for the <strong>Zero Emission Truck Grant</strong>, which replaced the Plug-in Truck Grant. Trucks from 4.25 to 12 tonnes get 20% off, up to £15,000. Heavier trucks get 40% off, with caps that depend on weight, up to £81,000 for 26 tonnes and over (large firms in Northern Ireland get 30% on trucks over 12 tonnes). Ask the dealer to confirm the amount on your quote. <a href="/guides/grants-and-tax/">See grants and tax</a>.</p>
+        </div>
+      </section>
 
-      <h2>Grants</h2>
-      <p>New zero-emission trucks on the government's approved list qualify for the <strong>Zero Emission Truck Grant</strong>, which replaced the Plug-in Truck Grant. Trucks from 4.25 to 12 tonnes get 20% off, up to £15,000. Heavier trucks get 40% off, with caps that depend on weight, up to £81,000 for 26 tonnes and over (large firms in Northern Ireland get 30% on trucks over 12 tonnes). Ask the dealer to confirm the amount on your quote. <a href="/guides/grants-and-tax/">See grants and tax</a>.</p>
-
-      <h2>Charging</h2>
-      <p>Most operators charge at their own depot. Bigger trucks need high-power chargers, and getting a large enough grid connection can take a long time, so start that conversation early. <a href="/guides/depot-charging/">Depot charging guide</a>.</p>
-
-      {others.length > 0 && (
-        <>
-          <h2>Other electric trucks this size</h2>
-          <ul>{others.map((o) => <li><a href={`/trucks/${o.slug}/`}>{o.name}</a></li>)}</ul>
-        </>
-      )}
-
-      <Cta kind="fleet" />
+      <section class="truck-section" aria-labelledby="charging">
+        <span class="truck-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={icon.charging} /></svg></span>
+        <div>
+          <h2 id="charging">Charging</h2>
+          <p>Most operators charge at their own depot. Bigger trucks need high-power chargers, and getting a large enough grid connection can take a long time, so start that conversation early. <a href="/guides/depot-charging/">Depot charging guide</a>.</p>
+        </div>
+      </section>
     </article>
+
+    <aside class="guide-aside truck-aside">
+      <div class="guide-help">
+        <p class="eyebrow">Specs and prices</p>
+        <p>Check the latest specs, range and prices with the maker or your dealer. Line-ups change fast.</p>
+        <div class="guide-help-links">
+          <a class="btn" href="/fleets/enquiry/">Send a fleet enquiry</a>
+        </div>
+      </div>
+      <nav class="truck-aside-links" aria-label="Truck guides">
+        <p class="eyebrow">Useful guides</p>
+        <a href="/guides/grants-and-tax/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS.money} /></svg><span>Grants and tax</span></a>
+        <a href="/guides/depot-charging/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS.depot} /></svg><span>Depot charging</span></a>
+        <a href="/guides/are-electric-trucks-ready/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS.road} /></svg><span>Are electric trucks ready?</span></a>
+      </nav>
+    </aside>
   </div>
+
+  {others.length > 0 && (
+    <section class="section tint truck-others" aria-labelledby="others">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">{c.short}</p><h2 id="others">Other electric trucks this size</h2></div>
+          <a class="more" href={`/trucks/#${truck.cls}`}>All {c.label.split(' (')[0].toLowerCase()} →</a>
+        </div>
+        <ul class="truck-mini-grid">
+          {others.map((o) => (
+            <li>
+              <a class="truck-mini" href={`/trucks/${o.slug}/`}>
+                <span class="truck-thumb">
+                  {card(o.slug) ? <img src={card(o.slug)} alt="" loading="lazy" width="800" height="450" /> : (
+                    <span class="truck-thumb-empty" aria-hidden="true">
+                      <svg viewBox="0 0 64 32"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor" /></svg>
+                    </span>
+                  )}
+                </span>
+                <strong>{o.name}</strong>
+              </a>
+            </li>
+          ))}
+        </ul>
+        {otherCredits.length > 0 && (
+          <details class="ri-credits truck-credits">
+            <summary>Photo credits</summary>
+            <ul>
+              {otherCredits.map((p) => <li><strong>{p.name}:</strong> {p.text.replace(/^Photo: /, '')}</li>)}
+            </ul>
+          </details>
+        )}
+      </div>
+    </section>
+  )}
 </Base>

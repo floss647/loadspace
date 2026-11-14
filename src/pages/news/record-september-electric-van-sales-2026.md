@@ -76,7 +76,7 @@ facts:
     quote: "more than 40 different BEV models currently available"
   - claim: "3.5 to 4.25 tonnes"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
-    quote: "BEVs weighing 3.5-4.25t contribute towards each manufacturer"
+    quote: "BEVs weighing >3.5-4.25t contribute towards each manufacturer"
   - claim: "from 260 to 654"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "654 260 151.5%"
@@ -94,7 +94,7 @@ facts:
     quote: "Large vans delivered the biggest volume growth, up 11.1% to 36,302 units"
   - claim: "2.5 to 3.5 tonnes"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
-    quote: "E Vans 2.5-3.5T 36,302 32,670 11.1%"
+    quote: "E Vans >2.5-3.5T 36,302 32,670 11.1%"
   - claim: "7,304"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "medium and small van uptake rose by 2.2% and 13.2% to 7,304 and 1,361 units respectively"
@@ -103,7 +103,7 @@ facts:
     quote: "medium and small van uptake rose by 2.2% and 13.2% to 7,304 and 1,361 units respectively"
   - claim: "2.0 to 2.5 tonnes"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
-    quote: "D Vans 2.0-2.5T 7,304 7,150 2.2%"
+    quote: "D Vans > 2.0-2.5T 7,304 7,150 2.2%"
   - claim: "1,361"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "medium and small van uptake rose by 2.2% and 13.2% to 7,304 and 1,361 units respectively"
@@ -112,7 +112,7 @@ facts:
     quote: "medium and small van uptake rose by 2.2% and 13.2% to 7,304 and 1,361 units respectively"
   - claim: "up to 2.0 tonnes"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
-    quote: "Vans =2.0T 1,361 1,202 13.2%"
+    quote: "C Vans <=2.0T 1,361 1,202 13.2%"
   - claim: "2,658"
     source: https://www.smmt.co.uk/septembers-record-electric-van-uptake-still-less-than-half-mandated/
     quote: "Pickup demand continued to decline sharply, more than halving (-53.8%) to 2,658 units"

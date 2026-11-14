@@ -184,10 +184,10 @@ facts:
     quote: "AC Charge Time 230V 11kW (10-100%) 4hrs 45 mins 6hrs 30 mins"
   - claim: "DC 150kW, 10 to 80%"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
-    quote: "DC Charge Time (10-80%) - 150kW 30 mins 30 mins"
+    quote: "DC Charge Time (10-80%) - 150kW <30 mins <30 mins"
   - claim: "Under 30 minutes on a 150kW charger, 10 to 80%"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
-    quote: "DC Charge Time (10-80%) - 150kW 30 mins 30 mins"
+    quote: "DC Charge Time (10-80%) - 150kW <30 mins <30 mins"
   - claim: "2,650kg"
     source: https://www.kia.com/uk/pbv/lineup/pv5-cargo/specification/
     quote: "Gross Vehicle Weight (kg) 2,650 2,650"

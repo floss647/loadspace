@@ -80,7 +80,7 @@ facts:
     quote: "All LCV BEVS 30,728 24,250 26.7% 11.0% 9.1%"
   - claim: "3.5 to 4.25 tonnes"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
-    quote: "3.5-4.25t contribute towards each manufacturer's target, in addition to those weighing ≤3.5t"
+    quote: "BEVs weighing >3.5-4.25t contribute towards each manufacturer's target, in addition to those weighing ≤3.5t"
   - claim: "from 182 to 588"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "(Bev Only) 588 182 223.1%"
@@ -111,7 +111,7 @@ facts:
     quote: "representing 72.8% of the overall market"
   - claim: "2.5 to 3.5 tonnes"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
-    quote: "E Vans 2.5-3.5T 18,560 16,442 12.9%"
+    quote: "E Vans >2.5-3.5T 18,560 16,442 12.9%"
   - claim: "3,825"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "while medium vans rose by 14.3% to 3,825 units"
@@ -120,7 +120,7 @@ facts:
     quote: "while medium vans rose by 14.3% to 3,825 units"
   - claim: "2.0 to 2.5 tonnes"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
-    quote: "D Vans 2.0-2.5T 3,825 3,346 14.3%"
+    quote: "D Vans > 2.0-2.5T 3,825 3,346 14.3%"
   - claim: "462"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "small van deliveries down -11.7% to 462 units"
@@ -129,7 +129,7 @@ facts:
     quote: "small van deliveries down -11.7% to 462 units"
   - claim: "up to 2.0 tonnes"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
-    quote: "Vans =2.0T 462 523 -11.7%"
+    quote: "C Vans <=2.0T 462 523 -11.7%"
   - claim: "1,764"
     source: https://www.smmt.co.uk/best-ever-october-for-new-electric-vans-yet-still-just-half-mandated-target/
     quote: "pickup registrations falling -17.7% to 1,764 units"

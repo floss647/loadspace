@@ -1,34 +1,134 @@
 ---
 import Base from '../../layouts/Base.astro';
+import IMAGES from '../../data/images.json';
 import { TRUCKS, TRUCK_CLASSES } from '../../data/trucks.js';
-import Cta from '../../components/Cta.astro';
-import VehicleImage from '../../components/VehicleImage.astro';
+import { ICONS, credit } from '../../data/guides.js';
+
+const hero = IMAGES['volvo-fm-electric'];
+const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
+// "Light trucks (up to 7.5 tonnes)" becomes "Light trucks" for the jump links.
+const shortLabel = (c) => c.label.split(' (')[0];
+const classes = Object.entries(TRUCK_CLASSES).map(([key, c]) => ({ key, ...c, trucks: TRUCKS.filter((t) => t.cls === key) }));
+
+const intro = [
+  { href: '/guides/are-electric-trucks-ready/', title: 'Are electric trucks ready?', text: 'Where they work today, where they don\'t yet, and what\'s holding operators back.', icon: ICONS.road },
+  { href: '/guides/grants-and-tax/', title: 'Grants', text: 'The Zero Emission Truck Grant (20% to 40% off, by weight) and other support.', icon: ICONS.money },
+  { href: '/guides/depot-charging/', title: 'Depot charging', text: 'Grid connections, charger types and planning for a mixed fleet.', icon: ICONS.depot },
+];
+
+// One credit per card photo, written the same way as on the reviews page.
+const photoCredits = TRUCKS.filter((t) => IMAGES[t.slug]).map((t) => {
+  const img = IMAGES[t.slug];
+  return { name: t.name, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
+});
 ---
 <Base title="Electric trucks in the UK: every model, 7.5 to 44 tonnes" description="Every electric truck on sale in the UK, from 7.5-tonne delivery trucks to 44-tonne tractor units, plus grants, charging and whether they're ready for your work.">
-  <div class="wrap">
-    <h1>Electric trucks</h1>
-    <p class="lede">From 7.5-tonne delivery trucks to 44-tonne tractor units. Electric trucks are still only about 1% of new truck sales in the UK, so most operators are at the "is it ready for us?" stage. We help you answer that.</p>
-
-    <div class="grid">
-      <a class="card" href="/guides/are-electric-trucks-ready/"><h3>Are electric trucks ready?</h3><p>Where they work today, where they don't yet, and what's holding operators back.</p></a>
-      <a class="card" href="/guides/grants-and-tax/"><h3>Grants</h3><p>The Zero Emission Truck Grant (20% to 40% off, by weight) and other support.</p></a>
-      <a class="card" href="/guides/depot-charging/"><h3>Depot charging</h3><p>Grid connections, charger types and planning for a mixed fleet.</p></a>
-    </div>
-
-    {Object.entries(TRUCK_CLASSES).map(([key, c]) => (
-      <section id={key}>
-        <h2>{c.label}</h2>
-        <p class="muted">{c.blurb}</p>
-        <div class="grid">
-          {TRUCKS.filter((t) => t.cls === key).map((t) => (
-            <a class="card has-img" href={`/trucks/${t.slug}/`}><VehicleImage slug={t.slug} name={t.name} size="card" /><h3>{t.name}</h3><p>{t.note}</p></a>
+  <section class="hero hero-split trucks-hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Electric trucks, 7.5 to 44 tonnes</p>
+        <h1>Electric trucks</h1>
+        <p>From 7.5-tonne delivery trucks to 44-tonne tractor units. Electric trucks are still only about 1% of new truck sales in the UK, so most operators are at the "is it ready for us?" stage. We help you answer that.</p>
+        <nav class="truck-jump" aria-label="Truck sizes">
+          {classes.map((c) => (
+            <a href={`#${c.key}`}><strong>{shortLabel(c)}</strong><small>{c.short}</small></a>
           ))}
-        </div>
-      </section>
-    ))}
+        </nav>
+      </div>
+      {hero && (
+        <figure class="hero-photo">
+          <img src={hero.file} alt="A Volvo FM Electric tractor unit" width="1200" height="910" />
+          <figcaption>{credit(hero)}</figcaption>
+        </figure>
+      )}
+    </div>
+  </section>
 
-    <Cta kind="fleet" />
-    <p class="notice small" style="margin-top:2rem"><strong>Line-ups change fast.</strong> New electric trucks are launching every few months. Check availability and specs with the maker or dealer before you order.</p>
-    <p class="small">Need something smaller? Electric vans up to 4.25 tonnes can be driven on a car licence: <a href="/vans/#large">see large electric vans</a>.</p>
-  </div>
+  <section class="section" aria-labelledby="start">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Start here</p><h2 id="start">Before you choose a truck</h2></div>
+        <a class="more" href="/guides/">All guides →</a>
+      </div>
+      <div class="tool-grid three-up">
+        {intro.map((g) => (
+          <a class="tool" href={g.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={g.icon} /></svg>
+            <span><strong>{g.title}</strong>{g.text}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {classes.map((c, i) => (
+    <section class={i % 2 === 0 ? 'section tint truck-class' : 'section truck-class'} id={c.key} aria-labelledby={`${c.key}-h`}>
+      <div class="wrap">
+        <div class="truck-class-head">
+          <p class="eyebrow">{c.short}</p>
+          <h2 id={`${c.key}-h`}>{c.label}</h2>
+          <p>{c.blurb}</p>
+        </div>
+        <ul class="truck-grid">
+          {c.trucks.map((t) => (
+            <li>
+              <a class="truck-card" href={`/trucks/${t.slug}/`}>
+                <span class="truck-thumb">
+                  {card(t.slug) ? <img src={card(t.slug)} alt="" loading="lazy" width="800" height="450" /> : (
+                    <span class="truck-thumb-empty" aria-hidden="true">
+                      <svg viewBox="0 0 64 32"><path d="M4 24V9h30l10 8h12v7h-4a5 5 0 0 0-10 0H22a5 5 0 0 0-10 0H4z" fill="currentColor" /></svg>
+                    </span>
+                  )}
+                </span>
+                <span class="truck-body">
+                  <h3>{t.name}</h3>
+                  {t.note && <span class="truck-note">{t.note}</span>}
+                  <span class="truck-arrow" aria-hidden="true">View truck →</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+
+  <section class="section trucks-end">
+    <div class="wrap">
+      <div class="cta-pair">
+        <a class="cta-panel amber" href="/fleets/enquiry/">
+          <p class="eyebrow">Fleets</p>
+          <h3>Planning to electrify a fleet?</h3>
+          <p>Tell us about your vans and trucks and get help with costs, charging and funding.</p>
+          <span class="arrow">Send a fleet enquiry →</span>
+        </a>
+        <a class="cta-panel dark" href="/get-charger-quotes/">
+          <p class="eyebrow">Charging</p>
+          <h3>Need depot chargers?</h3>
+          <p>Get quotes for a home charger or depot charging from vetted installers. Free, no obligation.</p>
+          <span class="arrow">Get charger quotes →</span>
+        </a>
+      </div>
+
+      <div class="truck-notes">
+        <div class="truck-note-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
+          <p><strong>Line-ups change fast.</strong> New electric trucks are launching every few months. Check availability and specs with the maker or dealer before you order.</p>
+        </div>
+        <div class="truck-note-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17V8h11v9M14 11h4l3 3v3h-7" /><circle cx="7" cy="17.5" r="1.5" /><circle cx="17" cy="17.5" r="1.5" /></svg>
+          <p>Need something smaller? Electric vans up to 4.25 tonnes can be driven on a car licence: <a href="/vans/#large">see large electric vans</a>.</p>
+        </div>
+      </div>
+
+      {photoCredits.length > 0 && (
+        <details class="ri-credits truck-credits">
+          <summary>Photo credits</summary>
+          <ul>
+            {photoCredits.map((p) => <li><strong>{p.name}:</strong> {p.text.replace(/^Photo: /, '')}</li>)}
+          </ul>
+        </details>
+      )}
+    </div>
+  </section>
 </Base>
