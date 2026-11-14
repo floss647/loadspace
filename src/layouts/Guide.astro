@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
 import { GUIDE_SECTIONS, ALL_GUIDES, ICONS } from '../data/guides.js';
+import { orgRef, publisherRef, isoMonth } from '../lib/seo.js';
 // Markdown pages pass their frontmatter and the list of headings in the page.
 const { frontmatter, headings = [] } = Astro.props;
 const path = Astro.url.pathname.replace(/\/?$/, '/');
@@ -12,8 +13,21 @@ const more = [
   ...(section ? section.guides : []),
   ...ALL_GUIDES,
 ].filter((g, i, all) => g.href !== path && all.findIndex((x) => x.href === g.href) === i).slice(0, 4);
+// Article structured data. dateModified is the "Last checked" month the page shows.
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  ...(isoMonth(frontmatter.updated) ? { dateModified: isoMonth(frontmatter.updated) } : {}),
+  inLanguage: 'en-GB',
+  mainEntityOfPage: new URL(path, Astro.site).href,
+  ...(section ? { articleSection: section.title } : {}),
+  author: orgRef(Astro.site),
+  publisher: publisherRef(Astro.site),
+};
 ---
-<Base title={frontmatter.title} description={frontmatter.description}>
+<Base title={frontmatter.title} description={frontmatter.description} jsonLd={ld} crumbs={[['Home', '/'], ['Guides', '/guides/']]}>
   <section class="tool-hero guide-hero">
     <div class="wrap">
       <div class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a></div>

@@ -1,10 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { POSTS, fmtDate } from '../../lib/news.js';
+import { itemList } from '../../lib/seo.js';
+const ld = itemList(Astro.site, 'Electric van and truck news', POSTS.map((p) => [p.title, p.url]));
 const [lead, ...rest] = POSTS;
 const card = (p) => p.img?.image.replace('/news/', '/news/card/');
 ---
-<Base title="Electric van and truck news" description="The latest UK news on electric vans and trucks: sales, grants, new models, policy and what it means for buyers and fleets.">
+<Base title="Electric van and truck news" description="The latest UK news on electric vans and trucks: sales, grants, new models, policy and what it means for buyers and fleets." jsonLd={ld}>
   <header class="page-head">
     <div class="wrap">
       <p class="eyebrow">Checked against the source, every time</p>

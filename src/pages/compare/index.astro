@@ -2,12 +2,14 @@
 import Base from '../../layouts/Base.astro';
 import { SIZES } from '../../data/vans.js';
 import { PAIRS } from '../../lib/compare.js';
+import { itemList } from '../../lib/seo.js';
 
 const groups = Object.entries(SIZES)
   .map(([key, s]) => ({ key, label: s.label, pairs: PAIRS.filter((p) => p.size === key) }))
   .filter((g) => g.pairs.length);
+const ld = itemList(Astro.site, 'Electric van comparisons', groups.flatMap((g) => g.pairs).map((p) => [`${p.vanA.name} vs ${p.vanB.name}`, p.url]));
 ---
-<Base title="Compare electric vans head to head" description="Electric van comparisons side by side: official range, battery, payload, load space, charging, battery warranty and towing for rival and twin vans.">
+<Base title="Compare electric vans head to head" description="Electric van comparisons side by side: official range, battery, payload, load space, charging, battery warranty and towing for rival and twin vans." jsonLd={ld} crumbs={[['Home', '/']]} crumbName="Compare electric vans">
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › Compare electric vans</div>
     <h1>Compare electric vans head to head</h1>

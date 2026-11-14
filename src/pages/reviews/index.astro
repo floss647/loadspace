@@ -4,12 +4,14 @@ import { REVIEWS, CRITERIA } from '../../lib/reviews.js';
 import { EV_VANS, SIZES, TWINS } from '../../data/vans.js';
 import { ICONS, credit } from '../../data/guides.js';
 import IMAGES from '../../data/images.json';
+import { itemList } from '../../lib/seo.js';
 
 const card = (slug) => IMAGES[slug]?.file.replace('/vehicles/', '/vehicles/card/');
 const hero = IMAGES['volkswagen-id-buzz-cargo'];
 const vanOf = (r) => EV_VANS.find((v) => v.slug === r.van);
 const sizeOf = (r) => vanOf(r)?.size || '';
 const total = CRITERIA.length;
+const ld = itemList(Astro.site, 'Electric van reviews', REVIEWS.map((r) => [r.title, r.url]));
 const scoreText = (r) => (r.score.overall != null ? `Scored on ${r.score.scoredCount} of ${total} published figures` : 'Needs at least 3 confirmed figures');
 
 // Size classes come straight from the van data, in the same order as the home page tiles.
@@ -33,7 +35,7 @@ const photoCredits = REVIEWS.filter((r) => IMAGES[r.van]).map((r) => {
   return { name: r.vanName, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
 });
 ---
-<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs.">
+<Base title="Electric van reviews" description="Our verdict on each electric van in plain English, plus a Loadspace data score from the published specs." jsonLd={ld}>
   <section class="hero hero-split reviews-hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">

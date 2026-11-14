@@ -23,7 +23,7 @@ const ld = {
   publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href } },
 };
 ---
-<Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image} type="article" jsonLd={ld}>
+<Base title={`${f.title} | ${COLUMN.name}`} description={f.summary} image={img?.image} type="article" jsonLd={ld} crumbs={[["Home", "/"], [COLUMN.name, "/blog/"]]} crumbName={f.title}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">{COLUMN.name}</a></div>
     <article class="prose column">

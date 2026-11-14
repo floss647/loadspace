@@ -20,7 +20,7 @@ const lowConfidence = /\blow\b/i.test(u.confidence || '');
 const kw = (x) => (/kw/i.test(String(x)) ? String(x) : String(x).replace(/^([\d.]+)/, '$1 kW'));
 const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } };
 ---
-<Base title={`Buying a used ${u.name}: what to check`} description={`Used ${u.name} buying guide: versions and batteries, real range, known faults, recalls, battery warranty, prices and what to check.`}>
+<Base title={`Buying a used ${u.name}: what to check`} description={`Used ${u.name} buying guide: versions and batteries, real range, known faults, recalls, battery warranty, prices and what to check.`} crumbs={[['Home', '/'], ['Used electric vans', '/used-electric-vans/']]} crumbName={`Used ${u.name}`}>
   <div class="wrap">
     <div class="crumbs"><a href="/">Home</a> › <a href="/used-electric-vans/">Used electric vans</a></div>
     <article class="prose">

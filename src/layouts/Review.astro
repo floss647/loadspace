@@ -7,12 +7,14 @@ import { EV_VANS, SIZES } from '../data/vans.js';
 import { scoreSpecs } from '../lib/review-score.js';
 import IMAGES from '../data/images.json';
 import NewsletterBox from '../components/NewsletterBox.astro';
+import { orgRef, publisherRef, vehicleImage } from '../lib/seo.js';
 const { frontmatter: f } = Astro.props;
 const van = EV_VANS.find((v) => v.slug === f.van);
 const name = van?.name || f.van;
 const { rows, overall, scoredCount } = scoreSpecs(f.specs);
 const img = IMAGES[f.van];
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const image = vehicleImage(img, Astro.site);
 const ld = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -22,11 +24,41 @@ const ld = {
   inLanguage: 'en-GB',
   mainEntityOfPage: pageUrl,
   image: img?.file ? [new URL(img.file, Astro.site).href] : undefined,
-  author: { '@type': 'Organization', name: SITE.name, url: new URL('/', Astro.site).href },
-  publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href } },
+  author: orgRef(Astro.site),
+  publisher: publisherRef(Astro.site),
+};
+// The review itself: an editorial review of another maker's van. The rating is the data score
+// shown on the page, worked out from published specs, and is left out when there's no score.
+const reviewLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  name: f.title,
+  url: pageUrl,
+  datePublished: new Date(f.date).toISOString(),
+  inLanguage: 'en-GB',
+  description: f.summary,
+  reviewBody: f.verdict,
+  itemReviewed: {
+    '@type': 'Vehicle',
+    name,
+    ...(van ? { brand: { '@type': 'Brand', name: van.make }, model: name.replace(`${van.make} `, ''), fuelType: 'Electric', url: new URL(`/vans/${van.slug}/`, Astro.site).href } : {}),
+    ...(image ? { image } : {}),
+  },
+  author: orgRef(Astro.site),
+  publisher: publisherRef(Astro.site),
+  ...(overall != null ? {
+    reviewRating: {
+      '@type': 'Rating',
+      name: `${SITE.name} data score`,
+      description: `Scored on ${scoredCount} of ${rows.length} published figures, from published specs, not a road test.`,
+      ratingValue: Number(overall.toFixed(1)),
+      bestRating: 5,
+      worstRating: 1,
+    },
+  } : {}),
 };
 ---
-<Base title={f.title} description={f.summary} image={img?.file} type="article" jsonLd={ld}>
+<Base title={f.title} description={f.summary} image={img?.file} type="article" jsonLd={[ld, reviewLd]} crumbs={[["Home", "/"], ["Reviews", "/reviews/"]]}>
   <section class="review-hero">
     <div class="wrap review-hero-grid">
       <div class="review-hero-copy">

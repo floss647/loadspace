@@ -3,8 +3,11 @@ import '../styles/global.css';
 import { SITE } from '../data/site.js';
 import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import { breadcrumbList } from '../lib/seo.js';
 
-const { title, description = SITE.description, image, type = 'website', jsonLd, noindex = false } = Astro.props;
+// crumbs: the visible breadcrumb trail above this page, as [[name, path], ...] starting with Home.
+// It becomes BreadcrumbList structured data, ending with this page (crumbName, or the title).
+const { title, description = SITE.description, image, type = 'website', jsonLd, noindex = false, crumbs, crumbName } = Astro.props;
 const shareImage = image || SITE.shareImage;
 // Structured data for search engines: who publishes the site, plus anything page-specific.
 const org = {
@@ -15,7 +18,8 @@ const org = {
   logo: new URL('/favicon.svg', Astro.site).href,
 };
 const website = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: new URL('/', Astro.site).href, inLanguage: 'en-GB' };
-const ld = [org, ...(Astro.url.pathname === '/' ? [website] : []), ...(jsonLd ? [].concat(jsonLd) : [])];
+const crumbLd = crumbs?.length ? [breadcrumbList(Astro.site, crumbs, [crumbName || title, Astro.url.pathname])] : [];
+const ld = [org, ...(Astro.url.pathname === '/' ? [website] : []), ...crumbLd, ...(jsonLd ? [].concat(jsonLd) : []).filter(Boolean)];
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
 const path = Astro.url.pathname;
 const nav = [

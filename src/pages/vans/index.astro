@@ -2,8 +2,12 @@
 import Base from '../../layouts/Base.astro';
 import { SIZES, EV_VANS, NON_EV_VANS, TWINS } from '../../data/vans.js';
 import VehicleImage from '../../components/VehicleImage.astro';
+import { itemList } from '../../lib/seo.js';
+// Structured data list of the van pages, in the order the page shows them.
+const ordered = Object.keys(SIZES).flatMap((size) => EV_VANS.filter((v) => v.size === size).sort((a, b) => b.topSeller - a.topSeller));
+const ld = itemList(Astro.site, 'Electric vans on sale in the UK', ordered.map((v) => [v.name, `/vans/${v.slug}/`]));
 ---
-<Base title="Every electric van on sale in the UK" description="Every electric van and pickup on sale in the UK, by size, with rebadged twins marked.">
+<Base title="Every electric van on sale in the UK" description="Every electric van and pickup on sale in the UK, by size, with rebadged twins marked." jsonLd={ld}>
   <div class="wrap">
     <h1>Every electric van on sale in the UK</h1>
     <p class="lede">{EV_VANS.length} electric vans and pickups, from city vans to 4.25-tonne panel vans. Many are the same van with a different badge, and we mark those so you can compare like for like.</p>

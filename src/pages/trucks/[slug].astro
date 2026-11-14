@@ -29,7 +29,7 @@ const otherCredits = others.filter((o) => IMAGES[o.slug]).map((o) => {
   return { name: o.name, text: credit({ ...img, author: String(img.author).split('\n')[0].trim() }) };
 });
 ---
-<Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`}>
+<Base title={`${truck.name}: electric truck guide`} description={`${truck.name}: what it is, the work it suits, licence, grants and charging, and the alternatives.`} crumbs={[['Home', '/'], ['Trucks', '/trucks/']]} crumbName={truck.name}>
   <section class="tool-hero truck-hero">
     <div class="wrap">
       <div class="crumbs"><a href="/">Home</a> › <a href="/trucks/">Trucks</a> › <a href={`/trucks/#${truck.cls}`}>{c.short}</a></div>
