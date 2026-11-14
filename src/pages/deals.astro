@@ -1,57 +1,189 @@
 ---
+// Electric van leasing. Explains how to compare lease deals and takes lease enquiries.
+// The lease price table only appears when SHOW_DEALS is true (FEATURES.liveDeals on and a real
+// partner feed in src/data/deals.js). Sample prices are never shown.
 import Base from '../layouts/Base.astro';
-import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../data/deals.js';
-import { FEATURES } from '../data/site.js';
-import { VANS, SIZES } from '../data/vans.js';
-const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
-const rows = DEALS.map((d) => ({ ...d, van: bySlug[d.van], tc: trueCost(d) }))
-  .filter((d) => d.van)
-  .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
-const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+import DealsTable from '../components/DealsTable.astro';
+import IMAGES from '../data/images.json';
+import { FEATURES, SITE } from '../data/site.js';
+import { SHOW_DEALS } from '../data/deals.js';
+import { ICONS, credit } from '../data/guides.js';
+
+const lease = FEATURES.leaseQuotes;
+const hero = IMAGES['vauxhall-vivaro'];
+
+// Each point paraphrases or quotes the fact-checked lease guide (/guides/lease-vs-buy/) and the
+// lease true-cost calculator (/tools/lease-true-cost/). Add nothing here that isn't on those pages.
+const steps = [
+  {
+    title: 'Work out the true cost per month',
+    icon: 'M5 12h14M12 6.5h.01M12 17.5h.01',
+    body: 'Lease prices are quoted to look cheap. Add up everything you pay over the lease, including the upfront payment and fees, and spread it across the whole term.',
+    formula: 'True cost per month = (upfront payment + remaining payments + fees) ÷ lease length.',
+  },
+  {
+    title: 'Read the upfront payment',
+    icon: 'M4 6h16v14H4zM4 10h16M8 3v4M16 3v4',
+    body: 'The upfront payment is often 3, 6, 9 or 12 times the monthly price. A lease shown as "6\u00a0+\u00a035" on a 36-month term means six monthly payments upfront, then 35 more: 41 payments in total, plus any fee. A "3\u00a0+\u00a047" profile works the same way on a 48-month lease.',
+    note: 'A lower monthly price with a bigger upfront payment is not always cheaper.',
+  },
+  {
+    title: 'Check whether VAT is in or out',
+    icon: 'M5 19L19 5M7.5 5a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5zM16.5 14a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5z',
+    body: 'Check whether prices include VAT: business deals are usually shown without it. VAT-registered businesses can usually reclaim the VAT on a van, whether leased or bought, as long as it\'s used for the business.',
+    note: 'Rules depend on your business. Check with your accountant before you sign.',
+  },
+  {
+    title: 'Match the mileage limit to your work',
+    icon: ICONS.road,
+    body: 'Contract hire comes with a mileage limit, and going over costs a set amount per mile. Be honest about your miles at the start.',
+    note: 'Doing very high or unpredictable miles? Buying usually beats leasing, because lease mileage limits are expensive to break.',
+  },
+  {
+    title: 'Allow for damage charges at the end',
+    icon: 'M4 8h4l2-3h4l2 3h4v11H4zM12 16a3 3 0 1 0 0-6a3 3 0 0 0 0 6z',
+    body: 'With contract hire you hand the van back at the end, and damage charges can apply. Most leasing companies use the BVRLA "fair wear and tear" standard.',
+    note: 'Ply-line the load area and keep photos at collection and return.',
+  },
+  {
+    title: 'Compare like with like',
+    icon: ICONS.twins,
+    body: 'Use the true cost to compare deals on the same van with different upfront payments. Maintenance packages are often worth it for high-mileage vans, less so for low-mileage ones.',
+  },
+];
+
+const tools = [
+  { href: '/tools/lease-true-cost/', title: 'Lease true cost calculator', text: 'Turn any lease quote into a real monthly cost so you can compare deals fairly.', icon: ICONS.money },
+  { href: '/tools/lease-or-buy/', title: 'Lease or buy calculator', text: 'Lease, buy new or buy used: compare all three over the years you keep the van, with or without VAT.', icon: ICONS.list },
+  { href: '/guides/lease-vs-buy/', title: 'Lease, finance or buy?', text: 'Our guide to the four ways to get a van and who each suits.', icon: 'M5 4h11l3 3v13H5zM9 10h6M9 14h6' },
+];
+
+const choose = [
+  { href: '/reviews/', title: 'Electric van reviews', text: 'Our verdict on each electric van in plain English, plus a data score from the published specs.', arrow: 'Read the reviews →' },
+  { href: '/compare/', title: 'Compare electric vans', text: 'Rival and twin vans side by side: range, battery, payload, load space and charging.', arrow: 'Compare vans →' },
+  { href: '/vans/', title: 'Every electric van', text: 'Every electric van and pickup on sale in the UK, by size, with rebadged twins marked.', arrow: 'Browse vans →' },
+];
 ---
-<Base title="Electric van lease deals ranked by true cost" description="UK electric van lease deals ranked by what you actually pay per month, including the upfront payment and fees.">
-  <div class="wrap">
-    <h1>Electric van lease deals</h1>
-    <p class="lede">Ranked by <strong>true cost per month</strong>: the upfront payment and fees spread across the whole lease, so you can compare deals fairly.</p>
-
-    {DEALS_ARE_SAMPLE && (
-      <div class="notice"><strong>Sample prices, not real offers.</strong> This page shows how deals will appear once live broker feeds are connected. Don't use these figures to make a decision.</div>
-    )}
-
-    <div class="filters" role="group" aria-label="Filter by size or fuel">
-      <button type="button" data-f="all" aria-pressed="true">All</button>
-      {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
+<Base title="Electric van leasing: how to compare deals and make an enquiry" description="How to compare electric van lease deals by true monthly cost, upfront payment, VAT, mileage limits and damage charges, and how to make a lease enquiry." crumbs={[['Home', '/']]} crumbName="Electric van leasing">
+  <section class="hero hero-split leasing-hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Leasing</p>
+        <h1>Electric van leasing</h1>
+        {lease ? (
+          <p>Tell us which van you're after and we'll pass your enquiry to a leasing broker for quotes. Before you sign, check what the lease really costs.</p>
+        ) : (
+          <p>We're lining up a leasing partner, so we don't show live lease prices yet. You can make a lease enquiry now: tell us which van you're after, and we'll email you as soon as we can quote.</p>
+        )}
+        <div class="btn-row">
+          <a class="btn" href="/get-lease-quotes/">{lease ? 'Get lease quotes' : 'Make a lease enquiry'}</a>
+          <a class="btn secondary" href="#compare">How to compare deals</a>
+        </div>
+        {!lease && (
+          <p class="leasing-hero-note">Your details stay with {SITE.name} and won't be passed to anyone else. Nothing here is a quote or a credit application.</p>
+        )}
+      </div>
+      {hero && (
+        <figure class="hero-photo">
+          <img src={hero.file} alt="A Vauxhall Vivaro-e electric van" width="1200" height="923" />
+          <figcaption>{credit(hero)}</figcaption>
+        </figure>
+      )}
     </div>
+  </section>
 
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr><th>Van</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th><th></th></tr>
-        </thead>
-        <tbody>
-          {rows.map((d) => (
-            <tr data-size={d.van.size} data-fuel={d.fuel}>
-              <td><a href={`/vans/${d.van.slug}/`}><strong>{d.van.name}</strong></a><br /><span class="small">{d.version}</span><br /><span class="muted small">{d.broker}</span></td>
-              <td class="num">{gbp(d.monthly)}</td>
-              <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
-              <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>
-              <td><a class="btn small" href={`/get-lease-quotes/?van=${d.van.slug}`}>{FEATURES.leaseQuotes ? 'Get quote' : 'Enquire'}</a></td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+  {SHOW_DEALS && (
+    <section class="section" aria-labelledby="deals">
+      <div class="wrap">
+        <div class="section-head"><div><p class="eyebrow">Lease deals</p><h2 id="deals">Ranked by true cost per month</h2></div></div>
+        <DealsTable />
+      </div>
+    </section>
+  )}
+
+  <section class="section leasing-section" aria-labelledby="compare">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">The method</p><h2 id="compare">How to compare lease deals</h2></div>
+        <a class="more" href="/guides/lease-vs-buy/">Lease, finance or buy? →</a>
+      </div>
+      <p class="leasing-intro">The headline price can be misleading. Use these checks on any lease quote you're offered.</p>
+      <ol class="leasing-steps">
+        {steps.map((s, i) => (
+          <li class={`leasing-step${s.formula ? ' leasing-step--formula' : ''}`}>
+            <div class="leasing-step-head">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d={s.icon} /></svg>
+              <span class="leasing-step-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            </div>
+            <h3>{s.title}</h3>
+            <p>{s.body}</p>
+            {s.formula && <p class="leasing-formula"><strong>{s.formula}</strong></p>}
+            {s.note && <p class="leasing-step-note">{s.note}</p>}
+          </li>
+        ))}
+      </ol>
     </div>
-    <p class="small muted">Business contract hire, excluding VAT, subject to status. When live, we may earn a fee from brokers when you enquire; it never changes the ranking. <a href="/about/">How we make money</a>.</p>
-  </div>
-  <script>
-    const btns = document.querySelectorAll('[data-f]');
-    btns.forEach((b) => b.addEventListener('click', () => {
-      btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-      const f = b.dataset.f;
-      document.querySelectorAll('tbody tr').forEach((r) => {
-        const show = f === 'all' || r.dataset.size === f || r.dataset.fuel === f;
-        r.style.display = show ? '' : 'none';
-      });
-    }));
-  </script>
+  </section>
+
+  <section class="section flush-top leasing-section" aria-labelledby="tools">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Work it out</p><h2 id="tools">Calculators and guides</h2></div>
+        <a class="more" href="/tools/">All tools →</a>
+      </div>
+      <div class="tool-grid three-up">
+        {tools.map((t) => (
+          <a class="tool" href={t.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={t.icon} /></svg>
+            <span><strong>{t.title}</strong>{t.text}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section navy-band leasing-choose" aria-labelledby="choose">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">Before you lease</p><h2 id="choose">Choose your van first</h2></div>
+      </div>
+      <div class="audience">
+        {choose.map((c) => (
+          <a class="audience-card" href={c.href}>
+            <h3>{c.title}</h3>
+            <p>{c.text}</p>
+            <span class="arrow" aria-hidden="true">{c.arrow}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section leasing-end">
+    <div class="wrap">
+      <div class="cta-pair">
+        <a class="cta-panel amber" href="/fleets/enquiry/">
+          <p class="eyebrow">Fleets</p>
+          <h3>Leasing more than one van?</h3>
+          <p>Planning to electrify a fleet? Tell us about your vans and trucks and get help with costs, charging and funding.</p>
+          <span class="arrow">Send a fleet enquiry →</span>
+        </a>
+        <a class="cta-panel dark" href="/get-lease-quotes/">
+          <p class="eyebrow">{lease ? 'Lease quotes' : 'Lease enquiry'}</p>
+          <h3>{lease ? 'Ready for quotes?' : 'Know which van you want?'}</h3>
+          <p>{lease ? 'Get quotes from a leasing broker.' : 'Tell us which van you\'re after. Lease quotes open soon, and we\'ll email you as soon as we can quote.'}</p>
+          <span class="arrow">{lease ? 'Get lease quotes →' : 'Make a lease enquiry →'}</span>
+        </a>
+      </div>
+
+      <p class="leasing-disclosure">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS.money} /></svg>
+        {lease ? (
+          <span><strong>How we make money:</strong> if you ask for a quote through us, the broker may pay us a fee. It doesn't change the price you pay. <a href="/about/">How we make money</a></span>
+        ) : (
+          <span><strong>How we make money:</strong> we don't earn anything from leasing yet, because we don't pass lease enquiries to anyone. Once lease quotes open, the broker may pay us a fee if you ask for a quote through us. It won't change the price you pay. <a href="/about/">How we make money</a></span>
+        )}
+      </p>
+    </div>
+  </section>
 </Base>
