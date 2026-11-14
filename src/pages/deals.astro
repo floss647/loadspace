@@ -24,14 +24,14 @@ const steps = [
   {
     title: 'Read the upfront payment',
     icon: 'M4 6h16v14H4zM4 10h16M8 3v4M16 3v4',
-    body: 'The upfront payment is often 3, 6, 9 or 12 times the monthly price. A lease shown as "6\u00a0+\u00a035" on a 36-month term means six monthly payments upfront, then 35 more: 41 payments in total, plus any fee. A "3\u00a0+\u00a047" profile works the same way on a 48-month lease.',
+    body: 'The upfront payment is often 3, 6, 9 or 12 times the monthly price. A lease shown as "6\u00a0+\u00a035" on a 36-month term means six monthly payments upfront, then 35 more: 41 payments in total, plus any fee.',
     note: 'A lower monthly price with a bigger upfront payment is not always cheaper.',
   },
   {
     title: 'Check whether VAT is in or out',
     icon: 'M5 19L19 5M7.5 5a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5zM16.5 14a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5z',
     body: 'Check whether prices include VAT: business deals are usually shown without it. VAT-registered businesses can usually reclaim the VAT on a van, whether leased or bought, as long as it\'s used for the business.',
-    note: 'Rules depend on your business. Check with your accountant before you sign.',
+    note: 'Rules depend on your business and change over time. Check with your accountant before you sign.',
   },
   {
     title: 'Match the mileage limit to your work',
@@ -73,7 +73,7 @@ const choose = [
         {lease ? (
           <p>Tell us which van you're after and we'll pass your enquiry to a leasing broker for quotes. Before you sign, check what the lease really costs.</p>
         ) : (
-          <p>We're lining up a leasing partner, so we don't show live lease prices yet. You can make a lease enquiry now: tell us which van you're after, and we'll email you as soon as we can quote.</p>
+          <p>Lease quotes open soon, so we don't show live lease prices yet. You can make a lease enquiry now: tell us which van you're after, and we'll email you as soon as we can quote.</p>
         )}
         <div class="btn-row">
           <a class="btn" href="/get-lease-quotes/">{lease ? 'Get lease quotes' : 'Make a lease enquiry'}</a>
