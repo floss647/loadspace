@@ -3,7 +3,7 @@ layout: ../../layouts/NewsPost.astro
 title: "Depot charging grants reopen for van and truck fleets"
 date: 2026-11-16T09:00:00Z
 tag: Grants
-summary: "A second round of the government's Depot Charging Scheme is open, with £38 million to help fleets install chargers at their depots. It covers up to 60% of eligible costs, down from 70% last time, and closes in February."
+summary: "A second round of the government's Depot Charging Scheme is open, Greenfleet reports, with £38 million to help fleets install chargers at their depots. It covers up to 60% of eligible costs, down from 70% last time, and closes in February."
 stat: "£38m"
 statLabel: "available in the second window of the Depot Charging Scheme, for chargers at fleet depots."
 sources:
@@ -66,12 +66,14 @@ facts:
   - claim: "a charger is only useful if there is ready electricity supply"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
     quote: "A charger is only useful if there is ready electricity supply"
-  - claim: "grid capacity and connection delivery need urgent attention"
+  - claim: "grid capacity and connections must urgently be treated as central to the policy, rather than left as an administrative headache for operators"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
-    quote: "grid capacity and connection delivery must also urgently be treated as central considerations"
-  - claim: "grid capacity and connection delivery"
+    quote: "grid capacity and connection delivery must also urgently be treated as central considerations - not a time-consuming and complex administrative challenge for operators to navigate"
+  - claim: "at least 40%"
+    calc: "100% - up to 60% grant (fact above) = at least 40% paid by the applicant on eligible costs"
+  - claim: "making the business case work is tougher for smaller firms"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
-    quote: "A charger is only useful if there is ready electricity supply, so grid capacity and connection delivery must also urgently be treated as central considerations"
+    quote: "operators still need to make the business case stack up - which is tougher for SMEs who represent a majority of the market"
   - claim: "tougher for smaller firms"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
     quote: "operators still need to make the business case stack up - which is tougher for SMEs who represent a majority of the market"
@@ -97,10 +99,10 @@ Greenfleet reports that further windows are expected in the 2028/29 and 2029/30 
 
 ## The catch
 
-SMMT welcomed the money, but warned that a charger is only useful with a power supply behind it, so grid capacity and connection delivery need urgent attention too. It said making the business case work is tougher for smaller firms, and that a van returning to base each evening needs different charging from a long-distance HGV. SMMT said future grant rates are likely to fall as the switch to electric gathers pace, though for the heaviest vehicles that is some time away.
+SMMT welcomed the money, but warned that a charger is only useful if there is ready electricity supply. It said grid capacity and connections must urgently be treated as central to the policy, rather than left as an administrative headache for operators. It said making the business case work is tougher for smaller firms, and that a van returning to base each evening needs different charging from a long-distance HGV. SMMT said future grant rates are likely to fall as the switch to electric gathers pace, though for the heaviest vehicles that is some time away.
 
 ## What it means for you
 
-- **Running a few vans from a yard?** If your project qualifies, the scheme pays up to 60% of eligible charger and civil engineering costs. Think about your power supply too: SMMT says a charger is only useful if there is ready electricity supply, and that grid capacity and connection delivery need urgent attention.
+- **Running a few vans from a yard?** If your project qualifies, the scheme pays up to 60% of eligible charger and civil engineering costs, so you'd still pay at least 40% yourself. SMMT notes that making the business case work is tougher for smaller firms.
 - **Timing.** Applications are handled first come, first served unless demand outstrips the £38 million, when a competitive process may be used. The window closes at midday on 26 February 2027.
 - Buying the vans too? Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) covers the separate discount on the vehicle.
