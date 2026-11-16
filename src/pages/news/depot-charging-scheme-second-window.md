@@ -6,6 +6,9 @@ tag: Grants
 summary: "A second round of the government's Depot Charging Scheme is open, Greenfleet reports, with £38 million to help fleets install chargers at their depots. It covers up to 60% of eligible costs, down from 70% last time, and closes in February."
 stat: "£38m"
 statLabel: "available in the second window of the Depot Charging Scheme, for chargers at fleet depots."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-16
 sources:
   - https://greenfleet.net/news/12112026/second-window-depot-charging-scheme-opens-ps38m-funding
   - https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
