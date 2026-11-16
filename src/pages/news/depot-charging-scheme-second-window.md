@@ -63,6 +63,9 @@ facts:
     source: https://greenfleet.net/news/12112026/second-window-depot-charging-scheme-opens-ps38m-funding
     quote: "with details of the timings and grant rates due to be confirmed in 2027"
   # SMMT's view (12 November 2026)
+  - claim: "a charger is only useful if there is ready electricity supply"
+    source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
+    quote: "A charger is only useful if there is ready electricity supply"
   - claim: "grid capacity and connection delivery need urgent attention"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
     quote: "grid capacity and connection delivery must also urgently be treated as central considerations"
@@ -98,6 +101,6 @@ SMMT welcomed the money, but warned that a charger is only useful with a power s
 
 ## What it means for you
 
-- **Running a few vans from a yard?** If your project qualifies, the scheme pays up to 60% of eligible charger and civil engineering costs. Check your grid connection early: SMMT says grid capacity and connection delivery need urgent attention.
-- **Know the deadline.** Applications are handled first come, first served unless demand outstrips the £38 million, when a competitive process may be used. The window closes at midday on 26 February 2027.
+- **Running a few vans from a yard?** If your project qualifies, the scheme pays up to 60% of eligible charger and civil engineering costs. Think about your power supply too: SMMT says a charger is only useful if there is ready electricity supply, and that grid capacity and connection delivery need urgent attention.
+- **Timing.** Applications are handled first come, first served unless demand outstrips the £38 million, when a competitive process may be used. The window closes at midday on 26 February 2027.
 - Buying the vans too? Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) covers the separate discount on the vehicle.
