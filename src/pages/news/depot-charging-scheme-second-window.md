@@ -26,9 +26,6 @@ facts:
   - claim: "up to 60%"
     source: https://greenfleet.net/news/12112026/second-window-depot-charging-scheme-opens-ps38m-funding
     quote: "The scheme will fund up to 60% of eligible charge point and civil engineering costs, a reduction from the 70% available during the first funding round."
-  - claim: "60%"
-    source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
-    quote: "Support covering 60% of eligible charge point and civil costs, up to £1 million per organisation"
   - claim: "70%"
     source: https://greenfleet.net/news/12112026/second-window-depot-charging-scheme-opens-ps38m-funding
     quote: "The scheme will fund up to 60% of eligible charge point and civil engineering costs, a reduction from the 70% available during the first funding round."
@@ -66,6 +63,9 @@ facts:
     source: https://greenfleet.net/news/12112026/second-window-depot-charging-scheme-opens-ps38m-funding
     quote: "with details of the timings and grant rates due to be confirmed in 2027"
   # SMMT's view (12 November 2026)
+  - claim: "grid capacity and connection delivery need urgent attention"
+    source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
+    quote: "grid capacity and connection delivery must also urgently be treated as central considerations"
   - claim: "grid capacity and connection delivery"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
     quote: "A charger is only useful if there is ready electricity supply, so grid capacity and connection delivery must also urgently be treated as central considerations"
@@ -75,12 +75,12 @@ facts:
   - claim: "a van returning to base each evening"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
     quote: "A van returning to base each evening presents a different charging requirement than a long-distance HGV"
-  - claim: "Future grant rates are likely to fall"
+  - claim: "future grant rates are likely to fall as the switch to electric gathers pace, though for the heaviest vehicles that is some time away"
     source: https://www.smmt.co.uk/depot-charging-funding-brings-needed-boost/
-    quote: "Future grant rates are inevitably likely to fall as the transition gains momentum"
+    quote: "Future grant rates are inevitably likely to fall as the transition gains momentum but, particularly for the heaviest vehicle markets, that is some time away."
 ---
 
-The government's **Depot Charging Scheme** has opened a second round, with **£38 million** to help fleets put electric vehicle chargers in at their depots, Greenfleet reports. The window opened at midday on 11 November, two weeks later than planned, and closes at **midday on 26 February 2027**. SMMT has also confirmed the £38 million.
+The government's **Depot Charging Scheme** has opened a second round, with **£38 million** to help fleets put electric vehicle chargers in at their depots, Greenfleet reports. The window opened at midday on 11 November, two weeks later than planned, and closes at **midday on 26 February 2027**. SMMT also refers to the £38 million window.
 
 ## What you can get
 
@@ -94,10 +94,10 @@ Greenfleet reports that further windows are expected in the 2028/29 and 2029/30 
 
 ## The catch
 
-SMMT welcomed the money, but warned that a charger is only useful with a power supply behind it, so grid capacity and connection delivery need urgent attention too. It said making the business case work is tougher for smaller firms, and that a van returning to base each evening needs different charging from a long-distance HGV. Future grant rates are likely to fall, SMMT said.
+SMMT welcomed the money, but warned that a charger is only useful with a power supply behind it, so grid capacity and connection delivery need urgent attention too. It said making the business case work is tougher for smaller firms, and that a van returning to base each evening needs different charging from a long-distance HGV. SMMT said future grant rates are likely to fall as the switch to electric gathers pace, though for the heaviest vehicles that is some time away.
 
 ## What it means for you
 
-- **Running a few vans from a yard?** If you can charge them overnight at base, this could cover a big share of the installation. Check your grid connection early: SMMT says it's often the hold-up.
-- **Don't wait for the last minute.** With first come, first served and a lower rate than last time, earlier applications stand a better chance.
+- **Running a few vans from a yard?** If your project qualifies, the scheme pays up to 60% of eligible charger and civil engineering costs. Check your grid connection early: SMMT says grid capacity and connection delivery need urgent attention.
+- **Know the deadline.** Applications are handled first come, first served unless demand outstrips the £38 million, when a competitive process may be used. The window closes at midday on 26 February 2027.
 - Buying the vans too? Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) covers the separate discount on the vehicle.
