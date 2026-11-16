@@ -15,7 +15,7 @@ good: ["Quiet, brisk electric drive", "Rapid charging at up to 100kW", "Roomy lo
 bad: ["Payload below the best diesel versions", "Low seat, and not the comfiest cab for three", "Smaller rear door openings than before"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-09
+  date: 2026-11-16
 sources:
   - https://www.autoexpress.co.uk/vauxhall/vivaro
   - https://www.parkers.co.uk/vans-pickups/vauxhall/vivaro/2020-vivaro-e-review/
