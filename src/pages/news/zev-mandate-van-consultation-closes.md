@@ -181,7 +181,7 @@ Trucks aren't part of this review. A separate consultation on rules for HGVs clo
 
 - **Nothing changes yet.** The current targets stay until any changes are made in law. This year's 24% isn't affected, because the options only change targets from 2027. Any changes would follow the government's response, which it aims to publish by the end of 2026.
 - **Discounts may not last forever.** SMMT says substantial discounts helped drive record electric van sales in September, and that makers have been discounting to close the gap between electric car and van sales and the targets. If the targets are cut, that pressure could ease.
-- **Don't forget the grant.** See our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) and current [deals](/deals/).
+- **Don't forget the grant.** See our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) and our [guide to electric van leasing](/deals/).
 - **If you're close to switching,** today's offers may be as good as they get for a while. Try our [lease, buy new or buy used calculator](/tools/lease-or-buy/).
 
 We'll update this story when the decision is published.

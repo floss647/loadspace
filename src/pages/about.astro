@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { SITE } from '../data/site.js';
+import { FEATURES, SITE } from '../data/site.js';
 ---
 <Base title="About us and how we make money" description={`Who ${SITE.name} is for, how we stay independent and how we make money.`}>
   <div class="wrap prose">
@@ -9,7 +9,11 @@ import { SITE } from '../data/site.js';
     <h2>How we make money</h2>
     <p>The site is free. We earn money in these ways:</p>
     <ul>
-      <li><strong>Leasing and finance enquiries.</strong> If you ask for a quote through us, the broker may pay us a fee. It doesn't change the price you pay or how we rank deals.</li>
+      {FEATURES.leaseQuotes ? (
+        <li><strong>Leasing and finance enquiries.</strong> If you ask for a quote through us, the broker may pay us a fee. It doesn't change the price you pay or how we rank deals.</li>
+      ) : (
+        <li><strong>Leasing and finance enquiries (once lease quotes open).</strong> We don't earn anything from leasing yet, because we don't pass lease enquiries to anyone. Once lease quotes open, the broker may pay us a fee if you ask for a quote through us. It won't change the price you pay or how we rank deals.</li>
+      )}
       <li><strong>Affiliate links.</strong> Some links to products like racking or accessories earn us a small commission.</li>
       <li><strong>Sponsorship.</strong> Some podcast episodes and videos are sponsored. We always say so.</li>
     </ul>

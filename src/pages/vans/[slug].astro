@@ -7,7 +7,7 @@ import Reliability from '../../components/Reliability.astro';
 import Cta from '../../components/Cta.astro';
 import VehicleImage from '../../components/VehicleImage.astro';
 import { SIZES, EV_VANS, TWINS, twinsOf } from '../../data/vans.js';
-import { DEALS, DEALS_ARE_SAMPLE, trueCost } from '../../data/deals.js';
+import { DEALS, SHOW_DEALS, trueCost } from '../../data/deals.js';
 import { reviewFor } from '../../lib/reviews.js';
 import { pairsFor } from '../../lib/compare.js';
 import { quickAnswers, faqLd } from '../../lib/quick-answers.js';
@@ -24,7 +24,8 @@ const kind = van.size === 'pickup' ? 'pickup' : 'van';
 const electricOnly = van.name === van.baseName; // sold only as an electric model
 const evTwins = twinsOf(van).filter((t) => t.electric);
 const twinInfo = van.twin ? TWINS[van.twin] : null;
-const deals = DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
+// Lease prices only when real partner deals are switched on (never the sample data).
+const deals = !SHOW_DEALS ? [] : DEALS.filter((d) => d.van === van.slug && d.fuel === 'Electric')
   .map((d) => ({ ...d, tc: trueCost(d) }))
   .sort((a, b) => a.tc.perMonth - b.tc.perMonth);
 const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
@@ -67,7 +68,7 @@ if (!vehicleLd.additionalProperty.length) delete vehicleLd.additionalProperty;
 const ld = [vehicleLd, qa.length ? faqLd(qa) : null];
 const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold as the [^.]+\.\s*/, '');
 ---
-<Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and lease deals.`} jsonLd={ld} crumbs={[['Home', '/'], ['Electric vans', '/vans/']]} crumbName={van.name}>
+<Base title={`${van.name}: buyer's guide, running costs and charging`} description={`${van.name}: whether it suits your work, running costs, charging, rebadged twins, buying used and ${SHOW_DEALS ? 'lease deals' : 'leasing'}.`} jsonLd={ld} crumbs={[['Home', '/'], ['Electric vans', '/vans/']]} crumbName={van.name}>
   <section class="review-hero van-hero">
     <div class="wrap review-hero-grid">
       <div class="review-hero-copy">
@@ -158,29 +159,38 @@ const note = van.electricNote.replace(/^Electric only\.\s*/, '').replace(/^Sold 
 
       {!electricOnly && <Reliability slug={van.slug} name={van.baseName} />}
 
-      <h2>Lease deals</h2>
-      {DEALS_ARE_SAMPLE && <p class="notice small"><strong>Sample prices.</strong> These figures are placeholders while we connect live broker feeds. They are not real offers.</p>}
-      {deals.length ? (
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Version</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th></tr></thead>
-            <tbody>
-              {deals.map((d) => (
-                <tr>
-                  <td>{d.version}<br /><span class="muted small">{d.broker}</span></td>
-                  <td class="num">{gbp(d.monthly)}</td>
-                  <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
-                  <td class="small">{d.upfrontMonths} upfront, {d.term} months, {d.miles.toLocaleString('en-GB')} miles/yr</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+      {SHOW_DEALS ? (
+        <>
+          <h2>Lease deals</h2>
+          {deals.length ? (
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Version</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th></tr></thead>
+                <tbody>
+                  {deals.map((d) => (
+                    <tr>
+                      <td>{d.version}<br /><span class="muted small">{d.broker}</span></td>
+                      <td class="num">{gbp(d.monthly)}</td>
+                      <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
+                      <td class="small">{d.upfrontMonths} upfront, {d.term} months, {d.miles.toLocaleString('en-GB')} miles/yr</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p>No deals listed yet. <a href="/deals/">See all electric van deals</a>.</p>
+          )}
+          <Cta kind="lease" van={van} />
+          <p class="small muted">Business contract hire, excluding VAT. "True cost" spreads the upfront payment and fees across the whole term. <a href="/tools/lease-true-cost/">How we work it out</a>.</p>
+        </>
       ) : (
-        <p>No deals listed yet. <a href="/deals/">See all electric van deals</a>.</p>
+        <>
+          <h2>Leasing</h2>
+          <p>We don't show lease prices yet. Whatever quote you're offered, check the true cost per month: the upfront payment and fees spread across the whole lease. <a href="/deals/">How to compare lease deals</a>.</p>
+          <Cta kind="lease" van={van} />
+        </>
       )}
-      <Cta kind="lease" van={van} />
-      <p class="small muted">Business contract hire, excluding VAT. "True cost" spreads the upfront payment and fees across the whole term. <a href="/tools/lease-true-cost/">How we work it out</a>.</p>
       <NewsletterBox source="van-page" />
     </article>
 

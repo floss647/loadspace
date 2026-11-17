@@ -264,4 +264,4 @@ On paper, the Trafic E-Tech is one of the strongest medium electric vans yet, es
 - the [Kia PV5 Cargo](/vans/kia-pv5-cargo/)
 - the [Ford Transit City](/news/ford-transit-city-on-sale/)
 
-If you're due to change a medium van next year, it's worth waiting for UK prices and lease deals before you commit. If you need a van now, see our [electric van deals](/deals/).
+If you're due to change a medium van next year, it's worth waiting for UK prices and lease deals before you commit. If you need a van now, see our [guide to electric van leasing](/deals/).

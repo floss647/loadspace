@@ -231,6 +231,6 @@ SMMT wants the government's review of the mandate to set a more realistic path. 
 
 ## What it means for you
 
-- **Push for a good price.** Makers are well short of their target and are already discounting. See our [latest deals](/deals/).
+- **Push for a good price.** Makers are well short of their target and are already discounting. See [how to compare lease deals](/deals/).
 - **Check the grant.** GOV.UK says some vans can be sold at a 35% discount, which the seller includes in the price. The maximum discount is £2,500 on some electric vans under 2,500kg gross weight and £5,000 on some between 2,500kg and 4,250kg. Our [Zero Emission Van Grant guide](/news/zero-emission-van-grant-explained/) explains who qualifies.
 - **Run your own numbers** before deciding: [electric vs diesel calculator](/tools/electric-vs-diesel/).

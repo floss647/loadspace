@@ -1,0 +1,51 @@
+---
+// Lease deals ranked by true cost. Only rendered when SHOW_DEALS is true (FEATURES.liveDeals on
+// and real partner data in src/data/deals.js). Never shown with the sample data.
+import { DEALS, SHOW_DEALS, trueCost } from '../data/deals.js';
+import { FEATURES } from '../data/site.js';
+import { VANS, SIZES } from '../data/vans.js';
+const bySlug = Object.fromEntries(VANS.map((v) => [v.slug, v]));
+const rows = SHOW_DEALS ? DEALS.map((d) => ({ ...d, van: bySlug[d.van], tc: trueCost(d) }))
+  .filter((d) => d.van)
+  .sort((a, b) => a.tc.perMonth - b.tc.perMonth) : [];
+const gbp = (n) => '£' + Math.round(n).toLocaleString('en-GB');
+---
+{rows.length > 0 && (
+  <>
+    <div class="filters" role="group" aria-label="Filter by size or fuel">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      {Object.entries(SIZES).map(([k, s]) => <button type="button" data-f={k} aria-pressed="false">{s.short}</button>)}
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Van</th><th class="num">Advertised</th><th class="num">True cost / month</th><th>Terms</th><th></th></tr>
+        </thead>
+        <tbody>
+          {rows.map((d) => (
+            <tr data-size={d.van.size} data-fuel={d.fuel}>
+              <td><a href={`/vans/${d.van.slug}/`}><strong>{d.van.name}</strong></a><br /><span class="small">{d.version}</span><br /><span class="muted small">{d.broker}</span></td>
+              <td class="num">{gbp(d.monthly)}</td>
+              <td class="num"><strong>{gbp(d.tc.perMonth)}</strong></td>
+              <td class="small">{d.upfrontMonths} upfront<br />{d.term} months<br />{d.miles.toLocaleString('en-GB')} miles/yr{d.fee ? <><br />{gbp(d.fee)} fee</> : ''}</td>
+              <td><a class="btn small" href={`/get-lease-quotes/?van=${d.van.slug}`}>{FEATURES.leaseQuotes ? 'Get quote' : 'Enquire'}</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">Business contract hire, excluding VAT, subject to status. We may earn a fee from brokers when you enquire; it never changes the ranking. <a href="/about/">How we make money</a>.</p>
+    <script>
+      const btns = document.querySelectorAll('[data-f]');
+      btns.forEach((b) => b.addEventListener('click', () => {
+        btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        const f = b.dataset.f;
+        document.querySelectorAll('tbody tr').forEach((r) => {
+          const show = f === 'all' || r.dataset.size === f || r.dataset.fuel === f;
+          r.style.display = show ? '' : 'none';
+        });
+      }));
+    </script>
+  </>
+)}

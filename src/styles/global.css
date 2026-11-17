@@ -909,3 +909,40 @@ main:has(> .truck-others) { padding-bottom: 0; }
   .truck-jump a, .truck-hero-class a { background: var(--surface); }
   .truck-note-box svg, .truck-aside-links svg { stroke: var(--accent); }
 }
+
+/* ---------- Leasing (/deals/) ---------- */
+/* Light hero with photo, numbered method cards, tools, a navy "choose your van" band and the enquiry pair. */
+.leasing-hero .hero-copy > p.leasing-hero-note { margin: 1.1rem 0 0; font-size: .88rem; line-height: 1.5; color: var(--muted); max-width: 48ch; }
+.leasing-intro { margin: -.4rem 0 1.6rem; max-width: 62ch; color: var(--muted); font-size: 1.05rem; }
+.leasing-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.leasing-step { display: flex; flex-direction: column; margin: 0; padding: 1.4rem 1.4rem 1.3rem; border: 1px solid var(--line); border-radius: 18px; background: var(--bg); }
+.leasing-step-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: .9rem; }
+.leasing-step-head svg { width: 44px; height: 44px; padding: 10px; border-radius: 12px; background: var(--hero); stroke: var(--accent); stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.leasing-step-num { font-family: var(--display); font-weight: 800; font-size: 1.6rem; line-height: 1; color: var(--accent); }
+.leasing-step h3 { margin: 0 0 .45rem; font-size: 1.15rem; line-height: 1.3; }
+.leasing-step p { margin: 0 0 .7rem; font-size: .95rem; line-height: 1.55; color: var(--text); }
+.leasing-step p:last-child { margin-bottom: 0; }
+.leasing-step-note { margin-top: auto !important; padding-top: .7rem; border-top: 1px solid var(--line); color: var(--muted) !important; font-size: .9rem !important; }
+.leasing-step--formula { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); }
+.leasing-formula { margin: .2rem 0 .8rem !important; padding: .9rem 1.1rem; border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0; background: var(--surface); font-family: var(--display); font-size: 1.05rem !important; line-height: 1.45; }
+.leasing-formula strong { color: var(--ink); }
+.leasing-choose .audience-card { padding: 1.4rem 1.5rem; }
+.leasing-end .cta-pair { margin-bottom: 1.4rem; }
+main:has(> .leasing-end) { padding-bottom: 0; }
+.leasing-disclosure { display: flex; gap: .9rem; align-items: flex-start; margin: 0; padding: 1rem 1.2rem; border: 1px dashed color-mix(in srgb, var(--ink) 30%, var(--line)); border-radius: 14px; font-size: .88rem; line-height: 1.5; color: var(--muted); }
+.leasing-disclosure svg { flex: none; width: 32px; height: 32px; padding: 7px; border-radius: 9px; background: color-mix(in srgb, var(--accent) 22%, transparent); stroke: var(--ink); stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.leasing-disclosure strong { color: var(--ink); }
+@media (max-width: 960px) { .leasing-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .leasing-steps { grid-template-columns: minmax(0, 1fr); gap: .8rem; }
+  .leasing-step { padding: 1.15rem; }
+  .leasing-step-head svg { width: 38px; height: 38px; padding: 8px; }
+  .leasing-hero .btn-row .btn { flex: 1 1 100%; text-align: center; }
+  .leasing-disclosure { padding: .9rem 1rem; }
+  .leasing-section .section-head { flex-direction: column; align-items: flex-start; gap: .4rem; }
+}
+@media (prefers-color-scheme: dark) {
+  .leasing-step { background: var(--surface); }
+  .leasing-formula { background: var(--bg); }
+  .leasing-disclosure svg { stroke: var(--accent); }
+}

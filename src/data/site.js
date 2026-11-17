@@ -3,7 +3,7 @@ export const SITE = {
   name: 'Loadspace',
   tagline: 'Going electric with your van or truck? Straight answers.',
   description:
-    'Independent UK advice on electric vans and trucks, new and used, for small businesses and fleets. Reviews, running costs, charging, grants, reliability data and lease deals.',
+    'Independent UK advice on electric vans and trucks, new and used, for small businesses and fleets. Reviews, running costs, charging, grants, reliability data and leasing advice.',
   // Default image for link previews when a page has no photo of its own (a Wikimedia photo, not a press image).
   shareImage: '/images/vehicles/ford-transit-custom.jpg',
   // Paste the verification codes from Google Search Console and Bing Webmaster Tools here
@@ -20,4 +20,7 @@ export const FEATURES = {
   // Lease quote forms pass people to finance brokers, which is regulated credit broking.
   // Keep false until FCA permission (or an appointed-representative arrangement) is in place.
   leaseQuotes: false,
+  // Lease price tables on /deals/ and the van pages. Keep false until a leasing partner's real
+  // feed replaces the sample data in src/data/deals.js (lease prices are financial promotions).
+  liveDeals: false,
 };
