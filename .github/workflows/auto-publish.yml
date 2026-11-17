@@ -1,0 +1,73 @@
+name: Auto-publish news, column and sweep
+
+# The editor's choice: news stories, the Overloaded column and the weekly source sweep go live
+# automatically once every check has passed. The scheduled runs open draft pull requests but
+# aren't allowed to merge their own work, so this workflow does it.
+#
+# It merges ONLY when all of these are true:
+# - the "News and column fact check" workflow (offline + live fact check + build) succeeded
+#   for the pull request's latest commit;
+# - the branch is news/, blog/ or sweep/ (the monthly line-up check, lineup/, still waits for the editor);
+# - the pull request was opened by the repo owner and merges cleanly;
+# - it only changes content: no workflows, scripts, settings, packages or run briefs.
+# Anything else is left open for the editor.
+on:
+  workflow_run:
+    workflows: ['News and column fact check']
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  publish:
+    if: >
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      (startsWith(github.event.workflow_run.head_branch, 'news/') ||
+       startsWith(github.event.workflow_run.head_branch, 'blog/') ||
+       startsWith(github.event.workflow_run.head_branch, 'sweep/'))
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+      BRANCH: ${{ github.event.workflow_run.head_branch }}
+      SHA: ${{ github.event.workflow_run.head_sha }}
+      OWNER: ${{ github.repository_owner }}
+    steps:
+      - name: Find the pull request
+        id: pr
+        run: |
+          set -euo pipefail
+          pr=$(gh api "repos/$REPO/pulls?state=open&head=$OWNER:$BRANCH" --jq '.[0]')
+          if [ -z "$pr" ] || [ "$pr" = "null" ]; then echo "No open pull request for $BRANCH."; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          num=$(echo "$pr" | jq -r .number); head=$(echo "$pr" | jq -r .head.sha); author=$(echo "$pr" | jq -r .user.login)
+          if [ "$head" != "$SHA" ]; then echo "Checks ran on an older commit; waiting for the latest."; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "$author" != "$OWNER" ]; then echo "Opened by $author, not the repo owner: leaving it for the editor."; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "num=$num" >> "$GITHUB_OUTPUT"
+          echo "node_id=$(echo "$pr" | jq -r .node_id)" >> "$GITHUB_OUTPUT"
+
+      - name: Content only
+        if: steps.pr.outputs.skip != '1'
+        id: files
+        run: |
+          set -euo pipefail
+          files=$(gh api "repos/$REPO/pulls/${{ steps.pr.outputs.num }}/files" --paginate --jq '.[].filename')
+          echo "$files"
+          bad=$(echo "$files" | grep -E '^(\.github/|\.claude/|scripts/|netlify/|package(-lock)?\.json$|netlify\.toml$|astro\.config|src/layouts/|src/components/|src/lib/|src/styles/|NEWSROOM\.md$)' || true)
+          if [ -n "$bad" ]; then echo "Changes more than content, leaving it for the editor:"; echo "$bad"; echo "skip=1" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Mark ready and merge
+        if: steps.pr.outputs.skip != '1' && steps.files.outputs.skip != '1'
+        run: |
+          set -euo pipefail
+          num=${{ steps.pr.outputs.num }}
+          gh api graphql -f query='mutation($id:ID!){markPullRequestReadyForReview(input:{pullRequestId:$id}){pullRequest{isDraft}}}' -f id='${{ steps.pr.outputs.node_id }}' >/dev/null || true
+          for i in 1 2 3 4 5 6; do
+            state=$(gh api "repos/$REPO/pulls/$num" --jq .mergeable_state)
+            [ "$state" != "unknown" ] && break; sleep 10
+          done
+          echo "Mergeable state: $state"
+          if [ "$state" != "clean" ] && [ "$state" != "unstable" ] && [ "$state" != "has_hooks" ]; then echo "Not cleanly mergeable ($state): leaving it for the editor."; exit 0; fi
+          gh api -X PUT "repos/$REPO/pulls/$num/merge" -f merge_method=merge -f sha="$SHA" --jq '"Merged: \(.merged)"'
