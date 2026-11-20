@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "A van with claw marks, a target row with two satnavs, and the 6% who never find driving stressful"
+title: "A van with claw marks, and two satnavs arguing about targets"
 date: 2026-11-20T06:00:00Z
 photo: man-etge
 photoCaption: "A MAN eTGE electric van in a MAN press image. Not the new Lion X, which has the claw marks."
@@ -71,6 +71,9 @@ facts:
   - claim: "The industry cannot subsidise the transition indefinitely"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely"
+  - claim: "the industry wants it changed"
+    source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
+    quote: "The industry cannot subsidise the transition indefinitely, which is why it is unified in seeking change."
   - claim: "sales will rise, mandate or not"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "new models with ever-better performance and lower costs will keep coming and sales will rise, mandate or not"
@@ -126,13 +129,15 @@ facts:
     joke: "Invented image summing up the two published positions; the committee and SMMT are not satnavs, and the image doesn't say either is wrong."
   - claim: "still reading the map"
     joke: "Comic image of the government's pending decision on the review; not a claim about how the decision is being made."
-  - claim: "driven there in a previous decade and never left"
-    joke: "Invented, deliberately silly picture of where the 6% might be; nobody could take it as a real finding."
+  - claim: "filling in the form between drops"
+    joke: "A mint can't fill in a survey; plainly absurd, and aimed at the running gag, not at anyone surveyed."
+  - claim: "your mirrors have survived a lion"
+    joke: "Call-back to the claw-mark graphics; the mirrors haven't met a real lion."
   - claim: "muttering into its load space"
     joke: "A van can't mutter; plain personification."
   - claim: "the Polo mint"
     joke: "Running gag from earlier columns: the columnist's glovebox Polo is a comic device, not a claim about the world."
-  - claim: "a removable mat for the glovebox"
+  - claim: "a removable mat"
     joke: "Call-back to the Lion X door-step mat; a mint doesn't need a mat."
 ---
 
@@ -152,18 +157,18 @@ On Wednesday, Greenfleet reported that the Climate Change Committee warned the U
 
 The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will rise, mandate or not.
 
-Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so keep the mandate. SMMT says the big markets above us got there without one. It's two satnavs in the same van: one saying "put your foot down", the other saying "the cars in front don't even have a satnav". Meanwhile the government is in the driving seat with the indicator on, still reading the map. It has to decide which voice to listen to, and the van behind is already flashing its lights.
+Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry wants it changed, and points out that the big markets above us don't have one. It's two satnavs in the same van: one saying "put your foot down", the other saying "none of the cars in front are being told which lane to use". Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the van behind flashes its lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options it's choosing between.
 
 ## The 6%
 
 A survey commissioned by the leasing company Alphabet, reported by Van Reviewer, asked company car and commercial vehicle drivers about stress. 19% feel stressed every time they get behind the wheel. Heavy traffic was the biggest single cause, named by 33%, followed by poor road conditions on 22%. Among delivery workers, 48% feel stressed at least once a week.
 
-And then there's the 6% who said they never find driving stressful. I want to meet these people. I suspect they're parked outside a garden centre, engine off, flask open, having driven there in a previous decade and never left. Either that, or they're the ones in the Lion X, and the rest of us are stressed because of them.
+And then there's the 6% who said they never find driving stressful. I want to meet these people. I suspect at least one of them is the Polo mint in my glovebox, filling in the form between drops. Or they're in a Lion X, because nothing worries you once your mirrors have survived a lion.
 
 ## The 100,000th was a car
 
-Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales in the UK, and had sold 102,852 by October. Vauxhall was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
+Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales in the UK, and had sold 102,852 as of October. Vauxhall was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
 
 And the milestone vehicle? A Grandland Electric 213PS Ultimate. A car. Its best-selling electric model is the Mokka Electric, another car. On a van website I'm duty-bound to point this out. Somewhere at Ellesmere Port, a Combo Electric is muttering into its load space about who was top of the electric van table three years running, and whether anyone's getting it a cake.
 
-That's the column. The Polo mint is still in the glovebox, still unbothered by traffic, firmly among the 6%. I've ordered it a claw-mark sticker and a removable mat for the glovebox. It wipes its feet now. See you next Friday.
+Next Friday: more vans, fewer lions, probably. In the meantime I've ordered the glovebox a claw-mark sticker and a removable mat, and the Polo now wipes its feet before it lies there doing nothing.
