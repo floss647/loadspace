@@ -103,7 +103,7 @@ facts:
     source: https://vanreviewer.co.uk/news/congestion-is-biggest-cause-of-stress-for-uk-drivers/
     quote: "Workers in delivery services were among those most affected, with 48% saying they experienced driving stress at least weekly."
   # Vauxhall (Van Reviewer, 17 November 2026)
-  - claim: "Vauxhall has passed 100,000 electric vehicle sales in the UK"
+  - claim: "Vauxhall says it has passed 100,000 electric vehicle sales in the UK"
     source: https://vanreviewer.co.uk/news/vauxhall-passes-100-000-uk-electric-vehicle-sales/
     quote: "Vauxhall says it has passed 100,000 electric vehicle sales in the UK, a milestone that spans its passenger car and light commercial vehicle ranges."
   - claim: "102,852"
@@ -140,6 +140,12 @@ facts:
     joke: "Call-back to the claw-mark graphics; the mirrors haven't met a real lion."
   - claim: "muttering into its load space"
     joke: "A van can't mutter; plain personification."
+  - claim: "a claw-mark sticker"
+    joke: "Call-back to the Lion X mirror graphics; buying a glovebox a sticker is plainly absurd."
+  - claim: "the most British thing a lion has ever done"
+    joke: "Absurd image; lions don't wipe their feet. Affectionate, not about any nationality."
+  - claim: "getting it a cake"
+    joke: "A van can't want a cake; personification."
   - claim: "the Polo mint"
     joke: "Running gag from earlier columns: the columnist's glovebox Polo is a comic device, not a claim about the world."
   - claim: "a removable mat"
@@ -162,7 +168,7 @@ On Wednesday, Greenfleet reported that the Climate Change Committee warned the U
 
 The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will rise whether or not there's a mandate.
 
-Put the two side by side and it's quite a match. The committee says we're 22nd and should be speeding up, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and says the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the Polo mint in the glovebox asks if we're nearly there yet. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
+Put the two side by side and it's quite a match. The committee says we're 22nd and should be speeding up, so don't weaken the mandate. SMMT says the industry is unified in seeking change, that reform means "making the transition work", and that the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the Polo mint in the glovebox asks if we're nearly there yet. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
 
 ## The 6%
 
@@ -172,8 +178,8 @@ And then there's the 6% who said they never find driving stressful. I want to me
 
 ## The 100,000th was a car
 
-Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales in the UK, and had sold 102,852 as of October. Vauxhall says it was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
+Finally, Van Reviewer reports that Vauxhall says it has passed 100,000 electric vehicle sales in the UK, with 102,852 sold as of October. Vauxhall says it was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
 
-And the milestone vehicle? A Grandland Electric 213PS Ultimate. A car. Its best-selling electric model is the Mokka Electric, another car. On a van website I'm duty-bound to point this out. Somewhere at Ellesmere Port, a Combo Electric is muttering into its load space about who was top of the electric van table three years running, and whether anyone's getting it a cake.
+And the milestone vehicle? A Grandland Electric 213PS Ultimate. A car. Its best-selling electric model is the Mokka Electric, another car. On a van website I'm duty-bound to point this out. Somewhere at Ellesmere Port, a Combo Electric is muttering into its load space about which maker topped the electric van sales three years running, and whether anyone's getting it a cake.
 
 Next Friday: more vans, fewer lions, probably. In the meantime I've ordered the glovebox a claw-mark sticker and a removable mat, and the Polo now wipes its feet.
