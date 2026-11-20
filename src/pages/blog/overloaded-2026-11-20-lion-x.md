@@ -71,10 +71,13 @@ facts:
   - claim: "The industry cannot subsidise the transition indefinitely"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely"
-  - claim: "the industry wants it changed"
+  - claim: "reformed, not abandoned"
+    source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
+    quote: "Reform means making the transition work, not disregarding market reality as the CCC's assumptions do."
+  - claim: "the industry wants it reformed"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely, which is why it is unified in seeking change."
-  - claim: "sales will rise, mandate or not"
+  - claim: "sales will keep rising whether or not there's a mandate"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "new models with ever-better performance and lower costs will keep coming and sales will rise, mandate or not"
   # Driver stress survey (Van Reviewer, 13 November 2026)
@@ -155,9 +158,9 @@ There's a serious bit too. MAN's new Performance Kit lifts the heavy-duty engine
 
 On Wednesday, Greenfleet reported that the Climate Change Committee warned the UK is likely to miss its legal climate targets if the government weakens the Zero-Emission Vehicle Mandate. The mandate requires makers to sell a rising share of electric vehicles each year, and it covers vans as well as cars. The committee set out its view in a letter to the Department for Transport. Its chair, Nigel Topping, said the UK currently ranks 22nd in the world for EV sales, behind countries such as France and Germany, and that the UK "should be accelerating to keep up, not putting the brakes on".
 
-The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will rise, mandate or not.
+The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will keep rising whether or not there's a mandate.
 
-Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry wants it changed, and points out that the big markets above us don't have one. It's two satnavs in the same van: one saying "put your foot down", the other saying "none of the cars in front are being told which lane to use". Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the van behind flashes its lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options it's choosing between.
+Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry wants it reformed, not abandoned, and points out that the big markets above us don't have one. It's two satnavs in the same van: one saying "put your foot down", the other saying "nobody big in front has one of me". Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the van behind flashes its lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
 
 ## The 6%
 
