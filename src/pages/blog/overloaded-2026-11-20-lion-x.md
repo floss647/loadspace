@@ -77,7 +77,7 @@ facts:
   - claim: "the industry is unified in seeking change"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely, which is why it is unified in seeking change."
-  - claim: "sales will keep rising whether or not there's a mandate"
+  - claim: "sales will rise whether or not there's a mandate"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "new models with ever-better performance and lower costs will keep coming and sales will rise, mandate or not"
   # Driver stress survey (Van Reviewer, 13 November 2026)
@@ -130,6 +130,8 @@ facts:
     joke: "Comic call-forward to the congestion survey; not a claim about the van's performance."
   - claim: "two satnavs in the same van"
     joke: "Invented image summing up the two published positions: the committee wants the UK to accelerate, SMMT wants reform of how the transition is done. Neither is a satnav, and the image doesn't say either is wrong."
+  - claim: "the fleets behind flash their lights"
+    joke: "Comic image continuing the driving metaphor; not a claim about what any fleet has said or done."
   - claim: "still reading the map"
     joke: "Comic image of the government's pending decision on the review; not a claim about how the decision is being made."
   - claim: "filling in the form between drops"
@@ -152,15 +154,15 @@ Van Reviewer reports that MAN has added a new version of its TGE large van calle
 
 Claw marks. On the mirrors. As though somewhere between the depot and the first drop it was set upon by something large and furry, and came off best. Inside, there's an X-branded entry handle and a removable mat for the door step. So the lion wipes its feet before it gets in. That's the most British thing a lion has ever done.
 
-There's a serious bit too. MAN's new Performance Kit lifts the heavy-duty engine from 163hp to 190hp, so 27 more horsepower, which in my experience means arriving at the same traffic jam slightly sooner.
+There's a serious bit too. MAN's new Performance Kit, for TGEs with the heavy-duty engine, lifts it from 163hp to 190hp, so 27 more horsepower, which in my experience means arriving at the same traffic jam slightly sooner.
 
 ## Two satnavs, one van
 
 On Wednesday, Greenfleet reported that the Climate Change Committee warned the UK is likely to miss its legal climate targets if the government weakens the Zero-Emission Vehicle Mandate. The mandate requires makers to sell a rising share of electric vehicles each year, and it covers vans as well as cars. The committee set out its view in a letter to the Department for Transport. Its chair, Nigel Topping, said the UK currently ranks 22nd in the world for EV sales, behind countries such as France and Germany, and that the UK "should be accelerating to keep up, not putting the brakes on".
 
-The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will keep rising whether or not there's a mandate.
+The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will rise whether or not there's a mandate.
 
-Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and points out that the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the fleets behind flash their lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
+Put the two side by side and it's quite a match. The committee says we're 22nd and should be speeding up, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and says the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the fleets behind flash their lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
 
 ## The 6%
 
