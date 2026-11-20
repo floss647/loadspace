@@ -71,10 +71,10 @@ facts:
   - claim: "The industry cannot subsidise the transition indefinitely"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely"
-  - claim: "reformed, not abandoned"
+  - claim: "making the transition work"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "Reform means making the transition work, not disregarding market reality as the CCC's assumptions do."
-  - claim: "the industry wants it reformed"
+  - claim: "the industry is unified in seeking change"
     source: https://www.smmt.co.uk/smmt-reaction-to-ccc-letter-on-zev-mandate/
     quote: "The industry cannot subsidise the transition indefinitely, which is why it is unified in seeking change."
   - claim: "sales will keep rising whether or not there's a mandate"
@@ -129,7 +129,7 @@ facts:
   - claim: "the same traffic jam"
     joke: "Comic call-forward to the congestion survey; not a claim about the van's performance."
   - claim: "two satnavs in the same van"
-    joke: "Invented image summing up the two published positions; the committee and SMMT are not satnavs, and the image doesn't say either is wrong."
+    joke: "Invented image summing up the two published positions: the committee wants the UK to accelerate, SMMT wants reform of how the transition is done. Neither is a satnav, and the image doesn't say either is wrong."
   - claim: "still reading the map"
     joke: "Comic image of the government's pending decision on the review; not a claim about how the decision is being made."
   - claim: "filling in the form between drops"
@@ -160,7 +160,7 @@ On Wednesday, Greenfleet reported that the Climate Change Committee warned the U
 
 The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will keep rising whether or not there's a mandate.
 
-Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry wants it reformed, not abandoned, and points out that the big markets above us don't have one. It's two satnavs in the same van: one saying "put your foot down", the other saying "nobody big in front has one of me". Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the van behind flashes its lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
+Put the two side by side and it's quite a match. The committee says 22nd isn't good enough, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and points out that the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the fleets behind flash their lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
 
 ## The 6%
 
@@ -174,4 +174,4 @@ Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales
 
 And the milestone vehicle? A Grandland Electric 213PS Ultimate. A car. Its best-selling electric model is the Mokka Electric, another car. On a van website I'm duty-bound to point this out. Somewhere at Ellesmere Port, a Combo Electric is muttering into its load space about who was top of the electric van table three years running, and whether anyone's getting it a cake.
 
-Next Friday: more vans, fewer lions, probably. In the meantime I've ordered the glovebox a claw-mark sticker and a removable mat, and the Polo now wipes its feet before it lies there doing nothing.
+Next Friday: more vans, fewer lions, probably. In the meantime I've ordered the glovebox a claw-mark sticker and a removable mat, and the Polo now wipes its feet.
