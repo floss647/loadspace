@@ -4,6 +4,9 @@ title: "A van with claw marks, and two satnavs arguing about targets"
 date: 2026-11-20T06:00:00Z
 photo: man-etge
 photoCaption: "A MAN eTGE electric van in a MAN press image. Not the new Lion X, which has the claw marks."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-20
 summary: "MAN gives its big van claw marks and a doormat, two very serious organisations disagree about the electric vehicle targets, a survey finds the 6% of business drivers who never find driving stressful, and Vauxhall's 100,000th electric sale turns out to be a car. This week's Overloaded."
 sources:
   - https://vanreviewer.co.uk/news/man-tge-individual-lion-x-performance-kit/
