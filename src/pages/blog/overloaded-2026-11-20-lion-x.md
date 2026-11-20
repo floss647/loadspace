@@ -130,8 +130,8 @@ facts:
     joke: "Comic call-forward to the congestion survey; not a claim about the van's performance."
   - claim: "two satnavs in the same van"
     joke: "Invented image summing up the two published positions: the committee wants the UK to accelerate, SMMT wants reform of how the transition is done. Neither is a satnav, and the image doesn't say either is wrong."
-  - claim: "the fleets behind flash their lights"
-    joke: "Comic image continuing the driving metaphor; not a claim about what any fleet has said or done."
+  - claim: "asks if we're nearly there yet"
+    joke: "A mint can't talk; running-gag call-back, not a claim about anyone."
   - claim: "still reading the map"
     joke: "Comic image of the government's pending decision on the review; not a claim about how the decision is being made."
   - claim: "filling in the form between drops"
@@ -154,7 +154,7 @@ Van Reviewer reports that MAN has added a new version of its TGE large van calle
 
 Claw marks. On the mirrors. As though somewhere between the depot and the first drop it was set upon by something large and furry, and came off best. Inside, there's an X-branded entry handle and a removable mat for the door step. So the lion wipes its feet before it gets in. That's the most British thing a lion has ever done.
 
-There's a serious bit too. MAN's new Performance Kit, for TGEs with the heavy-duty engine, lifts it from 163hp to 190hp, so 27 more horsepower, which in my experience means arriving at the same traffic jam slightly sooner.
+There's a serious bit too. MAN's new Performance Kit, for TGEs with the heavy-duty engine, lifts the engine's output from 163hp to 190hp, so 27 more horsepower, which in my experience means arriving at the same traffic jam slightly sooner.
 
 ## Two satnavs, one van
 
@@ -162,7 +162,7 @@ On Wednesday, Greenfleet reported that the Climate Change Committee warned the U
 
 The same day, SMMT's Mike Hawes replied that "it is worth noting that no major global market ahead of the UK has a mandate", and that "The industry cannot subsidise the transition indefinitely". He also said sales will rise whether or not there's a mandate.
 
-Put the two side by side and it's quite a match. The committee says we're 22nd and should be speeding up, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and says the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the fleets behind flash their lights. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
+Put the two side by side and it's quite a match. The committee says we're 22nd and should be speeding up, so don't weaken the mandate. SMMT says the industry is unified in seeking change, and that reform means "making the transition work", and says the big markets above us don't have a mandate. It's two satnavs in the same van: one saying "put your foot down", the other saying "Recalculating. Same destination, different route." Meanwhile the government is in the driving seat with the indicator on, still reading the map, while the Polo mint in the glovebox asks if we're nearly there yet. Our [van target review story](/news/zev-mandate-van-consultation-closes/) has the options on the table.
 
 ## The 6%
 
@@ -172,7 +172,7 @@ And then there's the 6% who said they never find driving stressful. I want to me
 
 ## The 100,000th was a car
 
-Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales in the UK, and had sold 102,852 as of October. Vauxhall was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
+Finally, Van Reviewer reports Vauxhall has passed 100,000 electric vehicle sales in the UK, and had sold 102,852 as of October. Vauxhall says it was the UK's best-selling electric van maker three years running, from 2021 to 2023, and the Combo Electric van is built at Ellesmere Port.
 
 And the milestone vehicle? A Grandland Electric 213PS Ultimate. A car. Its best-selling electric model is the Mokka Electric, another car. On a van website I'm duty-bound to point this out. Somewhere at Ellesmere Port, a Combo Electric is muttering into its load space about who was top of the electric van table three years running, and whether anyone's getting it a cake.
 
