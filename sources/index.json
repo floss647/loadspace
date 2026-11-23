@@ -55,6 +55,14 @@
     "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
     "sha256": "d50177110b3c2341a9017e38d05d803a2fcc449aaa64265f8657748438393aee"
   },
+  "ford-transit-custom-price-list-2026-09.pdf": {
+    "title": "Ford Transit Custom UK price list (includes E-Transit Custom)",
+    "publisher": "ford.co.uk",
+    "effective": "11 September 2026",
+    "received": "2026-11-23",
+    "via": "Downloaded from the maker's UK website by our fact-checker (honest user agent)",
+    "sha256": "20194ede56abba65be5a66cd13f548f29dc30596b196354aa0f51a5fee3852bd"
+  },
   "ford-transit-custom-price-list-2026-06.pdf": {
     "title": "Ford Transit Custom price list (includes E-Transit Custom)",
     "publisher": "ford.co.uk",
