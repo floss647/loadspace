@@ -4,7 +4,7 @@ title: "Renault Trafic E-Tech named International Van of the Year 2027"
 photo: renault-trafic
 date: 2026-10-29T10:00:00Z
 tag: New model
-summary: "The all-new electric Trafic was the unanimous choice of the 26 jurors, all trade journalists. It's reported to go on sale in the UK in early 2027, and Renault's provisional figures give up to 292 miles of WLTP range from the bigger battery."
+summary: "The all-new electric Trafic was the unanimous choice of the 26 jurors, trade journalists from across Europe, Renault says. It's reported to go on sale in the UK in early 2027, and Renault's provisional figures give up to 292 miles of WLTP range from the bigger battery."
 photoCaption: "The new Trafic E-Tech panel van on show with its Van of the Year 2027 badge. UK vans will be right-hand drive."
 factCheck:
   by: "independent fact-checker"
@@ -23,30 +23,27 @@ sources:
   - https://www.autoexpress.co.uk/renault/trafic/362296/new-2024-renault-trafic-e-tech-aims-be-ideal-tool-environmentally-conscious
 facts:
   - claim: "International Van of the Year 2027"
-    source: https://trans.info/en/iaa2026-transportation-awards-502564
-    quote: "making it the first unanimous winner of International Van of the Year 2027"
-  - claim: "all 26 jurors ranked it first"
-    source: https://trans.info/en/iaa2026-transportation-awards-502564
-    quote: "All 26 jurors ranked the fourth-generation Renault Trafic E-Tech Electric first"
-  - claim: "trade journalists from 26 European countries"
+    source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
+    quote: "New Renault Trafic Van E-Tech electric has been named Van of the Year 2027 by the International Van of the Year (IVOTY) jury."
+  - claim: "the unanimous choice of the 26 jurors, trade journalists from 26 European countries"
     source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
     quote: "The Renault van was a unanimous choice for the panel of 26 trade journalists from 26 European countries."
   - claim: "on 14 September"
     source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
     quote: "awards ceremony held during the IAA Transportation show in Hanover on 14 September 2026"
-  - claim: "now in its 35th year"
-    source: https://vanreviewer.co.uk/news/international-van-of-the-year-2027-shortlist-revealed/
-    quote: "The award, which celebrates its 35th anniversary this year"
   - claim: "this is its sixth van to win"
     source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
     quote: "Trafic Van E-Tech electric is the sixth Renault LCV to receive this award"
   - claim: "the first Trafic since 2002"
     source: https://media.renault.com/new-renault-trafic-van-e-tech-electric-van-of-the-year-2027/?lang=eng
     quote: "Trafic II in 2002"
-  - claim: "The Stellantis ProOne Compact van came second"
+  - claim: "the Farizon V7E and Volkswagen Caddy Cargo shared third place"
+    source: https://trans.info/en/iaa2026-transportation-awards-502564
+    quote: "the Farizon V7E and Volkswagen Caddy Cargo shared third"
+  - claim: "The Stellantis ProOne Compact van was reported to have come second"
     source: https://trans.info/en/iaa2026-transportation-awards-502564
     quote: "The Stellantis ProOne Compact finished second, the Farizon V7E and Volkswagen Caddy Cargo shared third"
-  - claim: "The other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7"
+  - claim: "the other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7"
     source: https://trans.info/en/iaa2026-transportation-awards-502564
     quote: "and the Hyundai Staria Electric and Maxus Deliver 7 rounded out the shortlist"
   - claim: "Renault Group's new RGEV medium van platform"
@@ -224,9 +221,9 @@ facts:
     quote: "perhaps until the early part of 2027 for the right-hand-drive UK versions"
 ---
 
-The all-new **Renault Trafic E-Tech** has been named **International Van of the Year 2027**. It was a unanimous vote: all 26 jurors ranked it first. Renault says they were trade journalists from 26 European countries. The award was presented at the IAA Transportation show in Hanover on 14 September. The award is now in its 35th year. Renault says this is its sixth van to win, and the first Trafic since 2002.
+The all-new **Renault Trafic E-Tech** has been named **International Van of the Year 2027**. Renault says it was the unanimous choice of the 26 jurors, trade journalists from 26 European countries. The award was presented at the IAA Transportation show in Hanover on 14 September. Renault says this is its sixth van to win, and the first Trafic since 2002.
 
-The Stellantis ProOne Compact van came second. It covers versions of the Citroën Berlingo, Fiat Doblò, Opel Combo and Peugeot Partner, which were shortlisted together. The Farizon V7E and Volkswagen Caddy Cargo shared third place. The other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7.
+The Stellantis ProOne Compact van was reported to have come second. It covers versions of the Citroën Berlingo, Fiat Doblò, Opel Combo and Peugeot Partner, which were shortlisted together. The same reports say the Farizon V7E and Volkswagen Caddy Cargo shared third place, and the other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7.
 
 ## A new kind of Trafic
 

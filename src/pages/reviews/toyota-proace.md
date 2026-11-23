@@ -96,9 +96,9 @@ facts:
   - claim: "Icon and Sport"
     archive: sources/toyota-proace-electric-price-list-2026-04.pdf
     quote: "Sport Medium"
-  - claim: "Toyota's April 2026 electric price list"
+  - claim: "Toyota's electric price list for April to June 2026"
     archive: sources/toyota-proace-electric-price-list-2026-04.pdf
-    quote: "Offers available on Eligible Vehicles purchased between 1st April 2026"
+    quote: "Offers available on Eligible Vehicles purchased between 1st April 2026 – 30th June 2026"
   - claim: "Toyota's website still promotes the Proace Electric"
     source: https://www.toyota.co.uk/new-cars/proace
     quote: "the Proace Electric is the smart solution to your transport needs"
@@ -212,7 +212,7 @@ In September 2024, Toyota's UK press office said the high-voltage battery on its
 
 ### Range, charging and kit
 
-In February 2024 Toyota launched the facelifted diesel Proace, with a 10-inch touchscreen even on the entry Active trim. Toyota's April 2026 electric price list has the panel van in Icon and Sport trims, with 50kWh and 75kWh batteries.
+In February 2024 Toyota launched the facelifted diesel Proace, with a 10-inch touchscreen even on the entry Active trim. Toyota's electric price list for April to June 2026 has the panel van in Icon and Sport trims, with 50kWh and 75kWh batteries.
 
 Toyota quotes up to 217 miles with the 75kWh battery, which it says is the maximum official (WLTP) figure, though its April 2025 brochure says up to 215; the brochure's WLTP table gives 133 miles for the 50kWh van, so the battery choice matters. On charging, Toyota quotes 0 to 80% in about 32 minutes on DC in one place and 20 to 80% in as little as 30 minutes in another, but doesn't give a kW rating. The earlier van had 100kW rapid charging, so ask what the current one takes. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
 
