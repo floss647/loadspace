@@ -179,12 +179,12 @@ facts:
   - claim: "every panel van"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
-  - claim: "some double cab-in-van and Multicab versions are rated lower, at 2,250kg or 2,000kg"
-    calc: "Ford price list (effective 11/09/2026), Max Braked column: SWB Double Cab in Van Trend 100kW RWD shows 2250 and AWD shows 2000; SWB Multicab Limited 100kW RWD shows 2000 (facts below). Some double cab-in-van rows (for example SWB Limited RWD) still show 2300, so 'some'"
+  - claim: "the Multicab is rated at 2,000kg and some double cab-in-van versions at 2,250kg or 2,000kg"
+    calc: "Ford price list (effective 11/09/2026), Max Braked column: SWB Double Cab in Van Trend 100kW RWD shows 2250 and AWD shows 2000; all four Multicab Low Roof electric rows (SWB 100kW RWD, SWB 160kW AWD, LWB 100kW RWD, LWB 160kW AWD) show 2000 (facts below). Some double cab-in-van rows (for example SWB Limited RWD) still show 2300, so 'some'"
   - claim: "double cab-in-van"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "SWB Double Cab in Van"
-  - claim: "rated lower, at 2,250kg"
+  - claim: "at 2,250kg"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 233 316 179 2301 3225 924 2352 1400 2000 5350 2250"
   - claim: "2,000kg"
@@ -193,7 +193,7 @@ facts:
   - claim: "Multicab"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "SWB Multicab"
-  - claim: "Multicab versions are rated lower"
+  - claim: "the Multicab is rated at 2,000kg"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 231 310 178 2376 3225 849 2419 1400 2000 5225 2000"
   - claim: "braked trailer"
@@ -338,19 +338,19 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The flat cabin floor is a particularly welcome and innovative one."
   - claim: "Every version gets a 13-inch touchscreen"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "13\" Touchscreen"
   - claim: "Every version"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Limited VAN - Standard Equipment above Trend"
   - claim: "Every version"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Trail VAN - Standard Equipment above Trend"
   - claim: "Every version"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Sport VAN - Standard Equipment above Limited"
   - claim: "Every version"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "MS-RT VAN - Standard Equipment above Sport"
   - claim: "Apple CarPlay and Android Auto"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
@@ -495,11 +495,11 @@ If you run a diesel Transit Custom, or were about to order one, start here. On t
 
 Space is the big draw: whether you choose a short or long wheelbase, neither gives anything away to the diesel in load volume.
 
-Payload is where the battery costs you. On Ford's price list, effective from 11 September 2026, the best panel van is the long-wheelbase Trend with rear-wheel drive at 1,132kg, with the long-wheelbase Limited just 8kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every panel van is rated to pull a 2,300kg braked trailer, though some double cab-in-van and Multicab versions are rated lower, at 2,250kg or 2,000kg.
+Payload is where the battery costs you. On Ford's price list, effective from 11 September 2026, the best panel van is the long-wheelbase Trend with rear-wheel drive at 1,132kg, with the long-wheelbase Limited just 8kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every panel van is rated to pull a 2,300kg braked trailer, though the Multicab is rated at 2,000kg and some double cab-in-van versions at 2,250kg or 2,000kg.
 
 ### Range and charging in the real world
 
-Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. Ford's UK website still shows the earlier £43,630 price and 230-mile range. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps.
+Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps. Ford's UK website still shows the earlier £43,630 price and 230-mile range.
 
 Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid charge, 29 minutes in its price list and about 39 minutes on its website, so plan around the slower one. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
