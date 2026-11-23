@@ -8,7 +8,7 @@ summary: "The all-new electric Trafic was the unanimous choice of the 26 jurors,
 photoCaption: "The new Trafic E-Tech panel van on show with its Van of the Year 2027 badge. UK vans will be right-hand drive."
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-29
+  date: 2026-11-23
 sources:
   - https://trans.info/en/iaa2026-transportation-awards-502564
   - https://vanreviewer.co.uk/news/international-van-of-the-year-2027-shortlist-revealed/

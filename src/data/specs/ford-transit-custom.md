@@ -905,7 +905,7 @@ options:
         quote: "Roof Rails BLYA3 - - O - - 150 180"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-23
 facts:
   - claim: "237 miles"
     archive: sources/ford-transit-custom-price-list-2026-09.pdf

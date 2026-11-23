@@ -21,7 +21,7 @@ bad:
   - "Light steering and a bouncy ride, by some accounts"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-23
 sources:
   - https://www.toyota.co.uk/new-cars/proace-max
   - https://www.toyota.co.uk/owners/toyota-warranty

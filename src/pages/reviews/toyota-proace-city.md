@@ -15,7 +15,7 @@ good: ["Warranty can run to 10 years with Toyota servicing", "Same proven body a
 bad: ["No UK road test of the current electric van found", "Electric payload of up to 759kg", "The long warranty depends on Toyota servicing"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-23
 sources:
   - https://www.toyota.co.uk/new-cars/proace-city
   - https://www.toyota.co.uk/owners/toyota-warranty

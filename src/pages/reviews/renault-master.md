@@ -21,7 +21,7 @@ bad:
   - "Three-year van warranty, where the Nissan twin gets five"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-01
+  date: 2026-11-23
 sources:
   - sources/renault-van-price-guide-2026-09.pdf
   - sources/renault-master-van-brochure-2026-06.pdf

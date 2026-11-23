@@ -21,7 +21,7 @@ bad:
   - "Some rivals go further on a charge"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-23
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit
   - https://www.ford.co.uk/vans-and-pickups/e-transit/van

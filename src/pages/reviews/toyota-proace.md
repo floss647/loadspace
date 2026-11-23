@@ -15,7 +15,7 @@ good: ["Warranty can run to 10 years with Toyota servicing", "Five years of road
 bad: ["Reported to cost more than its twins", "Warranty cover depends on Toyota servicing", "Missing from Toyota's current price list"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-06
+  date: 2026-11-23
 sources:
   - https://www.toyota.co.uk/new-cars/proace
   - https://www.toyota.co.uk/owners/toyota-warranty

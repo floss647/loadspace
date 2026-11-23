@@ -21,7 +21,7 @@ bad:
   - "Decent range, but not class-leading"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-13
+  date: 2026-11-23
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit-custom
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
@@ -499,7 +499,7 @@ Payload is where the battery costs you. On Ford's price list, effective from 11 
 
 ### Range and charging in the real world
 
-Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps. Ford's UK website still shows the earlier £43,630 price and 230-mile range.
+Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut the range further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps. Ford's UK website still shows the earlier £43,630 price and 230-mile range.
 
 Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid charge, 29 minutes in its price list and about 39 minutes on its website, so plan around the slower one. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
