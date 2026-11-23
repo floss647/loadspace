@@ -3,7 +3,7 @@ van: ford-transit-custom
 title: "Ford E-Transit Custom specs"
 summary: "Load space, payload, range, towing and charging for each E-Transit Custom panel van, from Ford UK's own price list."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Ford UK Transit Custom price lists, 1 June 2026 and 11 September 2026"
+sourceLabel: "Ford UK Transit Custom price list, 11 September 2026"
 tables:
   - title: "Range, payload and weight"
     head: ["Version", "Official range", "City range", "Motorway range", "Payload", "Gross weight"]
@@ -62,7 +62,7 @@ tables:
       - ["Maximum braked towing", "2,300kg"]
       - ["Gross train weight", "5,350kg"]
       - ["Vehicle warranty", "3 years or 100,000 miles"]
-notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans as standard. An 80mph limiter is standard on Limited and Sport vans with the 160kW motor, but only an option on the Trail.", "Ford's performance table gives the 160kW motor a top speed of 81mph, but on Limited and Sport vans the standard 80mph limiter applies.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "Ford's price list doesn't print a unit beside its range figures. They are in miles, the unit Ford's UK website uses for this van's range.", "The Trail version comes with all-wheel drive only."]
+notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans as standard. An 80mph limiter is standard on Limited, Trail and Sport vans with the 160kW motor.", "Ford's performance table gives the 160kW motor a top speed of 81mph, but on Limited, Trail and Sport vans the standard 80mph limiter applies.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "Ford's price list doesn't print a unit beside its range figures. They are in miles, the unit Ford's UK website uses for this van's range.", "The Trail version comes with all-wheel drive only."]
 versions:
   - name: "SWB (L1H1), RWD, 3,225kg"
     figures:
@@ -110,7 +110,7 @@ shared:
   rapidTime: "29 minutes, 10 to 80%"
   ac: "11kW (three-phase)"
   train: "5,350kg"
-archive: sources/ford-transit-custom-price-list-2026-06.pdf
+archive: sources/ford-transit-custom-price-list-2026-09.pdf
 equipment:
   - trim: "Trend"
     groups:
@@ -187,7 +187,7 @@ equipment:
       - name: "Charging and battery"
         items:
           - text: "71kWh usable battery"
-            quote: "71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630"
+            quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160"
           - text: "Rapid charging at up to 125kW"
             quote: "Max Power 125kW"
           - text: "11kW three-phase AC charging"
@@ -219,7 +219,7 @@ equipment:
           - text: "16-inch steel wheels with full wheel covers"
             quote: "16\" Steel Wheels with Full Wheel Covers (BEV)"
           - text: "215/65 R16 tyres"
-            quote: "16\" Steel Wheels D2XAD D3JDF S - - - - - - 215/65 R16C 109T"
+            quote: "16\" Steel Wheels 215/65 R16C 109T D2XAD D3JDF S S* - - - - - *Standard for BEV"
           - text: "Fixed LED headlights"
             quote: "Fixed LED Headlamps (BEV Only)"
           - text: "Daytime running lights"
@@ -231,7 +231,7 @@ equipment:
           - text: "Black grille"
             quote: "Signature BEV Black Grille (BEV Only)"
           - text: "Partly body-coloured front and rear bumpers"
-            quote: "Partial Body Colour Front Bumper Electric Brake Boost (BEV/PHEV) Partial Body Colour Rear Bumper"
+            quote: "Partial Body Colour Front Bumper FEABA Electric Brake Boost (BEV/PHEV) Partial Body Colour Rear Bumper"
           - text: "Tinted glass"
             quote: "Tinted Glass (Light Transmission: 75% ± 2%)"
           - text: "Quick Clear heated windscreen"
@@ -250,8 +250,6 @@ equipment:
         items:
           - text: "Keyless entry"
             quote: "Keyless Entry and Keyless Start"
-          - text: "Locking wheel nuts"
-            quote: "Locking Wheel Lug Nuts D5EAD D3JDF - S S S S"
           - text: "80mph speed limiter (160kW vans)"
             quote: "80MPH Speed Limiter (160kW BEV)"
       - name: "Cab and comfort"
@@ -272,12 +270,12 @@ equipment:
             quote: "Super Bright Load Compartment Lights"
       - name: "Exterior"
         items:
-          - text: "16-inch Sparkle Silver alloy wheels (replaces steel wheels)"
-            quote: "16\" Alloy Wheels in Sparkle Silver D2XCH D3JDF O S"
+          - text: "16-inch steel wheels with full wheel covers, as on the Trend"
+            quote: "D5AAB 16\" Steel Wheels with Full Wheel Covers (BEV)"
           - text: "Body-coloured front and rear bumpers (replace the partly body-coloured bumpers)"
-            quote: "Body Colour Front Bumper 16\" Alloy Wheel Body Colour Rear Bumper"
+            quote: "Body Colour Front Bumper D2XCH 16\" Alloy Wheel (ICE/PHEV) Body Colour Rear Bumper"
           - text: "Heated door mirrors with auto power fold, in body colour (replace the Trend mirrors)"
-            quote: "Dual Heated Exterior Mirrors - Auto Power Fold Body Colour Exterior Mirrors"
+            quote: "Dual Heated Exterior Mirrors - Auto Power Fold DCFAF 70MPH Speed Limiter (100kW BEV) Body Colour Exterior Mirrors"
           - text: "Chrome grille (replaces black grille)"
             quote: "Signature BEV Chrome Grille (BEV Only)"
   - trim: "Trail (adds to Trend)"
@@ -287,7 +285,9 @@ equipment:
           - text: "Curtain, passenger and side airbags"
             quote: "Curtain, passenger and side mounted airbags"
           - text: "Locking wheel nuts"
-            quote: "Locking Wheel Lug Nuts D5EAD D3JDF - S S S S"
+            quote: "Locking Wheel Lug Nuts 215/65 R16C 109T (D3JDF) D5EAD D3JDF - S* S S S - - *Standard for ICE/PHEV"
+          - text: "80mph speed limiter"
+            quote: "80 MPH Engine Governor X14A9T0 DCFAT O O/S* O/S* O/S* O 65 78 *Standard for 160kW BEV. N/A for 100kW BEV"
       - name: "Cab and comfort"
         items:
           - text: "Heated driver seat and heated two-seat passenger bench with tray table (seat pack 36, replaces the Trend seats)"
@@ -310,8 +310,8 @@ equipment:
         items:
           - text: "16-inch Trail matte black alloy wheels (replaces steel wheels)"
             quote: "Trail 16\" Twin-Spoke Alloy Wheel in Matte Black"
-          - text: "Temporary spare wheel"
-            quote: "Temporary Spare Wheel (AWD Only)"
+          - text: "Tyre repair kit"
+            quote: "Tyre Repair Kit AHTAB O O S* S S 0 0 * BEV"
           - text: "Coast-to-coast light bar"
             quote: "Coast-to-Coast Light Bar (BEV Only)"
           - text: "Heated door mirrors with auto power fold (replace the Trend mirrors)"
@@ -328,6 +328,8 @@ equipment:
             quote: "Curtain Airbags"
           - text: "Side airbags"
             quote: "Side Mounted Airbags"
+          - text: "Locking wheel nuts"
+            quote: "Locking Wheel Lug Nuts 215/65 R16C 109T (D3JDF) D5EAD D3JDF - S* S S S - - *Standard for ICE/PHEV"
       - name: "Cab and comfort"
         items:
           - text: "Heated power-adjustable driver seat with power lumbar support (seat pack 52, replaces the Limited seats)"
@@ -398,19 +400,19 @@ options:
       - name: "360-degree camera pack (adaptive cruise control with stop and go, blind spot information with cross traffic alert, lane centring, reverse brake assist, navigation)"
         price: "£1,675"
         note: "All trims"
-        quote: "360 Degrees Camera Pack (DAT Pack 6): Reversing Camera Pack Content (Dat Pack 2) PLUS: Dual Exterior Power Mirrors - Power fold - Trend Series only (button activated) BSHBJ Dual Heated Exterior Mirrors - Auto Power Fold - except Trend Series BSHCY Available Upgrade Dual Heated Exterior Mirrors - Auto Power Fold - Trend Series FEABA Electric Brake Boost GTAAE Sensico Steering Wheel HLQAD Intelligent Adaptive Cruise Control - (Manual Transmission) DBCAJ HKCAB O O O O O 1675 2010 Intelligent Adaptive Cruise Control with Stop & Go - (Automatic Transmission) HLLAH HLNAC Navigation Centre (BEV Only) HLNAE Blind Spot Information Centre with Cross Traffic Alert HNYAB Lane Keeping Aid and Warning - Manual Transmission J3KAH Lane Keeping Aid, Warning and Lane Centering Assist - Automatic Transmission Reverse Brake Assist 360 Degrees Camera"
+        quote: "360 Degrees Camera Pack (DAT Pack 6): Reversing Camera Pack Content (Dat Pack 2) PLUS: Dual Exterior Power Mirrors - Power fold - Trend Series only (button activated) Dual Heated Exterior Mirrors - Auto Power Fold - except Trend Series BSHBJ Available Upgrade Dual Heated Exterior Mirrors - Auto Power Fold - Trend Series BSHCY Electric Brake Boost FEABA GTAAE Sensico Steering Wheel HLQAD Intelligent Adaptive Cruise Control - (Manual Transmission) DBCAJ HKCAB O O O O O 1675 2010 Intelligent Adaptive Cruise Control with Stop & Go - (Automatic Transmission) HLLAH Navigation Centre (BEV Only) HLNAC Blind Spot Information Centre with Cross Traffic Alert HLNAE Lane Keeping Aid and Warning - Manual Transmission HNYAB Lane Keeping Aid, Warning and Lane Centering Assist - Automatic Transmission J3KAH Reverse Brake Assist 360 Degrees Camera"
       - name: "Delivery Assist pack (keyless entry, soft close assist, one-touch front windows, automatic handbrake, windows and locking on departure)"
         price: "£500"
         note: "Trend only"
         quote: "Delivery Assist Pack - Automatic Transmission only Keyless Entry/Start, Soft Close Assist 1 Touch Power Front Windows CBGAL Configurable automation of high frequency microtasks: AAEAZ A6AQH O - - - - 500 600 Applies Handbrake B2CAF Turns off Engine Closes Windows Turns on Hazard Lights Locks vehicle on departure"
       - name: "Cab as Office pack with tilting steering wheel"
         price: "£500"
-        note: "Trend, Limited, Trail and Sport; on Trend it also needs a single passenger seat at extra cost; not with the heated steering wheel"
-        quote: "Cab as Office - Tilting Steering Wheel: Tilting Sensico Steering Wheel, tipped for work or flat for lunch Enhanced Cab Lighting Additional USB Connections GRAAC Laptop/Tablet stowage between seats AGJAC IEDAB O* O O O - 500 600 AMPS Accessory Docking Not available with heated steering wheel."
+        note: "Trend, Limited, Trail and Sport; not with the heated steering wheel"
+        quote: "Cab as Office - Tilting Steering Wheel: Tilting Sensico Steering Wheel, tipped for work or flat for lunch Enhanced Cab Lighting GRAAC Additional USB Connections AGJAC IEDAB O O O O - 500 600 Laptop/Tablet stowage between seats AMPS Accessory Docking Not available with heated steering wheel."
       - name: "Cab as Office pack with fixed steering wheel"
         price: "£250"
         note: "Standard on MS-RT"
-        quote: "Cab as Office Pack - Fixed Steering Wheel: Sensico Steering Wheel Enhanced Cab Lighting Additional USB Connections AGJAG IEDAB O O O O S 250 300"
+        quote: "Cab as Office Pack - Fixed Steering Wheel: Sensico Steering Wheel Enhanced Cab Lighting AGJAG IEDAB O O O O S 250 300 Additional USB Connections Laptop/Tablet stowage between seats AMPS Accessory Docking"
   - category: "Paint"
     items:
       - name: "Frozen White (solid)"
@@ -485,24 +487,20 @@ options:
         quote: "All Weather Tyres D5PAG O O O O O 330 396"
       - name: "16-inch Sparkle Silver alloy wheels"
         price: "£500"
-        note: "Trend; standard on Limited"
-        quote: "16\" Alloy Wheels in Sparkle Silver D2XCH D3JDF O S - - - 500 600"
+        note: "Trend and Limited"
+        quote: "16\" Alloy Wheels in Sparkle Silver 215/65 R16C 109T D2XCH D3JDF O S*/O** - - - 500 600 * Standard for ICE/PHEV ** Optional for BEV"
       - name: "17-inch Carbonised Grey twin-spoke alloy wheels"
-        price: "£500"
+        price: "£1,000"
         note: "Limited only"
-        quote: "17\" Twin-Spoke Alloy Wheel in Carbonised Grey D2YDV D3KFX - O - - - 500 600"
-      - name: "17-inch Trail matte black twin-spoke alloy wheels"
+        quote: "17\" Twin-Spoke Alloy Wheel in Carbonised Grey 215/60 R17C 109T D2YDV D3KFX - O - - - 1000 1200 *BEV"
+      - name: "17-inch Trail Matte Magnetic twin-spoke alloy wheels"
         price: "£500"
         note: "Trail only"
-        quote: "Trail 17\" Twin-Spoke Alloy Wheel in Matte Black D2YGV D3KFX - - O - - 500 600"
+        quote: "Trail 17\" Twin-Spoke Alloy Wheel in Matte Magnetic D2YGV D3KFX - - O - - 500 600"
       - name: "19-inch Sport black machined alloy wheels"
         price: "£1,000"
         note: "Sport only"
         quote: "Sport 19\" Directional-Spoke Machined Alloy in Black D2VCA D3IHH - - - O - 1000 1200"
-      - name: "Temporary spare wheel"
-        price: "£150"
-        note: "AWD vans only; standard on Trail"
-        quote: "Temporary Spare Wheel - AWD only D17CJ O O S O O 150 180"
   - category: "Seats and cab"
     items:
       - name: "Vinyl two-seat passenger bench (seat pack 4A)"
@@ -516,7 +514,7 @@ options:
       - name: "Heated seats with two-seat passenger bench, tray table and curtain, passenger and side airbags (seat pack 16A)"
         price: "£750"
         note: "Trend only"
-        quote: "Trend Comfort Dual Passenger Seat - Seat Pack 16A Load through bulkhead BYPAD/BY1AL BY2AL/BW7AB Auto-heated manual 4-way adjustable driver seat BVNAH Auto-heated passenger seat and front seat tray table BVFBK BWRAB O - - - - 750 900 Adjustable driver armrest CP2AB/CPHAB Driver lumbar support CQ2AB Curtain, passenger and side mounted airbags"
+        quote: "Trend Complete Dual Passenger Seat - Seat Pack 16A Load through bulkhead BYPAD/BY1AL BY2AL/BW7AB Auto-heated manual 4-way adjustable driver seat BVNAH Auto-heated passenger seat and front seat tray table BVFBK BWRAB O - - - - 750 900 Adjustable driver armrest CP2AB/CPHAB Driver lumbar support CQ2AB Curtain, passenger and side mounted airbags"
       - name: "Heated seats with single passenger seat (seat pack 6)"
         price: "£450"
         note: "Trend only"
@@ -536,11 +534,15 @@ options:
       - name: "Heated single passenger seat (seat pack 13)"
         price: "£100"
         note: "Limited only"
-        quote: "Limited Comfort Single Passenger Seat - Seat Pack 13 BYPAD/BY1AL Auto-heated manual 4-way adjustable driver seat BYQAD/BY2AL Auto-heated manual 4-way adjustable passenger seat BVNAH Adjustable driver armrest BVFAP BVPAH - O - - - 100 120"
+        quote: "Limited Comfort Single Passenger Seat - Seat Pack 13 Auto-heated manual 4-way adjustable driver seat BYPAD/BY1AL BYQAD/BY2AL Auto-heated manual 4-way adjustable passenger seat BVNAH Adjustable driver armrest BVFAP BVPAH - O - - - 100 120"
       - name: "Two-seat passenger bench with curtain, passenger and side airbags (seat pack 47)"
         price: "£400"
         note: "Limited only"
         quote: "Limited Complete Dual Passenger Seat - Seat Pack 47 Load through bulkhead BYPAD/BY1AL BY2AL/BW7AB Auto-heated manual 4-way adjustable driver seat BVNAH Auto-heated passenger seat and front seat tray table BVFBQ BWRAB - O - - - 400 480"
+      - name: "Vinyl heated seats with two-seat passenger bench, tray table and curtain, passenger and side airbags (seat pack 12A)"
+        price: "£650"
+        note: "Limited only"
+        quote: "Vinyl Limited Complete Dual Passenger Seat - Seat Pack 12A Load through bulkhead BYPAD/BY1AL BY2AL/BW7AB Auto-heated manual 4-way adjustable driver seat BVNAH Auto-heated passenger seat and front seat tray table BVFBE BWRAB - O - - - 650 780"
       - name: "Single passenger seat with curtain, passenger and side airbags (seat pack 12)"
         price: "£400"
         note: "Limited only"
@@ -560,7 +562,7 @@ options:
       - name: "MS-RT eco leather heated single passenger seat (seat pack 25)"
         price: "£100"
         note: "MS-RT only"
-        quote: "MS-RT Premium non animal Eco Leather Single Passenger Seat - Seat Pack 25 BYPAC/BY1AL Auto-heated power 6-way adjustable driver seat BYQAD/BY2AL Auto-heated manual 4-way adjustable passenger seats BVFA2 BVNAD/BVPAD - - - - O 100 120"
+        quote: "MS-RT Premium non animal Eco Leather Single Passenger Seat - Seat Pack 25 Auto-heated power 6-way adjustable driver seat BYPAC/BY1AL Auto-heated manual 4-way adjustable passenger seats BYQAD/BY2AL Adjustable driver and passenger armrests BVFA2 BVNAD/BVPAD - - - - O 100 120"
       - name: "Heated Sensico steering wheel"
         price: "£200"
         note: "Needs heated seats; on Trend it also needs a single passenger seat at extra cost; standard on MS-RT"
@@ -637,11 +639,11 @@ options:
         quote: "Full Height Polypro Interior Trim Panels BBAAU O O O S S 50 60"
       - name: "Full load area protection kit (full-height panels, multi-function load floor, stowage rails)"
         price: "£1,250"
-        note: "Trend and Limited; single side door only"
-        quote: "Full Load Area Protection Kit A4LAB Single Side Load Doors Only BBAAU Full Height Polypro Interior Trim Panels BDMAC BDIA1 O O - - - 1250 1500 Multi Functional Load Floor BDSAF Cargo Stowage Rail, Mid & High Positions"
+        note: "Trend and Limited; single side door only; not with load area climate control"
+        quote: "Full Load Area Protection Kit Single Side Load Doors Only A4LAB Full Height Polypro Interior Trim Panels BBAAU BDMAC BDIA1 O O - - - 1250 1500 Multi Functional Load Floor Cargo Stowage Rail, Mid & High Positions BDSAF Not available with Cargo Area Climate Control (G1EAB)"
       - name: "Full load area protection kit (full-height panels, multi-function load floor, stowage rails)"
         price: "£1,025"
-        note: "Trail, Sport and MS-RT; single side door only"
+        note: "Trail, Sport and MS-RT; single side door only; not with load area climate control"
         quote: "Full Load Area Protection Kit A4LAB Single Side Load Doors Only BBAAU Full Height Polypro Interior Trim Panels BDMAC BDIA1 - - O O O 1025 1230 Multi Functional Load Floor BDSAF Cargo Stowage Rail, Mid & High Positions"
       - name: "Mid-position cargo stowage rail"
         price: "£375"
@@ -677,8 +679,8 @@ options:
         quote: "Super Bright Load Compartment Lights JCMAF O S S S S 75 90"
       - name: "Load area climate control (needs a second-stage conversion)"
         price: "£600"
-        note: "All trims"
-        quote: "Cargo Area Climate Control Provides temperature control for the load space G1EAB G2AAF O O O O O 600 720 Please note this makes the vehicle incomplete and will require a second stage conversion."
+        note: "All trims; not with 2.3kW Pro Power or the full load area protection kit"
+        quote: "Cargo Area Climate Control Provides temperature control for the load space Please note this option makes the vehicle incomplete and will require a second stage G1EAB G2AAF O O O O O 600 720 conversion. Not available with 2.3kW Pro Power on Board (HUKAL) Not available with Full Load Area Protection Kit (BDMAC)"
   - category: "Safety and driver assistance"
     items:
       - name: "Keyless entry and start"
@@ -776,7 +778,7 @@ options:
       - name: "TVL Armourshell and enhanced deadlocks, twin side doors"
         price: "£1,600"
         note: "All trims; not with power side doors or the liftgate"
-        quote: "TVL Armourshell (Side & Rear) & Enhanced Deadlocks (SVO) For Dual Side Load Doors AAKAE O O O O O 1600 1920 Not available with Power Side Load Doors or Liftgate"
+        quote: "For Dual Side Load Doors AAKAE O O O O O 1600 1920 Not available with Power Side Load Doors or Liftgate"
       - name: "62mph speed limiter"
         price: "£65"
         note: "Not on 210kW vans"
@@ -787,8 +789,8 @@ options:
         quote: "70MPH Engine Governor *Standard for 100kW BEV. DCFAF O/S* O/S* O O O/-** 65 78 **N/A for 210kW BEV"
       - name: "80mph speed limiter"
         price: "£65"
-        note: "Standard on Limited and Sport 160kW vans; optional on Trail and MS-RT; not on 100kW vans"
-        quote: "80 MPH Engine Governor DCFAT O O/S* O O/S* O 65 78 *Standard for 160kW BEV. N/A for 100kW BEV"
+        note: "Standard on Limited, Trail and Sport vans with the 160kW motor; optional on MS-RT; not available with the 100kW motor"
+        quote: "80 MPH Engine Governor X14A9T0 DCFAT O O/S* O/S* O/S* O 65 78 *Standard for 160kW BEV. N/A for 100kW BEV"
       - name: "Restricted acceleration, to make the most of range"
         price: "£50"
         note: "Trend and Limited"
@@ -815,12 +817,12 @@ options:
         quote: "3 Phase Charge Cord XL - 10M - 32Amp Type 2 Connector for Wall box and Public HTSAH O O O O O 300 360 Charging - BEV Only"
       - name: "2.3kW Pro Power Onboard power export"
         price: "£850"
-        note: "Not on Trail"
-        quote: "2.3kW Pro Power on Board Available on PHEV and BEV, Pro Power Onboard delivers 2.3 kW of exportable energy, allowing you to power your tools without the need for a separate generator. HUKAL O O - O O 850 1020"
+        note: "All trims; not with the smart fuse box or load area climate control"
+        quote: "2.3kW Pro Power on Board Available on PHEV and BEV, Pro Power Onboard delivers 2.3 kW of exportable energy, allowing you to power your tools without the need for a separate generator. HUKAL O O O O O 850 1020 Deletes 16\" Spare Wheel (D17CK) Not available with Smart Fuse Box (SVO) (JZXAD) Not available with Cargo Area Climate Control (G1EAB)"
       - name: "400W inverter (3-pin plug, at the front)"
         price: "£150"
-        note: "All trims; Ford notes that it adds a single passenger seat"
-        quote: "400W inverter (3 pin plug, positioned at front of vehicle) *Adds single passenger Seat (BVFA9). Dual Passenger Seat is available at extra cost HUKAJ O O O O O 150 180"
+        note: "All trims; not with the smart fuse box or the vehicle integration system"
+        quote: "400W inverter (3 pin plug, positioned at front of vehicle) Not available with Smart Fuse Box (SVO) (JZXAD) HUKAJ O O O O O 150 180 Not available with Vehicle Integration System (JRSAB)"
       - name: "Rear power point"
         price: "£25"
         note: "All trims"
@@ -839,18 +841,18 @@ options:
         quote: "H8 Dual AGM Battery HTAAZ O O O O O 250 300"
       - name: "Smart fuse box with programmable battery guard"
         price: "£500"
-        note: "All trims"
-        quote: "Smart Fuse Box (SVO) Combines High Spec interface connector and Ford Programmable Battery Guard JZAAC Contains Programmable Battery Guard JZXAD HTAAZ O O O O O 500 600"
+        note: "All trims; includes H8 dual AGM batteries; not with 2.3kW Pro Power"
+        quote: "Smart Fuse Box (SVO) X17A9T86 Combines High Spec interface connector and Ford Programmable Battery Guard JZAAC Contains Programmable Battery Guard JZXAD HTAAZ O O O O O 500 600 Contains H8 Dual AGM Battery (HTAAZ) Not available with 2.3kW Pro Power on Board (HUKAL)"
       - name: "Vehicle integration system for converters"
-        price: "£330"
-        note: "All trims"
-        quote: "Vehicle Integration System Allows upfitters/converters to seamlessly integrate 3rd party equipment into the vehicle and JRSAB O O O O O 330 396"
+        price: "£400"
+        note: "All trims; not with the 400W inverter"
+        quote: "Vehicle Integration System Allows upfitters/converters to seamlessly integrate 3rd party equipment into the vehicle and JRSAB O O O O O 400 480 control it from the vehicle Sync screen. Not available with 400W Inverter (HUKAJ)"
   - category: "Lighting"
     items:
       - name: "Matrix LED headlights with glare-free high beam"
         price: "£600"
         note: "Not on Trend"
-        quote: "Matrix LED Headlamps Glare Free High Beam JBBA8 JEDAG - O* O O O 600 720"
+        quote: "Matrix LED Headlamps Glare Free High Beam JBBA8 JEDAG - O* O* O O 600 720 Auto High Headlamps *LED Tail lamps"
   - category: "Windows and mirrors"
     items:
       - name: "Power-folding door mirrors (button operated)"
@@ -863,8 +865,8 @@ options:
         quote: "Dual Heated Exterior Mirrors - Auto Power Fold *Only available with 360 Degrees Camera Pack BSHCY O* S S S S 150 180"
       - name: "Privacy glass"
         price: "£100"
-        note: "All trims; needs rear windows and a glazed bulkhead"
-        quote: "Privacy Glass Requires Glazing behind the first row (Light Transmission: 18% ± 2%) B2GAE O O O O O 100 120"
+        note: "All trims; adds a fixed rear window and glazed bulkhead at extra cost"
+        quote: "Privacy Glass (Darker Tinted Glass) - Transparency : 18% ± 2% Requires Glazing behind the first row B2GAE O O O O O 100 120 Adds Fixed Rear Window (B3HAC) and Glazed Bulkhead (A6ABC) at extra cost"
       - name: "Fixed rear window with day/night mirror"
         price: "£250"
         note: "All trims; needs the glazed bulkhead"
@@ -890,9 +892,9 @@ options:
         note: "All trims"
         quote: "Complete Underbody Corrosion Protection (Wax Protection) CJHAB O O O O O 250 300"
       - name: "Access ladder"
-        price: "£300"
+        price: "£250"
         note: "Trend, Limited and Trail"
-        quote: "Access Ladder BL0AB O O O - - 300 360"
+        quote: "Access Ladder BL0AB O O O - - 250 300"
       - name: "Integrated stowable roof rack"
         price: "£450"
         note: "All trims"
@@ -906,323 +908,321 @@ factCheck:
   date: 2026-11-01
 facts:
   - claim: "237 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "325 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "180 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "1,053kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "3,225kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "213 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "280 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "165 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "884kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "236 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "324 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "1,044kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "226 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "320 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "166 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
   - claim: "875kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2350 3225 875 2401 1650 2000 5350 2300"
   - claim: "203 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
   - claim: "277 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
   - claim: "152 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
   - claim: "201 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
   - claim: "275 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
   - claim: "150 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
   - claim: "862kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
   - claim: "225 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
   - claim: "318 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
   - claim: "1,016kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
   - claim: "847kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 275 152 2378 3225 847 2432 1650 2000 5350 2300"
   - claim: "189 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
   - claim: "290 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
   - claim: "133 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
   - claim: "975kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
   - claim: "172 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
   - claim: "254 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
   - claim: "123 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
   - claim: "806kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
   - claim: "234 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
   - claim: "319 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
   - claim: "179 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
   - claim: "1,132kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
   - claim: "3,350kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
   - claim: "210 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
   - claim: "163 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
   - claim: "963kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
   - claim: "1,124kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 318 179 2226 3350 1124 2277 1600 2000 5350 2300"
   - claim: "222 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
   - claim: "314 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
   - claim: "164 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
   - claim: "955kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2395 3350 955 2446 1750 1900 5350 2300"
   - claim: "272 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 272 151 2395 3350 955 2446 1750 1900 5350 2300"
   - claim: "151 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 272 151 2395 3350 955 2446 1750 1900 5350 2300"
   - claim: "199 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
   - claim: "270 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
   - claim: "149 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
   - claim: "941kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
   - claim: "312 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 312 164 2254 3350 1096 2308 1600 2000 5350 2300"
   - claim: "1,096kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 312 164 2254 3350 1096 2308 1600 2000 5350 2300"
   - claim: "200 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 200 270 151 2423 3350 927 2477 1750 1900 5350 2300"
   - claim: "927kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 200 270 151 2423 3350 927 2477 1750 1900 5350 2300"
   - claim: "187 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
   - claim: "285 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
   - claim: "132 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
   - claim: "1,055kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
   - claim: "170 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
   - claim: "249 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
   - claim: "122 miles"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
   - claim: "886kg"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
   - claim: "the unit Ford's UK website uses for this van's range"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "All-electric driving range of up to 230 miles"
   - claim: "11 September 2026"
-    calc: "The Ford UK price list used for the range and payload table has the footer 'Effective: 11/09/2026', which is 11 September 2026 (UK date order)"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "This price list is effective from 11th September 2026, and supersedes all previous price lists."
   - claim: "2,300kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "5,350kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "100kW (136PS)"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160"
   - claim: "160kW (218PS)"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "71kWh 160kW / 218PS 1 Speed Automatic BEV RWD TC39 46,820"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320 71kWh 160kW / 218PS 1 Speed Automatic BEV RWD TC39 63332 46,350"
   - claim: "210kW (285PS)"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 60,490"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 63339 60,020"
   - claim: "70mph"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "1-S peed RWD 3P 100kW 415 / 0-1750 70"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "1-Speed RWD 3P 100kW 415 / 0-1750 70"
   - claim: "81mph"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "1-S peed RWD 3P 160kW 415 / 0-1750 81"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "1-Speed RWD 3P 160kW 415 / 0-1750 81"
   - claim: "93mph"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "1-S peed RWD 3P 210kW 415 / 0-4600 93"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "1-Speed RWD 3P 210kW 415 / 0-4600 93"
   - claim: "415Nm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "1-S peed RWD 3P 100kW 415 / 0-1750 70"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "1-Speed RWD 3P 100kW 415 / 0-1750 70"
   - claim: "630Nm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "1-S peed AWD 3P 100kW 630 / 0-1750 70"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "1-Speed AWD 3P 100kW 630 / 0-1750 70"
   - claim: "2,602mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "3,002mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "3,050mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "3,450mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "1,777mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "1,392mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "5.8m³"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "6.8m³"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "1,314mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "1,400mm"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 5.8m3 3 Cargo Volume (max) 6.8m Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Cargo Area Length (max) 2602 3002 Cargo Area Length (upper) 2394 2794 Cargo Area Length (load-thru) 3050 3450 Cargo Area Width (max) 1777 1777 Cargo Area Width (wheel arches) 1392 1392 Cargo Area Height 1427 1425 Cargo Volume (max) 5.8m3 6.8m3 Rear Door Aperture Height 1314 1314 Rear Door Aperture Width 1400 1400"
   - claim: "170kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Maximum Roof Load 170KG 170KG"
   - claim: "Up to 125kW"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "10 to 80%"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "29 minutes"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "29 minutes, 10 to 80%"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
   - claim: "4 hours 40 minutes"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "6 hours 42 minutes"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "69 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "11kW (three-phase)"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "7.4kW"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "11kW"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "10 minutes"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "AC Charging DC Fast Charging Powertrain (10-80% SoC) (10-80% SoC) 7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes Range added with 10 - 69 miles"
   - claim: "71kWh"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160"
   - claim: "3 years or 100,000 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Warranty - 100,000 miles or 3 years"
-  - claim: "1 June 2026"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "This price list is effective from 1st June 2026"
   - claim: "80mph limiter"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "80MPH Speed Limiter (160kW BEV)"
   - claim: "70mph limiter"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "70MPH Speed Limiter (100kW BEV)"
   - claim: "34kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Power Dual Side Load Doors A4LAG 34"
   - claim: "don't include the driver"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "The payload stated above is the gross payload not including the driver."
 ---

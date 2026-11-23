@@ -8,7 +8,7 @@ specs:
   price: "£43,160"
   range: "237 miles"
   charging: "125kW"
-  payload: "1,132 kg"
+  payload: "1,132kg"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "This is the electric medium van we'd look at first. It gives up nothing to the diesel in load space, every version has a heat pump, and by all accounts it drives much like a car. The catches are payloads below the diesel's and a starting price of £43,160 before VAT and before the government van grant, with no basic trim to bring that down. Buy the 136PS Trend with rear-wheel drive unless your work really needs more."
 good:
@@ -40,8 +40,8 @@ facts:
   - claim: "125kW"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "High-speed 125 kW DC public chargers"
-  - claim: "1,132 kg"
-    calc: "Ford UK price list (effective 11/09/2026), Van Low Roof Technical Data, payload column: the highest panel-van figure is 1132 for the LWB Trend 340L 71kWh 100kW RWD (fact below). Every other E-Transit Custom panel-van row is lower (next highest: LWB Limited 100kW and 160kW RWD, both 1124). Written with a thousands comma: 1,132 kg"
+  - claim: "1,132kg"
+    calc: "Ford UK price list (effective 11/09/2026), Van Low Roof Technical Data, payload column: the highest panel-van figure is 1132 for the LWB Trend 340L 71kWh 100kW RWD (fact below). Every other E-Transit Custom panel-van row is lower (next highest: LWB Limited 100kW and 160kW RWD, both 1124). Written with a thousands comma: 1,132kg"
   - claim: "8 years or 100,000 miles"
     source: https://www.ford.co.uk/hybrid-electric/benefits
     quote: "Ford EVs come with an 8-year or 100,000-mile warranty"
@@ -171,17 +171,42 @@ facts:
   - claim: "all-wheel drive costs a Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
-  - claim: "every version is rated to pull a 2,300kg braked trailer"
-    source: https://www.autoexpress.co.uk/ford/transit-custom/e
-    quote: "every version has a braked capacity of 2,300kg"
+  - claim: "every panel van is rated to pull a 2,300kg braked trailer"
+    calc: "Ford price list (effective 11/09/2026), Van Low Roof Technical Data, Max Braked column: all 22 E-Transit Custom panel van rows (SWB and LWB, every trim and motor) show 2300, for example the SWB Trend 100kW RWD row (fact below)"
+  - claim: "every panel van"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "every panel van"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
+  - claim: "some double cab-in-van and Multicab versions are rated lower, at 2,250kg or 2,000kg"
+    calc: "Ford price list (effective 11/09/2026), Max Braked column: SWB Double Cab in Van Trend 100kW RWD shows 2250 and AWD shows 2000; SWB Multicab Limited 100kW RWD shows 2000 (facts below). Some double cab-in-van rows (for example SWB Limited RWD) still show 2300, so 'some'"
+  - claim: "double cab-in-van"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "SWB Double Cab in Van"
+  - claim: "rated lower, at 2,250kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 233 316 179 2301 3225 924 2352 1400 2000 5350 2250"
+  - claim: "2,000kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 209 271 163 2470 3350 880 2521 1650 2000 5350 2000"
+  - claim: "Multicab"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "SWB Multicab"
+  - claim: "Multicab versions are rated lower"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 231 310 178 2376 3225 849 2419 1400 2000 5225 2000"
   - claim: "braked trailer"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "2.3-tonne towing capability"
   # Range and charging
-  - claim: "an official WLTP range of up to 237 miles"
+  - claim: "Ford's price list (effective 11 September 2026)"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "This price list is effective from 11th September 2026, and supersedes all previous price lists."
+  - claim: "an official range of up to 237 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
-  - claim: "official WLTP range"
+  - claim: "official range"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "Based on 320 Series L1H1 with full charge and 70mph speed limiter. Actual range using Worldwide Harmonised Light Vehicle Test Procedure (WLTP)."
   - claim: "the short-wheelbase Trend with the 136PS motor and rear-wheel drive"
@@ -190,15 +215,27 @@ facts:
   - claim: "the short-wheelbase Trend with the 136PS motor and rear-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Trend 280 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 57318 36,260 43,512 38,139.83 45,684.80 280 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57320 37,300 44,760 39,179.83 46,932.80 280 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57321 39,300 47,160 41,179.83 49,332.80 320 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 61778 37,060 44,472 38,939.83 46,644.80 320 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57345 38,100 45,720 39,979.83 47,892.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57346 40,100 48,120 41,979.83 50,292.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel AWD TC39 57428 42,600 51,120 44,479.83 53,292.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 57724 40,350 48,420 42,229.83 50,592.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
-  - claim: "Ford's own WLTP motorway figure for the same van is 180 miles"
+  - claim: "Its motorway figure for the same van is 180 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
-  - claim: "Ford's own WLTP motorway figure"
+  - claim: "Its motorway figure"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
-  - claim: "Ford's own WLTP motorway figure"
-    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "172-mile WLTP Extra High range reflects motorway driving and 230-mile WLTP Overall Range reflects a combined driving cycle"
+  - claim: "Ford's UK website still shows the earlier £43,630 price"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "From £43,630 Recommended Retail Price Excl. Vat"
+  - claim: "230-mile range"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "All-electric driving range of up to 230 miles"
+  - claim: "the earlier £43,630 price"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630"
+  - claim: "230-mile range"
+    archive: sources/ford-transit-custom-price-list-2026-06.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
+  - claim: "still shows the earlier"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "This price list is effective from 11th September 2026, and supersedes all previous price lists."
   - claim: "213 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
@@ -458,11 +495,11 @@ If you run a diesel Transit Custom, or were about to order one, start here. On t
 
 Space is the big draw: whether you choose a short or long wheelbase, neither gives anything away to the diesel in load volume.
 
-Payload is where the battery costs you. On Ford's price list, effective from 11 September 2026, the best panel van is the long-wheelbase Trend with rear-wheel drive at 1,132 kg, with the long-wheelbase Limited just 8kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every version is rated to pull a 2,300kg braked trailer.
+Payload is where the battery costs you. On Ford's price list, effective from 11 September 2026, the best panel van is the long-wheelbase Trend with rear-wheel drive at 1,132kg, with the long-wheelbase Limited just 8kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every panel van is rated to pull a 2,300kg braked trailer, though some double cab-in-van and Multicab versions are rated lower, at 2,250kg or 2,000kg.
 
 ### Range and charging in the real world
 
-Ford quotes an official WLTP range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Ford's own WLTP motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps.
+Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. Ford's UK website still shows the earlier £43,630 price and 230-mile range. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps.
 
 Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid charge, 29 minutes in its price list and about 39 minutes on its website, so plan around the slower one. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
