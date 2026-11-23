@@ -78,9 +78,6 @@ facts:
   - claim: "towing is rated at 750kg"
     source: https://www.toyota.co.uk/new-cars/proace-city
     quote: "Towing Capacity 750 kg"
-  - claim: "Toyota is advertising finance offers on Proace City Electric orders placed between 1 October and 15 December 2026"
-    source: https://www.toyota.co.uk/new-cars/proace-city
-    quote: "only available on new retail orders of Proace City Electric between 1st October 2026 and 15th December 2026"
   - claim: "Toyota's service-activated warranty, which can run to 10 years"
     source: https://www.toyota.co.uk/new-cars/proace-city
     quote: "Up to 10 years / 100,000 mile Toyota Warranty"
@@ -159,7 +156,7 @@ facts:
 
 The Proace City Electric is for small businesses that want a small electric van for local work and plan to keep it for years. It's built by Stellantis and is technically the same van as the Citroën, Peugeot, Vauxhall and Fiat versions: the [Citroën ë-Berlingo](/vans/citroen-berlingo/), [Peugeot E-Partner](/vans/peugeot-partner/), [Vauxhall Combo Electric](/vans/vauxhall-combo/) and [Fiat E-Doblo](/vans/fiat-doblo/). Toyota doesn't belong to Stellantis but has the right to sell the van under its own badge. Before its 2024 facelift, the Proace City range won Best Small Van in the Parkers Van and Pickup Awards 2024, announced in November 2023, largely on the strength of Toyota's warranty.
 
-When the facelifted Proace City van range was announced in March 2024, it was diesel only at first. The electric van is now very much on sale: it's in Toyota's current UK price list, and Toyota is advertising finance offers on Proace City Electric orders placed between 1 October and 15 December 2026.
+When the facelifted Proace City van range was announced in March 2024, it was diesel only at first. The electric van is now very much on sale: it's in Toyota's current UK price list.
 
 ### What we know, and what we don't
 

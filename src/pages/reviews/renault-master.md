@@ -27,7 +27,7 @@ sources:
   - sources/renault-master-van-brochure-2026-06.pdf
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
-  - https://van-of-the-year.com/2024/09/16/new-renault-master-conquers-33rd-international-van-of-the-year-award-2025/
+  - https://vanreviewer.co.uk/news/international-van-of-the-year-2027-shortlist-revealed/
   - https://www.autoexpress.co.uk/renault/master
   - https://www.autoexpress.co.uk/renault/master/367224/electric-van-year-2025-renault-master-e-tech
   - https://www.autoexpress.co.uk/best/electric-vans
@@ -112,11 +112,11 @@ facts:
     quote: "the five-year, 100,000-mile warranty. This is an improvement over Renault's fairly standard three-year offering"
   # Awards and background
   - claim: "International Van of the Year 2025"
-    source: https://van-of-the-year.com/2024/09/16/new-renault-master-conquers-33rd-international-van-of-the-year-award-2025/
-    quote: "The fourth generation Renault Master was announced as the International Van of the Year 2025"
+    source: https://vanreviewer.co.uk/news/international-van-of-the-year-2027-shortlist-revealed/
+    quote: "the Renault Master E-Tech, winner of International Van of the Year 2025"
   - claim: "the fourth-generation Master"
-    source: https://van-of-the-year.com/2024/09/16/new-renault-master-conquers-33rd-international-van-of-the-year-award-2025/
-    quote: "The fourth generation Renault Master"
+    source: https://www.autoexpress.co.uk/renault/master
+    quote: "For the fourth-generation Renault Master, the firm has redesigned its large van from the ground up."
   - claim: "the old electric Master, which managed 115 miles at best"
     source: https://www.autoexpress.co.uk/best/electric-vans
     quote: "While the older model only offered a miserly 115 miles of battery range at best"
@@ -392,7 +392,7 @@ facts:
     quote: "The maximum discount available for some large vans is £5,000"
 ---
 
-The Master E-Tech on sale now is the fourth-generation Master, and it shares little but a name with the old electric Master, which managed 115 miles at best. The new Master range was named International Van of the Year 2025.
+The Master E-Tech on sale now is the fourth-generation Master, and it shares little but a name with the old electric Master, which managed 115 miles at best. The Master E-Tech was named International Van of the Year 2025.
 
 ### Who it's for
 
