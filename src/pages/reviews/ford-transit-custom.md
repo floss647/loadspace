@@ -5,12 +5,12 @@ van: ford-transit-custom
 date: 2026-10-30T08:00:00Z
 summary: "The electric Transit Custom keeps the diesel's load space and has a reputation for being car-like to drive. Payload, price and a range that is decent rather than class-leading are the things to weigh up."
 specs:
-  price: "£43,630"
-  range: "230 miles"
+  price: "£43,160"
+  range: "237 miles"
   charging: "125kW"
-  payload: "1,126 kg"
+  payload: "1,132 kg"
   batteryWarranty: "8 years or 100,000 miles"
-verdict: "This is the electric medium van we'd look at first. It gives up nothing to the diesel in load space, every version has a heat pump, and by all accounts it drives much like a car. The catches are payloads below the diesel's and a starting price of £43,630 before VAT and before the government van grant, with no basic trim to bring that down. Buy the 136PS Trend with rear-wheel drive unless your work really needs more."
+verdict: "This is the electric medium van we'd look at first. It gives up nothing to the diesel in load space, every version has a heat pump, and by all accounts it drives much like a car. The catches are payloads below the diesel's and a starting price of £43,160 before VAT and before the government van grant, with no basic trim to bring that down. Buy the 136PS Trend with rear-wheel drive unless your work really needs more."
 good:
   - "Same load space as the diesel van"
   - "A reputation for car-like driving"
@@ -31,23 +31,17 @@ sources:
   - https://www.autoexpress.co.uk/ford/transit-custom/e
 facts:
   # Specs (Ford UK website, price list and disclosures)
-  - claim: "£43,630"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "From £43,630 Recommended Retail Price Excl. Vat"
-  - claim: "£43,630"
+  - claim: "£43,160"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "Trend 280 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 35,150 42,180 37,029.83 44,352.80 280 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 36,190 43,428 38,069.83 45,600.80 280 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 38,190 45,828 40,069.83 48,000.80 320 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 35,950 43,140 37,829.83 45,312.80 320 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 36,990 44,388 38,869.83 46,560.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 38,990 46,788 40,869.83 48,960.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel AWD TC39 41,490 49,788 43,369.83 51,960.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 40,350 48,420 42,229.83 50,592.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
-  - claim: "230 miles"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "All-electric driving range of up to 230 miles"
-  - claim: "230 miles"
+    quote: "Trend 280 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 57318 36,260 43,512 38,139.83 45,684.80 280 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57320 37,300 44,760 39,179.83 46,932.80 280 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57321 39,300 47,160 41,179.83 49,332.80 320 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 61778 37,060 44,472 38,939.83 46,644.80 320 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57345 38,100 45,720 39,979.83 47,892.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57346 40,100 48,120 41,979.83 50,292.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel AWD TC39 57428 42,600 51,120 44,479.83 53,292.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 57724 40,350 48,420 42,229.83 50,592.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
+  - claim: "237 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "125kW"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "High-speed 125 kW DC public chargers"
-  - claim: "1,126 kg"
-    calc: "Ford UK price list (effective 01/06/2026), Van Low Roof Technical Data, payload column: the highest panel-van figure is 1126 for the LWB Limited 340L 71kWh RWD (fact below; the 160kW RWD row also shows 1126). Every other E-Transit Custom panel-van row is lower (Trend LWB RWD 1124). Written with a thousands comma: 1,126 kg"
+  - claim: "1,132 kg"
+    calc: "Ford UK price list (effective 11/09/2026), Van Low Roof Technical Data, payload column: the highest panel-van figure is 1132 for the LWB Trend 340L 71kWh 100kW RWD (fact below). Every other E-Transit Custom panel-van row is lower (next highest: LWB Limited 100kW and 160kW RWD, both 1124). Written with a thousands comma: 1,132 kg"
   - claim: "8 years or 100,000 miles"
     source: https://www.ford.co.uk/hybrid-electric/benefits
     quote: "Ford EVs come with an 8-year or 100,000-mile warranty"
@@ -106,9 +100,12 @@ facts:
   - claim: "Lower payloads than the diesel version"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "The EV can't carry as much weight as the diesel van"
-  - claim: "a starting price of £43,630 before VAT"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "From £43,630 Recommended Retail Price Excl. Vat"
+  - claim: "a starting price of £43,160 before VAT"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
+  - claim: "before VAT"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Engine CAP NRP (£) RRP (£) OTR (£) OTR (£) GVM Transmission Fuel Drive VED (Usable) Code (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
   - claim: "before the government van grant"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "Save £5,000 on RRP Benefit from a saving of £5,000 with the Gov Plug-In Van Grant"
@@ -123,7 +120,7 @@ facts:
     quote: "High-equipment means higher pricing"
   - claim: "Buy the 136PS Trend with rear-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
   # Who it's for
   - claim: "the same cab and load bay layout"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
@@ -147,16 +144,16 @@ facts:
   - claim: "neither gives anything away to the diesel in load volume"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "The E-Transit Custom provides the same amount of load volume as its combustion counterparts."
-  - claim: "1 June 2026"
-    calc: "Ford UK price list footer reads 'Effective: 01/06/2026', which is 1 June 2026 (UK date order)"
-  - claim: "the long-wheelbase Limited with rear-wheel drive"
+  - claim: "11 September 2026"
+    calc: "Ford UK price list footer reads 'Effective: 11/09/2026', which is 11 September 2026 (UK date order)"
+  - claim: "the long-wheelbase Trend with rear-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 226 311 170 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "the long-wheelbase Trend just 2kg behind"
-    calc: "Ford price list LWB Trend 340L 71kWh 100kW RWD payload 1124 (fact below) vs LWB Limited 1126: 1126 - 1124 = 2kg"
-  - claim: "the long-wheelbase Trend"
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "the long-wheelbase Limited just 8kg behind"
+    calc: "Ford price list (effective 11/09/2026) LWB Limited 340L 71kWh 100kW RWD payload 1124 (fact below) vs LWB Trend 1132: 1132 - 1124 = 8kg"
+  - claim: "the long-wheelbase Limited"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 227 311 171 2226 3350 1124 2277 1600 2000 5350 2300"
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 318 179 2226 3350 1124 2277 1600 2000 5350 2300"
   - claim: "payloads are lower than the diesel's"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Reduced payloads compared to the diesels"
@@ -164,13 +161,13 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "Payloads are often below 1,000kg"
   - claim: "all-wheel drive costs a Trend about 170kg"
-    calc: "Ford price list payload column: SWB Trend 136PS RWD 1046 vs AWD 877 (1046 - 877 = 169); LWB Trend 136PS RWD 1124 vs AWD 955 (1124 - 955 = 169). 169kg, rounded: about 170kg"
+    calc: "Ford price list (effective 11/09/2026) payload column: SWB Trend 136PS RWD 1053 vs AWD 884 (1053 - 884 = 169); LWB Trend 136PS RWD 1132 vs AWD 963 (1132 - 963 = 169). 169kg, rounded: about 170kg"
   - claim: "all-wheel drive costs a Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "all-wheel drive costs a Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 209 285 160 2395 3350 955 2446 1750 1900 5350 2300"
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
   - claim: "all-wheel drive costs a Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
@@ -181,30 +178,30 @@ facts:
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "2.3-tonne towing capability"
   # Range and charging
-  - claim: "an official WLTP range of up to 230 miles"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "All-electric driving range of up to 230 miles"
+  - claim: "an official WLTP range of up to 237 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "official WLTP range"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "Based on 320 Series L1H1 with full charge and 70mph speed limiter. Actual range using Worldwide Harmonised Light Vehicle Test Procedure (WLTP)."
   - claim: "the short-wheelbase Trend with the 136PS motor and rear-wheel drive"
-    source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
-    quote: "The official maximum is now 230 miles, which comes from the 136hp SWB Trend model."
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "the short-wheelbase Trend with the 136PS motor and rear-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "Ford's own WLTP motorway figure for the same van is 172 miles"
+    quote: "Trend 280 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 57318 36,260 43,512 38,139.83 45,684.80 280 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57320 37,300 44,760 39,179.83 46,932.80 280 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57321 39,300 47,160 41,179.83 49,332.80 320 2.0L EcoBlue 110PS 6 Speed Manual Diesel FWD TC39 61778 37,060 44,472 38,939.83 46,644.80 320 2.0L EcoBlue 136PS 6 Speed Manual Diesel FWD TC39 57345 38,100 45,720 39,979.83 47,892.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel FWD TC39 57346 40,100 48,120 41,979.83 50,292.80 320 2.0L EcoBlue 136PS 8 Speed Automatic Diesel AWD TC39 57428 42,600 51,120 44,479.83 53,292.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 57724 40,350 48,420 42,229.83 50,592.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
+  - claim: "Ford's own WLTP motorway figure for the same van is 180 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "Ford's own WLTP motorway figure"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "MPG_Mile/kWh AER Weights and Loads Axle Plates Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
-  - claim: "Ford's own WLTP motorway figure for the same van is 172 miles"
+  - claim: "Ford's own WLTP motorway figure"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "172-mile WLTP Extra High range reflects motorway driving and 230-mile WLTP Overall Range reflects a combined driving cycle"
-  - claim: "212 miles"
+  - claim: "213 miles"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
   - claim: "a full load and a cold morning"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "this might suffer when fully laden in the winter"
@@ -253,16 +250,16 @@ facts:
     quote: "Choice of three power outputs"
   - claim: "218PS"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 160kW / 218PS 1 Speed Automatic BEV RWD TC39 46,820 56,184 48,699.83 58,356.80"
+    quote: "320 71kWh 160kW / 218PS 1 Speed Automatic BEV RWD TC39 63332 46,350 55,620 48,229.83 57,792.80"
   - claim: "285PS"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 60,490 72,588 62,369.83 74,760.80"
+    quote: "320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 63339 60,020 72,024 61,899.83 74,196.80"
   - claim: "136PS"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
   - claim: "the last only in the MS-RT on Ford's current price list"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "MS-RT 320 2.0L EcoBlue 150PS 6 Speed Manual Diesel FWD TC39 51,750 62,100 53,629.83 64,272.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel FWD TC39 54,550 65,460 56,429.83 67,632.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel AWD TC39 57,050 68,460 58,929.83 70,632.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 54,550 65,460 56,429.83 67,632.80 320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 60,490"
+    quote: "MS-RT 320 2.0L EcoBlue 150PS 6 Speed Manual Diesel FWD TC39 61781 52,860 63,432 54,739.83 65,604.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel FWD TC39 61782 55,660 66,792 57,539.83 68,964.80 320 2.0L EcoBlue 170PS 8 Speed Automatic Diesel AWD TC39 60134 58,160 69,792 60,039.83 71,964.80 320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 60131 54,550 65,460 56,429.83 67,632.80 320 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 63339 60,020"
   - claim: "with rear- or all-wheel drive"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "All-wheel drive is also available, adding an extra motor to the equation."
@@ -274,7 +271,7 @@ facts:
     quote: "In all power outputs it is a smooth and punchy motor"
   - claim: "even the 136PS version"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
   - claim: "that's the one we'd pick"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "The 136hp version is the one that is most suited to van duties."
@@ -341,7 +338,7 @@ facts:
     quote: "Driver lumbar support Cruise Control"
   - claim: "a reversing camera and front and rear parking sensors as standard"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "Reverse Parking Aid 13\" Touchscreen Front Parking Aid Courtesy Light Rear View Camera"
+    quote: "Vapor Injected Heater (Bev Only) HLRAB Reverse Parking Aid 13\" Touchscreen HNKAB Front Parking Aid Courtesy Light HNLAB Rear View Camera"
   - claim: "a reversing camera and front and rear parking sensors as standard"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "a reversing camera and front and rear sensors as standard"
@@ -353,16 +350,16 @@ facts:
     quote: "Intelligent Adaptive Cruise Control - (Manual Transmission) DBCAJ HKCAB O O O O O 1675 2010 Intelligent Adaptive Cruise Control with Stop & Go - (Automatic Transmission)"
   # Which version to buy
   - claim: "In short-wheelbase form it has the longest official range"
-    calc: "Ford price list Van Low Roof Technical Data, AER Overall column: the SWB Trend 136PS RWD row shows 230 (fact above), the highest of any E-Transit Custom panel van row; others range from 229 down to 169"
+    calc: "Ford price list (effective 11/09/2026) Van Low Roof Technical Data, AER Overall column: the SWB Trend 136PS RWD row shows 237 (fact above), the highest of any E-Transit Custom panel van row; others range from 236 down to 170"
   - claim: "the standard kit is generous enough that you don't need to go higher"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
     quote: "Trend providing a good level of kit so you don't really need to go above that"
   - claim: "costs £700 more"
-    calc: "Ford price list (effective 01/06/2026), 136PS RWD Trend NRP less VAT: LWB £44,330 (fact below) - SWB £43,630 = £700"
+    calc: "Ford price list (effective 11/09/2026), 136PS RWD Trend NRP less VAT: LWB £43,860 (fact below) - SWB £43,160 = £700"
   - claim: "long wheelbase"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 44,330 53,196 46,209.83 55,368.80"
-  - claim: "Limited adds heated front seats, alloy wheels and keyless entry"
+    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63336 43,860 52,632 45,739.83 54,804.80"
+  - claim: "Limited adds heated front seats and keyless entry"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Limited VAN - Standard Equipment above Trend"
   - claim: "Limited adds heated front seats"
@@ -371,9 +368,6 @@ facts:
   - claim: "Limited adds heated front seats"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Opt for Limited trim or above, and you'll get heated seats"
-  - claim: "alloy wheels"
-    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "16\" Alloy Wheel"
   - claim: "keyless entry"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Keyless Entry and Keyless Start"
@@ -390,21 +384,21 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "Power Hands Free Side Opening A4LAD A6QAL - - - O O 525 630"
   - claim: "for £1,550 over the equivalent Trend"
-    calc: "Ford price list (effective 01/06/2026), 136PS RWD NRP less VAT: SWB Limited £45,180 - SWB Trend £43,630 = £1,550; LWB Limited £45,880 - LWB Trend £44,330 = £1,550"
+    calc: "Ford price list (effective 11/09/2026), 136PS RWD NRP less VAT: SWB Limited £44,710 - SWB Trend £43,160 = £1,550; LWB Limited £45,410 - LWB Trend £43,860 = £1,550"
   - claim: "over the equivalent Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 41,900 50,280 43,779.83 52,452.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 45,180 54,216 47,059.83 56,388.80"
+    quote: "320 2.5L Duratec 232PS 1 Speed Automatic PHEV FWD TC39 57725 41,900 50,280 43,779.83 52,452.80 320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63337 44,710 53,652 46,589.83 55,824.80"
   - claim: "over the equivalent Trend"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 45,880 55,056 47,759.83 57,228.80"
+    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63333 45,410 54,492 47,289.83 56,664.80"
   - claim: "All-wheel drive adds £5,000 to a Trend"
-    calc: "Ford price list (effective 01/06/2026), Trend 136PS NRP less VAT: SWB AWD £48,630 - SWB RWD £43,630 = £5,000; LWB AWD £49,330 - LWB RWD £44,330 = £5,000"
+    calc: "Ford price list (effective 11/09/2026), Trend 136PS NRP less VAT: SWB AWD £48,160 - SWB RWD £43,160 = £5,000; LWB AWD £48,860 - LWB RWD £43,860 = £5,000"
   - claim: "All-wheel drive adds"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV AWD TC39 48,630 58,356 50,509.83 60,528.80"
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV AWD TC39 63341 48,160 57,792 50,039.83 59,964.80"
   - claim: "All-wheel drive adds"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV AWD TC39 49,330 59,196 51,209.83 61,368.80"
+    quote: "340 71kWh 100kW / 136PS 1 Speed Automatic BEV AWD TC39 63347 48,860 58,632 50,739.83 60,804.80"
   # Alternatives
   - claim: "shares its underpinnings with the Ford through a partnership between the two companies"
     source: https://www.parkers.co.uk/vans-pickups/ford/transit-custom/2024-e-transit-custom-review/
@@ -428,23 +422,23 @@ facts:
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
     quote: "Some rivals have longer ranges"
   # Price and warranty
-  - claim: "£45,509.83 on the road before VAT"
+  - claim: "£45,039.83 on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630 52,356 45,509.83 54,528.80"
+    quote: "320 71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 63340 43,160 51,792 45,039.83 53,964.80"
   - claim: "on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "Engine NRP RRP (£) OTR OTR GVM Transmission Fuel Drive VED (Usable) (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
+    quote: "Engine CAP NRP (£) RRP (£) OTR (£) OTR (£) GVM Transmission Fuel Drive VED (Usable) Code (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
   - claim: "Both figures are before the government's Plug-in Van Grant"
-    calc: "Ford's website gives the same £43,630 as 'Recommended Retail Price Excl. Vat' and separately says 'Save £5,000 on RRP ... with the Gov Plug-In Van Grant', so the price list NRP (identical figure) and the OTR built on it are pre-grant; the price list itself makes no grant deduction"
+    calc: "Ford's website says 'Save £5,000 on RRP ... with the Gov Plug-In Van Grant', so the grant is a saving taken off Ford's list price. The price list (effective 11/09/2026) has no grant column or deduction and never mentions the grant, so its NRP (£43,160) and the OTR built on it (£45,039.83) are both before the grant"
   - claim: "a separate £5,000 saving"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "Save £5,000 on RRP Benefit from a saving of £5,000 with the Gov Plug-In Van Grant"
-  - claim: "The list price before VAT rises to"
+  - claim: "the list price before VAT rises to"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "Engine NRP RRP (£) OTR OTR GVM Transmission Fuel Drive VED (Usable) (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
-  - claim: "£66,190 for a long-wheelbase MS-RT with all-wheel drive"
+    quote: "Engine CAP NRP (£) RRP (£) OTR (£) OTR (£) GVM Transmission Fuel Drive VED (Usable) Code (less VAT) (Inc VAT) (Less VAT) (Inc VAT)"
+  - claim: "£65,720 for a long-wheelbase MS-RT with all-wheel drive"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
-    quote: "340 71kWh 210kW / 285PS 1 Speed Automatic BEV AWD TC39 66,190 79,428 68,069.83 81,600.80"
+    quote: "340 71kWh 210kW / 285PS 1 Speed Automatic BEV RWD TC39 63353 60,720 72,864 62,599.83 75,036.80 340 71kWh 210kW / 285PS 1 Speed Automatic BEV AWD TC39 63352 65,720 78,864 67,599.83 81,036.80"
   - claim: "The battery is covered for 8 years or 100,000 miles"
     source: https://www.ford.co.uk/hybrid-electric/benefits
     quote: "Ford EVs come with an 8-year or 100,000-mile warranty"
@@ -464,11 +458,11 @@ If you run a diesel Transit Custom, or were about to order one, start here. On t
 
 Space is the big draw: whether you choose a short or long wheelbase, neither gives anything away to the diesel in load volume.
 
-Payload is where the battery costs you. On Ford's price list, effective from 1 June 2026, the best panel van is the long-wheelbase Limited with rear-wheel drive at 1,126 kg, with the long-wheelbase Trend just 2kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every version is rated to pull a 2,300kg braked trailer.
+Payload is where the battery costs you. On Ford's price list, effective from 11 September 2026, the best panel van is the long-wheelbase Trend with rear-wheel drive at 1,132 kg, with the long-wheelbase Limited just 8kg behind. But payloads are lower than the diesel's, plenty of versions carry under 1,000kg, and on Ford's figures all-wheel drive costs a Trend about 170kg. Check the plated figure for your exact van before you add racking. Towing is a strength: every version is rated to pull a 2,300kg braked trailer.
 
 ### Range and charging in the real world
 
-Ford quotes an official WLTP range of up to 230 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Ford's own WLTP motorway figure for the same van is 172 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 212 miles. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps.
+Ford quotes an official WLTP range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Ford's own WLTP motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut that further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps.
 
 Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid charge, 29 minutes in its price list and about 39 minutes on its website, so plan around the slower one. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
@@ -484,7 +478,7 @@ With the gear selector on a steering column stalk and the parking brake switch b
 
 ### Which version to buy
 
-Buy the Trend with the 136PS motor and rear-wheel drive. In short-wheelbase form it has the longest official range, and the standard kit is generous enough that you don't need to go higher. The long wheelbase costs £700 more. Limited adds heated front seats, alloy wheels and keyless entry for £1,550 over the equivalent Trend. A hands-free power sliding door is an extra-cost option on every trim. All-wheel drive adds £5,000 to a Trend and costs payload and range, so only pick it if you need the traction. We'd skip the MS-RT.
+Buy the Trend with the 136PS motor and rear-wheel drive. In short-wheelbase form it has the longest official range, and the standard kit is generous enough that you don't need to go higher. The long wheelbase costs £700 more. Limited adds heated front seats and keyless entry for £1,550 over the equivalent Trend. A hands-free power sliding door is an extra-cost option on every trim. All-wheel drive adds £5,000 to a Trend and costs payload and range, so only pick it if you need the traction. We'd skip the MS-RT.
 
 ### Alternatives
 
@@ -492,4 +486,4 @@ The [Volkswagen e-Transporter](/vans/volkswagen-transporter/) shares its underpi
 
 ### Price
 
-Ford lists it from £43,630 before VAT, or £45,509.83 on the road before VAT, on its price list effective from 1 June 2026. Both figures are before the government's Plug-in Van Grant, which Ford shows as a separate £5,000 saving. The list price before VAT rises to £66,190 for a long-wheelbase MS-RT with all-wheel drive. Prices change, so get a written quote, and read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles and the van for 3 years or 100,000 miles, with servicing every 2 years and no mileage limit. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Ford lists it from £43,160 before VAT, or £45,039.83 on the road before VAT, on its price list effective from 11 September 2026. Both figures are before the government's Plug-in Van Grant, which Ford shows as a separate £5,000 saving. For the panel van, the list price before VAT rises to £65,720 for a long-wheelbase MS-RT with all-wheel drive. Prices change, so get a written quote, and read our [grants and tax guide](/guides/grants-and-tax/) before you order. The battery is covered for 8 years or 100,000 miles and the van for 3 years or 100,000 miles, with servicing every 2 years and no mileage limit. To compare running costs with a diesel, try our [electric vs diesel calculator](/tools/electric-vs-diesel/).

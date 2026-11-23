@@ -3,33 +3,33 @@ van: ford-transit-custom
 title: "Ford E-Transit Custom specs"
 summary: "Load space, payload, range, towing and charging for each E-Transit Custom panel van, from Ford UK's own price list."
 date: 2026-11-01T09:00:00Z
-sourceLabel: "Ford UK Transit Custom price list, 1 June 2026"
+sourceLabel: "Ford UK Transit Custom price lists, 1 June 2026 and 11 September 2026"
 tables:
   - title: "Range, payload and weight"
     head: ["Version", "Official range", "City range", "Motorway range", "Payload", "Gross weight"]
     rows:
-      - ["SWB Trend, 100kW RWD", "230 miles", "321 miles", "172 miles", "1,046kg", "3,225kg"]
-      - ["SWB Trend, 100kW AWD", "212 miles", "291 miles", "161 miles", "877kg", "3,225kg"]
-      - ["SWB Limited, 100kW RWD", "229 miles", "320 miles", "171 miles", "1,047kg", "3,225kg"]
-      - ["SWB Limited, 160kW RWD", "218 miles", "314 miles", "159 miles", "1,047kg", "3,225kg"]
-      - ["SWB Limited, 100kW AWD", "211 miles", "290 miles", "160 miles", "878kg", "3,225kg"]
-      - ["SWB Limited, 160kW AWD", "201 miles", "287 miles", "148 miles", "878kg", "3,225kg"]
-      - ["SWB Trail, 160kW AWD", "201 miles", "285 miles", "148 miles", "854kg", "3,225kg"]
-      - ["SWB Sport, 160kW RWD", "218 miles", "310 miles", "160 miles", "1,009kg", "3,225kg"]
-      - ["SWB Sport, 160kW AWD", "202 miles", "284 miles", "149 miles", "840kg", "3,225kg"]
-      - ["SWB MS-RT, 210kW RWD", "173 miles", "259 miles", "123 miles", "973kg", "3,225kg"]
-      - ["SWB MS-RT, 210kW AWD", "170 miles", "255 miles", "122 miles", "804kg", "3,225kg"]
-      - ["LWB Trend, 100kW RWD", "227 miles", "311 miles", "171 miles", "1,124kg", "3,350kg"]
-      - ["LWB Trend, 100kW AWD", "209 miles", "285 miles", "160 miles", "955kg", "3,350kg"]
-      - ["LWB Limited, 100kW RWD", "226 miles", "311 miles", "170 miles", "1,126kg", "3,350kg"]
-      - ["LWB Limited, 160kW RWD", "214 miles", "305 miles", "157 miles", "1,126kg", "3,350kg"]
-      - ["LWB Limited, 100kW AWD", "208 miles", "285 miles", "158 miles", "957kg", "3,350kg"]
-      - ["LWB Limited, 160kW AWD", "199 miles", "281 miles", "147 miles", "957kg", "3,350kg"]
-      - ["LWB Trail, 160kW AWD", "198 miles", "279 miles", "147 miles", "933kg", "3,350kg"]
-      - ["LWB Sport, 160kW RWD", "215 miles", "301 miles", "159 miles", "1,088kg", "3,350kg"]
-      - ["LWB Sport, 160kW AWD", "199 miles", "278 miles", "148 miles", "919kg", "3,350kg"]
-      - ["LWB MS-RT, 210kW RWD", "171 miles", "254 miles", "122 miles", "1,052kg", "3,350kg"]
-      - ["LWB MS-RT, 210kW AWD", "169 miles", "250 miles", "121 miles", "883kg", "3,350kg"]
+      - ["SWB Trend, 100kW RWD", "237 miles", "325 miles", "180 miles", "1,053kg", "3,225kg"]
+      - ["SWB Trend, 100kW AWD", "213 miles", "280 miles", "165 miles", "884kg", "3,225kg"]
+      - ["SWB Limited, 100kW RWD", "236 miles", "324 miles", "180 miles", "1,044kg", "3,225kg"]
+      - ["SWB Limited, 160kW RWD", "226 miles", "320 miles", "166 miles", "1,044kg", "3,225kg"]
+      - ["SWB Limited, 100kW AWD", "213 miles", "280 miles", "165 miles", "875kg", "3,225kg"]
+      - ["SWB Limited, 160kW AWD", "203 miles", "277 miles", "152 miles", "875kg", "3,225kg"]
+      - ["SWB Trail, 160kW AWD", "201 miles", "275 miles", "150 miles", "862kg", "3,225kg"]
+      - ["SWB Sport, 160kW RWD", "225 miles", "318 miles", "166 miles", "1,016kg", "3,225kg"]
+      - ["SWB Sport, 160kW AWD", "203 miles", "275 miles", "152 miles", "847kg", "3,225kg"]
+      - ["SWB MS-RT, 210kW RWD", "189 miles", "290 miles", "133 miles", "975kg", "3,225kg"]
+      - ["SWB MS-RT, 210kW AWD", "172 miles", "254 miles", "123 miles", "806kg", "3,225kg"]
+      - ["LWB Trend, 100kW RWD", "234 miles", "319 miles", "179 miles", "1,132kg", "3,350kg"]
+      - ["LWB Trend, 100kW AWD", "210 miles", "275 miles", "163 miles", "963kg", "3,350kg"]
+      - ["LWB Limited, 100kW RWD", "234 miles", "318 miles", "179 miles", "1,124kg", "3,350kg"]
+      - ["LWB Limited, 160kW RWD", "222 miles", "314 miles", "164 miles", "1,124kg", "3,350kg"]
+      - ["LWB Limited, 100kW AWD", "210 miles", "275 miles", "163 miles", "955kg", "3,350kg"]
+      - ["LWB Limited, 160kW AWD", "201 miles", "272 miles", "151 miles", "955kg", "3,350kg"]
+      - ["LWB Trail, 160kW AWD", "199 miles", "270 miles", "149 miles", "941kg", "3,350kg"]
+      - ["LWB Sport, 160kW RWD", "222 miles", "312 miles", "164 miles", "1,096kg", "3,350kg"]
+      - ["LWB Sport, 160kW AWD", "200 miles", "270 miles", "151 miles", "927kg", "3,350kg"]
+      - ["LWB MS-RT, 210kW RWD", "187 miles", "285 miles", "132 miles", "1,055kg", "3,350kg"]
+      - ["LWB MS-RT, 210kW AWD", "170 miles", "249 miles", "122 miles", "886kg", "3,350kg"]
   - title: "Load space"
     head: ["", "SWB (L1H1)", "LWB (L2H1)"]
     rows:
@@ -62,12 +62,12 @@ tables:
       - ["Maximum braked towing", "2,300kg"]
       - ["Gross train weight", "5,350kg"]
       - ["Vehicle warranty", "3 years or 100,000 miles"]
-notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans as standard. An 80mph limiter is standard on Limited and Sport vans with the 160kW motor, but only an option on the Trail.", "Ford's performance table gives the 160kW motor a top speed of 81mph, but on Limited and Sport vans the standard 80mph limiter applies.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "Ford's price list doesn't print a unit beside its range figures. They are in miles: Ford's UK website quotes up to 230 miles, the top figure in the price list.", "The Trail version comes with all-wheel drive only."]
+notes: ["Ford's payload figures are gross payloads and don't include the driver, so allow for the driver's weight.", "Ford fits a 70mph limiter to 100kW vans as standard. An 80mph limiter is standard on Limited and Sport vans with the 160kW motor, but only an option on the Trail.", "Ford's performance table gives the 160kW motor a top speed of 81mph, but on Limited and Sport vans the standard 80mph limiter applies.", "Options add weight and cut payload: Ford estimates power sliding doors on both sides add 34kg, for example.", "Ranges are Ford's overall electric range figures; the city figures are higher and the motorway figures lower.", "Ford's price list doesn't print a unit beside its range figures. They are in miles, the unit Ford's UK website uses for this van's range.", "The Trail version comes with all-wheel drive only."]
 versions:
   - name: "SWB (L1H1), RWD, 3,225kg"
     figures:
-      range: "173 to 230 miles"
-      payload: "973 to 1,047kg"
+      range: "189 to 237 miles"
+      payload: "975 to 1,053kg"
       volume: "5.8m³"
       loadLength: "2,602mm"
       loadWidth: "1,392mm"
@@ -76,8 +76,8 @@ versions:
       topSpeed: "70 to 93mph"
   - name: "SWB (L1H1), AWD, 3,225kg"
     figures:
-      range: "170 to 212 miles"
-      payload: "804 to 878kg"
+      range: "172 to 213 miles"
+      payload: "806 to 884kg"
       volume: "5.8m³"
       loadLength: "2,602mm"
       loadWidth: "1,392mm"
@@ -86,8 +86,8 @@ versions:
       topSpeed: "70 to 93mph"
   - name: "LWB (L2H1), RWD, 3,350kg"
     figures:
-      range: "171 to 227 miles"
-      payload: "1,052 to 1,126kg"
+      range: "187 to 234 miles"
+      payload: "1,055 to 1,132kg"
       volume: "6.8m³"
       loadLength: "3,002mm"
       loadWidth: "1,392mm"
@@ -96,8 +96,8 @@ versions:
       topSpeed: "70 to 93mph"
   - name: "LWB (L2H1), AWD, 3,350kg"
     figures:
-      range: "169 to 209 miles"
-      payload: "883 to 957kg"
+      range: "170 to 210 miles"
+      payload: "886 to 963kg"
       volume: "6.8m³"
       loadLength: "3,002mm"
       loadWidth: "1,392mm"
@@ -905,219 +905,209 @@ factCheck:
   by: "independent fact-checker"
   date: 2026-11-01
 facts:
-  - claim: "up to 230 miles"
+  - claim: "237 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "325 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "180 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "1,053kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "3,225kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "213 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
+  - claim: "280 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
+  - claim: "165 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
+  - claim: "884kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2341 3225 884 2392 1650 2000 5350 2300"
+  - claim: "236 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "324 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "1,044kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 236 324 180 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "226 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "320 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "166 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 226 320 166 2181 3225 1044 2232 1400 2000 5350 2300"
+  - claim: "875kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.8 213 280 165 2350 3225 875 2401 1650 2000 5350 2300"
+  - claim: "203 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
+  - claim: "277 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
+  - claim: "152 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 277 152 2350 3225 875 2401 1650 2000 5350 2300"
+  - claim: "201 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
+  - claim: "275 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
+  - claim: "150 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
+  - claim: "862kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 275 150 2363 3225 862 2446 1650 2000 5350 2300"
+  - claim: "225 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
+  - claim: "318 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
+  - claim: "1,016kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.8 225 318 166 2209 3225 1016 2263 1400 2000 5350 2300"
+  - claim: "847kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 203 275 152 2378 3225 847 2432 1650 2000 5350 2300"
+  - claim: "189 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
+  - claim: "290 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
+  - claim: "133 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
+  - claim: "975kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 189 290 133 2250 3225 975 2253 1400 2000 5350 2300"
+  - claim: "172 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
+  - claim: "254 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
+  - claim: "123 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
+  - claim: "806kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 172 254 123 2419 3225 806 2422 1650 2000 5350 2300"
+  - claim: "234 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "319 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "179 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "1,132kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "3,350kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 319 179 2218 3350 1132 2269 1600 2000 5350 2300"
+  - claim: "210 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
+  - claim: "163 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
+  - claim: "963kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2387 3350 963 2438 1750 1900 5350 2300"
+  - claim: "1,124kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 234 318 179 2226 3350 1124 2277 1600 2000 5350 2300"
+  - claim: "222 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
+  - claim: "314 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
+  - claim: "164 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 314 164 2226 3350 1124 2277 1600 2000 5350 2300"
+  - claim: "955kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.7 210 275 163 2395 3350 955 2446 1750 1900 5350 2300"
+  - claim: "272 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 272 151 2395 3350 955 2446 1750 1900 5350 2300"
+  - claim: "151 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 201 272 151 2395 3350 955 2446 1750 1900 5350 2300"
+  - claim: "199 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
+  - claim: "270 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
+  - claim: "149 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
+  - claim: "941kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 199 270 149 2409 3350 941 2492 1750 1900 5350 2300"
+  - claim: "312 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 312 164 2254 3350 1096 2308 1600 2000 5350 2300"
+  - claim: "1,096kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 222 312 164 2254 3350 1096 2308 1600 2000 5350 2300"
+  - claim: "200 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 200 270 151 2423 3350 927 2477 1750 1900 5350 2300"
+  - claim: "927kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.6 200 270 151 2423 3350 927 2477 1750 1900 5350 2300"
+  - claim: "187 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
+  - claim: "285 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
+  - claim: "132 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
+  - claim: "1,055kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.1 187 285 132 2295 3350 1055 2298 1600 2000 5350 2300"
+  - claim: "170 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
+  - claim: "249 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
+  - claim: "122 miles"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
+  - claim: "886kg"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 249 122 2464 3350 886 2467 1750 1900 5350 2300"
+  - claim: "the unit Ford's UK website uses for this van's range"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "All-electric driving range of up to 230 miles"
-  - claim: "230 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "321 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "172 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "1,046kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "3,225kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
-  - claim: "212 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
-  - claim: "291 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
-  - claim: "161 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
-  - claim: "877kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 212 291 161 2348 3225 877 2399 1650 2000 5350 2300"
-  - claim: "229 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 229 320 171 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "320 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 229 320 171 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "171 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 229 320 171 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "1,047kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 229 320 171 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "218 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 218 314 159 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "314 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 218 314 159 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "159 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 218 314 159 2178 3225 1047 2232 1400 2000 5350 2300"
-  - claim: "211 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 211 290 160 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "290 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 211 290 160 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "160 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 211 290 160 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "878kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 211 290 160 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "201 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 201 287 148 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "287 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 201 287 148 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "148 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 201 287 148 2347 3225 878 2401 1650 2000 5350 2300"
-  - claim: "285 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 201 285 148 2371 3225 854 2454 1650 2000 5350 2300"
-  - claim: "854kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 201 285 148 2371 3225 854 2454 1650 2000 5350 2300"
-  - claim: "310 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 218 310 160 2216 3225 1009 2270 1400 2000 5350 2300"
-  - claim: "1,009kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.7 218 310 160 2216 3225 1009 2270 1400 2000 5350 2300"
-  - claim: "202 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.5 202 284 149 2385 3225 840 2439 1650 2000 5350 2300"
-  - claim: "284 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.5 202 284 149 2385 3225 840 2439 1650 2000 5350 2300"
-  - claim: "149 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.5 202 284 149 2385 3225 840 2439 1650 2000 5350 2300"
-  - claim: "840kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.5 202 284 149 2385 3225 840 2439 1650 2000 5350 2300"
-  - claim: "173 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 173 259 123 2252 3225 973 2459 1400 2000 5350 2300"
-  - claim: "259 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 173 259 123 2252 3225 973 2459 1400 2000 5350 2300"
-  - claim: "123 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 173 259 123 2252 3225 973 2459 1400 2000 5350 2300"
-  - claim: "973kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 173 259 123 2252 3225 973 2459 1400 2000 5350 2300"
-  - claim: "170 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 255 122 2421 3225 804 2628 1650 2000 5350 2300"
-  - claim: "255 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 255 122 2421 3225 804 2628 1650 2000 5350 2300"
-  - claim: "122 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 255 122 2421 3225 804 2628 1650 2000 5350 2300"
-  - claim: "804kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "320S 71kWh 210kW / 285PS 1 Speed Automatic AWD 2.0 170 255 122 2421 3225 804 2628 1650 2000 5350 2300"
-  - claim: "227 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 227 311 171 2226 3350 1124 2277 1600 2000 5350 2300"
-  - claim: "311 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 227 311 171 2226 3350 1124 2277 1600 2000 5350 2300"
-  - claim: "1,124kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 227 311 171 2226 3350 1124 2277 1600 2000 5350 2300"
-  - claim: "3,350kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 227 311 171 2226 3350 1124 2277 1600 2000 5350 2300"
-  - claim: "209 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 209 285 160 2395 3350 955 2446 1750 1900 5350 2300"
-  - claim: "955kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.6 209 285 160 2395 3350 955 2446 1750 1900 5350 2300"
-  - claim: "226 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 226 311 170 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "1,126kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 226 311 170 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "214 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 214 305 157 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "305 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 214 305 157 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "157 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 214 305 157 2224 3350 1126 2278 1600 2000 5350 2300"
-  - claim: "208 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.5 208 285 158 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "158 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.5 208 285 158 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "957kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 100kW / 136PS 1 Speed Automatic AWD 2.5 208 285 158 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "199 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 199 281 147 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "281 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 199 281 147 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "147 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 199 281 147 2393 3350 957 2447 1750 1900 5350 2300"
-  - claim: "198 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 198 279 147 2417 3350 933 2500 1750 1900 5350 2300"
-  - claim: "279 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 198 279 147 2417 3350 933 2500 1750 1900 5350 2300"
-  - claim: "933kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 198 279 147 2417 3350 933 2500 1750 1900 5350 2300"
-  - claim: "215 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 215 301 159 2262 3350 1088 2316 1600 2000 5350 2300"
-  - claim: "301 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 215 301 159 2262 3350 1088 2316 1600 2000 5350 2300"
-  - claim: "1,088kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic RWD 2.6 215 301 159 2262 3350 1088 2316 1600 2000 5350 2300"
-  - claim: "278 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 199 278 148 2431 3350 919 2485 1750 1900 5350 2300"
-  - claim: "919kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 160kW / 218PS 1 Speed Automatic AWD 2.4 199 278 148 2431 3350 919 2485 1750 1900 5350 2300"
-  - claim: "254 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 171 254 122 2298 3350 1052 2505 1600 2000 5350 2300"
-  - claim: "1,052kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic RWD 2.0 171 254 122 2298 3350 1052 2505 1600 2000 5350 2300"
-  - claim: "169 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 1.9 169 250 121 2467 3350 883 2674 1750 1900 5350 2300"
-  - claim: "250 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 1.9 169 250 121 2467 3350 883 2674 1750 1900 5350 2300"
-  - claim: "121 miles"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 1.9 169 250 121 2467 3350 883 2674 1750 1900 5350 2300"
-  - claim: "883kg"
-    archive: sources/ford-transit-custom-price-list-2026-06.pdf
-    quote: "340L 71kWh 210kW / 285PS 1 Speed Automatic AWD 1.9 169 250 121 2467 3350 883 2674 1750 1900 5350 2300"
+  - claim: "11 September 2026"
+    calc: "The Ford UK price list used for the range and payload table has the footer 'Effective: 11/09/2026', which is 11 September 2026 (UK date order)"
   - claim: "2,300kg"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
