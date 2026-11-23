@@ -21,7 +21,7 @@ bad:
   - "Light steering and a bouncy ride, by some accounts"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-23
 sources:
   - https://www.toyota.co.uk/new-cars/proace-max
   - https://www.toyota.co.uk/owners/toyota-warranty
@@ -52,9 +52,6 @@ facts:
   - claim: "Toyota's price list says the grant is subject to PIVG approval"
     source: https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261012-Toyota-Media-Site-price-list.pdf
     quote: "* OZEV GRANT subject to PIVG approval"
-  - claim: "a finance example on Toyota's own site shows a £5,000 grant already deducted"
-    source: https://www.toyota.co.uk/new-cars/proace-max
-    quote: "On the road price includes £5,000 OZEV Government plug-in van grant."
   - claim: "260 miles"
     source: https://www.toyota.co.uk/new-cars/proace-max
     quote: "a best-in-class driving range of up to 260 miles"
@@ -298,7 +295,7 @@ Toyota gives every new van three years or 60,000 miles of cover, and each qualif
 
 ### Price and the grant
 
-Toyota's UK price list, effective from 1 October 2026, starts the electric panel van at £50,637 excluding VAT and before any grant, for the L3H2 Icon without ply lining. The Proace Max Electric wasn't on the government's published list of grant-eligible vans when we checked (October 2026), and Toyota's price list says the grant is subject to PIVG approval, though a finance example on Toyota's own site shows a £5,000 grant already deducted. The smaller Proace Electric and Proace City Electric are listed, but they are different vans. Check with the dealer whether the grant applies before you compare quotes. The Movano, ë-Relay, E-Boxer and E-Ducato are all on the list, with a discount worth up to £5,000 on some large vans (see our [grants and tax guide](/guides/grants-and-tax/)), so compare quotes after the grant. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the running costs.
+Toyota's UK price list, effective from 1 October 2026, starts the electric panel van at £50,637 excluding VAT and before any grant, for the L3H2 Icon without ply lining. The Proace Max Electric wasn't on the government's published list of grant-eligible vans when we checked (October 2026), and Toyota's price list says the grant is subject to PIVG approval. The smaller Proace Electric and Proace City Electric are listed, but they are different vans. Check with the dealer whether the grant applies before you compare quotes. The Movano, ë-Relay, E-Boxer and E-Ducato are all on the list, with a discount worth up to £5,000 on some large vans (see our [grants and tax guide](/guides/grants-and-tax/)), so compare quotes after the grant. Our [electric vs diesel calculator](/tools/electric-vs-diesel/) helps with the running costs.
 
 ### Alternatives
 

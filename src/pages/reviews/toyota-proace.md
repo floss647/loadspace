@@ -15,7 +15,7 @@ good: ["Warranty can run to 10 years with Toyota servicing", "Five years of road
 bad: ["Reported to cost more than its twins", "Warranty cover depends on Toyota servicing", "Missing from Toyota's current price list"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-06
+  date: 2026-11-23
 sources:
   - https://www.toyota.co.uk/new-cars/proace
   - https://www.toyota.co.uk/owners/toyota-warranty
@@ -77,9 +77,6 @@ facts:
   - claim: "exactly the same as it gives for the diesel"
     source: https://www.toyota.co.uk/new-cars/proace
     quote: "Max Payload (Electric) 1,000 - 1,300kg Max Payload (Diesel) 1,000 - 1,300kg"
-  - claim: "a finance example quotes 207 miles for the 75kWh Sport"
-    source: https://www.toyota.co.uk/new-cars/proace
-    quote: "Model shown is MY26 Proace Medium Sport with Ply Lining Electric (75kw) 136 DIN hp £49,775 including optional Metallic paint at £730. Prices correct at time of being published. On the road price includes £5,000 OZEV Government plug-in van grant. Terms and conditions and eligibility criteria apply to the grant for more information visit www.gov.uk/government/organisations/office-for-low-emission-vehicles . Grant scheme may be withdrawn and eligibility/amounts may change at any time. Information correct as of October 2026. Fuel economy mpg (l/100km): n/a. CO₂ emissions: 0g/km. Electric range 207 miles."
   - claim: "say Toyota Proace vehicles are not eligible"
     source: https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/electric/Toyota-Battery-Care-Terms-and-Conditions-19th-Feb-2026.pdf
     quote: "Toyota Proace vehicles are not"
@@ -94,11 +91,17 @@ facts:
   - claim: "towing is rated at 1,000kg"
     calc: "Toyota's Proace page (https://www.toyota.co.uk/new-cars/proace), electric powertrain panel: 'Payload 1000 - 1300kg Towing Capacity 1000 kg'. 1000 kg = 1,000kg."
   - claim: "Icon and Sport"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Icon Medium"
+  - claim: "Icon and Sport"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Sport Medium"
+  - claim: "Toyota's electric price list for April to June 2026"
+    archive: sources/toyota-proace-electric-price-list-2026-04.pdf
+    quote: "Offers available on Eligible Vehicles purchased between 1st April 2026 – 30th June 2026"
+  - claim: "Toyota's website still promotes the Proace Electric"
     source: https://www.toyota.co.uk/new-cars/proace
-    quote: "Model shown is MY26 Proace Medium Sport with Ply Lining Electric (75kw) 136 DIN hp"
-  - claim: "Toyota is advertising finance offers on Proace Electric orders placed between 1 October and 15 December 2026"
-    source: https://www.toyota.co.uk/new-cars/proace
-    quote: "only available on new retail orders of Proace Electric between 1st October 2026 and 15th December 2026"
+    quote: "the Proace Electric is the smart solution to your transport needs"
   - claim: "keeps renewing with each Toyota service for up to 10 years"
     source: https://www.toyota.co.uk/new-cars/proace
     quote: "Every time you complete a Toyota service, 12 or 24 months warranty (dependent on vehicle servicing schedule) will be included for your vehicle, up to 100,000 miles, or 10 years"
@@ -199,7 +202,7 @@ We found no published UK road test of the current electric Proace, and we haven'
 
 ### Is it still on sale?
 
-Yes, but with a gap in the paperwork. Toyota is advertising finance offers on Proace Electric orders placed between 1 October and 15 December 2026, yet the Proace pages in the price list Toyota issued from 1 October 2026 list only diesel vans. Ask the dealer for a current electric price list before you get too far.
+Yes, but with a gap in the paperwork. Toyota's website still promotes the Proace Electric, yet the Proace pages in the price list Toyota issued from 1 October 2026 list only diesel vans. Ask the dealer for a current electric price list before you get too far.
 
 ### The warranty
 
@@ -209,9 +212,9 @@ In September 2024, Toyota's UK press office said the high-voltage battery on its
 
 ### Range, charging and kit
 
-In February 2024 Toyota launched the facelifted diesel Proace, with a 10-inch touchscreen even on the entry Active trim. Toyota's current site shows the electric van in Icon and Sport trims, with 50kWh and 75kWh batteries.
+In February 2024 Toyota launched the facelifted diesel Proace, with a 10-inch touchscreen even on the entry Active trim. Toyota's electric price list for April to June 2026 has the panel van in Icon and Sport trims, with 50kWh and 75kWh batteries.
 
-Toyota quotes up to 217 miles with the 75kWh battery, which it says is the maximum official (WLTP) figure, though its April 2025 brochure says up to 215; the brochure's WLTP table gives 133 miles for the 50kWh van, and a finance example quotes 207 miles for the 75kWh Sport, so the battery choice matters. On charging, Toyota quotes 0 to 80% in about 32 minutes on DC in one place and 20 to 80% in as little as 30 minutes in another, but doesn't give a kW rating. The earlier van had 100kW rapid charging, so ask what the current one takes. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
+Toyota quotes up to 217 miles with the 75kWh battery, which it says is the maximum official (WLTP) figure, though its April 2025 brochure says up to 215; the brochure's WLTP table gives 133 miles for the 50kWh van, so the battery choice matters. On charging, Toyota quotes 0 to 80% in about 32 minutes on DC in one place and 20 to 80% in as little as 30 minutes in another, but doesn't give a kW rating. The earlier van had 100kW rapid charging, so ask what the current one takes. Our [charging guide](/guides/charging-an-electric-van/) explains what to look for.
 
 Toyota's website gives the electric van a payload of 1,000kg to 1,300kg, depending on version, which is exactly the same as it gives for the diesel, so we haven't scored it; its April 2025 brochure gives 1,000kg to 1,400kg. Towing is rated at 1,000kg. Ask for the plated payload of the exact van you're quoted.
 
