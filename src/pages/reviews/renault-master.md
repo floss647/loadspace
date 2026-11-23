@@ -392,7 +392,7 @@ facts:
     quote: "The maximum discount available for some large vans is £5,000"
 ---
 
-The Master E-Tech on sale now is the fourth-generation Master, and it shares little but a name with the old electric Master, which managed 115 miles at best. The new Master was named International Van of the Year 2025.
+The Master E-Tech on sale now is the fourth-generation Master, and it shares little but a name with the old electric Master, which managed 115 miles at best. Renault says the Master was named International Van of the Year 2025.
 
 ### Who it's for
 

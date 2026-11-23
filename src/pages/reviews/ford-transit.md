@@ -125,7 +125,7 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/ford/transit/2022-e-transit-review/
     quote: "The bigger battery has also heralded an uptick in the E-Transit's fast charging abilities"
   - claim: "it starts at £49,545 before VAT"
-    calc: "Cheapest panel van in Ford's price list effective 6 November 2026: Van Leader 350M 135kW/184PS Standard Range 68kWh at £49,545.00 RRP excl. VAT (see spec fact above)"
+    calc: "Cheapest panel van in Ford's price list effective 28 August 2026, revised November 2026: Van Leader 350M 135kW/184PS Standard Range 68kWh at £49,545.00 RRP excl. VAT (see spec fact above)"
   - claim: "before the van grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Some vans can be sold at a 35% discount. The seller will include the discount in the purchase price."
@@ -324,7 +324,7 @@ facts:
     quote: "being awarded a Platinum rating in 2024"
   # Which version to buy
   - claim: "The 269PS motor adds £1,150"
-    calc: "Ford price list (effective 6 November 2026), RRP excl. VAT: Van Leader 350M H2 Standard Range 269PS £50,695.00 - 184PS £49,545.00 = £1,150; Van Leader 350L H2 Standard Range 269PS £51,495.00 - 184PS £50,345.00 = £1,150"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026), RRP excl. VAT: Van Leader 350M H2 Standard Range 269PS £50,695.00 - 184PS £49,545.00 = £1,150; Van Leader 350L H2 Standard Range 269PS £51,495.00 - 184PS £50,345.00 = £1,150"
   - claim: "The 269PS motor adds"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350M MWB / L2 H2 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £50,695.00"
@@ -335,14 +335,14 @@ facts:
     source: https://vanreviewer.co.uk/ford/e-transit/review/1394
     quote: "Perhaps our greatest reservation is all that power - particularly if you're running a fleet."
   - claim: "Trend costs £3,190 more than Leader"
-    calc: "Ford price list (effective 6 November 2026), RRP excl. VAT, Van 350L LWB / L3 H2 184PS Standard Range: Trend £53,535.00 - Leader £50,345.00 = £3,190"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026), RRP excl. VAT, Van 350L LWB / L3 H2 184PS Standard Range: Trend £53,535.00 - Leader £50,345.00 = £3,190"
   - claim: "more than Leader on a long-wheelbase medium-roof van"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350L LWB / L3 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £50,345.00"
   - claim: "The Enhanced Range battery only comes on the longer L3 and extended vans"
-    calc: "Ford price list (effective 6 November 2026): every Van row with 'Enhanced Range 96kWh' is a 350L, 390L or 425L (LWB / L3) or a 350E or 425E (LWB-E); no MWB / L2 (350M, 390M, 425M) van row has it"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026): every Van row with 'Enhanced Range 96kWh' is a 350L, 390L or 425L (LWB / L3) or a 350E or 425E (LWB-E); no MWB / L2 (350M, 390M, 425M) van row has it"
   - claim: "adds £5,900 to a Leader 350L"
-    calc: "Ford price list (effective 6 November 2026), RRP excl. VAT, Van Leader 350L LWB / L3 H2 184PS: Enhanced Range £56,245.00 - Standard Range £50,345.00 = £5,900"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026), RRP excl. VAT, Van Leader 350L LWB / L3 H2 184PS: Enhanced Range £56,245.00 - Standard Range £50,345.00 = £5,900"
   - claim: "to a Leader 350L"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350L LWB / L3 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD £56,245.00"
@@ -366,11 +366,14 @@ facts:
   - claim: "£51,424.83 on the road before VAT"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350M MWB / L2 H2 Electric Motor [135kW/184PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £49,545.00 £59,454.00 £51,424.83 £61,627.00"
-  - claim: "6 November 2026"
+  - claim: "28 August 2026"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
+    quote: "This price list is effective from 28th August 2026"
+  - claim: "revised in November 2026"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Effective: 6th November 2026"
   - claim: "£63,635"
-    calc: "Ford price list (effective 6 November 2026), Van Trend 425E LWB-E H3 269PS Enhanced Range RRP excl. VAT £63,635.00 (fact below), written as £63,635"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026), Van Trend 425E LWB-E H3 269PS Enhanced Range RRP excl. VAT £63,635.00 (fact below), written as £63,635"
   - claim: "a Trend 425E with the 269PS motor and the Enhanced Range battery"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Trend 425E LWB-E H3 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Enhanced Range 96kWh RWD £63,635.00"
@@ -381,7 +384,7 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-new_transit.pdf
     quote: "Van Leader 350M MWB / L2 H2 Electric Motor [198kW/269PS] 1-speed automatic Electric Drive N/A ZERO Standard Range 68kWh RWD £50,695.00"
   - claim: "the most expensive panel van"
-    calc: "Ford price list (effective 6 November 2026): the highest RRP excl. VAT among E-Transit 'Van' rows is Trend 425E LWB-E H3 269PS Enhanced Range at £63,635.00; only DCiV, bus and welfare rows cost more"
+    calc: "Ford price list (effective 28 August 2026, revised November 2026): the highest RRP excl. VAT among E-Transit 'Van' rows is Trend 425E LWB-E H3 269PS Enhanced Range at £63,635.00; only DCiV, bus and welfare rows cost more"
   - claim: "GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant"
     source: https://www.gov.uk/plug-in-vehicle-grants/vans
     quote: "Ford E-Transit (Leader) Ford E-Transit (Trend)"
@@ -436,4 +439,4 @@ The [Renault Master E-Tech](/vans/renault-master/) and its twin the [Nissan Inte
 
 ### Price
 
-Ford lists it from £49,545 before VAT, or £51,424.83 on the road before VAT, on its price list effective from 6 November 2026. That's for a Leader 350M with the 184PS motor and the Standard Range battery (Ford's website still headlines £50,695 for an E-Transit Base with the 269PS motor, the same price as the 269PS Leader 350M); the most expensive panel van is £63,635 for a Trend 425E with the 269PS motor and the Enhanced Range battery. All are before the van grant: GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant, worth up to £5,000; see our [grants and tax guide](/guides/grants-and-tax/). The battery is covered for 8 years or 100,000 miles and the van itself for 3 years or 100,000 miles, and servicing is every two years with no mileage limit. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).
+Ford lists it from £49,545 before VAT, or £51,424.83 on the road before VAT, on its price list effective from 28 August 2026, revised in November 2026. That's for a Leader 350M with the 184PS motor and the Standard Range battery (Ford's website still headlines £50,695 for an E-Transit Base with the 269PS motor, the same price as the 269PS Leader 350M); the most expensive panel van is £63,635 for a Trend 425E with the 269PS motor and the Enhanced Range battery. All are before the van grant: GOV.UK lists the E-Transit Leader and Trend, with either battery, as eligible for the large van grant, worth up to £5,000; see our [grants and tax guide](/guides/grants-and-tax/). The battery is covered for 8 years or 100,000 miles and the van itself for 3 years or 100,000 miles, and servicing is every two years with no mileage limit. Compare running costs with our [electric vs diesel calculator](/tools/electric-vs-diesel/).

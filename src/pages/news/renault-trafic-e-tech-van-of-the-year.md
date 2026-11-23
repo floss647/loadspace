@@ -223,7 +223,7 @@ facts:
 
 The all-new **Renault Trafic E-Tech** has been named **International Van of the Year 2027**. Renault says it was the unanimous choice of the 26 jurors, trade journalists from 26 European countries. The award was presented at the IAA Transportation show in Hanover on 14 September. Renault says this is its sixth van to win, and the first Trafic since 2002.
 
-The Stellantis ProOne Compact van was reported to have come second. It covers versions of the Citroën Berlingo, Fiat Doblò, Opel Combo and Peugeot Partner, which were shortlisted together. The same reports say the Farizon V7E and Volkswagen Caddy Cargo shared third place, and the other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7.
+The Stellantis ProOne Compact van was reported to have come second. It covers versions of the Citroën Berlingo, Fiat Doblò, Opel Combo and Peugeot Partner, which were shortlisted together. The same report says the Farizon V7E and Volkswagen Caddy Cargo shared third place, and the other shortlisted vans were the Hyundai Staria Electric and Maxus Deliver 7.
 
 ## A new kind of Trafic
 
