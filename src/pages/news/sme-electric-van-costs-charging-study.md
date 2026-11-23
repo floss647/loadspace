@@ -6,6 +6,9 @@ tag: Costs
 summary: "Modelling commissioned by a group of companies including Zenith and Enterprise Mobility suggests a 10-van business with private charging could save around £42,000 over five years compared with diesel, Greenfleet reports, but could be far worse off relying on public chargers."
 stat: "£42,000"
 statLabel: "around this much, the modelled five-year saving for a 10-van business with private charging, compared with diesel."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-23
 sources:
   - https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
 facts:
