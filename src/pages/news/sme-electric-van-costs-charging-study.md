@@ -40,7 +40,7 @@ facts:
   - claim: "medium-sized"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "a medium-sized business opting for a new 10-van electric fleet over diesel"
-  - claim: "a construction firm running 10 vans"
+  - claim: "construction firm running 10 vans"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "a construction company operating 10 vans"
   - claim: "a sole-trader window cleaner"
