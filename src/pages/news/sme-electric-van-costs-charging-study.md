@@ -25,10 +25,10 @@ facts:
   - claim: "a surveying firm with five company cars"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "a surveying business with five company cars"
-  - claim: "compared electric with petrol and diesel vehicles"
+  - claim: "compared electric with combustion-engine vehicles"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "Cebr's analysis compares the costs of electric and internal combustion engine vehicles across a five-year period"
-  - claim: "access to charging, as well as on financing and the up-front cost"
+  - claim: "access to charging, financing and being able to absorb the up-front cost"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "It finds that the economics of transition are heavily influenced by access to charging infrastructure, financing and the ability to absorb upfront investment."
   - claim: "Zenith and Enterprise Mobility"
@@ -37,6 +37,9 @@ facts:
   - claim: "lobbying the government over the ZEV Mandate"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "It is calling on Government to use its review of the ZEV Mandate to establish a realistic and achievable trajectory for new electric car and van sales"
+  - claim: "medium-sized"
+    source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
+    quote: "a medium-sized business opting for a new 10-van electric fleet over diesel"
   - claim: "a construction firm running 10 vans"
     source: https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
     quote: "a construction company operating 10 vans"
@@ -114,9 +117,9 @@ facts:
     quote: "Per Voegerl, Chief Executive of the United Rental Group, said"
 ---
 
-Whether an electric van saves a small business money depends heavily on its access to charging, as well as on financing and the up-front cost, according to modelling reported by Greenfleet. The research was carried out by the Centre for Economics and Business Research (Cebr) and commissioned by the **Open Road Partnership**: United Rental Group, Zenith, Enterprise Mobility and Vertu Motors.
+Whether an electric van saves a small or medium-sized business money depends heavily on access to charging, financing and being able to absorb the up-front cost, according to modelling reported by Greenfleet. The research was carried out by the Centre for Economics and Business Research (Cebr) and commissioned by the **Open Road Partnership**: United Rental Group, Zenith, Enterprise Mobility and Vertu Motors.
 
-Cebr looked at three illustrative businesses: **a construction firm running 10 vans**, a surveying firm with five company cars and **a sole-trader window cleaner**, and compared electric with petrol and diesel vehicles over five years. Its sums included purchase and finance, insurance, charging equipment, tax, grants, fuel and electricity, servicing, and the time lost using public chargers.
+Cebr looked at three illustrative businesses: **a medium-sized construction firm running 10 vans**, a surveying firm with five company cars and **a sole-trader window cleaner**, and compared electric with combustion-engine vehicles over five years. Its sums included purchase and finance, insurance, charging equipment, tax, grants, fuel and electricity, servicing, and the time lost using public chargers.
 
 ## The 10-van business
 
@@ -126,11 +129,11 @@ Cebr looked at three illustrative businesses: **a construction firm running 10 v
 
 ## The sole trader
 
-For the window cleaner, financing an electric van would leave the business **around £100 worse off** after five years than buying a diesel van outright. Cebr's analysis suggests financing may wipe out the longer-term savings, even though it spreads the up-front cost.
+For the window cleaner, financing an electric van would leave the business **around £100 worse off** after five years than buying a diesel van outright. The research suggests financing may wipe out the longer-term savings, even though it spreads the up-front cost.
 
 ## What the partnership wants
 
-The partnership is calling on the government to use its review of the ZEV Mandate to set "a realistic and achievable trajectory". It also wants faster access to affordable, reliable charging and help with depot charging, plus more time and flexibility for small firms to switch.
+The partnership is calling on the government to use its review of the ZEV Mandate to set "a realistic and achievable trajectory". It also wants faster access to affordable, reliable charging and help with depot charging, plus more time and flexibility for small and medium-sized firms to switch.
 
 Per Voegerl, chief executive of United Rental Group, said that for many small and medium businesses "the economics of making the switch simply don't stack up yet".
 
