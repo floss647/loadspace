@@ -134,7 +134,7 @@ facts:
   - claim: "fewer problems with height-restricted car parks"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "Sub-2 metre roof Avoid being restricted by tight car park entrances"
-  - claim: "1,968mm tall on 16-inch wheels"
+  - claim: "1,968mm tall (short wheelbase) or 1,966mm (long wheelbase) on 16-inch wheels"
     archive: sources/ford-transit-custom-price-list-2026-09.pdf
     quote: "Overall Vehicle Height (16” wheels) 1968 1966"
   # Load area and payload
@@ -498,7 +498,7 @@ facts:
 
 ### Who it's for
 
-If you run a diesel Transit Custom, or were about to order one, start here. On the job it's the same van: the same load volume, the same cab and load bay layout, and the same racking fits in the back. It suits trades and fleets on predictable routes who can charge at base overnight. It only comes with a low roof, 1,968mm tall on 16-inch wheels according to Ford's price list, so no standing room, but fewer problems with height-restricted car parks.
+If you run a diesel Transit Custom, or were about to order one, start here. On the job it's the same van: the same load volume, the same cab and load bay layout, and the same racking fits in the back. It suits trades and fleets on predictable routes who can charge at base overnight. It only comes with a low roof, 1,968mm tall (short wheelbase) or 1,966mm (long wheelbase) on 16-inch wheels according to Ford's price list, so no standing room, but fewer problems with height-restricted car parks.
 
 ### Load area and payload
 
