@@ -6,6 +6,9 @@ tag: Policy
 summary: "Businesses including BT, IKEA, Centrica and Openreach have written to ministers urging them to keep the zero-emission targets for new cars and vans, Greenfleet reports. They also say electric van choice, charging and depot grid connections are still barriers, according to the same report. The government says the result of its review will be known shortly."
 stat: "335,000"
 statLabel: "more than this many electric vehicles deployed in the UK by members of the EV100 business network, according to Greenfleet."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-26
 sources:
   - https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
   - https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
