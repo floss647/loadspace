@@ -133,7 +133,7 @@ facts:
     quote: "With the driving range of up to 285 miles"
   - claim: "as did Nissan's December 2025 release"
     source: https://uk.nissannews.com/en-GB/releases/interstar-crowned-large-van-of-the-year-at-the-annual-what-van-awards
-    quote: "2025/12/03"
+    quote: "03/12/2025"
   - claim: "and in places 285, as did Nissan's"
     source: https://uk.nissannews.com/en-GB/releases/interstar-crowned-large-van-of-the-year-at-the-annual-what-van-awards
     quote: "a range of up to 285 miles"

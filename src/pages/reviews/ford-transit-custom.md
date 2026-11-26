@@ -133,10 +133,10 @@ facts:
     quote: "the E-Transit Custom is only available as the 1,968mm tall H1"
   - claim: "fewer problems with height-restricted car parks"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "Sub-2 meter roof Avoid being restricted by tight car park entrances"
-  - claim: "under 2 metres tall"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "Sub-2 meter roof Avoid being restricted by tight car park entrances"
+    quote: "Sub-2 metre roof Avoid being restricted by tight car park entrances"
+  - claim: "1,968mm tall on 16-inch wheels"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Overall Vehicle Height (16” wheels) 1968 1966"
   # Load area and payload
   - claim: "a short or long wheelbase"
     source: https://www.autoexpress.co.uk/ford/transit-custom/e
@@ -197,8 +197,8 @@ facts:
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 231 310 178 2376 3225 849 2419 1400 2000 5225 2000"
   - claim: "braked trailer"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "2.3-tonne towing capability"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
   # Range and charging
   - claim: "Ford's price list (effective 11 September 2026)"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
@@ -224,13 +224,19 @@ facts:
   - claim: "Ford's UK website still shows the earlier £43,630 price"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "From £43,630 Recommended Retail Price Excl. Vat"
-  - claim: "230-mile range"
+  - claim: "the earlier 230 miles in some places"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
     quote: "All-electric driving range of up to 230 miles"
+  - claim: "223 and"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "WLTP combined range: Up to 223 miles"
+  - claim: "233 miles in others"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "The Ford E-Transit Custom offers a WLTP combined range of up to 233 miles"
   - claim: "the earlier £43,630 price"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "71kWh 100kW / 136PS 1 Speed Automatic BEV RWD TC39 43,630"
-  - claim: "230-mile range"
+  - claim: "the earlier 230 miles"
     archive: sources/ford-transit-custom-price-list-2026-06.pdf
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.8 230 321 172 2179 3225 1046 2230 1400 2000 5350 2300"
   - claim: "still shows the earlier"
@@ -248,15 +254,18 @@ facts:
   - claim: "Rapid charging runs at up to 125kW"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
-  - claim: "29 minutes in its price list"
+  - claim: "Ford's price list gives 29 minutes"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
-  - claim: "about 39 minutes on its website"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "10-80% charge in approx. 39 minutes"
   - claim: "10 to 80% rapid charge"
+    source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
+    quote: "Powertrain (10-80% SoC) (10-80% SoC)"
+  - claim: "its website gives both 29 minutes"
     source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "10-80% charge in approx. 39 minutes"
+    quote: "the Ford E-Transit Custom charges from 10-80% in approximately 29 minutes"
+  - claim: "about 39 minutes in different places"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "DC fast charging: (125 kW) 10-80% in approx. 39 minutes"
   - claim: "4 hours 40 minutes on an 11kW three-phase charger"
     source: https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf
     quote: "7.4kW 11kW Max Power 125kW (1-phase tethered) (3-phase tethered) BEV Charging Time 6 hours 42 minutes 4 hours 40 minutes 29 minutes"
@@ -489,7 +498,7 @@ facts:
 
 ### Who it's for
 
-If you run a diesel Transit Custom, or were about to order one, start here. On the job it's the same van: the same load volume, the same cab and load bay layout, and the same racking fits in the back. It suits trades and fleets on predictable routes who can charge at base overnight. It only comes with a low roof, under 2 metres tall, so no standing room, but fewer problems with height-restricted car parks.
+If you run a diesel Transit Custom, or were about to order one, start here. On the job it's the same van: the same load volume, the same cab and load bay layout, and the same racking fits in the back. It suits trades and fleets on predictable routes who can charge at base overnight. It only comes with a low roof, 1,968mm tall on 16-inch wheels according to Ford's price list, so no standing room, but fewer problems with height-restricted car parks.
 
 ### Load area and payload
 
@@ -499,9 +508,9 @@ Payload is where the battery costs you. On Ford's price list, effective from 11 
 
 ### Range and charging in the real world
 
-Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut the range further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps. Ford's UK website still shows the earlier £43,630 price and 230-mile range.
+Ford's price list (effective 11 September 2026) gives an official range of up to 237 miles, for the short-wheelbase Trend with the 136PS motor and rear-wheel drive. Its motorway figure for the same van is 180 miles, a better guide for motorway work. All-wheel drive cuts the official figure to 213 miles. A full load and a cold morning will cut the range further, so plan winter work well under the headline figure. Every version has a heat pump as standard, which helps. Ford's UK website still shows the earlier £43,630 price, and its range figures don't agree: the earlier 230 miles in some places, 223 and 233 miles in others. Go by the price list.
 
-Rapid charging runs at up to 125kW. Ford gives two times for a 10 to 80% rapid charge, 29 minutes in its price list and about 39 minutes on its website, so plan around the slower one. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
+Rapid charging runs at up to 125kW. Ford's price list gives 29 minutes for a 10 to 80% rapid charge, but its website gives both 29 minutes and about 39 minutes in different places, so allow some extra time. Back at base, 10 to 80% takes 4 hours 40 minutes on an 11kW three-phase charger, or 6 hours 42 minutes on a 7.4kW single-phase one, so overnight charging is easy. Our [charging guide](/guides/charging-an-electric-van/) covers the rest.
 
 ### On the road
 

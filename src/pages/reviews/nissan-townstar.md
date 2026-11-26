@@ -162,7 +162,7 @@ facts:
     quote: "a class-leading range of 183 miles WLTP Combined"
   - claim: "a September 2025 Nissan release"
     source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
-    quote: "2025/09/29"
+    quote: "29/09/2025"
   - claim: "up to 301km"
     source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
     quote: "The Townstar EV - with its 45kWh battery - offers an impressive range of up to 301km"

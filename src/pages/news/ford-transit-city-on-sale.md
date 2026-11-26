@@ -185,8 +185,16 @@ facts:
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
     quote: "The seller will include the discount in the purchase price."
   - claim: "2.3 tonnes"
-    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
-    quote: "2.3-tonne towing capability"
+    calc: "Ford's E-Transit Custom price list (effective 11/09/2026, in force when this story was published), Van Low Roof Technical Data, Max Braked column: 2300 for the panel van (facts below). 2,300kg ÷ 1,000 = 2.3 tonnes"
+  - claim: "panel van to tow up to"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
+  - claim: "panel van to tow up to"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "Towing Low High Overall Low High Overall Low High Overall Overall City Motorway Kerb GVM Payload MIRO Front Rear GTM Max Braked"
+  - claim: "Ford's price list rates"
+    archive: sources/ford-transit-custom-price-list-2026-09.pdf
+    quote: "This price list is effective from 11th September 2026, and supersedes all previous price lists."
   - claim: "eight-year, 100,000-mile"
     source: https://www.autoexpress.co.uk/ford/transit/369243/new-ford-transit-city-electric-van-sale-now-under-ps30k
     quote: "There’s also an eight-year, 100,000-mile warranty on the Transit City’s electrical components."
@@ -288,7 +296,7 @@ Ford's website currently shows the short van from **£22,200**. Ford's small pri
 The Transit City is built for **local work**: urban delivery, couriers and trades who can charge at home or at the depot.
 
 - **The compromise is range.** 158 miles is the official figure for the short van, and the long van is rated lower.
-- **Need to tow or do long motorway days?** Ford says the [E-Transit Custom](/vans/ford-transit-custom/) can tow 2.3 tonnes, and Van Reviewer reports it has a bigger battery.
+- **Need to tow or do long motorway days?** Ford's price list rates the [E-Transit Custom](/vans/ford-transit-custom/) panel van to tow up to 2.3 tonnes braked, and Van Reviewer reports it has a bigger battery.
 - **We haven't driven one yet.** We'll add our impressions to our [Transit City page](/vans/ford-transit-city/) when we have.
 
 Not sure whether the sums work for you? Try our [electric vs diesel calculator](/tools/electric-vs-diesel/).
