@@ -21,7 +21,7 @@ bad:
   - "Decent range, but not class-leading"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-23
+  date: 2026-11-26
 sources:
   - https://www.ford.co.uk/vans-and-pickups/e-transit-custom
   - https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-New_Transit_Custom.pdf

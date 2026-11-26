@@ -21,7 +21,7 @@ bad:
   - "Nissan's own range figures don't agree"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-26
 sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html

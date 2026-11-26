@@ -15,7 +15,7 @@ good: ["Five-year, 100,000-mile van warranty", "Tows up to 1,500kg", "L2 side do
 bad: ["Official range under 200 miles", "Rapid charging stops at 80kW", "Camera systems criticised for poor picture quality"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-26
 sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar.html
