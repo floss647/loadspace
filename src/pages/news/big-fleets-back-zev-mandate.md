@@ -48,7 +48,7 @@ facts:
   - claim: "more than 335,000 electric vehicles"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "EV100 members have collectively deployed more than 335,000 electric vehicles in the UK"
-  - claim: "70% of members bought no new petrol or diesel vehicles"
+  - claim: "70% of members added no new petrol or diesel vehicles"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "while 70% of members added no new petrol or diesel vehicles to their fleets last year"
   # Barriers
@@ -135,7 +135,7 @@ Businesses including **BT, IKEA, Centrica and Openreach** have written to minist
 
 According to Greenfleet, the companies are members of Climate Group's EV100 network, which brings together businesses that have committed to investing in electrification, and wrote as the UK Electric Fleets Coalition. Greenfleet names five of them: BT, IKEA UK and Ireland, Centrica, ABB E-mobility and Openreach. Greenfleet reports that they argue the mandate gives businesses, makers and charging companies the certainty they need to invest, and that cutting it could undermine investment in electric vehicles and charging.
 
-Greenfleet says EV100 members run more than 335,000 electric vehicles in the UK between them, and that 70% of members bought no new petrol or diesel vehicles last year.
+Greenfleet says EV100 members have deployed more than 335,000 electric vehicles in the UK between them, and that 70% of members added no new petrol or diesel vehicles to their fleets last year.
 
 According to Greenfleet, Matt Maguire of IKEA UK and Ireland said the mandate "plays an important role" in IKEA's switch, "giving businesses the confidence to plan and invest in electric vehicles and the charging infrastructure needed to support them". Michael Bueltmann of ABB E-mobility said: "The ambition must be matched by the policies that turn it into reality." Dominic Phinn of Climate Group added: "If the Government caves in this week, it will be turning its back on consumers, investors and businesses that have already committed billions to the transition to smarter, cleaner road transport."
 
