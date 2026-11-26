@@ -15,7 +15,7 @@ good: ["Five-year, 100,000-mile van warranty", "Tows up to 1,500kg", "L2 side do
 bad: ["Official range under 200 miles", "Rapid charging stops at 80kW", "Camera systems criticised for poor picture quality"]
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-26
 sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/townstar.html
@@ -162,7 +162,7 @@ facts:
     quote: "a class-leading range of 183 miles WLTP Combined"
   - claim: "a September 2025 Nissan release"
     source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
-    quote: "2025/09/29"
+    quote: "29/09/2025"
   - claim: "up to 301km"
     source: https://uk.nissannews.com/en-GB/releases/five-stars-zero-compromise-euro-ncap-upgrades-nissan-townstar-to-top-safety-standard
     quote: "The Townstar EV - with its 45kWh battery - offers an impressive range of up to 301km"

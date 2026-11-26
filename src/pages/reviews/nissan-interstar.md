@@ -8,7 +8,7 @@ specs:
   price: "£43,590"
   range: "276 miles"
   charging: "130kW"
-  payload: "1,557 kg"
+  payload: "Up to 1,557kg (Nissan's website; its brochure's weights table says up to 1,694kg)"
   batteryWarranty: "8 years or 100,000 miles"
 verdict: "If the Renault Master E-Tech is on your list, the Interstar-e deserves a quote too, because underneath it is the same van. Nissan's five-year, 100,000-mile van warranty is the clear reason to choose it, and the 130kW charging and eight-year battery cover match the Renault. Nissan's price list starts it at £43,590 before VAT and the grant. Decide on the deal, the warranty and how close your nearest Nissan van dealer is."
 good:
@@ -21,10 +21,10 @@ bad:
   - "Nissan's own range figures don't agree"
 factCheck:
   by: "independent fact-checker"
-  date: 2026-10-30
+  date: 2026-11-26
 sources:
   - https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
-  - https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
+  - sources/nissan-interstar-brochure-2026-08.pdf
   - https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/dimensions.html
   - https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/engines.html
   - https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-review/
@@ -50,9 +50,12 @@ facts:
   - claim: "WLTP combined"
     source: https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
     quote: "WLTP figures shown are for comparability purposes"
-  - claim: "1,557 kg"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
-    quote: "up to 1,557kg (electric) & 1,726kg (diesel) maximum payload"
+  - claim: "Up to 1,557kg (Nissan's website"
+    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/dimensions.html
+    quote: "of up to 1,557kg (for Electric) up to 1,726kg (for Diesel)"
+  - claim: "its brochure's weights table says up to 1,694kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614"
   - claim: "130kW"
     source: https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Nissan_LCV_Customer_Price_List.pdf
     quote: "87kWh 130kW DC Automatic 143HP"
@@ -69,8 +72,8 @@ facts:
     source: https://vanreviewer.co.uk/nissan/interstar-e/review/4968/
     quote: "With a maximum DC charging speed of 130kW for the 87kWh battery"
   - claim: "8 years or 100,000 miles"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
-    quote: "8 years/100,000 miles (whichever comes first) Electric Vehicle Traction Battery Warranty"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Interstar-e battery is covered for 8 years or 100,000 miles"
   - claim: "87kWh battery and 130kW charging"
     source: https://vanreviewer.co.uk/nissan/interstar-e/review/4968/
     quote: "With a maximum DC charging speed of 130kW for the 87kWh battery"
@@ -125,16 +128,22 @@ facts:
     quote: "Acenta £43,590 £55 £360 £44,005 £5,000 £49,005 384 258"
   - claim: "and 258 for the 3.5-tonne van"
     calc: "Price list row GVW column '35' = 3.5 tonnes"
-  - claim: "Nissan's UK website still says up to 283 miles"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
-    quote: "The 100% electric version gives you smooth urban driving and up to 283 miles"
-  - claim: "and in places 285"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/engines.html
-    quote: "With the driving range of up to 285 miles"
+  - claim: "Nissan's August 2026 brochure"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "correct at the time of going to press (August 2026)"
+  - claim: "says up to 283 miles for the 4.0-tonne van"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "283 miles is obtained with the 87kWh battery on the 4.0T N2 version."
+  - claim: "pending UK homologation"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "The figures are evaluated according to the Worldwide harmonized Light Vehicles Test Procedure (WLTP) test cycle, pending UK homologation."
+  - claim: "and elsewhere in it up to 285"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "87kWh long range battery has you covered with up to 285"
   - claim: "as did Nissan's December 2025 release"
     source: https://uk.nissannews.com/en-GB/releases/interstar-crowned-large-van-of-the-year-at-the-annual-what-van-awards
-    quote: "2025/12/03"
-  - claim: "and in places 285, as did Nissan's"
+    quote: "03/12/2025"
+  - claim: "and elsewhere in it up to 285, as did Nissan's"
     source: https://uk.nissannews.com/en-GB/releases/interstar-crowned-large-van-of-the-year-at-the-annual-what-van-awards
     quote: "a range of up to 285 miles"
   - claim: "Rapid charging runs at up to 130kW"
@@ -162,8 +171,25 @@ facts:
     source: https://www.parkers.co.uk/vans-pickups/nissan/interstar/2025-interstar-e-dimensions/
     quote: "with the L3H3 that comes with the diesel models not due to be offered on the EV"
   - claim: "Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van"
-    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar.html
-    quote: "up to 1,557kg (electric) & 1,726kg (diesel) maximum payload"
+    source: https://www.nissan.co.uk/vehicles/new-vehicles/nissan-interstar/dimensions.html
+    quote: "of up to 1,557kg (for Electric) up to 1,726kg (for Diesel)"
+  - claim: "gives higher maximums in its weights table"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614"
+  - claim: "1,694kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614"
+  - claim: "and 1,197kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Max payload 1 197 1 694 1 116 1 614"
+  - claim: "1,694kg for the 4.0-tonne L2H2 and 1,197kg for the 3.5-tonne"
+    calc: "Brochure Panel Van EV weights table: columns are L2H2 3.5T, L2H2 4.0T, L3H2 3.5T, L3H2 4.0T ('L2H2 L3H2 Version 3.5T 4.0T 3.5T 4.0T'); Max payload row '1 197 1 694 1 116 1 614', so L2H2 4.0T = 1,694kg and L2H2 3.5T = 1,197kg"
+  - claim: "based on kerb weights it says are pending homologation"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "Figures pending homologation."
+  - claim: "though its text says up to 1,625kg"
+    archive: sources/nissan-interstar-brochure-2026-08.pdf
+    quote: "as capable when handling heavy loads with a payload up to 1625kg"
   - claim: "and 1,048kg for the 3.5-tonne L2H2"
     calc: "Nissan's dimensions page lists 'Max. Payload (kg) 1048 1557' under the 3.5t and 4.0t electric L2H2 (next fact): 1048 = 1,048kg"
   - claim: "from the 4.0-tonne L2H2"
@@ -297,7 +323,7 @@ The other differences are trims and the dealer. Nissan offers two trims, Acenta 
 
 ### Battery, range and charging
 
-The electric van now comes only with the 87kWh battery, so the 40kWh option offered at launch has gone. Nissan's price list, effective from 1 July 2026, gives up to 276 miles WLTP combined for the panel van, from the 4.0-tonne L2H2, and 258 for the 3.5-tonne van. Nissan's UK website still says up to 283 miles, and in places 285, as did Nissan's December 2025 release, so ask for the figure for the exact van. Either way it's one of the longer ranges among large electric vans.
+The electric van now comes only with the 87kWh battery, so the 40kWh option offered at launch has gone. Nissan's price list, effective from 1 July 2026, gives up to 276 miles WLTP combined for the panel van, from the 4.0-tonne L2H2, and 258 for the 3.5-tonne van. Nissan's August 2026 brochure says up to 283 miles for the 4.0-tonne van, pending UK homologation, and elsewhere in it up to 285, as did Nissan's December 2025 release, so ask for the figure for the exact van. Either way it's one of the longer ranges among large electric vans.
 
 Rapid charging runs at up to 130kW, which Nissan says adds up to 157 miles of range in 30 minutes, and a 22kW AC charger takes it from 10% to 100% in less than four hours. More in our [charging guide](/guides/charging-an-electric-van/).
 
@@ -305,7 +331,7 @@ Rapid charging runs at up to 130kW, which Nissan says adds up to 157 miles of ra
 
 The panel van gives 10.8 cubic metres in the L2H2 and 13.0 in the L3H2, and the side door opening is 1,312mm wide. Nissan lists the electric panel van only as an L2H2 or L3H2, so the high-roof L3H3 is diesel only.
 
-Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van, from the 4.0-tonne L2H2, and 1,048kg for the 3.5-tonne L2H2. Published reviews have quoted other figures: for a 3.5-tonne van from 1,125kg to 1,134kg, and for the 4.0-tonne van from 1,544kg to 1,631kg. Ask for the plated figure for the exact van you're buying.
+Nissan's UK website gives a maximum payload of up to 1,557kg for the electric van, from the 4.0-tonne L2H2, and 1,048kg for the 3.5-tonne L2H2. Nissan's August 2026 brochure gives higher maximums in its weights table, 1,694kg for the 4.0-tonne L2H2 and 1,197kg for the 3.5-tonne, based on kerb weights it says are pending homologation, though its text says up to 1,625kg. Published reviews have quoted other figures: for a 3.5-tonne van from 1,125kg to 1,134kg, and for the 4.0-tonne van from 1,544kg to 1,631kg. Ask for the plated figure for the exact van you're buying.
 
 ### On the road
 
