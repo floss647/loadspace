@@ -9,6 +9,7 @@ statLabel: "more than this many electric vehicles deployed in the UK by members 
 sources:
   - https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
   - https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
+  - https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review
   - https://assets.publishing.service.gov.uk/media/6ab52a53734e2435f202f032/zev-mandate-review-consultation.pdf
   - https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html
   - https://greenfleet.net/news/19112026/government-urged-give-smes-fairer-route-electric
@@ -29,7 +30,7 @@ facts:
   - claim: "members of Climate Group's EV100 network"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "The companies, which are members of Climate Group's EV100 network"
-  - claim: "brings together businesses that have committed to investing in electrification"
+  - claim: "which brings together businesses that have committed to investing in electrification"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "The EV100 network brings together businesses with significant vehicle fleets and infrastructure that have committed to investing in electrification."
   - claim: "the UK Electric Fleets Coalition"
@@ -47,7 +48,7 @@ facts:
   - claim: "more than 335,000 electric vehicles"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "EV100 members have collectively deployed more than 335,000 electric vehicles in the UK"
-  - claim: "70% of members added no new petrol or diesel vehicles"
+  - claim: "70% of members bought no new petrol or diesel vehicles"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "while 70% of members added no new petrol or diesel vehicles to their fleets last year"
   # Barriers
@@ -57,7 +58,7 @@ facts:
   - claim: "a limited choice of suitable electric vans"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "These include limited availability of suitable electric van models, access to affordable and reliable charging infrastructure, and the cost and complexity of securing grid connections at depots."
-  - claim: "affordable, dependable charging"
+  - claim: "getting access to affordable, dependable charging"
     source: https://greenfleet.net/news/24112026/major-fleets-urge-government-protect-electric-vehicle-targets
     quote: "access to affordable and reliable charging infrastructure"
   - claim: "costly, complicated grid connections at depots"
@@ -101,15 +102,15 @@ facts:
   - claim: "in a speech to the SMMT on 24 November"
     source: https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
     quote: "the Keynote Address at the Society of Motor Manufacturers and Traders (SMMT) on 24 November 2026"
-  - claim: "the result of that consultation will be known shortly"
+  - claim: "will be known shortly"
     source: https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
     quote: "I'm happy to tell you that the result of that consultation will be known shortly."
   - claim: "by the end of the year"
     source: https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
     quote: "we aim to publish a shared response to the consultation with the devolved governments by the end of the year"
-  - claim: "The government hasn't decided yet."
-    source: https://www.gov.uk/government/speeches/keynote-address-at-society-of-motor-manufacturers-and-traders
-    quote: "We're looking at all the evidence submitted"
+  - claim: "The government hasn't announced a decision yet."
+    source: https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review
+    quote: "We are analysing your feedback"
   # Background
   - claim: "rises to 70% in 2030"
     source: https://assets.publishing.service.gov.uk/media/6ab52a53734e2435f202f032/zev-mandate-review-consultation.pdf
@@ -132,29 +133,29 @@ Businesses including **BT, IKEA, Centrica and Openreach** have written to minist
 
 ## What the letter says
 
-According to Greenfleet, the companies are members of Climate Group's EV100 network and wrote as the UK Electric Fleets Coalition. The businesses Greenfleet names include BT, IKEA UK and Ireland, Centrica, ABB E-mobility and Openreach. Greenfleet reports that they argue the mandate gives businesses, makers and charging companies the certainty they need to invest, and that cutting it could undermine investment in electric vehicles and charging.
+According to Greenfleet, the companies are members of Climate Group's EV100 network, which brings together businesses that have committed to investing in electrification, and wrote as the UK Electric Fleets Coalition. Greenfleet names five of them: BT, IKEA UK and Ireland, Centrica, ABB E-mobility and Openreach. Greenfleet reports that they argue the mandate gives businesses, makers and charging companies the certainty they need to invest, and that cutting it could undermine investment in electric vehicles and charging.
 
-Greenfleet says EV100 members have deployed more than 335,000 electric vehicles in the UK, and that 70% of members added no new petrol or diesel vehicles to their fleets last year.
+Greenfleet says EV100 members run more than 335,000 electric vehicles in the UK between them, and that 70% of members bought no new petrol or diesel vehicles last year.
 
-According to Greenfleet, Matt Maguire of IKEA UK and Ireland said the mandate "plays an important role" in IKEA's switch, "giving businesses the confidence to plan and invest in electric vehicles and the charging infrastructure needed to support them". Greenfleet also quotes Michael Bueltmann of ABB E-mobility: "The ambition must be matched by the policies that turn it into reality." It also quotes Dominic Phinn of Climate Group: "If the Government caves in this week, it will be turning its back on consumers, investors and businesses that have already committed billions to the transition to smarter, cleaner road transport."
+According to Greenfleet, Matt Maguire of IKEA UK and Ireland said the mandate "plays an important role" in IKEA's switch, "giving businesses the confidence to plan and invest in electric vehicles and the charging infrastructure needed to support them". Michael Bueltmann of ABB E-mobility said: "The ambition must be matched by the policies that turn it into reality." Dominic Phinn of Climate Group added: "If the Government caves in this week, it will be turning its back on consumers, investors and businesses that have already committed billions to the transition to smarter, cleaner road transport."
 
 ## The barriers they acknowledge
 
 According to Greenfleet, the same businesses say big problems remain, particularly for commercial fleets:
 
 - a limited choice of suitable electric vans;
-- affordable, dependable charging;
+- getting access to affordable, dependable charging;
 - costly, complicated grid connections at depots.
 
 Rather than weakening the targets, they want the government to tackle these with targeted support, Greenfleet reports.
 
 ## Where things stand
 
-According to Greenfleet, the EV100 network brings together businesses that have committed to investing in electrification. On Monday we reported [modelling commissioned by another group of companies](/news/sme-electric-van-costs-charging-study/). According to Greenfleet, that group asked for a more realistic path and more time for smaller firms.
+On Monday we reported [modelling commissioned by another group of companies](/news/sme-electric-van-costs-charging-study/). According to Greenfleet, that group asked for a more realistic path and more time for smaller firms.
 
-The government hasn't decided yet. Business Secretary Jonathan Reynolds, in a speech to the SMMT on 24 November, said "the result of that consultation will be known shortly", and that the government aims to publish its response by the end of the year. Our [story on the review](/news/zev-mandate-van-consultation-closes/) explains the options for vans.
+The government hasn't announced a decision yet. Business Secretary Jonathan Reynolds, in a speech to the SMMT on 24 November, said the result of the consultation on the mandate "will be known shortly", and that the government aims to publish its response by the end of the year. Our [story on the review](/news/zev-mandate-van-consultation-closes/) explains the options for vans.
 
 ## What it means for you
 
-- **Nothing has changed yet.** The current targets stay in place unless and until changes are made in law, and the government intends any changes to take effect from the 2027 compliance year.
-- **Small firms face these questions too.** If you're weighing up an electric van, the right van, reliable charging and the power supply at your yard are the questions to answer first. The modelling we reported on Monday found access to charging, finance and the up-front cost matter a great deal for smaller firms. Our [depot charging guide](/guides/depot-charging/) is a good place to start.
+- **Nothing has changed yet.** The current targets stay in place for now, and the government intends any changes to take effect from the 2027 compliance year.
+- **Small firms face these questions too.** If you're weighing up an electric van, the first things to check are whether there's a van that suits your work, whether you can charge reliably, and whether your yard has enough power. The modelling we reported on Monday found, according to Greenfleet, that access to charging, finance and the up-front cost matter a great deal for smaller firms. Our [depot charging guide](/guides/depot-charging/) is a good place to start.
