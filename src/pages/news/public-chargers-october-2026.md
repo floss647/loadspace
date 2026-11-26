@@ -6,6 +6,9 @@ tag: Charging
 summary: "The UK had 124,738 public chargers on 1 October 2026, according to Department for Transport figures published on 25 November, and 29,772 of them were rated rapid or above (50kW and up)."
 stat: "29,772"
 statLabel: "public chargers rated rapid or above (50kW and up) in the UK on 1 October 2026, according to the Department for Transport."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-26
 sources:
   - https://www.gov.uk/government/statistics/electric-vehicle-charging-infrastructure-statistics-1-october-2026/public-electric-vehicle-charging-infrastructure-statistics-1-july-2026
 facts:
