@@ -4,7 +4,7 @@ title: "A shop that lets you in for free, and a van page that can't agree with i
 date: 2026-11-27T06:00:00Z
 photo: fastned-cutler-heights
 photoCaption: "A Fastned charging station on Cutler Heights Lane, Bradford. Not the new Gateshead hub with the shop."
-summary: "A charging hub with a shop you tap your card to enter, Amazon deciding to sell cars you have to go and fetch, chargers called open-access that may not be, and a Ford web page having a lively debate with itself. This week's Overloaded."
+summary: "A charging hub with a shop you tap your card to enter, Amazon deciding to sell cars you have to go and fetch, chargers called open-access that may not be open, and a Ford web page having a lively debate with itself. This week's Overloaded."
 sources:
   - https://greenfleet.net/news/23112026/fastned-launches-autonomous-pit-shop-gateshead-ev-charging-hub
   - https://greenfleet.net/news/25112026/amazon-start-selling-new-and-used-vehicles-uk
@@ -164,7 +164,7 @@ So it's a door with a bouncer with a card reader. It checks you're the sort of p
 
 There are 10 ultra-rapid charging bays, each up to 400kW, adding up to 200 miles of range in 10 minutes. Ten minutes is about how long it takes me to choose a sandwich. Mind you, that's the charger's best, and Ford's own page says the E-Transit Custom charges at 125 kW, so in a van it's more of a three-sandwich stop. Fastned's Tom Hurst said "We're putting the re-charge into charging", and I'll allow it. It's the first of five, and if they put one next to a builders' merchant, they'll need a bigger kettle.
 
-## Amazon discovers the car
+## Amazon discovers the British car
 
 Greenfleet reports that Amazon is to start selling new and used cars in the UK in early 2027. Hyundai is the first announced launch partner, and you'll also be able to browse used cars from the dealer group Vertu Motors.
 
@@ -172,13 +172,13 @@ Now, I'd assumed this meant a Hyundai delivered in a small cardboard box with a 
 
 ## Open-access, but not as we know it
 
-The Department for Transport's new charger figures include 8,857 "open-access" chargers rated rapid or above within a mile of England's motorways and major A-roads. Open-access means the plug is not limited to one make of vehicle. Lovely. Then the small print: the term "does not convey any information about the landowner's permission, nor the hours of availability or accessibility of the charger".
+The Department for Transport's [new charger figures](/news/public-chargers-october-2026/) include 8,857 "open-access" chargers rated rapid or above within a mile of England's motorways and major A-roads. Open-access means the plug is not limited to one make of vehicle. Lovely. Then the small print: the term "does not convey any information about the landowner's permission, nor the hours of availability or accessibility of the charger".
 
 So an open-access charger may not be open, and may not be accessible. It's like a pub called The Open Door that shuts at nine and has a step. In fairness, the department is being honest about what the label measures. If your high-roof van has ever reversed out of a car park with a fresh dent in its dignity, check before you go. Our [charging guide](/guides/charging-an-electric-van/) has tips.
 
 ## The page that argues with itself
 
-Finally, a story about a web page. Ford's own page for the E-Transit Custom, when I checked it this week, says the maximum braked towing is "Up to 2,000 kg (2 tonnes)". Further down, the same page says up to 2.3 tonnes (2,300 kg). Range? It says up to 223 miles in one place, up to 230 miles in another, and up to 233 miles in a third. It can't decide whether a 10 to 80% rapid charge takes about 29 or 39 minutes, either. In fairness, Ford warns that its figures "may come from different series and not apply to every model", but they're all "up to" figures and they still don't agree. Ford's own price list, which it says supersedes all previous lists, adds a fourth opinion: 237 miles, and 2,300kg braked for every panel van.
+Finally, a story about a web page. Ford's own page for the E-Transit Custom, when I checked it this week, says the maximum braked towing is "Up to 2,000 kg (2 tonnes)". Further down, the same page says up to 2.3 tonnes (2,300 kg). Range? It says up to 223 miles in one place, up to 230 miles in another, and up to 233 miles in a third. It can't decide whether a 10 to 80% rapid charge takes about 29 or 39 minutes, either. In fairness, Ford warns that its figures "may come from different series and not apply to every model", but the towing and range figures are all "up to" figures, and they still don't agree. Ford's own price list, which it says supersedes all previous lists, adds a fourth opinion: 237 miles, and 2,300kg braked for every panel van.
 
 It's a van that weighs itself in two languages. And at the bottom of the spec table, my favourite line on the internet this year: "Specification last updated and verified: Month, XX, 2026." Somebody, somewhere, is still on the 31st of Month, verifying. Our [E-Transit Custom review](/reviews/ford-transit-custom/) goes by the price list.
 
