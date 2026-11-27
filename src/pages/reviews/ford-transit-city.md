@@ -302,13 +302,18 @@ facts:
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "£22,200 SWB Van"
   - claim: "£22,200 before VAT"
-    calc: "Ford Transit City page shows '£22,200 SWB Van' (fact above) tagged with the disclosure 'Price - CV - Net Retail Price', whose text begins 'This is the Basic Recommended Retail price excluding VAT' (fact below), so £22,200 is before VAT"
+    calc: "Ford Transit City page shows '£22,200 SWB Van' (fact above) tagged with the disclosure 'Price - CV - Net Retail Price', whose text begins 'This is the Recommended On the Road price excluding VAT' (fact below), so £22,200 is before VAT"
   - claim: "£22,200 before VAT, but"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "[disclosure: Price - CV - Net Retail Price] £22,200 SWB Van"
-  - claim: "before VAT, but that includes"
+  - claim: "before VAT, but that's an on-the-road price"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "This is the Basic Recommended Retail price excluding VAT, and"
+    quote: "This is the Recommended On the Road price excluding VAT."
+  - claim: "an on-the-road price that includes"
+    source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
+    quote: "Government First Registration Fee and cost of number plates are included in this price. The price shown includes a Customer Saving"
+  - claim: "compare it with the £29,436 on-the-road price"
+    calc: "Ford's £22,200 website figure is an on-the-road price before VAT (facts above), so the like-for-like list figure is the £29,436 on-the-road price before VAT for the L1H1 van stated earlier in this paragraph (fact above)"
   - claim: "includes both the grant and a customer saving for VAT-registered businesses"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "The price shown includes a Customer Saving, which is available to VAT registered business customers who must retain the vehicle for at least 9 months and a government grant saving, which is available to all customers."
@@ -359,4 +364,4 @@ The [Ford E-Transit Custom](/reviews/ford-transit-custom/) costs much more, from
 
 ### Price
 
-On Ford's price list, effective from 29 April 2026, the L1H1 van is £29,000 before VAT and £31,500 for the L2H2. On the road before VAT, that's £29,436 and £31,936. Both vans are on the government's list of vans eligible for a grant of up to £5,000, and Ford shows the grant as a separate £5,000 saving. Ford's website quotes a headline figure of £22,200 before VAT, but that includes both the grant and a customer saving for VAT-registered businesses that keep the van for at least 9 months, so compare like with like. The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years. See our [grants and tax guide](/guides/grants-and-tax/) and [electric vs diesel calculator](/tools/electric-vs-diesel/) before you order.
+On Ford's price list, effective from 29 April 2026, the L1H1 van is £29,000 before VAT and £31,500 for the L2H2. On the road before VAT, that's £29,436 and £31,936. Both vans are on the government's list of vans eligible for a grant of up to £5,000, and Ford shows the grant as a separate £5,000 saving. Ford's website quotes a headline figure of £22,200 before VAT, but that's an on-the-road price that includes both the grant and a customer saving for VAT-registered businesses that keep the van for at least 9 months, so compare it with the £29,436 on-the-road price. The van warranty is 3 years or 100,000 miles, the battery is covered for 8 years or 100,000 miles, and servicing is every 2 years. See our [grants and tax guide](/guides/grants-and-tax/) and [electric vs diesel calculator](/tools/electric-vs-diesel/) before you order.

@@ -48,8 +48,6 @@ facts:
   - claim: "£22,200"
     source: https://www.ford.co.uk/vans-and-pickups/transit-city
     quote: "Available to VAT registered customers [disclosure: Price - CV - Net Retail Price] £22,200 SWB Van"
-  - claim: "£24,000"
-    calc: "£29,000 (list price, fact above) - £5,000 (grant, fact below) = £24,000"
   # Grant (GOV.UK and Ford UK)
   - claim: "up to £5,000"
     source: https://www.gov.uk/zero-emission-vehicle-grants/vans
@@ -167,11 +165,9 @@ facts:
   - claim: "it has a bigger battery"
     source: https://vanreviewer.co.uk/news/new-ford-transit-city-is-an-affordable-chinese-made-electric-van/
     quote: "Just last year Ford upped its battery size in the Ford E-Transit Custom from 64kWh to 71kWh."
-  - claim: "£1,800"
-    calc: "£29,000 (list price, fact above) - £5,000 (grant, fact above) - £22,200 (Ford website figure, fact above) = £1,800"
-  - claim: "before VAT and on-the-road costs"
+  - claim: "Ford's small print says that figure is before VAT"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "This is the Basic Recommended Retail price excluding VAT, and"
+    quote: "This is the Recommended On the Road price excluding VAT."
   - claim: "a Ford customer saving for VAT-registered businesses that keep the van for at least nine months"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "The price shown includes a Customer Saving, which is available to VAT registered business customers who must retain the vehicle for at least 9 months and a government grant saving, which is available to all customers."
@@ -289,7 +285,7 @@ There are two panel vans. A chassis cab is on the price list too, at £31,500 be
 
 Yes. GOV.UK lists the **Ford Transit City Van**, and the chassis cab, as large vans for the [Zero Emission Van Grant](/news/zero-emission-van-grant-explained/), worth up to £5,000. Large vans must weigh between 2,500kg and 4,250kg fully loaded, and both Transit City vans fall in that band. You don't claim it yourself: the seller includes the discount in the price. Ford's UK website advertises the £5,000 grant saving.
 
-Ford's website currently shows the short van from **£22,200**. Ford's small print says that figure is before VAT and on-the-road costs, and includes the £5,000 grant plus a Ford customer saving for VAT-registered businesses that keep the van for at least nine months. Taking £5,000 off the £29,000 list price gives £24,000, which suggests the customer saving is about £1,800. Ask your dealer for a written quote that shows each saving and the VAT clearly.
+Ford's website currently shows the short van from **£22,200**. Ford's small print says that figure is before VAT, and includes the £5,000 grant plus a Ford customer saving for VAT-registered businesses that keep the van for at least nine months. Ask your dealer for a written quote that shows each saving and the VAT clearly.
 
 ## What it means for you
 
