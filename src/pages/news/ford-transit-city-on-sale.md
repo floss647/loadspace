@@ -10,7 +10,7 @@ stat: "£29,000"
 statLabel: "List price of the Transit City L1H1 van, before VAT and before the van grant."
 factCheck:
   by: "independent fact-checker"
-  date: 2026-11-26
+  date: 2026-11-27
 sources:
   - https://www.ford.co.uk/vans-and-pickups/transit-city
   - https://www.ford.co.uk/vans-and-pickups/transit-city/pricelist
