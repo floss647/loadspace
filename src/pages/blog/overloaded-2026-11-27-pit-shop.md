@@ -64,7 +64,7 @@ facts:
   - claim: "Amazon is to start selling new and used cars in the UK in early 2027"
     source: https://greenfleet.net/news/25112026/amazon-start-selling-new-and-used-vehicles-uk
     quote: "Amazon is to start selling new and used cars in early 2027"
-  - claim: "Hyundai is the first launch partner"
+  - claim: "Hyundai is the first announced launch partner"
     source: https://greenfleet.net/news/25112026/amazon-start-selling-new-and-used-vehicles-uk
     quote: "Hyundai is the first announced launch partner for Amazon Autos in the UK"
   - claim: "Vertu Motors"
@@ -127,6 +127,27 @@ facts:
     quote: "320S 71kWh 100kW / 136PS 1 Speed Automatic RWD 2.9 237 325 180 2172 3225 1053 2223 1400 2000 5350 2300"
   - claim: "a fourth opinion"
     calc: "Ford's web page gives 223, 230 and 233 miles (facts above); its price list gives 237 miles (fact above), a fourth figure."
+  - claim: "125 kW"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "DC fast charging: (125 kW) 10-80% in approx. 39 minutes"
+  - claim: "a three-sandwich stop"
+    joke: "Charging time measured in sandwiches. Obviously a joke, set against Ford's own 39-minute figure (fact above)."
+  - claim: "a 10 to 80% rapid charge"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "DC fast charging: (125 kW) 10-80% in approx. 39 minutes"
+  - claim: "about 29"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "with 10–80% charge in approx. 29 minutes"
+  - claim: "or 39 minutes"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "DC fast charging: (125 kW) 10-80% in approx. 39 minutes"
+  - claim: "may come from different series and not apply to every model"
+    source: https://www.ford.co.uk/vans-and-pickups/e-transit-custom
+    quote: "Figures shown reflect peak performance across the range. They may come from different series and not apply to every model."
+  - claim: "a strip of tape you'd need a chainsaw to open"
+    joke: "Plain exaggeration about parcel tape. No reader would take it as fact."
+  - claim: "The Polo has asked whether it can use the Gateshead toilets"
+    joke: "The running gag: a mint cannot ask to use a toilet."
   - claim: "the 31st of Month"
     joke: "There is no month called Month. Plainly a joke about the placeholder date."
   - claim: "a van that weighs itself in two languages"
@@ -141,13 +162,13 @@ Fastned, the charging company, has opened its first UK Autonomous Pit Shop, at i
 
 So it's a door with a bouncer with a card reader. It checks you're the sort of person who owns a card, then lets you in for nothing. Very exclusive. I assume the biscuits have been asked for their ID as well.
 
-There are 10 ultra-rapid charging bays, each up to 400kW, adding up to 200 miles of range in 10 minutes. Ten minutes is about how long it takes me to choose a sandwich, so for once the van and the driver might be ready at the same time. Fastned's Tom Hurst said: "We're putting the re-charge into charging." I'll allow it. It's the first of five, and if they put one next to a builders' merchant, they'll need a bigger kettle.
+There are 10 ultra-rapid charging bays, each up to 400kW, adding up to 200 miles of range in 10 minutes. Ten minutes is about how long it takes me to choose a sandwich. Mind you, that's the charger's best, and Ford's own page says the E-Transit Custom charges at 125 kW, so in a van it's more of a three-sandwich stop. Fastned's Tom Hurst said "We're putting the re-charge into charging", and I'll allow it. It's the first of five, and if they put one next to a builders' merchant, they'll need a bigger kettle.
 
 ## Amazon discovers the car
 
-Greenfleet reports that Amazon is to start selling new and used cars in the UK in early 2027. Hyundai is the first launch partner, and you'll also be able to browse used cars from the dealer group Vertu Motors.
+Greenfleet reports that Amazon is to start selling new and used cars in the UK in early 2027. Hyundai is the first announced launch partner, and you'll also be able to browse used cars from the dealer group Vertu Motors.
 
-Now, I'd assumed this meant a Hyundai delivered in a small cardboard box with a big cardboard box inside it, left behind the wheelie bin. But no. You do the research online, then you finish the purchase at the dealership and drive it away yourself. The company that would deliver a single grape by van if you asked nicely has found the one thing you have to go and collect. I'm braced for the recommendations. "Customers who bought this Tucson also bought: a Tucson."
+Now, I'd assumed this meant a Hyundai delivered in a small cardboard box with a big cardboard box inside it, and a strip of tape you'd need a chainsaw to open. But no. You do the research online, then you finish the purchase at the dealership and drive it away yourself. The company that would deliver a single grape by van if you asked nicely has found the one thing you have to go and collect. I'm braced for the recommendations. "Customers who bought this Tucson also bought: a Tucson."
 
 ## Open-access, but not as we know it
 
@@ -157,7 +178,7 @@ So an open-access charger may not be open, and may not be accessible. It's like 
 
 ## The page that argues with itself
 
-Finally, a story about a web page. Ford's own page for the E-Transit Custom, when I checked it this week, says the maximum braked towing is "Up to 2,000 kg (2 tonnes)". Further down, the same page says up to 2.3 tonnes (2,300 kg). Range? It says up to 223 miles in one place, up to 230 miles in another, and up to 233 miles in a third. Ford's own price list, which it says supersedes all previous lists, adds a fourth opinion: 237 miles, and 2,300kg braked for every panel van.
+Finally, a story about a web page. Ford's own page for the E-Transit Custom, when I checked it this week, says the maximum braked towing is "Up to 2,000 kg (2 tonnes)". Further down, the same page says up to 2.3 tonnes (2,300 kg). Range? It says up to 223 miles in one place, up to 230 miles in another, and up to 233 miles in a third. It can't decide whether a 10 to 80% rapid charge takes about 29 or 39 minutes, either. In fairness, Ford warns that its figures "may come from different series and not apply to every model", but they're all "up to" figures and they still don't agree. Ford's own price list, which it says supersedes all previous lists, adds a fourth opinion: 237 miles, and 2,300kg braked for every panel van.
 
 It's a van that weighs itself in two languages. And at the bottom of the spec table, my favourite line on the internet this year: "Specification last updated and verified: Month, XX, 2026." Somebody, somewhere, is still on the 31st of Month, verifying. Our [E-Transit Custom review](/reviews/ford-transit-custom/) goes by the price list.
 
