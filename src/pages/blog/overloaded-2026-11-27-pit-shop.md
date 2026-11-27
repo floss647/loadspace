@@ -4,6 +4,9 @@ title: "A shop that lets you in for free, and a van page that can't agree with i
 date: 2026-11-27T06:00:00Z
 photo: fastned-cutler-heights
 photoCaption: "A Fastned charging station on Cutler Heights Lane, Bradford. Not the new Gateshead hub with the shop."
+factCheck:
+  by: "independent fact-checker"
+  date: 2026-11-27
 summary: "A charging hub with a shop you tap your card to enter, Amazon deciding to sell cars you have to go and fetch, chargers called open-access that may not be open, and a Ford web page having a lively debate with itself. This week's Overloaded."
 sources:
   - https://greenfleet.net/news/23112026/fastned-launches-autonomous-pit-shop-gateshead-ev-charging-hub
