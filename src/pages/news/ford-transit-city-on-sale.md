@@ -171,7 +171,7 @@ facts:
     calc: "£29,000 (list price, fact above) - £5,000 (grant, fact above) - £22,200 (Ford website figure, fact above) = £1,800"
   - claim: "before VAT and on-the-road costs"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "This is the Basic Recommended Retail price excluding VAT, and"
+    quote: "This is the Basic Recommended Retail price excluding VAT and excluding any available Customer Saving, and"
   - claim: "a Ford customer saving for VAT-registered businesses that keep the van for at least nine months"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "The price shown includes a Customer Saving, which is available to VAT registered business customers who must retain the vehicle for at least 9 months and a government grant saving, which is available to all customers."
