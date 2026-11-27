@@ -308,7 +308,7 @@ facts:
     quote: "[disclosure: Price - CV - Net Retail Price] £22,200 SWB Van"
   - claim: "before VAT, but that includes"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
-    quote: "This is the Basic Recommended Retail price excluding VAT and excluding any available Customer Saving, and"
+    quote: "This is the Basic Recommended Retail price excluding VAT, and"
   - claim: "includes both the grant and a customer saving for VAT-registered businesses"
     source: https://www.ford.co.uk/content/dse-app-configuration/dse-disclosure-library.model.json
     quote: "The price shown includes a Customer Saving, which is available to VAT registered business customers who must retain the vehicle for at least 9 months and a government grant saving, which is available to all customers."
